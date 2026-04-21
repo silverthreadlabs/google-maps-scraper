@@ -1,0 +1,6 @@
+[
+  {"platform":"linkedin","handle":"acme-corp","path_type":"company"},
+  {"platform":"linkedin","handle":"jane-doe","path_type":"in"},
+  {"platform":"linkedin","handle":"acme-university","path_type":"school"},
+  {"platform":"linkedin","handle":"foo-bar/a1/b2/c3","path_type":"pub"}
+]

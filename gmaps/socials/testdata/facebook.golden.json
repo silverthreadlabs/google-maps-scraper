@@ -1,0 +1,8 @@
+[
+  {"platform":"facebook","handle":"acmeinc"},
+  {"platform":"facebook","handle":"100012345","path_type":"profile.php"},
+  {"platform":"facebook","handle":"acmeco/98765","path_type":"pages"},
+  {"platform":"facebook","handle":"acme"},
+  {"platform":"facebook","handle":"acme"},
+  {"platform":"facebook","handle":"123","path_type":"profile.php"}
+]

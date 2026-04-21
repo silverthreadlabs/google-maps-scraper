@@ -1,0 +1,2 @@
+https://www.pinterest.com/acme/
+https://pinterest.com/acme?ref=foo

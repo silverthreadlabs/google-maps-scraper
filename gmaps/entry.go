@@ -10,6 +10,8 @@ import (
 	"slices"
 	"strconv"
 	"strings"
+
+	"github.com/gosom/google-maps-scraper/gmaps/socials"
 )
 
 type Image struct {
@@ -143,16 +145,8 @@ func (e *Entry) IsWebsiteValidForEmail() bool {
 		return false
 	}
 
-	needles := []string{
-		"facebook",
-		"instragram",
-		"twitter",
-	}
-
-	for i := range needles {
-		if strings.Contains(e.WebSite, needles[i]) {
-			return false
-		}
+	if socials.IsSocialHost(e.WebSite) {
+		return false
 	}
 
 	return true

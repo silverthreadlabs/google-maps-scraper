@@ -195,7 +195,12 @@ func canonicalHost(rawURL string) (string, *url.URL, bool) {
 	// If the user passed a bare host like "facebook.com/acme" with no
 	// scheme, url.Parse treats it as opaque and Host ends up empty. Be
 	// permissive: prepend https:// when no scheme is present.
-	if !strings.Contains(s, "://") {
+	// Protocol-relative URLs like "//fb.com/acme" need "https:" prefixed
+	// (not "https://") to avoid producing "https:////fb.com/acme".
+	switch {
+	case strings.HasPrefix(s, "//"):
+		s = "https:" + s
+	case !strings.Contains(s, "://"):
 		s = "https://" + s
 	}
 	u, err := url.Parse(s)

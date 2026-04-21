@@ -98,6 +98,16 @@ func normalizeCases() []normCase {
 		{"tiktok bare @ rejected", "https://www.tiktok.com/@", SocialLink{}, false},
 		{"threads bare @ rejected", "https://www.threads.net/@", SocialLink{}, false},
 		{"facebook bad slug with braces", "https://facebook.com/{acme}", SocialLink{}, false},
+
+		// ---------- protocol-relative URLs (//host/path) ----------
+		{"protocol-relative facebook.com", "//facebook.com/acmeinc", SocialLink{Platform: "facebook", Handle: "acmeinc"}, true},
+		{"protocol-relative fb.com", "//fb.com/acme", SocialLink{Platform: "facebook", Handle: "acme"}, true},
+		{"protocol-relative instagram", "//www.instagram.com/acme", SocialLink{Platform: "instagram", Handle: "acme"}, true},
+		{"protocol-relative linkedin company", "//linkedin.com/company/acme-corp", SocialLink{Platform: "linkedin", Handle: "acme-corp", PathType: "company"}, true},
+		{"protocol-relative x.com", "//x.com/acme", SocialLink{Platform: "x", Handle: "acme"}, true},
+		{"protocol-relative userinfo fb.com", "//user:pass@fb.com/acme", SocialLink{Platform: "facebook", Handle: "acme"}, true},
+		{"protocol-relative triple-slash rejected", "///triple-slash", SocialLink{}, false},
+		{"protocol-relative bare // rejected", "//", SocialLink{}, false},
 	}
 }
 

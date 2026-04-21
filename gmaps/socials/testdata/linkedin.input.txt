@@ -1,0 +1,4 @@
+https://www.linkedin.com/company/acme-corp
+https://www.linkedin.com/in/jane-doe
+https://www.linkedin.com/school/acme-university
+https://www.linkedin.com/pub/foo-bar/a1/b2/c3

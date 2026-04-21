@@ -121,6 +121,12 @@ func (j *PlaceJob) Process(_ context.Context, resp *scrapemate.Response) (any, [
 		entry.UserReviewsExtended = append(entry.UserReviewsExtended, convertedReviews...)
 	}
 
+	// Harvest socials directly from entry.WebSite if it IS a social URL.
+	// No HTTP fetch needed. Runs before the EmailExtractJob spawn decision
+	// so that social-website businesses still get their socials captured
+	// even though IsWebsiteValidForEmail() will return false below.
+	harvestWebsiteIfSocialLocal(entry.WebSite, &entry.Socials)
+
 	if j.ExtractEmail && entry.IsWebsiteValidForEmail() {
 		opts := []EmailExtractJobOptions{}
 		if j.ExitMonitor != nil {

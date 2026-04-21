@@ -1,6 +1,7 @@
 package gmaps_test
 
 import (
+	"encoding/json"
 	"fmt"
 	"os"
 	"testing"
@@ -216,4 +217,110 @@ func Test_EntryFromJsonC(t *testing.T) {
 	for _, entry := range entries {
 		fmt.Printf("%+v\n", entry)
 	}
+}
+
+func Test_EntryCsvRow_SocialsSerialization(t *testing.T) {
+	linkedInPub := gmaps.SocialLink{Platform: "linkedin", Handle: "foo-bar/a1/b2/c3", PathType: "pub"}
+	facebook := gmaps.SocialLink{Platform: "facebook", Handle: "acmeinc"}
+
+	cases := []struct {
+		name    string
+		socials []gmaps.SocialLink
+		want    string
+	}{
+		{
+			name:    "nil socials produces empty cell",
+			socials: nil,
+			want:    "",
+		},
+		{
+			name:    "empty socials produces empty cell",
+			socials: []gmaps.SocialLink{},
+			want:    "",
+		},
+		{
+			name:    "single link without path_type",
+			socials: []gmaps.SocialLink{facebook},
+			want:    "facebook:acmeinc",
+		},
+		{
+			name: "multiple links with path_type joined by semicolon space",
+			socials: []gmaps.SocialLink{
+				{Platform: "linkedin", Handle: "acme-corp", PathType: "company"},
+				{Platform: "youtube", Handle: "acmevideos", PathType: "@"},
+			},
+			want: "linkedin/company:acme-corp; youtube/@:acmevideos",
+		},
+		{
+			name:    "linkedin pub legacy link is dropped from CSV",
+			socials: []gmaps.SocialLink{linkedInPub, facebook},
+			want:    "facebook:acmeinc",
+		},
+	}
+
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			entry := gmaps.Entry{Socials: tc.socials}
+			row := entry.CsvRow()
+			require.Equal(t, tc.want, row[len(row)-1])
+		})
+	}
+}
+
+func Test_Entry_JSONMarshal_RetainsLinkedInPub(t *testing.T) {
+	entry := gmaps.Entry{
+		Socials: []gmaps.SocialLink{
+			{Platform: "linkedin", Handle: "foo-bar/a1/b2/c3", PathType: "pub"},
+		},
+	}
+
+	raw, err := json.Marshal(entry)
+	require.NoError(t, err)
+
+	var decoded struct {
+		Socials []gmaps.SocialLink `json:"socials"`
+	}
+
+	require.NoError(t, json.Unmarshal(raw, &decoded))
+	require.Equal(t,
+		[]gmaps.SocialLink{{Platform: "linkedin", Handle: "foo-bar/a1/b2/c3", PathType: "pub"}},
+		decoded.Socials,
+	)
+}
+
+func Test_Entry_JSONMarshal_OmitsEmptySocials(t *testing.T) {
+	entry := gmaps.Entry{}
+
+	raw, err := json.Marshal(entry)
+	require.NoError(t, err)
+
+	var decoded map[string]json.RawMessage
+	require.NoError(t, json.Unmarshal(raw, &decoded))
+
+	_, hasSocials := decoded["socials"]
+	require.False(t, hasSocials, "expected socials key to be omitted when empty")
+}
+
+func Test_Entry_JSONMarshal_OmitsEmptySocialsRaw(t *testing.T) {
+	entry := gmaps.Entry{}
+
+	raw, err := json.Marshal(entry)
+	require.NoError(t, err)
+
+	var decoded map[string]json.RawMessage
+	require.NoError(t, json.Unmarshal(raw, &decoded))
+
+	_, hasSocialsRaw := decoded["socials_raw"]
+	require.False(t, hasSocialsRaw, "expected socials_raw key to be omitted when empty")
+}
+
+func Test_Entry_CsvHeaders_LastElementIsSocials(t *testing.T) {
+	entry := gmaps.Entry{}
+	headers := entry.CsvHeaders()
+	require.Equal(t, "socials", headers[len(headers)-1])
+}
+
+func Test_Entry_CsvHeadersAndRow_SameLength(t *testing.T) {
+	entry := gmaps.Entry{}
+	require.Equal(t, len(entry.CsvHeaders()), len(entry.CsvRow()))
 }

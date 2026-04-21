@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"os"
+	"strings"
 	"testing"
 
 	"github.com/PuerkitoBio/goquery"
@@ -338,4 +339,114 @@ func indexByPlatform(links []gmaps.SocialLink) map[string]gmaps.SocialLink {
 	}
 
 	return out
+}
+
+// ---------------------------------------------------------------------------
+// Text-label fallback: anchor visible text is used when href doesn't match.
+// ---------------------------------------------------------------------------
+
+// parseInlineHTML is a test helper that builds a *goquery.Document from an
+// inline HTML string so fixture tests don't need separate files on disk.
+func parseInlineHTML(t *testing.T, html string) *goquery.Document {
+	t.Helper()
+
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader(html))
+	require.NoError(t, err)
+
+	return doc
+}
+
+func TestExtractSocialsFromDoc_AnchorTextFallback(t *testing.T) {
+	cases := []struct {
+		name          string
+		html          string
+		wantPlatform  string
+		wantHandle    string
+		wantAbsent    string // platform that must NOT appear (empty = no check)
+		wantNoSocials bool
+	}{
+		{
+			name:         "href_hash_text_is_facebook_url",
+			html:         `<html><body><a href="#">https://facebook.com/acmeinc</a></body></html>`,
+			wantPlatform: "facebook",
+			wantHandle:   "acmeinc",
+		},
+		{
+			name:         "href_javascript_void_text_is_instagram_url",
+			html:         `<html><body><a href="javascript:void(0)">https://instagram.com/acmeinc</a></body></html>`,
+			wantPlatform: "instagram",
+			wantHandle:   "acmeinc",
+		},
+		{
+			name:         "no_href_attr_text_is_bare_facebook_url",
+			html:         `<html><body><a>facebook.com/acmeinc</a></body></html>`,
+			wantPlatform: "facebook",
+			wantHandle:   "acmeinc",
+		},
+		{
+			name:         "href_wins_text_ghost_skipped",
+			html:         `<html><body><a href="https://facebook.com/realowner">https://facebook.com/textghost</a></body></html>`,
+			wantPlatform: "facebook",
+			wantHandle:   "realowner",
+		},
+		{
+			name:          "href_hash_prose_text_no_social",
+			html:          `<html><body><a href="#">Follow us on Facebook</a></body></html>`,
+			wantNoSocials: true,
+		},
+		{
+			name: "href_hash_text_over_200_chars_no_social",
+			// A 250-char https:// URL is URL-shaped but must be rejected by isURLShaped len cap.
+			html:          `<html><body><a href="#">https://facebook.com/` + strings.Repeat("a", 230) + `</a></body></html>`,
+			wantNoSocials: true,
+		},
+		{
+			name:          "href_hash_text_not_url_shaped_no_social",
+			html:          `<html><body><a href="#">not-a-url</a></body></html>`,
+			wantNoSocials: true,
+		},
+		{
+			// href hits facebook; text says instagram — lazy skip means instagram never processed.
+			name:         "href_hit_text_instagram_lazy_skip",
+			html:         `<html><body><a href="https://facebook.com/real">https://instagram.com/text</a></body></html>`,
+			wantPlatform: "facebook",
+			wantHandle:   "real",
+			wantAbsent:   "instagram",
+		},
+		{
+			// No href attribute at all (exists=false); text branch must run.
+			name:         "no_href_attr_text_is_twitter_url",
+			html:         `<html><body><a>https://twitter.com/acmeinc</a></body></html>`,
+			wantPlatform: "x",
+			wantHandle:   "acmeinc",
+		},
+	}
+
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			doc := parseInlineHTML(t, tc.html)
+			entry := &gmaps.Entry{}
+			job := gmaps.NewEmailJob("parent-id", entry)
+			resp := &scrapemate.Response{Document: doc}
+
+			_, _, err := job.Process(context.Background(), resp)
+			require.NoError(t, err)
+
+			byPlatform := indexByPlatform(entry.Socials)
+
+			if tc.wantNoSocials {
+				require.Empty(t, entry.Socials, "expected no socials, got %+v", entry.Socials)
+				return
+			}
+
+			require.Contains(t, byPlatform, tc.wantPlatform,
+				"expected platform %q in socials %+v", tc.wantPlatform, entry.Socials)
+			require.Equal(t, tc.wantHandle, byPlatform[tc.wantPlatform].Handle)
+
+			if tc.wantAbsent != "" {
+				require.NotContains(t, byPlatform, tc.wantAbsent,
+					"platform %q must be absent (lazy-skip), got %+v", tc.wantAbsent, entry.Socials)
+			}
+		})
+	}
 }

@@ -187,12 +187,24 @@ func extractSocialsFromDoc(ctx context.Context, doc *goquery.Document, entry *En
 	}
 
 	// 1. Anchors
-	doc.Find("a[href]").Each(func(_ int, s *goquery.Selection) {
-		href, exists := s.Attr("href")
-		if !exists {
+	doc.Find("a").Each(func(_ int, s *goquery.Selection) {
+		hrefHit := false
+		if href, exists := s.Attr("href"); exists {
+			if _, ok := socials.Normalize(href); ok {
+				harvestWithDedup(href, entry)
+				hrefHit = true
+			} else {
+				consume(href) // aggregator path unchanged
+			}
+		}
+		if hrefHit {
+			return // href already produced a social hit; skip text (dedup is free but skip s.Text() allocation)
+		}
+		text := strings.TrimSpace(s.Text())
+		if !isURLShaped(text) {
 			return
 		}
-		consume(href)
+		consume(text)
 	})
 
 	// 2. JSON-LD sameAs (log-and-skip on parse error)
@@ -219,6 +231,24 @@ func extractSocialsFromDoc(ctx context.Context, doc *goquery.Document, entry *En
 		content, _ := s.Attr("content")
 		consume(content)
 	})
+}
+
+// isURLShaped reports whether s looks like a URL rather than prose.
+// Accepts: http(s)://, //, or a bare host pattern (word.tld/path).
+func isURLShaped(s string) bool {
+	if len(s) == 0 || len(s) > 200 {
+		return false
+	}
+	if strings.HasPrefix(s, "http://") ||
+		strings.HasPrefix(s, "https://") ||
+		strings.HasPrefix(s, "//") {
+		return true
+	}
+	// Bare host: must contain a dot and a slash, no spaces.
+	// e.g. "facebook.com/acmeinc"
+	return strings.Contains(s, ".") &&
+		strings.Contains(s, "/") &&
+		!strings.ContainsAny(s, " \t\n\r")
 }
 
 // harvestWithDedup appends a normalized SocialLink for rawURL to
@@ -336,28 +366,31 @@ func collectSameAs(node any) []string {
 
 // normalizeGoogleURL extracts the actual target URL from Google redirect URLs.
 // Google Maps sometimes returns URLs like "/url?q=http://example.com/&opi=..."
-// for external website links.
+// or "https://www.google.com/url?q=https://example.com&sa=t" for external
+// website links. Both relative and absolute Google redirect forms are unwrapped.
 func normalizeGoogleURL(rawURL string) string {
 	if rawURL == "" {
 		return rawURL
 	}
-
+	// Relative redirect: /url?q=https://example.com
 	if strings.HasPrefix(rawURL, "/url?q=") {
-		fullURL := "https://www.google.com" + rawURL
-
-		parsed, err := url.Parse(fullURL)
-		if err != nil {
-			return rawURL
-		}
-
-		if target := parsed.Query().Get("q"); target != "" {
-			return target
+		rawURL = "https://www.google.com" + rawURL
+	}
+	// Absolute redirect: https://www.google.com/url?q=https://example.com
+	// Also covers https://maps.google.com/url?q=... and other Google subdomains.
+	if u, err := url.Parse(rawURL); err == nil {
+		host := strings.ToLower(u.Host)
+		host = strings.TrimPrefix(host, "www.")
+		if (host == "google.com" || strings.HasSuffix(host, ".google.com")) &&
+			u.Path == "/url" {
+			if target := u.Query().Get("q"); target != "" {
+				return target
+			}
 		}
 	}
-
+	// Bare relative path (unchanged behaviour)
 	if strings.HasPrefix(rawURL, "/") {
 		return "https://www.google.com" + rawURL
 	}
-
 	return rawURL
 }

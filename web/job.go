@@ -70,8 +70,15 @@ type JobData struct {
 	Radius   int           `json:"radius"`
 	Depth    int           `json:"depth"`
 	Email    bool          `json:"email"`
-	MaxTime  time.Duration `json:"max_time"`
-	Proxies  []string      `json:"proxies"`
+	// ExtraReviews enables per-place fetching of full review text via the
+	// Google Maps reviews RPC. Off by default — toggling on can add minutes
+	// per place because each place triggers up to 50 sequential paginated
+	// fetches of 20 reviews each. Incompatible with FastMode (browser page
+	// is required for the RPC handshake), but FastMode + ExtraReviews still
+	// runs — the extended array will simply be empty.
+	ExtraReviews bool          `json:"extra_reviews,omitempty"`
+	MaxTime      time.Duration `json:"max_time"`
+	Proxies      []string      `json:"proxies"`
 }
 
 func (d *JobData) Validate() error {

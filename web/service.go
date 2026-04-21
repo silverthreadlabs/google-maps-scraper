@@ -3,6 +3,7 @@ package web
 import (
 	"context"
 	"fmt"
+	"io"
 	"os"
 	"path/filepath"
 	"strings"
@@ -37,14 +38,16 @@ func (s *Service) Delete(ctx context.Context, id string) error {
 		return fmt.Errorf("invalid file name")
 	}
 
-	datapath := filepath.Join(s.dataFolder, id+".csv")
+	for _, ext := range []string{".csv", ".ndjson"} {
+		datapath := filepath.Join(s.dataFolder, id+ext)
 
-	if _, err := os.Stat(datapath); err == nil {
-		if err := os.Remove(datapath); err != nil {
+		if _, err := os.Stat(datapath); err == nil {
+			if err := os.Remove(datapath); err != nil {
+				return err
+			}
+		} else if !os.IsNotExist(err) {
 			return err
 		}
-	} else if !os.IsNotExist(err) {
-		return err
 	}
 
 	return s.repo.Delete(ctx, id)
@@ -70,4 +73,28 @@ func (s *Service) GetCSV(_ context.Context, id string) (string, error) {
 	}
 
 	return datapath, nil
+}
+
+// GetNDJSON opens the NDJSON output for a finished job. It returns the open
+// file handle and ok=true on success. ok=false (with no error) signals that
+// the file does not exist — typically a legacy job scraped before NDJSON
+// emission was added — so the caller can fall back to CSV-derived JSON.
+// Callers must Close the returned reader.
+func (s *Service) GetNDJSON(_ context.Context, id string) (io.ReadCloser, bool, error) {
+	if strings.Contains(id, "/") || strings.Contains(id, "\\") || strings.Contains(id, "..") {
+		return nil, false, fmt.Errorf("invalid file name")
+	}
+
+	datapath := filepath.Join(s.dataFolder, id+".ndjson")
+
+	f, err := os.Open(datapath)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, false, nil
+		}
+
+		return nil, false, err
+	}
+
+	return f, true, nil
 }

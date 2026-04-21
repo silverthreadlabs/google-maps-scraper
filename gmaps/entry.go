@@ -48,6 +48,12 @@ type About struct {
 	Options []Option `json:"options"`
 }
 
+type SocialLink struct {
+	Platform string `json:"platform"`
+	Handle   string `json:"handle"`
+	PathType string `json:"path_type,omitempty"`
+}
+
 type Review struct {
 	Name           string
 	ProfilePicture string
@@ -95,6 +101,14 @@ type Entry struct {
 	UserReviews         []Review               `json:"user_reviews"`
 	UserReviewsExtended []Review               `json:"user_reviews_extended"`
 	Emails              []string               `json:"emails"`
+	// Socials is extracted from business websites during EmailExtractJob. Note:
+	// leadsdb/leadsdb.go:96-209 convertToLead forwards a subset of Entry fields
+	// to the external leadsdb.Lead struct, which has no socials field — new
+	// Socials values silently drop during that forward. The upstream module
+	// gains socials support in a follow-up outside this plan. Postgres
+	// results.data JSONB carries the full blob regardless.
+	Socials    []SocialLink `json:"socials,omitempty"`
+	SocialsRaw []string     `json:"socials_raw,omitempty"`
 }
 
 func (e *Entry) haversineDistance(lat, lon float64) float64 {
@@ -192,6 +206,7 @@ func (e *Entry) CsvHeaders() []string {
 		"user_reviews",
 		"user_reviews_extended",
 		"emails",
+		"socials",
 	}
 }
 
@@ -231,6 +246,7 @@ func (e *Entry) CsvRow() []string {
 		stringify(e.UserReviews),
 		stringify(e.UserReviewsExtended),
 		stringSliceToString(e.Emails),
+		serializeSocialsCSV(e.Socials),
 	}
 }
 
@@ -733,6 +749,31 @@ func getNthElementAndCast[T any](arr []any, indexes ...int) T {
 
 func stringSliceToString(s []string) string {
 	return strings.Join(s, ", ")
+}
+
+func serializeSocialsCSV(links []SocialLink) string {
+	if len(links) == 0 {
+		return ""
+	}
+
+	parts := make([]string, 0, len(links))
+
+	for _, l := range links {
+		// CSV projection: drop LinkedIn pub legacy handles (handle contains "/"
+		// which collides with the platform/path_type:handle delimiter). JSON
+		// output still retains them.
+		if l.Platform == "linkedin" && l.PathType == "pub" {
+			continue
+		}
+
+		if l.PathType == "" {
+			parts = append(parts, l.Platform+":"+l.Handle)
+		} else {
+			parts = append(parts, l.Platform+"/"+l.PathType+":"+l.Handle)
+		}
+	}
+
+	return strings.Join(parts, "; ")
 }
 
 func stringify(v any) string {

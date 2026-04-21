@@ -1,0 +1,7 @@
+[
+  {"platform":"youtube","handle":"acmevideos","path_type":"@"},
+  {"platform":"youtube","handle":"ucabcdef","path_type":"channel"},
+  {"platform":"youtube","handle":"acmechannel","path_type":"c"},
+  {"platform":"youtube","handle":"legacyuser","path_type":"user"},
+  {"platform":"youtube","handle":"ucabc","path_type":"channel"}
+]

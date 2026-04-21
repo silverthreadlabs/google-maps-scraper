@@ -1,0 +1,6 @@
+https://www.facebook.com/acmeinc
+https://m.facebook.com/profile.php?id=100012345
+https://facebook.com/pages/AcmeCo/98765
+https://fb.com/acme
+https://facebook.com/acme?fbclid=xyz&utm_source=foo
+https://facebook.com/profile.php?id=123&fbclid=xyz

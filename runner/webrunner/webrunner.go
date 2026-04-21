@@ -2,7 +2,6 @@ package webrunner
 
 import (
 	"context"
-	"encoding/csv"
 	"errors"
 	"fmt"
 	"io"
@@ -19,7 +18,6 @@ import (
 	"github.com/gosom/google-maps-scraper/web"
 	"github.com/gosom/google-maps-scraper/web/sqlite"
 	"github.com/gosom/scrapemate"
-	"github.com/gosom/scrapemate/adapters/writers/csvwriter"
 	"github.com/gosom/scrapemate/scrapemateapp"
 	"golang.org/x/sync/errgroup"
 )
@@ -155,7 +153,18 @@ func (w *webrunner) scrapeJob(ctx context.Context, job *web.Job) error {
 		_ = outfile.Close()
 	}()
 
-	mate, err := w.setupMate(ctx, outfile, job)
+	ndjsonPath := filepath.Join(w.cfg.DataFolder, job.ID+".ndjson")
+
+	ndjsonFile, err := os.Create(ndjsonPath)
+	if err != nil {
+		return err
+	}
+
+	defer func() {
+		_ = ndjsonFile.Close()
+	}()
+
+	mate, err := w.setupMate(ctx, outfile, ndjsonFile, job)
 	if err != nil {
 		job.Status = web.StatusFailed
 
@@ -194,7 +203,7 @@ func (w *webrunner) scrapeJob(ctx context.Context, job *web.Job) error {
 		}(),
 		dedup,
 		exitMonitor,
-		w.cfg.ExtraReviews,
+		job.Data.ExtraReviews || w.cfg.ExtraReviews,
 	)
 	if err != nil {
 		err2 := w.svc.Update(ctx, job)
@@ -249,7 +258,7 @@ func (w *webrunner) scrapeJob(ctx context.Context, job *web.Job) error {
 	return w.svc.Update(ctx, job)
 }
 
-func (w *webrunner) setupMate(_ context.Context, writer io.Writer, job *web.Job) (*scrapemateapp.ScrapemateApp, error) {
+func (w *webrunner) setupMate(_ context.Context, csvOut, jsonOut io.Writer, job *web.Job) (*scrapemateapp.ScrapemateApp, error) {
 	opts := []func(*scrapemateapp.Config) error{
 		scrapemateapp.WithConcurrency(w.cfg.Concurrency),
 		scrapemateapp.WithExitOnInactivity(time.Minute * 3),
@@ -286,9 +295,9 @@ func (w *webrunner) setupMate(_ context.Context, writer io.Writer, job *web.Job)
 
 	log.Printf("job %s has proxy: %v", job.ID, hasProxy)
 
-	csvWriter := csvwriter.NewCsvWriter(csv.NewWriter(writer))
+	teeWriter := newCsvJSONTeeWriter(csvOut, jsonOut)
 
-	writers := []scrapemate.ResultWriter{csvWriter}
+	writers := []scrapemate.ResultWriter{teeWriter}
 
 	matecfg, err := scrapemateapp.NewConfig(
 		writers,

@@ -420,6 +420,12 @@ func (s *Server) download(w http.ResponseWriter, r *http.Request, defaultFormat 
 		return
 	}
 
+	if format == downloadFormatJSON {
+		s.serveJSONDownload(w, r, ctx, id.String())
+
+		return
+	}
+
 	filePath, err := s.svc.GetCSV(ctx, id.String())
 	if err != nil {
 		s.renderDownloadError(w, r, http.StatusNotFound, err.Error())
@@ -436,23 +442,8 @@ func (s *Server) download(w http.ResponseWriter, r *http.Request, defaultFormat 
 	defer file.Close()
 
 	fileName := filepath.Base(filePath)
+
 	switch format {
-	case downloadFormatJSON:
-		results, readErr := csvFileToJSON(file)
-		if readErr != nil {
-			s.renderDownloadError(w, r, http.StatusInternalServerError, "Failed to convert file")
-
-			return
-		}
-
-		w.Header().Set("Content-Type", "application/json")
-		w.Header().Set("Content-Disposition",
-			fmt.Sprintf("attachment; filename=%s", strings.TrimSuffix(fileName, filepath.Ext(fileName))+".json"))
-		w.WriteHeader(http.StatusOK)
-
-		if err = json.NewEncoder(w).Encode(results); err != nil {
-			http.Error(w, "Failed to send file", http.StatusInternalServerError)
-		}
 	case downloadFormatCSV:
 		w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s", fileName))
 		w.Header().Set("Content-Type", "text/csv")
@@ -463,6 +454,67 @@ func (s *Server) download(w http.ResponseWriter, r *http.Request, defaultFormat 
 		}
 	default:
 		s.renderDownloadError(w, r, http.StatusUnprocessableEntity, "invalid format")
+	}
+}
+
+// serveJSONDownload prefers the NDJSON file written by the tee writer (which
+// preserves the full Entry payload, including nested user_reviews_extended).
+// When that file is missing — typically a legacy job scraped before NDJSON
+// emission was added — it falls back to the historical CSV→map conversion so
+// existing job IDs stay downloadable.
+func (s *Server) serveJSONDownload(w http.ResponseWriter, r *http.Request, ctx context.Context, id string) {
+	rc, ok, err := s.svc.GetNDJSON(ctx, id)
+	if err != nil {
+		s.renderDownloadError(w, r, http.StatusInternalServerError, "Failed to open ndjson")
+
+		return
+	}
+
+	if ok {
+		defer rc.Close()
+
+		w.Header().Set("Content-Type", "application/x-ndjson")
+		w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s.ndjson", id))
+		w.WriteHeader(http.StatusOK)
+
+		if _, err := io.Copy(w, rc); err != nil {
+			log.Printf("ndjson stream %s: %v", id, err)
+		}
+
+		return
+	}
+
+	filePath, err := s.svc.GetCSV(ctx, id)
+	if err != nil {
+		s.renderDownloadError(w, r, http.StatusNotFound, err.Error())
+
+		return
+	}
+
+	file, err := os.Open(filePath)
+	if err != nil {
+		s.renderDownloadError(w, r, http.StatusInternalServerError, "Failed to open file")
+
+		return
+	}
+	defer file.Close()
+
+	results, readErr := csvFileToJSON(file)
+	if readErr != nil {
+		s.renderDownloadError(w, r, http.StatusInternalServerError, "Failed to convert file")
+
+		return
+	}
+
+	fileName := filepath.Base(filePath)
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Content-Disposition",
+		fmt.Sprintf("attachment; filename=%s", strings.TrimSuffix(fileName, filepath.Ext(fileName))+".json"))
+	w.WriteHeader(http.StatusOK)
+
+	if err = json.NewEncoder(w).Encode(results); err != nil {
+		http.Error(w, "Failed to send file", http.StatusInternalServerError)
 	}
 }
 

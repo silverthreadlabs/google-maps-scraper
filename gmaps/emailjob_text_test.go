@@ -253,6 +253,26 @@ func TestNormalizeGoogleURL(t *testing.T) {
 			input: "/url?other=value",
 			want:  "https://www.google.com/url?other=value",
 		},
+		{
+			name:  "absolute_redirect_with_sa_param",
+			input: "https://www.google.com/url?q=https://rainbowcc.com.pk&sa=t",
+			want:  "https://rainbowcc.com.pk",
+		},
+		{
+			name:  "absolute_redirect_with_opi_param",
+			input: "https://www.google.com/url?q=https://example.com&opi=89978449",
+			want:  "https://example.com",
+		},
+		{
+			name:  "maps_subdomain_redirect",
+			input: "https://maps.google.com/url?q=https://example.com",
+			want:  "https://example.com",
+		},
+		{
+			name:  "google_maps_place_url_unchanged",
+			input: "https://www.google.com/maps/place/SomePlace",
+			want:  "https://www.google.com/maps/place/SomePlace",
+		},
 	}
 
 	for _, tc := range cases {

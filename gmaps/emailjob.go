@@ -187,12 +187,24 @@ func extractSocialsFromDoc(ctx context.Context, doc *goquery.Document, entry *En
 	}
 
 	// 1. Anchors
-	doc.Find("a[href]").Each(func(_ int, s *goquery.Selection) {
-		href, exists := s.Attr("href")
-		if !exists {
+	doc.Find("a").Each(func(_ int, s *goquery.Selection) {
+		hrefHit := false
+		if href, exists := s.Attr("href"); exists {
+			if _, ok := socials.Normalize(href); ok {
+				harvestWithDedup(href, entry)
+				hrefHit = true
+			} else {
+				consume(href) // aggregator path unchanged
+			}
+		}
+		if hrefHit {
+			return // href already produced a social hit; skip text (dedup is free but skip s.Text() allocation)
+		}
+		text := strings.TrimSpace(s.Text())
+		if !isURLShaped(text) {
 			return
 		}
-		consume(href)
+		consume(text)
 	})
 
 	// 2. JSON-LD sameAs (log-and-skip on parse error)
@@ -219,6 +231,24 @@ func extractSocialsFromDoc(ctx context.Context, doc *goquery.Document, entry *En
 		content, _ := s.Attr("content")
 		consume(content)
 	})
+}
+
+// isURLShaped reports whether s looks like a URL rather than prose.
+// Accepts: http(s)://, //, or a bare host pattern (word.tld/path).
+func isURLShaped(s string) bool {
+	if len(s) == 0 || len(s) > 200 {
+		return false
+	}
+	if strings.HasPrefix(s, "http://") ||
+		strings.HasPrefix(s, "https://") ||
+		strings.HasPrefix(s, "//") {
+		return true
+	}
+	// Bare host: must contain a dot and a slash, no spaces.
+	// e.g. "facebook.com/acmeinc"
+	return strings.Contains(s, ".") &&
+		strings.Contains(s, "/") &&
+		!strings.ContainsAny(s, " \t\n\r")
 }
 
 // harvestWithDedup appends a normalized SocialLink for rawURL to

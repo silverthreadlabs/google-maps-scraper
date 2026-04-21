@@ -366,28 +366,31 @@ func collectSameAs(node any) []string {
 
 // normalizeGoogleURL extracts the actual target URL from Google redirect URLs.
 // Google Maps sometimes returns URLs like "/url?q=http://example.com/&opi=..."
-// for external website links.
+// or "https://www.google.com/url?q=https://example.com&sa=t" for external
+// website links. Both relative and absolute Google redirect forms are unwrapped.
 func normalizeGoogleURL(rawURL string) string {
 	if rawURL == "" {
 		return rawURL
 	}
-
+	// Relative redirect: /url?q=https://example.com
 	if strings.HasPrefix(rawURL, "/url?q=") {
-		fullURL := "https://www.google.com" + rawURL
-
-		parsed, err := url.Parse(fullURL)
-		if err != nil {
-			return rawURL
-		}
-
-		if target := parsed.Query().Get("q"); target != "" {
-			return target
+		rawURL = "https://www.google.com" + rawURL
+	}
+	// Absolute redirect: https://www.google.com/url?q=https://example.com
+	// Also covers https://maps.google.com/url?q=... and other Google subdomains.
+	if u, err := url.Parse(rawURL); err == nil {
+		host := strings.ToLower(u.Host)
+		host = strings.TrimPrefix(host, "www.")
+		if (host == "google.com" || strings.HasSuffix(host, ".google.com")) &&
+			u.Path == "/url" {
+			if target := u.Query().Get("q"); target != "" {
+				return target
+			}
 		}
 	}
-
+	// Bare relative path (unchanged behaviour)
 	if strings.HasPrefix(rawURL, "/") {
 		return "https://www.google.com" + rawURL
 	}
-
 	return rawURL
 }

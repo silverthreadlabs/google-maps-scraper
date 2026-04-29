@@ -1,0 +1,52 @@
+# Silverthread Labs
+
+> AI automation agency building agentic AI systems, voice agents, and workflow automation for regulated industries. Self-hosted, production-grade.
+
+## About
+
+Silverthread Labs is an AI automation agency founded in 2019. We build production-grade, self-hosted AI systems that run business operations 24/7. Our focus is regulated industries where data privacy, compliance, and reliability are non-negotiable.
+
+## Services
+
+We offer 20+ specialized AI services including:
+
+- **Agentic AI Systems** — autonomous agents that handle multi-step business workflows
+- **Voice AI Agents** — phone-based AI for appointment booking, intake, and support
+- **Workflow Automation** — end-to-end process automation across business tools
+- **Custom AI Solutions** — RAG systems, fine-tuned models, and AI built on your data
+- **Self-Hosted AI Infrastructure** — deploy AI on your servers, not third-party clouds
+- **MCP Server Development** — custom Model Context Protocol integrations
+- **Systems Integration** — connect HubSpot, Salesforce, QuickBooks, EHRs, and 50+ platforms
+- **Web & SaaS Development** — full-stack applications and platforms
+- **Mobile App Development** — iOS, Android, and cross-platform
+- **Browser Extension Development** — Chrome, Firefox, and Edge
+
+## Industries
+
+Healthcare, Dental, Legal, Real Estate, Financial Services, Insurance, Restaurants & Hospitality, Salons & Beauty, Veterinary, Home Services, Automotive, E-commerce, Recruiting, Marketing Agencies, Property Management, Business Development.
+
+## Products
+
+- [Bloggen](https://www.silverthreadlabs.com/products/bloggen): AI-powered developer publishing platform
+- [Ezly](https://www.silverthreadlabs.com/products/ezly): AI communication assistant for freelancers
+
+## Key Pages
+
+- [Services](https://www.silverthreadlabs.com/services): Full service catalog
+- [Industries](https://www.silverthreadlabs.com/industries): Industry-specific AI solutions
+- [Projects](https://www.silverthreadlabs.com/projects): 17 client projects with real outcomes
+- [Pricing](https://www.silverthreadlabs.com/pricing): Transparent pricing and engagement models
+- [How We Work](https://www.silverthreadlabs.com/how-we-work): Our process from audit to deployment
+- [Technologies](https://www.silverthreadlabs.com/technologies): Full technology stack
+- [Blog](https://www.silverthreadlabs.com/blog): Technical articles and guides
+- [FAQ](https://www.silverthreadlabs.com/faq): Common questions answered
+- [Automation Audit](https://www.silverthreadlabs.com/audit): Free automation audit — book a call
+- [About](https://www.silverthreadlabs.com/about): Team and principles
+- [Contact](https://www.silverthreadlabs.com/contact): Get in touch
+
+## Contact
+
+- Website: https://www.silverthreadlabs.com
+- LinkedIn: https://www.linkedin.com/company/silverthreadlabs
+- GitHub: https://github.com/silverthreadlabs/
+- Medium: https://medium.com/@silverthreadlabs

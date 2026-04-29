@@ -1,0 +1,268 @@
+# Silverthread Labs — Complete Reference
+
+> AI automation agency building agentic AI systems, voice agents, and workflow automation for regulated industries. Self-hosted, production-grade.
+
+Website: https://www.silverthreadlabs.com
+LinkedIn: https://www.linkedin.com/company/silverthreadlabs
+GitHub: https://github.com/silverthreadlabs/
+Medium: https://medium.com/@silverthreadlabs
+
+---
+
+## Company Overview
+
+Silverthread Labs is an AI automation agency founded in 2019. We build production-grade, self-hosted AI systems that run business operations 24/7. Our focus is regulated industries — healthcare, legal, finance, real estate — where data privacy, compliance, and reliability are non-negotiable.
+
+Every engagement starts with a structured Automation Audit: we map operations, identify the highest-ROI automation targets, and deliver a prioritized roadmap before any project budget is committed.
+
+---
+
+## Services (20+)
+
+### Agentic AI Systems Development
+Autonomous agents that handle multi-step business workflows — lead enrichment, data routing, document processing, multi-agent orchestration with memory, tool use, and human-in-the-loop escalation.
+
+### Voice AI Agents
+Phone-based AI for appointment booking, intake, customer support, and outbound calls. Built on Vapi, Retell, or custom pipelines with real-time voice processing.
+
+### Workflow Automation
+End-to-end process automation connecting business tools. Single-process builds through multi-system workflows across CRMs, EHRs, payment systems, and communication platforms.
+
+### Self-Hosted AI Infrastructure
+Deploy AI on your servers, not third-party clouds. HIPAA/GDPR/FINRA-compliant builds with ongoing ops and monitoring.
+
+### Custom AI Solutions (RAG, Knowledge Bases, Document Processing)
+RAG systems, fine-tuned models, and AI built on your data. Single-domain knowledge bases through multi-source RAG pipelines.
+
+### MCP Server Development
+Custom Model Context Protocol servers — from SMB single-source connectors to enterprise multi-source deployments with auth and compliance layers.
+
+### OpenClaw Deployment
+Setup, hardening, and deployment of OpenClaw — from personal installs to business multi-user deployments.
+
+### Systems Integration
+Connect existing business tools — HubSpot, Salesforce, QuickBooks, EHRs, Stripe, Calendly, and 50+ platforms. Point-to-point through multi-system integrations.
+
+### Claude Code Consulting & AI Developer Tooling
+Expert consulting on Claude Code, AI-assisted development workflows, and custom developer tooling.
+
+### Browser Extension Development
+Chrome, Firefox, and Edge extensions — from simple utilities to complex applications with 100,000+ users.
+
+### Mobile App Development
+iOS, Android, and cross-platform applications using React Native and native development.
+
+### Web & SaaS Development
+Full-stack web applications and SaaS platforms.
+
+### UX/UI Design Services
+Interface design for web, mobile, and desktop applications.
+
+### Custom Desktop App Development
+Electron and Tauri desktop applications.
+
+### Web Scraping & Data Pipeline Services
+Automated data collection and processing pipelines.
+
+### KYC/AML System Integration
+Know Your Customer and Anti-Money Laundering compliance system integration.
+
+### Payment Systems Integration
+Stripe, payment processors, and financial system integration.
+
+### Blockchain Development Services
+Smart contracts, DeFi, and blockchain application development.
+
+### Business Automation Audit
+Structured assessment of operations to identify highest-ROI automation targets. Produces a written roadmap.
+
+### Cowork Plugin & Desktop Agent Development
+Custom desktop agents and productivity plugins.
+
+---
+
+## Industries Served
+
+### Healthcare & Medical Practices
+AI for patient intake, appointment scheduling, EHR integration, clinical documentation, and HIPAA-compliant automation.
+
+### Dental Practices
+Voice AI for appointment booking, patient follow-up, insurance verification, and practice management automation.
+
+### Legal / Law Firms
+AI for client intake, document review, case management automation, and private AI that keeps data on-premise.
+
+### Real Estate
+AI for lead qualification, property matching, transaction coordination, and CRM automation for agents and brokerages.
+
+### Financial Services & Accounting
+AI for data entry automation, compliance workflows, client communication, and financial document processing.
+
+### Insurance
+AI for quote generation, claims processing, policy management, and customer service automation.
+
+### Restaurants & Hospitality
+Voice AI for reservations, order management, staff scheduling, and customer engagement.
+
+### Salons, Spas & Beauty
+Appointment booking, client follow-up, inventory management, and marketing automation.
+
+### Veterinary Clinics
+Patient scheduling, reminder systems, medical record management, and client communication.
+
+### Home Services (HVAC, Plumbing, Electrical, Roofing)
+Lead capture, dispatch automation, scheduling, invoicing, and customer follow-up.
+
+### Automotive (Dealerships & Service Centers)
+Lead management, service appointment scheduling, inventory tracking, and customer retention.
+
+### E-commerce
+Order processing, customer service automation, inventory management, and marketing automation.
+
+### Recruiting & Staffing
+Candidate screening, interview scheduling, ATS integration, and communication automation.
+
+### Marketing Agencies
+Client reporting, campaign automation, content workflows, and project management integration.
+
+### Property Management
+Tenant communication, maintenance request handling, lease management, and accounting automation.
+
+### Business Development & Sales Teams
+Lead enrichment, outreach automation, CRM workflows, and pipeline management.
+
+---
+
+## Products
+
+### Bloggen
+AI-powered developer publishing platform. Production-ready Next.js template with built-in SEO (JSON-LD, OG images, sitemaps, RSS), MDX content support, and AI-generated content integration.
+
+### Ezly
+AI communication assistant for freelancers. Helps draft professional messages, proposals, and client communications.
+
+---
+
+## Pricing
+
+### Agentic AI Systems
+- Single-agent automation: $5,000 - $15,000 (2-4 weeks)
+- Custom multi-step agents: $25,000 - $100,000+ (8-16 weeks)
+- Ongoing agent retainer: $1,500 - $8,000/mo
+
+### Voice AI Agents
+- Build fee: $2,500 - $10,000 (2-4 weeks)
+- Operating cost per call: $0.25 - $0.50
+- Optimization retainer: $500 - $2,500/mo
+
+### Workflow Automation
+- Single-process build: $3,000 - $8,000 (1-3 weeks)
+- Multi-system workflow: $8,000 - $25,000+ (3-8 weeks)
+- Management retainer: $500 - $3,000/mo
+
+### Self-Hosted AI Infrastructure
+- Deployment and hardening: $5,000 - $25,000 (2-6 weeks)
+- HIPAA/GDPR/FINRA builds: $15,000 - $60,000+ (+2-4 weeks)
+- Ongoing ops and monitoring: $1,000 - $5,000/mo
+
+### Custom AI (RAG, Knowledge Bases)
+- Single-domain knowledge base: $4,000 - $12,000 (2-4 weeks)
+- Multi-source RAG pipeline: $12,000 - $30,000+ (4-8 weeks)
+- Expansion retainer: $1,000 - $4,000/mo
+
+### MCP Server Development
+- SMB single-source connector: $25,000 - $50,000 (4-8 weeks)
+- Production multi-source with auth: $60,000 - $120,000 (8-16 weeks)
+- Enterprise with compliance layer: $100,000+ (12+ weeks)
+
+### OpenClaw Deployment
+- Personal install and hardening: $399 - $999 (1-2 weeks)
+- Business multi-user deployment: $2,500 - $6,000+ (2-4 weeks)
+
+### Systems Integration
+- Point-to-point (2 systems): $1,500 - $5,000 (1-2 weeks)
+- Multi-system (3-6 systems): $5,000 - $15,000 (2-6 weeks)
+- Ongoing maintenance: $300 - $1,500/mo
+
+### The Automation Audit
+- Solo founder / small team: $500 (1 week)
+- SMB multi-department: $1,000 - $2,500 (1-2 weeks)
+- Enterprise pre-project: Custom (2-4 weeks)
+
+### Engagement Models
+1. **Project-Based** — defined scope, fixed deliverable, clear acceptance criteria. Best for first builds and MVPs.
+2. **Retainer** — ongoing optimization, expansion, and ops support. $500-$8,000/month.
+3. **Audit-First** — every engagement starts with a structured assessment. Produces a written roadmap you own.
+
+---
+
+## How We Work
+
+1. **Automation Audit** — We map your operations, identify highest-ROI targets, and deliver a prioritized roadmap.
+2. **Scope & Proposal** — Based on the audit, we define deliverables, timelines, and pricing.
+3. **Build** — Iterative development with regular check-ins. You see working software early and often.
+4. **Deploy** — Production deployment on your infrastructure or managed hosting.
+5. **Support** — Ongoing monitoring, optimization, and expansion via retainer.
+
+---
+
+## Technology Stack
+
+We build with production-proven tools:
+
+**AI/ML:** OpenAI, Anthropic Claude, Google Gemini, open-source LLMs, LangChain, LlamaIndex, Hugging Face, Ollama, vLLM
+**Voice AI:** Vapi, Retell, ElevenLabs, Deepgram, AssemblyAI
+**Automation:** n8n, Zapier, Make, custom pipelines
+**Frontend:** Next.js, React, TypeScript, Tailwind CSS
+**Backend:** Node.js, Python, Go, PostgreSQL, Redis, Supabase
+**Infrastructure:** Docker, Kubernetes, AWS, GCP, Vercel, self-hosted
+**Integrations:** HubSpot, Salesforce, QuickBooks, Stripe, Calendly, EHR systems, and 50+ platforms
+
+---
+
+## Portfolio Highlights (17 Projects)
+
+- **AI Toolbar** — Chrome extension scaled to 100,000+ users
+- **Aiden Solutions** — AI technical support that learns product manuals
+- **GlanceAI** — AI web summaries for 24,700+ users
+- **Permuto** — Regulated fintech platform on Chia blockchain
+- **OnlyAutomator** — AI CRM and automation for the creator economy
+- **Niggle.ai** — AI study tool that turns documents into understanding
+- **Viayze** — AI email marketing that learns every recipient
+- **AudioTextify** — AI transcription and translation in 99 languages
+- **designrift** — CSS token and Tailwind theme generator
+- **FireClaw** — E-commerce for a Ukrainian comics publisher
+
+Full portfolio: https://www.silverthreadlabs.com/projects
+
+---
+
+## FAQ
+
+**How does every engagement start?**
+Every project begins with an Automation Audit — a structured assessment where we map your operations, identify the highest-ROI automation targets, and deliver a prioritized roadmap. No commitment beyond the audit fee.
+
+**Do you build on our infrastructure or yours?**
+We specialize in self-hosted deployments. Your AI runs on your servers, your cloud, your data. We also support managed hosting for teams that prefer it.
+
+**What industries do you work with?**
+Healthcare, dental, legal, real estate, financial services, insurance, restaurants, salons, veterinary, home services, automotive, e-commerce, recruiting, marketing agencies, property management, and business development.
+
+**How long does a typical project take?**
+Simple automations: 1-4 weeks. Complex multi-agent systems: 8-16 weeks. Enterprise deployments: 12+ weeks. Every project includes a timeline estimate in the proposal.
+
+**Do you handle compliance (HIPAA, GDPR, FINRA)?**
+Yes. We build compliant systems from the ground up — not as an afterthought. Self-hosted infrastructure ensures data never leaves your control.
+
+**What happens after launch?**
+We offer retainer plans ($500-$8,000/month) for ongoing monitoring, optimization, and expansion. We don't build and disappear.
+
+---
+
+## Contact
+
+- Book an Automation Audit: https://www.silverthreadlabs.com/audit
+- Contact form: https://www.silverthreadlabs.com/contact
+- LinkedIn: https://www.linkedin.com/company/silverthreadlabs
+- GitHub: https://github.com/silverthreadlabs/
+- Medium: https://medium.com/@silverthreadlabs

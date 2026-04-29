@@ -1,0 +1,158 @@
+[
+  {
+    "lead_title": "Round Rock Dental Group",
+    "website": "http://www.roundrockdentalgroup.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 43.18,
+    "metro": "austin"
+  },
+  {
+    "lead_title": "Raulerson Dental Associates, PA",
+    "website": "http://www.raulersondental.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 30.25,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "Obeck Comprehensive Dental",
+    "website": "http://obeckdental.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 18.8,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "My Care Dental",
+    "website": "https://www.mycaredentals.com/?utm_source=GMB&utm_medium=organic&utm_campaign=DevOptimization&utm_content=Website",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 15.52,
+    "metro": "austin"
+  },
+  {
+    "lead_title": "East Austin Oral Surgery",
+    "website": "http://www.eastaustinoralsurgery.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 9.51,
+    "metro": "austin"
+  },
+  {
+    "lead_title": "Brandon Family Dental Care",
+    "website": "http://brandonfamilydentalcare.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 59.19,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "Jackson Dental",
+    "website": "https://www.jacksondentaltampa.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 39.43,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "AZ Cosmetic & Family Dentistry: Dentist in Peoria",
+    "website": "https://www.azfamilydentistry.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 28.57,
+    "metro": "phoenix"
+  },
+  {
+    "lead_title": "Downtown Phoenix Dental",
+    "website": "https://www.downtownphoenixdental.com/?utm_source=google&utm_medium=google_business_profile&utm_campaign=website_click",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 27.22,
+    "metro": "phoenix"
+  },
+  {
+    "lead_title": "Higley Park Dental",
+    "website": "https://www.higleyparkdental.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 25.72,
+    "metro": "phoenix"
+  },
+  {
+    "lead_title": "All Smiles Dental Care - Phoenix",
+    "website": "https://allsmilesaz.net/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 24.05,
+    "metro": "phoenix"
+  },
+  {
+    "lead_title": "Tampa Dental",
+    "website": "https://www.tampadental.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 16.08,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "Open Wide Dental - Phoenix",
+    "website": "https://openwidedentalaz.com/?utm_source=GMBListing&utm_medium=Organic",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 19.8,
+    "metro": "phoenix"
+  },
+  {
+    "lead_title": "Bay Premier Dentistry - Tampa",
+    "website": "https://baypremierdentistry.com/?utm_source=GoogleOrganic&utm_medium=GMBwebsite&utm_campaign=GMBWebsiteLink",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 14.37,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "Sunset Hills Dentistry",
+    "website": "http://castordds.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 10.64,
+    "metro": "austin"
+  },
+  {
+    "lead_title": "Carrollwood Dental Studio - Dentist Tampa",
+    "website": "https://carrollwooddentalstudio.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=GMBListing",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 10.79,
+    "metro": "tampa"
+  },
+  {
+    "lead_title": "Tempe Smile Design",
+    "website": "https://www.tempesmiledesign.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 10.79,
+    "metro": "phoenix"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "rank": 1,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Dental Walk-In Clinic of Tampa Bay",
+    "metro": "tampa",
+    "website": "http://www.dentalwalkin.com/",
+    "phone": "+1 813-636-9400",
+    "address": "4240 W Kennedy Blvd, Tampa, FL 33609, United States",
+    "quality_score": 190.21,
+    "pain_categories": [
+      "after_hours_emergency",
+      "staff_rude_front_desk",
+      "long_wait_in_chair"
+    ]
+  },
+  {
+    "rank": 2,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Dental on Central",
+    "metro": "phoenix",
+    "website": "https://www.dentaloncentral.com/",
+    "phone": "+1 602-266-1776",
+    "address": "5133 N Central Ave Suite 102, Phoenix, AZ 85012, United States",
+    "quality_score": 143.72,
+    "pain_categories": [
+      "missed_calls_unreachable",
+      "appointment_booking_delay",
+      "staff_rude_front_desk"
+    ]
+  },
+  {
+    "rank": 3,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Smile Design Downtown",
+    "metro": "tampa",
+    "website": "https://thesmiledesigndowntown.com/",
+    "phone": "+1 813-331-6934",
+    "address": "101 N Franklin St UNIT E, Tampa, FL 33602, United States",
+    "quality_score": 107.03,
+    "pain_categories": [
+      "long_wait_in_chair",
+      "staff_rude_front_desk",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 4,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Pediatric Dentistry of Brandon",
+    "metro": "tampa",
+    "website": "https://www.pedodentbrandon.com/?utm_campaign=gmb",
+    "phone": "+1 813-722-0745",
+    "address": "3413 S Kings Ave, Brandon, FL 33511, United States",
+    "quality_score": 102.49,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair",
+      "after_hours_emergency"
+    ]
+  },
+  {
+    "rank": 5,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Southpark Meadows Dental Group and Orthodontics",
+    "metro": "austin",
+    "website": "https://www.southparkmeadowsdentalgroup.com/?sc_cid=GBP%3AO%3AGP%3A780%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp&y_source=1_MTE0Njg5Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "+1 512-291-8012",
+    "address": "401 W Slaughter Ln #200, Austin, TX 78748, United States",
+    "quality_score": 97.6,
+    "pain_categories": [
+      "missed_calls_unreachable",
+      "after_hours_emergency",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 6,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Access Dental",
+    "metro": "austin",
+    "website": "https://accessdentalclinics.com/locations/texas/austin-tx-on-east-7th-st/",
+    "phone": "+1 512-236-9300",
+    "address": "1923 E 7th St #120, Austin, TX 78702, United States",
+    "quality_score": 82.49,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency",
+      "long_wait_in_chair"
+    ]
+  },
+  {
+    "rank": 7,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Smile Design Carrollwood",
+    "metro": "tampa",
+    "website": "https://thesmiledesigncarrollwood.com/",
+    "phone": "+1 813-213-4034",
+    "address": "13246 N Dale Mabry Hwy, Tampa, FL 33618, United States",
+    "quality_score": 80.1,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 8,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Round Rock Modern Dentistry",
+    "metro": "austin",
+    "website": "https://www.roundrockmoderndentistry.com/?sc_cid=GBP%3AO%3AGP%3A782%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp&y_source=1_MTkyOTcxOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "+1 512-218-1900",
+    "address": "2150 E Palm Valley Blvd Ste 500, Round Rock, TX 78665, United States",
+    "quality_score": 77.91,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "insurance_verification_missing",
+      "missed_calls_unreachable"
+    ]
+  },
+  {
+    "rank": 9,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Family Dental Station - Glendale",
+    "metro": "phoenix",
+    "website": "https://familydentalstation.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+    "phone": "+1 602-900-1148",
+    "address": "5664 W Bell Rd, Glendale, AZ 85308, United States",
+    "quality_score": 67.75,
+    "pain_categories": [
+      "after_hours_emergency",
+      "insurance_verification_missing",
+      "staff_rude_front_desk"
+    ]
+  },
+  {
+    "rank": 10,
+    "tier": "A",
+    "category": "no_crawl",
+    "title": "Aloha Dental",
+    "metro": "austin",
+    "website": "https://www.aloha-dental.com/",
+    "phone": "+1 512-707-7300",
+    "address": "1614 E Riverside Dr, Austin, TX 78741, United States",
+    "quality_score": 63.58,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "billing_errors",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 11,
+    "tier": "A",
+    "category": "site_reached_no_email",
+    "title": "Tampa Smile Co. - South Tampa",
+    "metro": "tampa",
+    "website": "https://tampasmileco.com/south-tampa/",
+    "phone": "+1 813-837-2380",
+    "address": "3404 S Dale Mabry Hwy, Tampa, FL 33629, United States",
+    "quality_score": 60.78,
+    "pain_categories": [
+      "missed_calls_unreachable",
+      "staff_rude_front_desk",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 12,
+    "tier": "B",
+    "category": "no_crawl",
+    "title": "Chandler Dental",
+    "metro": "phoenix",
+    "website": "http://www.chandlerdental.com/",
+    "phone": "+1 480-917-8400",
+    "address": "2095 W Frye Rd #4, Chandler, AZ 85224, United States",
+    "quality_score": 59.86,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "after_hours_emergency"
+    ]
+  },
+  {
+    "rank": 13,
+    "tier": "B",
+    "category": "crawl_failed",
+    "title": "Brandon Family Dental Care",
+    "metro": "tampa",
+    "website": "http://brandonfamilydentalcare.com/",
+    "phone": "+1 813-685-5611",
+    "address": "227 N Knights Ave, Brandon, FL 33510, United States",
+    "quality_score": 59.19,
+    "pain_categories": [
+      "missed_calls_unreachable",
+      "staff_rude_front_desk",
+      "long_wait_in_chair"
+    ]
+  },
+  {
+    "rank": 14,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Vida Dental South",
+    "metro": "austin",
+    "website": "https://www.vidadentalsmiles.com/locations/south-austin-tx?utm_source=Google+My+Business&utm_medium=GMB&utm_campaign=GMB+Clicks",
+    "phone": "+1 512-444-4867",
+    "address": "1901 W William Cannon Dr Ste 143, Austin, TX 78745, United States",
+    "quality_score": 59.0,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "insurance_verification_missing",
+      "billing_errors"
+    ]
+  },
+  {
+    "rank": 15,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Chandler Modern Dentistry",
+    "metro": "phoenix",
+    "website": "https://www.chandlermoderndentistry.com/?sc_cid=GBP%3AO%3AGP%3A278%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp&y_source=1_MTEwMjg0MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "+1 480-792-1543",
+    "address": "2875 W Ray Rd Ste 16, Chandler, AZ 85224, United States",
+    "quality_score": 57.39,
+    "pain_categories": [
+      "appointment_booking_delay",
+      "long_wait_in_chair",
+      "staff_rude_front_desk"
+    ]
+  },
+  {
+    "rank": 16,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Alameda Dental Care",
+    "metro": "phoenix",
+    "website": "https://alamedadentalaz.com/?y_source=1_NTU4MzQ3OTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "phone": "+1 480-685-9318",
+    "address": "2525 S Rural Rd Suite 2S, Tempe, AZ 85282, United States",
+    "quality_score": 55.19,
+    "pain_categories": [
+      "missed_calls_unreachable",
+      "after_hours_emergency",
+      "staff_rude_front_desk"
+    ]
+  },
+  {
+    "rank": 17,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Round Rock Dentists",
+    "metro": "austin",
+    "website": "https://www.roundrockdentistoffice.com/?sc_cid=GBP%3AO%3AGP%3A778%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp&y_source=1_MTEwMjk1Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "+1 512-238-1154",
+    "address": "325 University Blvd, Round Rock, TX 78665, United States",
+    "quality_score": 50.47,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "appointment_booking_delay",
+      "long_wait_in_chair"
+    ]
+  },
+  {
+    "rank": 18,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Tampa Dentistry",
+    "metro": "tampa",
+    "website": "https://mytampadentistry.com/",
+    "phone": "+1 813-333-0633",
+    "address": "1311 W Busch Blvd, Tampa, FL 33612, United States",
+    "quality_score": 47.97,
+    "pain_categories": [
+      "appointment_booking_delay",
+      "long_wait_in_chair",
+      "missed_calls_unreachable"
+    ]
+  },
+  {
+    "rank": 19,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Riggs Family Dental - Chandler",
+    "metro": "phoenix",
+    "website": "https://www.riggsfamilydental.com/locations/chandler/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+    "phone": "+1 480-566-8349",
+    "address": "3960 E Riggs Rd Ste 5, Chandler, AZ 85249, United States",
+    "quality_score": 45.05,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "after_hours_emergency"
+    ]
+  },
+  {
+    "rank": 20,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Thomas Dental",
+    "metro": "phoenix",
+    "website": "https://thomasdentalphx.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+    "phone": "+1 623-455-6668",
+    "address": "2546 E Thomas Rd, Phoenix, AZ 85016, United States",
+    "quality_score": 44.06,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 21,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Carrollwood Village Dental",
+    "metro": "tampa",
+    "website": "https://www.carrollwoodvillagedental.com/",
+    "phone": "+1 813-961-2200",
+    "address": "4536 W Village Dr, Tampa, FL 33624, United States",
+    "quality_score": 43.24,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair",
+      "missed_calls_unreachable"
+    ]
+  },
+  {
+    "rank": 22,
+    "tier": "B",
+    "category": "crawl_failed",
+    "title": "Round Rock Dental Group",
+    "metro": "austin",
+    "website": "http://www.roundrockdentalgroup.com/",
+    "phone": "+1 512-255-1000",
+    "address": "151 Deep Wood Dr, Round Rock, TX 78681, United States",
+    "quality_score": 43.18,
+    "pain_categories": [
+      "appointment_booking_delay",
+      "staff_rude_front_desk",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 23,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Family Dental of Cedar Park",
+    "metro": "austin",
+    "website": "http://familydentalofcedarpark.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
+    "phone": "+1 737-437-3464",
+    "address": "1468 E Whitestone Blvd Ste 500, Cedar Park, TX 78613, United States",
+    "quality_score": 42.93,
+    "pain_categories": [
+      "long_wait_in_chair",
+      "insurance_verification_missing",
+      "missed_calls_unreachable"
+    ]
+  },
+  {
+    "rank": 24,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Mesa Modern Dentistry and Orthodontics",
+    "metro": "phoenix",
+    "website": "https://www.mesamoderndentistry.com/?sc_cid=GBP%3AO%3AGP%3A262%3AOrganic_Search%3AGeneral%3Ana&_vsrefdom=organic_gbp&y_source=1_MTEwMjgyOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "+1 480-926-2350",
+    "address": "3440 E Baseline Rd Ste 106, Mesa, AZ 85204, United States",
+    "quality_score": 42.29,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair",
+      "recall_followup_missing"
+    ]
+  },
+  {
+    "rank": 25,
+    "tier": "B",
+    "category": "no_crawl",
+    "title": "East Valley Dental Care",
+    "metro": "phoenix",
+    "website": "https://www.eastvalleydentalcare.com/",
+    "phone": "+1 480-890-2811",
+    "address": "426 W 5th Pl, Mesa, AZ 85201, United States",
+    "quality_score": 39.56,
+    "pain_categories": [
+      "after_hours_emergency",
+      "long_wait_in_chair",
+      "staff_rude_front_desk"
+    ]
+  },
+  {
+    "rank": 26,
+    "tier": "B",
+    "category": "crawl_failed",
+    "title": "Jackson Dental",
+    "metro": "tampa",
+    "website": "https://www.jacksondentaltampa.com/",
+    "phone": "+1 813-701-3141",
+    "address": "101 E Kennedy Blvd #300, Tampa, FL 33602, United States",
+    "quality_score": 39.43,
+    "pain_categories": [
+      "insurance_verification_missing",
+      "staff_rude_front_desk",
+      "no_show_reminder_missing"
+    ]
+  },
+  {
+    "rank": 27,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Biltmore Dental Center",
+    "metro": "phoenix",
+    "website": "https://www.biltmoredentalcenter.com/?y_source=1_MjAxMjkzOTY4NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "phone": "+1 602-954-8200",
+    "address": "4202 N 32nd St suite b, Phoenix, AZ 85018, United States",
+    "quality_score": 39.31,
+    "pain_categories": [
+      "after_hours_emergency",
+      "staff_rude_front_desk",
+      "insurance_verification_missing"
+    ]
+  },
+  {
+    "rank": 28,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "South Tampa Smiles",
+    "metro": "tampa",
+    "website": "https://www.southtampasmiles.com/?utm_campaign=gmb",
+    "phone": "+1 863-209-7744",
+    "address": "4315 Henderson Blvd, Tampa, FL 33629, United States",
+    "quality_score": 39.07,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency",
+      "appointment_booking_delay"
+    ]
+  },
+  {
+    "rank": 29,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Daylight Dental South Austin",
+    "metro": "austin",
+    "website": "https://www.daylightdental.com/",
+    "phone": "+1 512-548-8584",
+    "address": "6501 S Congress Ave suite 2-201, Austin, TX 78745, United States",
+    "quality_score": 38.47,
+    "pain_categories": [
+      "after_hours_emergency",
+      "staff_rude_front_desk",
+      "appointment_booking_delay"
+    ]
+  },
+  {
+    "rank": 30,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "South Tampa Dentistry",
+    "metro": "tampa",
+    "website": "http://southtampadentistry.com/",
+    "phone": "+1 813-835-0090",
+    "address": "3308 S Dale Mabry Hwy, Tampa, FL 33629, United States",
+    "quality_score": 37.85,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "appointment_booking_delay",
+      "after_hours_emergency"
+    ]
+  },
+  {
+    "rank": 31,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Dental Associates of Florida - Brandon",
+    "metro": "tampa",
+    "website": "https://smilesincluded.com/dentist-office/brandon-fl-33511?utm_source=Google&utm_medium=KnowledgePanel&utm_campaign=Website",
+    "phone": "+1 813-418-6326",
+    "address": "647 W Lumsden Rd A, Brandon, FL 33511, United States",
+    "quality_score": 35.21,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "appointment_booking_delay",
+      "long_wait_in_chair"
+    ]
+  },
+  {
+    "rank": 32,
+    "tier": "B",
+    "category": "site_reached_no_email",
+    "title": "Cedar Park Premier Dentistry",
+    "metro": "austin",
+    "website": "https://www.cedarparkdental.com/",
+    "phone": "+1 512-580-7256",
+    "address": "209 Denali Pass Dr B, Cedar Park, TX 78613, United States",
+    "quality_score": 34.77,
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "after_hours_emergency"
+    ]
+  },
+  {
+    "rank": 33,
+    "tier": "B",
+    "category": "no_crawl",
+    "title": "Modern Dental Care",
+    "metro": "tampa",
+    "website": "https://www.smilesonarmenia.com/",
+    "phone": "+1 813-870-0480",
+    "address": "4144 N Armenia Ave #260, Tampa, FL 33607, United States",
+    "quality_score": 34.39,
+    "pain_categories": [
+      "after_hours_emergency",
+      "recall_followup_missing",
+      "staff_rude_front_desk"
+    ]
+  },
+  {
+    "rank": 34,
+    "tier": "B",
+    "category": "no_crawl",
+    "title": "Buttercup Dental",
+    "metro": "austin",
+    "website": "http://www.buttercupdental.com/",
+    "phone": "+1 512-335-8121",
+    "address": "901 Cypress Creek Road #203, Cedar Park, TX 78613, United States",
+    "quality_score": 31.93,
+    "pain_categories": [
+      "after_hours_emergency",
+      "staff_rude_front_desk",
+      "long_wait_in_chair"
+    ]
+  },
+  {
+    "rank": 35,
+    "tier": "B",
+    "category": "crawl_failed",
+    "title": "Raulerson Dental Associates, PA",
+    "metro": "tampa",
+    "website": "http://www.raulersondental.com/",
+    "phone": "+1 813-681-7183",
+    "address": "510 Oakfield Dr, Brandon, FL 33511, United States",
+    "quality_score": 30.25,
+    "pain_categories": [
+      "language_barrier_spanish",
+      "staff_rude_front_desk",
+      "after_hours_emergency"
+    ]
+  }
+]

@@ -1,0 +1,3153 @@
+[
+  {
+    "title": "Emergency Dentist of Austin",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 1000,
+    "review_count": 1379,
+    "negative_reviews_1_3_star": 72,
+    "negative_pct": 5.2,
+    "phone": "+1 512-961-6200",
+    "website": "https://emergencydentistofaustin.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+    "emails": [
+      "info@emergencydentistofaustin.com"
+    ],
+    "address": "1030 Norwood Park Blvd #324, Austin, TX 78753, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency",
+      "long_wait_in_chair",
+      "missed_calls_unreachable"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 2,
+          "reviewer": "Mitchell Casazza",
+          "snippet": "Beware 5 star reviews, they pressure you into leaving one before you leave the office. They told me to pull out my phone and leave a good review before I even got out of the dentist chair after removing a tooth, and gave a weird reaction when I didn\u2019t. A bit dingy and dirty, old equipment, unprofess",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 3,
+          "reviewer": "kath",
+          "snippet": "The RDA Janie and Dr. Dudeen were excellent. Janie answered all of my questions before I could even think of them! I really appreciated her keeping me in the loop about what was happening and why. I think I actually learned a few dental facts leaving my appointment \ud83e\udd23 Janie knows her job very well, a",
+          "matched": "receptionist crew as a whole gave off mean"
+        },
+        {
+          "rating": 1,
+          "reviewer": "MaLinda Brock",
+          "snippet": "I don\u2019t usually leave reviews, but I felt this experience needed to be shared. I was asked to pay for my office visit up front, and when I explained that I wasn\u2019t able to, the assistant just stood there silently for a couple of minutes before bringing someone else over\u2014without any explanation. That ",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Eric Garcia",
+          "snippet": "Horrible practice. I would recommend finding anywhere else to go. I was made to wait for 50 minutes past my appointment time without so much as an acknowledgment of my wait. Once I was finally seen I was taken to the \u201croom.\u201d This was a completely public area where other patients were walking by and ",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Chuk Chukwuka",
+          "snippet": "I appreciate the dentist for working with me to fix my chipped tooth, but the front desk associates straight-up lied to me. They told me I was paying for the root canal and that all I would need to do next was get the crown, but that was a complete deception. They only did half the procedure, and no",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Shida Rabi",
+          "snippet": "This was the worst dental experience I\u2019ve ever had. I got an emergency appointment from them. They started my treatment with a one-hour delay, administered local anesthesia, and then made me wait for another half an hour. When I asked why they hadn\u2019t started yet, they informed me they were behind sc",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Chrissy Poole",
+          "snippet": "I went in with an impacted wisdom tooth, which is something they say they are able to take of on the website. I had excruciating pain and needed it removed immediately. They said there was a surgeon that may be able to do it the next day and they sent me to the front to pay. The dentist came back an",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Cynthia Sanchez",
+          "snippet": "They are a rip off.  On the phone I was told they accept all PPO insurance.  After arriving I found out they require full up front payment then you can file a reimbursement.  I'm in desperate need of an extraction. I paid the 89 fee to be seen then 450 for the extraction. Filled out paperwork descri",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Matthew Davis",
+          "snippet": "Do not use this place! First off, I was told on the phone they take all PPO Insurance only to find out after paying the initial $89 examination fee that I had to file with my provider after the fact, which turns out they do not cover anything! Secondly, I waited over an hour for my post op appointme",
+          "matched": "unprofessional"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "ARMELLE Dongmeza",
+          "snippet": "Horrible service \ud83d\ude11 \ud83d\ude2a, I waited about 2 hours to be seing by the dentist.the days before they charged me 25 dollars for spot reservation and once I got there my mom was not scheduled.After giving anesthesia to my mom, it didn't work and she was still on pain. The price was exaggerated, 89 dollars for",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Breanne MacNaughton",
+          "snippet": "If I could rate this office lower, I would. Avoid unless you absolutely have to come here for an emergency and no other options are available. I came in for a tiny chip in my front tooth that happened on a tooth with old composite bonding just on the bottom edge. I was leaving town on a Monday morni",
+          "matched": "weekend"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Carmen",
+          "snippet": "I\u2019ll start off with the good. I was so grateful to find a facility that was opened on a weekend. My overall feeling is that   it served its purpose. No bells or whistles. My issue was the lack of sanitation. I told the RDA that the dental table was dirty. She proceeded to clean it and then she used ",
+          "matched": "weekend"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Christopher Brushett",
+          "snippet": "Booked online for emergency visit and then they call to move it to 5 hours later. Ended up canceling because pain ways intolerable to wait.",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Robert Prince",
+          "snippet": "This review is for Emergency Dentist of Austin located at 1030 Norwood Park Blvd\nUnit 324\nAustin, TX  78753\nUnited States\n\nI came into this facility on a Saturday because my dentist was closed. It turns out I have a fractured tooth which is causing excruciating pain. I\u2019d been awake for 18 hours as t",
+          "matched": "Emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Mohsen Malekshahi",
+          "snippet": "\"My experience with Emergency Dentist of Austin has been nothing short of terrible. Last year, my wife had a tooth extracted based on a poor decision by the dentist that only added to her pain and confusion. This unnecessary procedure ended up costing us $3,500 for bridges to fix the issue, the pain",
+          "matched": "Emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Jonathan Culling",
+          "snippet": "I cannot recommend this place. I had a veneer pop off on a Friday night and needed it glued back on. Called them and they gave me a 10:30am appointment. Showed up and there were 4 people in the waiting room.  By 11:15am the same four people were still waiting and we overheard the receptionist to som",
+          "matched": "emergencies"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Angeline S",
+          "snippet": "I had an extremely disappointing experience at Emergency Dentist of Austin about a week and a half ago. My temporary crown had popped off, and I needed it cemented urgently. While the check-in process was smooth + front desk was sweet and knowledgable, the rest of my visit was far from acceptable.\n\n",
+          "matched": "weekend"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Shida Rabi",
+          "snippet": "This was the worst dental experience I\u2019ve ever had. I got an emergency appointment from them. They started my treatment with a one-hour delay, administered local anesthesia, and then made me wait for another half an hour. When I asked why they hadn\u2019t started yet, they informed me they were behind sc",
+          "matched": "emergency"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Atia Light Beings",
+          "snippet": "Sorry but I can\u2019t give 5 stars. I came on 11-26-2022 for an tooth infection emergency and I will never come back again. When I arrived there were a guy that was waiting for 3 hours, another lady was there for 2 hours. They both left short after I came. I waited 1 hour and half for my turn (less than",
+          "matched": "emergency"
+        },
+        {
+          "rating": 3,
+          "reviewer": "T M",
+          "snippet": "They were very prompt in returning by my call and getting me scheduled and were so very nice which is always a great first impression. They checked with the dentist before I came in to make sure they were familiar with the particular issue I had going on and confirmed they were. I was having pretty ",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Roger Nunes",
+          "snippet": "Went there on Saturday. Was in unbearable pain. Without a proper diagnosis they insisted on extracting the tooth. The X-ray looked fine. I was hesitant to extract it. I overheard them insist on extracting the teeth for most patients in the adjoining rooms. This is insane! This should not be the firs",
+          "matched": "weekend"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Chrissy Poole",
+          "snippet": "I went in with an impacted wisdom tooth, which is something they say they are able to take of on the website. I had excruciating pain and needed it removed immediately. They said there was a surgeon that may be able to do it the next day and they sent me to the front to pay. The dentist came back an",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Carla Paredes-Keese",
+          "snippet": "Do not come here if you have children. My toddler broke his tooth, I was frantic, I called this emergency dentist and was told he could be seen. We set an appointment for a few hours later and arrived on time. We were billed up front for the visit, waited over an hour to be seen, only to be told my ",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Shongile Mabasa",
+          "snippet": "After having a tooth extracted, I experienced intense pain while still at the dentist's office. Despite informing the staff, they mentioned there was nothing they could do. I had to visit the Emergency Room, where I received stronger medication to alleviate the pain. The ER doctor was surprised by t",
+          "matched": "Emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Melanie Brannan",
+          "snippet": "Terrible we made an appointment drive 40 minutes to get there only to be told the couldn\u2019t see us at all that day and to come back the next day. For an emergency and a call ahead appointment that was just awful experience plus their AC wasn\u2019t working. Then as soon as we got home, 40 minutes later th",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Christy Bruno",
+          "snippet": "I took my husband who had a a saveer tooth ache and infection they took our 100 bucks gave him a script for antibiotics told him it would be 1700 to pull 2 teeth and now he is at home in bed with a fever and a swollen jaw no pain meds and a waste of trip and money to this emergency dentist who did n",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Cassandra Stearns",
+          "snippet": "Wanted $800 up front before the dentist would even see me. Said that they don\u2019t take insurance but could set me up with a payment plan. What a joke & a complete waste of my time and gas. Now I\u2019m stuck with excruciating wisdom tooth pain until I can find a dentist that\u2019s open on the weekends.",
+          "matched": "weekend"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Landon Richards",
+          "snippet": "Went because I have multiple broke teeth. Paid 90 dollars and got nothing done. Was told I could only have work done if I could pay atleast 5000 dollars. I WENT BECAUSE I HAVE A SERIOUS DENTAL EMERGENCY. Nothing was done for me. At all. Don\u2019t go here if you have a real emergency.",
+          "matched": "EMERGENCY"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Kumar CT",
+          "snippet": "The wait time was more than one hour for booked emergency appointment and doctor did not see for two minutes. They ended up recommending ibuprofen only",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Dennis Behnke",
+          "snippet": "I called them on a Sunday in excruciating pain and an infection in my mouth and was told that they were booked up for the day and couldn't see me. So much for ER care.",
+          "matched": "Sunday in excruciating pain"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Michaela Hassler",
+          "snippet": "Don\u2019t go here. Way to expensive and major rip off:) Urgent > Emergency :)",
+          "matched": "Emergency"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "ARMELLE Dongmeza",
+          "snippet": "Horrible service \ud83d\ude11 \ud83d\ude2a, I waited about 2 hours to be seing by the dentist.the days before they charged me 25 dollars for spot reservation and once I got there my mom was not scheduled.After giving anesthesia to my mom, it didn't work and she was still on pain. The price was exaggerated, 89 dollars for",
+          "matched": "waited about 2 hour"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Eric Garcia",
+          "snippet": "Horrible practice. I would recommend finding anywhere else to go. I was made to wait for 50 minutes past my appointment time without so much as an acknowledgment of my wait. Once I was finally seen I was taken to the \u201croom.\u201d This was a completely public area where other patients were walking by and ",
+          "matched": "past my appointment time"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Atia Light Beings",
+          "snippet": "Sorry but I can\u2019t give 5 stars. I came on 11-26-2022 for an tooth infection emergency and I will never come back again. When I arrived there were a guy that was waiting for 3 hours, another lady was there for 2 hours. They both left short after I came. I waited 1 hour and half for my turn (less than",
+          "matched": "waited 1 hour"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Carla Paredes-Keese",
+          "snippet": "Do not come here if you have children. My toddler broke his tooth, I was frantic, I called this emergency dentist and was told he could be seen. We set an appointment for a few hours later and arrived on time. We were billed up front for the visit, waited over an hour to be seen, only to be told my ",
+          "matched": "waited over an hour"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Matthew Davis",
+          "snippet": "Do not use this place! First off, I was told on the phone they take all PPO Insurance only to find out after paying the initial $89 examination fee that I had to file with my provider after the fact, which turns out they do not cover anything! Secondly, I waited over an hour for my post op appointme",
+          "matched": "waited over an hour"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Alex Alex",
+          "snippet": "I went to this place needing of just some cement on my loose crown .\nI  Waited 2 hours . But  instead of putting some cement they tried to sell me a new bridge .\n. Bad place I\u2019m never going back .",
+          "matched": "Waited 2 hour"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Carla Paredes-Keese",
+          "snippet": "Do not come here if you have children. My toddler broke his tooth, I was frantic, I called this emergency dentist and was told he could be seen. We set an appointment for a few hours later and arrived on time. We were billed up front for the visit, waited over an hour to be seen, only to be told my ",
+          "matched": "no response"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Voice AI for Dental (AI Receptionist)",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 122.2,
+    "link": "https://www.google.com/maps/place/Emergency+Dentist+of+Austin/data=!4m7!3m6!1s0x8644c90a16f876a5:0x791c022b855d1ac9!8m2!3d30.3406789!4d-97.6924276!16s%2Fg%2F11synpwv5g!19sChIJpXb4FgrJRIYRyRpdhSsCHHk?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 153.82,
+    "weighted_pain": 136,
+    "pain_breadth": 4
+  },
+  {
+    "title": "St Petersburg Dental Center",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.6,
+    "reviews_analyzed": 998,
+    "review_count": 1176,
+    "negative_reviews_1_3_star": 111,
+    "negative_pct": 9.4,
+    "phone": "+1 727-521-1818",
+    "website": "https://stpetersburgdental.com/st-petersburg?y_source=1_MTQwNDUxODUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "emails": [
+      "9011@nadentalgroup.com"
+    ],
+    "address": "7300 4th St N, St. Petersburg, FL 33702, United States",
+    "pain_categories": [
+      "missed_calls_unreachable",
+      "staff_rude_front_desk",
+      "appointment_booking_delay",
+      "after_hours_emergency",
+      "long_wait_in_chair",
+      "recall_followup_missing"
+    ],
+    "pain_hits": {
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Karen VanCleave",
+          "snippet": "Beware of their treatment plans and ability to work through billing and insurance issues.  I had a procedure done in October, agreed to the procedure only after their treatment coordinator called my insurance company and then came in and gave me a treatment plan and said my portion would be $94, tha",
+          "matched": "impossible to get"
+        },
+        {
+          "rating": 1,
+          "reviewer": "L Brown",
+          "snippet": "I have been going to St. Pete Dental Center since 2016 and loved it up until a few months ago. On the clinical side, you couldn't ask for a better hygienist than Erica. On the billing side, they've clearly gone from a patient centered approach to a profit approach. I guess this can be attributed to ",
+          "matched": "voicemail"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Andrea O'Brien",
+          "snippet": "Uodate Monday September 16: I have tried the number provided below twice. Both times it rang once and then went to a busy signal and disconnected me. Are you aware dental work can be painful?\n\nSecond update: Sunday at 5:30 pm and no call back from the Emergency number after 5 messages left.\n\nUpdate:",
+          "matched": "left 5 messages"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Janelle Weaver",
+          "snippet": "I have been a customer for several years and have spent, what I consider a significant amount of money with this practice. From a full set of braces to regular visits, to even paying for a friend who couldn\u2019t afford dental work yet they can\u2019t find the time for me to figure out where they credited my",
+          "matched": "no response"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Bennett Patten",
+          "snippet": "I was to be evaluated by Dr. Sausah Toghranegar. He took what I would estimate 10 minutes to look in my mouth. He billed Delta Dental Insurance $200.00. His evaluation was to have a rear tooth extracted and an implant put in place after a bone graft. All four quadrants were to have deep cleaning. Su",
+          "matched": "impossible to get"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Dam NGUYEN",
+          "snippet": "Long-Time Patient Deeply Disappointed (But This Isn\u2019t About the Entire Office)\n\nI\u2019ve been a loyal patient at this dental office for many years, and overall, I\u2019ve had good experiences \u2014 which makes this review difficult to write. Please know this feedback is not directed at the entire staff, but spec",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "D.N.D",
+          "snippet": "I had scheduled an appointment last week and was told that there was availability for a new patient on 3/25/25. Because of my work schedule, I am only available Monday- Friday @ 8:00am. I received a text message on Friday andy appointment was cancelled. I spoke with Chantel this morning and was told",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Judy Prior",
+          "snippet": "I\u2019m only giving a one star because they billed me for $50 because I could not make my appointment because my father had emergency open heart surgery. We received the bill and my husband explained and the representative simply asked for the credit card number. Our whole family have been going there f",
+          "matched": "rude and not a caring staff"
+        },
+        {
+          "rating": 1,
+          "reviewer": "G Duy",
+          "snippet": "This place is pretty unorganized From my experience. I made an appt over the phone for 10:30, but then I received a call and a text the day of my appt which were two different times other than 10:30, and I had to come in earlier than expected that day.\n\nI made an appt for a teeth cleaning and then w",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Selina",
+          "snippet": "I had a terrible experience at this dental center because of the staff in front desk named TINA!!! She is the most MEAN woman I\u2019ve ever met in my life!\nI have been to three different dental clinics in this city, but at last chose this place for my treatment. I\u2019ve gotten the proper treatment from thi",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Faith McDonald",
+          "snippet": "The price breakdown they gave me at my initial appointment was a lie and they told me everything was going to be handled in my next appointment and then did not tell me until 2 and a half hours of sitting and getting a crown that I had to come back again for ANOTHER crown. This was all supposed to b",
+          "matched": "receptionist is rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Elaine Billes",
+          "snippet": "So I suggest avoiding this practice if you want to be dealing with honest staff. This practice is extremely unprofessional. I forwarded dental records which they acknowledged receiving and my appointment was for a specific dentist as I was wanting a second opinion from that dentist. My appointment w",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "T K",
+          "snippet": "This dental office is money hungry. I went in for a teeth cleaning and they didn't even finish the job, but they still charged me for it. They said I needed to come in for a second cleaning. Also, I met with the dentist after he looked at my charts and he said that I had a cavity. He seemed kind of ",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Alexis Watson",
+          "snippet": "Very poor customer service. The individuals who answer the phone are rude and inconsiderate. I have recommended numerous individuals to this organization but I was unaware of a lot of \u201cfees\u201d associated with this business. St. Pete dental may have amiable doctors, but this cannot be overturned by the",
+          "matched": "rude"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Maria Sanchez",
+          "snippet": "The lady who took the first Exray was very rude and mean need to learn how to talk to people when I was laughing she said nothing to laugh about and shout at me and said bite down on the thing it was hurting my mouth so I couldn't bit on it",
+          "matched": "rude"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "blue beach",
+          "snippet": "HATE THE KIOSK\u2026\u2026I watched a lady get a tissue from her purse and blow her nose, put the tissue back in her purse and continue to operate the kiosk\u2026./UNSANITARY\u2026.GERMS\u2026..a gentleman was waiting to use the next available kiosk as there was another male using the other kiosk\u2026 put disinfectant wipes nex",
+          "matched": "next available"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Rita U",
+          "snippet": "I had a chipped tooth and called for appointment, but the day before my appointment I got a call saying that the doctor had family emergency and I need to reschedule, understandable, no problem, things happen so I asked for the next available appointment. I got Christmas Eve 10.50 am and I ended up ",
+          "matched": "next available"
+        },
+        {
+          "rating": 2,
+          "reviewer": "John Pouliot",
+          "snippet": "I called them on a Monday requesting an appointment for a permanent filling on a tooth that I had a recent root canal done on.  The office staff was incredibly friendly, warm, and welcoming.  They offered me an appointment the very next day at 3:30 and I gladly accepted it.  I was able to complete t",
+          "matched": "wait 3 months for a cleanin"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Rita U",
+          "snippet": "I had a chipped tooth and called for appointment, but the day before my appointment I got a call saying that the doctor had family emergency and I need to reschedule, understandable, no problem, things happen so I asked for the next available appointment. I got Christmas Eve 10.50 am and I ended up ",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Judy Prior",
+          "snippet": "I\u2019m only giving a one star because they billed me for $50 because I could not make my appointment because my father had emergency open heart surgery. We received the bill and my husband explained and the representative simply asked for the credit card number. Our whole family have been going there f",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Jean Valerio",
+          "snippet": "I was called 4 hours prior to my appointment stating that it had to be cancelled because \u201cunfortunately it was scheduled during an emergency block\u201d. When we contacted them back, they couldn\u2019t offer further information and tried to separate me and my family members throughout different times of the d",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Andrea O'Brien",
+          "snippet": "Uodate Monday September 16: I have tried the number provided below twice. Both times it rang once and then went to a busy signal and disconnected me. Are you aware dental work can be painful?\n\nSecond update: Sunday at 5:30 pm and no call back from the Emergency number after 5 messages left.\n\nUpdate:",
+          "matched": "after hours"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Terry Cobb",
+          "snippet": "I had gum surgery 5 days ago. This has been one of the most horrible experience s. Called the emergency line 5 times over the weekend and no one called me back. Went in first thing this morn in excruciating pain and asked to be seen because something is not right. They said Dr only works Th. We will",
+          "matched": "weekend"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Julia Kosyakova",
+          "snippet": "Called with an emergency, got scheduled over week ahead, asked several times to confirm that it won\u2019t be JUST an exam, but rather I would get some help right away. Guess what, I come in today, spend 50 minutes in the lobby waiting and filling out form just to find out that a) there will be extra fee",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Carolyn McComber",
+          "snippet": "Do not go here!  After hours of waiting,  they supposedly implanted tooth which vanished before I arrived at home. Searched garage for it without luck. Will be contacting attorney Monday.",
+          "matched": "After hours"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "G Duy",
+          "snippet": "This place is pretty unorganized From my experience. I made an appt over the phone for 10:30, but then I received a call and a text the day of my appt which were two different times other than 10:30, and I had to come in earlier than expected that day.\n\nI made an appt for a teeth cleaning and then w",
+          "matched": "overbooked"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Molly Dodge",
+          "snippet": "Staff was nice. It seemed like they had overbooked the appointments and were in a big hurry. The dentist appeared to have not even looked at why I was there despite the assistant taking history & Xrays.",
+          "matched": "overbooked"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Angela Johnson",
+          "snippet": "I just recently moved to the area and saw the Practice had good reviews so I decided to give them a try. First of all my appointment was for 11:00 I arrived at 10:45 . I pre registered online. Red flag number one is she thanked me for pre registration and told me all the things I was getting done at",
+          "matched": "waited over an hour"
+        }
+      ],
+      "recall_followup_missing": [
+        {
+          "rating": 3,
+          "reviewer": "Terry Cobb",
+          "snippet": "I had gum surgery 5 days ago. This has been one of the most horrible experience s. Called the emergency line 5 times over the weekend and no one called me back. Went in first thing this morn in excruciating pain and asked to be seen because something is not right. They said Dr only works Th. We will",
+          "matched": "no one called me back"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Outbound Recall Campaigns",
+      "Voice AI Appointment Booking",
+      "Voice AI for Dental (AI Receptionist)",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/voice-agents/outbound-campaigns",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 100.1,
+    "link": "https://www.google.com/maps/place/St+Petersburg+Dental+Center/data=!4m7!3m6!1s0x88c2e6a490a7c643:0xe2ff8c315215a9b!8m2!3d27.8391528!4d-82.6391645!16s%2Fg%2F1vq75n7m!19sChIJQ8ankKTmwogRm1ohFcP4Lw4?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 113.41,
+    "weighted_pain": 91,
+    "pain_breadth": 6
+  },
+  {
+    "title": "Desert Sky Family Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 1000,
+    "review_count": 1105,
+    "negative_reviews_1_3_star": 55,
+    "negative_pct": 5.0,
+    "phone": "+1 602-833-1560",
+    "website": "https://www.skydentalaz.com/phoenix-locations/desert-sky/",
+    "emails": [
+      "sierrafo@skydentalaz.com",
+      "desertfo@skydentalaz.com",
+      "southernom@skydentalaz.com"
+    ],
+    "address": "7620 W Thomas Rd #102, Phoenix, AZ 85033, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "insurance_verification_missing",
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "appointment_booking_delay",
+      "language_barrier_spanish"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Stephanie Quinonez",
+          "snippet": "STAY AWAY from this office and all their other locations. I went to 43rd but it seemed they were money hungry. Went to 75th ave & the dentist is GREAT hence the one star. Horrible company. They are DESPERATE for money. Asked them to not bill my old jobs insurance and that I have ahcccs now and they ",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "kelly kasallis",
+          "snippet": "I'd give zero stars if I was able to.This was the filthiest most unprofessional dental office I've EVER been to. I called to schedule an emergency root canal. The women answering the phones in the front office confirmed they would be able to take care of me, in her words, \"immediately upon my arriva",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ashlyn Ellis",
+          "snippet": "I had an emergency extraction & they didn\u2019t give me no medication when asked due to the pain being severe. Also at the time of cancellation they did not inform me of a cancellation fee but let\u2019s also talk about how I CALLED 18 times one time & another time I called 5 times at 8am on the dot when I h",
+          "matched": "emergency"
+        }
+      ],
+      "insurance_verification_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Ernesto Calderon",
+          "snippet": "Was not happy with the charges and explanation. The service was excellent; the whole crew goes above and beyond to make you comfortable. The work performed is very well done, pain-free, but I was quoted way less than what I had to pay. I understand that insurance sometimes doesn't cover everything, ",
+          "matched": "quoted way less"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Michael Connelly",
+          "snippet": "Worst dental experience of my life. I made an 8am appointment and the doctors office calls me the night before rescheduling until 10 am. I arrive early and they cannot find my insurance despite me giving them my card and are unable to figure out how to contact my insurance. Then the rude nurse jamme",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Lance Fulton",
+          "snippet": "Editing this as I never was able to get the front desk to confirm why they suddenly dropped providing dental care. Tried calling them many times, was met with rude remarks and ultimately got no answer out of anyone I talked to. I have been coming here for years, nothing different on the insurance pl",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Breanne Willard Maunders",
+          "snippet": "I've given them almost 1000$ to fill 6 cavities and they hurt WAY WORSE after having them filled than they did before. I haven't been able to eat anything that requires real chewing for over 6 months; it feels like they drilled into my teeth and then left the nerve exposed. I have been back to the o",
+          "matched": "rude front desk"
+        },
+        {
+          "rating": 1,
+          "reviewer": "kelly kasallis",
+          "snippet": "I'd give zero stars if I was able to.This was the filthiest most unprofessional dental office I've EVER been to. I called to schedule an emergency root canal. The women answering the phones in the front office confirmed they would be able to take care of me, in her words, \"immediately upon my arriva",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Marco Valenzuela",
+          "snippet": "I had a horrible experience with this place they said my son needed braces and he didn\u2019t they just needed to sale and also they never bill you on time making me ow them thousands of dollars their billing department is so bad the manager is very rude and arrogant \u201cAlondra\u201d I please advise you to not ",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Anton Donchev",
+          "snippet": "It's the worst place I've been. I went for a filling and cleaning and they was about to charge me $2000 for things I really don't need it plus I have Dental insurance. Run away from this place the doctor also is vere unprofessional and better throw his degree in the trashcan. DO NOT EVER VISIT THIS ",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Aida Ortizz",
+          "snippet": "The  service was good but I'm never going back orthodontist was really rude.",
+          "matched": "rude"
+        },
+        {
+          "rating": 2,
+          "reviewer": "cristal johnson",
+          "snippet": "Worst place ever office manager is rude as hell I can barely understand her she Spanish speaking, she told me to go to Mexico to get my teeth for cheap ! like really wtheckk",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Martha Martinez",
+          "snippet": "They took me in do xrays then when I came out they said they didn't except my insurance then why would they call me in to do xrays inthe first place, unprofessional.",
+          "matched": "unprofessional"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Lance Fulton",
+          "snippet": "Editing this as I never was able to get the front desk to confirm why they suddenly dropped providing dental care. Tried calling them many times, was met with rude remarks and ultimately got no answer out of anyone I talked to. I have been coming here for years, nothing different on the insurance pl",
+          "matched": "no answer"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Maya",
+          "snippet": "Hours say they are open so I called and the phone did ring but no one answered so I called again and it went straight to voicemail\u2026if your not open then update your hours to say your closed",
+          "matched": "no one answer"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ashlyn Ellis",
+          "snippet": "I had an emergency extraction & they didn\u2019t give me no medication when asked due to the pain being severe. Also at the time of cancellation they did not inform me of a cancellation fee but let\u2019s also talk about how I CALLED 18 times one time & another time I called 5 times at 8am on the dot when I h",
+          "matched": "voicemail"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "kelly kasallis",
+          "snippet": "I'd give zero stars if I was able to.This was the filthiest most unprofessional dental office I've EVER been to. I called to schedule an emergency root canal. The women answering the phones in the front office confirmed they would be able to take care of me, in her words, \"immediately upon my arriva",
+          "matched": "booked solid"
+        }
+      ],
+      "language_barrier_spanish": [
+        {
+          "rating": 2,
+          "reviewer": "cristal johnson",
+          "snippet": "Worst place ever office manager is rude as hell I can barely understand her she Spanish speaking, she told me to go to Mexico to get my teeth for cheap ! like really wtheckk",
+          "matched": "Spanish"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Insurance Eligibility Verification Workflow",
+      "Multilingual (Spanish) Voice Agent",
+      "Voice AI Appointment Booking",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 60.5,
+    "link": "https://www.google.com/maps/place/Desert+Sky+Family+Dental/data=!4m7!3m6!1s0x872b15424384f55d:0x6923ff3fc7be5968!8m2!3d33.4815836!4d-112.2224602!16s%2Fg%2F1td_c46t!19sChIJXfWEQ0IVK4cRaFm-xz__I2k?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 72.53,
+    "weighted_pain": 51,
+    "pain_breadth": 6
+  },
+  {
+    "title": "Aloha Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.6,
+    "reviews_analyzed": 622,
+    "review_count": 623,
+    "negative_reviews_1_3_star": 73,
+    "negative_pct": 11.7,
+    "phone": "+1 512-707-7300",
+    "website": "https://www.aloha-dental.com/",
+    "emails": [
+      "webreporting@gargle.com"
+    ],
+    "address": "1614 E Riverside Dr, Austin, TX 78741, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "billing_errors",
+      "insurance_verification_missing",
+      "after_hours_emergency",
+      "appointment_booking_delay",
+      "missed_calls_unreachable"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Amy Hackerd",
+          "snippet": "I had to cancel my appt due to my car breaking down. Life happens. I was considerate and called to cancel.  They charged me $40 apparently, but never called, emailed, or mailed me a notification.  Then, over 3 months later, say I'm going into collections if it's not paid.  Greg was rude, and had zer",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Leighla Molina",
+          "snippet": "Hygienist and dentist were clear and informative. However, reception staff was very rude when I asked about payment plans when I noticed the cost was steep. She recommended that I put a $2800 charge on a credit card and even laughed during the process. Never returning and would not recommend, even w",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Lauren Jones",
+          "snippet": "DO NOT GO HERE! They lie and make up issues for money!!!! They use a camera to manipulate you and \"show you\" your issues. All the good reviews are probably fake. Here's what happened to me:\n\n- The staff all gave me horrific vibes. They immediately seemed sickly sweet (but also subtly rude like a tee",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Alicia Saldana",
+          "snippet": "I had a terrible experience dealing with the front desk representative when I was reaching for a treatment I did years ago. He was super disrespectful, he was sarcastic and provoking me. He stated \u201cgo ahead and make a bad review in our 5 start reviews\u201d so here you have\n\nCustomer services is everythi",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Glynn",
+          "snippet": "I hate to give bad reviews and never do, even more so because I really have liked working with Dr. Mulgrew and the medical staff at Aloha but I will never go to this office again. I had to cancel an appointment last minute, which is admittedly a terrible thing to do, but as we all know life happens ",
+          "matched": "front desk staff were extraordinarily rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ilene York",
+          "snippet": "Tried to book an initial visit which got cancelled due to the ice and weather, and was not contacted at all about rescheduling. Tried to reschedule and they wanted to book me over a month out. Super unprofessional!",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Gloria Ukaegbu",
+          "snippet": "Do come here!!! They will lie and say you missed appointments just to collect money. I would not recommend this place. Staff is rude and standoffish. Please save your money go somewhere else.",
+          "matched": "rude"
+        }
+      ],
+      "billing_errors": [
+        {
+          "rating": 1,
+          "reviewer": "Asmaa Salem Farag",
+          "snippet": "I\u2019m very disappointed with this office. Before my treatment, I specifically asked them to check my insurance and tell me my total out-of-pocket cost. They confirmed the amount, I paid it in full, and was told I would not be billed anything further. Months later, I was suddenly sent to collections fo",
+          "matched": "sent to collections"
+        }
+      ],
+      "insurance_verification_missing": [
+        {
+          "rating": 1,
+          "reviewer": "ash knight",
+          "snippet": "I initially visited Dr. Wharton because I was in pain and looking for an affordable solution. I wanted my tooth extracted, as it would be less invasive and cheaper. I explained to Dr. Wharton that I couldn't afford a root canal, but she insisted it was the better option and convinced me to go ahead ",
+          "matched": "unexpected cost"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Natalie Lombardo",
+          "snippet": "Went here in June 24th at 2:30pm, for a normal cleaning.  Did X-rays. The dentist said I have SIX cavities, she puts me on the schedule as if this is an emergency and leaves no room for any other conservative options. My husband felt suspicious so I held off on going back since I felt no pain. I wen",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Kimberly Hieber",
+          "snippet": "DO NOT GO. HORRIBLE EXPERIENCE. DR MULGREW DAMAGED MY ONCE HEALTHY TOOTH REQUIRING A ROOT CANAL AND CROWN.\n\nI went to Dr Mulgrew when my previous dentist retired. During my first visit  I was told two unexpected things, that- 1. a filling I had was deteriorating and 2. I needed a night guard as I wa",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Meghan Graham",
+          "snippet": "I have been a patient of Aloha for over four years. I really liked my pervious dentist, Dr. Rho, but she left the practice, and now I am getting a sense as to why. I called to check on my crown since it has been over TWO months since getting a temporary post installed and I hadn't heard from them. I",
+          "matched": "night of no sleep and throbbing pain"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "Kimberly Hieber",
+          "snippet": "DO NOT GO. HORRIBLE EXPERIENCE. DR MULGREW DAMAGED MY ONCE HEALTHY TOOTH REQUIRING A ROOT CANAL AND CROWN.\n\nI went to Dr Mulgrew when my previous dentist retired. During my first visit  I was told two unexpected things, that- 1. a filling I had was deteriorating and 2. I needed a night guard as I wa",
+          "matched": "weeks out"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ilene York",
+          "snippet": "Tried to book an initial visit which got cancelled due to the ice and weather, and was not contacted at all about rescheduling. Tried to reschedule and they wanted to book me over a month out. Super unprofessional!",
+          "matched": "month out"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Glynn",
+          "snippet": "I hate to give bad reviews and never do, even more so because I really have liked working with Dr. Mulgrew and the medical staff at Aloha but I will never go to this office again. I had to cancel an appointment last minute, which is admittedly a terrible thing to do, but as we all know life happens ",
+          "matched": "no response"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Billing Automation / Practice Management",
+      "Insurance Eligibility Verification Workflow",
+      "Voice AI Appointment Booking",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/agentic-ai",
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 54.3,
+    "link": "https://www.google.com/maps/place/Aloha+Dental/data=!4m7!3m6!1s0x8644b451c4b4ba31:0x5103583d4f446d87!8m2!3d30.2455621!4d-97.7306597!16s%2Fg%2F1tgdjcv1!19sChIJMbq0xFG0RIYRh21ETz1YA1E?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 63.58,
+    "weighted_pain": 42,
+    "pain_breadth": 6
+  },
+  {
+    "title": "Chandler Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 1000,
+    "review_count": 1934,
+    "negative_reviews_1_3_star": 51,
+    "negative_pct": 2.6,
+    "phone": "+1 480-917-8400",
+    "website": "http://www.chandlerdental.com/",
+    "emails": [
+      "user@domain.com"
+    ],
+    "address": "2095 W Frye Rd #4, Chandler, AZ 85224, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "after_hours_emergency",
+      "appointment_booking_delay",
+      "insurance_verification_missing",
+      "long_wait_in_chair"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Adelaida Aguirre",
+          "snippet": "I had some major billing issues as a patient here.\n\nPrior to scheduling my appointment I spoke with a young man at the office who confirmed that he ran my insurance and the services were covered.   Well the young man did not tell the truth nor ran my insurance ( he did not do the job he was supposed",
+          "matched": "front desk has also acted unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Lee B",
+          "snippet": "I was a patient at Chandler Dental from 2021-2022 after choosing Dr. Saunders for some personal work. At the time, I had been in the area a few years and selected this office as my regular dentist after some searching. Finding a trustworthy dental office and dentist you like can be daunting, so I wa",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Sultana Rashid",
+          "snippet": "I have been a patient at Chandler Dental for last 5 years but never experienced anything like today\u2019s visit which was with the hygienist at 10.30am. She was so cold, unprofessional, disorganized and horrible that I\u2019m reconsidering my treatments I was supposed to schedule early next year. I arrived t",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Nick Gupta",
+          "snippet": "Completely trashy, unprofessional, and horrible service. I was one time 10 minutes late and they turned me down. I\u2019ve waited for over 15 minutes every single time I have an appointment with them. On one occasion, the doctor was more than 30 minutes late and I patiently waited. When I asked to resche",
+          "matched": "unprofessional. The front desk"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ashton De Leon",
+          "snippet": "Hi everyone! Be sure to make sure you have your insurance verified PRIOR to your appointment!!!! I recently moved to Chandler, Arizona, two months ago from Michigan. I have a degree in business administration and am a healthcare  billing manager. I understand the many misunderstandings between patie",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Vanessa Silver",
+          "snippet": "I don't know how they are getting good reviews. Funny part is that owner is responding to reviews only with 5 stars  - Fishy scheme ! They are the worst. Keep recommending extra stuff that is just not needed and charge you extra money for that. Hygienists are rude and need to have some lessons of mo",
+          "matched": "rude"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Madison Gibby",
+          "snippet": "Went for a filling, they weren\u2019t 100% prepared for me at my 7am appointment, which is okay but frustrating. But then afterwards the assistant was a bit rude when I asked for clarification. Overall okay but I\u2019ve been to better. It might have been an off day for them.",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Sathish C",
+          "snippet": "The worst service I received at this place. I would like to give 0 star but there is no option.\n\nI won\u2019t recommend this place to others at all.\n\nThe staff at front desk and hygienist are rude. Better to find other places where you get good service and respect.",
+          "matched": "front desk and hygienist are rude"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Lee B",
+          "snippet": "I was a patient at Chandler Dental from 2021-2022 after choosing Dr. Saunders for some personal work. At the time, I had been in the area a few years and selected this office as my regular dentist after some searching. Finding a trustworthy dental office and dentist you like can be daunting, so I wa",
+          "matched": "no response"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Lee B",
+          "snippet": "I was a patient at Chandler Dental from 2021-2022 after choosing Dr. Saunders for some personal work. At the time, I had been in the area a few years and selected this office as my regular dentist after some searching. Finding a trustworthy dental office and dentist you like can be daunting, so I wa",
+          "matched": "after hours"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Chi Vong",
+          "snippet": "I've been using Chandler Dental for the past 10+ years, and I was always on time for my appointment. And as usual, I have spent countless hours waiting for my appointments for the past 10+ years there.\n\nToday, due to a work emergency, I was 15~20 minutes late to my appointment. After I got there, th",
+          "matched": "emergency"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "Lee B",
+          "snippet": "I was a patient at Chandler Dental from 2021-2022 after choosing Dr. Saunders for some personal work. At the time, I had been in the area a few years and selected this office as my regular dentist after some searching. Finding a trustworthy dental office and dentist you like can be daunting, so I wa",
+          "matched": "next available"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Naveen S.",
+          "snippet": "I do not recommend and suggest you get second opinions with anything besides a routine cleaning. I was told that there is 4 months waiting so got the appointment for June in Feb. My all routine exam was done but I was told that Dr Davis has left for day and some other doctor came to see me after all",
+          "matched": "months wait"
+        }
+      ],
+      "insurance_verification_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Jian Yang",
+          "snippet": "My son recently had a routine check-up and cleaning at this dental office, and we were required to purchase a mouthwash directly from the dentist. I had to pay for it out of pocket since it wasn't covered by insurance. When I asked about other mouthwash options available at a pharmacy, the dentist i",
+          "matched": "wasn't covered"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "Sultana Rashid",
+          "snippet": "I have been a patient at Chandler Dental for last 5 years but never experienced anything like today\u2019s visit which was with the hygienist at 10.30am. She was so cold, unprofessional, disorganized and horrible that I\u2019m reconsidering my treatments I was supposed to schedule early next year. I arrived t",
+          "matched": "past scheduled time"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Insurance Eligibility Verification Workflow",
+      "Voice AI Appointment Booking",
+      "Voice AI for Dental (AI Receptionist)",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 50.6,
+    "link": "https://www.google.com/maps/place/Chandler+Dental/data=!4m7!3m6!1s0x872b00b94bfc7377:0x1e918e5f1696bec2!8m2!3d33.298178!4d-111.877986!16s%2Fg%2F1vnnjw3h!19sChIJd3P8S7kAK4cRwr6WFl-OkR4?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 59.86,
+    "weighted_pain": 38,
+    "pain_breadth": 6
+  },
+  {
+    "title": "Tempe Dental Care",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 1000,
+    "review_count": 1740,
+    "negative_reviews_1_3_star": 69,
+    "negative_pct": 4.0,
+    "phone": "+1 480-730-5000",
+    "website": "https://www.tempedentalcare.com/",
+    "emails": [
+      "info@tempedentalcare.com"
+    ],
+    "address": "5801 S McClintock Dr STE 101, Tempe, AZ 85283, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "recall_followup_missing"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Sabrina Martinez",
+          "snippet": "Everyone was nice but I was supposed to be sent an RX for emergency care and it was never sent\u2026 they are closed till Monday and have no one to reach out to for emergency .",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "M Yarbrough",
+          "snippet": "WROST EXPERIENCE!  Please read\nGoing through the review I assumed this was a good office but I was absolutely wrong I was treated less than a citizen my first appointment was rushed the doctor seemed irritated I figured it was just a bad day however my second appointment was so horrible I came in fo",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "christopher huff",
+          "snippet": "Attempted to make an appointment, but receptionist was difficult and a little rude. Refused to tell me exactly what I could have done during my first visit. Tried to explain it was more of an emergency situation, but she did not seem to care. The receptionist seemed a bit annoyed when I asked \u201cwhy w",
+          "matched": "emergency"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Chris A",
+          "snippet": "Had scheduled a dental appointment for Monday, and instead of working on one tooth for a crown; we ended up doing a root canal and temporary crown on a different tooth that lost it\u2019s filling the night before. Two hours of work, feeling no pain or discomfort. I can\u2019t say enough about the care and wor",
+          "matched": "night before. Two hours of work, feeling no pain"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Josie Tropin",
+          "snippet": "Horrible. Staff is rude, not professional. They sit eat at the desk. If you have a question they don't want to bother their sitting and visiting time. Horrible \ud83d\udc4e",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "christopher huff",
+          "snippet": "Attempted to make an appointment, but receptionist was difficult and a little rude. Refused to tell me exactly what I could have done during my first visit. Tried to explain it was more of an emergency situation, but she did not seem to care. The receptionist seemed a bit annoyed when I asked \u201cwhy w",
+          "matched": "receptionist was difficult and a little rude"
+        },
+        {
+          "rating": 3,
+          "reviewer": "nicholas wischmeier",
+          "snippet": "My patient experience with TDC was great. I have a fear of Dentists and I was really stressed out about getting that tooth pulled. Vivian, the dental assistant that took my X-ray and helped Dr Szeto with the extraction really calmed me down. She was exceptional. Dr Szeto was awesome as well and had ",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Arizona Guy",
+          "snippet": "I am giving this place a 1 Star rating. No personal grudges BUT they messed up my mouth really bad. I had to get my wisdom teeth (All 4) pulled out. I had to consult another dentist who suggested that this wasn't a job of a Dentist BUT an Oral Surgeon.\nAshley at Tempe Dental Care was extremely rude ",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Natalie Frugle",
+          "snippet": "Today, The girl who answered the phone was very argumentative with me, treating me like I was stupid for asking questions and wanting more information regarding my recent visit. When MY insurance company is being billed and MY money is being spent and MY mouth hurts, I WILL ask questions. especially",
+          "matched": "rude"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Denica Davis",
+          "snippet": "I went for denture. They removed all my top teeth, then charged $750 for a temporary denture that never fit properly. I was told my insurance covered dentures when I first started process so would be able to get permanent Jan. I went Jan 3 for my permanent fitting at check out I was told my denture ",
+          "matched": "no response"
+        }
+      ],
+      "recall_followup_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Nabia Akter",
+          "snippet": "This place is a scam! most of the positive reviews are bought with $25 Starbucks gift card.\n\nI went to see a dentist there about couple months ago coz I needed to get my wisdom tooth extracted. At the time they said because my insurance plan was a fairly new one they could not give me an exact estim",
+          "matched": "never heard back"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Outbound Recall Campaigns",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/voice-agents/outbound-campaigns"
+    ],
+    "score": 40.9,
+    "link": "https://www.google.com/maps/place/Tempe+Dental+Care/data=!4m7!3m6!1s0x872b064bc2431d29:0xfd7b46896dda814e!8m2!3d33.3708733!4d-111.9109929!16s%2Fg%2F1tnqhg2y!19sChIJKR1DwksGK4cRToHabYlGe_0?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 51.12,
+    "weighted_pain": 33,
+    "pain_breadth": 4
+  },
+  {
+    "title": "East Valley Dental Care",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 1000,
+    "review_count": 1540,
+    "negative_reviews_1_3_star": 41,
+    "negative_pct": 2.7,
+    "phone": "+1 480-890-2811",
+    "website": "https://www.eastvalleydentalcare.com/",
+    "emails": [
+      "user@domain.com"
+    ],
+    "address": "426 W 5th Pl, Mesa, AZ 85201, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "long_wait_in_chair",
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Kellye Sundar",
+          "snippet": "there isn't enough space on here to describe how atrocious this dental office is. I've been going here for over two years and every single time they lie to me. I'm starting to believe that this is a genuine scam in place with Dr Fish, and Garner Orthodontics.\n\nI was referred into ortho by Mesa Denta",
+          "matched": "emergency"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Kaloni Udall",
+          "snippet": "My first review was one star. And I left a very honest but negative review due to my negative experience. However I feel that it would only be fair to come back and update my review to three because they took measures to fix their mistake. My first experience I was left to wait an hour in the waitin",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Matthew Lara",
+          "snippet": "Not worth even a single star!!! Worst dental office!!!! Don\u2019t waste your time going there, dr Coldwell is interested in making money as quick as possible instead of treating the patient\u2019s issue. I took my mom there due to an emergency matter, which supposedly was covered by her insurance. He didn\u2019t ",
+          "matched": "emergency"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "Brittany Wieneke",
+          "snippet": "The office has asked me to review so I will. I researched many offices in my area and only chose this one based on the reviews. Little did I know that most of these reviews came from patients of the PREVIOUS OWNER AND PREVIOUS NAME. Don't waste your time! I came in with a broken front tooth hoping t",
+          "matched": "waited 45 min"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Joy Parsons (Inconceivable)",
+          "snippet": "I would give no stars if it were an option. So disappointed in this office. This was my sons second appt, we show up on time only to be told they\u2019ve canceled it because it wasn\u2019t verbally confirmed yesterday? What is the point of having a text confirmation if your office refuses to rely on it? Also ",
+          "matched": "double booked"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Brittany Wieneke",
+          "snippet": "The office has asked me to review so I will. I researched many offices in my area and only chose this one based on the reviews. Little did I know that most of these reviews came from patients of the PREVIOUS OWNER AND PREVIOUS NAME. Don't waste your time! I came in with a broken front tooth hoping t",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Joy Parsons (Inconceivable)",
+          "snippet": "I would give no stars if it were an option. So disappointed in this office. This was my sons second appt, we show up on time only to be told they\u2019ve canceled it because it wasn\u2019t verbally confirmed yesterday? What is the point of having a text confirmation if your office refuses to rely on it? Also ",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Melissa F",
+          "snippet": "I have never encountered a medical practice more unethical, unprofessional and devoid of all talent than what I encountered at Sunwest Dental.\n\nI came in to replace a front crown that had fallen out. I was told by their \u201cdentist\u201d that it fell out because the interior tooth was decaying as were the 3",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Matthew Lara",
+          "snippet": "Not worth even a single star!!! Worst dental office!!!! Don\u2019t waste your time going there, dr Coldwell is interested in making money as quick as possible instead of treating the patient\u2019s issue. I took my mom there due to an emergency matter, which supposedly was covered by her insurance. He didn\u2019t ",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 2,
+          "reviewer": "sarah padilla",
+          "snippet": "Arrived early to appointment.  Was told I did not have a scheduled appointment for the date.  I had a confirmed text message confirming scheduled appointment and I also received a prior phone call from office assistance requesting to confirm scheduled appointment.  I confirmed appointment via text m",
+          "matched": "unprofessional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 34.6,
+    "link": "https://www.google.com/maps/place/East+Valley+Dental+Care/data=!4m7!3m6!1s0x872ba7c8d80abe7f:0xceaa52f7e414134b!8m2!3d33.4250941!4d-111.8408443!16s%2Fg%2F1tcwx5rg!19sChIJf74K2MinK4cRSxMU5PdSqs4?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 39.56,
+    "weighted_pain": 24,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Wang and Cortes Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 479,
+    "review_count": 480,
+    "negative_reviews_1_3_star": 21,
+    "negative_pct": 4.4,
+    "phone": "+1 813-295-7422",
+    "website": "http://www.yoursouthtampadentist.com/",
+    "emails": [
+      "info@yoursouthtampadentist.com"
+    ],
+    "address": "4212 S Manhattan Ave, Tampa, FL 33611, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Jen M",
+          "snippet": "After being a patient for 10 years, I was disappointed to learn this family business had lost its personal touch. The front desk was unbelievably rude. We\u2019ve turned to them as our child\u2019s dentist, for a cosmetic procedures, etc. But when you\u2019re just a number it\u2019s time to find a new practice.",
+          "matched": "front desk was unbelievably rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Lavender Lady",
+          "snippet": "I am new to south tampa and initially booked with Dr. Wang as a new patient. He studied close to my home so i liked that and given that this is a family practice, I really felt inclined to book an appt. The receptionists cancelled that appointment (did not say why) and offered me the appointment i g",
+          "matched": "RECEPTIONISTS HERE ARE VERY UNPROFESSIONAL"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ana Traun",
+          "snippet": "This place is beautiful and kept up with. But every time my kids come to get their cleaning and braces fixed up, they always complain about one hygienist, Sandra. They say every time they go she always brings them down and scorns them for their teeth. They are kids. I understand that their teeth won",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Kevin O",
+          "snippet": "Disappointed in the unethical billing the office uses to scam insurance companies and patients. I have been taking my daughter here for years and just realized by chance they are stealing money from both the insurance companies and patients.\n\nI paid in full for three separate treatments for my daugh",
+          "matched": "rude"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Andrea Collins",
+          "snippet": "First time I went was great, I had my two children scheduled for their no-annual appointment. I had a family emergency come up and had to clear my schedule so called to reschedule. I called before they closed to inform them we could not make it in. The girl who answered said there would be a fee bec",
+          "matched": "rude"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Lavender Lady",
+          "snippet": "I am new to south tampa and initially booked with Dr. Wang as a new patient. He studied close to my home so i liked that and given that this is a family practice, I really felt inclined to book an appt. The receptionists cancelled that appointment (did not say why) and offered me the appointment i g",
+          "matched": "voice mail"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Salvatore",
+          "snippet": "I was searching for a new dentist and Tampa and was recommended Wang and Cortes. Upon visiting their website I requested an appointment due to a dental emergency which I explained to them. 3 days later and I never received a call back or email or nothing to get an appointment. Is this the type of bu",
+          "matched": "emergency"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Andrea Collins",
+          "snippet": "First time I went was great, I had my two children scheduled for their no-annual appointment. I had a family emergency come up and had to clear my schedule so called to reschedule. I called before they closed to inform them we could not make it in. The girl who answered said there would be a fee bec",
+          "matched": "emergency"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental"
+    ],
+    "score": 27.1,
+    "link": "https://www.google.com/maps/place/Wang+and+Cortes+Dental/data=!4m7!3m6!1s0x88c2c33da429cb27:0x3dfcb942236b547c!8m2!3d27.9035623!4d-82.5180178!16s%2Fg%2F1tglzs4s!19sChIJJ8sppD3DwogRfFRrI0K5_D0?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 34.44,
+    "weighted_pain": 20,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Modern Dental Care",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 213,
+    "review_count": 213,
+    "negative_reviews_1_3_star": 12,
+    "negative_pct": 5.6,
+    "phone": "+1 813-870-0480",
+    "website": "https://www.smilesonarmenia.com/",
+    "emails": [
+      "fancybox_sprite@2x.png",
+      "fancybox_loading@2x.gif",
+      "email@email.com"
+    ],
+    "address": "4144 N Armenia Ave #260, Tampa, FL 33607, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "recall_followup_missing",
+      "staff_rude_front_desk",
+      "missed_calls_unreachable"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Tess \u201cGypsea Tess\u201d Mohr",
+          "snippet": "DO NOT GO HERE FOR DENTURES!!!!!  Absolute, extreme frustration and disappointment. After 16 months of trying Dr. Campbell still could not get my dentures to fit right. There were so many problems I was amazed. She glued my bottom denture to my gum and I spent 3 days desperately trying to get it to ",
+          "matched": "emergency"
+        }
+      ],
+      "recall_followup_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Tess \u201cGypsea Tess\u201d Mohr",
+          "snippet": "DO NOT GO HERE FOR DENTURES!!!!!  Absolute, extreme frustration and disappointment. After 16 months of trying Dr. Campbell still could not get my dentures to fit right. There were so many problems I was amazed. She glued my bottom denture to my gum and I spent 3 days desperately trying to get it to ",
+          "matched": "never heard back"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Zineb Fn",
+          "snippet": "They canceled my scheduled appointment just a day before and never called back to give me a new appointment. When I called them they kept flip flopping between days and contradicting the day for a new appointment. I\u2019m disappointed these people don\u2019t give their customers any value. Don\u2019t waste your t",
+          "matched": "never called back"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Kelly Johnson",
+          "snippet": "I have never been so blatantly disrespected as I was at Modern Dental Care.  One of the doctors was extremely rude when I asked if I could forego x-rays and just get a cleaning, due to cost.  She told me that she could not perform a cleaning without x-rays, making fun of the fact that I would even a",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Simon Takahashi",
+          "snippet": "Horrible service, unprofessional. Can't get things right at first visit.",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Melanie Yoshida",
+          "snippet": "Stay away. Shady lending practices and unprofessional staff.",
+          "matched": "unprofessional staff"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Zineb Fn",
+          "snippet": "They canceled my scheduled appointment just a day before and never called back to give me a new appointment. When I called them they kept flip flopping between days and contradicting the day for a new appointment. I\u2019m disappointed these people don\u2019t give their customers any value. Don\u2019t waste your t",
+          "matched": "never called back"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Outbound Recall Campaigns",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/voice-agents/outbound-campaigns"
+    ],
+    "score": 23.2,
+    "link": "https://www.google.com/maps/place/Modern+Dental+Care/data=!4m7!3m6!1s0x88c2c38d4d307f47:0x82786a7589fffaad!8m2!3d27.9771742!4d-82.4851319!16s%2Fg%2F11xb5pjfd!19sChIJR38wTY3DwogRrfr_iXVqeII?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 34.39,
+    "weighted_pain": 19,
+    "pain_breadth": 4
+  },
+  {
+    "title": "ATX Family Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 809,
+    "review_count": 818,
+    "negative_reviews_1_3_star": 32,
+    "negative_pct": 3.9,
+    "phone": "+1 512-717-3147",
+    "website": "https://www.atxfamilydental.com/",
+    "emails": [
+      "info@atxfamilydental.com"
+    ],
+    "address": "1700 S 1st St, Austin, TX 78704, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "insurance_verification_missing",
+      "appointment_booking_delay"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Dhvanit Vora",
+          "snippet": "Great services. Poor finance management. I went and had dental clean up at Atx Family dental. They were very professional and results were up to the mark. Excellent job. No complain on that behalf. We agreed on what will I be charged - what will I pay and what will insurance cover. After that I got ",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Evgeni Zikov",
+          "snippet": "The worst dental office experience I ever had. It\u2019s my first negative review on the internet, but it was so bad that I decided to inform people about it. I found ATX dental via google and because they had a great reviews I made appointment with them. I just needed a regular cleaning and diagnostic. ",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "abernathy Tx",
+          "snippet": "The worst experience. Doctors are always canceling which is so unprofessional. They rescheduled me twice already (same day notice) and didn\u2019t have any availability until 4 months out. They expect you to understand, but if we reschedule theirs a $50-$75 fee.",
+          "matched": "unprofessional"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Zoey Sweeny",
+          "snippet": "Looking for a new dentist in the area, I thought ATX Family Dental would be a great spot! Turns out they are extremely unresponsive, unorganized, and flat out dismissive. I tried to make a first time appointment on several occasions only to be ignored or ghosted. It might be great once you're there ",
+          "matched": "unresponsive"
+        }
+      ],
+      "insurance_verification_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Alejandra Cueva",
+          "snippet": "The dental services are great. Unfortunately the finance department is terrible. There\u2019s always surprise charges & frankly, it feels like they\u2019re trying to scam their patients. Don\u2019t trust them.",
+          "matched": "surprise charge"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "abernathy Tx",
+          "snippet": "The worst experience. Doctors are always canceling which is so unprofessional. They rescheduled me twice already (same day notice) and didn\u2019t have any availability until 4 months out. They expect you to understand, but if we reschedule theirs a $50-$75 fee.",
+          "matched": "months out"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Insurance Eligibility Verification Workflow",
+      "Voice AI Appointment Booking",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 21.7,
+    "link": "https://www.google.com/maps/place/ATX+Family+Dental/data=!4m7!3m6!1s0x8644b4eb0b01986f:0x6b241d4769ed491e!8m2!3d30.2482229!4d-97.7559705!16s%2Fg%2F11cn2mvqwc!19sChIJb5gBC-u0RIYRHkntaUcdJGs?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 33.74,
+    "weighted_pain": 17,
+    "pain_breadth": 4
+  },
+  {
+    "title": "Buttercup Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 907,
+    "review_count": 949,
+    "negative_reviews_1_3_star": 25,
+    "negative_pct": 2.6,
+    "phone": "+1 512-335-8121",
+    "website": "http://www.buttercupdental.com/",
+    "emails": [
+      "contact@officite.com"
+    ],
+    "address": "901 Cypress Creek Road #203, Cedar Park, TX 78613, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "staff_rude_front_desk",
+      "long_wait_in_chair"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 2,
+          "reviewer": "HOT",
+          "snippet": "My first visit was an emergency re-seat of a crown and they did a good job. My second visit was a cleaning and exam by the doctor which ended up being a cleaning / short lecture by the hygienist for the stains on my teeth and no exam by the doctor. I just had my third visit yesterday and it did not ",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Richard Fitzwell",
+          "snippet": "Terrible!! I was basically tortured in the chair for over an hour! Started out a couple of weeks ago when I went in for a cleaning and the dental hygienist said that I still had a temporary crown in my mouth. She asked the assistant to go check and sure enough I did have a permanent crown there from",
+          "matched": "weekend"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 3,
+          "reviewer": "Sara Mozdir Moss",
+          "snippet": "The hygienists are wonderful, gentle and thorough. Dr Park is great- calm, articulate and a skilled dentist. Dr Kauer was awful. She was impatient, curt and manhandled my jaw. She was as condescending and abrasive to the hygienist, which was offputting. I\u2019ll continue to recommend the practice as a w",
+          "matched": "condescending"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ucky Brandt",
+          "snippet": "Awful experience. I had to take care of a crown and Dr. Stancey did it, yeah the one that I believe has a God complex and treats patients horrible. Long story short he then told me my other crown was \u201cpatched up\u201d but that he had seen that before done by doctors \u201cfrom those countries\u201d I guess he thin",
+          "matched": "rude"
+        },
+        {
+          "rating": 2,
+          "reviewer": "David Johnson",
+          "snippet": "I had a great experience with the dental hygienist - she was very friendly and informative but Dr. Kaur is the worst dentist I've ever had. She was rude, disrespectful, and had no bedside manner. I will not be returning to this clinic for further dental work.",
+          "matched": "rude"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Nathan Zal",
+          "snippet": "I had a root canal done at Buttercup two or three months ago, and as time goes on, I only feel worse and worse about the experience. Overall it seems the procedure was successful, but the process itself was wrought with awkwardness and uncomfortability.\n\nFor one thing, the dental assistant was obvio",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Andrea Huetson",
+          "snippet": "I don\u2019t typically write reviews and even fewer times write poor reviews - after going to buttercup for 10 years the service just went straight downhill - the front desk staff is rude and demanding - my last visit I was told by the dentist that the remaining balance would be waived allowing me to see",
+          "matched": "front desk staff is rude"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "Heather Lyles",
+          "snippet": "My whole family has been going to Buttercup Dental every 6 months for over 10 years until COVID.  I finally felt comfortable going back to the dentist post COVID and I was treated so disrespectfully.\n\nI waited 30 minutes to be taken back.  They did my X-rays and the dentist came in.  I waited for th",
+          "matched": "waited 30 min"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 27.0,
+    "link": "https://www.google.com/maps/place/Buttercup+Dental/data=!4m7!3m6!1s0x865b2d7619563993:0xaeae94f52e476a94!8m2!3d30.4932396!4d-97.8281275!16s%2Fg%2F1tjgp_sb!19sChIJkzlWGXYtW4YRlGpHLvWUrq4?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 31.93,
+    "weighted_pain": 17,
+    "pain_breadth": 3
+  },
+  {
+    "title": "The Dental Centre",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 292,
+    "review_count": 292,
+    "negative_reviews_1_3_star": 16,
+    "negative_pct": 5.5,
+    "phone": "+1 512-892-7800",
+    "website": "https://www.dentalcentreaustin.com/",
+    "emails": [
+      "care@dentalcentreaustin.com",
+      "aparnam@growthplug.com",
+      "jackfandds@gmail.com"
+    ],
+    "address": "4301 W William Cannon Dr # 240, Austin, TX 78749, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "recall_followup_missing",
+      "intake_paperwork_duplication"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Holly Flax",
+          "snippet": "I was looking forward to getting my husband in for an appointment but ended up canceling because of the poor customer service I experienced on the phone with Vanessa. She was very rude both times I spoke to her. I\u2019m sure this place has great reviews from the doctor and his clinical team but they may",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ornela",
+          "snippet": "No issues with Dr. Fan except for I can't believe he tolerates the rude front staff and keeps those brats employed and he changed my appt last minute to a more convenient time for himself. This shows a lack of respect for people and a lack of care. Vanessa and Mirna are terrible for starters. Booked",
+          "matched": "rude front staff"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Stephanie",
+          "snippet": "I had an unpleasant  experience with the scheduling system and office staff here. I booked the appointment initially with ZocDoc and it was automatically cancelled without reason. I called into the office and  explained the situation and just booked an appointment over the phone. I received a call f",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Shareef N. Virani",
+          "snippet": "Dentist was great and got me out of a painful tooth. However, there was no clarity on pricing and got a sticker shock when my procedure was ~$100 higher than quoted. Btw I got an examination and one filling and they charged me $535. I questioned the pricing since I thought it would be closer to $440",
+          "matched": "receptionist started to get defensive and rude"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Melissa Melendrez",
+          "snippet": "I went in for a deep cleaning and was given an estimate of $317 at my initial consult for both sides of my mouth. The next day my mouth was sore and I continued to take Ibuprofen on the third day my symptoms were worse to the point that my PCP recommend me to call them and speak to some I did and th",
+          "matched": "voicemail"
+        }
+      ],
+      "recall_followup_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Melissa Melendrez",
+          "snippet": "I went in for a deep cleaning and was given an estimate of $317 at my initial consult for both sides of my mouth. The next day my mouth was sore and I continued to take Ibuprofen on the third day my symptoms were worse to the point that my PCP recommend me to call them and speak to some I did and th",
+          "matched": "no one called me back"
+        }
+      ],
+      "intake_paperwork_duplication": [
+        {
+          "rating": 1,
+          "reviewer": "Ornela",
+          "snippet": "No issues with Dr. Fan except for I can't believe he tolerates the rude front staff and keeps those brats employed and he changed my appt last minute to a more convenient time for himself. This shows a lack of respect for people and a lack of care. Vanessa and Mirna are terrible for starters. Booked",
+          "matched": "paperwork that cover"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Outbound Recall Campaigns",
+      "Patient Intake Automation",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/voice-agents/outbound-campaigns",
+      "silverthreadlabs.com/services/voice-agents/patient-client-intake"
+    ],
+    "score": 23.6,
+    "link": "https://www.google.com/maps/place/The+Dental+Centre/data=!4m7!3m6!1s0x865b4b9766b63abb:0x813a0121d6169688!8m2!3d30.2215037!4d-97.8411819!16s%2Fg%2F1tg9hzs4!19sChIJuzq2ZpdLW4YRiJYW1iEBOoE?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 30.8,
+    "weighted_pain": 15,
+    "pain_breadth": 4
+  },
+  {
+    "title": "Parkfield Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 681,
+    "review_count": 682,
+    "negative_reviews_1_3_star": 35,
+    "negative_pct": 5.1,
+    "phone": "+1 512-339-7848",
+    "website": "http://www.parkfieldfamilydental.com/",
+    "emails": [
+      "user@domain.com"
+    ],
+    "address": "11100 Parkfield Dr, Austin, TX 78758, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "missed_calls_unreachable",
+      "staff_rude_front_desk",
+      "long_wait_in_chair"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 2,
+          "reviewer": "Michael Ginsberg",
+          "snippet": "I found Parkfield Dental through my insurance. They were quick to respond and quick to get me in the office (I think I got in the net day). I had broken a tooth while eating a bagel. Only about a third of my tooth was left along with sharp metal filling. Many x-rays were taken. The staff was very ki",
+          "matched": "emergency"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 2,
+          "reviewer": "Sarah Williams",
+          "snippet": "THIRD UPDATE:\nAfter a year of seeing a new dentist, I\u2019ve had to have every filling done by Dr. Patel replaced due to them failing. My husband is also having to get a new crown because the one they made was too big and has been causing him constant issues, including finding cement left behind. Even t",
+          "matched": "unanswered"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Corrine Ritz",
+          "snippet": "I have been going to this dental office since 2017, even after we moved all the way to Round Rock. I stayed because of the care and attention they always showed me especially having severe anxiety about going to the dentist. They even had me coming in every 3 months so we could stay on top of my car",
+          "matched": "rude"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 2,
+          "reviewer": "Ali Griggs",
+          "snippet": "This was once a great practice when Dr T ran it, but now it's evident the new owners are trying to make money at the expense of the care for their clients and the well being of their staff.\n\nThey reduced the waiting room size by more than half, so even if you are trying to stay COVID conscious, you'",
+          "matched": "overbooked"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Voice AI for Dental (AI Receptionist)",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 16.5,
+    "link": "https://www.google.com/maps/place/Parkfield+Dental/data=!4m7!3m6!1s0x8644c957ddda89ad:0x64c229187b362308!8m2!3d30.383251!4d-97.697865!16s%2Fg%2F1q67f4kqg!19sChIJrYna3VfJRIYRCCM2exgpwmQ?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 29.9,
+    "weighted_pain": 13,
+    "pain_breadth": 4
+  },
+  {
+    "title": "Carus Dental North Austin Medical Center",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 526,
+    "review_count": 540,
+    "negative_reviews_1_3_star": 31,
+    "negative_pct": 5.7,
+    "phone": "+1 737-332-4565",
+    "website": "http://carusnorthaustinmedicalcenter.com/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listing",
+    "emails": [
+      "CDNAustinMC@mydentalmail.com"
+    ],
+    "address": "12201 Renfert Way Ste 345, Austin, TX 78758, United States",
+    "pain_categories": [
+      "after_hours_emergency",
+      "appointment_booking_delay",
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 2,
+          "reviewer": "Dayna Prather",
+          "snippet": "My family has gone here for years. We have seen all the Dentist and absolutely love them. But, it has become incredibly difficult to get an appointment for cleanings, dental emergency, or dental work. We have had Carus cancel on us several times due to the fact they didn't have a hygienist on staff ",
+          "matched": "emergency"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Ester Cridlin",
+          "snippet": "I don\u2019t usually have an issue with the Business Office at this location and love Dr Silvertooth however I have had a claim that was refused due to them not turning into insurance in a timely manner. That issue was resolved. Then I had a poor cleaning where the hygienist was interrupted multiple time",
+          "matched": "emergencies"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "Gilberto",
+          "snippet": "They left me in pain\nI had an appointment for another reason\nAnother tooth had gotten an abscess\nIt was swollen big time\nI was in a lot of pain\nI called them and asked if I could get seen\nThey told me they would look at it in a couple of days when I had an appointment for my other tooth\nWhen I showe",
+          "matched": "weeks away"
+        }
+      ],
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "John White",
+          "snippet": "STAY AWAY!!!\n\nThis place is absolute the worst, DO NOT waste you time and money in this office...\nThey don't care about patient health or their teeth, only thing they care is the money in your pocket. The staff here are rude and unprofessional, especially the receptionists.\n\nI cannot believe, they g",
+          "matched": "rude and unprofessional, especially the receptionist"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Voice AI Appointment Booking"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking"
+    ],
+    "score": 16.1,
+    "link": "https://www.google.com/maps/place/Carus+Dental+North+Austin+Medical+Center/data=!4m7!3m6!1s0x864732fd7940182f:0xfbcd8eb8b89cec90!8m2!3d30.409637!4d-97.704755!16s%2Fg%2F1td6yhss!19sChIJLxhAef0yR4YRkOycuLiOzfs?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 29.6,
+    "weighted_pain": 15,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Waterfront District Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.7,
+    "reviews_analyzed": 348,
+    "review_count": 348,
+    "negative_reviews_1_3_star": 28,
+    "negative_pct": 8.0,
+    "phone": "+1 727-435-7121",
+    "website": "https://www.waterfrontdistrictdental.com/",
+    "emails": [
+      "office@waterfrontdistrictdental.com"
+    ],
+    "address": "180 4th Ave NE, St. Petersburg, FL 33701, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency",
+      "appointment_booking_delay"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Rachel G",
+          "snippet": "I don\u2019t typically leave negative reviews, but I\u2019ve been compelled to share this for quite a while: Dr. Marshall has the personality of a door knob\u2014cold, unapproachable, and lacking bedside manner\u2014her demeanor came off as rude and unprofessional throughout all my visits. After finally switching to an",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Elena Nonino",
+          "snippet": "Dr Marshal does NOT care about her patients. Aside from the fact that she is rude and doesn't communicate clearly, her incompetence became painfully evident during my Invisalign treatment. Not only did she botch the job on my teeth, but she also refused to acknowledge her mistake, brushing off my co",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "snippynurse",
+          "snippet": "Terrible chair side mannor. 1st time there. She walked in behind me. Didnt introduce herself. Looked at x-ray, barked at me to go to front desk. Sent me to endodontist without oral exam for root canal. Didn't need a root canal.  Only needed crowns. Wasted my time and money. Spent less than 5 minutes",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Clarissa Obregon",
+          "snippet": "Paid out of pocket to get insulted, the first thing Kristine suggested was to get my birthmark removed, just became comfortable with it. Plus I was there for my teeth not skincare needs. The clinic also refused to give me the teeth cleaning covered by my insurance. Very rude dentist for this clinic ",
+          "matched": "rude"
+        },
+        {
+          "rating": 2,
+          "reviewer": "David johnson",
+          "snippet": "I Felt rushed and the staff seemed a little unprofessional.  I had a deep cleaning done but I had to ask the technician to go back over some areas",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Kat",
+          "snippet": "Horrible rude dentist. Would not recommend to anyone and would give it negative stars if I could.",
+          "matched": "rude"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Claudia Briggs",
+          "snippet": "Horrible people. We had a medical emergency out side their door. They would not let my husband sit down and told us to get out. They said they would call police. We we on our way to Park Shore Grill and dressed in an appropriate manor. Shame on you. My husband is now currently in St Anthony\u2019s hospit",
+          "matched": "emergency"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "Carmen Madison",
+          "snippet": "**updated to 1 star, read why below**\n\nI apparently needed more root canals and 2 new crowns for a couple of molars because one of the ones they placed from 2 years ago broke and the other popped off when I was using a water flosser.\n\nI did some research into crowns, also asked a friend whose parent",
+          "matched": "wait another 2-3 weeks to get new crowns sin"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Voice AI Appointment Booking"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking"
+    ],
+    "score": 28.3,
+    "link": "https://www.google.com/maps/place/Waterfront+District+Dental/data=!4m7!3m6!1s0x88c2e17605f28463:0x30c43a5f0d4da163!8m2!3d27.7761499!4d-82.632561!16s%2Fg%2F11f0wnp22n!19sChIJY4TyBXbhwogRY6FNDV86xDA?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 29.42,
+    "weighted_pain": 15,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Do Good Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 998,
+    "review_count": 1142,
+    "negative_reviews_1_3_star": 23,
+    "negative_pct": 2.0,
+    "phone": "+1 480-561-5660",
+    "website": "http://dogooddental.com/?utm_source=google.com&utm_medium=business+profile&utm_campaign=",
+    "emails": [
+      "chosen-sprite@2x.png"
+    ],
+    "address": "2010 E Elliot Rd Suite 105, Tempe, AZ 85284, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair",
+      "missed_calls_unreachable"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 2,
+          "reviewer": "Kali Cotner",
+          "snippet": "Highly recommend you look elsewhere. The owner Dr. Webb is rude and will try to oversell everything and make you pay for things you don\u2019t need. His partners Dr. DJ and Dr. Nadia are fantastic and the only reason I stayed for so long and the only reason I gave them 2 stars instead of 1.\nThis office w",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Susanne Williams",
+          "snippet": "Dr. Connell was rude and condescending to my husband.  His bottom dentures have never fit right and any good dentist would either make new ones or work until they fit perfectly.  We paid for these dentures out of our pocket but he speaks to my husband as if he were an irritant and actually advised h",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Tvera",
+          "snippet": "Receptionist jay he said his name was was very rude and uptight cutting me off mid conversation responding in a negative tone not sure why he\u2019s the front line of the company answering calls but I didn\u2019t feel welcome talking to him at all. The last two experiences have been worst and worst. I\u2019ve been",
+          "matched": "Receptionist jay he said his name was was very rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "nelson thomas",
+          "snippet": "Unprofessional! I went to get my fill in replaced and as I was in the chair getting that done they stop half way through to get my payment. I had to get up out the chair walk to my car to get them the money. When in Reality they could have waited for me to get done. That was unprofessional and unacc",
+          "matched": "Unprofessional"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 2,
+          "reviewer": "kat glover",
+          "snippet": "I was not pleased to see at least five members of the staff, including both people at the front desk not wearing masks- especially because I specifically asked when booking the appointment if everyone in the office was wearing masks. Staff without masks were talking to each other in close proximity,",
+          "matched": "past my appointment time"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 3,
+          "reviewer": "ML J",
+          "snippet": "Nice pleasant staff. Had not so good customer service during COVID-19 time. No response to requests, then very slow response. Didn\u2019t mail my retainer after they said they would. Took my credit card info for payment. When I went to pick it up, because I didn\u2019t trust they would mail it this time, they",
+          "matched": "No response"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Voice AI for Dental (AI Receptionist)",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 20.8,
+    "link": "https://www.google.com/maps/place/Do+Good+Dental/data=!4m7!3m6!1s0x872b065defbeca7d:0x7462c4bf00207a66!8m2!3d33.3498676!4d-111.9021235!16s%2Fg%2F1td1qbky!19sChIJfcq-710GK4cRZnogAL_EYnQ?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 26.17,
+    "weighted_pain": 11,
+    "pain_breadth": 3
+  },
+  {
+    "title": "VIBE Dental - Mesa",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 887,
+    "review_count": 887,
+    "negative_reviews_1_3_star": 16,
+    "negative_pct": 1.8,
+    "phone": "+1 480-800-8423",
+    "website": "https://www.vibedental.com/",
+    "emails": [
+      "fancybox_sprite@2x.png",
+      "fancybox_loading@2x.gif",
+      "email@email.com",
+      "example@example.com"
+    ],
+    "address": "1855 S Country Club Dr #101, Mesa, AZ 85210, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "no_show_reminder_missing",
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Tunisia Wilder",
+          "snippet": "I had been going to VIBE Dental for a while and up until recently we had good experiences there. Unfortunately, after the way Dena spoke to my daughter, I can no longer recommend this office.\nMy daughter was told by your office that she would receive a free cleaning because of mistakes that happened",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "ku bin",
+          "snippet": "I had an appointment at 9am for filling. They gave me three numb injections. The doctor let for 1 hour from my mouth numbed until the numb fainted and she hasn\u2019t came back to work on my filling. I end up got injections again and continue for waiting. First visit, they are very pushy to done more stu",
+          "matched": "rude"
+        }
+      ],
+      "no_show_reminder_missing": [
+        {
+          "rating": 1,
+          "reviewer": "bhreannabegay",
+          "snippet": "Since my first visit, the staff here have been so nice. The attention and care I received eased all my worries and fears that passed dentist left me with. Most importantly they helped me to smile agaiin.\n\nUpdate 01/31/25\nIt must be a show they put on for new patients. Received an EOB from my insuran",
+          "matched": "never confirmed"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 2,
+          "reviewer": "Amanda",
+          "snippet": "I went into Vibe because it was the only dental clinic open on Saturday where they had an appt available for an emergency appointment. I have a tooth where the decay has hit the nerve and I was in severe pain. I didn\u2019t wait long to get ushered back into the dental chair, but after that, it was at le",
+          "matched": "emergency"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage",
+      "Automated Appointment Reminders"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/outbound-campaigns"
+    ],
+    "score": 14.1,
+    "link": "https://www.google.com/maps/place/VIBE+Dental+-+Mesa/data=!4m7!3m6!1s0x872ba986997bd6db:0x7fbdb971770cbf10!8m2!3d33.3810982!4d-111.8396153!16s%2Fg%2F11rv3x_cj4!19sChIJ29Z7mYapK4cREL8Md3G5vX8?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 25.84,
+    "weighted_pain": 11,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Chandler Dental Excellence",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 479,
+    "review_count": 479,
+    "negative_reviews_1_3_star": 8,
+    "negative_pct": 1.7,
+    "phone": "+1 480-786-1734",
+    "website": "http://chandlerdentalexcellence.com/",
+    "emails": [
+      "fancybox_sprite@2x.png",
+      "fancybox_loading@2x.gif",
+      "email@email.com"
+    ],
+    "address": "855 E Warner Rd #104, Chandler, AZ 85225, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "missed_calls_unreachable",
+      "appointment_booking_delay"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Ryan Miller",
+          "snippet": "UPDATE: You don't get to tell a person whether someone offended them. The fact you are arguing on a review is wild. You obviously are like what I said as you are so reactionary. She was rude and the least compassionate person ive talked to. AGAIN GO SOMEWHERE ELSE FOR DENTAL WORK.\n\nAs a veteran in n",
+          "matched": "rude"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "Wendy",
+          "snippet": "I am surprised at all the 5 star reviews. Talking about all the nice staff. Maybe I had back luck dealing with a new staff member? I am not sure but I have had a terrible experience and I never even got in to see the dentist. Sadly because of COVID attempting to make my and my sons first appt with t",
+          "matched": "no answer"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 1,
+          "reviewer": "Usawadee Patrick",
+          "snippet": "Don't come here if you are looking for a professional treatment. Doctor is good but very difficult to make an appointment. I had an appointment with a Dental hygienist here in January 2021, they called me to reschedule to be August 2021 instead. I have to wait for 8 months just for cleaning my teeth",
+          "matched": "wait for 8 months just for cleaning my teeth. In"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Voice AI Appointment Booking",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking",
+      "silverthreadlabs.com/services/voice-agents/dental"
+    ],
+    "score": 10.3,
+    "link": "https://www.google.com/maps/place/Chandler+Dental+Excellence/data=!4m7!3m6!1s0x872ba99154ea5bb1:0xef4fd278bb5891b3!8m2!3d33.3346025!4d-111.8268766!16s%2Fg%2F1tdj4p9y!19sChIJsVvqVJGpK4cRs5FYu3jST-8?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 24.04,
+    "weighted_pain": 10,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Tempe Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 291,
+    "review_count": 291,
+    "negative_reviews_1_3_star": 10,
+    "negative_pct": 3.4,
+    "phone": "+1 602-832-7670",
+    "website": "https://www.tempe-dental.com/book-an-appointment/",
+    "emails": [
+      "hello@tempe-dental.com"
+    ],
+    "address": "2139 E Southern Ave, Tempe, AZ 85282, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "intake_paperwork_duplication",
+      "missed_calls_unreachable"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "N",
+          "snippet": "It\u2019s deeply concerning that a member of this office/ staff, Dina, followed a patient on social media after an appointment and added them to her \u201cprivate account\u201d. That level of unprofessionalism is disturbing. This behavior crosses ethical lines and has no place in a health care setting.",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Chanae Sledge",
+          "snippet": "I found this Dental Office to be VERY RACIALLY MOTIVATED when it comes to picking there employees and would NOT RECOMMEND INTERNING OR EXTERNING AT THIS OFFICE IF YOUR AFRICAN AMERICAN OR JUST FULL OF LIFE AND ENERGY PERIODT. The company will call you unprofessional for outside conversations.(\ud83d\udc40 Alle",
+          "matched": "unprofessional"
+        }
+      ],
+      "intake_paperwork_duplication": [
+        {
+          "rating": 1,
+          "reviewer": "Christopher hintz",
+          "snippet": "I was disappointed that up sales is part of a routine maintenance, I scheduled a prevent annual cleaning,  asked before I came in that my insurance company covered that and they verified that they did includes x-rays. So I came in filled out paperwork asked again and was informed that it was,  and h",
+          "matched": "filled out paperwork asked again"
+        }
+      ],
+      "missed_calls_unreachable": [
+        {
+          "rating": 1,
+          "reviewer": "betty madrid",
+          "snippet": "Worse dentist I\u2019ve been to, I went in for cavity  that ended up being way more than I expected. I wanted 1 tooth fixed and she decided to do things I didn\u2019t even need, want or ask for i.e. old silver fillings with white ones, then I had 2 crowns she decided to take out and redo also, along with root",
+          "matched": "voicemail"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Patient Intake Automation",
+      "Voice AI for Dental (AI Receptionist)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/dental",
+      "silverthreadlabs.com/services/voice-agents/patient-client-intake"
+    ],
+    "score": 13.5,
+    "link": "https://www.google.com/maps/place/Tempe+Dental/data=!4m7!3m6!1s0x872b07e89897ca0f:0x82c4f1ba8c704a30!8m2!3d33.3926586!4d-111.8949086!16s%2Fg%2F11l3q1jj0v!19sChIJD8qXmOgHK4cRMEpwjLrxxII?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 23.39,
+    "weighted_pain": 10,
+    "pain_breadth": 3
+  },
+  {
+    "title": "Ferrara Dental, PLLC",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 367,
+    "review_count": 367,
+    "negative_reviews_1_3_star": 16,
+    "negative_pct": 4.4,
+    "phone": "+1 813-229-8090",
+    "website": "http://www.ferraradentaltampa.com/",
+    "emails": [
+      "Contact@FerraraDentalTampa.Com"
+    ],
+    "address": "201 E Kennedy Blvd Suite 1425 14th Floor, Tampa, FL 33602, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "insurance_verification_missing"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Grand Plans",
+          "snippet": "After having braces as an adult, I needed multiple fillings along my gum line.  Dr. Ferrara did substandard work and behaved very unprofessionally during every appointment.  She made me feel extremely uncomfortable during the procedures by having personal conversations with her hygienist (her dinner",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Autumn Twine",
+          "snippet": "If I could give this office zero stars I would for sure. The staff members are VERY rude & unprofessional. Unfortunately that is what runs an office down to the ground. They should probably work on their customer service or hire people who actually knows how to provide genuine customer service as ad",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Julian Sanchez",
+          "snippet": "Unscrupulous and unprofessional. Avoid at all costs",
+          "matched": "unprofessional"
+        }
+      ],
+      "insurance_verification_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Michele Eggert",
+          "snippet": "So, I had one good experience with a crown here. Then I tried to come back for a crown on an implant and was grossly misquoted by Lisa. Initially she quoted me $1300 for an implant then, when I actually tried to schedule, she quoted me $600 to $800 more. Apparently I needed an abutment...why wasn't ",
+          "matched": "quoted me $600 to $800 more"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Insurance Eligibility Verification Workflow"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 14.6,
+    "link": "https://www.google.com/maps/place/Ferrara+Dental,+PLLC/data=!4m7!3m6!1s0x88c2c48bf0fbc8a7:0x6bd81984e1f53af8!8m2!3d27.9471326!4d-82.4581648!16s%2Fg%2F1vxvjn44!19sChIJp8j78IvEwogR-Dr14YQZ2Gs?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 20.09,
+    "weighted_pain": 8,
+    "pain_breadth": 2
+  },
+  {
+    "title": "Habana Dental Care",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 410,
+    "review_count": 411,
+    "negative_reviews_1_3_star": 19,
+    "negative_pct": 4.6,
+    "phone": "+1 813-873-0271",
+    "website": "https://www.habanadentalcare.com/",
+    "emails": [
+      "info@habanadentalcare.com"
+    ],
+    "address": "4812 N Habana Ave, Tampa, FL 33614, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "no_show_reminder_missing"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "jamal mohanesh",
+          "snippet": "Receptionists so nice and polite.\nDr changing treatment plan last minute adding other services without good explanation to client.\nDr prevention technique only blaming client,and  making them  feel guilty, instead  of educate  them about the problem.\nOffice manager Marya also  she is the one managin",
+          "matched": "rude"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Celena Vinent",
+          "snippet": "I only went for an evaluation and some tooth x-rays. staff is very nice except for  the female  provider who is very rude with patients.. she made me feel very uncomfortable . so that was my first and last visit..",
+          "matched": "rude"
+        },
+        {
+          "rating": 1,
+          "reviewer": "David Johnson",
+          "snippet": "Like everyone else already addressed, very long wait times. The dentist was rude and aggressive, and stated \u201ccan you stop so I can do my exam\u201d when I flinched due to pain. Nobody speaks English fluently. I would definitely recommend to find a different dentist.",
+          "matched": "rude"
+        }
+      ],
+      "no_show_reminder_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Patty Baca",
+          "snippet": "This is the worst dentist ever!! At least the male dentist is the worst! He talked to my mother with no patience, he talked to his staff horribly after his assistant asked his to repay himself he said \u201c nevermind I\u2019ll tell you later\u201d and he never did. This is just the worst dentist ever. Wouldn\u2019t re",
+          "matched": "FORGOT the appointment"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Automated Appointment Reminders"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/outbound-campaigns"
+    ],
+    "score": 14.9,
+    "link": "https://www.google.com/maps/place/Habana+Dental+Care/data=!4m7!3m6!1s0x88c2c3e59c9573db:0xc53febe1572840d6!8m2!3d27.9898195!4d-82.4888921!16s%2Fg%2F1th24ljq!19sChIJ23OVnOXDwogR1kAoV-HrP8U?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 19.24,
+    "weighted_pain": 7,
+    "pain_breadth": 2
+  },
+  {
+    "title": "Serenity Dental Studio",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 646,
+    "review_count": 646,
+    "negative_reviews_1_3_star": 17,
+    "negative_pct": 2.6,
+    "phone": "+1 737-344-4245",
+    "website": "https://www.serenitydentalstudiotx.com/?utm_source=gmb&utm_medium=organic",
+    "emails": [
+      "icon-google@2x.png"
+    ],
+    "address": "1500 S A.W. Grimes Blvd #130, Round Rock, TX 78664, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Nicole Eutsey",
+          "snippet": "I believe Dr. Hershel was rude and arrogant when I questioned him about the treatment plan that I wanted.  When I made the appointment, I told his staff my main concern was saving my tooth that had a crown. They asked me 2 times why I was there after I arrived including Dr. Hershel. Dr. Hershel look",
+          "matched": "rude"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "DARRICK CLINTON",
+          "snippet": "I found th\u00eds dentist in my insurance network with high rated stars in Google and i called for the appointment for my crowns and they kept asking me for cleaning as well . On my appointment first thing they took a lots of X-rays from me  . I told them i need to go to my car to get the business card o",
+          "matched": "weekend"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 8.2,
+    "link": "https://www.google.com/maps/place/Serenity+Dental+Studio/data=!4m7!3m6!1s0x8644d16a87e2006b:0x339059f3a6031fb5!8m2!3d30.4972337!4d-97.6576268!16s%2Fg%2F11kbgzx7md!19sChIJawDih2rRRIYRtR8DpvNZkDM?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 18.43,
+    "weighted_pain": 6,
+    "pain_breadth": 2
+  },
+  {
+    "title": "Austin Dental Works",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 584,
+    "review_count": 607,
+    "negative_reviews_1_3_star": 17,
+    "negative_pct": 2.8,
+    "phone": "+1 512-877-9822",
+    "website": "https://www.austindentalworks.com/",
+    "emails": [
+      "info@austindentalworks.com"
+    ],
+    "address": "4601 N Lamar Blvd #503, Austin, TX 78751, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 2,
+          "reviewer": "Krissi Couture",
+          "snippet": "I spent over $1,500 on two deep cleanings, and they did phenomenal work ... So I had asked them to zoom bleach my teeth and they refused ( because I have cavities in the back ) they told me they would not zoom bleach my teeth until I fill the cavities ( greedy ) that would have cost me another $1,50",
+          "matched": "unprofessional"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "J. Abel",
+          "snippet": "Needlessly lost a molar to decay, though had been under Dr. Janos\u2019s care very recently. New to area, had had no previous dental issues, own teeth. Surprised with unexpected pain over a weekend. Dr Janos very attentive, but unnecessary added aggravation & cost.",
+          "matched": "weekend"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 8.2,
+    "link": "https://www.google.com/maps/place/Austin+Dental+Works/data=!4m7!3m6!1s0x8644ca638c284765:0x76576315d12cc3cd!8m2!3d30.3150192!4d-97.7355807!16s%2Fg%2F1tjdrqpm!19sChIJZUcojGPKRIYRzcMs0RVjV3Y?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 18.35,
+    "weighted_pain": 6,
+    "pain_breadth": 2
+  },
+  {
+    "title": "Enamel Dentistry Saltillo (East Austin)",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 621,
+    "review_count": 622,
+    "negative_reviews_1_3_star": 31,
+    "negative_pct": 5.0,
+    "phone": "+1 512-588-5251",
+    "website": "https://enameldentistry.com/saltillo-east-austin-dentist/",
+    "emails": [
+      "Enamel-Dentistry-Stacked-Full-Color-Dark@4x-300x60.png",
+      "Enamel-Dentistry-Stacked-Full-Color-Dark@4x-1024x207.png",
+      "Enamel-Dentistry-Stacked-Full-Color-Dark@4x-768x155.png",
+      "Enamel-Dentistry-Stacked-Full-Color-Dark@4x-1536x310.png",
+      "Enamel-Dentistry-Stacked-Full-Color-Dark@4x-2048x413.png",
+      "Enamel-Dentistry-Stacked-Compact-Full-Color-Dark@4x.png",
+      "hello@enmeldentistry.com"
+    ],
+    "address": "901 E 5th St. Suite 170, Austin, TX 78702, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "long_wait_in_chair"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "James Robert",
+          "snippet": "One of the most unprofessional Medical visits I\u2019ve ever had. Extremely unprofessional and medical \u201cdiagnosis\u201d seemed extremely sales oriented here as opposed to what\u2019s best/comfortable for the client. Felt like I was speaking with car salesman with the poor attempts at trying to strong arm me go thr",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Azanique Rawl",
+          "snippet": "Really poor, unkind and dangerous treatment here. The dental surgeon was rude and unhelpful when seeking answers about care and follow-up. Was called names by the dental surgeon Dr. Brazil and treated poorly by his assistants. Would not recommend for any dental surgery or procedure",
+          "matched": "rude"
+        }
+      ],
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "Anais Matelat",
+          "snippet": "Wait times were absolutely ridiculous. I got there 5 minutes early for my appointment for a cavity filling which I had scheduled online. I waited 30 minutes to see the dentist and when I finally got seen I was notified that I was mistakenly schedule for a cleaning instead and the dentist didn't have",
+          "matched": "waited 30 min"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 13.1,
+    "link": "https://www.google.com/maps/place/Enamel+Dentistry+Saltillo+%28East+Austin%29/data=!4m7!3m6!1s0x8644b54685f0fa7b:0xafe71dcfc464bd60!8m2!3d30.2638163!4d-97.733212!16s%2Fg%2F11jvf4qdlz!19sChIJe_rwhUa1RIYRYL1kxM8d568?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 16.78,
+    "weighted_pain": 4,
+    "pain_breadth": 2
+  },
+  {
+    "title": "Moment Dental Round Rock",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 128,
+    "review_count": 128,
+    "negative_reviews_1_3_star": 7,
+    "negative_pct": 5.5,
+    "phone": "+1 512-244-3333",
+    "website": "https://www.momentdental.com/",
+    "emails": [
+      "info@momentdental.com"
+    ],
+    "address": "581 University Blvd #400, Round Rock, TX 78665, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Trey Carmichael",
+          "snippet": "Do not recommend.\n\nDid not get the dentist i had requested which already made me feel uneasy out the gate.\n\nDentist cut my gum while examining me.\n\nWent ahead and scheduled next steps anyways and they needed to reschedule me to figure out which drugs I needed for a CLEANING. This was frustrating to ",
+          "matched": "condescending"
+        }
+      ],
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Natalia Martin",
+          "snippet": "Unfortunately I\u2019ve had my fair share of dental work done over the years.  However, my experience with this dental office has been the very first and only experience where I left in worse shape than I came.  Every tooth this doctor touched is now useless to me. It\u2019s been two weeks and i can\u2019t even ea",
+          "matched": "Emergency"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage",
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 7.7,
+    "link": "https://www.google.com/maps/place/Moment+Dental+Round+Rock/data=!4m7!3m6!1s0x8644d14768530885:0xbfa9fba411b484e!8m2!3d30.5619416!4d-97.6775853!16s%2Fg%2F11b7gqfqjh!19sChIJhQhTaEfRRIYRTkgbQbqf-gs?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 16.72,
+    "weighted_pain": 6,
+    "pain_breadth": 2
+  },
+  {
+    "title": "East Austin Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.7,
+    "reviews_analyzed": 90,
+    "review_count": 90,
+    "negative_reviews_1_3_star": 9,
+    "negative_pct": 10.0,
+    "phone": "+1 512-499-0067",
+    "website": "http://www.eastaustindental.com/",
+    "emails": [
+      "eastaustindental@gmail.com"
+    ],
+    "address": "Coraz\u00f3n, 1000 E 5th St. STE 110, Austin, TX 78702, United States",
+    "pain_categories": [
+      "staff_rude_front_desk",
+      "appointment_booking_delay"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 3,
+          "reviewer": "zach groesbeck",
+          "snippet": "Dentists here are exceptional, and so are their assistants. They have a great office and make you feel very comfortable. They also do excellent work very quickly.\n\nGiving them three stars because the admin staff is very rude, curt, and will ask you to pay for things upfront that your insurance will ",
+          "matched": "rude"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Rebecca M",
+          "snippet": "I was a patient of East Austin Dental for the last year with 2 cleaning visits. I found it hard to make an appointment, and when I needed to reschedule for my 6-month visit, I was offered a spot on the waiting list or an appointment several months out. I was only given an appointment in a reasonable",
+          "matched": "unprofessional"
+        }
+      ],
+      "appointment_booking_delay": [
+        {
+          "rating": 2,
+          "reviewer": "Rebecca M",
+          "snippet": "I was a patient of East Austin Dental for the last year with 2 cleaning visits. I found it hard to make an appointment, and when I needed to reschedule for my 6-month visit, I was offered a spot on the waiting list or an appointment several months out. I was only given an appointment in a reasonable",
+          "matched": "months out"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Voice AI Appointment Booking"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/services/voice-agents/appointment-booking"
+    ],
+    "score": 11.4,
+    "link": "https://www.google.com/maps/place/East+Austin+Dental/data=!4m7!3m6!1s0x8644b5af92839eb5:0xe919273cc794d580!8m2!3d30.2641521!4d-97.7323925!16s%2Fg%2F11b6xb_8kk!19sChIJtZ6Dkq-1RIYRgNWUxzwnGek?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 16.66,
+    "weighted_pain": 6,
+    "pain_breadth": 2
+  },
+  {
+    "title": "Mesa Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 626,
+    "review_count": 626,
+    "negative_reviews_1_3_star": 18,
+    "negative_pct": 2.9,
+    "phone": "+1 480-396-9900",
+    "website": "http://mesadental.com/?utm_source=gmb&utm_medium=organic&utm_campaign=listing",
+    "emails": [
+      "user@domain.com"
+    ],
+    "address": "1423 S Higley Rd STE 101, Mesa, AZ 85206, United States",
+    "pain_categories": [
+      "insurance_verification_missing"
+    ],
+    "pain_hits": {
+      "insurance_verification_missing": [
+        {
+          "rating": 1,
+          "reviewer": "Stephany Miller",
+          "snippet": "I had to get a second opinion after seeing the dentist at Mesa dental because the cost of treatment was astronomical. Unsurprisingly, I was being quoted 5k more than necessary. I was being quoted for 5 unnecessary fillings and 1 unnecessary crown. It\u2019s truly incredible that someone can literally sca",
+          "matched": "quoted 5k more"
+        }
+      ]
+    },
+    "recommended_services": [
+      "Insurance Eligibility Verification Workflow"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 5.3,
+    "link": "https://www.google.com/maps/place/Mesa+Dental/data=!4m7!3m6!1s0x872baf0661830def:0xea40897471d316c0!8m2!3d33.3892418!4d-111.7190004!16s%2Fg%2F1td0yypl!19sChIJ7w2DYQavK4cRwBbTcXSJQOo?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 15.39,
+    "weighted_pain": 5,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Round Rock Comfort Dentistry",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.8,
+    "reviews_analyzed": 336,
+    "review_count": 336,
+    "negative_reviews_1_3_star": 19,
+    "negative_pct": 5.7,
+    "phone": "+1 512-248-8888",
+    "website": "http://www.rrcdentist.com/",
+    "emails": [
+      "rrcdentist@gmail.com"
+    ],
+    "address": "1715 S Mays St # E, Round Rock, TX 78664, United States",
+    "pain_categories": [
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Kylahn",
+          "snippet": "I made an emergency appointment for a filling. I get to the appointment 15 minutes early and they told me I would have a o wait 30 minutes to verify my insurance. I got tired of waiting because it seemed like the receptionist was doing everything else except verifying my insurance including just sit",
+          "matched": "emergency"
+        }
+      ]
+    },
+    "recommended_services": [
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage"
+    ],
+    "score": 5.9,
+    "link": "https://www.google.com/maps/place/Round+Rock+Comfort+Dentistry/data=!4m7!3m6!1s0x8644d1dd9ed53065:0x1fc590bc95dab7ba!8m2!3d30.4943192!4d-97.6753106!16s%2Fg%2F1xcbq02j!19sChIJZTDVnt3RRIYRurfalbyQxR8?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 14.98,
+    "weighted_pain": 5,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Anderson Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 328,
+    "review_count": 329,
+    "negative_reviews_1_3_star": 5,
+    "negative_pct": 1.5,
+    "phone": "+1 813-685-7353",
+    "website": "https://andersondentalfl.com/",
+    "emails": [
+      "andersondental1931@gmail.com"
+    ],
+    "address": "1931 W Brandon Blvd, Brandon, FL 33511, United States",
+    "pain_categories": [
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "King Danny",
+          "snippet": "I do not recommend this place at all.. went here Monday 27.2022 to do a deep cleaning before all the process started I let Dr. Anderson know my right cuspid tooth Wich is cracked was hurting he said I'll be ok he got something that would numb me he proceed to do the cleaning I left the office and 2 ",
+          "matched": "emergency"
+        }
+      ]
+    },
+    "recommended_services": [
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage"
+    ],
+    "score": 4.0,
+    "link": "https://www.google.com/maps/place/Anderson+Dental/data=!4m7!3m6!1s0x88c2ce64689db691:0xfa4cdf1664b603f2!8m2!3d27.9367569!4d-82.3156172!16s%2Fg%2F1tyyxxgg!19sChIJkbadaGTOwogR8gO2ZBbfTPo?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 14.55,
+    "weighted_pain": 5,
+    "pain_breadth": 1
+  },
+  {
+    "title": "The Local Dentist",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 150,
+    "review_count": 150,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 1.3,
+    "phone": "+1 512-883-1300",
+    "website": "http://www.thelocaldentistatx.com/",
+    "emails": [
+      "info@thelocaldentistatx.com"
+    ],
+    "address": "2023 E Cesar Chavez St, Austin, TX 78702, United States",
+    "pain_categories": [
+      "after_hours_emergency"
+    ],
+    "pain_hits": {
+      "after_hours_emergency": [
+        {
+          "rating": 1,
+          "reviewer": "Alex S",
+          "snippet": "$75 dollar cancellation fee seems a bit excessive. Also cancelled over the weekend and it didn\u2019t help because it was \u201c2 business days\u201d",
+          "matched": "weekend"
+        }
+      ]
+    },
+    "recommended_services": [
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/after-hours-coverage"
+    ],
+    "score": 3.7,
+    "link": "https://www.google.com/maps/place/The+Local+Dentist/data=!4m7!3m6!1s0x8644b53e4aac74b3:0x934f0a969258f887!8m2!3d30.2561662!4d-97.7225366!16s%2Fg%2F11fwccfb4v!19sChIJs3SsSj61RIYRh_hYkpYKT5M?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 13.53,
+    "weighted_pain": 5,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Dental Arts of Chandler",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 705,
+    "review_count": 722,
+    "negative_reviews_1_3_star": 20,
+    "negative_pct": 2.8,
+    "phone": "+1 480-442-4894",
+    "website": "https://www.dentalartsofchandler.com/?utm_campaign=gmb",
+    "emails": [
+      "office@dentalartsofchandler.com"
+    ],
+    "address": "1200 W Warner Rd Suite 9, Chandler, AZ 85224, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Imani Flowers",
+          "snippet": "I'm reposting my review after a poor experience I had yesterday. They like to hide bad reviews so don't be fooled by their high rating.\n\nLike I mentioned in my previous review, I have been a patient here since I was a teenager. It has been a lovely experience with relatively no complaints until I st",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 2,
+          "reviewer": "Dale Pigg",
+          "snippet": "At my recent visit I expected a cleaning and an exam as usual.  Turns out, there was no dentist in the office at the time so I did not get an exam.  And I think this is a situation that deserves at the very least a courtesy call before the appointment asking if I still want a cleaning.  I understand",
+          "matched": "unprofessional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 8.5,
+    "link": "https://www.google.com/maps/place/Dental+Arts+of+Chandler/data=!4m7!3m6!1s0x872b00abd2d71e6f:0xb9c15dbc66473774!8m2!3d33.3355638!4d-111.8616639!16s%2Fg%2F1tgd6_ct!19sChIJbx7X0qsAK4cRdDdHZrxdwbk?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 12.58,
+    "weighted_pain": 2,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Dental Excellence of Brandon",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 614,
+    "review_count": 635,
+    "negative_reviews_1_3_star": 15,
+    "negative_pct": 2.4,
+    "phone": "+1 813-681-5515",
+    "website": "https://dentalexcellenceofbrandon.com/",
+    "emails": [
+      "fancybox_sprite@2x.png",
+      "fancybox_loading@2x.gif",
+      "email@email.com"
+    ],
+    "address": "665 W Lumsden Rd, Brandon, FL 33511, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Mike M",
+          "snippet": "So this is an update to my previous post.\nI just saw Dr. Conte today 4/24/24.\nI had a crown and root canal done in 2018.\nRecently had severe pain in that tooth and Dr Conte examined it and referred me to a specialist.\nAfter trying to be charge over 3k from specialist.\nI asked Michelle if the crown c",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Shane Vargas",
+          "snippet": "The Dentist called me a hillbilly for needing a tooth pulled then told me and my wife to leave the property when we said that was rude to say",
+          "matched": "rude"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 8.0,
+    "link": "https://www.google.com/maps/place/Dental+Excellence+of+Brandon/data=!4m7!3m6!1s0x88c2cddc35384025:0x7c088c2a9676db3b!8m2!3d27.9211052!4d-82.2932242!16s%2Fg%2F1tcx7t39!19sChIJJUA4NdzNwogRO9t2liqMCHw?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 12.41,
+    "weighted_pain": 2,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Smiles of Chandler",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 626,
+    "review_count": 626,
+    "negative_reviews_1_3_star": 10,
+    "negative_pct": 1.6,
+    "phone": "+1 480-899-9484",
+    "website": "https://www.smilesofchandler.com/#utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "emails": [
+      "info@smilesofchandler.com"
+    ],
+    "address": "5905 W Chandler Blvd #2, Chandler, AZ 85226, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Alexa Silva",
+          "snippet": "This review is only for Dr. Woodward; I have had only positive experiences with the rest of the staff. Unfortunately my experience with him was so negative that I felt compelled to write this review.\nI went in recently to have my permanent retainer replaced. The procedure itself went fine, but after",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 3,
+          "reviewer": "Vika Akc",
+          "snippet": "This is my third year with this dental office. Doctors are fine, hygienists are too but they changed a lot, I had three for past three years.\n\nI was very upset with receptionist today. I get like she was trying to get rid off me as soon as possible. I was trying to schedule an appointment for fillin",
+          "matched": "unprofessional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 7.5,
+    "link": "https://www.google.com/maps/place/Smiles+of+Chandler/data=!4m7!3m6!1s0x872b07619c4a723d:0x8ed49a37c55cebf3!8m2!3d33.3049201!4d-111.9434127!16s%2Fg%2F1vq9mrgp!19sChIJPXJKnGEHK4cR8-tcxTea1I4?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 12.39,
+    "weighted_pain": 2,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Tampa Dental Wellness of Carrollwood | Restorative, Cosmetic, Dental Implants & General Dentist Tampa",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 545,
+    "review_count": 545,
+    "negative_reviews_1_3_star": 9,
+    "negative_pct": 1.7,
+    "phone": "+1 813-265-2273",
+    "website": "https://dentistcarrollwood.com/?utm_source=gmb&utm_medium=organic",
+    "emails": [
+      "carrollwood@tampadentalwellness.net"
+    ],
+    "address": "11123 N Dale Mabry Hwy, Tampa, FL 33618, United States",
+    "pain_categories": [
+      "long_wait_in_chair"
+    ],
+    "pain_hits": {
+      "long_wait_in_chair": [
+        {
+          "rating": 1,
+          "reviewer": "fei poon",
+          "snippet": "It\u2019s all behind their schedule, I waited 30 mins for my appointment they told me it\u2019s still not ready it\u2019s happening a few  times already",
+          "matched": "waited 30 min"
+        }
+      ]
+    },
+    "recommended_services": [
+      "Workflow Automation (Scheduling)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/workflow-automation"
+    ],
+    "score": 4.4,
+    "link": "https://www.google.com/maps/place/Tampa+Dental+Wellness+of+Carrollwood+%7C+Restorative,+Cosmetic,+Dental+Implants+%26+General+Dentist+Tampa/data=!4m7!3m6!1s0x88c2c114f5fef797:0xb31fe470b66385fa!8m2!3d28.0499911!4d-82.5034659!16s%2Fg%2F11h081y833!19sChIJl_f-9RTBwogR-oVjtnDkH7M?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 12.21,
+    "weighted_pain": 2,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Tampa Smiles: John L. Redd II, DMD",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 458,
+    "review_count": 463,
+    "negative_reviews_1_3_star": 7,
+    "negative_pct": 1.5,
+    "phone": "+1 813-981-7517",
+    "website": "https://www.tampasmiles.com/",
+    "emails": [
+      "drredd@tampasmiles.com"
+    ],
+    "address": "907 W Platt St, Tampa, FL 33606, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Will Conrad",
+          "snippet": "Set up an appointment to see this dentist for a crown replacement. Arrived 15 minutes early to the appointment only to be told \"the doctor is ill today, he can reschedule for tomorrow.\"\n\nWhen I texted said doctor (using the term doctor very loosely), \"hello sir, very much not a happy camper. I took ",
+          "matched": "unprofessional"
+        },
+        {
+          "rating": 1,
+          "reviewer": "Jeff Lamm",
+          "snippet": "I've been a patient at this office for 12+ years.  After I learned that my hygienist retired recently due to her concerns about Covid-19, I experienced something I have never seen by any Dentist or Dental Professional in my lifetime.   Beware of this office and Dentist.  Extremely unprofessional beh",
+          "matched": "unprofessional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 7.2,
+    "link": "https://www.google.com/maps/place/Tampa+Smiles:+John+L.+Redd+II,+DMD/data=!4m7!3m6!1s0x88c2c484af1c7aa5:0xc6706e050da59221!8m2!3d27.941918!4d-82.4694386!16s%2Fg%2F1tf5fjqq!19sChIJpXocr4TEwogRIZKlDQVucMY?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 12.0,
+    "weighted_pain": 2,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Airport Dental Care",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 370,
+    "review_count": 373,
+    "negative_reviews_1_3_star": 5,
+    "negative_pct": 1.3,
+    "phone": "+1 512-291-6684",
+    "website": "https://www.airport-dental.com/",
+    "emails": [
+      "info@airport-dental.com"
+    ],
+    "address": "3851 Airport Blvd STE#105, Austin, TX 78722, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Joe Jackson",
+          "snippet": "The recession is that work in the front is very wicked and rude. I make an appointment three different times .when I got there ,she have excuses to send me away. I see if I don\u2019t matter she\u2019s telling me to go to a different location.Never get to see the doctor.. she\u2019s not fitted to be a receptionist",
+          "matched": "rude"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 4.0,
+    "link": "https://www.google.com/maps/place/Airport+Dental+Care/data=!4m7!3m6!1s0x8644b5fad3f4e6cd:0x668c54f862d65b5c!8m2!3d30.2895878!4d-97.7067973!16s%2Fg%2F1tltms12!19sChIJzeb00_q1RIYRXFvWYvhUjGY?authuser=0&hl=en&rclk=1",
+    "metro": "austin",
+    "quality_score": 10.72,
+    "weighted_pain": 1,
+    "pain_breadth": 1
+  },
+  {
+    "title": "Chandler Family Dental Care",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 367,
+    "review_count": 369,
+    "negative_reviews_1_3_star": 8,
+    "negative_pct": 2.2,
+    "phone": "+1 480-413-1100",
+    "website": "http://chandlerfamilydentalcare.com/",
+    "emails": [
+      "fancybox_sprite@2x.png",
+      "fancybox_loading@2x.gif",
+      "email@email.com"
+    ],
+    "address": "NW Corner of Ray and McClintock, 4080 W Ray Rd # 21, Chandler, AZ 85226, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "T w",
+          "snippet": "Recently came to this location for the first time. The staff were very friendly but I have a concern with the sanitation. I know children are on vacation but one of the staffers had their young child running around in the back just touching everything in the areas where  the patients have dental wor",
+          "matched": "unprofessional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 4.3,
+    "link": "https://www.google.com/maps/place/Chandler+Family+Dental+Care/data=!4m7!3m6!1s0x872b06ddc8ff6147:0x2cdccb4fdee73497!8m2!3d33.3223517!4d-111.9119691!16s%2Fg%2F1tgn55wd!19sChIJR2H_yN0GK4cRlzTn3k_L3Cw?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 10.7,
+    "weighted_pain": 1,
+    "pain_breadth": 1
+  },
+  {
+    "title": "A&N Dental",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 263,
+    "review_count": 263,
+    "negative_reviews_1_3_star": 7,
+    "negative_pct": 2.7,
+    "phone": "+1 480-921-3811",
+    "website": "http://aandndentalcenter.com/",
+    "emails": [
+      "info@aandndental.net"
+    ],
+    "address": "2626 S Rural Rd, Tempe, AZ 85282, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 3,
+          "reviewer": "haley gilmore",
+          "snippet": "I called in asking for a cleaning and because of jaw pain. I was only written in for the jaw pain and they said they couldn't do the cleaning untill a month later! It wouldn't have been an issue if they had told me prior to me visiting instead of me finding out after they took me in. I was so disapp",
+          "matched": "rude"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 4.2,
+    "link": "https://www.google.com/maps/place/A%26N+Dental/data=!4m7!3m6!1s0x872b08d547d7a439:0x1281d7b8f99cf280!8m2!3d33.400431!4d-111.926635!16s%2Fg%2F1tghq14s!19sChIJOaTXR9UIK4cRgPKc-bjXgRI?authuser=0&hl=en&rclk=1",
+    "metro": "phoenix",
+    "quality_score": 10.26,
+    "weighted_pain": 1,
+    "pain_breadth": 1
+  },
+  {
+    "title": "South Tampa Dental Studio",
+    "is_chain_or_dso": false,
+    "chain_reason": null,
+    "rating": 4.9,
+    "reviews_analyzed": 154,
+    "review_count": 154,
+    "negative_reviews_1_3_star": 4,
+    "negative_pct": 2.6,
+    "phone": "+1 813-356-0555",
+    "website": "https://southtampadentalstudio.com/",
+    "emails": [
+      "info@bauerdentistry.com"
+    ],
+    "address": "4306 W Kensington Ave, Tampa, FL 33629, United States",
+    "pain_categories": [
+      "staff_rude_front_desk"
+    ],
+    "pain_hits": {
+      "staff_rude_front_desk": [
+        {
+          "rating": 1,
+          "reviewer": "Jo Walker",
+          "snippet": "No harassments here. Just the truth. Spoke to Jen by phone. South Tampa Dental Studio made several simple mistakes with my care. A simple, I am sorry,  is all I wanted. Yes,  I corresponded with  STDS  by email-answering  their emails to me. Jen did not feel personally safe speaking with me by phone",
+          "matched": "unprofessional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/voice-agents/ai-receptionist"
+    ],
+    "score": 3.9,
+    "link": "https://www.google.com/maps/place/South+Tampa+Dental+Studio/data=!4m7!3m6!1s0x88c2c32a957daaab:0xcf0f2e8694ff90af!8m2!3d27.9105697!4d-82.5173748!16s%2Fg%2F11cr_4gx77!19sChIJq6p9lSrDwogRr5D_lIYuD88?authuser=0&hl=en&rclk=1",
+    "metro": "tampa",
+    "quality_score": 9.56,
+    "weighted_pain": 1,
+    "pain_breadth": 1
+  }
+]

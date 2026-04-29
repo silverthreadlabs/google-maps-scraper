@@ -9,3 +9,22 @@ examples/examples-api/**/*.py[cod]
 # Orchestration + knowledge graph (local-only)
 .lgtm/
 graphify-out/
+
+# Outreach pipeline (Python venv + caches)
+outreach/.venv/
+outreach/**/__pycache__/
+outreach/**/*.py[cod]
+
+# gosom scraper internal state (test runs from before our work)
+gmapsdata/jobs.db
+gmapsdata/jobs.db-shm
+gmapsdata/jobs.db-wal
+gmapsdata/*.csv
+
+# Local browser/MCP caches
+.playwright-mcp/
+skills-lock.json
+
+# Local Claude / agent configs
+.claude/
+.agents/

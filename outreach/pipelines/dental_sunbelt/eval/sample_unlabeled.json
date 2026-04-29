@@ -1,0 +1,802 @@
+[
+  {
+    "metro": "phoenix",
+    "practice": "Arrowhead Ranch Dentistry",
+    "rating": 5,
+    "reviewer": "Jason Granaas",
+    "snippet": "My wife first time there. Was quick and gentle on her teeth. Very nice experience!",
+    "id": 1
+  },
+  {
+    "metro": "phoenix",
+    "practice": "AZ Family Dental - Glendale",
+    "rating": 4,
+    "reviewer": "Veronica A.",
+    "snippet": "It's hard with money right now and they didn't do the referral but most of the staff are nice . I haven't found a new dentist yet",
+    "id": 2
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Arrowhead Ranch Dentistry",
+    "rating": 1,
+    "reviewer": "Arthur Meredith",
+    "snippet": "Dennist referred me to a surgeon out of network wasting my time",
+    "id": 3
+  },
+  {
+    "metro": "austin",
+    "practice": "Forest Family Dentistry Research Blvd",
+    "rating": 1,
+    "reviewer": "Chadley Culp",
+    "snippet": "The dentist is excellent but when you get your bill you will be shocked!!!! They quote you on amount with your insurance and the bill is triple! Staff there sucks",
+    "id": 4
+  },
+  {
+    "metro": "austin",
+    "practice": "myDental at Norwood Park",
+    "rating": 2,
+    "reviewer": "Ramon Navarro",
+    "snippet": "have to give my honest opinion on this place, Not Impressed.\n\nI went in last month (month) for pain in my back tooth. Ended up being my wisdom tooth. Not sure why the doctor didn't know what it was the first time being a dentist/doctor, but long story short i was told I needed a route canal and crowning on the specific wisdom tooth to save the tooth from getting pulled, then while actually working on the tooth, after \"closer examination\" on top of breaking off a 1cm peice of the cleaning tool inside the tooth she was working on. Next she says to go get the wisdom tooth pulled. Which I had already spent $200 on a procedure that isn't finished and they still have it. I wasn't happy. I scheduled an appointment to get it pulled. Waited a week to for the soreness to stop so I had to reschedule again. The day I have to go in to follow up which was actually 2 weeks ago on a Thursday at 3. The same doctor then tells me that instead of 1 all of my wisdom teeth now need to be pulled..then after she leaves the area I'm in I get told that 2 people are already ahead of me. I fail to see why I set up an appointment. Last week the doctor FINALLY had gotten to deep cleaning my teeth. But only the top! I'm hoping my last visit is this thursday. I invested time into this place I can't get back. And I honestly just want my money back, for them to properly finish cleaning my teeth so I can move on with my life.",
+    "id": 5
+  },
+  {
+    "metro": "tampa",
+    "practice": "Tomlinson Dental",
+    "rating": 1,
+    "reviewer": "Ana C",
+    "snippet": "I took my mom there to replace her dentures as she had them done there several years ago. I asked about insurance at the time I scheduled appointment only to find out they don’t take hers during the appointment.\nThis was beyond disappointing.\nShe lives in an ALF in Town n Country and I live within walking distance of the office. She is also not mobile. This was a wasted couple of hours for us.\nI was expecting her to have her appliances before her surgery as she has colon cancer. Now we have to wait.\nI would definitely NOT recommend. 😡",
+    "id": 6
+  },
+  {
+    "metro": "austin",
+    "practice": "Emergency Dentist of Austin",
+    "rating": 1,
+    "reviewer": "Dennis Behnke",
+    "snippet": "I called them on a Sunday in excruciating pain and an infection in my mouth and was told that they were booked up for the day and couldn't see me. So much for ER care.",
+    "id": 7
+  },
+  {
+    "metro": "tampa",
+    "practice": "South Tampa Dentistry",
+    "rating": 2,
+    "reviewer": "Antonia Ventura",
+    "snippet": "A lot has changed since I first started going here. Dentists are nice but only come by for all of a minute during a cleaning to inspect. Cleanings themselves have expedited as well and barely feels like my teeth are getting fully cleaned anymore. Went from an hour cleaning to 20 min if I’m lucky.  Front desk isn’t friendly and welcoming. I’ve stood at the front desk waiting for someone to help me as they either stare at the computer in front of them or turn around and help another employee. Honestly, I am reconsidering going elsewhere just based on my last few visits here",
+    "id": 8
+  },
+  {
+    "metro": "austin",
+    "practice": "ATX Family Dental",
+    "rating": 3,
+    "reviewer": "Brad Pickering",
+    "snippet": "Firstly, this place is nice and so are the people. I feel like the services are good as well.\n\nMy issue is that this place always seems to have some sort of up charge or trying to convince you to spend money with them. I’ve never had this with any other dentist. I went from not minding the dentist to anxiety over what service they are going to sell me this time.\n\nWorse than that, today I receive a bill for $32 seemingly out of the blue for a normal cleaning. I’ve never been charged for a cleaning in my 38 years of going to the dentist. Why the random charge?  Frustrating and paid but won’t return any longer.\n\nGreat facility and people BUT beware to feel sold to.",
+    "id": 9
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Weekend Dental Care",
+    "rating": 5,
+    "reviewer": "evelyn cervantes",
+    "snippet": "My husband and I went in there today, 7/30/22 and I have to say it was a great experience(: everyone was so helpful and informative. I felt really comfortable being there(: I felt well taken care of(: I highly recommend this place.",
+    "id": 10
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Eastport Dental AZ - Mesa",
+    "rating": 4,
+    "reviewer": "Mike Baron",
+    "snippet": "Great experience,  not a fan of dentist,  but not bad",
+    "id": 11
+  },
+  {
+    "metro": "phoenix",
+    "practice": "A&N Dental",
+    "rating": 3,
+    "reviewer": "haley gilmore",
+    "snippet": "I called in asking for a cleaning and because of jaw pain. I was only written in for the jaw pain and they said they couldn't do the cleaning untill a month later! It wouldn't have been an issue if they had told me prior to me visiting instead of me finding out after they took me in. I was so disappointed that the person on the phone didn't listen to what I had said.\n\nThe dentist herself was rude and short with me. She clearly didn't want to be there and she didn't want to help me. Granted it could have just been one of those days but she didn't seem to care much about what she was doing, or even smiled for that matter. She counted my teeth, cavities, took one quick glance at the xray and booted me out the door. It took longer to walk there than the actual vist. I spent more time filling out paper work then the amount of time I was looked at.\n\nOverall I'm pretty disappointed. I will say the rest of the staff were nice and the dental assitant was very polite and friendly. The front desk assistant was really nice too. I wouldn't have been so upset about the cleaning issue if the dentist had been more polite and understanding...I felt like she had little empathy. But at the end of the day the only good take away I had was a cool pen. :/",
+    "id": 12
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental Downtown",
+    "rating": 3,
+    "reviewer": "Jessica Lund",
+    "snippet": "The staff is generally kind and efficient when I'm at this office, but the client communication is really lacking. I have now twice been scheduled for an appointment that did not happen, and I was only notified after going through the effort of arriving at the office. Once, I needed to reschedule for personal reasons and was told by staff I had a confirmed reschedule, only to arrive at the office and they had no record of my appointment that day, or any other day. And this morning, although there is some icy weather, I had spoken to a staff member yesterday to reschedule my 8:30am appt to a noon slot because she said they would be opening later in the day. When I arrived, they were closed because of winter conditions but I received NO notice that this was the case and that my newly rescheduled appt had been cancelled. Then when I called to inquire, the representative implied I had been told by an automated message of the reschedule which was just insulting after the annoyance of them messing the scheduling up. I totally understand closing for the day to keep staff safe off the roads...but you would think they would notify their clients in order to keep them safe off the roads for no reason as well, right? I won't be returning to any Swish dental location after now being repeatedly inconvenienced by their negligence.",
+    "id": 13
+  },
+  {
+    "metro": "austin",
+    "practice": "Ideal Dental Cedar Park",
+    "rating": 3,
+    "reviewer": "Kelly Harned",
+    "snippet": "I’ve been going here for years and I like the atmosphere and people but I do not like that we make appts without setting the expectations of cost and what appt will entail like what I will be doing etc I just find out what I’m doing as I’m sitting in the chair I just feel like the expectations should be set to the customer but I clarified and they were able to help me fix the issue so I appreciate that and will still go here the office is nice and I’ve never had a problem with any of the work I’ve gotten done",
+    "id": 14
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 3,
+    "reviewer": "Lisa M",
+    "snippet": "I have been a patient at Swish for about 3 years now and have consistently had good experiences. However, I recently decided to try the Boost Whitening, and it was not good.\n\nIt was a very long and painful procedure, and I wish I hadn’t done it. The person who did my whitening didn’t seem very experienced. My prep alone (just putting the gum barrier on) took 30 minutes. This was also painful, as she kept poking my gums with a sharp tool. During the procedure, I had to hold my mouth open and she would use the suction tool every few minutes. She often missed and different parts of my mouth got suctioned and hurt instead (the papillae under my tongue are still swollen from this). My bottom gums got burned from the bleach during this procedure and it hurt pretty bad. Not to mention the insane tooth sensitivity afterwards.\n\nOverall, I would not do teeth whitening with Swish again, and I would advise others to stick to regular cleanings and other services with Swish like Invisalign. Maybe it’s my own fault for not doing enough research on the Boost Whitening procedure. But given the chance, I would NOT do it again. I don’t believe it was worth it, both in terms of time and money ($175).",
+    "id": 15
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 1,
+    "reviewer": "Emma Rosenthal",
+    "snippet": "Went in for a teeth cleaning, they failed to tell me until the end that the hygienist didn’t show up. I was there for way longer than I wanted to be, over an hour. When they were taking my x-rays and whatever other consultations they gave me (which were quite overwhelming, multiple people were watching) they were all standing behind me, felt weird and so impersonal. Really disappointing.",
+    "id": 16
+  },
+  {
+    "metro": "tampa",
+    "practice": "Advanced Dental Care of Brandon",
+    "rating": 5,
+    "reviewer": "dro hernandez",
+    "snippet": "This office is very fast and proficient, Dr. Nguyen was straight forward. The staff is very friendly! Broke my tooth on a Friday and had it put back together by Monday",
+    "id": 17
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Mountain View Family Dental",
+    "rating": 2,
+    "reviewer": "Me V",
+    "snippet": "We have banner ins. Came here for son and husband they are nice and sweet but after like 5 visits for cleaning and cavity s 7 months later i get a bill. They dont take my ins.. Not sure what happened but i thought they ran the insurance before we get seen. Not cool",
+    "id": 18
+  },
+  {
+    "metro": "austin",
+    "practice": "Peak Dental - South Austin",
+    "rating": 3,
+    "reviewer": "Jared Thorbahn",
+    "snippet": "They kept rescheduling me and now I might need a root canal and crown instead of a simple filling. I got a cleaning in the Summer. Made the appointment for November. November was really busy so I moved it to early January which turned into today. Not sure why they did this if the tooth was on the brink of needing it or didn’t tell me when I moved it in November. Hopefully things go well on Tuesday. Will report back.\n\nUpdate: The new dentist is a lot more helpful. No root canal for now thankfully.",
+    "id": 19
+  },
+  {
+    "metro": "austin",
+    "practice": "Round Rock Modern Dentistry",
+    "rating": 1,
+    "reviewer": "Martin Pazos",
+    "snippet": "So what happens when the dentist messes up 2 crowns, and they have to get redone? Can we come back to get them fixed or do I have to get lawyers involved?",
+    "id": 20
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Alameda Dental Care",
+    "rating": 3,
+    "reviewer": "Jon Sargeant",
+    "snippet": "I can't complain about the service, but their prices are out of sight.  $200 for a straightforward cleaning and exam and $250 for a simple filling is ridiculous.  If you don't have dental insurance and you're paying out of pocket, I recommend you call around.  I personally recommend Smiles on Broadway which offers the same quality service at a fraction of the price.",
+    "id": 21
+  },
+  {
+    "metro": "austin",
+    "practice": "Peak Dental - South Austin",
+    "rating": 2,
+    "reviewer": "Peter Schwarck",
+    "snippet": "Went here for a while. Always seemed like they were trying to up sell me on everything. Then they drilled a cavity with out letting novocane fully kick in. Very painful. On the last scheduled appointment the office was close with no notice. No matter,  wont be going back anyway.",
+    "id": 22
+  },
+  {
+    "metro": "phoenix",
+    "practice": "75th Ave Dental Studio",
+    "rating": 3,
+    "reviewer": "Jessie Madera",
+    "snippet": "My first time using this dental office, relocated from out of state and just googled what looked like had the best reviews.\nPricing is fair, very friendly staff, not a long wait to be seen. Cleaning was fine, Just wanted a routine x-rays and cleaning, however my only real complaint is the second I sat in the chair i was being upsold on how to fix the appearance of my teeth before we even discuss the cleaning or my oral history.\nMid cleaning Im again being told about the upsell on fixing my teeth, and then once more when the Dentist comes in to do the final check. Dentist never really discussed my xrays or potential issues that the hygienist noted in x rays, took a brief look in my mouth, didnt pick around at all, and again tried to upsell fixing the appearance for the 3rd time.\n\nNot sure ill be back if thats what happens when you go in for routine maintenance.",
+    "id": 23
+  },
+  {
+    "metro": "tampa",
+    "practice": "Tomlinson Dental",
+    "rating": 4,
+    "reviewer": "cathy robinson",
+    "snippet": "My visit was very pleasant. The techs and doctors are excellent, making you feel at ease. Awesome team would recommend to others!",
+    "id": 24
+  },
+  {
+    "metro": "tampa",
+    "practice": "Nuvia Dental Implant Center",
+    "rating": 2,
+    "reviewer": "Mike Miller",
+    "snippet": "They would not tell me over the phone how much the top or the bottom partial was.\nInstead they set up this elaborate appointment to come in and give me this 360° X-ray on my mouth. They were supposed to show me a 3D picture of what my mouth would look like once I had teeth. I never did get to see one of those.\nAnd then after quoting me 54,000 they put in an application for a loan.\nIn my opinion this place is not worth the money. I won't be going to any more of these fake appointments unless the provider can tell me right out of the gate how much they charge for their partial plates top and bottom.\nThank you for wasting a whole day of my time Nuvia SCAM!!!! Dental.",
+    "id": 25
+  },
+  {
+    "metro": "austin",
+    "practice": "Aloha Dental",
+    "rating": 2,
+    "reviewer": "Joel Rios",
+    "snippet": "Traditionally on your first appointment you get your X-rays followed by a cleaning. Aloha only does the X-rays followed but the dentist discussing any work needed, I was told “we will see if there is time left for a cleaning”. Sole purpose of my appointment was the cleaning but I had to a schedule a whole other appointment.",
+    "id": 26
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Chandler Modern Dentistry",
+    "rating": 2,
+    "reviewer": "Lauren Zibell",
+    "snippet": "Lyssa was great with my X-rays!\n\nEdit: I was asked to leave this review before my appointment was over. & just so people know ahead of time—if you make a new patient appointment this doesn’t include a cleaning which is what I had called and made an appointment for. They told me it was a 90 minute appointment yet 40 minutes into my appointment I was told I could wait around and hope someone could clean my teeth or come back another time because “they have other appointments scheduled”. Yet I also had an appointment scheduled… horrible customer service honestly and the girl who told me gave me attitude. What were the remaining 50 minutes of my appointment for then? So stupid to have to come back, take time out of work and my day just because they have a scheduling issue. This should be clearly told to patients ahead of time if this is their process not to expect a cleaning simply because you’ve never been to this practice before.",
+    "id": 27
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 2,
+    "reviewer": "Krystal Li",
+    "snippet": "*Be aware of the pricing*\n\nWhen I got my quote, there is a “laser bacterial removal” thingy that costs 50 dollars per quad. Nobody told me that’s optional and nobody said anything about being able to perform cleaning without doing that. My $200 just 💸.\n\nAlso their price is way above average clinic price. Please be cautious and look at your quote carefully, understand which is necessary and which is not because they are just going to “encourage” you to do everything.\n\nOther than that everything is great, dentists and hygienist are encouraging and professional.😸",
+    "id": 28
+  },
+  {
+    "metro": "austin",
+    "practice": "Access Dental",
+    "rating": 1,
+    "reviewer": "Dexi Murcia",
+    "snippet": "Casi 2 horas en espera para q me atiendan .y a las personas que están llegando después de mi las pasan rápido. Pésimo servicio",
+    "id": 29
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Downtown Phoenix Dental",
+    "rating": 2,
+    "reviewer": "Jack Fairfield",
+    "snippet": "Disappointed with Downtown Phoenix Dental.  I started going to DPD for a few years and had no issues.  Had multiple x-rays done and had a tooth with a broken filling fixed up.  After working from home at the start of covid in the east valley, I decided to go to a different dentist for convenience.  This dentist took new xray and I was told that I had 10+ cavities and needed a crown on the tooth that DPD worked on less than 6 months prior.  I felt frustrated and sent in my xrays to DPD to get a second opinion and see why there was such a drastic difference in treatment plans at my new dentist.  I was told that the doctor would return my call.  I called back a week later and they didn't know what I was talking about.  I reminded them and the receptionist went to ask the doctor again.  He said that he wouldn't discuss it over the phone and that I needed to schedule an appointment to discuss treatment plans in depth at the office.  He was booked 2 weeks out. I was extremely frustrated that  I wasn't told about all of these cavities and the crown that needed to be done in the multiple years that I visited.  I gave two stars because everyone in the office is extremely friendly and the hygenist did a wonderful job.",
+    "id": 30
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Thomas Dental",
+    "rating": 1,
+    "reviewer": "Debra Hoffer",
+    "snippet": "I went there thinking they would check the bump on my gums, well she didn’t even look at it. Was just wanting to pull 4 teeth. Only one was loose. Okay, and to top it off she was talking to me like I was stupid and kept telling me I didn’t understand. I did understand what she was telling me. I confronted them and they didn’t even do anything about it. I miss the other dentist that used to be there. I will never go back to them. They were just horrible.",
+    "id": 31
+  },
+  {
+    "metro": "tampa",
+    "practice": "Brandon Smiles",
+    "rating": 5,
+    "reviewer": "Jasmine Rodriguez",
+    "snippet": "Dr. Sheik and his staff are amazing ! Knocked out six deep cavities with fillings today and it went so smooth !! He was very transparent, honest and gentle. I didn’t feel the needle when he numbed me . I was comfortable the entire time , the assistants were attentive and caring; just so very smooth !!! I’m also pleased cause the Numbing wore off , my bite is good and NO sensitivity afterward!!\nThe office is beautiful by the way; overall I am very pleased with my visit today ! I highly recommend this office for all of your dental needs !",
+    "id": 32
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Gentle Dental Tempe",
+    "rating": 3,
+    "reviewer": "Eli C",
+    "snippet": "Place is nice with nice employees but man prices are $$$ looking over my treatment plan with gentle dental versus another dental offices plan their price is double on top of laser work that insurance dnt cover. Deep cleanings shouldnt cost nearly $900 out of pocket with pretty good dental insurance. I think I may just go to my other dental office and save $600 out of pocket even with insurance 😮 That saying the grass isnt always greener is true.lol. Nice staff tho but saving on costs is more important especially procedures not even covered by insurance. Go somewhere where the majority of their procedures are covered or at least partially to save $$",
+    "id": 33
+  },
+  {
+    "metro": "austin",
+    "practice": "myDental at Tech Ridge",
+    "rating": 5,
+    "reviewer": "Apolonio Paul Chapa",
+    "snippet": "Had a great experience,  the people were really understanding and knowledgeable. I recommend them for your dental work.",
+    "id": 34
+  },
+  {
+    "metro": "tampa",
+    "practice": "Tampa Smiles: John L. Redd II, DMD",
+    "rating": 4,
+    "reviewer": "John Tillman",
+    "snippet": "the staff was friendly helpful and knowledgeable. I didn't have to wait long and what was supposed to be a frightful experience, wound up being Pleasant",
+    "id": 35
+  },
+  {
+    "metro": "tampa",
+    "practice": "Brandon Perfect Dental - Dentist Brandon",
+    "rating": 1,
+    "reviewer": "Lee L",
+    "snippet": "My Bridge was a failure, I voiced my concern and it was ignored. I was informed that I got a  Camry not a Mercedes as I was not able to afford implants. I was told to go to another dentist to look at it. Further I felt violated my extraction took over 2.5 hrs,  it was torture, and I had to go directly to an oral surgeon  paying more money out of pocket.  Beware  of terrible dental  work. I feel so disappointed,  and disgusted.  Won't return.",
+    "id": 36
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Desert Sky Family Dental",
+    "rating": 1,
+    "reviewer": "Alma dinora Luzanilla",
+    "snippet": "Muy mala experiencia rara  vez tocaba alguien que isiera buen trabajo 2 años para me dijeran que necesitaba mucho más trabajo y pagar más dienero tal ves el pagar por  adelantado no es bueno preferí quitarme lo que me avían puesto buscaré otro lugar donde no me engañen",
+    "id": 37
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 1,
+    "reviewer": "AKC",
+    "snippet": "I had a very disappointing experience at Swish Dental North Austin Domain. I felt that pricing was not transparent — after insurance adjustments, the rates seemed inflated to offset the discounts. I initially had no pain or issues with my tooth, but after a filling was done, the tooth was ground down so much that I was later told I needed a crown. This felt unnecessary and left me frustrated.\n\nWhen I returned for the same filling, it came out within a month, which makes me question the quality of the materials and the work done. Based on my visits, I personally do not feel confident in the level of care or experience here.\n\nI am now looking for another dentist as I do not want to risk more unnecessary treatments. I also do not understand how this location has such high ratings online, as my own experience was very different.\n\nFor anyone considering this clinic: please be cautious and do your research before proceeding.",
+    "id": 38
+  },
+  {
+    "metro": "tampa",
+    "practice": "Florida Dental Centers of St. Petersburg",
+    "rating": 2,
+    "reviewer": "J Smith",
+    "snippet": "I came here to take my mother who is handicapped. I first noticed the inconvenience of the ramp that is on the back of the building. I am not sure if that is even up to ADA codes. Upon entering, I noticed the very old smell of the building but overlooked it. I walked up to the counter where no one acknowledged me. My mother got called back fairly quick though. But as I was waiting I noticed how disgusting the bathroom was, it was out of soap, paper towels, and toilet paper and there was water everywhere. Overall, this building needs a full face lift.",
+    "id": 39
+  },
+  {
+    "metro": "tampa",
+    "practice": "Carrollwood Smiles",
+    "rating": 3,
+    "reviewer": "Haley King",
+    "snippet": "one word.... EXPENSIVE! Staff is super kind and welcoming. But they priced my teeth at over $30,000",
+    "id": 40
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Aesthetic Family Dental Care",
+    "rating": 4,
+    "reviewer": "Karli Kelly",
+    "snippet": "Waited a bit for my appointment which pushed me into being there a bit longer than I was expecting.  Great cleaning, learned about the benefits of the technology and machines available onsite but didn't feel pressured as I often do at my previous dentist.",
+    "id": 41
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Smiles of Chandler",
+    "rating": 5,
+    "reviewer": "Sarah Salvatori",
+    "snippet": "Smiles of Chandler was great. The office was beautiful and so clean. All the staff was super friendly and thorough. 11/10 would recommend.",
+    "id": 42
+  },
+  {
+    "metro": "tampa",
+    "practice": "Coast Dental",
+    "rating": 5,
+    "reviewer": "Michelle Saiz",
+    "snippet": "My experience at Coast Dental Orthodontics department was excellent. The staff and Dr. Patel are all so kind and cheery everytime I walked in for a visit. I love my new smile thanks to them! :)",
+    "id": 43
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Gentle Dental Tempe",
+    "rating": 3,
+    "reviewer": "Max Robertson",
+    "snippet": "FYI yall's info is being used for a texting scam . . . Got a text from an \"automated system\" reminding me of my \"appointment scheduled for 6:30 next Saturday\" and a bitly link to click for more info. I didn't click, yay, bc I *know* I don't have any upcoming appointments, and because y'all are closed on Saturdays. Just a heads up to you Gentle Dental Tempe, they're using your location's phone number specifically!",
+    "id": 44
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Dental Specialty Associates of Gilbert",
+    "rating": 4,
+    "reviewer": "May Sennewald",
+    "snippet": "The staff are very knowledgeable and caring. The facility is clean and well prepared to handle the current COVID situation.",
+    "id": 45
+  },
+  {
+    "metro": "austin",
+    "practice": "Smile Haus Arboretum - Modern Family Dentistry & Orthodontics",
+    "rating": 4,
+    "reviewer": "Elaine Crowson",
+    "snippet": "I have to admit that when my old dentist sold his practice to a corporate dentist, I was very skeptical. I was afraid they would push unnecessary, costly procedures for profit. This has not been the case with Smile Haus. They kept on hygienists that have been cleaning my teeth for years and the dentists have been kind, caring, skilled professionals. I’ve been as pleased as you possibly can when it comes to having dental work done.",
+    "id": 46
+  },
+  {
+    "metro": "austin",
+    "practice": "South Austin Dental Associates",
+    "rating": 1,
+    "reviewer": "Dawn Dulaney",
+    "snippet": "They canceled on me and gave me no explanation that made sense. Something about my emotions when I asked questions about pain, and other things about the All on 4 procedure. Keep in mind, they made the molds and this was after several visits planning this. They were paid $17000.00 and less than 24 hours before scheduled procedure they decide they don't want to do it. I had arrangements for my absence at work, arrangements to stay with my mother, drivers arranged for safe transport. Crushing my dream without a care in the world.  I DO NOT RECOMMEND THIS PLACE! Unless you enjoy having your spirit crushed.",
+    "id": 47
+  },
+  {
+    "metro": "austin",
+    "practice": "Round Rock Modern Dentistry",
+    "rating": 3,
+    "reviewer": "Forrest Parton",
+    "snippet": "Super disappointed with my experience here. I came in for some tooth pain and was seen by the doctor. She was great, and prescribed some antibiotics. That’s where the good service ends. I was told I would receive a treatment plan with pricing so I could schedule the work I need done. Never did, so I went back in two days later and spoke to the girl at the desk and let her know I was still waiting on a treatment plan. She said they would send it by end of day, but all I got was a text to pay almost triple what I was quoted for the visit and no treatment plan ever came thru. I have tried multiple times to call and can never get thru to anyone. Then I get a call from a collections company trying to collect the bill. I am happy to pay what I was told the charge would be prior to seeing me, but I am not gonna pay three times that amount!!! It’s ridiculous that they can’t return a call or answer the phone, but will send me to collections!!! Poor communication, poor billing practices, and zero help planning future services. I won’t be returning, and hope someone from this office and not a collections agency can call me to straighten this up.\n\nEdit: It took me physically going in to speak to someone to straighten this out. Nelly the operations manager was able to fix the issue, and I’m happy they were willing to look into it. Gave them a couple stars back, but can’t get it to 5 as this really could have been solved weeks ago by returning a phone call.",
+    "id": 48
+  },
+  {
+    "metro": "tampa",
+    "practice": "Carrollwood Smiles",
+    "rating": 4,
+    "reviewer": "Genevieve Ponder",
+    "snippet": "Really happy with results of my bridge.",
+    "id": 49
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Island Dental - Dentist Gilbert, AZ",
+    "rating": 1,
+    "reviewer": "Mercy Meo",
+    "snippet": "Very disappointed. My husband and I have been going to Island Dental for 4-5 years and have always been pleased with the experience. In the past, we’ve gotten in and out quickly and the receptionist has always been chatty and cheery. But mostly, we’ve been thrilled with the hygienists we’ve been seeing for years, Molly and Laura. This visit, we were surprised to have new hygienists (who we were not happy with), sales pitches for electric toothbrushes, water picks, crowns and Invisalign. The receptionist could barely muster words when checking out, let alone a smile. The whole experience was awful. When I asked about the hygienists we’d been seeing for years, I was told “they both don’t work here anymore.” That’s a red flag. Also, the hygienist my husband got told him she was a “fill in” and complained about customer service Indian telemarketers during their chat. Awkward. And the one I had knew I was uncomfortable with the new water pick cleaning system their using now and said “it made the process faster.” And then proceeded to dig at my teeth with regular tools for another ten minutes. Was it faster? Or could you have shown some compassion and listened to the patient. Needless to say, we’re not going back and are now on the hunt for wherever Molly and Laura went. If you’re out their ladies, find me!!! From, the Cat Couple.",
+    "id": 50
+  },
+  {
+    "metro": "austin",
+    "practice": "River Rock Dental Austin - Southpark Meadows",
+    "rating": 2,
+    "reviewer": "OldSoul",
+    "snippet": "This was my first time at River Rock. I went for a simple cleaning to remove stains on my teeth. It was wonderful place, no complaints whatsoever- except for the X-rays.\nI'm a healthy 18 year old who has never had any issues- not even a cavity- and I've gone to the dentist annually or bi-annually for years. I don't care if it's \"required,\" I do not need 18 X-rays! This is ridiculous! My last X-rays were \"not recent enough\" because they were a year old. Big whoop. If they're doing this just for money, it's backfiring. I will not continue to go to the dentist on a regular basis if that means getting X-rays for no apparent reason. I'm asking myself why I even went today. X-rays should be patient-specific period. And if the X-rays are not harmful (as I was assured), why did they keep asking to make sure I wasn't pregnant?",
+    "id": 51
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Desert Sky Family Dental",
+    "rating": 1,
+    "reviewer": "Marco Valenzuela",
+    "snippet": "I had a horrible experience with this place they said my son needed braces and he didn’t they just needed to sale and also they never bill you on time making me ow them thousands of dollars their billing department is so bad the manager is very rude and arrogant “Alondra” I please advise you to not have this place care for your dental needs now I am in collections because of their bad billing and poor service",
+    "id": 52
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Do Good Dental",
+    "rating": 5,
+    "reviewer": "Stacey Pitts",
+    "snippet": "Excellent service all of the staff I encountered were wonderful. The office is very modern a welcoming.",
+    "id": 53
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental Cedar Park",
+    "rating": 5,
+    "reviewer": "Emily Tran",
+    "snippet": "One of the best dentist experiences I've ever had! The entire staff is very kind and welcoming. The place was clean, and they got me in and out pretty quickly. 10/10 recommend.",
+    "id": 54
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Aesthetic Family Dental Care",
+    "rating": 1,
+    "reviewer": "Ashley Baldwin",
+    "snippet": "Have been going to this dentist for 8+ years but now every time I make an appointment or go in it’s something new. They have now told me and 4+ of my family and friends that I’ve referred there that they need Invisalign? All of us have pretty straight teeth - feels like they sold out and are trying to upsell us. Originally I was thinking wow, maybe I do need that. But after speaking to every other person I know that goes there? I don’t. Even more frustrating, I booked an appointment for a Saturday several months ago just for them to call me a few days beforehand and tell me they overbooked so they are cancelling my appointment. Their next availability on a Saturday? June. So frustrating, it doesn’t feel like they care about their customers anymore. I’ve finally decided to start going to another dentist.",
+    "id": 55
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Dental on Central",
+    "rating": 1,
+    "reviewer": "Stephanie Payan",
+    "snippet": "Dr seemed great, 2 years of back office “ back and forth “ left me with a worse periodontal condition that I went in with. All the Stephanie’s and Rosa’s wasted my benifits and looks as if and feels as if my teeth are wasting away as well. 👍🏼Thanks ALOT!",
+    "id": 56
+  },
+  {
+    "metro": "austin",
+    "practice": "Round Rock Modern Dentistry",
+    "rating": 2,
+    "reviewer": "Elizabeth Russell",
+    "snippet": "This is not a place for kids even though they claim to be a family dentistry. They found a spot on my sin's tooth then didn't want to deal with him. They made a half hearted effort to clean his teeth. It was a disaster and cimplcom waste of my time. They referred me to the pediatric dentist at their other branch who doesn't even work there anymore. I found another dentist, the \"spot\" must have been food because he found absolutely nothing. Very dissatisfied with the the entire process.",
+    "id": 57
+  },
+  {
+    "metro": "tampa",
+    "practice": "Florida Dental Centers of St. Petersburg",
+    "rating": 5,
+    "reviewer": "Evangeline Rapiz",
+    "snippet": "A team member greeted me warmly.  Clean and nice reception area. Dental technician got me on time.  Overall, good experience.",
+    "id": 58
+  },
+  {
+    "metro": "austin",
+    "practice": "Treaty Oak Dental",
+    "rating": 4,
+    "reviewer": "Bradley Cuccio",
+    "snippet": "First time visit was excellent. Staff made me feel comfortable and explained thoroughly their approach to my dental care. Would give 5 stars if this wasn’t my first visit. So far, best dentist office I’ve been to.",
+    "id": 59
+  },
+  {
+    "metro": "austin",
+    "practice": "Breeze Dental",
+    "rating": 3,
+    "reviewer": "Silvia Gates",
+    "snippet": "Decided to take out whole family here conveniently located, staff is friendly, clean and nice, pricing seems a little high. Was a bummer we all came out each time with more work and $$ to spend, that wasn't the case at other dentist. The work they did do was well done.",
+    "id": 60
+  },
+  {
+    "metro": "austin",
+    "practice": "Southpark Meadows Dental Group and Orthodontics",
+    "rating": 2,
+    "reviewer": "Eric",
+    "snippet": "Avoid this place. Long wait times in the exam rooms, additional fees for anything and everything, filling fell out less than a year later, rescheduling an appointment is such a hassle, the list goes on and on",
+    "id": 61
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 3,
+    "reviewer": "Brian Forte",
+    "snippet": "Updated 12/31/2024. Not a good visit this round. I arrived 20 minutes early and was taken back 10 minutes late. Waited for the dentist consult for another 10 minutes after cleaning. I was instructed to wait for cash out (another 5 minutes) after I already paid at the front desk, had to ask if I could go. I had a different hygienist and dentist on this visit, no clue why. Sorry Swish, not a terrific experience.\n\nThis was my first visit to Swish Dental as a new patient. Everyone involved in my dental visit was excellent. The team was very thorough and explained everything. Dr Lawson was great, she made sure I understood everything was ok. Teeth cleaning with hygienist was great, I was comfortable all the way through. Team offered multiple options for different potential dental issues. Great visit with Swish!",
+    "id": 62
+  },
+  {
+    "metro": "phoenix",
+    "practice": "East Valley Dental Care",
+    "rating": 2,
+    "reviewer": "Tony S",
+    "snippet": "First time visit, receptionist was really friendly and made things easy to set up.\n\nI told the office of my issues with hot/cold sensitivity and and pointed out some minor issues I should talk with the dentist.\n\nHygienist did a good job with cleaning and Xrays and discussed my issues I brought up on my patient form.\n\nWhen the dentist came in, he quickly looked through the Xray slides of my teeth and suggested a costly night guard/braces (which is a problem I've been aware of) and left. He was friendly, but I had less than 2 minutes total with him. He did not psychically check my teeth, gums, tongue, jawline that I usually have checked with other dentists as a first time patient.\nNot sure if it's relevant to COVID precaution, but I didn't feel cared about.",
+    "id": 63
+  },
+  {
+    "metro": "austin",
+    "practice": "Buttercup Dental",
+    "rating": 4,
+    "reviewer": "Ralph LaBrack",
+    "snippet": "Nice people and modern equipment. I’ll be back👍",
+    "id": 64
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Family Dental Phoenix",
+    "rating": 1,
+    "reviewer": "Matt K",
+    "snippet": "Been going here for years, last visit felt like a visit to a used car dealership. Went in for a cleaning and was up sold some treatment plan and when I refused due to time constraints they would not even do my cleaning. Cancelled the rest of my families appointments for cleaning that week. What a shame, used to be a good experience",
+    "id": 65
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 2,
+    "reviewer": "Bianca Davis",
+    "snippet": "I’ve been seen twice here and it hasn’t been the best experience. The most recent experience was the last. I came in for a cleaning and was told it would be out of pocket. I don’t like surprise billings but apparently\nSwish Dental does. I’m currently searching for another dentist because transparency is important to me.",
+    "id": 66
+  },
+  {
+    "metro": "phoenix",
+    "practice": "East Valley Dental Care",
+    "rating": 3,
+    "reviewer": "Maria Pugliese",
+    "snippet": "Dr. Cadwell did a great job putting my new crown back on.  However, my one filling that was done by one of their other dentists at their Alma School location was very sensitive which Dr. Cadwell had to fix and one of my temporary crowns put in by a dental tech ended up cutting my tongue and made talking and chewing very difficult so I had to return to get that taken care of.  Kind of wish it could all be done right the first time around.",
+    "id": 67
+  },
+  {
+    "metro": "tampa",
+    "practice": "Klement Family Dental | Old Northeast",
+    "rating": 3,
+    "reviewer": "Ferb DJ",
+    "snippet": "Could be more receptive & not so defensive.\nWork is good just not especially friendly.",
+    "id": 68
+  },
+  {
+    "metro": "tampa",
+    "practice": "Florida Dental Centers of St. Petersburg",
+    "rating": 3,
+    "reviewer": "Richard Blassingame",
+    "snippet": "Always trying to sell more services.",
+    "id": 69
+  },
+  {
+    "metro": "tampa",
+    "practice": "Flex Dental",
+    "rating": 1,
+    "reviewer": "Megan D",
+    "snippet": "My mother came in for lower implants and her temporary teeth have fallen apart and are causing her pain.  Her permanent teeth keep being delayed and no one from this office is helping her.  They also do not have an emergency contact number.  The number on the website gives you an option to leave a message for a receptionist and I did.  Beware of this office.",
+    "id": 70
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Smile Loft Dentistry of Gilbert",
+    "rating": 5,
+    "reviewer": "Anh-thu Tran",
+    "snippet": "I highly recommend Smile Loft Dentistry. Dr. Chan and her staff are very kind, knowledgeable and efficient. I went in for my appointment and was seen right away and felt comfortable and relaxed the entire time. They all make tremendous efforts to make your dental experience as enjoyable as possible and I can honestly say I left with a big smile on my face because this office took such great care of me. Thank you Smile Loft.",
+    "id": 71
+  },
+  {
+    "metro": "austin",
+    "practice": "Round Rock Dentists",
+    "rating": 1,
+    "reviewer": "Brittany Amorestrella",
+    "snippet": "It was suggested that I need a deep cleaning. The dentist office refused to schedule a regular cleaning until this was done. I’m sure it’s ‘required’ since it cost $1400 and isn’t just my regular cleaning that would not make them any money. Especially after they already billed insurance for the 5 year X-rays… so disappointed after hoping for a good experience. Finding a new dental office.",
+    "id": 72
+  },
+  {
+    "metro": "tampa",
+    "practice": "Pediatric Dentistry of Brandon",
+    "rating": 1,
+    "reviewer": "A s h t o n",
+    "snippet": "Will not answer my repeated calls on either appointment or billing phone options ...\n\nTheir waiting rooms and exam rooms look nothing like the pictures posted.\n\nThe women at the reception desk aren't pleasing... Not very professional. I'm not here to make people happy, but leave an HONEST review. The ONLY positive things are the people who work in the back.. the dentist, the assistants, the techs, they were great with my daughters who were fearful. They explained things thoroughly. My one star is because I can't contact them AT ALL.",
+    "id": 73
+  },
+  {
+    "metro": "tampa",
+    "practice": "Klement Family Dental | Old Northeast",
+    "rating": 1,
+    "reviewer": "Emmanuel Pardo",
+    "snippet": "This is an extremely unprofessional office and staff. They will cancel your appointment  at the very last minute. They call to confirm appointments in the middle of the work day but if you do not answer (and I did not because I’m in the middle of working), they will go ahead and cancel you.\n\nI explained that if I wanted to cancel my appointment, I would’ve done so myself. Otherwise why would I have scheduled. People have lives and need to work, and not answering a redundant call to confirm an appointment should not be a reason to cancel you and then tell you they no longer have your appointment slot available.\n\nThese are extremely unprofessional people and I would recommend to them that they address their policy and make it clear BEFORE scheduling that a patients appointment will be canceled without their consent or knowledge. I’ve never seen that done before, period.\nExtremely unprofessional",
+    "id": 74
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Chandler Modern Dentistry",
+    "rating": 1,
+    "reviewer": "RY Guri",
+    "snippet": "I don’t understand how this place has this many stars😳\n…Firstly it took many attempts to just check in 😓 Kept sending me links and their iPad has error messages - what if I was on lunch and had to get back to work? Very inefficient check in.\nThen I think I saw 5 people while I was in the chair - a different person for each component of the Exam. There’s usually 2 or 3 people tops You see at a dentist office… hygienist and maybe the Xray person is different + the dentist. 1 of the 5 was the finance person … like can’t it wait until I’m finished with the Exam- Jeesh! Felt captive while she told me basically that I need to set up an Appointment with the orthodontist pronto ! And if I cancel that will be $100 and oh by the way You will end up paying $6500 out of pocket After it’s all said and done.\nI’m sorry - I just came in for a checkup. What are you alls trying to con or Scam out of a new patient ??\nAnd why would I make an appointment that will penalize me $100 if I don’t make it without getting a second opinion on You guys telling me I will have to get something done that will cost me $6500?\nVery out of touch.\nAbsolutely will not go back ❌❌\nShady Vibes.",
+    "id": 75
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Chandler Dental",
+    "rating": 1,
+    "reviewer": "Bob “Mac” McDonnell",
+    "snippet": "Been a patient for a very long time. Had an issue with the cleaning I received today and when I expressed my dissatisfaction it was obvious no one cared. There are a lot of dental offices around. DON'T USE THIS ONE!",
+    "id": 76
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental South",
+    "rating": 5,
+    "reviewer": "Sam",
+    "snippet": "Had a really great experience with Dr Lee and all the staff at this location. Very Friendly, clear, efficient, and also super detailed. I had an initial deep clean, whitening and then some crowns/veneer work. They were super clear with the process, and most importantly, the end result was amazing. Great experience.",
+    "id": 77
+  },
+  {
+    "metro": "austin",
+    "practice": "Cedar Park Dental Wellness",
+    "rating": 3,
+    "reviewer": "multi purpose",
+    "snippet": "The 3 star rating is for the high cost. The care and treatment are 5 star. I paid 10 times more than what my husband and daughter paid for the same treatments, although we all have the same insurance. Not going back again",
+    "id": 78
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Open Wide Dental - Phoenix",
+    "rating": 5,
+    "reviewer": "Joshua Klein",
+    "snippet": "The doctor and staff are fantastic. Today was my first visit with them, and it was easily the best dental experience of my life.\n\nFrom the first call to make the appointment to the payment after service, everyone was competent and friendly. I am so happy that I found Open Wide Dental.",
+    "id": 79
+  },
+  {
+    "metro": "tampa",
+    "practice": "Waterfront District Dental",
+    "rating": 2,
+    "reviewer": "Vecchiarelli Mary Jo",
+    "snippet": "The new dental hygienis does not give feedback either positive or corrective for how I was maintaining my teeth.",
+    "id": 80
+  },
+  {
+    "metro": "tampa",
+    "practice": "Pediatric Dentistry of Brandon",
+    "rating": 3,
+    "reviewer": "Christiana Smiley",
+    "snippet": "Long wait times. But the staff is so nice and knowledgeable.",
+    "id": 81
+  },
+  {
+    "metro": "tampa",
+    "practice": "St. Art Dental",
+    "rating": 3,
+    "reviewer": "Thays Alves",
+    "snippet": "The place is good and the professionals are great, but there was a billing issue on my first visit.\n\nI was charged $86 upfront, which they said would cover what my insurance didn’t (such as fluoride).\n\nAfter the procedure, I received a text charging $157.20 after insurance. When my insurance sent me the explanation of benefits, it showed I should have been charged $107, not $157.20 — and it also showed that I was charged again for fluoride, which was supposedly already paid.\n\nWhen I asked for clarification, they couldn’t give me a clear explanation.\n\nOverall, the care was good, but I recommend keeping a close eye on your bills and what you’re being charged for.",
+    "id": 82
+  },
+  {
+    "metro": "tampa",
+    "practice": "Smile Design Downtown",
+    "rating": 4,
+    "reviewer": "Charles Jones",
+    "snippet": "Thank you so very much for all the work that you've done I would recommend people like I've been doing before.",
+    "id": 83
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Do Good Dental",
+    "rating": 3,
+    "reviewer": "ben padilla",
+    "snippet": "I've been going to Do Good Dental for over 5 years and expect to in the future. I like Kayla and my new hygienist Gil. I ha e aleays paid for services rendered. However, I like to pay what I owe after receiving my EOB but this time I was informed otherwise.",
+    "id": 84
+  },
+  {
+    "metro": "tampa",
+    "practice": "Coast Dental",
+    "rating": 4,
+    "reviewer": "Cj H",
+    "snippet": "I originally had an appt with South Tampa office and had such a long wait that I left. I rescheduled at Hyde Park office out of convenience. Arriving early for my appt I was expecting to be seen right on time give or take a few minutes. After waiting past my appt time & already being a little moody from my last experience, the receptionist could see my frustration & immediately brought me into a room to be taken care of. Never once did she give me back the attitude I was giving off and that calmed me down a lot. I ended up being in the office for 3hrs & could have stayed all day (I only went in for cleaning). Everyone was sooo  patient with me from the time I sat in the chair until i walked out (explaining what they were doing and what&why I needed what they recommended). I highly recommend this office as I felt comfortable with my treatment and the care from all the staff (as I came in contact with at least 4 of them during my visit lol). I see the reviews about the extra fees and they did explain what was necessary and what was not. This made me appreciate their honesty. I will be going back :-)",
+    "id": 85
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Impressions Dental | Dentist Chandler",
+    "rating": 5,
+    "reviewer": "Carolina Badilla",
+    "snippet": "Annette Perez did a great job and works in the best dental office in chandler az.",
+    "id": 86
+  },
+  {
+    "metro": "austin",
+    "practice": "Vida Dental South",
+    "rating": 3,
+    "reviewer": "Stacy Lopez",
+    "snippet": "Staff and Dr Great, but went in for sensitivity on my gums and was offered a $600 plus to clear the matter. No temporary solution or given a cleaning or free toothbrush or paste. Was forgotten and left in the exam room and Elida, the Mgn review my solution. Disappointed by the service.",
+    "id": 87
+  },
+  {
+    "metro": "tampa",
+    "practice": "Great Expressions Dental Centers - Carrollwood Commons",
+    "rating": 4,
+    "reviewer": "John Custalow",
+    "snippet": "Albert and Dr K are the best !",
+    "id": 88
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Gentle Dental Tempe",
+    "rating": 2,
+    "reviewer": "Candace Toler",
+    "snippet": "Had oral surgery on Monday morning and never heard another word...",
+    "id": 89
+  },
+  {
+    "metro": "tampa",
+    "practice": "Coast Dental",
+    "rating": 1,
+    "reviewer": "Joan Antonuccio",
+    "snippet": "Waited 2 months to finally get into the appointment.  Have to get up super early to get my disabled daughter there on time. A woman came AFTER we had been waiting, saying her appointment was 45 minutes later. Guess who was called in first? Apparently we were not White enough.",
+    "id": 90
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Family Care Dental",
+    "rating": 2,
+    "reviewer": "BM",
+    "snippet": "If you like severe pain while a dentist is operating on you go here!\n\nThe lady doing my cleaning seems to enjoy making gums bleed while she's flossing you. She couldn't make mine bleed and had a disappointed look on her face.\n\nDr. McDougall seems like she's trying (that's why it's not 1 star). She refused to use enough novocaine so I was sitting there in extreme pain the entire time she was operating on me! A surrealistic nightmare.\n\nThe billing department is atrocious. I called, emailed and drove down to the office to speak with them. The billing people were unable or unwilling to contact me back. It took 1 calendar year (seriously) for them to get back to me.\n\nDo not go here if you have a high tolerance for pain meds.",
+    "id": 91
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental - Domain",
+    "rating": 1,
+    "reviewer": "B. Torres",
+    "snippet": "Went in for a routine cleaning, was asked at check in if I wanted the fluoride treatment, I declined. Was sent a link to my phone to check in, the first page of the online form would not let me proceed unless I consented to the fluoride treatment. I informed the front desk and they apologized and sent me a new link. Imagine if I hadn’t noticed that and just breezed through the paperwork without being thorough? Was asked during the cleaning if I wanted the fluoride treatment again. I declined again. Afterwards, the hygienist set a new appointment date for October and I asked if she could please not do that because my schedule changes every 6 months and it will be different by then. She refused to cancel the appointment and told me to just call later to change it. Imagine if I forgot to do that? I’d have to pay the cancellation fee. They are VERY intentionally tricky here. It’s evident that profit is the number one priority and not your dental health. The dentist looked at my teeth for about 13 seconds. I will not be returning.",
+    "id": 92
+  },
+  {
+    "metro": "austin",
+    "practice": "Aloha Dental",
+    "rating": 3,
+    "reviewer": "Tara M",
+    "snippet": "Have been super impressed with my experience here. I came for a cleaning which was covered by insurance and then have gotten cosmetic work to whiten my teeth. The staff is super professional and kind but also knowledgeable and efficient. Would def recommend! Edited: this review was specifically for Dr. Rho who has since left.",
+    "id": 93
+  },
+  {
+    "metro": "austin",
+    "practice": "Swish Dental Cedar Park",
+    "rating": 4,
+    "reviewer": "Michael Callan",
+    "snippet": "I am giving this dental office four stars because the dental assistant and dentist were very pleasant and explained everything that needed to be done. In my first appt i went through the whole evaluation procedure and got the emergency situation taken care of in that one visit. Otherwise I would have only given three Stars. The concern I have is with the billing dept. The teeth I had extracted did not have any underlying issues that were treated, no infections, they were fully exposed, no cutting or breaking of the teeth was required yet I was charged for surgical extractions. This ate most of yearly limit for my dental insurance leave me only about $100 of the $1500.00 I started with. I believe this has become common practice with dentist and no extraction is ever labeled as simple extraction.",
+    "id": 94
+  },
+  {
+    "metro": "austin",
+    "practice": "Serenity Dental Studio",
+    "rating": 3,
+    "reviewer": "De'Aja Roberts",
+    "snippet": "The dental assistant, Brianna, made this visit 10x better, she explained each step of the comprehensive exam and was easygoing, which really helped with my nerves. The front desk mispronounced my name three times even after corrections. The dentist focused on higher-cost concerns and gave little attention to my main issue, though they did suggest getting a second opinion, which I found interesting. Overall, an average visit.",
+    "id": 95
+  },
+  {
+    "metro": "austin",
+    "practice": "Serenity Dental Studio",
+    "rating": 3,
+    "reviewer": "Payam Jan",
+    "snippet": "expensive dentist. Also, they keep texting or emailing me every few hours to leave a review about their service. Here is my review about this dentist",
+    "id": 96
+  },
+  {
+    "metro": "phoenix",
+    "practice": "Island Dental - Dentist Gilbert, AZ",
+    "rating": 4,
+    "reviewer": "Kevin McClelland",
+    "snippet": "Very nice experience. My teeth were pretty white already but after the treatment, it was a nicer white evenly spread throughout my my smile line. 😁 Great job…",
+    "id": 97
+  },
+  {
+    "metro": "phoenix",
+    "practice": "AZ Cosmetic & Family Dentistry: Dentist in Peoria",
+    "rating": 2,
+    "reviewer": "Stephanie Voelker",
+    "snippet": "When I first started going here in 2020, I was very happy with the practice. In 2021 when I had some cavities filled I had a pretty tough time with the procedure, especially after the dentist accidentally stabbed me in the lip with the syringe she was using to numb me. When I had my most recent visit, I was told by the hygienist that a \"spot\" they'd been watching was still there, but was no big deal, and then the dentist came in and said it should be filled soon because now it's a problem. They also told me a few other \"concerns\" they'd never addressed before, including needing Invisalign treatment, and sent me on a way with a treatment plan totalling $6K after I told them I wasn't interested in Invisalign. They also contacted me last minute to try to cancel my appointment because they didn't have staff available, but were suddenly able to keep the appointment when I told them I had no other availability this week. Needless to say, I'll be finding another practice.",
+    "id": 98
+  },
+  {
+    "metro": "tampa",
+    "practice": "Coast Dental",
+    "rating": 2,
+    "reviewer": "Susana Navarro",
+    "snippet": "The music at your Business is not appropriate,  is ok for a restaurant, or night club but not for any Medical office.",
+    "id": 99
+  },
+  {
+    "metro": "tampa",
+    "practice": "Klement Family Dental | St. Petersburg",
+    "rating": 5,
+    "reviewer": "Susan Gilmore",
+    "snippet": "When I read some of the reviews. I had some hesitation but after my appt, I could not be happier with my experience!  Shania was the person who did my work up and she could not have been better!  She explained what she was doing and was gentle,’kind and patient. I was given a full, detailed overview of what work needs to be done.  It was broken down by tooth and procedure. I have zero hesitation about returning for the actual drilling. I  know I can trust them to treat my phobia about dentists with care.",
+    "id": 100
+  }
+]

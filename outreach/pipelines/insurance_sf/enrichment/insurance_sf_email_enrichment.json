@@ -1,0 +1,342 @@
+[
+  {
+    "title": "Embassy Auto Insurance",
+    "website": "",
+    "hit403": false,
+    "emails_found": [],
+    "pages_checked": [],
+    "errors": [
+      "no website"
+    ]
+  },
+  {
+    "title": "MOC Insurance Services",
+    "website": "",
+    "hit403": false,
+    "emails_found": [],
+    "pages_checked": [],
+    "errors": [
+      "no website"
+    ]
+  },
+  {
+    "title": "AAA San Francisco Richmond District Branch",
+    "website": "https://mwg.aaa.com/agent-office-locations/ca/san-francisco/aaa-san-francisco-richmond-district-branch",
+    "hit403": true,
+    "emails_found": [],
+    "pages_checked": [
+      {
+        "url": "https://mwg.aaa.com/agent-office-locations/ca/san-francisco/aaa-san-francisco-richmond-district-branch",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://mwg.aaa.com/contact",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://mwg.aaa.com/contact-us",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://mwg.aaa.com/about",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://mwg.aaa.com/contact.html",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "errors": [
+      "HTTP Error 403: Forbidden"
+    ]
+  },
+  {
+    "title": "Henry De Guzman Cruz: Allstate Insurance",
+    "website": "https://agents.allstate.com/henry-de-guzman-cruz-san-francisco-ca.html?utm_source=GMB&utm_medium=Website",
+    "hit403": true,
+    "emails_found": [],
+    "pages_checked": [
+      {
+        "url": "https://agents.allstate.com/henry-de-guzman-cruz-san-francisco-ca.html?utm_source=GMB&utm_medium=Website",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://agents.allstate.com/contact",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://agents.allstate.com/contact-us",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://agents.allstate.com/about",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://agents.allstate.com/contact.html",
+        "status": 403,
+        "err": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "errors": [
+      "HTTP Error 403: Forbidden"
+    ]
+  },
+  {
+    "title": "Nationwide Insurance: Anita Daisy Lo Agency",
+    "website": "https://agency.nationwide.com/ca/san-francisco/94121/anita-daisy-lo-agency",
+    "hit403": false,
+    "emails_found": [
+      "loa1nationwide@gmail.com"
+    ],
+    "pages_checked": [
+      {
+        "url": "https://agency.nationwide.com/ca/san-francisco/94121/anita-daisy-lo-agency",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://agency.nationwide.com/ca/san-francisco/94121/anita-daisy-lo-agency",
+        "status": 200,
+        "err": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "title": "ESI Insurance Brokers",
+    "website": "http://www.insurance415.com/",
+    "hit403": false,
+    "emails_found": [
+      "broker@insurance415.com"
+    ],
+    "pages_checked": [
+      {
+        "url": "http://www.insurance415.com/",
+        "status": 200,
+        "err": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "title": "Jake Stewart - State Farm Insurance Agent",
+    "website": "https://www.jakestewart.com/",
+    "hit403": false,
+    "emails_found": [],
+    "pages_checked": [
+      {
+        "url": "https://www.jakestewart.com/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.jakestewart.com/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.jakestewart.com/contact",
+        "status": 404,
+        "err": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://www.jakestewart.com/contact-us",
+        "status": 404,
+        "err": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://www.jakestewart.com/about",
+        "status": 404,
+        "err": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://www.jakestewart.com/contact.html",
+        "status": 404,
+        "err": "HTTP Error 404: Not Found"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "title": "Insurance Agency J&E and Registration Services",
+    "website": "https://weqwe.readdy.co/",
+    "hit403": false,
+    "emails_found": [],
+    "pages_checked": [
+      {
+        "url": "https://weqwe.readdy.co/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://weqwe.readdy.co/contact",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://weqwe.readdy.co/contact-us",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://weqwe.readdy.co/about",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://weqwe.readdy.co/contact.html",
+        "status": 200,
+        "err": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "title": "Heffernan Insurance Brokers",
+    "website": "https://www.heffins.com/",
+    "hit403": false,
+    "emails_found": [],
+    "pages_checked": [
+      {
+        "url": "https://www.heffins.com/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/about-us/leadership-team/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/about-us/philanthropy/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/about-us/modern-brokerage-solutions/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/about-us/locations/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/about-us/heffernan-network-insurance-brokers/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/contact",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/contact-us",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/about",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://www.heffins.com/contact.html",
+        "status": 404,
+        "err": "HTTP Error 404: Not Found"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "title": "WFG National Title Insurance Company",
+    "website": "http://wfgtitle.com/",
+    "hit403": false,
+    "emails_found": [
+      "agencysupport@willistonfinancial.com",
+      "cbeck@wfgtitle.com",
+      "claims@willistonfinancial.com",
+      "compliance@willistonfinancial.com",
+      "hr@willistonfinancial.com",
+      "noticestowfglegal@willistonfinancial.com",
+      "pguenther@wfgtitle.com",
+      "wfgvendorapplications@willistonfinancial.com"
+    ],
+    "pages_checked": [
+      {
+        "url": "http://wfgtitle.com/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "http://wfgtitle.com/staff?referer=agency-staff",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://wfgtitle.com/flagstaff-office/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://wfgtitle.com/cornerstones?activetab=tab-obsess-about-service",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://wfgtitle.com/contact-us/",
+        "status": 200,
+        "err": null
+      }
+    ],
+    "errors": []
+  },
+  {
+    "title": "Fred Loya Insurance",
+    "website": "https://www.fredloya.com/",
+    "hit403": false,
+    "emails_found": [],
+    "pages_checked": [
+      {
+        "url": "https://www.fredloya.com/",
+        "status": null,
+        "err": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "url": "https://www.fredloya.com/contact",
+        "status": null,
+        "err": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "url": "https://www.fredloya.com/contact-us",
+        "status": null,
+        "err": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "url": "https://www.fredloya.com/about",
+        "status": null,
+        "err": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
+        "url": "https://www.fredloya.com/contact.html",
+        "status": null,
+        "err": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+      }
+    ],
+    "errors": [
+      "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    ]
+  }
+]

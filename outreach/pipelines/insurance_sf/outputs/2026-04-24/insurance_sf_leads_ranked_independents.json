@@ -1,0 +1,438 @@
+[
+  {
+    "title": "Vouch Insurance",
+    "rating": 3.2,
+    "review_count": 11,
+    "negative_reviews_1_3_star": 5,
+    "negative_pct": 45.5,
+    "phone": "+1 415-488-6728",
+    "website": "https://www.vouch.us/",
+    "emails": [
+      "hello@vouch.us"
+    ],
+    "address": "250 Montgomery St, San Francisco, CA 94104, United States",
+    "pain_categories": [
+      "policy_management_confusion",
+      "voice_hold_time"
+    ],
+    "pain_hits": {
+      "policy_management_confusion": [
+        {
+          "rating": 5,
+          "reviewer": "Benjamin Liu",
+          "snippet": "Smooth, easy assessment / application process.  I was in a bit of a jam when the previous insurer drastically raised their rates.  They helped me expedite the application process and got my coverage done at a very good rate.  I particularly liked their web interface, they clearly"
+        }
+      ],
+      "voice_hold_time": [
+        {
+          "rating": 1,
+          "reviewer": "Frank Bliss",
+          "snippet": "Beware startups and small businesses - they overcharge and try to upsell!\nI found same thing for 50% with traditional insurer and didn't have to wait for 10+ days while a Vouch account person tried to figure out how not to share information...\n\nBasically, just hid other options a"
+        }
+      ]
+    },
+    "recommended_services": [
+      "Customer Comms Automation",
+      "Voice AI for Intake"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/agentic-ai",
+      "silverthreadlabs.com/voice-agents/patient-client-intake"
+    ],
+    "score": 15.5,
+    "link": "https://www.google.com/maps/place/Vouch+Insurance/data=!4m7!3m6!1s0x808581c14b3e1b87:0x98ccd3925ca6cfbe!8m2!3d37.7916795!4d-122.4023486!16s%2Fg%2F11hzqgvyp0!19sChIJhxs-S8GBhYARvs-mXJLTzJg?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Fred Loya Insurance",
+    "rating": 3.5,
+    "review_count": 33,
+    "negative_reviews_1_3_star": 13,
+    "negative_pct": 39.4,
+    "phone": "+1 415-864-2611",
+    "website": "https://www.fredloya.com/",
+    "emails": [],
+    "address": "2098 Mission St, San Francisco, CA 94110, United States",
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "George Cassidy",
+          "snippet": "This company is no good to have on people side they tell u one thing an they do something else, this is the worst insurance company please people don't go for this company u don't save any money I would'nt give them no star........"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 11.8,
+    "link": "https://www.google.com/maps/place/Fred+Loya+Insurance/data=!4m7!3m6!1s0x808f7e234068ddbb:0x3b708239e2f52f69!8m2!3d37.7635414!4d-122.4197997!16s%2Fg%2F119wc65gg!19sChIJu91oQCN-j4ARaS_14jmCcDs?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "MOC Insurance Services",
+    "rating": 4.3,
+    "review_count": 12,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 16.7,
+    "phone": "+1 415-957-0600",
+    "website": "",
+    "emails": [],
+    "address": "101 Montgomery St, San Francisco, CA 94104, United States",
+    "pain_categories": [
+      "workflow_paperwork_errors",
+      "staff_rude_service"
+    ],
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "Rebecca RebeccaA",
+          "snippet": "I have only been with MOC Insurance Services for a short while, personally less than two years, but my family has been with them for years.  I would normally say that I would just pay my bill and I would not have to worry about anything like everything else but Tiffany has been a"
+        }
+      ],
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Tom schmitz",
+          "snippet": "These people are the worst. As a current customer, I needed to make some adjustments to my coverage. I tried multiple times over the course of two months and could not get them to respond to me. Stay Away!"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 9.7,
+    "link": "https://www.google.com/maps/place/MOC+Insurance+Services/data=!4m7!3m6!1s0x80858089d18a1c01:0x9fc790a4e289fbd!8m2!3d37.7904341!4d-122.4025256!16s%2Fg%2F1tdzrc9g!19sChIJARyK0YmAhYARvZ8oTgp5_Ak?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Embassy Auto Insurance",
+    "rating": 3.4,
+    "review_count": 5,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 40.0,
+    "phone": "+1 484-372-4042",
+    "website": "",
+    "emails": [],
+    "address": "1054 Sutter St #152, San Francisco, CA 94109, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 8.2,
+    "link": "https://www.google.com/maps/place/Embassy+Auto+Insurance/data=!4m7!3m6!1s0x808581af968e1ef3:0x52ec9fe3d9f21f1!8m2!3d37.7883494!4d-122.4178574!16s%2Fg%2F11fkvpnw7p!19sChIJ8x6Olq-BhYAR8SGfPf7JLgU?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Heffernan Insurance Brokers",
+    "rating": 4.2,
+    "review_count": 5,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 20.0,
+    "phone": "+1 800-829-9996",
+    "website": "https://www.heffins.com/",
+    "emails": [],
+    "address": "300 California St Suite 450, San Francisco, CA 94104, United States",
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Pacific Farm Management",
+          "snippet": "If you are looking for unprofessionalism and dishonesty, look no further! No words to describe how misleading some of their reps can be.  In dealing with 15+ brokers throughout various businesses, incredible someone like this can be in business."
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 7.1,
+    "link": "https://www.google.com/maps/place/Heffernan+Insurance+Brokers/data=!4m7!3m6!1s0x80858064e7605bed:0x64f2f31b870c6492!8m2!3d37.7932914!4d-122.4003867!16s%2Fg%2F11c51s6mqd!19sChIJ7Vtg52SAhYARkmQMhxvz8mQ?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "The Greenspan Co. / Adjusters International - Public Adjuster",
+    "rating": 4.3,
+    "review_count": 12,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 25.0,
+    "phone": "+1 650-583-4300",
+    "website": "https://www.greenspanai.com/contact/office-locations/san-francisco-california/",
+    "emails": [
+      "info@greenspan-ai.com"
+    ],
+    "address": "400 Oyster Point Blvd # 519, South San Francisco, CA 94080, United States",
+    "pain_categories": [
+      "workflow_slow_claims"
+    ],
+    "pain_hits": {
+      "workflow_slow_claims": [
+        {
+          "rating": 5,
+          "reviewer": "01sshannon",
+          "snippet": "My family could not be happier that we found and had Greenspan represent us after we lost our home in a wildfire. We suffered a complete loss and after a few days of getting the run around from the insurance company, we realized the claim process would not be easy or fair and tha"
+        }
+      ]
+    },
+    "recommended_services": [
+      "Workflow Automation for Insurance"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 6.8,
+    "link": "https://www.google.com/maps/place/The+Greenspan+Co.+%2F+Adjusters+International+-+Public+Adjuster/data=!4m7!3m6!1s0x808f785e8d3000b1:0x9731ab7af0c5695a!8m2!3d37.665554!4d-122.382453!16s%2Fg%2F1tfb6t0g!19sChIJsQAwjV54j4ARWmnF8HqrMZc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Calender-Robinson Insurance",
+    "rating": 4.5,
+    "review_count": 8,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 12.5,
+    "phone": "+1 415-978-3800",
+    "website": "https://calrob.com/",
+    "emails": [
+      "info@calrob.com"
+    ],
+    "address": "233 Sansome St Suite 508, San Francisco, CA 94104, United States",
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Lorraine Head",
+          "snippet": "The insurance company cancelled our homeowners policy, charged fees associated with a partnership with a finance company they utilize, and very unprofessional handling of the cancellation. Working with the California Insurance Commission to resolve issues that should have been ha"
+        }
+      ]
+    },
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 5.6,
+    "link": "https://www.google.com/maps/place/Calender-Robinson+Insurance/data=!4m7!3m6!1s0x80858086275a2801:0xf4672ca3789b7236!8m2!3d37.7926203!4d-122.4013241!16s%2Fg%2F1whdjl3_!19sChIJAShaJ4aAhYARNnKbeKMsZ_Q?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "LW Insurance",
+    "rating": 4.5,
+    "review_count": 2,
+    "negative_reviews_1_3_star": 0,
+    "negative_pct": 0.0,
+    "phone": "+1 415-648-1254",
+    "website": "http://www.lwinsf.com/",
+    "emails": [
+      "luis@lwinsf.com"
+    ],
+    "address": "3330 Mission St, San Francisco, CA 94110, United States",
+    "pain_categories": [
+      "workflow_paperwork_errors"
+    ],
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "Kent Cheung",
+          "snippet": "Luis is a true professional working for my best interest.  He is curteous and also willing to accomodate my schedule, whether to talk about my insurance needs or sign paperwork.  Like those commercials, he did help me save a lot of money on my auto and home insurance.  I also kno"
+        }
+      ]
+    },
+    "recommended_services": [
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 5.5,
+    "link": "https://www.google.com/maps/place/LW+Insurance/data=!4m7!3m6!1s0x808f7e42d77ab9b3:0xae1016e847492528!8m2!3d37.7434409!4d-122.4214604!16s%2Fg%2F1jky6y93z!19sChIJs7l610J-j4ARKCVJR-gWEK4?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "ESI Insurance Brokers",
+    "rating": 4.9,
+    "review_count": 35,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.9,
+    "phone": "+1 415-440-5136",
+    "website": "http://www.insurance415.com/",
+    "emails": [],
+    "address": "2085 Van Ness Ave, San Francisco, CA 94109, United States",
+    "pain_categories": [
+      "voice_missed_calls"
+    ],
+    "pain_hits": {
+      "voice_missed_calls": [
+        {
+          "rating": 5,
+          "reviewer": "Sarah Sherwood",
+          "snippet": "I went shopping for a homeowners policy when I was having trouble with my current insurance being unresponsive and dragging on months of not submitting our updated policy to our mortgage company. I was so HAPPY to work with Express Service Insurance. Daniel is always professional"
+        }
+      ]
+    },
+    "recommended_services": [
+      "Voice AI / AI Receptionist"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 3.6,
+    "link": "https://www.google.com/maps/place/ESI+Insurance+Brokers/data=!4m7!3m6!1s0x808580ea1d594481:0xcf1a81289f69636f!8m2!3d37.7944615!4d-122.4237908!16s%2Fg%2F1tddb20l!19sChIJgURZHeqAhYARb2NpnyiBGs8?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Insurance Agency J&E and Registration Services",
+    "rating": 4.3,
+    "review_count": 6,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 16.7,
+    "phone": "+1 415-250-0996",
+    "website": "https://weqwe.readdy.co/",
+    "emails": [],
+    "address": "2390 Mission St Ste 101, San Francisco, CA 94110, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 3.6,
+    "link": "https://www.google.com/maps/place/Insurance+Agency+J%26E+and+Registration+Services/data=!4m7!3m6!1s0x808f7f11907b6707:0xdc58e7cbf30bce5c!8m2!3d37.7588414!4d-122.4192574!16s%2Fg%2F11yh24d5fg!19sChIJB2d7kBF_j4ARXM4L88vnWNw?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Simon Chew, CIC / eHealth-Plans Inc. / Amazing Wealth",
+    "rating": 4.6,
+    "review_count": 21,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 9.5,
+    "phone": "+1 415-661-3885",
+    "website": "https://simon888.com/",
+    "emails": [
+      "info@health-plans.com"
+    ],
+    "address": "1550 Noriega St Suite 100, San Francisco, CA 94122, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 2.2,
+    "link": "https://www.google.com/maps/place/Simon+Chew,+CIC+%2F+eHealth-Plans+Inc.+%2F+Amazing+Wealth/data=!4m7!3m6!1s0x80858762b3f5449d:0xfb5474a335e134ee!8m2!3d37.7542513!4d-122.4804283!16s%2Fg%2F1tf6s0g7!19sChIJnUT1s2KHhYAR7jThNaN0VPs?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Riskguard Insurance Solutions",
+    "rating": 4.7,
+    "review_count": 28,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 7.1,
+    "phone": "+1 415-447-4212",
+    "website": "http://www.riskguardins.com/",
+    "emails": [
+      "user@domain.com",
+      "office@riskguardins.com"
+    ],
+    "address": "422 Presidio Ave, San Francisco, CA 94115, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.7,
+    "link": "https://www.google.com/maps/place/Riskguard+Insurance+Solutions/data=!4m7!3m6!1s0x808580caced09337:0x2aa48ce36cfc1171!8m2!3d37.787896!4d-122.446791!16s%2Fg%2F113djlfsh!19sChIJN5PQzsqAhYARcRH8bOOMpCo?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "AutoComplete, Inc",
+    "rating": 4.9,
+    "review_count": 734,
+    "negative_reviews_1_3_star": 9,
+    "negative_pct": 1.2,
+    "phone": "+1 888-307-7942",
+    "website": "https://www.autocomplete.io/",
+    "emails": [],
+    "address": "90 New Montgomery St #414, San Francisco, CA 94105, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.4,
+    "link": "https://www.google.com/maps/place/AutoComplete,+Inc/data=!4m7!3m6!1s0x8085807cb7b3181f:0x1fd245b7cdd00744!8m2!3d37.7874222!4d-122.4009319!16s%2Fg%2F11kc8m1284!19sChIJHxizt3yAhYARRAfQzbdF0h8?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Donald Browne Insurance Services, formerly, John A Morton Insurance Agency",
+    "rating": 4.8,
+    "review_count": 79,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 3.8,
+    "phone": "+1 408-292-4329",
+    "website": "https://www.browneinsurance.com/",
+    "emails": [
+      "chosen-sprite@2x.png"
+    ],
+    "address": "3366 22nd St, San Francisco, CA 94110, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.3,
+    "link": "https://www.google.com/maps/place/Donald+Browne+Insurance+Services,+formerly,+John+A+Morton+Insurance+Agency/data=!4m7!3m6!1s0x808f7e3e470c1bf3:0xa02927590cf707ea!8m2!3d37.755374!4d-122.4224438!16s%2Fg%2F1tgpn7xz!19sChIJ8xsMRz5-j4AR6gf3DFknKaA?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Parceros Insurance",
+    "rating": 4.9,
+    "review_count": 90,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 2.2,
+    "phone": "+1 510-755-2426",
+    "website": "https://parcerosinsurance.com/",
+    "emails": [],
+    "address": "3186 21st St, San Francisco, CA 94110, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.7,
+    "link": "https://www.google.com/maps/place/Parceros+Insurance/data=!4m7!3m6!1s0x808f7ff16bbed9db:0x99e561023dd8458!8m2!3d37.7571684!4d-122.418586!16s%2Fg%2F11j5pwf6j7!19sChIJ29m-a_F_j4ARWITdIxBWngk?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Robert E. Kennedy Insurance Agency",
+    "rating": 4.9,
+    "review_count": 38,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.6,
+    "phone": "+1 415-951-0738",
+    "website": "http://www.kennedyinsuranceagency.com/",
+    "emails": [],
+    "address": "2269 Chestnut St #301, San Francisco, CA 94123, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Robert+E.+Kennedy+Insurance+Agency/data=!4m7!3m6!1s0x808580889a44d37f:0x517e192b69c3aaae!8m2!3d37.7998768!4d-122.4406969!16s%2Fg%2F1tjpqqt8!19sChIJf9NEmoiAhYARrqrDaSsZflE?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Ferrer Insurance Services Inc",
+    "rating": 4.9,
+    "review_count": 8,
+    "negative_reviews_1_3_star": 0,
+    "negative_pct": 0.0,
+    "phone": "+1 415-856-0709",
+    "website": "http://www.ferrerins.com/",
+    "emails": [],
+    "address": "5 3rd St #1025, San Francisco, CA 94103, United States",
+    "pain_categories": [],
+    "pain_hits": {},
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.5,
+    "link": "https://www.google.com/maps/place/Ferrer+Insurance+Services+Inc/data=!4m7!3m6!1s0x808580886ede4b41:0x39d4f7ef94c66b96!8m2!3d37.7874621!4d-122.4031439!16s%2Fg%2F1tkl3k06!19sChIJQUveboiAhYARlmvGlO_31Dk?authuser=0&hl=en&rclk=1"
+  }
+]

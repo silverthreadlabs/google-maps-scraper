@@ -1,0 +1,1165 @@
+[
+  {
+    "title": "Vouch Insurance",
+    "rating": 3.2,
+    "review_count": 11,
+    "negative_reviews_1_3_star": 5,
+    "negative_pct": 45.5,
+    "phone": "+1 415-488-6728",
+    "website": "https://www.vouch.us/",
+    "emails": [
+      "hello@vouch.us"
+    ],
+    "address": "250 Montgomery St, San Francisco, CA 94104, United States",
+    "pain_hits": {
+      "policy_management_confusion": [
+        {
+          "rating": 5,
+          "reviewer": "Benjamin Liu",
+          "snippet": "Smooth, easy assessment / application process.  I was in a bit of a jam when the previous insurer drastically raised their rates.  They helped me expedite the application process and got my coverage done at a very good rate.  I particularly liked their web interface, they clearly"
+        }
+      ],
+      "voice_hold_time": [
+        {
+          "rating": 1,
+          "reviewer": "Frank Bliss",
+          "snippet": "Beware startups and small businesses - they overcharge and try to upsell!\nI found same thing for 50% with traditional insurer and didn't have to wait for 10+ days while a Vouch account person tried to figure out how not to share information...\n\nBasically, just hid other options a"
+        }
+      ]
+    },
+    "pain_categories": [
+      "policy_management_confusion",
+      "voice_hold_time"
+    ],
+    "recommended_services": [
+      "Customer Comms Automation",
+      "Voice AI for Intake"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/services/agentic-ai",
+      "silverthreadlabs.com/voice-agents/patient-client-intake"
+    ],
+    "score": 15.5,
+    "link": "https://www.google.com/maps/place/Vouch+Insurance/data=!4m7!3m6!1s0x808581c14b3e1b87:0x98ccd3925ca6cfbe!8m2!3d37.7916795!4d-122.4023486!16s%2Fg%2F11hzqgvyp0!19sChIJhxs-S8GBhYARvs-mXJLTzJg?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Fred Loya Insurance",
+    "rating": 3.5,
+    "review_count": 33,
+    "negative_reviews_1_3_star": 13,
+    "negative_pct": 39.4,
+    "phone": "+1 415-864-2611",
+    "website": "https://www.fredloya.com/",
+    "emails": [],
+    "address": "2098 Mission St, San Francisco, CA 94110, United States",
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "George Cassidy",
+          "snippet": "This company is no good to have on people side they tell u one thing an they do something else, this is the worst insurance company please people don't go for this company u don't save any money I would'nt give them no star........"
+        }
+      ]
+    },
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 11.8,
+    "link": "https://www.google.com/maps/place/Fred+Loya+Insurance/data=!4m7!3m6!1s0x808f7e234068ddbb:0x3b708239e2f52f69!8m2!3d37.7635414!4d-122.4197997!16s%2Fg%2F119wc65gg!19sChIJu91oQCN-j4ARaS_14jmCcDs?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Curtis Lee - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 95,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 3.2,
+    "phone": "+1 415-750-8088",
+    "website": "https://www.curtislee.net/?cmpid=JKH6_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "648 Stanyan St, San Francisco, CA 94117, United States",
+    "pain_hits": {
+      "voice_missed_calls": [
+        {
+          "rating": 5,
+          "reviewer": "R Lee",
+          "snippet": "Have been with State Farm for about 5 decades and have been with Curtis for over 3 decades.  His office has always been an important part of my life in providing the insurance products that protected me from the all unexpected through out the years.  His staff is extremely helpfu"
+        }
+      ],
+      "workflow_paperwork_errors": [
+        {
+          "rating": 1,
+          "reviewer": "Andrew Kravetsky",
+          "snippet": "Baffled this place has such a high rating. I used them for 2 years over which they made mistakes I have never experienced with any other insurance broker I have used. They made incorrect changes to my policy on 2 different occasions one of which caused me to be without insurance "
+        }
+      ],
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Andrew Kravetsky",
+          "snippet": "Baffled this place has such a high rating. I used them for 2 years over which they made mistakes I have never experienced with any other insurance broker I have used. They made incorrect changes to my policy on 2 different occasions one of which caused me to be without insurance "
+        }
+      ]
+    },
+    "pain_categories": [
+      "voice_missed_calls",
+      "workflow_paperwork_errors",
+      "staff_rude_service"
+    ],
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Voice AI / AI Receptionist",
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 9.8,
+    "link": "https://www.google.com/maps/place/Curtis+Lee+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x80858751ea2bb0b5:0x502093e99af45c74!8m2!3d37.770265!4d-122.453453!16s%2Fg%2F1vzn5sr0!19sChIJtbAr6lGHhYARdFz0mumTIFA?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "MOC Insurance Services",
+    "rating": 4.3,
+    "review_count": 12,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 16.7,
+    "phone": "+1 415-957-0600",
+    "website": "",
+    "emails": [],
+    "address": "101 Montgomery St, San Francisco, CA 94104, United States",
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "Rebecca RebeccaA",
+          "snippet": "I have only been with MOC Insurance Services for a short while, personally less than two years, but my family has been with them for years.  I would normally say that I would just pay my bill and I would not have to worry about anything like everything else but Tiffany has been a"
+        }
+      ],
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Tom schmitz",
+          "snippet": "These people are the worst. As a current customer, I needed to make some adjustments to my coverage. I tried multiple times over the course of two months and could not get them to respond to me. Stay Away!"
+        }
+      ]
+    },
+    "pain_categories": [
+      "workflow_paperwork_errors",
+      "staff_rude_service"
+    ],
+    "recommended_services": [
+      "AI Receptionist (consistent tone)",
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist",
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 9.7,
+    "link": "https://www.google.com/maps/place/MOC+Insurance+Services/data=!4m7!3m6!1s0x80858089d18a1c01:0x9fc790a4e289fbd!8m2!3d37.7904341!4d-122.4025256!16s%2Fg%2F1tdzrc9g!19sChIJARyK0YmAhYARvZ8oTgp5_Ak?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Embassy Auto Insurance",
+    "rating": 3.4,
+    "review_count": 5,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 40.0,
+    "phone": "+1 484-372-4042",
+    "website": "",
+    "emails": [],
+    "address": "1054 Sutter St #152, San Francisco, CA 94109, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 8.2,
+    "link": "https://www.google.com/maps/place/Embassy+Auto+Insurance/data=!4m7!3m6!1s0x808581af968e1ef3:0x52ec9fe3d9f21f1!8m2!3d37.7883494!4d-122.4178574!16s%2Fg%2F11fkvpnw7p!19sChIJ8x6Olq-BhYAR8SGfPf7JLgU?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "AAA San Francisco Richmond District Branch",
+    "rating": 4.5,
+    "review_count": 212,
+    "negative_reviews_1_3_star": 24,
+    "negative_pct": 11.3,
+    "phone": "+1 415-750-7800",
+    "website": "https://mwg.aaa.com/agent-office-locations/ca/san-francisco/aaa-san-francisco-richmond-district-branch",
+    "emails": [
+      "lifen.thai@mwg.aaa.com",
+      "amy.lu@mwg.aaa.com"
+    ],
+    "address": "599 Clement St, San Francisco, CA 94118, United States",
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "LeAnne J. Smith",
+          "snippet": "When I bought a new car I dreaded having to switch over my personalized plates. All of the paperwork kept me from buying a car for months (if not years.)\n\nThen, along comes the AAA office. I was in and out in less than 10 minutes. Went in the afternoon and there was zero wait.\n\nI"
+        }
+      ]
+    },
+    "pain_categories": [
+      "workflow_paperwork_errors"
+    ],
+    "recommended_services": [
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 7.9,
+    "link": "https://www.google.com/maps/place/AAA+San+Francisco+Richmond+District+Branch/data=!4m7!3m6!1s0x8085873c38b4a513:0x8c414618d60b6650!8m2!3d37.7827022!4d-122.4653106!16s%2Fg%2F1tfl9wwh!19sChIJE6W0ODyHhYARUGYL1hhGQYw?authuser=0&hl=en&rclk=1",
+    "hit403": true,
+    "emails_source": "playwright_bypass_403",
+    "socials": [
+      "https://www.facebook.com/AAAMountainWestGroup",
+      "https://www.linkedin.com/company/aaa-northern-california-nevada-&-utah",
+      "https://www.instagram.com/aaa_mwg"
+    ],
+    "enrichment_note": "Branch-level agents: Lifen Thai, Amy Lu. Socials are AAA Mountain West Group parent."
+  },
+  {
+    "title": "Nationwide Insurance: Anita Daisy Lo Agency",
+    "rating": 3.5,
+    "review_count": 4,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 25.0,
+    "phone": "+1 415-592-8388",
+    "website": "https://agency.nationwide.com/ca/san-francisco/94121/anita-daisy-lo-agency",
+    "emails": [
+      "loa1nationwide@gmail.com"
+    ],
+    "address": "6037 Geary Blvd, San Francisco, CA 94121, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 7.6,
+    "link": "https://www.google.com/maps/place/Nationwide+Insurance:+Anita+Daisy+Lo+Agency/data=!4m7!3m6!1s0x8085806239cb9f33:0xff663c2658bd7ed3!8m2!3d37.7798735!4d-122.4843744!16s%2Fg%2F11b6gr_np_!19sChIJM5_LOWKAhYAR0369WCY8Zv8?authuser=0&hl=en&rclk=1",
+    "emails_source": "website_crawl"
+  },
+  {
+    "title": "Heffernan Insurance Brokers",
+    "rating": 4.2,
+    "review_count": 5,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 20.0,
+    "phone": "+1 800-829-9996",
+    "website": "https://www.heffins.com/",
+    "emails": [],
+    "address": "300 California St Suite 450, San Francisco, CA 94104, United States",
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Pacific Farm Management",
+          "snippet": "If you are looking for unprofessionalism and dishonesty, look no further! No words to describe how misleading some of their reps can be.  In dealing with 15+ brokers throughout various businesses, incredible someone like this can be in business."
+        }
+      ]
+    },
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 7.1,
+    "link": "https://www.google.com/maps/place/Heffernan+Insurance+Brokers/data=!4m7!3m6!1s0x80858064e7605bed:0x64f2f31b870c6492!8m2!3d37.7932914!4d-122.4003867!16s%2Fg%2F11c51s6mqd!19sChIJ7Vtg52SAhYARkmQMhxvz8mQ?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Walter Li - State Farm Insurance Agent",
+    "rating": 4.2,
+    "review_count": 5,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 20.0,
+    "phone": "+1 415-346-1000",
+    "website": "http://www.waltercli.net/?cmpid=l8k6_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "4428 California St suite a, San Francisco, CA 94118, United States",
+    "pain_hits": {
+      "voice_hold_time": [
+        {
+          "rating": 5,
+          "reviewer": "Eric Y",
+          "snippet": "I wanted to give a big shout out and thank you to Walter Li and his buddy Edward. I made a stop on highway 1 to check out the scenery and then I made an idiot move and locked my phone and my car key inside my car. With no ways to reach out to get help through digital means I had "
+        }
+      ]
+    },
+    "pain_categories": [
+      "voice_hold_time"
+    ],
+    "recommended_services": [
+      "Voice AI for Intake"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/patient-client-intake"
+    ],
+    "score": 7.1,
+    "link": "https://www.google.com/maps/place/Walter+Li+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808580ddbe466773:0x84e5f428b611a20!8m2!3d37.80196!4d-122.425494!16s%2Fg%2F1w346vbx!19sChIJc2dGvt2AhYARIBphi0JfTgg?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "The Greenspan Co. / Adjusters International - Public Adjuster",
+    "rating": 4.3,
+    "review_count": 12,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 25.0,
+    "phone": "+1 650-583-4300",
+    "website": "https://www.greenspanai.com/contact/office-locations/san-francisco-california/",
+    "emails": [
+      "info@greenspan-ai.com"
+    ],
+    "address": "400 Oyster Point Blvd # 519, South San Francisco, CA 94080, United States",
+    "pain_hits": {
+      "workflow_slow_claims": [
+        {
+          "rating": 5,
+          "reviewer": "01sshannon",
+          "snippet": "My family could not be happier that we found and had Greenspan represent us after we lost our home in a wildfire. We suffered a complete loss and after a few days of getting the run around from the insurance company, we realized the claim process would not be easy or fair and tha"
+        }
+      ]
+    },
+    "pain_categories": [
+      "workflow_slow_claims"
+    ],
+    "recommended_services": [
+      "Workflow Automation for Insurance"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 6.8,
+    "link": "https://www.google.com/maps/place/The+Greenspan+Co.+%2F+Adjusters+International+-+Public+Adjuster/data=!4m7!3m6!1s0x808f785e8d3000b1:0x9731ab7af0c5695a!8m2!3d37.665554!4d-122.382453!16s%2Fg%2F1tfb6t0g!19sChIJsQAwjV54j4ARWmnF8HqrMZc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Janet Lin - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 229,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 1.3,
+    "phone": "+1 415-621-0140",
+    "website": "https://www.insuredogpatch.com/?cmpid=LVHS_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "2190 3rd St, San Francisco, CA 94107, United States",
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "Millie Yip",
+          "snippet": "Janet Lin and her staff were very professional, knowledgeable, excellent communication skills, answer my and trustee's questions via Zoom, prompt and were not resistant to the challenges of having a more accurate Replacement Home Estimate Costs. Computer took time to transfer my "
+        }
+      ],
+      "language_barrier": [
+        {
+          "rating": 5,
+          "reviewer": "Millie Yip",
+          "snippet": "Janet Lin and her staff were very professional, knowledgeable, excellent communication skills, answer my and trustee's questions via Zoom, prompt and were not resistant to the challenges of having a more accurate Replacement Home Estimate Costs. Computer took time to transfer my "
+        }
+      ]
+    },
+    "pain_categories": [
+      "workflow_paperwork_errors",
+      "language_barrier"
+    ],
+    "recommended_services": [
+      "Multilingual Voice Agent",
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/insurance",
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 6.8,
+    "link": "https://www.google.com/maps/place/Janet+Lin+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7e2f09aeac73:0x76c1de05df637134!8m2!3d37.761862!4d-122.388958!16s%2Fg%2F1tkbyg14!19sChIJc6yuCS9-j4ARNHFj3wXewXY?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Mary Zell Spellman - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 98,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 2.0,
+    "phone": "+1 415-401-7000",
+    "website": "http://www.insurewithus.org/?cmpid=P8HF_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "26 W Portal Ave UNIT 1, San Francisco, CA 94127, United States",
+    "pain_hits": {
+      "voice_hold_time": [
+        {
+          "rating": 5,
+          "reviewer": "Roberto Chicas",
+          "snippet": "Dealing with insurance companies can often be a frustrating experience. I was recently rear-ended on the highway during traffic, and to make matters worse, the other driver didn’t have a valid license. I was sure the situation was going to be a major headache.\n\nWhen I called Stat"
+        }
+      ],
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "pat bolger",
+          "snippet": "Toni was very helpful and responsive when I needed some paperwork taken care of. She made the process easy and smooth, and I really appreciate her professionalism and quick assistance. Highly recommend!"
+        }
+      ]
+    },
+    "pain_categories": [
+      "voice_hold_time",
+      "workflow_paperwork_errors"
+    ],
+    "recommended_services": [
+      "Voice AI for Intake",
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/patient-client-intake",
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 6.7,
+    "link": "https://www.google.com/maps/place/Mary+Zell+Spellman+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7e4b7d734483:0x59662af3df1b481f!8m2!3d37.7406541!4d-122.4663836!16s%2Fg%2F1tg86wwd!19sChIJg0RzfUt-j4ARH0gb3_MqZlk?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Calender-Robinson Insurance",
+    "rating": 4.5,
+    "review_count": 8,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 12.5,
+    "phone": "+1 415-978-3800",
+    "website": "https://calrob.com/",
+    "emails": [
+      "info@calrob.com"
+    ],
+    "address": "233 Sansome St Suite 508, San Francisco, CA 94104, United States",
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 1,
+          "reviewer": "Lorraine Head",
+          "snippet": "The insurance company cancelled our homeowners policy, charged fees associated with a partnership with a finance company they utilize, and very unprofessional handling of the cancellation. Working with the California Insurance Commission to resolve issues that should have been ha"
+        }
+      ]
+    },
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 5.6,
+    "link": "https://www.google.com/maps/place/Calender-Robinson+Insurance/data=!4m7!3m6!1s0x80858086275a2801:0xf4672ca3789b7236!8m2!3d37.7926203!4d-122.4013241!16s%2Fg%2F1whdjl3_!19sChIJAShaJ4aAhYARNnKbeKMsZ_Q?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "LW Insurance",
+    "rating": 4.5,
+    "review_count": 2,
+    "negative_reviews_1_3_star": 0,
+    "negative_pct": 0.0,
+    "phone": "+1 415-648-1254",
+    "website": "http://www.lwinsf.com/",
+    "emails": [
+      "luis@lwinsf.com"
+    ],
+    "address": "3330 Mission St, San Francisco, CA 94110, United States",
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "Kent Cheung",
+          "snippet": "Luis is a true professional working for my best interest.  He is curteous and also willing to accomodate my schedule, whether to talk about my insurance needs or sign paperwork.  Like those commercials, he did help me save a lot of money on my auto and home insurance.  I also kno"
+        }
+      ]
+    },
+    "pain_categories": [
+      "workflow_paperwork_errors"
+    ],
+    "recommended_services": [
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 5.5,
+    "link": "https://www.google.com/maps/place/LW+Insurance/data=!4m7!3m6!1s0x808f7e42d77ab9b3:0xae1016e847492528!8m2!3d37.7434409!4d-122.4214604!16s%2Fg%2F1jky6y93z!19sChIJs7l610J-j4ARKCVJR-gWEK4?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Henry De Guzman Cruz: Allstate Insurance",
+    "rating": 4.7,
+    "review_count": 35,
+    "negative_reviews_1_3_star": 4,
+    "negative_pct": 11.4,
+    "phone": "+1 415-561-0690",
+    "website": "https://agents.allstate.com/henry-de-guzman-cruz-san-francisco-ca.html?utm_source=GMB&utm_medium=Website",
+    "emails": [
+      "henrycruz@allstate.com"
+    ],
+    "address": "369 Pine St Ste 618, San Francisco, CA 94104, United States",
+    "pain_hits": {
+      "voice_hold_time": [
+        {
+          "rating": 3,
+          "reviewer": "Michael Bosh",
+          "snippet": "Still waiting for my insurance card to keep in the car you haven't sent me one yet you said you would mail it"
+        }
+      ]
+    },
+    "pain_categories": [
+      "voice_hold_time"
+    ],
+    "recommended_services": [
+      "Voice AI for Intake"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/patient-client-intake"
+    ],
+    "score": 4.9,
+    "link": "https://www.google.com/maps/place/Henry+De+Guzman+Cruz:+Allstate+Insurance/data=!4m7!3m6!1s0x808580b98f8e1a45:0x23897e1e9867a38a!8m2!3d37.79173!4d-122.4020217!16s%2Fg%2F1tc_wv0b!19sChIJRRqOj7mAhYARiqNnmB5-iSM?authuser=0&hl=en&rclk=1",
+    "hit403": true,
+    "emails_source": "playwright_bypass_403",
+    "socials": [],
+    "enrichment_note": "Captive Allstate agent; corporate-only social handles (facebook/twitter/instagram/linkedin/youtube/allstate). Direct personal socials not listed."
+  },
+  {
+    "title": "Jake Stewart - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 614,
+    "negative_reviews_1_3_star": 6,
+    "negative_pct": 1.0,
+    "phone": "+1 415-982-9033",
+    "website": "https://www.jakestewart.com/",
+    "emails": [],
+    "address": "490 Post St Suite 1606, San Francisco, CA 94102, United States",
+    "pain_hits": {
+      "staff_rude_service": [
+        {
+          "rating": 5,
+          "reviewer": "Michelle",
+          "snippet": "State  Farm, specifically Kelly, has been the most honest, helpful, down to earth, professional agent i have EVER worked with.  I put the safety of my children's future in her hands and it was the best thing i ever did.  This has been the worst 2 years, and climbing, of my life, "
+        }
+      ]
+    },
+    "pain_categories": [
+      "staff_rude_service"
+    ],
+    "recommended_services": [
+      "AI Receptionist (consistent tone)"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 4.1,
+    "link": "https://www.google.com/maps/place/Jake+Stewart+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x80858080a7181283:0x6c6f1b32ec6cab9d!8m2!3d37.7882579!4d-122.4098134!16s%2Fg%2F1tfvhflm!19sChIJgxIYp4CAhYARnats7DIbb2w?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Fillia Fransisca - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 142,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 1.4,
+    "phone": "+1 415-661-3726",
+    "website": "https://www.fillia.net/?cmpid=MDNM_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "2315 Noriega St, San Francisco, CA 94122, United States",
+    "pain_hits": {
+      "workflow_paperwork_errors": [
+        {
+          "rating": 5,
+          "reviewer": "Alexander Lee",
+          "snippet": "I was referred to Fillia by a friend. Fillia and her team provided me a quote that was lower than my current insurance and helped me switch car insurance by processing all of the paperwork to my old insurance company. She was courteous and professional. It was a smooth and seamle"
+        }
+      ]
+    },
+    "pain_categories": [
+      "workflow_paperwork_errors"
+    ],
+    "recommended_services": [
+      "Workflow Automation / Document Processing"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/workflow-automation/insurance"
+    ],
+    "score": 3.7,
+    "link": "https://www.google.com/maps/place/Fillia+Fransisca+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x8085877efba40daf:0x6c278d8af51b4bd0!8m2!3d37.753446!4d-122.488763!16s%2Fg%2F1th28mqt!19sChIJrw2k-36HhYAR0Esb9YqNJ2w?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "WFG National Title Insurance Company",
+    "rating": 4.9,
+    "review_count": 101,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 2.0,
+    "phone": "+1 415-625-0401",
+    "website": "http://wfgtitle.com/",
+    "emails": [
+      "agencysupport@willistonfinancial.com",
+      "cbeck@wfgtitle.com",
+      "claims@willistonfinancial.com",
+      "compliance@willistonfinancial.com",
+      "hr@willistonfinancial.com",
+      "noticestowfglegal@willistonfinancial.com",
+      "pguenther@wfgtitle.com",
+      "wfgvendorapplications@willistonfinancial.com"
+    ],
+    "address": "235 Pine St # 1675, San Francisco, CA 94104, United States",
+    "pain_hits": {
+      "after_hours_coverage": [
+        {
+          "rating": 5,
+          "reviewer": "Faye Dibachi",
+          "snippet": "Working with Nick has been absolutely incredible. Nick is the definition of responsive — always picking up the phone, no matter if it’s a weeknight or weekend. He goes above and beyond to make sure everything stays on track, and his deep knowledge and calm professionalism make ev"
+        }
+      ]
+    },
+    "pain_categories": [
+      "after_hours_coverage"
+    ],
+    "recommended_services": [
+      "After-Hours Voice Coverage"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/after-hours-coverage"
+    ],
+    "score": 3.7,
+    "link": "https://www.google.com/maps/place/WFG+National+Title+Insurance+Company/data=!4m7!3m6!1s0x8085811ec1731ebf:0x74cf6e37664244aa!8m2!3d37.7919327!4d-122.4003032!16s%2Fg%2F11s8kc4kq1!19sChIJvx5zwR6BhYARqkRCZjduz3Q?authuser=0&hl=en&rclk=1",
+    "emails_source": "website_crawl"
+  },
+  {
+    "title": "ESI Insurance Brokers",
+    "rating": 4.9,
+    "review_count": 35,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.9,
+    "phone": "+1 415-440-5136",
+    "website": "http://www.insurance415.com/",
+    "emails": [
+      "broker@insurance415.com"
+    ],
+    "address": "2085 Van Ness Ave, San Francisco, CA 94109, United States",
+    "pain_hits": {
+      "voice_missed_calls": [
+        {
+          "rating": 5,
+          "reviewer": "Sarah Sherwood",
+          "snippet": "I went shopping for a homeowners policy when I was having trouble with my current insurance being unresponsive and dragging on months of not submitting our updated policy to our mortgage company. I was so HAPPY to work with Express Service Insurance. Daniel is always professional"
+        }
+      ]
+    },
+    "pain_categories": [
+      "voice_missed_calls"
+    ],
+    "recommended_services": [
+      "Voice AI / AI Receptionist"
+    ],
+    "service_urls": [
+      "silverthreadlabs.com/voice-agents/ai-receptionist"
+    ],
+    "score": 3.6,
+    "link": "https://www.google.com/maps/place/ESI+Insurance+Brokers/data=!4m7!3m6!1s0x808580ea1d594481:0xcf1a81289f69636f!8m2!3d37.7944615!4d-122.4237908!16s%2Fg%2F1tddb20l!19sChIJgURZHeqAhYARb2NpnyiBGs8?authuser=0&hl=en&rclk=1",
+    "emails_source": "website_crawl"
+  },
+  {
+    "title": "Insurance Agency J&E and Registration Services",
+    "rating": 4.3,
+    "review_count": 6,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 16.7,
+    "phone": "+1 415-250-0996",
+    "website": "https://weqwe.readdy.co/",
+    "emails": [],
+    "address": "2390 Mission St Ste 101, San Francisco, CA 94110, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 3.6,
+    "link": "https://www.google.com/maps/place/Insurance+Agency+J%26E+and+Registration+Services/data=!4m7!3m6!1s0x808f7f11907b6707:0xdc58e7cbf30bce5c!8m2!3d37.7588414!4d-122.4192574!16s%2Fg%2F11yh24d5fg!19sChIJB2d7kBF_j4ARXM4L88vnWNw?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Kiet Nguyen - State Farm Insurance Agent",
+    "rating": 4.4,
+    "review_count": 25,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 12.0,
+    "phone": "+1 415-587-1880",
+    "website": "https://www.statefarm.com/agent/us/ca/san-francisco/kiet-nguyen-lnqyk1ys000?cmpid=JTMP_blm_0001",
+    "emails": [],
+    "address": "4200 Mission St, San Francisco, CA 94112, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 3.3,
+    "link": "https://www.google.com/maps/place/Kiet+Nguyen+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7e89f044f099:0x2d60a16dd6ff7a26!8m2!3d37.7299355!4d-122.4304715!16s%2Fg%2F1v46_lbc!19sChIJmfBE8Il-j4ARJnr_1m2hYC0?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Simon Chew, CIC / eHealth-Plans Inc. / Amazing Wealth",
+    "rating": 4.6,
+    "review_count": 21,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 9.5,
+    "phone": "+1 415-661-3885",
+    "website": "https://simon888.com/",
+    "emails": [
+      "info@health-plans.com"
+    ],
+    "address": "1550 Noriega St Suite 100, San Francisco, CA 94122, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 2.2,
+    "link": "https://www.google.com/maps/place/Simon+Chew,+CIC+%2F+eHealth-Plans+Inc.+%2F+Amazing+Wealth/data=!4m7!3m6!1s0x80858762b3f5449d:0xfb5474a335e134ee!8m2!3d37.7542513!4d-122.4804283!16s%2Fg%2F1tf6s0g7!19sChIJnUT1s2KHhYAR7jThNaN0VPs?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Sam & Associates Insurance Agency: Allstate Insurance",
+    "rating": 4.8,
+    "review_count": 317,
+    "negative_reviews_1_3_star": 10,
+    "negative_pct": 3.2,
+    "phone": "+1 415-665-0181",
+    "website": "https://agents.allstate.com/sam--associates-insurance-agency-san-francisco-ca3.html?utm_source=GMB&utm_medium=Website",
+    "emails": [],
+    "address": "2225 Taraval St, San Francisco, CA 94116, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 2.0,
+    "link": "https://www.google.com/maps/place/Sam+%26+Associates+Insurance+Agency:+Allstate+Insurance/data=!4m7!3m6!1s0x808f7d82eeef091d:0xd77ba44275f7d625!8m2!3d37.742214!4d-122.490152!16s%2Fg%2F1hc250bp2!19sChIJHQnv7oJ9j4ARJdb3dUKke9c?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Riskguard Insurance Solutions",
+    "rating": 4.7,
+    "review_count": 28,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 7.1,
+    "phone": "+1 415-447-4212",
+    "website": "http://www.riskguardins.com/",
+    "emails": [
+      "user@domain.com",
+      "office@riskguardins.com"
+    ],
+    "address": "422 Presidio Ave, San Francisco, CA 94115, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.7,
+    "link": "https://www.google.com/maps/place/Riskguard+Insurance+Solutions/data=!4m7!3m6!1s0x808580caced09337:0x2aa48ce36cfc1171!8m2!3d37.787896!4d-122.446791!16s%2Fg%2F113djlfsh!19sChIJN5PQzsqAhYARcRH8bOOMpCo?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Jake Ng - State Farm Insurance Agent",
+    "rating": 4.7,
+    "review_count": 14,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 7.1,
+    "phone": "+1 415-564-0333",
+    "website": "https://www.jakeng.com/?cmpid=B9D0_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "1643 Noriega St, San Francisco, CA 94122, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.6,
+    "link": "https://www.google.com/maps/place/Jake+Ng+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x8085877db1919ecf:0x60e1bd836ea894cf!8m2!3d37.753755!4d-122.481442!16s%2Fg%2F1tf_hn0z!19sChIJz56RsX2HhYARz5SoboO94WA?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Traci Hollander - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 547,
+    "negative_reviews_1_3_star": 9,
+    "negative_pct": 1.6,
+    "phone": "+1 415-575-3775",
+    "website": "https://www.tracihollander.com/?cmpid=JW8N_blm_0001",
+    "emails": [],
+    "address": "556 Castro St, San Francisco, CA 94114, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.4,
+    "link": "https://www.google.com/maps/place/Traci+Hollander+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7e1ad5c52c99:0x765ded8ee8e34568!8m2!3d37.759972!4d-122.435127!16s%2Fg%2F1tvdk0fp!19sChIJmSzF1Rp-j4ARaEXj6I7tXXY?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "AutoComplete, Inc",
+    "rating": 4.9,
+    "review_count": 734,
+    "negative_reviews_1_3_star": 9,
+    "negative_pct": 1.2,
+    "phone": "+1 888-307-7942",
+    "website": "https://www.autocomplete.io/",
+    "emails": [],
+    "address": "90 New Montgomery St #414, San Francisco, CA 94105, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.4,
+    "link": "https://www.google.com/maps/place/AutoComplete,+Inc/data=!4m7!3m6!1s0x8085807cb7b3181f:0x1fd245b7cdd00744!8m2!3d37.7874222!4d-122.4009319!16s%2Fg%2F11kc8m1284!19sChIJHxizt3yAhYARRAfQzbdF0h8?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "David Chacon - State Farm Insurance Agent",
+    "rating": 4.8,
+    "review_count": 101,
+    "negative_reviews_1_3_star": 4,
+    "negative_pct": 4.0,
+    "phone": "+1 415-647-9900",
+    "website": "https://www.davidchacon.com/?cmpid=M2LO_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "3425 25th St, San Francisco, CA 94110, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.4,
+    "link": "https://www.google.com/maps/place/David+Chacon+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7e4129470db1:0xc104517d3af804f7!8m2!3d37.7504825!4d-122.4187864!16s%2Fg%2F1x6q1_8p!19sChIJsQ1HKUF-j4AR9wT4On1RBME?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Donald Browne Insurance Services, formerly, John A Morton Insurance Agency",
+    "rating": 4.8,
+    "review_count": 79,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 3.8,
+    "phone": "+1 408-292-4329",
+    "website": "https://www.browneinsurance.com/",
+    "emails": [
+      "chosen-sprite@2x.png"
+    ],
+    "address": "3366 22nd St, San Francisco, CA 94110, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.3,
+    "link": "https://www.google.com/maps/place/Donald+Browne+Insurance+Services,+formerly,+John+A+Morton+Insurance+Agency/data=!4m7!3m6!1s0x808f7e3e470c1bf3:0xa02927590cf707ea!8m2!3d37.755374!4d-122.4224438!16s%2Fg%2F1tgpn7xz!19sChIJ8xsMRz5-j4AR6gf3DFknKaA?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "David Chacon - State Farm Insurance Agent",
+    "rating": 4.8,
+    "review_count": 28,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 3.6,
+    "phone": "+1 650-991-2200",
+    "website": "https://www.dcinsuranceteam.com/?cmpid=Y5PY_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "188 S Park St APT 4, San Francisco, CA 94107, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 1.1,
+    "link": "https://www.google.com/maps/place/David+Chacon+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7dfae2b06689:0x9a8ae484f688cefd!8m2!3d37.7808846!4d-122.3951233!16s%2Fg%2F11h5w8qk13!19sChIJiWaw4vp9j4AR_c6I9oTkipo?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Alan Chan - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 128,
+    "negative_reviews_1_3_star": 3,
+    "negative_pct": 2.3,
+    "phone": "+1 415-776-2190",
+    "website": "https://www.alanchansf.com/?cmpid=JTMH_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "1820 Van Ness Ave, San Francisco, CA 94109, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.8,
+    "link": "https://www.google.com/maps/place/Alan+Chan+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808580eab0c1baf5:0xf8a562f6a9285078!8m2!3d37.792571!4d-122.422251!16s%2Fg%2F1v6l7qjx!19sChIJ9brBsOqAhYAReFAoqfZipfg?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Parceros Insurance",
+    "rating": 4.9,
+    "review_count": 90,
+    "negative_reviews_1_3_star": 2,
+    "negative_pct": 2.2,
+    "phone": "+1 510-755-2426",
+    "website": "https://parcerosinsurance.com/",
+    "emails": [],
+    "address": "3186 21st St, San Francisco, CA 94110, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.7,
+    "link": "https://www.google.com/maps/place/Parceros+Insurance/data=!4m7!3m6!1s0x808f7ff16bbed9db:0x99e561023dd8458!8m2!3d37.7571684!4d-122.418586!16s%2Fg%2F11j5pwf6j7!19sChIJ29m-a_F_j4ARWITdIxBWngk?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Robert E. Kennedy Insurance Agency",
+    "rating": 4.9,
+    "review_count": 38,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.6,
+    "phone": "+1 415-951-0738",
+    "website": "http://www.kennedyinsuranceagency.com/",
+    "emails": [],
+    "address": "2269 Chestnut St #301, San Francisco, CA 94123, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Robert+E.+Kennedy+Insurance+Agency/data=!4m7!3m6!1s0x808580889a44d37f:0x517e192b69c3aaae!8m2!3d37.7998768!4d-122.4406969!16s%2Fg%2F1tjpqqt8!19sChIJf9NEmoiAhYARrqrDaSsZflE?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Lynn Petrie Lange - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 37,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.7,
+    "phone": "+1 415-923-0192",
+    "website": "http://www.lynnpetrielange.com/?cmpid=c5rn_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "3717 Buchanan St #100, San Francisco, CA 94123, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Lynn+Petrie+Lange+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808580d846ca1b2b:0xd5d920bd9a0a2fd3!8m2!3d37.804266!4d-122.433869!16s%2Fg%2F1tc_8x7h!19sChIJKxvKRtiAhYAR0y8Kmr0g2dU?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Kajal Pashmi - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 48,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.1,
+    "phone": "+1 415-742-4459",
+    "website": "https://www.kajalpinsurance.com/?cmpid=F284_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "3138 Geary Blvd, San Francisco, CA 94118, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Kajal+Pashmi+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808587366ba03815:0x69d0e8edc636e147!8m2!3d37.782098!4d-122.452888!16s%2Fg%2F11bxjrffy7!19sChIJFTigazaHhYARR-E2xu3o0Gk?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Farmers Insurance - Justin Choy",
+    "rating": 4.9,
+    "review_count": 44,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.3,
+    "phone": "+1 415-795-8288",
+    "website": "https://agents.farmers.com/ca/san-francisco/justin-choy?SourceID=AMPALFGMAG&utm_source=GMB&utm_medium=Local&y_source=1_MTU1Mjc0OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ==",
+    "emails": [],
+    "address": "1200 Vicente St, San Francisco, CA 94116, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Farmers+Insurance+-+Justin+Choy/data=!4m7!3m6!1s0x80858705a491b6ab:0x902b5804f1f119b8!8m2!3d37.7393053!4d-122.4800479!16s%2Fg%2F1wbf_mz9!19sChIJq7aRpAWHhYARuBnx8QRYK5A?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Deborah McArdle - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 36,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.8,
+    "phone": "+1 415-834-5561",
+    "website": "https://www.deborahmcardle.com/?cmpid=W6JY_blm_0001",
+    "emails": [],
+    "address": "2444 Lombard St, San Francisco, CA 94123, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Deborah+McArdle+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808580b990a64173:0x9f1a4f722cd01d85!8m2!3d37.799412!4d-122.442078!16s%2Fg%2F11f404f9tn!19sChIJc0GmkLmAhYARhR3QLHJPGp8?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Debra O'Farrell - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 40,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.5,
+    "phone": "+1 415-982-9900",
+    "website": "https://www.sfofarrell.com/?cmpid=TB4S_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "870 Market St Ste 865, San Francisco, CA 94102, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Debra+O%27Farrell+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x80858085e2996bc7:0xcd34c37a61cff545!8m2!3d37.7850497!4d-122.4071308!16s%2Fg%2F119v5zqvt!19sChIJx2uZ4oWAhYARRfXPYXrDNM0?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Traci Hollander - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 41,
+    "negative_reviews_1_3_star": 1,
+    "negative_pct": 2.4,
+    "phone": "+1 415-647-3007",
+    "website": "https://www.noevalleyinsurance.com/?cmpid=FC56_blm_0001",
+    "emails": [],
+    "address": "1501 Church St, San Francisco, CA 94131, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.6,
+    "link": "https://www.google.com/maps/place/Traci+Hollander+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x808f7e6a33100a77:0xf7f4f721f42a9495!8m2!3d37.74679!4d-122.426732!16s%2Fg%2F11byfvyth9!19sChIJdwoQM2p-j4ARlZQq9CH39Pc?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Farmers Insurance - Clarence Castillo",
+    "rating": 4.9,
+    "review_count": 16,
+    "negative_reviews_1_3_star": 0,
+    "negative_pct": 0.0,
+    "phone": "+1 415-495-8913",
+    "website": "https://agents.farmers.com/ca/san-francisco/clarence-castillo?SourceID=AMPALFGMAG&utm_source=GMB&utm_medium=Local&y_source=1_MTU0ODI2MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ==",
+    "emails": [],
+    "address": "601 4th St UNIT 116, San Francisco, CA 94107, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.5,
+    "link": "https://www.google.com/maps/place/Farmers+Insurance+-+Clarence+Castillo/data=!4m7!3m6!1s0x808f7fd5dffc2147:0xcaf307820b05f029!8m2!3d37.77823!4d-122.395849!16s%2Fg%2F1tld0dky!19sChIJRyH839V_j4ARKfAFC4IH88o?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Ferrer Insurance Services Inc",
+    "rating": 4.9,
+    "review_count": 8,
+    "negative_reviews_1_3_star": 0,
+    "negative_pct": 0.0,
+    "phone": "+1 415-856-0709",
+    "website": "http://www.ferrerins.com/",
+    "emails": [],
+    "address": "5 3rd St #1025, San Francisco, CA 94103, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.5,
+    "link": "https://www.google.com/maps/place/Ferrer+Insurance+Services+Inc/data=!4m7!3m6!1s0x808580886ede4b41:0x39d4f7ef94c66b96!8m2!3d37.7874621!4d-122.4031439!16s%2Fg%2F1tkl3k06!19sChIJQUveboiAhYARlmvGlO_31Dk?authuser=0&hl=en&rclk=1"
+  },
+  {
+    "title": "Jing Lee - State Farm Insurance Agent",
+    "rating": 4.9,
+    "review_count": 32,
+    "negative_reviews_1_3_star": 0,
+    "negative_pct": 0.0,
+    "phone": "+1 415-752-8888",
+    "website": "https://www.jingleeinsurance.com/?cmpid=pbdf_blm_0001",
+    "emails": [
+      "team@keen.io",
+      "dustin@keen.io",
+      "eric@keen.io",
+      "joe@keen.io",
+      "alex@keen.io",
+      "adam.kasprowicz@keen.io",
+      "dariusz.lacheta@keen.io"
+    ],
+    "address": "4444 Geary Blvd #300, San Francisco, CA 94118, United States",
+    "pain_hits": {},
+    "pain_categories": [],
+    "recommended_services": [],
+    "service_urls": [],
+    "score": 0.5,
+    "link": "https://www.google.com/maps/place/Jing+Lee+-+State+Farm+Insurance+Agent/data=!4m7!3m6!1s0x8085873e784d4c23:0xb0a2d8ec15c35037!8m2!3d37.781196!4d-122.467208!16s%2Fg%2F1td7tdrc!19sChIJI0xNeD6HhYARN1DDFezYorA?authuser=0&hl=en&rclk=1"
+  }
+]

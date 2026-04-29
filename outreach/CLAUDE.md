@@ -6,9 +6,10 @@ daily-driver commands, and how to add a vertical.
 ## Repo shape
 
 - `lib/` — industry-agnostic. No vertical knobs, no hardcoded category names.
-- `pipelines/<name>/config.py` — every vertical-specific knob: pain
-  categories, regex patterns, SBERT anchors, DSO list, service catalog,
-  ranking weights, metro area codes.
+- `pipelines/<name>/config.py` — every vertical-specific knob: DSO list,
+  ranking weights, metro area codes, geographic prefixes.
+- `silverthread/pain_categories.md` — STL-derived pain hierarchy (vertical-
+  agnostic) consumed by the `.claude/agents/pain-classifier.md` subagent.
 - `pipelines/<name>/raw/` — raw scrape NDJSONs. **Immutable.** Canonical.
 - `pipelines/<name>/enrichment/` — append-only sidecars (crawl outputs).
 - `pipelines/<name>/outputs/<date>/` — one folder per delivery.

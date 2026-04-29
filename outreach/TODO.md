@@ -15,31 +15,13 @@ Open work that doesn't belong in CLAUDE.md (auto-loaded) — read on demand.
   baseline (2026-04-29) on the 100-review gold set: main F1 0.784 / strict
   F1 0.683 / strict exact-match 0.64 — vs prior SBERT baseline of ~0.43.
 
-## Cleanup phase (D) — next
+## Re-keying ranking + handoff to (main, sub) tuples
 
-Now that the subagent works, delete the legacy Python pain classifiers
-and prune their references:
-
-- **Delete** `outreach/lib/pain/regex.py`, `outreach/lib/pain/sbert.py`,
-  `outreach/lib/pain/__init__.py`, `outreach/lib/pain/__pycache__/`,
-  and the `outreach/lib/pain/` directory itself.
-- **Delete** `outreach/pipelines/dental_sunbelt/eval/eval_classifier.py`
-  (replaced by `eval_runner.py`, which doesn't import sbert/regex).
-- **From `outreach/pipelines/dental_sunbelt/config.py`, drop:**
-  `PAIN_REGEX_PATTERNS`, `SBERT_ANCHORS`, `SBERT_PER_CATEGORY_THRESHOLD`,
-  `SBERT_TITLE_DENY_RULES`, `SERVICE_MAP`, the flat `PAIN_CATEGORIES`.
-  **Keep:** `DSO_TITLE_REGEX`, `DSO_EMAIL_DOMAINS`, `GEOGRAPHIC_PREFIXES`,
-  `METRO_AREA_CODES`. **`PAIN_WEIGHTS`** stays for now but will need
-  re-keying to `(main, sub)` tuples when ranking comes back into play.
-- **`outreach/CLAUDE.md`**: line 10 mentions "SBERT anchors" as a config
-  knob — update or drop.
-- **`outreach/README.md`**: drop `regex.py`/`sbert.py`/`llm.py` from
-  the lib/ tree, drop the SBERT mentions from the principle section,
-  drop SBERT from the "adding a vertical" steps, update the "current
-  state" section to mention the subagent + eval_runner.
-- **`outreach/.venv/`**: `sentence-transformers` is no longer needed.
-  Either drop the package, or remove the venv entirely if no other
-  tooling depends on it.
+`PAIN_WEIGHTS` in `pipelines/dental_sunbelt/config.py` and the local
+`SERVICE_MAP` in `lib/handoff/csv_builder.py` are still keyed by the
+legacy flat category names. The pain-classifier subagent emits
+`(main, sub)` tuples. Re-key both when wiring the subagent's output
+through ranking and the handoff CSV — see "Pipeline integration" below.
 
 ## Re-deliveries
 

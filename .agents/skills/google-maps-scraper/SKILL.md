@@ -16,9 +16,13 @@ metadata:
 allowed-tools: Bash(docker:*) Bash(touch:*) Bash(wc:*) Bash(mkdir:*) Read Write
 ---
 
+> **Sync note (maintainers)** — `.claude/skills/google-maps-scraper` is a symlink to `.agents/skills/google-maps-scraper`. There is one source of truth; edits via either path modify the same files. The directory symlink survives `git clone`, so no manual sync is needed. If the symlink ever breaks, restore it with `ln -sfn ../../.agents/skills/google-maps-scraper .claude/skills/google-maps-scraper`.
+>
+> **Project override** — when invoked for an outreach pipeline (working under `outreach/`), follow `outreach/CLAUDE.md` for output paths, review-field handling, and other conventions. The defaults below assume general repo use.
+
 # Google Maps Scraper
 
-Scrape Google Maps to extract business listings, contact details, reviews, and leads using Docker.
+Scrape Google Maps to extract business listings, contact details, reviews, and leads using Docker. Run docker commands from the repo root — volume mounts below use `$(pwd)/gmapsdata/...` and assume the working directory is the repo root.
 
 ## Interaction Flow
 
@@ -83,12 +87,13 @@ Never use a depth value higher than 10 unless the user explicitly requests it.
 
 Always use `-exit-on-inactivity 3m` so the container stops automatically when done.
 
-Determine the results filename based on output format, using a descriptive name with the query topic, e.g., `/tmp/gmaps_dentists_berlin.csv`.
+Determine the results filename based on output format, using a descriptive name with the query topic. Save under `gmapsdata/` at the repo root, e.g., `gmapsdata/dentists_berlin.csv`. **Never write scraper output to `/tmp`** — it is auto-cleaned by systemd-tmpfiles and re-scraping is expensive (lost data once already in this repo). The queries file at `/tmp/gmaps_queries.txt` is fine since it's transient input that lives only for the scrape.
 
 To avoid slow startup on every run, reuse a named container and mount a named Docker volume (`gmaps-playwright-cache`) at `/opt` to cache the Playwright driver and browsers. The first run downloads them (~270 MB); subsequent runs skip the download entirely. Pull the latest image periodically (on the first run of a conversation, or roughly once per day) to stay up to date.
 
 ```bash
-touch /tmp/gmaps_<topic>_<city>.<ext>
+mkdir -p gmapsdata
+touch gmapsdata/<topic>_<city>.<ext>
 
 # Pull the latest image on the first run of the conversation
 # (skip on subsequent runs in the same conversation)
@@ -101,7 +106,7 @@ docker run \
   --name gmaps-scraper \
   -v gmaps-playwright-cache:/opt \
   -v /tmp/gmaps_queries.txt:/queries.txt \
-  -v /tmp/gmaps_<topic>_<city>.<ext>:/results.<ext> \
+  -v "$(pwd)/gmapsdata/<topic>_<city>.<ext>:/results.<ext>" \
   gosom/google-maps-scraper \
   -input /queries.txt \
   -results /results.<ext> \
@@ -198,13 +203,16 @@ Example — comprehensive search for dentists across all of Berlin:
 # queries file just needs the search term (grid handles the location)
 echo "dentists" > /tmp/gmaps_queries.txt
 
+mkdir -p gmapsdata
+touch gmapsdata/dentists_berlin.csv
+
 docker rm gmaps-scraper 2>/dev/null
 
 docker run \
   --name gmaps-scraper \
   -v gmaps-playwright-cache:/opt \
   -v /tmp/gmaps_queries.txt:/queries.txt \
-  -v /tmp/gmaps_dentists_berlin.csv:/results.csv \
+  -v "$(pwd)/gmapsdata/dentists_berlin.csv:/results.csv" \
   gosom/google-maps-scraper \
   -input /queries.txt \
   -results /results.csv \
@@ -239,7 +247,9 @@ These additional flags can be added to the docker command:
 ## CSV Columns Reference
 
 The full list of available CSV columns:
-`input_id`, `link`, `title`, `category`, `address`, `open_hours`, `popular_times`, `website`, `phone`, `plus_code`, `review_count`, `review_rating`, `reviews_per_rating`, `latitude`, `longitude`, `cid`, `status`, `description`, `reviews_link`, `thumbnail`, `timezone`, `price_range`, `data_id`, `images`, `reservations`, `order_online`, `menu`, `owner`, `complete_address`, `about`, `user_reviews`, `emails`
+`input_id`, `link`, `title`, `category`, `address`, `open_hours`, `popular_times`, `website`, `phone`, `plus_code`, `review_count`, `review_rating`, `reviews_per_rating`, `latitude`, `longitude`, `cid`, `status`, `description`, `reviews_link`, `thumbnail`, `timezone`, `price_range`, `data_id`, `images`, `reservations`, `order_online`, `menu`, `owner`, `complete_address`, `about`, `user_reviews`, `user_reviews_extended`, `emails`
+
+**Important — review fields:** `user_reviews` is the small set surfaced on the listing page (~10% of captured reviews). `user_reviews_extended` is populated by `-extra-reviews` and contains the rest (~90%, including most low-rated reviews — Google buries them past position ~10). When mining reviews for sentiment/pain/quality, **always read both fields and dedupe** by `(reviewer_name, description[:120])`. Reading only `user_reviews` will miss most of the signal.
 
 ## Error Handling
 

@@ -24,7 +24,3 @@ gmapsdata/*.csv
 # Local browser/MCP caches
 .playwright-mcp/
 skills-lock.json
-
-# Local Claude / agent configs
-.claude/
-.agents/

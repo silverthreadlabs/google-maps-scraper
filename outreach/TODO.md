@@ -8,10 +8,14 @@ Open work that doesn't belong in CLAUDE.md (auto-loaded) — read on demand.
   implemented and tested; needs to be wired through
   `lib/handoff/csv_builder.py` so the cleaned URL replaces the raw one
   at output time (with the original kept in an audit column).
-- **Pain quote ↔ category mismatch.** Root cause is regex-only
-  classification (F1=0.17). Fix in progress: `lib/pain/llm.py` (Claude
-  Haiku 4.5 end-to-end agent). Validate against
-  `pipelines/dental_sunbelt/eval/labels.json`; expect F1 >0.85.
+- **Pain quote ↔ category mismatch.** Regex classification is too coarse
+  for subjective categories; SBERT improves it but plateaus at moderate
+  F1. Fix in progress: LLM-based classifier at `lib/pain/llm.py` (Claude
+  Haiku 4.5) — serves as a drop-in `PainClassifier` AND as an
+  end-to-end lead-analysis agent. Run
+  `pipelines/dental_sunbelt/eval/eval_classifier.py` for baselines and
+  to validate the new classifier against
+  `pipelines/dental_sunbelt/eval/labels.json`.
 
 ## Re-deliveries
 

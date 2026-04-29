@@ -15,7 +15,7 @@ outreach/
 │   ├── pain/                    # pain classifiers (interchangeable)
 │   │   ├── regex.py             # fast cheap baseline + corroboration signal
 │   │   ├── sbert.py             # SBERT semantic classifier (better recall)
-│   │   └── llm.py               # (NEXT) LLM-based agent — planned for v2
+│   │   └── llm.py               # planned: Claude Haiku 4.5 classifier (in progress)
 │   ├── enrichers/               # contact enrichment (website crawl, web search, ...)
 │   ├── scrapers/                # gosom Docker wrapper
 │   ├── handoff/                 # CSV builder + README template
@@ -95,9 +95,12 @@ outreach/.venv/bin/python outreach/pipelines/dental_sunbelt/eval/eval_classifier
   173 independents in master, see
   `pipelines/dental_sunbelt/outputs/2026-04-25/handoff.csv`.
 - Sales feedback flagged two bugs:
-  1. Pain quote ↔ category mismatch (regex F1=0.17 — too brittle).
-     Mitigation: SBERT pushes F1 to 0.44; LLM agent in `lib/pain/llm.py`
-     planned for v2 to push to ~0.95.
+  1. Pain quote ↔ category mismatch — regex is too coarse for subjective
+     categories; SBERT improves precision but plateaus at moderate F1.
+     Fix in progress: LLM-based classifier in `lib/pain/llm.py` (Claude
+     Haiku 4.5). Run `pipelines/dental_sunbelt/eval/eval_classifier.py`
+     for current baselines and to validate the new classifier against
+     the hand-labeled gold set.
   2. URLs had tracking-param noise.
      Fixed: `lib/url_normalize.py` + tests; will be applied at handoff time.
 

@@ -124,7 +124,7 @@ for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
 done
 ```
 
-Current count: 53 tests across 6 modules (email, phone, POC, url_normalize,
+Current count: 47 tests across 5 modules (email, phone, url_normalize,
 handoff/csv_builder, enrichers/website_crawl).
 
 ## Adding a new vertical

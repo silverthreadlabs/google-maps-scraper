@@ -71,6 +71,53 @@ outreach/
 - Mark bad values invalid via sibling flags (`email_invalid: true`); do not delete.
 - See `feedback_lead_data_never_drop_rows.md` in `~/.claude/projects/.../memory/`.
 
+## Starting a new campaign (cold start)
+
+The full lead-gen sequence for a fresh campaign — new vertical, new geo,
+or fresh rescrape of an existing vertical. The `/outreach` slash command
+(`.claude/commands/outreach.md`) is the orchestrator; it knows the
+per-stage details, hard rules (never drop rows, etc.), and the
+pain-classifier subagent dispatch shape. Each stage prints its own
+`next:` hint so you can chain by reading the previous output.
+
+1. **Pick / create the pipeline.** Use an existing vertical
+   (`pipelines/<name>/`), or copy `dental_sunbelt` and edit `config.py`
+   per "Adding a new vertical" below.
+2. **Scrape.** Use the `google-maps-scraper` skill
+   (`.claude/skills/google-maps-scraper/SKILL.md`) — Docker-based gosom
+   wrapper. Tell Claude *"scrape <vertical> in <city> for outreach
+   pipeline <pipeline>"*. Output lands in
+   `pipelines/<pipeline>/raw/<query>.json` (NDJSON; CLAUDE.md rule 2 —
+   never `/tmp`).
+3. **Analyze (currently inline).** Build the first master from raw:
+   chain detection (`lib/chain_detection.ChainDetector`) + quality
+   scoring (`lib/ranking.quality_score`) → `outputs/<today>/master.json`.
+   This stage is not yet a script (TODO.md `analyze-as-script`); follow
+   the runbook's "Stages not yet supported as scripts" section.
+4. **Enrich contacts.** `/outreach <pipeline> enrich` — agent-browser
+   crawls websites for emails + POCs. Resumable; writes
+   `enrichment/website_crawl.json`.
+5. **Classify pain.** `/outreach <pipeline> classify` — dispatches the
+   `pain-classifier` subagent against ≤3★ reviews from raw. Emits a
+   sidecar at `enrichment/pain_classifications/<today>.json`.
+6. **Merge sidecar into master.**
+   ```bash
+   python outreach/scripts/merge_classifications.py \
+     --master  outreach/pipelines/<pipeline>/outputs/<today>/master.json \
+     --sidecar outreach/pipelines/<pipeline>/enrichment/pain_classifications/<today>.json \
+     --out     outreach/pipelines/<pipeline>/outputs/<today>/master.json
+   ```
+   Adds `agent_pain_hits` + provenance to every lead. `--master` and
+   `--out` can be the same path (atomic write).
+7. **Validate.** `/outreach <pipeline> validate` — annotates email/phone
+   invalids via sibling flags. Required before handoff.
+8. **Handoff.** `/outreach <pipeline> handoff` — produces
+   `outputs/<today>/handoff.csv` for sales.
+
+**Re-delivery against an existing master?** See the "Re-delivery flow"
+section in `.claude/commands/outreach.md`. Skips scrape and the first
+analyze; degenerate masters (no `place_id`) get backfilled from raw.
+
 ## Daily driver
 
 Each stage is a standalone CLI. Run them individually, or chain them

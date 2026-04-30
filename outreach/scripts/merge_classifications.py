@@ -144,6 +144,15 @@ def main(argv: list[str] | None = None) -> int:
         ellipsis = '…' if len(stats['orphan_place_ids']) > 5 else ''
         print(f"    first {len(sample)}: {sample}{ellipsis}", file=sys.stderr)
     print(f"wrote {args.out}", flush=True)
+    # Print a "next:" hint. Pipeline name is derived from the master path
+    # (outputs/<date>/master.json → pipelines/<pipeline>/...) when possible.
+    pipeline = ''
+    parts = args.out.parts
+    if 'pipelines' in parts:
+        i = parts.index('pipelines')
+        if i + 1 < len(parts):
+            pipeline = parts[i + 1]
+    print(f"next: /outreach {pipeline or '<pipeline>'} validate", flush=True)
     return 0
 
 

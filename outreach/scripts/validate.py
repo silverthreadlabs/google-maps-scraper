@@ -126,6 +126,7 @@ def main(argv: list[str] | None = None) -> int:
         f"{n_phone_bad} phones marked invalid → {master_path}",
         flush=True,
     )
+    print(f"next: /outreach {args.pipeline} handoff", flush=True)
     return 0
 
 

@@ -71,6 +71,7 @@ def main(argv: list[str] | None = None) -> int:
             workers=args.workers,
             session_prefix=f'{args.pipeline}-crawl',
         )
+    print(f"next: /outreach {args.pipeline} classify  (or run merge_classifications.py if a sidecar already exists)", flush=True)
     return 0
 
 

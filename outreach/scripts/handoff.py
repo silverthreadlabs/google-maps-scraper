@@ -71,6 +71,7 @@ def main(argv: list[str] | None = None) -> int:
             service_map=service_map,
             pain_weights=pain_weights,
         )
+    print(f"next: review {out_path} and ship to sales (last stage)", flush=True)
     return 0
 
 

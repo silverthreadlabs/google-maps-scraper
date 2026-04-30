@@ -86,6 +86,12 @@ python outreach/scripts/enrich.py   dental_sunbelt [--queue PATH] [--workers N]
 python outreach/scripts/validate.py dental_sunbelt [--master PATH]
 python outreach/scripts/handoff.py  dental_sunbelt [--master PATH] [--out PATH]
 
+# Bridge classify → handoff: graft sidecar into master with provenance.
+python outreach/scripts/merge_classifications.py \
+    --master  pipelines/<pipeline>/outputs/<old-date>/master.json \
+    --sidecar pipelines/<pipeline>/enrichment/pain_classifications/<today>.json \
+    --out     pipelines/<pipeline>/outputs/<today>/master.json
+
 # Stages still pending (slash-command-only for now):
 #   scrape   — wraps the gosom Docker scraper (skill at
 #              .claude/skills/google-maps-scraper/SKILL.md)
@@ -93,7 +99,7 @@ python outreach/scripts/handoff.py  dental_sunbelt [--master PATH] [--out PATH]
 #              detection + quality scoring → master.json
 
 # Run all unit tests
-for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
+for t in $(find outreach/lib outreach/scripts outreach/tests -name 'test_*.py' 2>/dev/null); do
     python "$t"
 done
 
@@ -128,13 +134,13 @@ python outreach/pipelines/dental_sunbelt/eval/eval_runner.py predictions.json
 Unit tests live alongside their modules. Run all:
 
 ```bash
-for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
+for t in $(find outreach/lib outreach/scripts outreach/tests -name 'test_*.py' 2>/dev/null); do
     python "$t" 2>&1 | tail -2
 done
 ```
 
-Current count: 55 tests across 5 modules (email, phone, url_normalize,
-handoff/csv_builder, enrichers/website_crawl).
+Current count: 65 tests across 6 modules (email, phone, url_normalize,
+handoff/csv_builder, enrichers/website_crawl, scripts/merge_classifications).
 
 ## Adding a new vertical
 

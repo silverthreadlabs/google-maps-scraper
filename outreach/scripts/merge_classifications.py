@@ -77,7 +77,14 @@ PROVENANCE_TAG = 'pain-classifier-subagent'
 
 def merge(master: list[dict], sidecar: dict[str, dict]) -> dict:
     """Mutate `master` in place: each lead gets agent_pain_hits + provenance.
-    Returns a stats dict."""
+    Returns a stats dict.
+
+    Also refreshes the derived `pain_breadth` / `pain_categories` views to
+    reflect agent_pain_hits when present (else legacy `pain_hits`). These
+    are computed views, not raw data; csv_builder reads `pain_breadth_count`
+    from `pain_breadth` and only recomputes when `quality_score` is missing,
+    so without this refresh agent-only pipelines ship handoff CSVs with
+    pain_breadth_count=0."""
     now = datetime.now(timezone.utc).isoformat(timespec='seconds')
     master_place_ids = {l.get('place_id') for l in master if l.get('place_id')}
     leads_with_hits = 0
@@ -89,6 +96,9 @@ def merge(master: list[dict], sidecar: dict[str, dict]) -> dict:
         lead['agent_pain_hits_added_at'] = now
         if hits:
             leads_with_hits += 1
+        derived_pain = hits or lead.get('pain_hits') or {}
+        lead['pain_breadth'] = len(derived_pain)
+        lead['pain_categories'] = sorted(derived_pain.keys())
     orphan_place_ids = sorted(pid for pid in sidecar if pid not in master_place_ids)
     return {
         'master_leads': len(master),

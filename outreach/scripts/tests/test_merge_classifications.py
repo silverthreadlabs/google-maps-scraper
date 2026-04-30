@@ -91,6 +91,44 @@ class TestMerge(unittest.TestCase):
         self.assertEqual(set(master[0]['agent_pain_hits']),
                          {'calls_unanswered', 'booking_friction'})
 
+    def test_pain_breadth_and_categories_recomputed_from_agent_hits(self):
+        # csv_builder reads pain_breadth_count from `pain_breadth`/`pain_categories`
+        # and only recomputes when quality_score is missing. Agent-only pipelines
+        # arrive here with quality_score already set (from analyze) and breadth=0,
+        # so without this refresh the handoff CSV ships pain_breadth_count=0.
+        master = [{'place_id': 'p1', 'pain_breadth': 0, 'pain_categories': []}]
+        other_hit = {**HIT, 'sub': 'appointment_unavailable_long_wait'}
+        sidecar = {'p1': {
+            'calls_unanswered': [HIT],
+            'booking_friction': [other_hit],
+        }}
+        merge(master, sidecar)
+        self.assertEqual(master[0]['pain_breadth'], 2)
+        self.assertEqual(master[0]['pain_categories'],
+                         ['booking_friction', 'calls_unanswered'])
+
+    def test_pain_breadth_falls_back_to_legacy_when_no_agent_hits(self):
+        # When the sidecar has no entry for a lead but legacy SBERT pain_hits
+        # exist, breadth/categories should reflect the legacy data — matching
+        # csv_builder's `_pain_hits_field` preference order.
+        master = [{
+            'place_id': 'p1',
+            'pain_hits': {
+                'missed_calls_unreachable': [{'snippet': 'x'}],
+                'surprise_billing': [{'snippet': 'y'}],
+            },
+        }]
+        merge(master, sidecar={})
+        self.assertEqual(master[0]['pain_breadth'], 2)
+        self.assertEqual(master[0]['pain_categories'],
+                         ['missed_calls_unreachable', 'surprise_billing'])
+
+    def test_pain_breadth_zero_when_neither_source_has_hits(self):
+        master = [{'place_id': 'p1', 'pain_breadth': 5, 'pain_categories': ['stale']}]
+        merge(master, sidecar={})
+        self.assertEqual(master[0]['pain_breadth'], 0)
+        self.assertEqual(master[0]['pain_categories'], [])
+
 
 class TestWriteAtomic(unittest.TestCase):
     def test_writes_then_replaces_no_temp_left_behind(self):

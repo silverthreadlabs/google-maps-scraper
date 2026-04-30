@@ -28,6 +28,7 @@ from scripts._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
+    pipeline_lock,
     require_attr,
 )
 from scripts.validate import latest_master  # reuse the same convention
@@ -63,12 +64,13 @@ def main(argv: list[str] | None = None) -> int:
 
     out_path = args.out or (master_path.parent / 'handoff.csv')
 
-    build_handoff(
-        input_path=master_path,
-        output_path=out_path,
-        service_map=service_map,
-        pain_weights=pain_weights,
-    )
+    with pipeline_lock(args.pipeline, 'handoff'):
+        build_handoff(
+            input_path=master_path,
+            output_path=out_path,
+            service_map=service_map,
+            pain_weights=pain_weights,
+        )
     return 0
 
 

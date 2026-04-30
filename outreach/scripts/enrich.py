@@ -28,6 +28,7 @@ from scripts._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
+    pipeline_lock,
     require_attr,
 )
 
@@ -61,14 +62,15 @@ def main(argv: list[str] | None = None) -> int:
     retry_path = pdir / 'enrichment' / 'website_crawl_retry.json'
 
     print(f"queue source: {queue_path}", flush=True)
-    run_pool(
-        leads,
-        profile=profile,
-        enrichment_path=enrichment_path,
-        retry_path=retry_path,
-        workers=args.workers,
-        session_prefix=f'{args.pipeline}-crawl',
-    )
+    with pipeline_lock(args.pipeline, 'enrich'):
+        run_pool(
+            leads,
+            profile=profile,
+            enrichment_path=enrichment_path,
+            retry_path=retry_path,
+            workers=args.workers,
+            session_prefix=f'{args.pipeline}-crawl',
+        )
     return 0
 
 

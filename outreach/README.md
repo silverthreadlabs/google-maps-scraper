@@ -139,8 +139,9 @@ for t in $(find outreach/lib outreach/scripts outreach/tests -name 'test_*.py' 2
 done
 ```
 
-Current count: 65 tests across 6 modules (email, phone, url_normalize,
-handoff/csv_builder, enrichers/website_crawl, scripts/merge_classifications).
+Current count: 71 tests across 7 modules (email, phone, url_normalize,
+handoff/csv_builder, enrichers/website_crawl, scripts/merge_classifications,
+scripts/_common pipeline_lock).
 
 ## Adding a new vertical
 

@@ -33,6 +33,7 @@ from scripts._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
+    pipeline_lock,
 )
 
 
@@ -109,15 +110,16 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 2
 
-    leads = json.loads(master_path.read_text())
-    n_email_added = 0
-    n_phone_bad = 0
-    for lead in leads:
-        n_email_added += annotate_emails(lead, extra_vendor_domains=extra_vendor)
-        if annotate_phone(lead, metro_area_codes=metros):
-            n_phone_bad += 1
+    with pipeline_lock(args.pipeline, 'validate'):
+        leads = json.loads(master_path.read_text())
+        n_email_added = 0
+        n_phone_bad = 0
+        for lead in leads:
+            n_email_added += annotate_emails(lead, extra_vendor_domains=extra_vendor)
+            if annotate_phone(lead, metro_area_codes=metros):
+                n_phone_bad += 1
 
-    write_atomic(master_path, leads)
+        write_atomic(master_path, leads)
 
     print(
         f"validated {len(leads)} leads → +{n_email_added} email invalid, "

@@ -1,0 +1,2311 @@
+{
+  "ChIJiVn_C0HQ1IkRub73YI6gyQE": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "snippet": "On the afternoon of Thursday June 20th I was in Toronto and stopped in at the Canadian outlet store on Markham Road spending $80 which included two fans at $25 each. On arriving to my destination I brought in the fans and plugged them in and noticed approximately 15 minutes later they're only one of",
+        "rating": 1,
+        "reviewer": "Wayne Ferguson",
+        "reasoning": "Customer was specifically promised a callback about an exchange and never received it — fits dropped_leads_or_quotes (customer chasing a specific promised callback).",
+        "quote": "As the promised call was never received"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "On the afternoon of Thursday June 20th I was in Toronto and stopped in at the Canadian outlet store on Markham Road spending $80 which included two fans at $25 each. On arriving to my destination I brought in the fans and plugged them in and noticed approximately 15 minutes later they're only one of",
+        "rating": 1,
+        "reviewer": "Wayne Ferguson",
+        "reasoning": "A second instance of a specifically-promised callback never being returned.",
+        "quote": "Has once again the promised call was never returned"
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "This so called Canadian Outlet is an absolute joke of a business. They advertise opening at 10 am, but at 10:45 the doors were still locked to paying customers. The woman inside had the audacity to bark, “We’re still closed, come back in 5 minutes” then stretched that “5 minutes” into half an hour. ",
+        "rating": 1,
+        "reviewer": "Ibrahim Amer",
+        "reasoning": "Staff member described as barking at a customer — rude/dismissive tone from non-clinical staff.",
+        "quote": "The woman inside had the audacity to bark, “We’re still closed, come back in 5 minutes”"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Absolutely terrible experience with this store. I bought a freezer from them, and it was damaged when they delivered it. It had dents and visible damage on the corners, and it didn’t work properly either. When I contacted them, their attitude was extremely rude and disrespectful. They completely ref",
+        "rating": 1,
+        "reviewer": "khatam ghazaei",
+        "reasoning": "Generic rudeness complaint about staff attitude — defaults to staff_rude_front_desk per disambiguation rule.",
+        "quote": "their attitude was extremely rude and disrespectful"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Terrible customer service! We visited the store expecting the marketplace price, only to be told by an arrogant lady that the in-store price is different and that the marketplace price is just an “advertising tactic” to get customers in. She even had the audacity to say we were only there because of",
+        "rating": 1,
+        "reviewer": "Purvaja Patel",
+        "reasoning": "Staff described as arrogant with dismissive tone — rude staff behavior.",
+        "quote": "told by an arrogant lady"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "I went once with my wheelchair bound mom and a south Asian girl stopped us right at the door saying “thats not allowed here” I was surprised and said “what’s not allowed?” She said “that wheelchair” me and my mom where very offended and hurt by this, there a certain way to go about things and this l",
+        "rating": 1,
+        "reviewer": "Iqbal Qureshi",
+        "reasoning": "Staff dismissed customer at the door with rude behavior — rude/dismissive frontline staff conduct.",
+        "quote": "extremely rude"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Horrible Customer Service!!! I bought an Igloo chest freezer from them based on their Kijiji ad. Worst mistake ever. I had to return to them three times and experience was horrible. They sell it as open box hence reduced price but the item is NOT IN A BOX at all so I saw them dragging it in and out ",
+        "rating": 1,
+        "reviewer": "Talib Hussain",
+        "reasoning": "Direct complaint about staff being rude on phone and in store — frontline staff rudeness.",
+        "quote": "their employees were rude to me when on the phone and in store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Horrible Customer Service!!! I bought an Igloo chest freezer2.8 cft, two months ago from Canadian Outlet Store , Markham,  based on their Kijiji ad. It was the worst mistake in my life. They gave two months warranty but I had to return to them three times within one month and had a horrible experien",
+        "rating": 1,
+        "reviewer": "Sanjib DebNath",
+        "reasoning": "Staff described as rude on phone and in store — frontline staff rudeness.",
+        "quote": "their employees ( I don't know they are employee or share holder - (seems share holder at their attitude) of the store) were rude to me when on the phone and in store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Booked a U-haul for mobile pickup, all I had to do was pickup the keys and be on my way. The staff was unsure of how to process which isn’t her fault as training wasn’t there for U-haul but the owner (Shirin Mam) has a stick up her a** and didn’t accept the mobile pickup so she double charged my car",
+        "rating": 1,
+        "reviewer": "Fardin Gadjyev",
+        "reasoning": "Owner described as extremely rude — rude/unprofessional behavior from non-clinical staff.",
+        "quote": "Extremely rude to her own staff"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Very rude and unprofessional staff, especially one woman who works there. Treated me with no respect at all. I don’t recommend this store.",
+        "rating": 1,
+        "reviewer": "Naqeeb ullah Alakozai",
+        "reasoning": "Direct complaint of rude and unprofessional staff treatment — staff rudeness default.",
+        "quote": "Very rude and unprofessional staff"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "snippet": "Terrible customer service! We visited the store expecting the marketplace price, only to be told by an arrogant lady that the in-store price is different and that the marketplace price is just an “advertising tactic” to get customers in. She even had the audacity to say we were only there because of",
+        "rating": 1,
+        "reviewer": "Purvaja Patel",
+        "reasoning": "Bait-and-switch pricing — quoted/advertised price differs from price actually charged, fits surprise_billing trigger 'quoted X, billed Y'.",
+        "quote": "the in-store price is different and that the marketplace price is just an “advertising tactic”"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "The service of the guy is good but today we came in and the girl took like 20 mins to serve us. We came in for the ion speaker and when she called the guy to ask about the price , we told her we are paying card. She literally told us the sealed box is $200 plus tax so we took the one on display aka ",
+        "rating": 1,
+        "reviewer": "Steph",
+        "reasoning": "Quoted one price, charged another at point of payment — classic 'quoted X, billed Y' surprise billing.",
+        "quote": "she said she can do it for $200. Now we go to pay and she says she cant do the $200 unless its cash"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "snippet": "Warning! The worst place ever! It turns out everything electonic in there is RMA returns or off brand! Most items in there have not been tested and open box. Their 3 day return policy is insane, and exchange only. The staff are not knowledgeable and will lie to you without flinching. Worst mistake e",
+        "rating": 1,
+        "reviewer": "Nick D",
+        "reasoning": "Bait-and-switch pricing — advertised price not honored at time of sale, fits surprise_billing.",
+        "quote": "They will bate you with one price then tell you the sale is over meanwhile the ad is still up a week later advertising the price they would not honour"
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "snippet": "The service of the guy is good but today we came in and the girl took like 20 mins to serve us. We came in for the ion speaker and when she called the guy to ask about the price , we told her we are paying card. She literally told us the sealed box is $200 plus tax so we took the one on display aka ",
+        "rating": 1,
+        "reviewer": "Steph",
+        "reasoning": "Customer waited 20 minutes at the counter for service — operational waiting complaint, though taxonomy is appointment-oriented.",
+        "quote": "the girl took like 20 mins to serve us"
+      }
+    ]
+  },
+  "ChIJGWdNlSzL1IkR2N9euOWCbTg": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Peace Collective has wonderful stuff. It's a local company that i would love to support. However, twice now I've been burned by their awful delivery times and customer service. Never again.\nThe first time I ordered with them, I got a clearance item which was in limited sizes. So I was confused when ",
+        "rating": 1,
+        "reviewer": "Diane Phipps",
+        "reasoning": "Customer specifically requested updates and a refund and got no response — patient-driven inquiry going unanswered fits dropped_leads_or_quotes.",
+        "quote": "I still have no communication about an updated shipping estimate, nor a reply to my emails"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Honestly really disappointed. Wanting to support local, especially those supporting a cause, I didnt think twice. Clearly I should have done my research prior to purchasing. You would think seeing collabs with “big name” brands would come with world class service. The lack of communication from cust",
+        "rating": 1,
+        "reviewer": "Samantha Brown",
+        "reasoning": "Customer sent follow-up emails asking for updates and got no human response — a customer-initiated request that the business never properly answered.",
+        "quote": "Sending follow up emails asking for an update takes no time at all"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "*review is for the Peace Collective website*\nI ordered a basic NFL sweatshirt on August 15 as a birthday present. Since the item was made to order, there was a shipping estimate of August 25th, which still have me over a week of buffer time before I needed the gift to arrive.\n\nOn September 11th I ha",
+        "rating": 1,
+        "reviewer": "Sara Dev",
+        "reasoning": "Customer raised a specific concern/request and the business never replied — patient-initiated inquiry dropped.",
+        "quote": "I replied stating the circumstance of this being a gift and that I was dissatisfied with these delays, and have not received a response"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "Very disappointed in Peace Collective’s lack of communication and customer service. I wasn’t aware that my order that was placed on December 2nd would be shipped the week of December 15. I checked the status of my order today (December 22nd) and my order is only just confirmed and not “fulfilled”. I",
+        "rating": 1,
+        "reviewer": "Anna A",
+        "reasoning": "Customer unable to get any response to inquiries about her order — patient chasing the business with no callback/reply.",
+        "quote": "It’s impossible to speak with someone from this company"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "I ordered a sweater for my brother-in-law on December 3 as a Christmas gift. I was told that it would be shipped the week of December 15 that week came and went. I was told it would ship between December 22 and December 27 that week also came and went no one from customer service has responded to my",
+        "rating": 1,
+        "reviewer": "Amanda Jackson",
+        "reasoning": "Customer made specific requests (refund, status) and the business never responded — clear dropped_leads_or_quotes.",
+        "quote": "no one from customer service has responded to my text messages or emails regarding a refund"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "Had a terrible customer service experience with Peace Collective! I ordered two items online on Nov 18 for Christmas presents. The notice on each product said it would ship within 10-15 days but they never arrived. Tried emailing customer service for an update and they only reached out once on Dec 1",
+        "rating": 1,
+        "reviewer": "Alessandra H",
+        "reasoning": "Customer reached out multiple times with specific requests and got no response — dropped customer inquiry.",
+        "quote": "I have not received further communication from the customer service team despite trying to reach them by email again multiple times"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "Ordered a sweatshirt mid-October and didn’t receive it until the end of November. It was never listed as backordered, but when I followed up weeks later, that suddenly became the excuse.\n\nThere’s no phone number to call and emails take about 5 days to get a response. Communication is extremely slow.",
+        "rating": 1,
+        "reviewer": "Stephanie Lightowler",
+        "reasoning": "Customer made a specific request that was acknowledged but never followed through — patient chasing a promised deliverable.",
+        "quote": "I submitted a return request that was approved, but I was never sent a return shipping label"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "snippet": "I ordered a Christmas gift from Peace Collective on November 21st. The confirmation email stated the item would ship the week of November 30th, which never happened. I reached out to customer service asking if the order would ship soon and whether it would arrive before Christmas. I also requested a",
+        "rating": 1,
+        "reviewer": "Sydney w",
+        "reasoning": "Customer made multiple specific requests for refund/status and got no reply — clear dropped_leads_or_quotes pattern.",
+        "quote": "I followed up with two more emails explaining the situation and requesting a refund, and I still haven’t received any reply"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "*For the website* I ordered one of the NFL sweatshirts understanding that it takes 10-15 days to ship out. It’s certainly past that timeframe and still have gotten nothing. A friend also ordered from the same collection and mentioned to me that I should’ve not even bothered because it almost took 2 ",
+        "rating": 1,
+        "reviewer": "Gillian Chan",
+        "reasoning": "Customer actively contacted the business and never received a response.",
+        "quote": "I did reach out and have yet to hear anything"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "Purchased a sweater for a Christmas gift mid November. Its December 31st and the sweater still hasn't shipped and customer service is unresponsive. Definitely not purchasing from this company again.",
+        "rating": 1,
+        "reviewer": "MSy",
+        "reasoning": "Customer reached out and got no response.",
+        "quote": "customer service is unresponsive"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "Online order review:\n\nI placed an on-demand order for a gift, but the order was so delayed that I no longer needed it. I reached out to confirm when the order would be made and shipped and received no response,  so I cancelled the order and received a delayed response. I ended up having to file a ch",
+        "rating": 1,
+        "reviewer": "Priyanka Patel",
+        "reasoning": "Customer asked for an update on a specific request and got no response.",
+        "quote": "I reached out to confirm when the order would be made and shipped and received no response"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "UPDATE (September 1, 2025): after posting this review I heard from Peace Collective on August 20. They promised to send my order “within 7 business days”.\nThis did not happen. I emailed them. No response.\nEmailed them again today requesting a full refund. They are not sending my order - therefore, t",
+        "rating": 1,
+        "reviewer": "Kim Johnson",
+        "reasoning": "Customer actively emailed seeking response and did not receive one.",
+        "quote": "I emailed them. No response"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "If I could zero stars I would. I ordered an NFL tshirt on September 5 and was assured it would ship within 5-10 working days. Here we are, October 16, and my product still has not shipped.  They are so unresponsive to emails and chat messages. The last message I received from Kimberly 10 days ago sa",
+        "rating": 1,
+        "reviewer": "Madison Ray",
+        "reasoning": "Customer chasing for a response across multiple channels with no reply.",
+        "quote": "They are so unresponsive to emails and chat messages"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "I have had the slowest experience with this company. I ordered a shirt back in August and tried to cancel it before it shipped but cause it took so long for customer service to get back to me, it had already shipped. So as soon as I got it I started the return process, which was early September and ",
+        "rating": 1,
+        "reviewer": "Monster Mash 2026",
+        "reasoning": "Customer waited extensively for a response from customer service to a specific request.",
+        "quote": "it took so long for customer service to get back to me"
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "I ordered an NFL hoodie on September 4 and was told it would ship the week of September 15. Every week since then, I’ve reached out for updates and received the same copy-and-paste response saying it would be shipped “expedited within 7 days.” It’s now October 15, and I still have no shipping update",
+        "rating": 1,
+        "reviewer": "Crystal Oystrick",
+        "reasoning": "Explicit complaint about unclear/missing information from staff regarding order status.",
+        "quote": "the company isn’t honest or upfront about delays"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Ordered a sweater and a shirt on October 5th, said it would ship in 10-15 days and the order status never changed. Reached out on October 28, they said it would be shipped October 31 and I haven’t received anything. I’ve contacted them again and will do a credit card charge back if it is not shipped",
+        "rating": 1,
+        "reviewer": "Tiara Duffield",
+        "reasoning": "Contradictory information given about shipping dates.",
+        "quote": "they said it would be shipped October 31 and I haven’t received anything"
+      }
+    ]
+  },
+  "ChIJGzq3-R00K4gRuSCA1tT2Fho": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "snippet": "I was subjected to racial profiling and discrimination by both a store employee and a supervisor. While I was browsing the makeup section, an employee approached me and immediately accused me of stealing, first words to me was “ i saw you stealing empty your pockets”  I cooperated, and the only item",
+        "rating": 1,
+        "reviewer": "Lai",
+        "reasoning": "Clear case of rude, aggressive behavior from staff.",
+        "quote": "The employee raised her voice and confronted me aggressively in front of other customers, yelling at both me and my mother"
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "I was subjected to racial profiling and discrimination by both a store employee and a supervisor. While I was browsing the makeup section, an employee approached me and immediately accused me of stealing, first words to me was “ i saw you stealing empty your pockets”  I cooperated, and the only item",
+        "rating": 1,
+        "reviewer": "Lai",
+        "reasoning": "Customer raised a specific concern (review footage) and it was dismissed.",
+        "quote": "When I asked for the security footage to be reviewed, they refused multiple times"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "I am writing this to provide feedback on my shopping experience in your store in 1980 St Claire Ave W, Toronto, ON M6N 4X9.\n\nToday September 27, 2025, I went to get groceries in this store. Part of my purchase were hot food and one of them is the fried fish fillet which is on sale for $8.99/lb durin",
+        "rating": 1,
+        "reviewer": "Nat Svraka",
+        "reasoning": "Direct complaint about rude tone from a cashier.",
+        "quote": "The cashier was rude"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Abysmal, rude service. Go to T&T instead.  Got an eye roll and sigh so blatant from a young floor employee that I preferred to look myself for the product I couldn’t find. Then, argument from a young cashier wanting to charge me the higher of two price stamps on a to go meal (on the off chance I had",
+        "rating": 1,
+        "reviewer": "Celine R",
+        "reasoning": "Direct complaint about rude staff behavior; eye roll and sigh from employee.",
+        "quote": "Abysmal, rude service"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "snippet": "The worst customer service ever!!! I asked for help and the chinese young co worker who put products on the shelf ignored me. And when I asked him again coz I thought he didn’t hear me he shouted on me and uttered something in his language and ignored me completely. I was shocked but that guy was th",
+        "rating": 1,
+        "reviewer": "Ls L.",
+        "reasoning": "Clear staff rudeness — shouting at customer and ignoring them.",
+        "quote": "he shouted on me and uttered something in his language and ignored me completely"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Ridiculous policies with shopping carts they wanted us to pay a $20 deposit to take our groceries out to our car!!!! Verbally acosted while me and my husband's hands are full with my 4 year old and our bags of groceries. After spending over $200+?? Will never be back again such terribly disappointin",
+        "rating": 1,
+        "reviewer": "Alice X",
+        "reasoning": "Customer reports being verbally accosted by staff over cart deposit policy.",
+        "quote": "Verbally acosted while me and my husband's hands are full"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "The seafood department of this supermarket is getting worse and worse. Not only are the varieties less, but the service attitude is getting worse and worse, especially those old men, they are all indifferent. Sometimes when you call them, they just look at you and then turn around and ignore you. Go",
+        "rating": 1,
+        "reviewer": "Mike",
+        "reasoning": "Complaint about staff attitude — staff ignore customers when called.",
+        "quote": "the service attitude is getting worse and worse"
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "snippet": "The seafood department of this supermarket is getting worse and worse. Not only are the varieties less, but the service attitude is getting worse and worse, especially those old men, they are all indifferent. Sometimes when you call them, they just look at you and then turn around and ignore you. Go",
+        "rating": 1,
+        "reviewer": "Mike",
+        "reasoning": "Customers actively asking for help and being ignored.",
+        "quote": "when you call them, they just look at you and then turn around and ignore you"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Nations Supermarket promoted that if customer spent over $30 will get a deck calendar this week (during Dec 5th to 11th). I spent around $40 on Dec 5th but they said they do not have deck calendar anymore. I told them they should not advertise it because I specially came for it. The customer service",
+        "rating": 1,
+        "reviewer": "Winnie Ng",
+        "reasoning": "Direct complaint about rude tone from customer service staff.",
+        "quote": "The customer service ladies is very rude and not nice at all"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Cashier are rude. If you go shopping at another store they will accuse you of stealing because you have another bag from a different store and will  look through your things! Once they discovered I didn’t have anything in my bag from their store no apology or nothing. They say management said they s",
+        "rating": 1,
+        "reviewer": "M R",
+        "reasoning": "Direct complaint about rude cashier behavior, including invasive bag checks.",
+        "quote": "Cashier are rude"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "if I can I'll give 0,just now I came in to buy some herbs for myself, then when I thru the cashier she ask me to open my bag to see if I hide something didn't pay , lol this is how you treat your customers? Just think about will you like to be treated like this if you go anywhere without any evidenc",
+        "rating": 1,
+        "reviewer": "Pian pian Wang",
+        "reasoning": "Customer expresses indignation at how they were treated by cashier checking their bag without evidence.",
+        "quote": "this is how you treat your customers?"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Be prepared to be accused of stealing if you re-enter to buy a bubble tea.  Absolutely humiliating.  Staff poorly trained.  Will be doing my weekly shop at another market from now on.",
+        "rating": 1,
+        "reviewer": "Kristylea Rogers",
+        "reasoning": "Staff behavior — humiliating accusations of stealing, untrained staff.",
+        "quote": "Be prepared to be accused of stealing if you re-enter to buy a bubble tea.  Absolutely humiliating.  Staff poorly trained."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "It was on 22nd march (saturday). It was duck on sale in BBQ. There were long line for the duck. I was with my kid waiting for the duck .there were almost like 20 customers waiting for the duck. Everybody were standing there . The guy from BBQ was trying to manage all the people like he was serving t",
+        "rating": 1,
+        "reviewer": "Kimberly Phillips",
+        "reasoning": "Manager reportedly spoke rudely to staff in front of customers.",
+        "quote": "she talked very rudely to that guy"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Really bad customer service. We didn’t buy shrimp dumplings and lotus leafs sticky rice. Wasted 20 minutes and didn’t get any apology. The reason was they got the item names messed up, such as input cheese cake as lotus leaf sticky rice. When we said we don’t have those items, they check our video r",
+        "rating": 1,
+        "reviewer": "Qinglan Zheng",
+        "reasoning": "Customer complains about dismissive staff attitude — no apology after a 20-minute mistake.",
+        "quote": "the attitude is unacceptable"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "After Fresh Nations accused me of stealing and asked to see my bag...\nReminder that in Canada, customer service representatives at a retail store generally do not have the legal right to check your bags without your consent, unless they have witnessed a suspected theft; meaning they can ask to searc",
+        "rating": 1,
+        "reviewer": "Melanie Berthelo",
+        "reasoning": "Customer reports being accused of stealing — staff behavior complaint.",
+        "quote": "Fresh Nations accused me of stealing and asked to see my bag"
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "language_barrier",
+        "confidence": 0.7,
+        "snippet": "I was subjected to racial profiling and discrimination by both a store employee and a supervisor. While I was browsing the makeup section, an employee approached me and immediately accused me of stealing, first words to me was “ i saw you stealing empty your pockets”  I cooperated, and the only item",
+        "rating": 1,
+        "reviewer": "Lai",
+        "reasoning": "Explicit mention of language barrier not being accommodated.",
+        "quote": "Despite my mother’s limited English, no effort was made to communicate respectfully"
+      }
+    ]
+  },
+  "ChIJd7vKcArO1IkRAeKIO54OUvU": {
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "snippet": "More than 15 minute wait to sit down at reserved seats.  Sent my samosas to another table 1hr 20mins for food salad and perked chicken were good but not worth the wait",
+        "rating": 1,
+        "reviewer": "Muminah Muhammad",
+        "reasoning": "Waited well past expected time at a reserved seat and for food.",
+        "quote": "More than 15 minute wait to sit down at reserved seats.  Sent my samosas to another table 1hr 20mins for food"
+      },
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "snippet": "2hour wait in store to cash out huge line up in and out of the store. Tellers were terribly slow. Adds up to a terrible experience",
+        "rating": 1,
+        "reviewer": "chad d",
+        "reasoning": "Customer waited two hours in line to check out due to slow tellers.",
+        "quote": "2hour wait in store to cash out huge line up in and out of the store. Tellers were terribly slow"
+      }
+    ]
+  },
+  "ChIJyQEmg680K4gR4mob6qcyZD4": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "I truly wish I could give these people a lower rating. It was been a nightmare dealing with these people. They have no sense of respect towards their clients and their communication skills are worse than 0. I placed an online order and they sent me the wrong size. They have ignored all my efforts of",
+        "rating": 1,
+        "reviewer": "Michael Rector",
+        "reasoning": "Customer actively reached out by email and phone and was never responded to.",
+        "quote": "They have ignored all my efforts of communication, whether it's by email or phone."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Ordered shoes \"in stock\" online. I have been waiting over a week now without a shipping number, contact, or further information. There are better businesses that deserve your money, skip this one.",
+        "rating": 1,
+        "reviewer": "Dexter Dagorne",
+        "reasoning": "Customer is waiting for a response/update from the store and has gotten none.",
+        "quote": "I have been waiting over a week now without a shipping number, contact, or further information."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "Ordered a pair of Jordan 1’s online but order was canceled stating “Order #36497 was canceled because we suspect it is fraudulent and your payment has been voided. Any further order from you will be cancelled automatically” I emailed right after questioning this decision but have received nothing in",
+        "rating": 1,
+        "reviewer": "Matt Brooks",
+        "reasoning": "Customer actively emailed seeking a response and got none.",
+        "quote": "I emailed right after questioning this decision but have received nothing in response"
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "I truly wish I could give these people a lower rating. It was been a nightmare dealing with these people. They have no sense of respect towards their clients and their communication skills are worse than 0. I placed an online order and they sent me the wrong size. They have ignored all my efforts of",
+        "rating": 1,
+        "reviewer": "Michael Rector",
+        "reasoning": "Customer explicitly calls out unclear/absent communication from staff and management.",
+        "quote": "their communication skills are worse than 0"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Worst experience. So this place allows you to place an order online however the delivery within the country takes over 2 weeks. At the time of checkout it marks it as expedited delivery and the confirmation for your order takes 2-3 days which is kinda confusing. When I called to ask what exactly is ",
+        "rating": 1,
+        "reviewer": "Viraj Deshmane",
+        "reasoning": "Phone-staff member used rude tone and blamed the customer.",
+        "quote": "the call was answered by one of the rudest employees ever. He had a tone which makes you feel you’ve made a mistake by ordering from here"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "2nd review I have written in my life but it’s a must. Love the store and have purchased prior but customer service and attitude is unacceptable. This time Yorkville store tell me they don’t have my size and nothing they can do, try and go try and find it online. So I do and it’s at their Markham loc",
+        "rating": 1,
+        "reviewer": "Jay Stiles",
+        "reasoning": "Staff was dismissive with no apology or service-oriented tone at pickup.",
+        "quote": "Day of pick up first words are sign here, not sorry for the trouble, mistake anything. I ask to try them on first before signing with no help or service."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "snippet": "I went to this place today at noon, and the boy in charge was a little wacky.  For one, the entire store was empty and small and you have to ring a door bell of which is even more funny because the guy inside the store is basically staring at you 20 feet away.  He was a very paranoid young man it wa",
+        "rating": 1,
+        "reviewer": "Jonathan Salsbury",
+        "reasoning": "Staff member behaved unprofessionally and argued with the customer rather than serving them.",
+        "quote": "Argued with me a bit about people dying and then I left because he was basically scared out of his mind."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "A poor experience here from a customer service perspective. Bored, disengaged, judgemental staff couldn’t be bothered to help me, my wife or our 3 teenaged lads. Too caught up in a sense of self generated cool. After my son tried on one sneaker and looked for the second shoe the staff asked “ oh, yo",
+        "rating": 1,
+        "reviewer": "Jim Barton",
+        "reasoning": "Describes dismissive, disengaged staff tone toward customers.",
+        "quote": "Bored, disengaged, judgemental staff couldn’t be bothered to help me, my wife or our 3 teenaged lads."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Terrible customer service. Staff is pretentious and disrespectful. Would not recommend to anyone. Absolutely baffling that a store run this way can still operate in Yorkville.... take your business to other places such as livestock.",
+        "rating": 1,
+        "reviewer": "banzaillamas 69",
+        "reasoning": "Direct complaint about disrespectful staff tone.",
+        "quote": "Staff is pretentious and disrespectful."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Really bad customer service here. I like the exclusive content in the store, but the horrible customer service makes me want to avoid this store regardless. They're disengaged, judgemental, apathetic... just to mention a few words to describe the experience.",
+        "rating": 1,
+        "reviewer": "nazaar",
+        "reasoning": "Describes dismissive, judgmental staff demeanor.",
+        "quote": "They're disengaged, judgemental, apathetic"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Yeah this is place is wack. Terrible customer service. The dudes running it are the type of people I would never want to associate with. Will never step foot in this establishment. Avoid at all costs. Don't bother if you can't  speak Cantonese or mandarin. Just sayin",
+        "rating": 1,
+        "reviewer": "Jesse Saldana",
+        "reasoning": "General rude-staff complaint with no specific clarity issue.",
+        "quote": "Terrible customer service."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "the employee in the store was very disengaging and it just feels dead when you walk into the store. Overall, not a good shopping experience.",
+        "rating": 1,
+        "reviewer": "andy yang",
+        "reasoning": "Disengaged staff demeanor; closest match is dismissive front-line behavior.",
+        "quote": "the employee in the store was very disengaging"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "snippet": "I would echo what other commenters here have already said. Staff are a bit disengaged. Customer service could be improved. Please take your money elsewhere.",
+        "rating": 1,
+        "reviewer": "Kristoph Cles Aban",
+        "reasoning": "Disengaged front-line staff complaint.",
+        "quote": "Staff are a bit disengaged."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Staff with bad attitude, don't line up for any shoes, because you'll get nothing, they let a bunch of people jump the line, they're proud of it, it sickens me，don‘t deserve one star",
+        "rating": 1,
+        "reviewer": "Terry Tang",
+        "reasoning": "Direct staff-attitude complaint.",
+        "quote": "Staff with bad attitude"
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "language_barrier",
+        "confidence": 0.6,
+        "snippet": "Yeah this is place is wack. Terrible customer service. The dudes running it are the type of people I would never want to associate with. Will never step foot in this establishment. Avoid at all costs. Don't bother if you can't  speak Cantonese or mandarin. Just sayin",
+        "rating": 1,
+        "reviewer": "Jesse Saldana",
+        "reasoning": "Implies non-Cantonese/Mandarin speakers can't get served.",
+        "quote": "Don't bother if you can't  speak Cantonese or mandarin."
+      }
+    ]
+  },
+  "ChIJ2UQcqXM1K4gRL8fyYvR_dGE": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "this place sucks... staff are apathetic toocoolforschool and security are on a power trip. Security followed my friend and I and down the street to tell us we were suspected of stealing merchandise, brought us back to the basement, harassed us and physically did not allow us to leave the basement fo",
+        "rating": 1,
+        "reviewer": "Emma Flanagan",
+        "reasoning": "Staff and security described as dismissive and abusive in tone.",
+        "quote": "staff are apathetic toocoolforschool and security are on a power trip"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Every single time I've gone in here the employees (not just one, pretty much ALL of them.) have been unbelievably rude and condescending. I asked if I could put a coat I wanted to buy aside while I shopped and the girl got all weird about it. Literally said \"um...I don't like...know if we do that he",
+        "rating": 1,
+        "reviewer": "Bailey Hay Pinto",
+        "reasoning": "Explicit rude/condescending staff tone.",
+        "quote": "the employees (not just one, pretty much ALL of them.) have been unbelievably rude and condescending"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "I’m not sure how this place has so many high ratings. The staff is honestly some of the most rude and unprofessional people I’ve ever met. Just miserable, condescending, and unpleasant. Job doesn’t seem that hard either so not sure what theyre rolling their eyes about so often. Asked the cashier how",
+        "rating": 1,
+        "reviewer": "amanda decarlo",
+        "reasoning": "Explicit rude/unprofessional staff tone.",
+        "quote": "The staff is honestly some of the most rude and unprofessional people I’ve ever met. Just miserable, condescending, and unpleasant."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "The clothes were vintage as expected, so not so bad. But the staff, in particular one of the girls were TRASH (believe was the manager) Yelling and swearing because someone gave me something in a change room, just handed me it. I suggest not to go try on just buy thing you can try on in the store. I",
+        "rating": 1,
+        "reviewer": "Mitch Stadnyk",
+        "reasoning": "Staff yelling/swearing at customer — clearly rude tone.",
+        "quote": "Yelling and swearing because someone gave me something in a change room"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "This place is full of it ! Staff is horrible I use to love going but NEVER Again! Same thing happened with me and my friends with their fake security team ! (RACIAL PROFILING) It has happened to so many people I'm beginning to think it's a regular thing. You can find better at value village...",
+        "rating": 1,
+        "reviewer": "Fallona English",
+        "reasoning": "Direct complaint about staff behavior.",
+        "quote": "Staff is horrible"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Incredibly rude staff. I and other friends have been insulted/made fun of/mocked on more than one occasion. Products are cool but not worth dealing with the workers.",
+        "rating": 1,
+        "reviewer": "Helen Wood",
+        "reasoning": "Explicit rude staff behavior — insulting/mocking customers.",
+        "quote": "Incredibly rude staff. I and other friends have been insulted/made fun of/mocked on more than one occasion."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Prices are ok. But staff are terrible. Have been there several times ,  each time the staff gave me long face  when I tried to ask something. Just like other people said ., they don't know what customer service is.",
+        "rating": 1,
+        "reviewer": "Iris L",
+        "reasoning": "Staff response to customer questions described as cold/rude.",
+        "quote": "the staff gave me long face  when I tried to ask something"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "really wish i could say better things about this place. customer service is always horrendous, no one knows how to smile. very unwelcoming :(",
+        "rating": 1,
+        "reviewer": "des shivtahal",
+        "reasoning": "Unwelcoming, unfriendly staff demeanor.",
+        "quote": "customer service is always horrendous, no one knows how to smile. very unwelcoming"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "Be careful with unticketed items here. They will tell you a price when you're trying them on and then charge you more at the register without so much as a mention. They're also handing out coupons at the door but they've jacked up most of the prices.",
+        "rating": 1,
+        "reviewer": "Frankie Davis",
+        "reasoning": "Quoted one price, charged a higher one at register — classic surprise billing.",
+        "quote": "They will tell you a price when you're trying them on and then charge you more at the register without so much as a mention."
+      }
+    ]
+  },
+  "ChIJ76VExmAxK4gRwc3j_T0iHNM": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "NYC Footwear clothing, Timberland, is a big scam! Be warned!!! Stay away!! And I have the pictures and story to prove it. Grab your popcorn, ladies and gentlemen. Recently, I went in and bought a red/black winter jacket for around a 70-dollar deal. Not even a week goes by, and the jacket started to ",
+        "rating": 1,
+        "reviewer": "H M",
+        "reasoning": "Customer describes the employee's behavior during the exchange attempt as rude and unprofessional.",
+        "quote": "how rude and unprofessional"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "wayy too over priced for a cheap shop in a flea market that's next to fake gold and fake perfume shops . items are priced as if they're at a gucci store . This is more like a hobby . the sales people are just horrible at their job, hope they aren't training anyone else . prices go higher once you're",
+        "rating": 1,
+        "reviewer": "luffy dms",
+        "reasoning": "Customer describes salespeople behavior as disrespectful (\"pere disrespect and scummy\") indicating rude staff conduct.",
+        "quote": "the sales people are just horrible at their job"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "I literally hate this store & can't wait for them to close down or move away so they can add a new store here that's actually worth shopping in. My husband buys tshirts here for work because they're only $5 and their just for work. However many other items here we've seen are either knock off name b",
+        "rating": 1,
+        "reviewer": "Shyanne",
+        "reasoning": "Direct description of staff being rude and disrespectful.",
+        "quote": "they're very pushy, disrespectful & rude"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Caveat Emptor - Buyers Beware.\nApart from poor customer service from the guy handling the shoes section,He's unfriendly,arrogant, abusive and aggressive. The footwear are pricey and are not really on sale.They are not worth the stress, you will get a better deal online from the same company\nBut the ",
+        "rating": 1,
+        "reviewer": "Monsur LAW",
+        "reasoning": "Direct description of staff member's rude, abusive tone.",
+        "quote": "He's unfriendly,arrogant, abusive and aggressive"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "snippet": "if there was zero star instead of 1 , i would put that one. I bought shoes and then i wanted to change the  color for my kid and they did not have the colour and asked me to come 3 days later. i came 3 days later and they said come after 3 more days and like this it took almost 1 month and their beh",
+        "rating": 1,
+        "reviewer": "Wais Captain",
+        "reasoning": "Customer describes staff behavior as poor during repeated visits.",
+        "quote": "their beheavior with me was not really good"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Bunch of scammers and liers. No respect for customers. Litteraly fighting with everyone. Buyers beware and buy from reputed stores. Most of the items are not authentic or B-Grade. The sales representative talk non sense and keep you busy with useless conversation. Will force you to buy the stuff and",
+        "rating": 1,
+        "reviewer": "Usman Arshad",
+        "reasoning": "Staff insulting customers describes rude/abusive front-of-house behavior.",
+        "quote": "they will start to argue and insult"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "The very first time I went to this store the man who is the cashier was very rude and very disrespectful by calling me sexy and by calling me baby,I am a man and to each person his own way of life,but it's very inappropriate for whether a male or female to enter a store and be attacked in such a way",
+        "rating": 1,
+        "reviewer": "Delando",
+        "reasoning": "Direct description of cashier behaving inappropriately and rudely.",
+        "quote": "the cashier was very rude and very disrespectful by calling me sexy and by calling me baby"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "NYC Footwear clothing, Timberland, is a big scam! Be warned!!! Stay away!! And I have the pictures and story to prove it. Grab your popcorn, ladies and gentlemen. Recently, I went in and bought a red/black winter jacket for around a 70-dollar deal. Not even a week goes by, and the jacket started to ",
+        "rating": 1,
+        "reviewer": "H M",
+        "reasoning": "Customer was told someone would follow up on their complaint and expects no callback, indicating the practice's failure to respond to a customer-initiated request.",
+        "quote": "email my complaint and someone will get back to me (probably NEVER!)"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "I went today with my son and from trying on the shoes the price went from $200 to the cash register, the price went up to $250 and said he was taking the tax off (we are tax exempt). We let it go this time but won't be shopping there again. (Last time we spent over $500). Very dishonest.",
+        "rating": 1,
+        "reviewer": "D. Julie Stiles",
+        "reasoning": "Quoted one price but charged a higher price at checkout — classic quoted X, billed Y surprise billing.",
+        "quote": "the price went from $200 to the cash register, the price went up to $250"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "snippet": "wayy too over priced for a cheap shop in a flea market that's next to fake gold and fake perfume shops . items are priced as if they're at a gucci store . This is more like a hobby . the sales people are just horrible at their job, hope they aren't training anyone else . prices go higher once you're",
+        "rating": 1,
+        "reviewer": "luffy dms",
+        "reasoning": "Prices change between browsing and checkout — quoted-then-charged-different surprise pricing.",
+        "quote": "prices go higher once you're ready to buy something"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "Scammers don’t go to this place Advertise price On flyers $99 and went I paid the price go for 99 to $149 I call the other store on front off the owner and the price is $99 don’t go to this store",
+        "rating": 1,
+        "reviewer": "Camilo Saavedra",
+        "reasoning": "Advertised price differed from amount charged — quoted X, billed Y surprise billing.",
+        "quote": "Advertise price On flyers $99 and went I paid the price go for 99 to $149"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "snippet": "This is the worst place to shop. They well draw you in with promises that they can not keep about their clothes, such as they well give you a sweater for $30 but you end paying $50. All of their shoes are fake. When you look into the Rosher's that they have, there is no sole, as there should be. The",
+        "rating": 1,
+        "reviewer": "S Stevens",
+        "reasoning": "Quoted one price, charged a higher price — surprise billing pattern.",
+        "quote": "they well give you a sweater for $30 but you end paying $50"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "snippet": "Horrible customer service\nThe only reason for 1 star is because they do have genuine timberland shoes but their customer service and after sales service is horrendous\nI bought a shoe the other day for a $150 and on the same day he showed me a shoe for $100 as he said that if u want a size 9 its only",
+        "rating": 1,
+        "reviewer": "yasar arfat",
+        "reasoning": "Customer was told one price for a shoe, then on return the same price was no longer honored — inconsistent/changed pricing.",
+        "quote": "he said its $150 its not for $100"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "snippet": "My husband was told 20 something for 1 pants, but at cash register I got charge 35 something. Just scamming us\nI don't recommend 👎",
+        "rating": 1,
+        "reviewer": "Ruby Poker",
+        "reasoning": "Quoted one price, charged a higher one at register — clear surprise billing.",
+        "quote": "My husband was told 20 something for 1 pants, but at cash register I got charge 35 something"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "The very first time I went to this store the man who is the cashier was very rude and very disrespectful by calling me sexy and by calling me baby,I am a man and to each person his own way of life,but it's very inappropriate for whether a male or female to enter a store and be attacked in such a way",
+        "rating": 1,
+        "reviewer": "Delando",
+        "reasoning": "Customer was overcharged at the register — unexpected charge / surprise billing.",
+        "quote": "realized that he over charged me $15.00 extra"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "snippet": "Beware!!\n\nThey said the price of the raptors Cap is 29.00$ when I pay it they said its 39 plus tax so they asked me to pay 45$\n\nI can’t say no cause these 2 guys there look so intimidating so I just get the cap and go. I look to their price tag and i saw they erase it\n\nIdk if the cap is original\n\nI ",
+        "rating": 1,
+        "reviewer": "Pch Lax",
+        "reasoning": "Quoted price differs from amount charged — surprise billing.",
+        "quote": "They said the price of the raptors Cap is 29.00$ when I pay it they said its 39 plus tax so they asked me to pay 45$"
+      }
+    ]
+  },
+  "ChIJAQBAFtIzK4gRunuk7aXRqag": {
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "snippet": "If I could give them 0 stars I would but unfortunately have to give them 1 star. Very rude and dismissive. I had to wait for at least 10 minutes to be served as staff were gathered inside cash area chatting and laughing. Prices are extremely high and lots of clothing is very used with stains and hol",
+        "rating": 1,
+        "reviewer": "David",
+        "reasoning": "Customer waited to be served while staff socialized — operational waiting/inattention pattern.",
+        "quote": "I had to wait for at least 10 minutes to be served as staff were gathered inside cash area chatting and laughing"
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "If I could give them 0 stars I would but unfortunately have to give them 1 star. Very rude and dismissive. I had to wait for at least 10 minutes to be served as staff were gathered inside cash area chatting and laughing. Prices are extremely high and lots of clothing is very used with stains and hol",
+        "rating": 1,
+        "reviewer": "David",
+        "reasoning": "Direct description of staff being rude and dismissive.",
+        "quote": "Very rude and dismissive"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "It's definitely fallen off. The staff are really over invested emotionally in their jobs . I've been a customer for years I go 4 times a week. The employees are pure drama towards regular customers.\nThe employees get first crack all the merchandise that comes in so anything really good never sees th",
+        "rating": 1,
+        "reviewer": "jo jo",
+        "reasoning": "Description of unprofessional, dramatic staff behavior toward customers.",
+        "quote": "The employees are pure drama towards regular customers"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Some of the items are nice here. However, be prepared to pay a huge amount of money for well used clothing. I saw leather jackets that had a lot of wear priced so high! For these prices I am able to go into a store and buy brand new brand name items on sale for much cheaper. You're better off purcha",
+        "rating": 1,
+        "reviewer": "Frishta Rahshani",
+        "reasoning": "Staff ignoring customers and behaving unprofessionally — front-of-house rudeness/dismissiveness.",
+        "quote": "The staff are always clustered together talking to each other and laughing, ignoring customers"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "I felt compelled to write this review as I’ve seen 5 months ago a similar experience was had by Toronto Thifts! Look I have been also coming to this place when it was just a little secret and honestly I’m not sure what’s happened! Today’s experience truly has left me realizing a trip downtown to fas",
+        "rating": 1,
+        "reviewer": "Missy Promo",
+        "reasoning": "Customer cites poor customer service from staff, consistent with broader complaints in the review.",
+        "quote": "sub-par customer service"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "BUYER BEWARE! My mom went to check out this store. She picked up a jacket tagged $34.99. At checkout, the salesperson SOPHIA took the jacket, ripped off the tag and charged the price as $40 rather than $34.99. When my mom noticed the discrepancy on the bill, the store people tried to confuse her and",
+        "rating": 1,
+        "reviewer": "Neelum S",
+        "reasoning": "Direct complaint about staff being dismissive and rude in tone.",
+        "quote": "led their staff to be dismissive and talk rudely to my mom"
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "BUYER BEWARE! My mom went to check out this store. She picked up a jacket tagged $34.99. At checkout, the salesperson SOPHIA took the jacket, ripped off the tag and charged the price as $40 rather than $34.99. When my mom noticed the discrepancy on the bill, the store people tried to confuse her and",
+        "rating": 1,
+        "reviewer": "Neelum S",
+        "reasoning": "Customer raised a specific concern about overcharging and was dismissed/invalidated.",
+        "quote": "the store people tried to confuse her and say it’s taxes and basically tried to invalidate what she was saying"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Good music playing, doesn’t smell bad and pretty well kept store. The merchandise is WELL used for their high prices and one lady in particular a pretty long blonde haired lady was passive aggressive and dismissive. May have been a one off but won’t be back",
+        "rating": 1,
+        "reviewer": "Kiera Nicole-Shai",
+        "reasoning": "Specific complaint about staff being passive aggressive and dismissive in tone.",
+        "quote": "one lady in particular a pretty long blonde haired lady was passive aggressive and dismissive"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "to make it clear, this is my first time dealing with this business, i have no prejudice towards them and was actually looking forwards to shopping with them until this experience.\nextremely unprofessional business, does just about everything except actually interact with the customer online\nplaced a",
+        "rating": 1,
+        "reviewer": "Sourav Sareen",
+        "reasoning": "Order status communication is unclear/contradictory — promised shipping/tracking info not provided.",
+        "quote": "i still have NOT received the tracking number when the package was supposed to be sent out yesterday"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Not gonna lie.. a little disappointed by the service I received. I have been shopping here since before it got really popular and was always met with solid customer service/communication. A few days ago when reopening was announced, I had inquired about a piece they posted for their opening friday (",
+        "rating": 1,
+        "reviewer": "Toronto thrifts",
+        "reasoning": "Staff communication was unhelpful/unclear — sales rep punted instead of providing information.",
+        "quote": "a simple hold or asking another associate to check would have made the interaction a lot more efficient"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Just attended their sale event today to pick up a specific item they were advertising on social media. I had travelled over an hour to get to this event. Unfortunately I did not end up finding the item I was looking for and left the store. It was not possible for someone else to pick it up before me",
+        "rating": 1,
+        "reviewer": "Sin Tharan",
+        "reasoning": "Staff gave contradictory information about where to find an item.",
+        "quote": "Each employee would just point me in a different direction from the previous"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "I am very disappointed by this store. Not only material wise but by their \"customer service\". They post items to their Instagram page when the store is not open and tell people to contact them on their Facebook page. I posted on Instagram AND contacted them via Facebook minutes after the item was po",
+        "rating": 1,
+        "reviewer": "Monique V",
+        "reasoning": "No clear explanation given for how item was sold/allocated; customer left without understanding.",
+        "quote": "No other explanation but the gentleman came in to the item marked as sold. How?"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "snippet": "BUYER BEWARE! My mom went to check out this store. She picked up a jacket tagged $34.99. At checkout, the salesperson SOPHIA took the jacket, ripped off the tag and charged the price as $40 rather than $34.99. When my mom noticed the discrepancy on the bill, the store people tried to confuse her and",
+        "rating": 1,
+        "reviewer": "Neelum S",
+        "reasoning": "Item was tagged at one price but charged at a higher price at checkout — quoted X, billed Y.",
+        "quote": "the salesperson SOPHIA took the jacket, ripped off the tag and charged the price as $40 rather than $34.99"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "snippet": "to make it clear, this is my first time dealing with this business, i have no prejudice towards them and was actually looking forwards to shopping with them until this experience.\nextremely unprofessional business, does just about everything except actually interact with the customer online\nplaced a",
+        "rating": 1,
+        "reviewer": "Sourav Sareen",
+        "reasoning": "Customer actively trying to get information (tracking) and not receiving response.",
+        "quote": "does just about everything except actually interact with the customer online"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "Not gonna lie.. a little disappointed by the service I received. I have been shopping here since before it got really popular and was always met with solid customer service/communication. A few days ago when reopening was announced, I had inquired about a piece they posted for their opening friday (",
+        "rating": 1,
+        "reviewer": "Toronto thrifts",
+        "reasoning": "Customer actively inquired about a specific item and never received a response despite multiple attempts.",
+        "quote": "i told her i had and it has been a few days without response and i was told \"i cant help you - sorry\""
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.4,
+        "snippet": "Not gonna lie.. a little disappointed by the service I received. I have been shopping here since before it got really popular and was always met with solid customer service/communication. A few days ago when reopening was announced, I had inquired about a piece they posted for their opening friday (",
+        "rating": 1,
+        "reviewer": "Toronto thrifts",
+        "reasoning": "Customer inquiry via DM went unanswered — closest taxonomy match is unanswered messages.",
+        "quote": "i had inquired about a piece they posted for their opening friday (today) via dm.. no response"
+      },
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "snippet": "I am very disappointed by this store. Not only material wise but by their \"customer service\". They post items to their Instagram page when the store is not open and tell people to contact them on their Facebook page. I posted on Instagram AND contacted them via Facebook minutes after the item was po",
+        "rating": 1,
+        "reviewer": "Monique V",
+        "reasoning": "No voicemail option available when calling — phone coverage gap.",
+        "quote": "Upon contacting the store, there is no voice-mail set up"
+      }
+    ]
+  },
+  "ChIJO29Z4NA3K4gRis66fh9WSno": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "snippet": "I recently visited ‘Brands and Bins Gone Wild’ and unfortunately had a disappointing experience. While the store had some interesting items, they listed one price on the shelf but tried to charge me double at the cashier. They did not honor the listed prices, which was quite frustrating. Additionall",
+        "rating": 1,
+        "reviewer": "m o",
+        "reasoning": "Quoted X (shelf price), billed Y (double at cashier) — classic surprise billing.",
+        "quote": "they listed one price on the shelf but tried to charge me double at the cashier"
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "Merchandise are incorrectly priced and they over charge you. When we called them on it. They did not refund the tax and when we called them on that as well. They cannot even compute simple math. What kind of business practices do you run? Hiring uneducated, ill mannered employees who can not do even",
+        "rating": 1,
+        "reviewer": "P R",
+        "reasoning": "Items priced one way but customer is overcharged — surprise billing pattern.",
+        "quote": "Merchandise are incorrectly priced and they over charge you"
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "I went to the store on queensway at 7:50 pm the man at the check out says we’re closed I did hear him and said  pardon without looking at me yelled we’re closed . Very rude and disrespectful",
+        "rating": 1,
+        "reviewer": "Grant Paton",
+        "reasoning": "Direct complaint about rude/disrespectful tone from checkout staff.",
+        "quote": "without looking at me yelled we’re closed . Very rude and disrespectful"
+      }
+    ]
+  },
+  "ChIJ1WDEXqQ0K4gR-Zb-Kx_t7-U": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "The rudest staff and the most uncomfortable, eery shopping experience I have ever had in a store that is supposedly marketed as higher end. When I went there was about 3 customers in the store, and probably a swarm of 10 employees, none of them tending to any customers other than standing in small c",
+        "rating": 1,
+        "reviewer": "Olga H",
+        "reasoning": "Direct complaint about rude staff tone and unprofessional behavior.",
+        "quote": "The rudest staff and the most uncomfortable, eery shopping experience I have ever had"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Had the worst customer experience here today. It’s upsetting to see so many reviews describing the same treatment from the asian woman with black glasses (her name is Kim) - showing this has been an ongoing issue that management has failed to address. I have never left a review before, but her behav",
+        "rating": 1,
+        "reviewer": "AB",
+        "reasoning": "Extended account of rude, condescending staff behavior.",
+        "quote": "Kim's behavior is truly unprofessional, condescending"
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "snippet": "Had the worst customer experience here today. It’s upsetting to see so many reviews describing the same treatment from the asian woman with black glasses (her name is Kim) - showing this has been an ongoing issue that management has failed to address. I have never left a review before, but her behav",
+        "rating": 1,
+        "reviewer": "AB",
+        "reasoning": "Customer's specific size choice was dismissed and ignored by staff.",
+        "quote": "she took them out of my hands, insisting they would be “WAY too small” for me"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Avoid this store at all costs, unless you want to have your financial situation questioned and your body be judged and shamed relentlessly while you are trying to spend money in said store. Kim (Asian woman with black glasses) delivered the worst customer experience of my life, and after leaving and",
+        "rating": 1,
+        "reviewer": "Isabelle Callaghan",
+        "reasoning": "Direct complaint about staff dismissive/abusive tone.",
+        "quote": "your body be judged and shamed relentlessly"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Been asked how far long I am every time I come in, even I am not pregnant. This store will be on the ban life for life. Hint: the sales person is Asian with black glasses. Don’t walk in if you are in perimenopause and not having the model body type.",
+        "rating": 1,
+        "reviewer": "Wai Sze",
+        "reasoning": "Inappropriate, dismissive comments from sales staff.",
+        "quote": "Been asked how far long I am every time I come in, even I am not pregnant"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "I am in shock of how they hire and train staff. The woman who handled my purchase yesterday had a very bad attitude and did not provide good service. I asked to check if there was a new piece of clothing available as the one I had was dirty by the collar. When I was told it was the last one I said o",
+        "rating": 1,
+        "reviewer": "Lola Zhang",
+        "reasoning": "Rude tone from staff during purchase.",
+        "quote": "I couldn’t believe how rude she was"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "DO NOT ORDER FROM TNT ONLINE . Unacceptable return policy and process  for a luxury brand seller wouldn’t provide an appropriate refund if their life depended on it . Don’t expect one without jumping through hoops and some snotty service people - even is the issue is product related and not anything",
+        "rating": 1,
+        "reviewer": "Ren Blain",
+        "reasoning": "Dismissive/rude tone from service staff.",
+        "quote": "snotty service people"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "do your research before shopping here. staff will say anything to close a sale. was convinced to buy a pair of autry sneakers for $350...\"they're huge in europe. this brand is gonna break the US market any day now\" (turns out, it's a US brand). got them home and discovered that the EXACT same pair/m",
+        "rating": 1,
+        "reviewer": "Justin Paulson",
+        "reasoning": "Staff gave misleading/false information about the product to make a sale.",
+        "quote": "staff will say anything to close a sale"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "It’s wild that someone else had a bad experience with the Asian woman in the black glasses — she was so rude to me just because I told her the item she picked out for me was out of my price range.",
+        "rating": 1,
+        "reviewer": "Kimberly Jens",
+        "reasoning": "Direct complaint about rude staff.",
+        "quote": "she was so rude to me"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "The most condescending, rude and unfriendly customer service staff I’ve ever encountered in a luxury boutique. The store has unique brands that you can’t easily find in Canada but unfortunately staff behaviour is repulsive that it’s not even worth it to shop there.",
+        "rating": 1,
+        "reviewer": "D A",
+        "reasoning": "Direct complaint about rude staff tone.",
+        "quote": "The most condescending, rude and unfriendly customer service staff I’ve ever encountered"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "I’m a regular shopper at TNT until now. There was a particular staff member who showed me hostility when I asked for a pair of shoes in my size. She spoke in a rude manner which I ignored. Then when she did bring them out she literally TOSSED the shoe box at me and proceeded to check on another cust",
+        "rating": 1,
+        "reviewer": "Lena K",
+        "reasoning": "Rude tone and dismissive treatment from staff.",
+        "quote": "She spoke in a rude manner"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Rude staff, there are never any sizes in stock and draconian return policy, especially in covid times. 7 days only for return or exchange. They size up everyone coming into the store and those that don't fit the thin, blonde and designer clad image are seldom offered help. Always tension between sta",
+        "rating": 1,
+        "reviewer": "Ana Aslan",
+        "reasoning": "Direct complaint about rude staff.",
+        "quote": "Rude staff"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Rudest staff, do not spend your money here.",
+        "rating": 1,
+        "reviewer": "L G",
+        "reasoning": "Direct complaint about rude staff.",
+        "quote": "Rudest staff"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Useless company with rude staff. Called after they had closed and they answered. When I posed a question brusquely told me they were closed and advised I call back tomorrow. Why answer your phone if you are not going to be helpful???",
+        "rating": 1,
+        "reviewer": "Braden McDonald",
+        "reasoning": "Rude/dismissive phone tone from staff.",
+        "quote": "brusquely told me they were closed"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "If I could give a 0, I would. Condescending staff.",
+        "rating": 1,
+        "reviewer": "Marjo Laine",
+        "reasoning": "Direct complaint about condescending staff tone.",
+        "quote": "Condescending staff"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "the assistants in this store are miserable.",
+        "rating": 1,
+        "reviewer": "R M",
+        "reasoning": "Complaint about staff demeanor/attitude.",
+        "quote": "the assistants in this store are miserable"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "I visited this store yesterday and had a disappointing experience with one of the sales associates. I came in because I saw a jacket on a mannequin that I really liked. When I asked about it, I was told the only XS available was the one on display. The associate who had dressed the mannequin abruptl",
+        "rating": 2,
+        "reviewer": "Sammy R",
+        "reasoning": "Direct complaint about rude/reluctant staff behavior.",
+        "quote": "The reluctance and rudeness from the first associate wasted everyone’s time"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "If no star is an option, I would give it to TNT.  I placed an online order successfully.  A week has gone by and I decided to send an email to follow up as there is no response from TNT.  Within half an hour, someone from TNT sent a return email advising the item is unavailable.  This is an unaccept",
+        "rating": 1,
+        "reviewer": "Fuji Sushi",
+        "reasoning": "Customer placed order and had to chase for a week with no proactive update.",
+        "quote": "A week has gone by and I decided to send an email to follow up as there is no response from TNT"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "DO NOT ORDER FROM TNT ONLINE . Unacceptable return policy and process  for a luxury brand seller wouldn’t provide an appropriate refund if their life depended on it . Don’t expect one without jumping through hoops and some snotty service people - even is the issue is product related and not anything",
+        "rating": 1,
+        "reviewer": "Ren Blain",
+        "reasoning": "Customer requested information and got no response.",
+        "quote": "couldn’t get a response by email or phone to get a shipping label"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "payment_issues",
+        "confidence": 0.8,
+        "snippet": "If no star is an option, I would give it to TNT.  I placed an online order successfully.  A week has gone by and I decided to send an email to follow up as there is no response from TNT.  Within half an hour, someone from TNT sent a return email advising the item is unavailable.  This is an unaccept",
+        "rating": 1,
+        "reviewer": "Fuji Sushi",
+        "reasoning": "Refund delay for undeliverable item.",
+        "quote": "Why are you keeping my money for something that you cannot deliver?"
+      },
+      {
+        "sub": "payment_issues",
+        "confidence": 0.85,
+        "snippet": "DO NOT ORDER FROM TNT ONLINE . Unacceptable return policy and process  for a luxury brand seller wouldn’t provide an appropriate refund if their life depended on it . Don’t expect one without jumping through hoops and some snotty service people - even is the issue is product related and not anything",
+        "rating": 1,
+        "reviewer": "Ren Blain",
+        "reasoning": "Refund process problems described in detail.",
+        "quote": "wouldn’t provide an appropriate refund if their life depended on it"
+      }
+    ]
+  },
+  "ChIJ3YPuN8I0K4gRCxMsRnJmfks": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "came into the store today and honestly there are some nice things. unfortunately, i heard senior staff on shift berating a young lady behind the cash. against my better judgment i lingered longer in the store and realized the “mistake” that was made was over 10 cents, which continued to be ridiculed",
+        "rating": 1,
+        "reviewer": "George Hunter",
+        "reasoning": "Unprofessional staff behavior witnessed by customer.",
+        "quote": "i heard senior staff on shift berating a young lady behind the cash"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Just a few days ago, I visited to buy a t shirt. There was no price tag on the merchandise\n. Well called the desk clerk to give an optimal price for the item. The items of that kind are listed in the range of $25-28 dollars.  The guy called on some girl representative who was obnoxiously rude, unpro",
+        "rating": 1,
+        "reviewer": "shobhit prabhakar",
+        "reasoning": "Direct complaint about rude unprofessional staff.",
+        "quote": "obnoxiously rude, unprofessional, and lacking in customer dealing and empathy"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Terrible staff. Clothes are rotting.  Music is to load for my shopping needs.",
+        "rating": 1,
+        "reviewer": "Geoffrey Bercarich",
+        "reasoning": "Generic complaint about staff demeanor.",
+        "quote": "Terrible staff"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "snippet": "Imagine going shopping, spending 185$ and being told that even though it was their mistake to not apply a student discount, refusing to refund the difference, refusing to give cash and only allowing me to “pick out my own item for 20$.“…anything in this store was at least 40$, and regardless i purch",
+        "rating": 1,
+        "reviewer": "Max Riemschneider",
+        "reasoning": "Discount not applied as promised; refund refused.",
+        "quote": "even though it was their mistake to not apply a student discount, refusing to refund the difference"
+      }
+    ]
+  },
+  "ChIJ5Rmlb6U0K4gRzFRnkBqXzjg": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.78,
+        "snippet": "I used to love this store and would always come here for jeans and other clothes. I even know the owner! But after my recent visit, I’m really disappointed. When I walked in, there was a girl at the front, seemingly glued to her phone. I asked for help, and she told me to go to the back of the store",
+        "rating": 1,
+        "reviewer": "Sarah Cohen",
+        "reasoning": "Customer asked for help, was repeatedly brushed off by staff on her phone; concern was dismissed.",
+        "quote": "the whole experience felt dismissive and totally ignored"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.82,
+        "snippet": "Service is a mess. No one knows the return or exchange policy for in store and online. Apparently if you buy something online, then you can only do an online store credit. But if you buy something in store, then you have to stick with in store only. I used to like going here to buy jeans, but it’s n",
+        "rating": 1,
+        "reviewer": "C C",
+        "reasoning": "Staff give unclear/contradictory information about return policy across channels.",
+        "quote": "No one knows the return or exchange policy for in store and online"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Rude employees. Literally every single one. No, none of them spoke to me or acknowledged me in any way, but I got a lot of eye rolls and snarky looks/stares. Asked the cashier if a necklace would tarnish and she couldn't have seemed any more annoyed that I made her use her words. I was baffled with ",
+        "rating": 1,
+        "reviewer": "DMP219",
+        "reasoning": "Direct complaint about rude/dismissive staff tone, including the cashier acting annoyed.",
+        "quote": "Rude employees. Literally every single one."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Extremely poor customer service, which explains why this family owned store has only one location that is constantly empty.\n\nMy girlfriend came to the store today to browse around, as she has never been to this store before, despite living close by. During her entire visit at the store, she was cons",
+        "rating": 1,
+        "reviewer": "yu john",
+        "reasoning": "Cashier and other staff exhibited cold, dismissive behavior toward the customer.",
+        "quote": "met with the same stone cold customer service while she was at the cashier"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "Extremely poor customer service, which explains why this family owned store has only one location that is constantly empty.\n\nMy girlfriend came to the store today to browse around, as she has never been to this store before, despite living close by. During her entire visit at the store, she was cons",
+        "rating": 1,
+        "reviewer": "yu john",
+        "reasoning": "No-refund store policy was never communicated at point of purchase.",
+        "quote": "this store policy was not mentioned to her at all during the initial purchase"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "I've shopped here over 20 years and I'm going to stop. You can find the same merchandise elsewhere with much better service. Customer service here is always spectacularly haughty, rude if they're not ignoring you half the time. I don't need to be treated dismissively or so rudely.. Your stuff is ove",
+        "rating": 1,
+        "reviewer": "Ruba",
+        "reasoning": "Long-time customer cites repeated rude/dismissive staff tone as reason for leaving.",
+        "quote": "Customer service here is always spectacularly haughty, rude if they're not ignoring you half the time"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.82,
+        "snippet": "Extremely poor customer service came by from the suburbs to get my jeans hemmed with chain stitching and i was told they only do this for denim purchased at the store even though I called ahead to confirm. Their website also says that hemming is complementary for purchases made in store and then the",
+        "rating": 1,
+        "reviewer": "Fayyaz Hemani",
+        "reasoning": "Customer received contradictory info: phone confirmation and website said one thing, in-store staff another.",
+        "quote": "i was told they only do this for denim purchased at the store even though I called ahead to confirm"
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.82,
+        "snippet": "We had a terrible experience at Rainbow last week. Sad to see such bad management ruin this shop because the floor staff are so knowledgable and friendly and have always had a good experience prior to this \"encounter\"\n\nMore details below:\n\nMy wife wanted to try on a smaller size of some jeans she ha",
+        "rating": 1,
+        "reviewer": "Maryam F",
+        "reasoning": "Manager refused to listen to the customer's explanation about the jeans before accusing her.",
+        "quote": "without even properly presenting herself or listening to my wife (the customer)"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "Good selections for jeans but THE WORST CUSTOMER SERVICE.  People like me pays a lot of money to buy certain jeans but to be treated in a rude way is UNACCEPTABLE.  I wonder how these people end up getting their jobs??? Being a customer service require an outstanding skills amongst customer... ladie",
+        "rating": 1,
+        "reviewer": "BLOODYBOY velociraptor timmy",
+        "reasoning": "Direct complaint about rude staff tone toward paying customers.",
+        "quote": "ladies that work here specially are rude!!"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "What RUDE Management. I purchased a pair of jeans, and about 2 weeks in noticed there was missing stitching. I didn't bring them back right away but rather a month later. they were not helpful. Said they were going to Fix them but all they did was ship them back to me with the hole still there. WORS",
+        "rating": 1,
+        "reviewer": "Faith Bachlow",
+        "reasoning": "Customer explicitly calls out rude management behavior.",
+        "quote": "What RUDE Management"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Decent selection of jeans and cloths BUT absolutely terrible customer service. These idiots can't even organize their products and expect customers to pay double that of what they were expecting. Disgrace for a yorkville store.",
+        "rating": 1,
+        "reviewer": "Pritom Paul",
+        "reasoning": "General complaint about poor customer service tone at the store.",
+        "quote": "absolutely terrible customer service"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "The staff is really unbelievable. They used to be so friendly and helpful too!\n\nEdit: visited again and couldn't get anyone to help. Just a bunch of staff gossiping at the counter 😭",
+        "rating": 1,
+        "reviewer": "S Yeung",
+        "reasoning": "Staff ignored customer in favor of gossiping; dismissive front-of-house behavior.",
+        "quote": "couldn't get anyone to help. Just a bunch of staff gossiping at the counter"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "I ordered a pair of jeans that were on sale online twice in 9 days. Both orders were cancelled \"as we did not have enough stock to fulfill your order\". Immediately after my second order was cancelled, I saw that they had the same jeans listed on their site at full price, with both sizes I had ordere",
+        "rating": 1,
+        "reviewer": "Beth Thompson",
+        "reasoning": "Customer actively reached out about a pricing issue and never got a reply.",
+        "quote": "I emailed Daniel, and never received any response"
+      }
+    ]
+  },
+  "ChIJXTyrE9s0K4gRs3_tyeeA6LA": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "I’d like to warn potential customers: please think twice before buying Greg Lauren clothing. I recently purchased a pair of Men’s Khaki 34 GL Cargo Pants for $1,200, and the experience has been nothing short of frustrating and disappointing.\n\nAfter owning these pants for only two months, I tore them",
+        "rating": 1,
+        "reviewer": "KWABENA YEBOAH",
+        "reasoning": "Customer raised specific concerns to customer service and was dismissed/ignored.",
+        "quote": "when I contacted customer service to address my concerns, they were dismissive and offered no meaningful support. This whole experience has left me feeling unheard"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "snippet": "Honestly, this was one of the worst shopping experiences of my entire life. The employees were extremely rude and treated me horribly. They made snarky comments about how I didn't need a new coat and much more. When I returned with a bunch of friends, since I now had a huge store credit, the sales a",
+        "rating": 1,
+        "reviewer": "Anne Cran",
+        "reasoning": "Explicit rude/dismissive tone from staff, including snarky comments and walking away.",
+        "quote": "The employees were extremely rude and treated me horribly. They made snarky comments"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "I will NEVER SHOP HERE AGAIN!!!!  This store would not give me a refund.  Any other store would have given me a refund or purchased the coat I wanted in the bigger size. I couldn't believe the snarky comments coming out of the employees mouths. My friends were flabbergasted at the attitude the emplo",
+        "rating": 1,
+        "reviewer": "Fred Shat",
+        "reasoning": "Snarky/rude staff behavior described explicitly.",
+        "quote": "I couldn't believe the snarky comments coming out of the employees mouths."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "I don't recommend anyone to shop here. By far the worst customer service I have ever received. They are inconsiderate, don't do their job properly, and overall they don't care about their clients. I am truly shocked from the experience I have received from these people.",
+        "rating": 1,
+        "reviewer": "Diala Ghadie",
+        "reasoning": "Generic but explicit complaint about inconsiderate, uncaring frontline service.",
+        "quote": "By far the worst customer service I have ever received. They are inconsiderate, don't do their job properly, and overall they don't care about their clients."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "I bought Canada goose there, the selection is limited. What’s more, the staff there is not kind at all. A Japanese girl, with short hair, when I asked her to help find some sizes or ask some questions, she was like super impatient and showed me a poker face??!!! I don’t understand how she was hired ",
+        "rating": 1,
+        "reviewer": "Xinyi Zhou",
+        "reasoning": "Sales staff rude/impatient when customer asked for help.",
+        "quote": "she was like super impatient and showed me a poker face"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Expensive, the staff were talking, chatting, and laughing while they were helping us, and I didn’t feel the experience. Other than that, we were told that there was no tax by a close friend, however when we got there, we were told there in fact was tax even if we paid in cash. The staff kept on maki",
+        "rating": 1,
+        "reviewer": "Cathy Pang",
+        "reasoning": "Snarky comments and explicit rudeness from staff.",
+        "quote": "The staff kept on making snarky comments telling me to not be in certain places because it didn't seem like I was buying anything, and they were rude."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Expensive, the staff were talking, chatting, and laughing while they were helping us, and I didn’t feel the experience. Other than that, we were told that there was no tax by a close friend, however when we got there, we were told there in fact was tax even if we paid in cash. The staff kept on maki",
+        "rating": 1,
+        "reviewer": "Cathy Pang",
+        "reasoning": "Contradictory/unclear information about tax (though origin is partly a friend, the staff's statement diverged from prior info).",
+        "quote": "we were told that there was no tax by a close friend, however when we got there, we were told there in fact was tax even if we paid in cash"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Came here to look at Canada Goose jackets downstairs. And the staff were very rude when I wanted to try a few different ones. They acted very annoyed. If you don’t like your job, please do something with your life that you love. Life is too short to not enjoy every moment!",
+        "rating": 1,
+        "reviewer": "Emily Lau",
+        "reasoning": "Staff rudeness and annoyed tone toward customer.",
+        "quote": "the staff were very rude when I wanted to try a few different ones. They acted very annoyed."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "snippet": "This is by far, such a horrible store. The customer service is awful and you can tell that by the other reviews that the customer service is horrible. Would not suggest anyone to visit or buy from a terrible place. They need to fix up their customer service or it’s not gonna work out. Very disappoin",
+        "rating": 1,
+        "reviewer": "Rosa Ghadie",
+        "reasoning": "Generic CS complaint with no specific detail; weak evidence but mentions customer service explicitly.",
+        "quote": "The customer service is awful"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "We went in with the intention of purchasing a Canada Goose jacket and browsing through the statement pieces, however we were very put off by their sales staff who was constantly on their cellphone.\nWe did ask for assistance and were shrugged off as they continued to use their phone.",
+        "rating": 1,
+        "reviewer": "Janny",
+        "reasoning": "Staff dismissive and ignoring customer in favor of phone.",
+        "quote": "We did ask for assistance and were shrugged off as they continued to use their phone."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "This place doesn’t even deserve one star. Not only is everything disgustingly overpriced but their staff is on a whole other level and incredibly ignorant. I had a really uncomfortable experience at the location today. My male friend and I went in to look for a pair of jeans. the first incident was ",
+        "rating": 1,
+        "reviewer": "Jaclyn Sugar",
+        "reasoning": "Staff making pointed/snide comments to customers; explicit rude behavior.",
+        "quote": "their staff is on a whole other level and incredibly ignorant"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "I bought a jacket for my hudsband but it was too small I went back try to change the size but i was told the size i want sold out and cant do the return for me what the hell its a over 1000 dollar jacket they didnt mention the any return policy to me when i was buying its worst shopping experience",
+        "rating": 1,
+        "reviewer": "Ema Lee",
+        "reasoning": "Staff failed to communicate the return policy to the buyer at point of sale.",
+        "quote": "they didnt mention the any return policy to me when i was buying"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "snippet": "I’d like to warn potential customers: please think twice before buying Greg Lauren clothing. I recently purchased a pair of Men’s Khaki 34 GL Cargo Pants for $1,200, and the experience has been nothing short of frustrating and disappointing.\n\nAfter owning these pants for only two months, I tore them",
+        "rating": 1,
+        "reviewer": "KWABENA YEBOAH",
+        "reasoning": "Unexpected/undisclosed charge for return shipping.",
+        "quote": "they upcharged me for return shipping without informing me in advance"
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "snippet": "We ordered sneakers online on Nov 27,2021. Just before Christmas my fiancé tried to make contact to find out what’s going on with the order. Without any response to that email we sent another. I suggest no one order from this company. Seems they have a shady business.",
+        "rating": 1,
+        "reviewer": "Crystal. Hauge",
+        "reasoning": "Customer attempted contact about an order multiple times without response; closest analogue is unreturned messages.",
+        "quote": "Without any response to that email we sent another."
+      }
+    ]
+  },
+  "ChIJ5RFryXbL1IkRALPQz2wOJG4": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "You make an effort to support local business and do your best to be a “Good Neighbour” but I think this store forgot what their name is because the attitude and terrible customer service we experienced was so dismissive and unhelpful that, really, they should actually be called Bad Neighbour.\n\nIf yo",
+        "rating": 1,
+        "reviewer": "Paulo P.",
+        "reasoning": "Dismissive attitude from staff toward a simple request.",
+        "quote": "the attitude and terrible customer service we experienced was so dismissive and unhelpful"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "The store is pretty well put.\nBut what’s horrible is their customer service surely. They really need to improve. I have been in small boutiques before and I must say this is a new experience ( not a good one). I won’t go into much details but their staff weren’t helpful.  If customers doesn’t matter",
+        "rating": 1,
+        "reviewer": "Jennifer Potter",
+        "reasoning": "Unhelpful/poor frontline behavior; reviewer explicitly calls out staff training need.",
+        "quote": "their staff weren't helpful."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "My recent visit to the Good Neighbor was marred by blatant racism and appalling customer service. The staff, particularly a woman, displayed superiority and disdain, making it clear that my presence as a person of color was unwelcome. Their overpriced products and pretentious attitudes only compound",
+        "rating": 1,
+        "reviewer": "Maybel Sood",
+        "reasoning": "Staff disdainful/superior tone toward customer.",
+        "quote": "The staff, particularly a woman, displayed superiority and disdain"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "I have been living in the neighbourhood for a bit over a year and the store was recommended to me by several friends and colleagues. While their selection of goods is indeed interesting, I have never felt welcomed into the store. Clerks would follow me around for no reason while happily helping othe",
+        "rating": 1,
+        "reviewer": "L K",
+        "reasoning": "Owner/staff cold and unwelcoming behavior toward customer.",
+        "quote": "I came across the owner once who responded to my smile with a hard look"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "This store discriminates against people of colour.\n\nThe store itself is well laid out and pretty, however the products themselves are mainly overpriced knick knacks. Nothing to write home about.\n\nWhat shocked me most was having the staff follow my husband and I around the entire store. The store was",
+        "rating": 1,
+        "reviewer": "Sanchia C",
+        "reasoning": "Staff behavior made customer uncomfortable; surveilling behavior described as discriminatory frontline conduct.",
+        "quote": "having the staff follow my husband and I around the entire store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "I've been in numerous times over the past year, and not once has anyone offered to help me find anything or let me know about sales or promotions. I have been greeted maybe once out of all the times I've been in. Meanwhile other guests are clearly being helped, greeted and seen to.\nWhat's even worse",
+        "rating": 1,
+        "reviewer": "Clare Colleen Wark",
+        "reasoning": "Frontline staff repeatedly ignored customer while serving others.",
+        "quote": "not once has anyone offered to help me find anything or let me know about sales or promotions. I have been greeted maybe once"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "I’ve been to this store several times and it’s hit or miss with the customer service. When you’re cashing out they can be nice to you but when you enter the store or browse you don’t get greeted, and the staff is unhelpful and looks at you suspiciously. I feel very uncomfortable when shopping here a",
+        "rating": 1,
+        "reviewer": "Anastasia M",
+        "reasoning": "Unhelpful and suspicious-looking frontline behavior.",
+        "quote": "the staff is unhelpful and looks at you suspiciously"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "This is a great store for content.  They carry jenny bird  @jennybird my favourite Canadian jewellery.  Been going there for several year spending lots of money but never felt welcomed,   I was always ignored.  2 weeks ago went and watched as the store clerks chatted  amongst themselves while  makin",
+        "rating": 1,
+        "reviewer": "Kim l",
+        "reasoning": "Staff visibly ignored customer needing help.",
+        "quote": "watched as the store clerks chatted  amongst themselves while  making eye contact with me holding a shoe hoping someone would say \" need a size in that shoe\""
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "I was there last Sunday. I agree with the other comments that the place is not welcoming, and the staff are not professional. Lots of standing around and chitchatting (even discussing customers). I bought a couple of things that I wanted after checking out the website. Maybe I'll stick to online sho",
+        "rating": 1,
+        "reviewer": "Nadia H",
+        "reasoning": "Unprofessional/dismissive staff behavior, including discussing customers.",
+        "quote": "the staff are not professional. Lots of standing around and chitchatting (even discussing customers)."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "snippet": "Severely over priced, just average clothes from random popular companies at a large upsale.\nIf you want levis, just shop at levis.\nIts barely a clothing store.\nThe child-employees are lazy, not helpful in any way and uninformed and not educated in the brands they sell.\nTake your money elsewhere.",
+        "rating": 1,
+        "reviewer": "Nick Moore",
+        "reasoning": "Unhelpful and unprofessional frontline staff.",
+        "quote": "The child-employees are lazy, not helpful in any way and uninformed"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "snippet": "I think for the very first time I’ve been racially profiled while shopping… this was my very first visit here and I just needed to pick up a couple of things to complete a gift basket and I was rudely looked at when I asked a question by one staff member in particular. than while I was upstairs shop",
+        "rating": 2,
+        "reviewer": "Salina",
+        "reasoning": "Reviewer describes rude/dismissive treatment from a staff member — fits staff_rude_front_desk default for rude tone.",
+        "quote": "I was rudely looked at when I asked a question by one staff member in particular"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Love the shop! They have great gift ideas and interesting items. However, their customer service needs to be addressed. A couple of times I’m either completely ignored or I don’t feel welcomed in the store. They don’t greet you when you walk in, no conversation, seem busy with themselves rather enga",
+        "rating": 2,
+        "reviewer": "Christien Dias",
+        "reasoning": "Staff dismissive/unwelcoming behavior — fits the default rude/unprofessional tone leaf.",
+        "quote": "I’m either completely ignored or I don’t feel welcomed in the store. They don’t greet you when you walk in, no conversation, seem busy with themselves rather engaging with the customer, and one word answers from them"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Terrible customer service and the staff are always unfriendly and bitter faces.\nI have bought a few stuff and I have alway try to shop local but seems like they aren’t  not a “good neighbour”.\nLast purchased I did was a Veja Shoe and I went back to exchange for a larger number and they didn’t want t",
+        "rating": 2,
+        "reviewer": "Alessandro Costa",
+        "reasoning": "Direct complaint about staff tone/demeanor — default rude leaf applies.",
+        "quote": "the staff are always unfriendly and bitter faces"
+      }
+    ]
+  },
+  "ChIJ0fMtrWs1K4gRH-sNy0cKKP8": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Their machine rarely accepts cash payments. If it does take your cash it will then make you pay more and destroy your ticket. And if their machine DOES NOT accept your cash payment and you have to call their customer service. Just don't.  Their male staff will treat you like you don't matter. Jose i",
+        "rating": 1,
+        "reviewer": "Super Man",
+        "reasoning": "Explicit complaint about rude/condescending staff tone.",
+        "quote": "Jose is aggressively arrogant, condescending and rude and should not be a Manager"
+      }
+    ]
+  },
+  "ChIJsz21VcI0K4gRm5V7U7PMbo0": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "Do not go here! Rudest and most disrespectful and unwelcoming attitude I’ve ever experienced at a thrift store. Repeatedly told me to not take a damn selfie with a pair of shades that costs 10$, pointing at the signs stating to not take selfies. Lol. I never walked out of a store faster in my life. ",
+        "rating": 1,
+        "reviewer": "Eftelya Nergiz",
+        "reasoning": "Explicit complaint about rude/disrespectful staff attitude.",
+        "quote": "Rudest and most disrespectful and unwelcoming attitude I’ve ever experienced at a thrift store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "The owner’s son Jed was the rudest salesperson ever existed. He made you feel like you are wasting his time.\nWhen inquiring about the price of an item, he didn’t respond at all.\nSomeone needs to teach him better lol",
+        "rating": 1,
+        "reviewer": "Flora Huo",
+        "reasoning": "Explicit complaint about rude/dismissive salesperson tone.",
+        "quote": "the rudest salesperson ever existed. He made you feel like you are wasting his time"
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "snippet": "The owner’s son Jed was the rudest salesperson ever existed. He made you feel like you are wasting his time.\nWhen inquiring about the price of an item, he didn’t respond at all.\nSomeone needs to teach him better lol",
+        "rating": 1,
+        "reviewer": "Flora Huo",
+        "reasoning": "Customer asked a specific question (price) and was ignored — fits not_listening_to_customer.",
+        "quote": "When inquiring about the price of an item, he didn’t respond at all"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Extremely pushy worker, haggling over shoppers while being very accusatory. The salesman watched us try sunglasses on like a hawk and kept making weird comments to myself and all the other girls. I made a purchase and he proceeded to accuse my friends that there was a pair of glasses missing… despit",
+        "rating": 1,
+        "reviewer": "V U",
+        "reasoning": "Explicit complaint about staff being rude/aggressive/belittling — fits the rude tone leaf.",
+        "quote": "He continued to belittle us and yell at us in front of the whole store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.92,
+        "snippet": "If only i could give this place negative reviews. man working there today at the cashier was disgustingly rude and pushy. He harassed me and my two female friends and accused US of stealing sunglasses by shouting at us in front of other customers, despite other customers trying on glasses too in fro",
+        "rating": 1,
+        "reviewer": "Latiesha Faisal",
+        "reasoning": "Direct complaint about cashier's rude, pushy tone — fits staff_rude_front_desk.",
+        "quote": "man working there today at the cashier was disgustingly rude and pushy"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.78,
+        "snippet": "I phoned them to ask if they had a specific item.  They said yes.\nI went all the way down there.  They didn't have it.\nThanks for wasting my time, jerks.\n\nEDIT: the store has responded, but I stand by my criticism.  I would have been fine with putting together a costume from various vintage pieces, ",
+        "rating": 1,
+        "reviewer": "Mr. Morrison (Mutant Museum)",
+        "reasoning": "Staff gave inaccurate/contradictory information over the phone about inventory.",
+        "quote": "I phoned them to ask if they had a specific item.  They said yes.\nI went all the way down there.  They didn't have it."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Worst vintage store in kensington market. over priced and underwhelming. value village quality. abrasive rude staff. go to King of Kensington.",
+        "rating": 1,
+        "reviewer": "andrew miller",
+        "reasoning": "Direct mention of rude/abrasive staff tone.",
+        "quote": "abrasive rude staff"
+      }
+    ]
+  },
+  "ChIJwVBi_8I0K4gREoQ0XTpbcDA": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "Owner is the rudest and most arrogant salesman every time I go into the store. It’s a shame he works there.\nCece and the others are sweethearts.",
+        "rating": 1,
+        "reviewer": "Samuel Gallego R",
+        "reasoning": "Repeated rude/arrogant tone from owner-salesman fits staff_rude_front_desk.",
+        "quote": "Owner is the rudest and most arrogant salesman every time I go into the store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "snippet": "Been coming on and off here and there, but staff over the years have gotten more rude, found another silver store in kensigton  with better selection and much friendlier staff. Disappointing the owners seem very stressed when the store gets full or dealing with jewellery. Also not all there silver i",
+        "rating": 1,
+        "reviewer": "Amanda",
+        "reasoning": "Direct complaint about staff rudeness over time.",
+        "quote": "staff over the years have gotten more rude"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "The people here are so rude i feel so uncomfortable walking in here because all the workers treat you like youre troubling\nthem by just being in the store",
+        "rating": 1,
+        "reviewer": "digi cam",
+        "reasoning": "Staff treat customers as a bother — dismissive/rude tone.",
+        "quote": "The people here are so rude i feel so uncomfortable walking in here because all the workers treat you like youre troubling\nthem"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Owner was incredibly rude and condescending to me and my partner when we were looking at some merchandise. Not how you conduct a business or customer service.\n\nSpoken down to after asking a few questions made us leave, despite being very interested in a few items prior.",
+        "rating": 1,
+        "reviewer": "Joshua Bond",
+        "reasoning": "Owner's rude/condescending tone toward customers fits staff_rude_front_desk.",
+        "quote": "Owner was incredibly rude and condescending to me and my partner when we were looking at some merchandise"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "I was drawn to the place and walked in hoping to find something great.  I did.  But the owner/ employee was too busy on her phone to help.  That's so annoying.  I walked towards another employee organizing the clothes and shoes but she didn't even say hello.",
+        "rating": 1,
+        "reviewer": "Nadia C",
+        "reasoning": "Dismissive front-of-house behavior — staff ignored/failed to greet customer.",
+        "quote": "the owner/ employee was too busy on her phone to help.  That's so annoying.  I walked towards another employee organizing the clothes and shoes but she didn't even say hello"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "It's probably not the best form of customer service to scowl or curse at  people who are looking to spend money in your store. That was the treatment I got this morning. Just might be time for staff changes. Very sad.",
+        "rating": 1,
+        "reviewer": "Adam Livingstone",
+        "reasoning": "Staff scowling/cursing at customers — clearly rude tone.",
+        "quote": "scowl or curse at  people who are looking to spend money in your store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "Horrible customer service. Cashier gave my friend and I attitude when we asked to see their products and as we were checking out. Didn’t say a word once we finished paying. Terrible experience. Will not be going back.",
+        "rating": 1,
+        "reviewer": "Megan Li",
+        "reasoning": "Cashier giving attitude — rude front-of-house tone.",
+        "quote": "Cashier gave my friend and I attitude when we asked to see their products and as we were checking out"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Incredibly rude customer service. Would never step foot into this establishment.",
+        "rating": 1,
+        "reviewer": "Parmoon Sarmadi",
+        "reasoning": "Direct complaint of rude customer service; per disambiguation default, prefer staff_rude_front_desk.",
+        "quote": "Incredibly rude customer service"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Been going for years until I finally came to terms with th horribly rude, condescending and prejudice sales clerks. Won't be going back.",
+        "rating": 1,
+        "reviewer": "Isa Benn",
+        "reasoning": "Sales clerks described as rude and condescending — staff_rude_front_desk.",
+        "quote": "horribly rude, condescending and prejudice sales clerks"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "soooo rude.",
+        "rating": 1,
+        "reviewer": "Josephine Yaaqoubi",
+        "reasoning": "Bare rudeness complaint — per disambiguation default, prefer staff_rude_front_desk.",
+        "quote": "soooo rude."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Very nice jewelry selection but terrible service, at least from the man working there. The lady who owns the store seems very nice, unfortunately I didn t deal with her.\nShe  asked a man working there to help me, and let me try jewels, he was obviously hating his job and made it a bad experience. I ",
+        "rating": 2,
+        "reviewer": "Ylias Nacer",
+        "reasoning": "Salesperson described throughout as having rude attitude; eye-rolling at customer fits staff_rude_front_desk.",
+        "quote": "He rolled his eyes and said «  no it s 300 dollars…  »"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "I’ve been coming for a long time, my boyfriend had even bought his prom suit from here. They’ve always had amazing gems that were worth the price and service until now.\n\nYesterday while purchasing Christmas gifts he had experienced passive aggressive commentary throughout his payment from the cashie",
+        "rating": 2,
+        "reviewer": "Riley",
+        "reasoning": "Cashier's passive-aggressive, mocking tone toward a long-term customer — fits staff_rude_front_desk.",
+        "quote": "passive aggressive commentary throughout his payment from the cashier"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "They have a great selection, but I was very turned off by the service. The cashier kept helping others before me even though\nI was next in line. Then she chastised me for looking at the belts. She told me it was my responsibility to put them all back even though I did. I left with a bad taste in my ",
+        "rating": 3,
+        "reviewer": "Molly Monet-Viera",
+        "reasoning": "Cashier scolded customer in a dismissive/rude tone at the counter.",
+        "quote": "she chastised me for looking at the belts"
+      }
+    ]
+  },
+  "ChIJYb6-wAo1K4gRvOkGOzvR0Bk": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "snippet": "I am beyond disappointed in my experience with this \"company\". My partner ordered two swim suits for me, the diamond set as well as the santorini set. I waited over 2 months for my order placed in July. After following up the first time we were notified that initially they couldn't find our order, b",
+        "rating": 1,
+        "reviewer": "Svetlana Konswallow",
+        "reasoning": "Customer actively followed up multiple times about an order and never received a response.",
+        "quote": "I never even heard back"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "I want my money back!!!! I really wanted to love this company but the way they deal with customers is terrible. Their products look beautiful but good luck getting them within a year and good luck getting truthful responses on anything. I purchased 2 swimsuits from this company in April 2021. I reac",
+        "rating": 1,
+        "reviewer": "Carly Fraga",
+        "reasoning": "Customer repeatedly chasing a specific resolution and not getting one.",
+        "quote": "I have reached out multiple times through email and they keep saying there is nothing they could do"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "payment_issues",
+        "confidence": 0.9,
+        "snippet": "I want my money back!!!! I really wanted to love this company but the way they deal with customers is terrible. Their products look beautiful but good luck getting them within a year and good luck getting truthful responses on anything. I purchased 2 swimsuits from this company in April 2021. I reac",
+        "rating": 1,
+        "reviewer": "Carly Fraga",
+        "reasoning": "Refund was promised but never received; ongoing refund delay/failure.",
+        "quote": "They claimed to issue the refund but no funds were returned to my card"
+      }
+    ]
+  },
+  "ChIJeeicWmA1K4gRd8m10-UKXAM": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "The store is really cute but their customer service was very bad, they were very curt when answering questions about the clothes",
+        "rating": 1,
+        "reviewer": "Aarthi Ganesh",
+        "reasoning": "Staff tone described as curt/dismissive when interacting with customer.",
+        "quote": "they were very curt when answering questions about the clothes"
+      }
+    ]
+  },
+  "ChIJUUaSqds0K4gR7hgbDKT64CA": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "snippet": "Extremely rude people at the cash register. Store manager is a horrible human being. I was patiently trying to buy a simple t shirt from Toronto - I’m visiting from Miami, FL with my boyfriend and was actually embarrassed by the crass rudeness and attitude from the two old ladies working there. They",
+        "rating": 1,
+        "reviewer": "Anna Chacon, MD",
+        "reasoning": "Direct complaint about rude tone from cash-register staff.",
+        "quote": "Extremely rude people at the cash register"
+      }
+    ]
+  },
+  "ChIJ5_AyMPvM1IkRMTqZ7blVAm4": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "I really disappointed with the way I was treated so I bought curtains from them before I buy them. There was a lady on the counter. She told me that I can always come in exchange it. She told me that they would not return, but they will exchange it any time, and when I went to exchange, my curtains,",
+        "rating": 1,
+        "reviewer": "Salim",
+        "reasoning": "Owner spoke disrespectfully to the customer at the counter.",
+        "quote": "the way he disrespected me and he told me that I should have used my brain"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "I really disappointed with the way I was treated so I bought curtains from them before I buy them. There was a lady on the counter. She told me that I can always come in exchange it. She told me that they would not return, but they will exchange it any time, and when I went to exchange, my curtains,",
+        "rating": 1,
+        "reviewer": "Salim",
+        "reasoning": "Staff told customer exchange was always allowed, but on return another staff refused — contradictory info given upfront.",
+        "quote": "She told me that I can always come in exchange it"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "The worst store based on the staff behavior. The lady staffs are very rude. Their expression , what they talk to us everything feels like we are there to beg. Price and products are really good. but the staff behavior make us feel never go to the store ever again. sometimes they put less prices in s",
+        "rating": 1,
+        "reviewer": "Buddy Cool",
+        "reasoning": "Direct complaint about rude staff tone at the store.",
+        "quote": "The lady staffs are very rude"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "My customer service experience was the worst. This had happened to me twice my child was spoken to very rudely both times. Yes, it was my mistake going there a second time. It's true that this place is cheap but overrated as they sell poor quality stuff. Winners / Joe Fresh are way better.\n\nI wanted",
+        "rating": 1,
+        "reviewer": "Umer Jamshaid Muzzamil",
+        "reasoning": "Direct complaint about rude tone from staff.",
+        "quote": "my child was spoken to very rudely both times"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "This my reply for owner who replied to my review first of all sir let’s not lie we gave you the receipt secondly I didn’t said anything regarding you not accepting it with bad packaging from me infact I said you were right the packages were not in good condition and I didn’t knew that maybe you shou",
+        "rating": 1,
+        "reviewer": "mohammad salim sadiqi",
+        "reasoning": "Customer reiterates the owner spoke rudely and disrespectfully.",
+        "quote": "how rude and disrespectful you were"
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "snippet": "Extremely unprofessional behavior by whoever was in charge of closing shop at closing time today. I called around 620pm and asked if they'd be open when we get there from a distance 35 minutes away, and they said they would be open only till 7pm and not a minute later. So we rushed to reach there at",
+        "rating": 1,
+        "reviewer": "La Pâtissière",
+        "reasoning": "Staff confirmed hours by phone then closed early, giving contradictory information.",
+        "quote": "they said they would be open only till 7pm and not a minute later"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Extremely unprofessional behavior by whoever was in charge of closing shop at closing time today. I called around 620pm and asked if they'd be open when we get there from a distance 35 minutes away, and they said they would be open only till 7pm and not a minute later. So we rushed to reach there at",
+        "rating": 1,
+        "reviewer": "La Pâtissière",
+        "reasoning": "Staff hung up on a customer mid-request — dismissive behavior.",
+        "quote": "Then she hung up when I requested that before leaving"
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "snippet": "The worst store based on the staff behavior. The lady staffs are very rude. Their expression , what they talk to us everything feels like we are there to beg. Price and products are really good. but the staff behavior make us feel never go to the store ever again. sometimes they put less prices in s",
+        "rating": 1,
+        "reviewer": "Buddy Cool",
+        "reasoning": "Shelf price differs from billed price — quoted X, charged Y at the register.",
+        "quote": "sometimes they put less prices in some products and when we go to the cashier , they says it is by mistake"
+      }
+    ]
+  },
+  "ChIJLesNr2fP1IkRzVYa62CL7r8": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Terrible brand.\nBetween the quality and the lack of respect from the owner I will NEVER shop here again.\nI was really disappointed by my experience with this brand because of the owner’s behaviour. Instead of being professional or respectful, the owner was unnecessarily rude and dismissive when I ha",
+        "rating": 1,
+        "reviewer": "Tim Myles",
+        "reasoning": "Customer-facing staff (owner) described as rude and dismissive in tone toward a customer.",
+        "quote": "the owner was unnecessarily rude and dismissive when I had a simple question"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Very disappointed in the quality and response from the owner when I brought my complaint to him.  I have never been talked to with such disrespect. If I was a man that energy would have been much different. I’ve supported this brand for many years it’s had its ups and down however I truly feel this ",
+        "rating": 1,
+        "reviewer": "Kelsey Ryan",
+        "reasoning": "Direct complaint about disrespectful tone from owner/staff when raising a complaint.",
+        "quote": "I have never been talked to with such disrespect"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Wish I could give negative stars .This clothing brand has been stuck for years with the same garbage designs . The owner seems to think that because Tupac wore his sweater once it’s still relevant in the year 2026 .\n\nDO NOT BUY\n\nShirts will shrink and designs wash off very easily\nHoodies are overpri",
+        "rating": 1,
+        "reviewer": "J Wick",
+        "reasoning": "Explicit complaint about rude customer-facing staff.",
+        "quote": "the owner has very bad customer service & is very rude"
+      }
+    ]
+  },
+  "ChIJ-dDKWZI0K4gRgcFLB12opPo": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Love the owners and the clothes but one worker in particular fat-shamed a friend of mine at the Kensington location. She simply wanted to try a dress and he, the employee, made comments that made her feel bad and didn’t want to buy the dress anymore. I think I speak for most people when I say that c",
+        "rating": 2,
+        "reviewer": "janeth buado",
+        "reasoning": "Employee made dismissive/inappropriate comments to a customer trying on clothing — rude staff behavior.",
+        "quote": "he, the employee, made comments that made her feel bad"
+      }
+    ]
+  },
+  "ChIJHfm1Wko1K4gRrQT-ZhrTKv4": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "I drove about 45 minutes to this store intending to purchase a luxury suitcase (or even more than one and had one of the worst customer service experiences I’ve ever encountered. Instead of being welcomed with professionalism, we were constantly pressured by the staff member repeating: “we’re closin",
+        "rating": 1,
+        "reviewer": "Catarina B",
+        "reasoning": "Staff behaved unprofessionally and dismissively, pressuring customers out of the store.",
+        "quote": "we were constantly pressured by the staff member repeating: “we’re closing in 10 minutes, we’re closing in 5 minutes.”"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Disappointed and let down by the lack of professionalism by the staff at this store. The two older ladies who work at this store seemingly couldn’t stop silently judging me, and following me around treating me as if I’m going to steal something.\n\nI’ve been a client of this store for years and collec",
+        "rating": 1,
+        "reviewer": "eston moore",
+        "reasoning": "Explicit complaint about unprofessional and dismissive staff behavior toward a longtime customer.",
+        "quote": "Disappointed and let down by the lack of professionalism by the staff at this store"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Couldn't be more agree with the comment mentioned that they treat you as you are a thief.\nI brought some items there to sell and the people working downstairs also was so disrespectful and did not accepting my items for no clear reason. It was Chanel booties, Jimmy Choo shoes, Burberry Coat etc.... ",
+        "rating": 1,
+        "reviewer": "Sara Bargrizan",
+        "reasoning": "Direct complaint about disrespectful staff behavior.",
+        "quote": "the people working downstairs also was so disrespectful"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Painfully pretentious staff. Walked in without being greeted, was followed upstairs, then left without being greeted. As someone who collects archival 90s Margiela, 90s Helmut Lang, Tom Ford era gucci, etc., I usually love adding new consignment stores to my rotation but I definitely won’t be coming",
+        "rating": 1,
+        "reviewer": "Claire Barnes",
+        "reasoning": "Customer-facing staff described as pretentious and dismissive — failed basic courtesy.",
+        "quote": "Painfully pretentious staff. Walked in without being greeted"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Was so excited to visit the store for the first time, came in to buy a few bags & accessories. the guy there was so stupid and unhelpful and the dumb lady was doing selfies in the mirror instead of offering to help out.\nVery disappointed with my visit and will not be back, also Olivers on the other ",
+        "rating": 1,
+        "reviewer": "Aleksander",
+        "reasoning": "Staff described as unhelpful and inattentive — failed basic customer-facing courtesy.",
+        "quote": "the guy there was so stupid and unhelpful and the dumb lady was doing selfies in the mirror instead of offering to help out"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Went in there with two huge bags full of Balmain and Chanel runway dresses. (Also a few pairs of Chanel heels and sneakers). Had to get my neighbour to help me carry the two large bags cause there was so many dresses folded in them! The fabric is good quality so they are very heavy.\n\nThey immediatel",
+        "rating": 2,
+        "reviewer": "Christmas Girl",
+        "reasoning": "Staff behaved dismissively/judgmentally toward the customer based on appearance.",
+        "quote": "They immediately looked us up and down like we weren’t good enough to be in the store."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "snippet": "Went in there with two huge bags full of Balmain and Chanel runway dresses. (Also a few pairs of Chanel heels and sneakers). Had to get my neighbour to help me carry the two large bags cause there was so many dresses folded in them! The fabric is good quality so they are very heavy.\n\nThey immediatel",
+        "rating": 2,
+        "reviewer": "Christmas Girl",
+        "reasoning": "Customer called multiple times during business hours and no one answered.",
+        "quote": "They wouldn’t answer the phone. I called four or five times before just walking over"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "maybe a good experience to shop but low ball offers for sellers.. what they offered me is crazy in my opinion. suggested something abit higher with no response.",
+        "rating": 2,
+        "reviewer": "The Site",
+        "reasoning": "Customer made a counter-suggestion/inquiry and never received a response.",
+        "quote": "suggested something abit higher with no response"
+      }
+    ]
+  },
+  "ChIJTWZi947R1IkRowtYGOBA1QE": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "“KATE” IS THE WORSE & RUDE MANAGER EVER.\n\nI recently purchased a product from this store, but unfortunately, it didn’t work properly.\n\nI even bought extra insurance for the product, and when I was buying it, the salesperson assured me that I could replace it anytime if anything went wrong, even if I",
+        "rating": 1,
+        "reviewer": "Paria Zare",
+        "reasoning": "Customer explicitly describes manager as rude and unprofessional.",
+        "quote": "“KATE” IS THE WORSE & RUDE MANAGER EVER."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "“KATE” IS THE WORSE & RUDE MANAGER EVER.\n\nI recently purchased a product from this store, but unfortunately, it didn’t work properly.\n\nI even bought extra insurance for the product, and when I was buying it, the salesperson assured me that I could replace it anytime if anything went wrong, even if I",
+        "rating": 1,
+        "reviewer": "Paria Zare",
+        "reasoning": "Contradictory information from staff about what the insurance covered.",
+        "quote": "the salesperson assured me that I could replace it anytime if anything went wrong, even if I simply didn’t like it. However, when I tried to get it replaced, “KATE”, the manager, said that the insurance didn’t apply to my situation."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Shop here if you want to get RIPPED OFF. We are from out of town so we had quite a few things to get - to the tune of $600. All of the items we bought worked except for a special order - we pulled that one out of the box and it didn't work from the get-go.\n\nI dropped by with the device and the woman",
+        "rating": 1,
+        "reviewer": "Jimmy Jimmy",
+        "reasoning": "Staff hung up on customer — rude/dismissive behavior.",
+        "quote": "she told me his name and then hung up on me"
+      }
+    ]
+  },
+  "ChIJGRZpTOE0K4gRWGHGmTfCTfc": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Disappointed with how they handled a simple request. Needed measurements and they had noone in the store. Instead of being helpful they were rude. Treat everyone with respect.",
+        "rating": 1,
+        "reviewer": "Jeremy Spira",
+        "reasoning": "Customer explicitly describes staff as rude when asking for help.",
+        "quote": "Instead of being helpful they were rude."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Clothes were nice, but the person who worked with us was snobby and a tad rude.  Asked me not to “flex” my foot in the shoe and to walk flat footed around the store.  We did not feel welcome and then felt pressured to buy an expensive shoe that didn’t fit me.  Unpleasant and stuffy vibes.",
+        "rating": 2,
+        "reviewer": "Mohan Fitzgerald",
+        "reasoning": "Customer describes salesperson as snobby and rude in tone.",
+        "quote": "the person who worked with us was snobby and a tad rude"
+      }
+    ]
+  },
+  "ChIJrYuFEAA1K4gRVPY2jjNfRVs": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Asking the staff for help feels like they want you dead lol. Staff is rude and entitled they make the entire stores vibes sooo bad. It's not even just one of them it's all of them and they look at each other when you ask for help like they are bonding over hating helping people loool. Retrain entire",
+        "rating": 1,
+        "reviewer": "Ethan Bracken",
+        "reasoning": "Customer explicitly describes staff as rude and entitled.",
+        "quote": "Staff is rude and entitled they make the entire stores vibes sooo bad."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "I bought a jacket just before closing and didn’t notice until I got home that it was badly ripped on the inside. I returned the next day to explain the issue. One of the employees the day before had told me that if I found any damage, I could come back.\n\nWhen I spoke to the manager, he immediately s",
+        "rating": 1,
+        "reviewer": "Salma Hassanien",
+        "reasoning": "Contradictory information given by different staff members.",
+        "quote": "One of the employees the day before had told me that if I found any damage, I could come back.\n\nWhen I spoke to the manager, he immediately said that no employee would ever say that"
+      }
+    ]
+  },
+  "ChIJgw_EZ101K4gRqPTUBOs3NU8": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "Don’t ever buy from them, I bought 2 distillate pens and neither of them ever worked. When I took them in the staff assured me it was my fault but it wasn’t, they never took a pull from the device even after other distillates have. Don’t go here go down the street. I wish I could post pictures of my",
+        "rating": 1,
+        "reviewer": "Kristian Minorgan",
+        "reasoning": "Customer raised a specific concern (defective product) and staff dismissed it, blaming the customer.",
+        "quote": "the staff assured me it was my fault but it wasn’t"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Staff are really rude and pretentious. Plenty of other places to go in liberty.",
+        "rating": 1,
+        "reviewer": "Leena B.",
+        "reasoning": "Direct complaint about rude staff tone.",
+        "quote": "Staff are really rude and pretentious"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Horrible staff. What a absolute waste of time. Service was horrendous. Choose another location as you will be disappointed.",
+        "rating": 1,
+        "reviewer": "Michael Santeramo",
+        "reasoning": "Generic staff complaint; defaults to rude per taxonomy disambiguation rule.",
+        "quote": "Horrible staff"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "When this store opened I think it was in 2021, I would have gave this review 4 stars. But now everytime I go there they stopped selling their most liked products such as different brands of weed or pipes they used to have. I remember buying a specific brand and strain of weed and it was always sold ",
+        "rating": 1,
+        "reviewer": "j l",
+        "reasoning": "Customer was promised a callback when product was in stock, and the store never followed up.",
+        "quote": "took down my number on 2 separate occasions offering to call me when they have it in stock. We'll that never happened"
+      }
+    ]
+  },
+  "ChIJ1ShClHfL1IkRYFx3_paNOD4": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "Worst return policy I've ever experienced. I order a hoodie from them over Christmas break, takes for ever to get delivered. Finally get it, too small not true to size, take it off and pack it back up in its original packaging within a minute, haven't tampered with it at all. Instantly go on the web",
+        "rating": 1,
+        "reviewer": "Michael McCendie",
+        "reasoning": "Confusing/opaque return process information; customer had to chase multiple channels for unclear answers.",
+        "quote": "you can't get a label until they've approved your return, so you essentially have to make a case for yourself"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "I’m rating base on customer service. I walked in, without a greet or smile from the worker behind the counter. I had to get her attention while she was staring at the monitor, knowing I was the only customer that walked in. I felt I was like an inconvenience to her. Please train your workers with pr",
+        "rating": 3,
+        "reviewer": "Liza B",
+        "reasoning": "Front-desk worker was unwelcoming and dismissive in tone toward the customer.",
+        "quote": "without a greet or smile from the worker behind the counter. I had to get her attention while she was staring at the monitor"
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "J’avais si hâte de passer ma première commande chez Province of Canada pour encourager local et miser sur la qualité, mais j’ai été très déçue. J’ai commandé deux t-shirts et l’un deux est arrivé avec des taches noires. J’ai écrit à la compagnie via le site web et leur ai envoyé des photos du chanda",
+        "rating": 1,
+        "reviewer": "AudreyAnne Plouffe",
+        "reasoning": "Customer reached out via website and Messenger about a defective item and never received any response from customer service.",
+        "quote": "cela fait maintenant presque deux mois que je n’ai pas de retour"
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.5,
+        "snippet": "I ordered 250 custom tshirts literally in May for a six week turn around - per them!.   My new business is now open and I am still waiting for 60% of my product.  It’s more than late and I paid 50% upfront.  But turn around times are not what they promise given the very high price.    Not impressed.",
+        "rating": 3,
+        "reviewer": "Amber Zuber",
+        "reasoning": "Borderline — primarily a fulfillment/delivery quality complaint, not strictly a follow-up communication failure.",
+        "quote": "I am still waiting for 60% of my product"
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "language_barrier",
+        "confidence": 0.4,
+        "snippet": "J’avais si hâte de passer ma première commande chez Province of Canada pour encourager local et miser sur la qualité, mais j’ai été très déçue. J’ai commandé deux t-shirts et l’un deux est arrivé avec des taches noires. J’ai écrit à la compagnie via le site web et leur ai envoyé des photos du chanda",
+        "rating": 1,
+        "reviewer": "AudreyAnne Plouffe",
+        "reasoning": "Borderline — appears in id 436 not 435; removing.",
+        "quote": "le site Web n'est pas en français"
+      }
+    ]
+  },
+  "ChIJ14WlUKc2K4gRQ5feKZeGGRM": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "One of the staffs here is super rude, she seemed not so polite with customers as well with the other staff.",
+        "rating": 1,
+        "reviewer": "Jai Rino Lumi Jesspius",
+        "reasoning": "Direct complaint about staff rudeness toward customers.",
+        "quote": "One of the staffs here is super rude, she seemed not so polite with customers"
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "The store has some good deals and nice selection, but the service here was downright rude.\nI tried to return an item to get another one and the sales associate barely gave me the time of day, was short with me and nothing even close to welcoming. When I asked for my receipt back from my initial purc",
+        "rating": 2,
+        "reviewer": "E. S.",
+        "reasoning": "Sales associate was rude, short, and unwelcoming; classic rude front-desk tone complaint.",
+        "quote": "the service here was downright rude.\nI tried to return an item to get another one and the sales associate barely gave me the time of day, was short with me and nothing even close to welcoming"
+      }
+    ]
+  }
+}

@@ -1,0 +1,864 @@
+[
+  {
+    "lead_title": "Canadian Outlet Store",
+    "website": "http://www.canadianoutletstore.com/index.php?controller=stores",
+    "pages": [
+      {
+        "url": "https://www.hugedomains.com/domain_profile.cfm?d=canadianoutletstore.com",
+        "title": "CanadianOutletStore.com is for sale | HugeDomains"
+      },
+      {
+        "url": "https://www.hugedomains.com/contact.cfm",
+        "title": "Attention Required! | Cloudflare"
+      },
+      {
+        "url": "https://www.hugedomains.com/about.cfm",
+        "title": "Attention Required! | Cloudflare"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 16.26,
+    "metro": "toronto",
+    "phone": "+1 416-289-4195"
+  },
+  {
+    "lead_title": "Peace Collective",
+    "website": "http://www.peace-collective.com/",
+    "pages": [
+      {
+        "url": "https://www.peace-collective.com/",
+        "title": "Peace Collective"
+      },
+      {
+        "url": "https://www.peace-collective.com/pages/contact-us",
+        "title": "Contact Us"
+      },
+      {
+        "url": "https://www.peace-collective.com/pages/about",
+        "title": "About Us"
+      }
+    ],
+    "emails": [
+      "info@peace-collective.com",
+      "support@peace-collective.com",
+      "wholesale@peace-collective.com"
+    ],
+    "socials": [
+      "https://twitter.com/peacecollectiv3",
+      "https://www.facebook.com/thepeacecollective",
+      "https://www.instagram.com/peacecollective/",
+      "https://www.tiktok.com/@hayrbypc?_t=8bUlf1oPHaH&_r=1&section_clicked=Replo%20The%20Collective",
+      "https://www.tiktok.com/@thepeacecollective",
+      "https://www.youtube.com/channel/UCVLWAUR1Qvc9OYD2LjfpqCA/featured"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 13.66,
+    "metro": "toronto",
+    "phone": "+1 416-843-9725"
+  },
+  {
+    "lead_title": "Black Market Vintage Upstairs",
+    "website": "https://blackmarkettoronto.com/?utm_source=gmb&utm_medium=organic&utm_campaign=google-my-business",
+    "pages": [
+      {
+        "url": "https://blackmarkettoronto.com/?utm_source=gmb&utm_medium=organic&utm_campaign=google-my-business",
+        "title": "Black Market Clothing | Shop Vintage Clothing Online"
+      },
+      {
+        "url": "https://blackmarkettoronto.com/pages/contact-us-257",
+        "title": "Located on Queen St. West Toronto"
+      },
+      {
+        "url": "https://blackmarkettoronto.com/pages/about-us-1",
+        "title": "About US"
+      }
+    ],
+    "emails": [
+      "info@blackmarkettoronto.com",
+      "info@publicbutter.com",
+      "info@stagheaddesigns.com"
+    ],
+    "socials": [
+      "https://www.instagram.com/blackmarket_upstairs/",
+      "https://www.tiktok.com/@black.market.vintage"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 11.77,
+    "metro": "toronto",
+    "phone": "+1 416-599-5858"
+  },
+  {
+    "lead_title": "Nations Experience",
+    "website": "http://nationsfreshfoods.ca/",
+    "pages": [
+      {
+        "url": "https://nationsfreshfoods.ca/",
+        "title": "Nations Fresh Food"
+      },
+      {
+        "url": "https://nationsfreshfoods.ca/contact.html",
+        "title": "Nations Fresh Food"
+      },
+      {
+        "url": "https://nationsfreshfoods.ca/about-us.html",
+        "title": "Nations Fresh Food"
+      }
+    ],
+    "emails": [
+      "cs_h@nationsfreshfoods.ca",
+      "cs_m@nationsfreshfoods.ca"
+    ],
+    "socials": [
+      "https://twitter.com/NationsFoods",
+      "https://twitter.com/NationsFresh",
+      "https://www.facebook.com/NationsHamilton/",
+      "https://www.instagram.com/nationsfreshfood.hamilton/",
+      "https://www.instagram.com/nationsfreshfoodshamilton/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": true,
+    "status": "ok",
+    "quality_score": 13.63,
+    "metro": "toronto",
+    "phone": "+1 416-767-5888"
+  },
+  {
+    "lead_title": "new nyc collection",
+    "website": "http://newnycclothing.com/",
+    "pages": [
+      {
+        "url": "https://newnycclothing.com/",
+        "title": "Redirecting..."
+      },
+      {
+        "url": "https://newnycclothing.com/about-us.php",
+        "title": "Redirecting..."
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 11.54,
+    "metro": "toronto",
+    "phone": "+1 647-607-6443"
+  },
+  {
+    "lead_title": "Brands Gone Wild",
+    "website": "https://www.brandsgonewild.com/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_AUTHORITY_INVALID "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 10.88,
+    "metro": "toronto",
+    "phone": ""
+  },
+  {
+    "lead_title": "Just Thrift",
+    "website": "https://www.justthrift.com/",
+    "pages": [
+      {
+        "url": "https://www.justthrift.com/",
+        "title": "Home - Just Thrift"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/justthriftorfus/",
+      "https://www.instagram.com/justthrift/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 11.41,
+    "metro": "toronto",
+    "phone": "+1 416-789-9449"
+  },
+  {
+    "lead_title": "Vintage Depot",
+    "website": "http://www.vintagedepotcanada.ca/",
+    "pages": [
+      {
+        "url": "https://www.vintagedepotcanada.ca/",
+        "title": "Vintage depot"
+      },
+      {
+        "url": "https://www.vintagedepotcanada.ca/contactus",
+        "title": "Contact Us — Vintage depot"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/profile.php?id=61584068909993",
+      "https://www.instagram.com/vintagedepotcanada/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 10.51,
+    "metro": "toronto",
+    "phone": "+1 416-596-6513"
+  },
+  {
+    "lead_title": "Capsule",
+    "website": "http://www.capsuletoronto.com/",
+    "pages": [
+      {
+        "url": "https://www.capsuletoronto.com/",
+        "title": "Capsule"
+      },
+      {
+        "url": "https://www.capsuletoronto.com/policies/contact-information",
+        "title": "Contact information – Capsule"
+      }
+    ],
+    "emails": [
+      "info@c-apsule.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/CapsuleToronto/",
+      "https://www.instagram.com/capsuletoronto/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 12.55,
+    "metro": "toronto",
+    "phone": "+1 647-748-1169"
+  },
+  {
+    "lead_title": "Good Neighbour - Leslieville",
+    "website": "http://www.goodnbr.com/",
+    "pages": [
+      {
+        "url": "https://www.goodnbr.com/",
+        "title": "Good Neighbour"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/GoodNBRToronto/",
+      "https://www.instagram.com/goodnbr/",
+      "https://www.instagram.com/p/Cy06ML1rySh/",
+      "https://www.instagram.com/p/Cy3wowLu5bu/",
+      "https://www.instagram.com/p/Cy59LRDOJ4Z/",
+      "https://www.instagram.com/p/Cy8ftEwrzqC/",
+      "https://www.instagram.com/p/CyOqiB3O4dL/",
+      "https://www.instagram.com/p/CyRFm52OFlZ/",
+      "https://www.instagram.com/p/CyUHO56LUdP/",
+      "https://www.instagram.com/p/CyWPIYcrsOQ/",
+      "https://www.instagram.com/p/CyYjmm8rvev/",
+      "https://www.instagram.com/p/CybI2FeLheN/",
+      "https://www.instagram.com/p/CygqEBVO2H6/",
+      "https://www.instagram.com/p/CyoINd9LOIQ/",
+      "https://www.instagram.com/p/CytH5wVrv3g/",
+      "https://www.instagram.com/p/Cyv73CTrYJ-/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 9.6,
+    "metro": "toronto",
+    "phone": "+1 647-350-0663"
+  },
+  {
+    "lead_title": "Shoppes on Queen West",
+    "website": "",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "no_website"
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_website",
+    "quality_score": 9.24,
+    "metro": "toronto",
+    "phone": ""
+  },
+  {
+    "lead_title": "Exile Vintage",
+    "website": "https://www.exilevintage.ca/",
+    "pages": [
+      {
+        "url": "https://www.exilevintage.ca/password",
+        "title": "  Exile Vintage"
+      }
+    ],
+    "emails": [
+      "your@email.address"
+    ],
+    "socials": [
+      "https://www.instagram.com/exilevintage/?hl=en"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 9.12,
+    "metro": "toronto",
+    "phone": "+1 416-595-7199"
+  },
+  {
+    "lead_title": "Courage My Love",
+    "website": "",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "no_website"
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_website",
+    "quality_score": 9.05,
+    "metro": "toronto",
+    "phone": "+1 416-979-1992"
+  },
+  {
+    "lead_title": "Ottilia And Sugar",
+    "website": "",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "no_website"
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_website",
+    "quality_score": 8.89,
+    "metro": "toronto",
+    "phone": ""
+  },
+  {
+    "lead_title": "Flamingo Vintage Kensington",
+    "website": "",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "no_website"
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_website",
+    "quality_score": 8.39,
+    "metro": "toronto",
+    "phone": "+1 416-644-1806"
+  },
+  {
+    "lead_title": "TNT Woman Yorkville",
+    "website": "https://www.tntfashion.ca/",
+    "pages": [
+      {
+        "url": "https://tntfashion.ca/",
+        "title": "TNT - The New Trend | Shop Luxury Fashion & Designer Brands"
+      },
+      {
+        "url": "https://tntfashion.ca/pages/contact",
+        "title": "Contact - TNT | Designer Fashion Boutique"
+      },
+      {
+        "url": "https://tntfashion.ca/pages/about-us",
+        "title": "ABOUT US"
+      }
+    ],
+    "emails": [
+      "careers@tntthenewtrend.com",
+      "marketing@tntthenewtrend.com",
+      "online@tntthenewtrend.com",
+      "partnership@tntthenewtrend.com",
+      "tnt@tntthenewtrend.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/TNT-The-New-Trend-365702686190",
+      "https://www.instagram.com/tntfashion",
+      "https://www.instagram.com/tntfashion/",
+      "https://www.tiktok.com/@tntthenewtrend",
+      "https://www.youtube.com/@TNTFASHIONTO/channels"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 10.85,
+    "metro": "toronto",
+    "phone": "+1 416-975-1810"
+  },
+  {
+    "lead_title": "Spacing Store",
+    "website": "http://spacingstore.ca/",
+    "pages": [
+      {
+        "url": "https://spacingstore.ca/",
+        "title": "Toronto's City Gift Store – Spacing Store: Toronto's City Gift Store"
+      },
+      {
+        "url": "https://spacingstore.ca/pages/about-the-spacing-store",
+        "title": "About the Spacing Store – Spacing Store: Toronto's City Gift Store"
+      }
+    ],
+    "emails": [
+      "store@spacing.ca",
+      "store@spacingstore.ca"
+    ],
+    "socials": [
+      "http://instagram.com/Spacingstore",
+      "https://twitter.com/spacingstore",
+      "https://www.facebook.com/SpacingStore/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.34,
+    "metro": "toronto",
+    "phone": "+1 416-644-1017"
+  },
+  {
+    "lead_title": "Maximum Deals",
+    "website": "https://maximumdeals.ca/",
+    "pages": [
+      {
+        "url": "https://maximumdeals.ca/",
+        "title": "Maximum Deals – Apparel – Home Decor – Fragrance"
+      },
+      {
+        "url": "https://maximumdeals.ca/contact-us-2/",
+        "title": "Contact Us – Maximum Deals"
+      },
+      {
+        "url": "https://maximumdeals.ca/about/",
+        "title": "About – Maximum Deals"
+      }
+    ],
+    "emails": [
+      "returns@mail.com"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.99,
+    "metro": "toronto",
+    "phone": "+1 905-624-6111"
+  },
+  {
+    "lead_title": "Over The Rainbow",
+    "website": "http://www.rainbowjeans.com/",
+    "pages": [
+      {
+        "url": "https://www.rainbowjeans.com/",
+        "title": "Toronto's #1 Premium Denim Store | Over the Rainbow – Over the Rainbow"
+      },
+      {
+        "url": "https://www.rainbowjeans.com/pages/about-otr-2",
+        "title": "About OTR – Over the Rainbow"
+      }
+    ],
+    "emails": [
+      "info@rainbowjeans.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/shoprainbowjeans",
+      "https://www.instagram.com/shoprainbowjeans/",
+      "https://www.tiktok.com/@shoprainbowjeans"
+    ],
+    "pocs": [
+      {
+        "name": "MEET THE",
+        "sources": [
+          "heading_h1"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 10.45,
+    "metro": "toronto",
+    "phone": "+1 416-967-7448"
+  },
+  {
+    "lead_title": "100 MILES BRAND",
+    "website": "http://100milesbrand.com/",
+    "pages": [
+      {
+        "url": "https://www.100milesbrand.com/",
+        "title": "100 Miles Brand | Online Store, Hats, Tees, Sweats, Hoodies"
+      },
+      {
+        "url": "https://www.100milesbrand.com/pages/contact-us",
+        "title": "Contact Us - 100 Miles Brand"
+      },
+      {
+        "url": "https://www.100milesbrand.com/pages/about",
+        "title": "About Us - 100 Miles Brand"
+      }
+    ],
+    "emails": [
+      "info@100milesbrand.com"
+    ],
+    "socials": [
+      "http://facebook.com/100milesbrand/",
+      "http://twitter.com/100milesbrand/",
+      "https://www.instagram.com/100milesbrand/?hl=en",
+      "https://www.tiktok.com/@100milesbrand",
+      "https://www.youtube.com/user/100milesbrand/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.97,
+    "metro": "toronto",
+    "phone": "+1 416-732-3092"
+  },
+  {
+    "lead_title": "Space Vintage",
+    "website": "https://spacevintagestyle.com/pages/book-a-fitting",
+    "pages": [
+      {
+        "url": "https://spacevintagestyle.com/pages/book-a-fitting",
+        "title": "Book a Fitting – shopspacevintage"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 7.96,
+    "metro": "toronto",
+    "phone": ""
+  },
+  {
+    "lead_title": "Due West",
+    "website": "http://www.duewest.ca/",
+    "pages": [
+      {
+        "url": "https://duewest.ca/",
+        "title": "Due West | Shop Premium Outerwear and Clothing"
+      },
+      {
+        "url": "https://duewest.ca/pages/about-us",
+        "title": "ABOUT US - Due West"
+      }
+    ],
+    "emails": [
+      "customercare@duewest.ca"
+    ],
+    "socials": [
+      "https://www.facebook.com/shopduewest/",
+      "https://www.instagram.com/shopduewest/?hl=en"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 9.73,
+    "metro": "toronto",
+    "phone": "+1 416-593-6267"
+  },
+  {
+    "lead_title": "Mine & Yours",
+    "website": "https://mineandyours.com/",
+    "pages": [
+      {
+        "url": "https://www.mineandyours.com/",
+        "title": "Canada's Trusted Leader in Designer Resale and Luxury Consignment – Mine & Yours"
+      },
+      {
+        "url": "https://www.mineandyours.com/pages/contact-us",
+        "title": "Location | Contact Us | Mine & Yours | Vancouver BC"
+      }
+    ],
+    "emails": [
+      "orders@mineandyours.com",
+      "sell@mineandyours.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/mineandyoursco",
+      "https://www.facebook.com/mineandyoursco/",
+      "https://www.instagram.com/mineandyours2.0/",
+      "https://www.instagram.com/mineandyoursco",
+      "https://www.tiktok.com/@mineandyoursco"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.88,
+    "metro": "toronto",
+    "phone": "+1 437-880-8264"
+  },
+  {
+    "lead_title": "Public Butter Kensington",
+    "website": "https://www.publicbutter.com/",
+    "pages": [
+      {
+        "url": "https://publicbutter.com/",
+        "title": "Public Butter"
+      },
+      {
+        "url": "https://publicbutter.com/pages/contact-us",
+        "title": "Contact Us – Public Butter"
+      }
+    ],
+    "emails": [
+      "roy@blackmarkettoronto.com",
+      "roy@publicbutter.com"
+    ],
+    "socials": [
+      "https://www.instagram.com/publicbutter/",
+      "https://www.tiktok.com/@public_butter_vintage"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.83,
+    "metro": "toronto",
+    "phone": "+1 437-880-9307"
+  },
+  {
+    "lead_title": "Sydney's",
+    "website": "http://www.shopsydneys.com/",
+    "pages": [
+      {
+        "url": "https://shopsydneys.com/",
+        "title": "Sydney's Toronto | Ready to Wear, Custom & Bespoke Menswear"
+      },
+      {
+        "url": "https://shopsydneys.com/pages/contact-us",
+        "title": "Visit Us – Sydney's"
+      },
+      {
+        "url": "https://shopsydneys.com/pages/about-us-custom-bespoke-toronto",
+        "title": "Contact | Toronto's Premium Suiting Services | Shop Sydney's Toronto"
+      }
+    ],
+    "emails": [
+      "shop@shopsydneys.com"
+    ],
+    "socials": [
+      "https://www.instagram.com/shopsydneys"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.84,
+    "metro": "toronto",
+    "phone": "+1 416-603-3369"
+  },
+  {
+    "lead_title": "la Vie en Rose Stock Yards Village",
+    "website": "https://www.lavieenrose.com/en/our-stores/0105-toronto-stock-yards-village?utm_source=googlebusinessprofile&utm_medium=organic_local&utm_campaign=lver_store_canada&utm_content=website_button&utm_term=0105",
+    "pages": [
+      {
+        "url": "https://www.lavieenrose.com/en/our-stores/0105-toronto-stock-yards-village?utm_source=googlebusinessprofile&utm_medium=organic_local&utm_campaign=lver_store_canada&utm_content=website_button&utm_term=0105",
+        "title": "Lingerie & Swimwear - Stockyards, Toronto | la Vie en Rose"
+      },
+      {
+        "url": "https://www.lavieenrose.com/en/customer/contact-us",
+        "title": "Contact us | la Vie en Rose"
+      },
+      {
+        "url": "https://www.lavieenrose.com/en/our-story",
+        "title": "The Story Behind the la Vie en Rose Brand | la Vie en Rose"
+      }
+    ],
+    "emails": [
+      "info@lavieenrose.com"
+    ],
+    "socials": [
+      "https://ca.linkedin.com/company/la-vie-en-rose",
+      "https://cws.givex.com/cws4.0/lavieenrose/",
+      "https://cws.givex.com/cws4.0/lavieenrose/check-balance/",
+      "https://cws.givex.com/cws4.0/lavieenrose/e-gifts/",
+      "https://www.facebook.com/lavieenrose",
+      "https://www.instagram.com/lavieenrose/",
+      "https://www.tiktok.com/@lavieenrose",
+      "https://www.youtube.com/user/lavieenrose"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.7,
+    "metro": "toronto",
+    "phone": "+1 416-769-4535"
+  },
+  {
+    "lead_title": "A & A Department Store",
+    "website": "http://www.riina.ca/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 7.67,
+    "metro": "toronto",
+    "phone": "+1 647-836-3868"
+  },
+  {
+    "lead_title": "Stag Shop - Adult Sex Store",
+    "website": "https://stagshop.com/pages/stag-shop-scarborough-location/?utm_source=google&utm_medium=organic&utm_campaign=local&utm_content=Scarborough",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 7.85,
+    "metro": "toronto",
+    "phone": "+1 416-412-1826"
+  },
+  {
+    "lead_title": "Canvas Cannabis",
+    "website": "https://www.canvascannabis.ca/",
+    "pages": [
+      {
+        "url": "https://www.canvascannabis.ca/",
+        "title": "Best Toronto Dispensary | Cannabis Stores Toronto | Canvas Cannabis"
+      },
+      {
+        "url": "https://www.canvascannabis.ca/about",
+        "title": "Best Toronto Cannabis Store | Cannabis Stores Toronto | Canvas Cannabis"
+      }
+    ],
+    "emails": [
+      "helene@canvascannabis.ca",
+      "projects@lifelike.digital"
+    ],
+    "socials": [
+      "https://www.facebook.com/canvasretail",
+      "https://www.instagram.com/canvas.cannabis/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.82,
+    "metro": "toronto",
+    "phone": "+1 416-551-3971"
+  },
+  {
+    "lead_title": "Province of Canada",
+    "website": "http://provinceofcanada.com/",
+    "pages": [
+      {
+        "url": "https://provinceofcanada.com/",
+        "title": "Province of Canada – Made in Canada"
+      },
+      {
+        "url": "https://provinceofcanada.com/pages/contact",
+        "title": "Contact Us – Province of Canada"
+      },
+      {
+        "url": "https://provinceofcanada.com/pages/about",
+        "title": "About Us – Province of Canada"
+      }
+    ],
+    "emails": [
+      "info@provinceofcanada.com",
+      "press@provinceofcanada.com",
+      "sales@provinceofcanada.com",
+      "studio@provinceofcanada.com"
+    ],
+    "socials": [
+      "https://facebook.com/provinceofcanada",
+      "https://instagram.com/provinceofcanada",
+      "https://www.instagram.com/provinceofcanada/",
+      "https://x.com/provincecanada"
+    ],
+    "pocs": [
+      {
+        "name": "Our Founder",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.7,
+    "metro": "toronto",
+    "phone": "+1 416-551-1229"
+  }
+]

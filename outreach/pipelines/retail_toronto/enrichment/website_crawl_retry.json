@@ -1,0 +1,72 @@
+[
+  {
+    "lead_title": "Brands Gone Wild",
+    "website": "https://www.brandsgonewild.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_AUTHORITY_INVALID "
+    ],
+    "quality_score": 10.88,
+    "metro": "toronto"
+  },
+  {
+    "lead_title": "Shoppes on Queen West",
+    "website": "",
+    "status": "no_website",
+    "errors": [
+      "no_website"
+    ],
+    "quality_score": 9.24,
+    "metro": "toronto"
+  },
+  {
+    "lead_title": "Courage My Love",
+    "website": "",
+    "status": "no_website",
+    "errors": [
+      "no_website"
+    ],
+    "quality_score": 9.05,
+    "metro": "toronto"
+  },
+  {
+    "lead_title": "Ottilia And Sugar",
+    "website": "",
+    "status": "no_website",
+    "errors": [
+      "no_website"
+    ],
+    "quality_score": 8.89,
+    "metro": "toronto"
+  },
+  {
+    "lead_title": "Flamingo Vintage Kensington",
+    "website": "",
+    "status": "no_website",
+    "errors": [
+      "no_website"
+    ],
+    "quality_score": 8.39,
+    "metro": "toronto"
+  },
+  {
+    "lead_title": "A & A Department Store",
+    "website": "http://www.riina.ca/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": 7.67,
+    "metro": "toronto"
+  },
+  {
+    "lead_title": "Stag Shop - Adult Sex Store",
+    "website": "https://stagshop.com/pages/stag-shop-scarborough-location/?utm_source=google&utm_medium=organic&utm_campaign=local&utm_content=Scarborough",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": 7.85,
+    "metro": "toronto"
+  }
+]

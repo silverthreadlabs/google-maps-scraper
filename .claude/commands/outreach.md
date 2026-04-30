@@ -59,9 +59,13 @@ against a curated lead subset.
 **When to use:** classifying fresh raw scrapes for the first time, OR
 re-classifying an existing master after the taxonomy/agent changes.
 
+**Required pipeline config:** none — the classify stage reads the
+taxonomy from `outreach/silverthread/pain_categories.md` directly.
+
 **Output:** a sidecar at
 `outreach/pipelines/<pipeline>/enrichment/pain_classifications/<today>.json`,
-keyed by `place_id`, append-only (never replaces prior runs).
+keyed by `place_id`, in the exact shape `merge_classifications.py`
+expects (see step 5 below).
 
 ### Procedure
 
@@ -72,46 +76,84 @@ keyed by `place_id`, append-only (never replaces prior runs).
    *"How many leads to classify? (default proposal: top-N by quality_score
    if a master exists, otherwise all leads in the raw scrape)"*
    Confirm the lead count before dispatching anything.
-3. **Build per-lead review batches.** For each selected lead:
-   - Merge `user_reviews` + `user_reviews_extended`, dedupe per CLAUDE.md
-     rule 3.
+3. **Build the review index + batches.** Walk the selected leads:
+   - For each lead, merge `user_reviews` + `user_reviews_extended` and
+     dedupe by `(reviewer_name, description[:120])` (CLAUDE.md rule 3).
    - Filter to ≤3★ reviews (pain signal is concentrated there).
-   - Build a JSON row: `{id: <place_id>, reviews: [<review-text>, ...]}`.
-   Group rows into batches of **20–40 reviews per batch** (not per lead —
-   reviews. A 40-review-per-lead practice = 1 lead per batch).
-4. **Dispatch.** For each batch, invoke the subagent via the Agent tool:
+   - Assign each review a globally unique integer `id` (sequential, 0..N-1).
+   - Maintain a parallel index in memory:
+     `review_index[id] = {place_id, rating, reviewer, snippet}`
+     where `snippet = description[:300]`. The merge step joins on this.
+   - Subagent input row shape: `{id: <int>, text: <review description>}`.
+   Group review rows into batches of **20–40 reviews per batch** (not per
+   lead — reviews; a single 40-review practice fills one batch).
+4. **Dispatch — all batches in ONE message, in parallel.**
+   In a single assistant message, emit one Agent tool-use block per
+   batch (4–8 batches per message is reasonable; the runtime parallelizes
+   them). Don't await one batch before sending the next — they're
+   independent. For each Agent block:
    - `subagent_type: "pain-classifier"`
-   - `prompt:` instructs the subagent to read
-     `outreach/silverthread/pain_categories.md`, then classify each
-     review per the schema in its agent definition. Pass the batch JSON
-     verbatim.
-   - **Parallelize independent batches** in a single message with
-     multiple Agent tool calls (per the dispatching-parallel-agents
-     skill). 4–8 in flight is reasonable.
-5. **Merge results.** Write to
-   `enrichment/pain_classifications/<today>.json`. Schema:
+   - `prompt`: tell the subagent to read
+     `outreach/silverthread/pain_categories.md` first, then classify each
+     review per its agent definition. Pass the batch JSON verbatim.
+5. **Build the sidecar.** Concatenate the batch outputs (each is a list
+   of `{id, categories: [{main, sub, confidence, quote, reasoning}]}`),
+   then for each `(id, category)` join via the review_index and emit
+   into the sidecar dict. Output schema (matches
+   `scripts/merge_classifications.py`'s SIDECAR SCHEMA):
    ```json
    {
-     "<place_id>": [
-       {"main": "calls_unanswered", "sub": "missed_calls_during_business_hours",
-        "confidence": 0.88, "quote": "I called five times...", "reasoning": "..."}
-     ]
+     "<place_id>": {
+       "<main>": [
+         {
+           "sub":        "missed_calls_during_business_hours",
+           "confidence": 0.88,
+           "snippet":    "I called five times…",          // ← from review_index, NOT from `quote`
+           "rating":     1,                                // ← from review_index
+           "reviewer":   "Jane D",                         // ← from review_index
+           "reasoning":  "direct phone-unreachable language"
+         }
+       ]
+     }
    }
    ```
-   If the file exists from an earlier run today, append (preserve the
-   prior runs as historical record per the never-drop rule).
-6. **Spot-check quality.** Print 3 random `(quote, main/sub)` pairs from
-   the sidecar to the user. If anything looks like a category mismatch,
-   stop and surface it. The current baseline is main F1 0.784 / strict
-   F1 0.683 — large quality regressions are the failure mode to catch.
-7. **Echo summary:**
-   `classified <n> leads (<m> hits across <k> categories) → <sidecar-path>`
+   Field-name discipline: csv_builder reads `snippet`/`rating`/`reviewer`,
+   so use those names. The subagent's `quote` is the verbatim span;
+   we use the review_index's `snippet` (full ≤300-char excerpt) as
+   the CSV-bound copy. Both can be preserved if you'd rather; minimum
+   required is `snippet`.
+
+   Write atomically (temp + rename). If the file exists from an earlier
+   run today, write to `<today>-2.json` rather than overwriting — the
+   prior run is the audit record (CLAUDE.md rule 1).
+6. **Stratified spot-check.** Quality gate before declaring done:
+   - Sample size: `max(10, round(0.10 * total_hits))`.
+   - **Stratify by main**: every main category that fired contributes at
+     least one sample (so the long tail isn't hidden behind the most
+     populous main).
+   - For each sampled hit, print: `(main, sub, confidence) — "<snippet>"`.
+   - Compute mean confidence across ALL hits (not just the sample).
+     If `< 0.6`, flag it loudly: the agent is hedging more than usual.
+   - Then ask the user explicitly: *"these hits look right — proceed,
+     retry classify, or abort?"* Don't infer "looks fine" from your
+     own read.
+
+   Current baseline (2026-04-29 gold set, 100 reviews):
+   main F1 = 0.784, strict (main, sub) F1 = 0.683. Mean confidence on
+   that run was ≈0.78. A new run with mean confidence noticeably below
+   that, or with obvious category mismatches in the sample, is the
+   failure mode the gate is meant to catch.
+7. **Echo summary:** `classified <n> leads (<m> hits across <k> mains) → <sidecar-path>`
+   plus `next: python outreach/scripts/merge_classifications.py --master <…> --sidecar <sidecar> --out <new-master>`.
 
 ---
 
 ## Stage: enrich
 
 Delegates to `outreach/scripts/enrich.py`.
+
+**Required pipeline config:** `ENRICH_PROFILE` (the dataclass shape is
+documented in `outreach/lib/enrichers/website_crawl.py:EnrichProfile`).
 
 ```bash
 python outreach/scripts/enrich.py <pipeline> [--queue PATH] [--workers N]
@@ -132,6 +174,10 @@ already in the file) and `enrichment/website_crawl_retry.json`
 
 Delegates to `outreach/scripts/validate.py`.
 
+**Required pipeline config:** `METRO_AREA_CODES` (for the metro-mismatch
+phone check). `VENDOR_DOMAINS_EXTRA` is optional — extends the lib's
+generic vendor reject set with vertical-specific marketing vendors.
+
 ```bash
 python outreach/scripts/validate.py <pipeline> [--master PATH]
 ```
@@ -150,6 +196,11 @@ flags. Skipping validate produces a CSV with `phone_invalid: None`
 ## Stage: handoff
 
 Delegates to `outreach/scripts/handoff.py`.
+
+**Required pipeline config:** `PAIN_WEIGHTS`, `SERVICE_MAP`. Both are
+keyed by the new STL hierarchy main names (`calls_unanswered`,
+`booking_friction`, …) — same keys the classify stage and
+`csv_builder._pain_hits_field` use.
 
 ```bash
 python outreach/scripts/handoff.py <pipeline> [--master PATH] [--out PATH]
@@ -190,17 +241,26 @@ python outreach/scripts/handoff.py <pipeline> \
 The 2026-04-25 dental delivery needs URL normalization fixes and
 agent-classified pain quotes (TODO.md). Sequence:
 
-1. `/outreach dental_sunbelt classify` — emits a fresh sidecar.
-2. **Build new master** (inline or via the future analyze script):
-   read the existing `outputs/2026-04-25/master.json`, merge sidecar
-   classifications by adding an `agent_pain_hits` field per lead
-   (KEEP the old `pain_hits` untouched — provenance), write to
-   `outputs/<today>/master.json`.
+1. `/outreach dental_sunbelt classify` — emits the sidecar at
+   `enrichment/pain_classifications/<today>.json`.
+2. **Merge sidecar into a new master:**
+   ```bash
+   python outreach/scripts/merge_classifications.py \
+     --master  outreach/pipelines/dental_sunbelt/outputs/2026-04-25/master.json \
+     --sidecar outreach/pipelines/dental_sunbelt/enrichment/pain_classifications/<today>.json \
+     --out     outreach/pipelines/dental_sunbelt/outputs/<today>/master.json
+   ```
+   Adds `agent_pain_hits` + provenance to every lead. Existing
+   `pain_hits` (legacy SBERT) stays untouched — the audit trail.
+   Inspect the orphan-place_ids stat: nonzero usually means classify
+   ran against a different master than this one.
 3. `/outreach dental_sunbelt validate` — annotates the new master.
 4. `/outreach dental_sunbelt handoff` with explicit `--master` and
    `--out` pointing at `outputs/<today>/`.
 5. Compare lead counts and tier distribution to the prior delivery
-   before declaring done.
+   before declaring done. Big shifts in tier mix usually mean the
+   classifier's category re-mapping changed which pains drive ranking
+   — surface to the user before shipping to sales.
 
 ---
 

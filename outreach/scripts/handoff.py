@@ -18,12 +18,14 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lib.handoff.csv_builder import build_handoff
+from lib.ranking import tier
 from scripts._common import (
     add_pipeline_arg,
     load_pipeline_config,
@@ -32,6 +34,24 @@ from scripts._common import (
     require_attr,
 )
 from scripts.validate import latest_master  # reuse the same convention
+
+
+def _owner_lookup_candidates(master_path: Path) -> int:
+    """Count tier-A/B leads with no `owner_name` populated.
+    These are the leads where the optional owner-lookup stage adds the
+    most value (named decision-maker for high-priority outreach)."""
+    try:
+        leads = json.loads(master_path.read_text())
+    except Exception:
+        return 0
+    n = 0
+    for l in leads:
+        if l.get('owner_name'):
+            continue
+        t = l.get('tier') or tier(l.get('quality_score'))
+        if t in {'A', 'B'}:
+            n += 1
+    return n
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -72,6 +92,14 @@ def main(argv: list[str] | None = None) -> int:
             pain_weights=pain_weights,
         )
     print(f"next: review {out_path} and ship to sales (last stage)", flush=True)
+    n_owner_gaps = _owner_lookup_candidates(master_path)
+    if n_owner_gaps > 0:
+        print(
+            f"  optional: {n_owner_gaps} tier-A/B leads have no owner_name — "
+            f"see /outreach {args.pipeline} owner-lookup (manual stage; "
+            f"runbook: .claude/commands/outreach.md)",
+            flush=True,
+        )
     return 0
 
 

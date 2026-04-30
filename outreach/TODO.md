@@ -49,6 +49,32 @@ the lead stream → handoff. Decide:
   keyed by `place_id`, append-only per CLAUDE.md rule 1).
 - How the main agent invokes the subagent in batches that fit context.
 
+## owner-lookup-script
+
+Decision-maker enrichment is currently a manual web-search step (the
+2026-04-25 dental master has 4 leads with `owner_source: 'web_search_linkedin'`
+populated by hand). No script yet. Runbook (`.claude/commands/outreach.md`)
+documents the manual flow and `scripts/handoff.py` surfaces the gap as an
+optional `next:` hint when tier-A/B leads have empty `owner_name`.
+
+When implementing as `outreach/scripts/owner_lookup.py`:
+- Input: a master.json + a tier filter (default `{A, B}`) + `--limit N`.
+- Output: sidecar `enrichment/owner_lookups/<today>.json` keyed by
+  `place_id` + an in-place patch onto master with `owner_name`,
+  `owner_title`, `owner_linkedin`, `owner_source`, `owner_added_at`.
+- Provider: agent-browser web search → LinkedIn (or a paid people-search
+  API if scraping LinkedIn becomes unworkable). Single configurable
+  provider behind a small interface; provenance stays consistent regardless.
+- Idempotency: skip leads already carrying `owner_name`.
+
+## poc-validator coverage
+
+`lib/validators/poc.py` covers section-heading captures and template
+phrases the heading-extractor truncates to two tokens. As more verticals
+land, expand `STANDALONE_HEADING_WORDS` / `TEMPLATE_PHRASES` from real
+crawl output rather than guessing — every new false-positive class adds
+a test case in `tests/test_poc.py`.
+
 ## Feedback loop
 
 - Wire sales-team disposition codes (e.g., `bounced`, `wrong_poc`,

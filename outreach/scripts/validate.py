@@ -1,13 +1,16 @@
 """
-Run email + phone validators against a pipeline's master JSON.
+Run email + phone + POC validators against a pipeline's master JSON.
 
 Annotates invalid values with sibling flags (per the never-drop rule in
 outreach/CLAUDE.md):
 
-  emails_invalid   — list[{email, reason}], appended (existing entries
-                     preserved; new invalids deduped by email).
-  phone_invalid    — bool sibling flag.
+  emails_invalid       — list[{email, reason}], appended (existing entries
+                         preserved; new invalids deduped by email).
+  phone_invalid        — bool sibling flag.
   phone_invalid_reason — short reason tag.
+  pocs[*].invalid      — bool flag set in-place on each POC dict whose
+                         `name` looks like a section heading or role label.
+  pocs[*].invalid_reason — short reason tag.
 
 Pipeline config:
   METRO_AREA_CODES        (required for metro-mismatch phone check)
@@ -29,6 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lib.validators.email import validate_email
 from lib.validators.phone import validate_phone
+from lib.validators.poc import validate_poc
 from scripts._common import (
     add_pipeline_arg,
     load_pipeline_config,
@@ -80,6 +84,22 @@ def annotate_phone(lead: dict, *, metro_area_codes: dict | None) -> bool:
     return not ok
 
 
+def annotate_pocs(lead: dict) -> int:
+    """Set `invalid` + `invalid_reason` on each POC dict whose name is a
+    section heading or role label. Mutates in-place. Returns count newly
+    flagged (skips POCs already marked invalid)."""
+    flagged = 0
+    for poc in lead.get('pocs') or []:
+        if not isinstance(poc, dict) or poc.get('invalid'):
+            continue
+        ok, reason = validate_poc(poc.get('name'))
+        if not ok:
+            poc['invalid'] = True
+            poc['invalid_reason'] = reason or ''
+            flagged += 1
+    return flagged
+
+
 def write_atomic(path: Path, leads: list[dict]) -> None:
     tmp = path.with_suffix(path.suffix + '.tmp')
     tmp.write_text(json.dumps(leads, indent=2, ensure_ascii=False))
@@ -114,16 +134,19 @@ def main(argv: list[str] | None = None) -> int:
         leads = json.loads(master_path.read_text())
         n_email_added = 0
         n_phone_bad = 0
+        n_pocs_flagged = 0
         for lead in leads:
             n_email_added += annotate_emails(lead, extra_vendor_domains=extra_vendor)
             if annotate_phone(lead, metro_area_codes=metros):
                 n_phone_bad += 1
+            n_pocs_flagged += annotate_pocs(lead)
 
         write_atomic(master_path, leads)
 
     print(
         f"validated {len(leads)} leads → +{n_email_added} email invalid, "
-        f"{n_phone_bad} phones marked invalid → {master_path}",
+        f"{n_phone_bad} phones marked invalid, "
+        f"{n_pocs_flagged} POCs marked invalid → {master_path}",
         flush=True,
     )
     print(f"next: /outreach {args.pipeline} handoff", flush=True)

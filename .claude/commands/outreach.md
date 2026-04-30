@@ -212,12 +212,16 @@ python outreach/scripts/validate.py <pipeline> [--master PATH]
 
 Defaults to the latest `outputs/<date>/master.json`. Appends sibling
 flags for invalid emails (`emails_invalid: list[{email, reason}]`,
-deduped by email) and for the phone (`phone_invalid: bool`,
-`phone_invalid_reason: str`). Atomic write-back. Never drops rows.
+deduped by email), for the phone (`phone_invalid: bool`,
+`phone_invalid_reason: str`), and for each POC (`pocs[*].invalid: bool`,
+`pocs[*].invalid_reason: str` — set in-place on the POC dict; raw `name`
+preserved). Atomic write-back. Never drops rows.
 
 **Always run validate before handoff** — handoff reads the sibling
 flags. Skipping validate produces a CSV with `phone_invalid: None`
-(string "None" in the cell) and missing email-invalid counts.
+(string "None" in the cell), missing email-invalid counts, and POCs
+that include section-heading captures like "MEET THE" or "Our Founder"
+in the `pocs` column.
 
 ---
 
@@ -261,6 +265,30 @@ python outreach/scripts/handoff.py <pipeline> \
   `lib/ranking.quality_score(pain_hits, review_count, rating, pain_weights=...)`,
   and write `outputs/<date>/master.json`. Will become a script when a
   second vertical lands.
+- **owner-lookup (optional)** — finds named decision-makers (owner /
+  founder / managing partner) for the top-tier handoff CSV rows. Dental
+  precedent: the 2026-04-25 master has 4 leads with `owner_source:
+  'web_search_linkedin'`, populated by a one-off run. There is no
+  pipeline script yet (TODO.md `owner-lookup-script`). Surface as an
+  optional next step **after handoff** when the CSV's `owner_name`
+  column is empty AND there are tier-A/B leads worth the manual lift.
+
+  Until the script exists, run by hand:
+   1. Pull the top-N rows from `handoff.csv` where `owner_name` is empty
+      and `tier` ∈ {A, B}.
+   2. For each, web-search "<title> <metro> linkedin owner / founder",
+      pick the best match, capture `owner_name` / `owner_title` /
+      `owner_linkedin`.
+   3. Write a sidecar at `enrichment/owner_lookups/<today>.json` keyed by
+      `place_id`: `{name, title, linkedin}`.
+   4. Patch master in place: add `owner_name`, `owner_title`,
+      `owner_linkedin` plus provenance `owner_source: 'web_search_linkedin'`,
+      `owner_added_at: <today>`. Re-run handoff.
+
+  Skip owner-lookup when: (a) handoff is for a tier-D-heavy CSV (low
+  conversion ceiling, not worth the lift), (b) the vertical's pitch
+  works without a named POC (mass `info@` outreach), or (c) the user
+  is testing the pipeline and not shipping to sales.
 
 ---
 

@@ -4,10 +4,12 @@ Open work that doesn't belong in CLAUDE.md (auto-loaded) — read on demand.
 
 ## Bug fixes from sales feedback (2026-04-25)
 
-- **URL tracking params in handoff CSV.** `lib/url_normalize.py` is
-  implemented and tested; needs to be wired through
-  `lib/handoff/csv_builder.py` so the cleaned URL replaces the raw one
-  at output time (with the original kept in an audit column).
+- **URL tracking params in handoff CSV.** Resolved (2026-04-30):
+  `lib/url_normalize.py` wired through `lib/handoff/csv_builder.py`
+  via `apply_url_normalization()`. `website`, `google_maps_link`, and
+  `website_redirect_target` get cleaned at output time; original is
+  preserved in `<field>_raw` audit columns when normalization changed
+  the value. Tests: `lib/handoff/tests/test_csv_builder.py`.
 - **Pain quote ↔ category mismatch.** Solved by a Claude Code subagent
   (`.claude/agents/pain-classifier.md`) that classifies reviews against
   the STL-derived hierarchy in `outreach/silverthread/pain_categories.md`.

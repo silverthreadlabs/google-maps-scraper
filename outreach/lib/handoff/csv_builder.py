@@ -13,10 +13,29 @@ import math
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from email_validity import validate_email
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from lib.url_normalize import normalize_url
 
 ROOT = Path('/home/fassihhaider/Work/google-maps-scraper/gmapsdata')
+
+# URL columns sales clicks on. Each gets normalized at output time; the
+# original is preserved in the paired audit column when normalization changed
+# the value (and left empty otherwise, so the CSV doesn't carry duplicate
+# columns when there's nothing to audit).
+HANDOFF_URL_FIELDS: list[tuple[str, str]] = [
+    ('website',                  'website_raw'),
+    ('google_maps_link',         'google_maps_link_raw'),
+    ('website_redirect_target',  'website_redirect_target_raw'),
+]
+
+
+def apply_url_normalization(row: dict, url_fields: list[tuple[str, str]]) -> None:
+    """Strip tracking params from each URL field in `row`; record original in audit column when changed."""
+    for field, audit in url_fields:
+        raw = row.get(field) or ''
+        cleaned = normalize_url(raw) or ''
+        row[field] = cleaned
+        row[audit] = raw if cleaned and cleaned != raw else ''
 
 # Same weights as ranking — ensures top_pain_category lines up with what scored the lead.
 PAIN_WEIGHTS = {
@@ -154,6 +173,8 @@ def main():
         # context for sales
         'all_pain_categories', 'all_recommended_services',
         'crawl_status', 'research_note',
+        # audit — pre-normalization URLs (populated only when normalization changed the value)
+        'website_raw', 'google_maps_link_raw', 'website_redirect_target_raw',
     ]
 
     out_path = ROOT / 'dentists_handoff.csv'
@@ -215,6 +236,7 @@ def main():
                 'crawl_status': l.get('crawl_status') or '',
                 'research_note': l.get('research_note') or '',
             }
+            apply_url_normalization(row, HANDOFF_URL_FIELDS)
             w.writerow(row)
 
     print(f"wrote {out_path} ({len(rows)} rows)")

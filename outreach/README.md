@@ -84,7 +84,7 @@ python outreach/orchestrator.py validate dental_sunbelt
 python outreach/orchestrator.py handoff dental_sunbelt
 
 # Run all unit tests
-for t in outreach/lib/validators/tests/test_*.py outreach/lib/test_*.py; do
+for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
     python "$t"
 done
 
@@ -109,20 +109,23 @@ python outreach/pipelines/dental_sunbelt/eval/eval_runner.py predictions.json
      (main, sub) F1 0.683, strict exact-match 0.64 — vs prior SBERT
      baseline of ~0.43. Eval harness: `pipelines/dental_sunbelt/eval/eval_runner.py`.
   2. URLs had tracking-param noise.
-     Fixed: `lib/url_normalize.py` + tests; pending wiring through
-     `lib/handoff/csv_builder.py` (see `TODO.md`).
+     Fixed: `lib/url_normalize.py` + tests, wired through
+     `lib/handoff/csv_builder.py` at output time. Cleaned URL replaces
+     the raw value; the original is preserved in
+     `<field>_raw` audit columns when normalization changed it.
 
 ## Tests
 
 Unit tests live alongside their modules. Run all:
 
 ```bash
-for t in outreach/lib/validators/tests/test_*.py outreach/lib/test_*.py; do
+for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
     python "$t" 2>&1 | tail -2
 done
 ```
 
-Current count: 28 tests across 4 modules (email, phone, POC, url_normalize).
+Current count: 35 tests across 5 modules (email, phone, POC, url_normalize,
+handoff/csv_builder).
 
 ## Adding a new vertical
 

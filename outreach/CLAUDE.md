@@ -73,4 +73,4 @@ will false-positive.
 
 - TDD for new logic. Project TDD rules: `outreach/TDD-RULES.md`.
 - Run tests before declaring done:
-  `for t in outreach/lib/validators/tests/test_*.py outreach/lib/test_*.py; do python "$t"; done`
+  `for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do python "$t"; done`

@@ -43,6 +43,21 @@ PAIN_WEIGHTS: dict[str, int] = {
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Email validation extras (consumed by lib/validators/email.py)
+# ─────────────────────────────────────────────────────────────────────────────
+# Dental-specific marketing / template / forwarding vendors. The lib's
+# generic VENDOR_DOMAINS already covers wix/squarespace/hubspot/etc; this
+# extends it with vendors only seen on dental sites.
+VENDOR_DOMAINS_EXTRA: frozenset[str] = frozenset({
+    'gargle.com',           # dental marketing
+    'officite.com',         # website builder for medical / dental
+    'mydentalmail.com',     # dental template/forwarding service
+    'dentalqore.com',       # dental website builder
+    'progressivedental.com',# dental marketing / consulting (conservative — drop if real practices use)
+})
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Website-crawl enrichment profile (consumed by lib/enrichers/website_crawl.py)
 # ─────────────────────────────────────────────────────────────────────────────
 ENRICH_PROFILE = EnrichProfile(

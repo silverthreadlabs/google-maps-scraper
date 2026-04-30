@@ -7,6 +7,18 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 from lib.validators.email import validate_email
 
 
+# Dental-specific marketing/template vendors. In production these are
+# supplied by pipelines/dental_sunbelt/config.py:VENDOR_DOMAINS_EXTRA;
+# duplicating the set here keeps the validator test self-contained.
+DENTAL_VENDOR_DOMAINS_EXTRA = frozenset({
+    'gargle.com',
+    'officite.com',
+    'mydentalmail.com',
+    'dentalqore.com',
+    'progressivedental.com',
+})
+
+
 VALID = [
     'info@emergencydentistofaustin.com',
     'sierrafo@skydentalaz.com',
@@ -33,15 +45,6 @@ INVALID_IMAGE = [
     'fancybox_sprite@2x.png',
     'logo@3x.svg',
     'icon@2x.jpeg',
-]
-
-INVALID_VENDOR = [
-    'webreporting@gargle.com',
-    'contact@officite.com',
-    'support@rola.com',
-    'preston@metapv.co',
-    'dcpflugerville@mydentalmail.com',
-    'noreply@wixpress.com',  # wix subdomain via vendor parent — not in our list, expect fall-through
 ]
 
 INVALID_NOREPLY = [
@@ -84,12 +87,32 @@ class TestEmailValidity(unittest.TestCase):
                 self.assertFalse(ok)
                 self.assertEqual(reason, 'image_artifact')
 
-    def test_vendor_domains(self):
-        # Test only entries with vendor domains we explicitly listed.
-        for e in ['webreporting@gargle.com', 'contact@officite.com', 'support@rola.com',
-                  'preston@metapv.co', 'dcpflugerville@mydentalmail.com']:
+    def test_generic_vendor_domains(self):
+        # Generic web-builder / SaaS / template — rejected without any
+        # extra_vendor_domains argument.
+        for e in ['support@rola.com', 'preston@metapv.co',
+                  'team@hubspot.com', 'info@wix.com']:
             with self.subTest(email=e):
                 ok, reason = validate_email(e)
+                self.assertFalse(ok, f"expected vendor reject for {e}")
+                self.assertEqual(reason, 'vendor_marketing')
+
+    def test_vertical_specific_vendors_pass_when_no_extra_supplied(self):
+        # Dental vendors are NOT in the lib default — without
+        # extra_vendor_domains, they validate as real emails.
+        for e in ['webreporting@gargle.com', 'contact@officite.com',
+                  'dcpflugerville@mydentalmail.com']:
+            with self.subTest(email=e):
+                ok, reason = validate_email(e)
+                self.assertTrue(ok, f"expected valid (no extra given) for {e}, got {reason}")
+
+    def test_vertical_specific_vendors_rejected_when_extra_supplied(self):
+        # When the dental pipeline supplies its VENDOR_DOMAINS_EXTRA, those
+        # domains get the same vendor_marketing rejection.
+        for e in ['webreporting@gargle.com', 'contact@officite.com',
+                  'dcpflugerville@mydentalmail.com']:
+            with self.subTest(email=e):
+                ok, reason = validate_email(e, extra_vendor_domains=DENTAL_VENDOR_DOMAINS_EXTRA)
                 self.assertFalse(ok, f"expected vendor reject for {e}")
                 self.assertEqual(reason, 'vendor_marketing')
 

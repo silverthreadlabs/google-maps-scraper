@@ -20,43 +20,33 @@ if str(_OUTREACH_ROOT) not in sys.path:
 from lib.enrichers.website_crawl import EnrichProfile
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Pain ranking weights (used by lib/ranking.py:quality_score)
+# Pain ranking weights (used by lib/ranking.py:quality_score and the handoff
+# CSV's top-pain selection).
 # ─────────────────────────────────────────────────────────────────────────────
-# NOTE: keys are still the legacy flat category names. The pain-classifier
-# subagent (.claude/agents/pain-classifier.md) emits (main, sub) tuples
-# against the STL hierarchy in outreach/silverthread/pain_categories.md.
-# Re-key to (main, sub) tuples when ranking is rewired against the new
-# taxonomy.
+# Keys are the six main category names from the STL-derived hierarchy in
+# outreach/silverthread/pain_categories.md, matching what the pain-classifier
+# subagent emits in `agent_pain_hits[<main>]`.
 PAIN_WEIGHTS: dict[str, int] = {
-    'missed_calls_unreachable':         5,
-    'after_hours_emergency':            5,
-    'insurance_verification_missing':   5,
-    'appointment_booking_delay':        4,
-    'no_show_reminder_missing':         4,
-    'language_barrier_spanish':         3,
-    'recall_followup_missing':          3,
-    'intake_paperwork_duplication':     3,
-    'billing_errors':                   2,
-    'long_wait_in_chair':               2,
-    'staff_rude_front_desk':            1,
+    'calls_unanswered':            5,  # flagship Voice AI fit (inbound coverage)
+    'booking_friction':            4,  # Voice AI booking + Agentic self-service
+    'followup_dropped':            4,  # Agentic AI Systems (autonomous follow-up)
+    'billing_or_intake_errors':    4,  # high-margin Workflow Automation + Systems Integration
+    'frontline_communication':     2,  # Voice AI tone / CRM outreach — softer pitch
+    'service_quality_in_session':  1,  # indirect — best routed to Automation Audit
 }
 
 
-# Pain → Silverthread service mapping. Same flat-key shape as PAIN_WEIGHTS;
-# both will be re-keyed to (main, sub) tuples once the pain-classifier
-# subagent's output is wired into ranking + handoff (TODO.md).
+# Pain → Silverthread service mapping. URLs use the top-level service slugs
+# (matching legacy paths that resolve on silverthreadlabs.com); the deeper
+# vertical-specific tails (e.g. /voice-agents/dental) were dropped because
+# the new taxonomy is vertical-agnostic.
 SERVICE_MAP: dict[str, tuple[str, str]] = {
-    'missed_calls_unreachable':       ('Voice AI for Dental (AI Receptionist)',         'silverthreadlabs.com/services/voice-agents/dental'),
-    'after_hours_emergency':          ('After-Hours Voice Coverage',                    'silverthreadlabs.com/services/voice-agents/after-hours-coverage'),
-    'appointment_booking_delay':      ('Voice AI Appointment Booking',                  'silverthreadlabs.com/services/voice-agents/appointment-booking'),
-    'long_wait_in_chair':             ('Workflow Automation (Scheduling)',              'silverthreadlabs.com/services/workflow-automation'),
-    'insurance_verification_missing': ('Insurance Eligibility Verification Workflow',   'silverthreadlabs.com/services/workflow-automation'),
-    'billing_errors':                 ('Billing Automation / Practice Management',      'silverthreadlabs.com/services/agentic-ai'),
-    'recall_followup_missing':        ('Outbound Recall Campaigns',                     'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
-    'intake_paperwork_duplication':   ('Patient Intake Automation',                     'silverthreadlabs.com/services/voice-agents/patient-client-intake'),
-    'no_show_reminder_missing':       ('Automated Appointment Reminders',               'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
-    'staff_rude_front_desk':          ('AI Receptionist (consistent tone)',             'silverthreadlabs.com/services/voice-agents/ai-receptionist'),
-    'language_barrier_spanish':       ('Multilingual (Spanish) Voice Agent',            'silverthreadlabs.com/services/voice-agents/dental'),
+    'calls_unanswered':            ('Voice AI Agents (Inbound Coverage)',          'silverthreadlabs.com/services/voice-agents'),
+    'booking_friction':            ('Voice AI Booking + Agentic Self-Service',     'silverthreadlabs.com/services/voice-agents'),
+    'followup_dropped':            ('Agentic AI Systems (Autonomous Follow-up)',   'silverthreadlabs.com/services/agentic-ai'),
+    'billing_or_intake_errors':    ('Workflow Automation + Systems Integration',   'silverthreadlabs.com/services/workflow-automation'),
+    'frontline_communication':     ('Voice AI + Agentic CRM Outreach',             'silverthreadlabs.com/services/voice-agents'),
+    'service_quality_in_session':  ('Automation Audit',                            'silverthreadlabs.com/audit'),
 }
 
 

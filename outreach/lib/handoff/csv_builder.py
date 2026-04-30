@@ -101,10 +101,21 @@ def email_sources(l):
     return s
 
 
+def _pain_hits_field(l: dict) -> dict:
+    """Prefer agent_pain_hits (pain-classifier subagent output, keyed by the
+    new STL hierarchy main category) over the legacy pain_hits (flat-keyed
+    SBERT/regex output). Once the legacy field stops appearing in masters,
+    drop the fallback."""
+    return l.get('agent_pain_hits') or l.get('pain_hits') or {}
+
+
 def top_pain_with_quotes(l, *, pain_weights: dict, n_quotes: int = 2):
     """Return (top_category_name, [quote-dict, ...]) — quotes are verbatim
-    ≤3★ snippets, dedupe'd, ordered by pain category weight × hit count."""
-    pain = l.get('pain_hits') or {}
+    ≤3★ snippets, dedupe'd, ordered by pain category weight × hit count.
+
+    Reads `agent_pain_hits` if present, falling back to `pain_hits` for
+    leads classified by the legacy SBERT/regex flow."""
+    pain = _pain_hits_field(l)
     if not pain:
         return (None, [])
     scored = sorted(pain.keys(), key=lambda c: -(pain_weights.get(c, 1) * len(pain[c])))
@@ -150,7 +161,7 @@ def _backfill_quality_score(l: dict, pain_weights: dict) -> None:
     cyclic dependency on a vertical-supplied weight."""
     if 'quality_score' in l:
         return
-    pain = l.get('pain_hits') or {}
+    pain = _pain_hits_field(l)
     weighted = sum(pain_weights.get(c, 1) * len(h) for c, h in pain.items())
     breadth = len(pain)
     size = math.log10(max(l.get('review_count', 0), 1))

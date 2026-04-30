@@ -116,6 +116,33 @@ class TestTopPainWithQuotes(unittest.TestCase):
             (None, []),
         )
 
+    def test_agent_pain_hits_takes_precedence_over_legacy_pain_hits(self):
+        # Same lead carrying both fields. agent_pain_hits is the post-subagent
+        # classification (STL hierarchy main names); pain_hits is legacy
+        # SBERT output (flat category names). Handoff must read the agent
+        # field — otherwise legacy classifications silently win.
+        lead = {
+            'agent_pain_hits': {
+                'high_value_pain': [{'snippet': 'agent quote', 'rating': 1, 'reviewer': 'A'}],
+            },
+            'pain_hits': {
+                'low_value_pain': [{'snippet': 'legacy quote', 'rating': 2, 'reviewer': 'B'}],
+            },
+        }
+        top, quotes = top_pain_with_quotes(lead, pain_weights=PAIN_WEIGHTS, n_quotes=1)
+        self.assertEqual(top, 'high_value_pain')
+        self.assertEqual([q['snippet'] for q in quotes], ['agent quote'])
+
+    def test_falls_back_to_pain_hits_when_agent_field_absent(self):
+        lead = {
+            'pain_hits': {
+                'medium_value_pain': [{'snippet': 'legacy only', 'rating': 1, 'reviewer': 'A'}],
+            },
+        }
+        top, quotes = top_pain_with_quotes(lead, pain_weights=PAIN_WEIGHTS, n_quotes=1)
+        self.assertEqual(top, 'medium_value_pain')
+        self.assertEqual([q['snippet'] for q in quotes], ['legacy only'])
+
     def test_unknown_category_defaults_to_weight_one(self):
         # Unknown category gets default weight 1; known low_value_pain also has
         # weight 1. With equal weights × equal hits, tie-break is by sort order.

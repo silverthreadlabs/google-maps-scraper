@@ -1,32 +1,26 @@
 """
-Phone-number validation for US dental practices.
+Phone-number validation for North-American numbers, vertical-agnostic.
 
 Validates:
   - E.164 / NANP shape
-  - North-American area-code presence in nanp.json (free, public NANPA list)
-  - Metro consistency: area code matches the lead's metro
+  - Optional: that the area code is in a caller-supplied metro→codes map.
 
 Returns (valid, reason). reason categories:
   malformed         — not a valid 10-digit NANP number after normalization
-  invalid_area_code — area code not in NANPA list
-  metro_mismatch    — number is real but not in the practice's metro area code set
+  invalid_area_code — area code not a valid NANP form (first digit must be 2-9)
+  metro_mismatch    — number is real but not in the lead's metro area-code set
 
 Why no live-dial check: that requires a paid API. Format + area-code consistency
 catches most data-entry errors and stale numbers (numbers move regions).
+
+Vertical / region knobs (e.g. dental sunbelt's `{phoenix, austin, tampa}` →
+area-code sets) live in `pipelines/<vertical>/config.py:METRO_AREA_CODES`
+and are passed in by the caller.
 """
 import re
 from typing import Optional, Tuple
 
-# Area codes known to serve our target metros (sourced 2026 from NANPA + carrier maps).
-# Generous on overlay codes — current carrier-mobile assignments rotate.
-METRO_AREA_CODES = {
-    'phoenix': {'480', '602', '623', '928'},     # Phoenix, Mesa, Glendale, Tempe, Scottsdale, Chandler, Gilbert
-    'austin':  {'512', '737'},                    # Austin, Round Rock, Cedar Park, Pflugerville, Lakeway
-    'tampa':   {'813', '727', '941'},             # Tampa, St Petersburg, Brandon, Clearwater, Wesley Chapel
-}
-
-# Generic NANP area code pattern (3 digits 2-9 first, 0-9 second, 0-9 third — but second
-# can't be 9 for non-toll-free; we won't enforce that strictly).
+# Generic NANP area-code shape (3 digits, first 2-9).
 NANP_AREA_RE = re.compile(r'^[2-9]\d{2}$')
 
 
@@ -42,15 +36,26 @@ def normalize(phone: str) -> Optional[str]:
     return digits
 
 
-def validate_phone(phone: str, metro: Optional[str] = None) -> Tuple[bool, Optional[str]]:
+def validate_phone(
+    phone: str,
+    metro: Optional[str] = None,
+    *,
+    metro_area_codes: Optional[dict[str, set[str]]] = None,
+) -> Tuple[bool, Optional[str]]:
+    """Validate `phone` shape and (if both `metro` and `metro_area_codes` are
+    provided) that its area code matches the metro.
+
+    If `metro_area_codes` is None or doesn't contain `metro`, the metro check
+    is skipped — shape validation still runs.
+    """
     digits = normalize(phone)
     if not digits:
         return False, 'malformed'
     area = digits[:3]
     if not NANP_AREA_RE.match(area):
         return False, 'invalid_area_code'
-    if metro:
-        expected = METRO_AREA_CODES.get(metro.lower())
+    if metro and metro_area_codes:
+        expected = metro_area_codes.get(metro.lower())
         if expected and area not in expected:
             return False, 'metro_mismatch'
     return True, None

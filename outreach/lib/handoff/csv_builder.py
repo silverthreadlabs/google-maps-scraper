@@ -1,11 +1,18 @@
 """
 Build the sales-handoff CSV from the enriched master.
 
-Includes ALL 173 rows (independents + chain-flagged). Sales filters by tier or
+Includes ALL rows (independents + chain-flagged). Sales filters by tier or
 chain flag in their tool of choice; we never drop rows.
 
-Pain quotes: pulls up to 2 verbatim ≤3★ review snippets from `pain_hits`,
+Pain quotes: pulls up to N verbatim ≤3★ review snippets from `pain_hits`,
 prioritized by pain category weight.
+
+Vertical knobs (`service_map`, `pain_weights`) are passed in by the caller —
+typically a pipeline-aware script that imports them from
+`pipelines/<vertical>/config.py`. Both are still keyed by the legacy flat
+category names; re-keying to `(main, sub)` tuples (per the pain-classifier
+subagent output) is deferred to the pipeline-integration phase — see
+`outreach/TODO.md`.
 """
 import csv
 import json
@@ -16,7 +23,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from lib.url_normalize import normalize_url
 
-ROOT = Path('/home/fassihhaider/Work/google-maps-scraper/gmapsdata')
 
 # URL columns sales clicks on. Each gets normalized at output time; the
 # original is preserved in the paired audit column when normalization changed
@@ -28,6 +34,34 @@ HANDOFF_URL_FIELDS: list[tuple[str, str]] = [
     ('website_redirect_target',  'website_redirect_target_raw'),
 ]
 
+FIELDNAMES = [
+    'tier', 'quality_score', 'metro', 'title',
+    # contact
+    'best_email', 'all_emails', 'email_sources', 'phone', 'phone_normalized',
+    'website', 'address', 'google_maps_link',
+    # decision-maker
+    'owner_name', 'owner_title', 'owner_linkedin', 'additional_team', 'pocs',
+    # pain
+    'top_pain_category', 'pain_breadth_count', 'pain_quote_1', 'pain_quote_2',
+    'pain_quote_1_rating', 'pain_quote_2_rating',
+    'recommended_service', 'recommended_service_url',
+    # quality / context
+    'review_count', 'rating', 'negative_reviews_1_3_star', 'reviews_analyzed',
+    # risk flags
+    'is_chain_or_dso', 'chain_reason',
+    'website_redirect_mismatch', 'website_redirect_target',
+    'emails_invalid_count', 'crawled_emails_suspect',
+    'phone_invalid', 'phone_invalid_reason',
+    # socials
+    'socials_facebook', 'socials_instagram', 'socials_linkedin',
+    'socials_yelp', 'socials_tiktok', 'socials_youtube',
+    # context for sales
+    'all_pain_categories', 'all_recommended_services',
+    'crawl_status', 'research_note',
+    # audit — pre-normalization URLs (populated only when normalization changed the value)
+    'website_raw', 'google_maps_link_raw', 'website_redirect_target_raw',
+]
+
 
 def apply_url_normalization(row: dict, url_fields: list[tuple[str, str]]) -> None:
     """Strip tracking params from each URL field in `row`; record original in audit column when changed."""
@@ -36,27 +70,6 @@ def apply_url_normalization(row: dict, url_fields: list[tuple[str, str]]) -> Non
         cleaned = normalize_url(raw) or ''
         row[field] = cleaned
         row[audit] = raw if cleaned and cleaned != raw else ''
-
-# Same weights as ranking — ensures top_pain_category lines up with what scored the lead.
-PAIN_WEIGHTS = {
-    'missed_calls_unreachable': 5, 'after_hours_emergency': 5, 'insurance_verification_missing': 5,
-    'appointment_booking_delay': 4, 'no_show_reminder_missing': 4,
-    'language_barrier_spanish': 3, 'recall_followup_missing': 3, 'intake_paperwork_duplication': 3,
-    'billing_errors': 2, 'long_wait_in_chair': 2, 'staff_rude_front_desk': 1,
-}
-SERVICE_MAP = {
-    'missed_calls_unreachable': ('Voice AI for Dental (AI Receptionist)', 'silverthreadlabs.com/services/voice-agents/dental'),
-    'after_hours_emergency': ('After-Hours Voice Coverage', 'silverthreadlabs.com/services/voice-agents/after-hours-coverage'),
-    'appointment_booking_delay': ('Voice AI Appointment Booking', 'silverthreadlabs.com/services/voice-agents/appointment-booking'),
-    'long_wait_in_chair': ('Workflow Automation (Scheduling)', 'silverthreadlabs.com/services/workflow-automation'),
-    'insurance_verification_missing': ('Insurance Eligibility Verification Workflow', 'silverthreadlabs.com/services/workflow-automation'),
-    'billing_errors': ('Billing Automation / Practice Management', 'silverthreadlabs.com/services/agentic-ai'),
-    'recall_followup_missing': ('Outbound Recall Campaigns', 'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
-    'intake_paperwork_duplication': ('Patient Intake Automation', 'silverthreadlabs.com/services/voice-agents/patient-client-intake'),
-    'no_show_reminder_missing': ('Automated Appointment Reminders', 'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
-    'staff_rude_front_desk': ('AI Receptionist (consistent tone)', 'silverthreadlabs.com/services/voice-agents/ai-receptionist'),
-    'language_barrier_spanish': ('Multilingual (Spanish) Voice Agent', 'silverthreadlabs.com/services/voice-agents/dental'),
-}
 
 
 def tier(q):
@@ -88,13 +101,13 @@ def email_sources(l):
     return s
 
 
-def top_pain_with_quotes(l, n_quotes=2):
-    """Return (top_category_name, [quote1, quote2]) — quotes are verbatim ≤3★ snippets."""
+def top_pain_with_quotes(l, *, pain_weights: dict, n_quotes: int = 2):
+    """Return (top_category_name, [quote-dict, ...]) — quotes are verbatim
+    ≤3★ snippets, dedupe'd, ordered by pain category weight × hit count."""
     pain = l.get('pain_hits') or {}
     if not pain:
         return (None, [])
-    # Score each category by weight × number of hits
-    scored = sorted(pain.keys(), key=lambda c: -(PAIN_WEIGHTS.get(c, 1) * len(pain[c])))
+    scored = sorted(pain.keys(), key=lambda c: -(pain_weights.get(c, 1) * len(pain[c])))
     top_cat = scored[0]
     quotes = []
     seen = set()
@@ -131,116 +144,148 @@ def split_socials(socials):
     return {k: ';'.join(v) for k, v in out.items()}
 
 
-def main():
-    rows = json.load(open(ROOT / 'dentists_all_ranked.json'))
+def _backfill_quality_score(l: dict, pain_weights: dict) -> None:
+    """Compute quality_score on `l` if missing. Weight constants match
+    lib/ranking.py:quality_score defaults — kept literal here to avoid
+    cyclic dependency on a vertical-supplied weight."""
+    if 'quality_score' in l:
+        return
+    pain = l.get('pain_hits') or {}
+    weighted = sum(pain_weights.get(c, 1) * len(h) for c, h in pain.items())
+    breadth = len(pain)
+    size = math.log10(max(l.get('review_count', 0), 1))
+    rating_gap = max(0, 4.9 - (l.get('rating') or 0))
+    l['quality_score'] = round(weighted + breadth * 2 + size * 3 + rating_gap * 4, 2)
+    l['weighted_pain'] = weighted
+    l['pain_breadth'] = breadth
 
-    # Compute quality_score for any row that doesn't have it (chain-flagged independents
-    # have it from earlier; raw scrape rows may not).
+
+def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
+    top_cat, quotes = top_pain_with_quotes(l, pain_weights=pain_weights, n_quotes=2)
+    q1 = quotes[0] if len(quotes) > 0 else None
+    q2 = quotes[1] if len(quotes) > 1 else None
+    socials = split_socials((l.get('socials') or []) + (l.get('crawled_socials') or []))
+    trust_em = trustworthy_emails(l)
+    row = {
+        'tier': tier(l.get('quality_score')),
+        'quality_score': l.get('quality_score'),
+        'metro': l.get('metro'),
+        'title': l.get('title'),
+        'best_email': trust_em[0] if trust_em else '',
+        'all_emails': ';'.join(all_emails(l)),
+        'email_sources': ';'.join(email_sources(l)),
+        'phone': l.get('phone'),
+        'phone_normalized': l.get('phone_normalized'),
+        'website': l.get('website') or l.get('web_site'),
+        'address': l.get('address'),
+        'google_maps_link': l.get('link'),
+        'owner_name': l.get('owner_name'),
+        'owner_title': l.get('owner_title'),
+        'owner_linkedin': l.get('owner_linkedin'),
+        'additional_team': ';'.join(l.get('additional_team') or []),
+        'pocs': ';'.join(p['name'] for p in (l.get('pocs') or []) if not p.get('invalid')),
+        'top_pain_category': top_cat or '',
+        'pain_breadth_count': l.get('pain_breadth') or len(l.get('pain_categories') or []),
+        'pain_quote_1': (q1 or {}).get('snippet', ''),
+        'pain_quote_2': (q2 or {}).get('snippet', ''),
+        'pain_quote_1_rating': (q1 or {}).get('rating', ''),
+        'pain_quote_2_rating': (q2 or {}).get('rating', ''),
+        'recommended_service': service_map.get(top_cat, ('', ''))[0] if top_cat else '',
+        'recommended_service_url': service_map.get(top_cat, ('', ''))[1] if top_cat else '',
+        'review_count': l.get('review_count'),
+        'rating': l.get('rating'),
+        'negative_reviews_1_3_star': l.get('negative_reviews_1_3_star'),
+        'reviews_analyzed': l.get('reviews_analyzed'),
+        'is_chain_or_dso': 'TRUE' if l.get('is_chain_or_dso') else 'FALSE',
+        'chain_reason': l.get('chain_reason') or '',
+        'website_redirect_mismatch': 'TRUE' if l.get('website_redirect_mismatch') else 'FALSE',
+        'website_redirect_target': l.get('website_redirect_target') or '',
+        'emails_invalid_count': len(l.get('emails_invalid') or []),
+        'crawled_emails_suspect': 'TRUE' if l.get('crawled_emails_suspect') else 'FALSE',
+        'phone_invalid': 'TRUE' if l.get('phone_invalid') else 'FALSE',
+        'phone_invalid_reason': l.get('phone_invalid_reason') or '',
+        'socials_facebook': socials['facebook'],
+        'socials_instagram': socials['instagram'],
+        'socials_linkedin': socials['linkedin'],
+        'socials_yelp': socials['yelp'],
+        'socials_tiktok': socials['tiktok'],
+        'socials_youtube': socials['youtube'],
+        'all_pain_categories': ';'.join(l.get('pain_categories') or []),
+        'all_recommended_services': ';'.join(l.get('recommended_services') or []),
+        'crawl_status': l.get('crawl_status') or '',
+        'research_note': l.get('research_note') or '',
+    }
+    apply_url_normalization(row, HANDOFF_URL_FIELDS)
+    return row
+
+
+def build_handoff(
+    input_path: Path,
+    output_path: Path,
+    *,
+    service_map: dict,
+    pain_weights: dict,
+) -> int:
+    """Read the enriched master from `input_path`, write a sales-handoff CSV
+    to `output_path`. Returns the row count written.
+
+    `service_map` and `pain_weights` are vertical-supplied (typically from
+    `pipelines/<vertical>/config.py`).
+    """
+    input_path = Path(input_path)
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    rows = json.loads(input_path.read_text())
+
     for l in rows:
-        if 'quality_score' not in l:
-            pain = l.get('pain_hits') or {}
-            weighted = sum(PAIN_WEIGHTS.get(c, 1) * len(h) for c, h in pain.items())
-            breadth = len(pain)
-            size = math.log10(max(l.get('review_count', 0), 1))
-            rating_gap = max(0, 4.9 - (l.get('rating') or 0))
-            l['quality_score'] = round(weighted + breadth * 2 + size * 3 + rating_gap * 4, 2)
-            l['weighted_pain'] = weighted
-            l['pain_breadth'] = breadth
+        _backfill_quality_score(l, pain_weights)
 
     rows.sort(key=lambda x: (x.get('is_chain_or_dso', False), -x.get('quality_score', 0)))
 
-    fieldnames = [
-        'tier', 'quality_score', 'metro', 'title',
-        # contact
-        'best_email', 'all_emails', 'email_sources', 'phone', 'phone_normalized',
-        'website', 'address', 'google_maps_link',
-        # decision-maker
-        'owner_name', 'owner_title', 'owner_linkedin', 'additional_team', 'pocs',
-        # pain
-        'top_pain_category', 'pain_breadth_count', 'pain_quote_1', 'pain_quote_2',
-        'pain_quote_1_rating', 'pain_quote_2_rating',
-        'recommended_service', 'recommended_service_url',
-        # quality / context
-        'review_count', 'rating', 'negative_reviews_1_3_star', 'reviews_analyzed',
-        # risk flags
-        'is_chain_or_dso', 'chain_reason',
-        'website_redirect_mismatch', 'website_redirect_target',
-        'emails_invalid_count', 'crawled_emails_suspect',
-        'phone_invalid', 'phone_invalid_reason',
-        # socials
-        'socials_facebook', 'socials_instagram', 'socials_linkedin',
-        'socials_yelp', 'socials_tiktok', 'socials_youtube',
-        # context for sales
-        'all_pain_categories', 'all_recommended_services',
-        'crawl_status', 'research_note',
-        # audit — pre-normalization URLs (populated only when normalization changed the value)
-        'website_raw', 'google_maps_link_raw', 'website_redirect_target_raw',
-    ]
-
-    out_path = ROOT / 'dentists_handoff.csv'
-    with open(out_path, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
+    with open(output_path, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=FIELDNAMES)
         w.writeheader()
         for l in rows:
-            top_cat, quotes = top_pain_with_quotes(l, n_quotes=2)
-            q1 = quotes[0] if len(quotes) > 0 else None
-            q2 = quotes[1] if len(quotes) > 1 else None
-            socials = split_socials((l.get('socials') or []) + (l.get('crawled_socials') or []))
-            trust_em = trustworthy_emails(l)
-            row = {
-                'tier': tier(l.get('quality_score')),
-                'quality_score': l.get('quality_score'),
-                'metro': l.get('metro'),
-                'title': l.get('title'),
-                'best_email': trust_em[0] if trust_em else '',
-                'all_emails': ';'.join(all_emails(l)),
-                'email_sources': ';'.join(email_sources(l)),
-                'phone': l.get('phone'),
-                'phone_normalized': l.get('phone_normalized'),
-                'website': l.get('website') or l.get('web_site'),
-                'address': l.get('address'),
-                'google_maps_link': l.get('link'),
-                'owner_name': l.get('owner_name'),
-                'owner_title': l.get('owner_title'),
-                'owner_linkedin': l.get('owner_linkedin'),
-                'additional_team': ';'.join(l.get('additional_team') or []),
-                'pocs': ';'.join(p['name'] for p in (l.get('pocs') or []) if not p.get('invalid')),
-                'top_pain_category': top_cat or '',
-                'pain_breadth_count': l.get('pain_breadth') or len(l.get('pain_categories') or []),
-                'pain_quote_1': (q1 or {}).get('snippet', ''),
-                'pain_quote_2': (q2 or {}).get('snippet', ''),
-                'pain_quote_1_rating': (q1 or {}).get('rating', ''),
-                'pain_quote_2_rating': (q2 or {}).get('rating', ''),
-                'recommended_service': SERVICE_MAP.get(top_cat, ('', ''))[0] if top_cat else '',
-                'recommended_service_url': SERVICE_MAP.get(top_cat, ('', ''))[1] if top_cat else '',
-                'review_count': l.get('review_count'),
-                'rating': l.get('rating'),
-                'negative_reviews_1_3_star': l.get('negative_reviews_1_3_star'),
-                'reviews_analyzed': l.get('reviews_analyzed'),
-                'is_chain_or_dso': 'TRUE' if l.get('is_chain_or_dso') else 'FALSE',
-                'chain_reason': l.get('chain_reason') or '',
-                'website_redirect_mismatch': 'TRUE' if l.get('website_redirect_mismatch') else 'FALSE',
-                'website_redirect_target': l.get('website_redirect_target') or '',
-                'emails_invalid_count': len(l.get('emails_invalid') or []),
-                'crawled_emails_suspect': 'TRUE' if l.get('crawled_emails_suspect') else 'FALSE',
-                'phone_invalid': 'TRUE' if l.get('phone_invalid') else 'FALSE',
-                'phone_invalid_reason': l.get('phone_invalid_reason') or '',
-                'socials_facebook': socials['facebook'],
-                'socials_instagram': socials['instagram'],
-                'socials_linkedin': socials['linkedin'],
-                'socials_yelp': socials['yelp'],
-                'socials_tiktok': socials['tiktok'],
-                'socials_youtube': socials['youtube'],
-                'all_pain_categories': ';'.join(l.get('pain_categories') or []),
-                'all_recommended_services': ';'.join(l.get('recommended_services') or []),
-                'crawl_status': l.get('crawl_status') or '',
-                'research_note': l.get('research_note') or '',
-            }
-            apply_url_normalization(row, HANDOFF_URL_FIELDS)
-            w.writerow(row)
+            w.writerow(_build_row(l, service_map=service_map, pain_weights=pain_weights))
 
-    print(f"wrote {out_path} ({len(rows)} rows)")
+    print(f"wrote {output_path} ({len(rows)} rows)", flush=True)
+    return len(rows)
+
+
+# Legacy entry point — preserved so the dental campaign's existing
+# gmapsdata flow keeps working until the pipeline-integration phase
+# replaces it with a pipeline-aware script. Both dicts are keyed by the
+# legacy flat category names; re-keying to (main, sub) tuples is the
+# deferred work in TODO.md.
+_LEGACY_ROOT = Path('/home/fassihhaider/Work/google-maps-scraper/gmapsdata')
+
+_LEGACY_PAIN_WEIGHTS = {
+    'missed_calls_unreachable': 5, 'after_hours_emergency': 5, 'insurance_verification_missing': 5,
+    'appointment_booking_delay': 4, 'no_show_reminder_missing': 4,
+    'language_barrier_spanish': 3, 'recall_followup_missing': 3, 'intake_paperwork_duplication': 3,
+    'billing_errors': 2, 'long_wait_in_chair': 2, 'staff_rude_front_desk': 1,
+}
+
+_LEGACY_SERVICE_MAP = {
+    'missed_calls_unreachable': ('Voice AI for Dental (AI Receptionist)', 'silverthreadlabs.com/services/voice-agents/dental'),
+    'after_hours_emergency': ('After-Hours Voice Coverage', 'silverthreadlabs.com/services/voice-agents/after-hours-coverage'),
+    'appointment_booking_delay': ('Voice AI Appointment Booking', 'silverthreadlabs.com/services/voice-agents/appointment-booking'),
+    'long_wait_in_chair': ('Workflow Automation (Scheduling)', 'silverthreadlabs.com/services/workflow-automation'),
+    'insurance_verification_missing': ('Insurance Eligibility Verification Workflow', 'silverthreadlabs.com/services/workflow-automation'),
+    'billing_errors': ('Billing Automation / Practice Management', 'silverthreadlabs.com/services/agentic-ai'),
+    'recall_followup_missing': ('Outbound Recall Campaigns', 'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
+    'intake_paperwork_duplication': ('Patient Intake Automation', 'silverthreadlabs.com/services/voice-agents/patient-client-intake'),
+    'no_show_reminder_missing': ('Automated Appointment Reminders', 'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
+    'staff_rude_front_desk': ('AI Receptionist (consistent tone)', 'silverthreadlabs.com/services/voice-agents/ai-receptionist'),
+    'language_barrier_spanish': ('Multilingual (Spanish) Voice Agent', 'silverthreadlabs.com/services/voice-agents/dental'),
+}
 
 
 if __name__ == '__main__':
-    main()
+    build_handoff(
+        input_path=_LEGACY_ROOT / 'dentists_all_ranked.json',
+        output_path=_LEGACY_ROOT / 'dentists_handoff.csv',
+        service_map=_LEGACY_SERVICE_MAP,
+        pain_weights=_LEGACY_PAIN_WEIGHTS,
+    )

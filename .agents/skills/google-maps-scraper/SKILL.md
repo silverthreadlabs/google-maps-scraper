@@ -19,6 +19,8 @@ allowed-tools: Bash(docker:*) Bash(touch:*) Bash(wc:*) Bash(mkdir:*) Read Write
 > **Sync note (maintainers)** — `.claude/skills/google-maps-scraper` is a symlink to `.agents/skills/google-maps-scraper`. There is one source of truth; edits via either path modify the same files. The directory symlink survives `git clone`, so no manual sync is needed. If the symlink ever breaks, restore it with `ln -sfn ../../.agents/skills/google-maps-scraper .claude/skills/google-maps-scraper`.
 >
 > **Project override** — when invoked for an outreach pipeline (working under `outreach/`), follow `outreach/CLAUDE.md` for output paths, review-field handling, and other conventions. The defaults below assume general repo use.
+>
+> **Next step (outreach pipelines only)** — after a successful scrape that lands NDJSON in `outreach/pipelines/<pipeline>/raw/`, end your reply with: *"Output written to `<path>`. Next: see `outreach/README.md` 'Starting a new campaign' (step 3+) — analyze stage is currently inline; runbook is `/outreach <pipeline>`."* Don't leave the user stranded at "where to save"; the scrape is one stage of a longer pipeline.
 
 # Google Maps Scraper
 

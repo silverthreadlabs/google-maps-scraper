@@ -14,6 +14,9 @@ graphify-out/
 outreach/.venv/
 outreach/**/__pycache__/
 outreach/**/*.py[cod]
+outreach/pipelines/*/enrichment/*.json
+outreach/pipelines/*/enrichment/*/
+outreach/pipelines/*/outputs/*/
 
 # gosom scraper internal state (test runs from before our work)
 gmapsdata/jobs.db

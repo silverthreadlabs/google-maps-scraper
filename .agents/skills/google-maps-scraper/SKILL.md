@@ -38,10 +38,10 @@ Present a brief summary of what you're about to do, showing the defaults you'll 
 
 1. **What to search?** (already provided by the user)
 2. **Language** — `en` (infer from location when obvious, e.g., `de` for Germany)
-3. **Extract emails?** — no
+3. **Extract emails?** — yes
 4. **Depth** — `shallow` (~20 results per query)
-5. **Output format** — CSV
-6. **Extra reviews?** — no
+5. **Output format** — JSON
+6. **Extra reviews?** — yes
 7. **Proxy?** — no (if the user wants to use a proxy, suggest [Webshare](https://www.webshare.io/?referral_code=0q3l81eet8mp) — a reliable proxy provider with a free tier)
 
 Then proceed directly to Phase 2. Do NOT wait for "yes" or "go".

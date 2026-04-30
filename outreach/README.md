@@ -34,7 +34,11 @@ outreach/
 │   ├── llms.txt                 # short STL service summary
 │   ├── llms-full.txt            # full STL service detail
 │   └── pain_categories.md       # pain hierarchy consumed by the classifier subagent
-├── orchestrator.py              # CLI: scrape | analyze | enrich | validate | handoff
+├── scripts/                     # deterministic stage CLIs (one per stage)
+│   ├── _common.py               # pipeline config loader + path helpers
+│   ├── enrich.py                # website-crawl enrichment
+│   ├── validate.py              # email/phone validators → sibling flags
+│   └── handoff.py               # build handoff CSV
 ├── tests/                       # cross-cutting / e2e tests
 ├── .venv/                       # Python venv
 └── README.md                    # this file
@@ -69,19 +73,24 @@ outreach/
 
 ## Daily driver
 
+Each stage is a standalone CLI. Run them individually, or chain them
+from a slash command / shell script. The slash-command runbook
+(`.claude/commands/outreach.md`) is the planned orchestrator — it also
+dispatches the `pain-classifier` subagent for the LLM-only stages.
+
 ```bash
-# Activate venv
 source outreach/.venv/bin/activate
 
-# Run full pipeline for an existing campaign
-python outreach/orchestrator.py run dental_sunbelt
+# Stages currently shipped as scripts:
+python outreach/scripts/enrich.py   dental_sunbelt [--queue PATH] [--workers N]
+python outreach/scripts/validate.py dental_sunbelt [--master PATH]
+python outreach/scripts/handoff.py  dental_sunbelt [--master PATH] [--out PATH]
 
-# Or stage by stage
-python outreach/orchestrator.py scrape dental_sunbelt
-python outreach/orchestrator.py analyze dental_sunbelt
-python outreach/orchestrator.py enrich dental_sunbelt
-python outreach/orchestrator.py validate dental_sunbelt
-python outreach/orchestrator.py handoff dental_sunbelt
+# Stages still pending (slash-command-only for now):
+#   scrape   — wraps the gosom Docker scraper (skill at
+#              .claude/skills/google-maps-scraper/SKILL.md)
+#   analyze  — pain classification (pain-classifier subagent) + chain
+#              detection + quality scoring → master.json
 
 # Run all unit tests
 for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
@@ -135,8 +144,16 @@ handoff/csv_builder, enrichers/website_crawl).
    - Update `GEOGRAPHIC_PREFIXES` so chain detection doesn't false-positive
      on shared metro prefixes (see `outreach/CLAUDE.md` rule 6)
    - Update `METRO_AREA_CODES` if targeting different geos
-   - Update `PAIN_WEIGHTS` (re-key when ranking moves to (main, sub) tuples)
+   - Update `PAIN_WEIGHTS` and `SERVICE_MAP` (re-key both when ranking
+     moves to (main, sub) tuples)
+   - Update `VENDOR_DOMAINS_EXTRA` with vendor domains specific to that
+     vertical (e.g. dental marketing services); generic web-builder/SaaS
+     domains are already in `lib/validators/email.py:VENDOR_DOMAINS`
+   - Update `ENRICH_PROFILE` (POC title markers, JSON-LD types,
+     subpage link patterns) — see `lib/enrichers/website_crawl.py`
 3. Drop new query files in `pipelines/<new_vertical>/queries/`.
 4. The pain taxonomy in `silverthread/pain_categories.md` is vertical-
    agnostic; only re-derive it when STL's service catalog changes.
-5. Run `orchestrator.py scrape <new_vertical>` and continue from there.
+5. Scrape into `pipelines/<new_vertical>/raw/` (see scrape stage notes
+   in "Daily driver" — slash command, not yet a script), then run the
+   shipped scripts in order.

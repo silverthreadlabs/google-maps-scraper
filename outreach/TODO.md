@@ -41,8 +41,10 @@ wired into the pipeline at the right stage. Per planning convo
 dispatch agent on the prioritized subset → merge predictions back into
 the lead stream → handoff. Decide:
 
-- Where in `outreach/orchestrator.py` to dispatch (likely a new `classify`
-  stage between `enrich` and `validate`).
+- Where in the slash-command runbook (`.claude/commands/outreach.md`,
+  pending) to dispatch — likely a new `classify` step between `enrich`
+  and `validate`. Earlier `outreach/orchestrator.py` Python stub was
+  deleted; the runbook is the orchestrator now.
 - How predictions persist (sidecar file under `pipelines/<name>/enrichment/`
   keyed by `place_id`, append-only per CLAUDE.md rule 1).
 - How the main agent invokes the subagent in batches that fit context.

@@ -253,39 +253,5 @@ def build_handoff(
     return len(rows)
 
 
-# Legacy entry point — preserved so the dental campaign's existing
-# gmapsdata flow keeps working until the pipeline-integration phase
-# replaces it with a pipeline-aware script. Both dicts are keyed by the
-# legacy flat category names; re-keying to (main, sub) tuples is the
-# deferred work in TODO.md.
-_LEGACY_ROOT = Path('/home/fassihhaider/Work/google-maps-scraper/gmapsdata')
-
-_LEGACY_PAIN_WEIGHTS = {
-    'missed_calls_unreachable': 5, 'after_hours_emergency': 5, 'insurance_verification_missing': 5,
-    'appointment_booking_delay': 4, 'no_show_reminder_missing': 4,
-    'language_barrier_spanish': 3, 'recall_followup_missing': 3, 'intake_paperwork_duplication': 3,
-    'billing_errors': 2, 'long_wait_in_chair': 2, 'staff_rude_front_desk': 1,
-}
-
-_LEGACY_SERVICE_MAP = {
-    'missed_calls_unreachable': ('Voice AI for Dental (AI Receptionist)', 'silverthreadlabs.com/services/voice-agents/dental'),
-    'after_hours_emergency': ('After-Hours Voice Coverage', 'silverthreadlabs.com/services/voice-agents/after-hours-coverage'),
-    'appointment_booking_delay': ('Voice AI Appointment Booking', 'silverthreadlabs.com/services/voice-agents/appointment-booking'),
-    'long_wait_in_chair': ('Workflow Automation (Scheduling)', 'silverthreadlabs.com/services/workflow-automation'),
-    'insurance_verification_missing': ('Insurance Eligibility Verification Workflow', 'silverthreadlabs.com/services/workflow-automation'),
-    'billing_errors': ('Billing Automation / Practice Management', 'silverthreadlabs.com/services/agentic-ai'),
-    'recall_followup_missing': ('Outbound Recall Campaigns', 'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
-    'intake_paperwork_duplication': ('Patient Intake Automation', 'silverthreadlabs.com/services/voice-agents/patient-client-intake'),
-    'no_show_reminder_missing': ('Automated Appointment Reminders', 'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
-    'staff_rude_front_desk': ('AI Receptionist (consistent tone)', 'silverthreadlabs.com/services/voice-agents/ai-receptionist'),
-    'language_barrier_spanish': ('Multilingual (Spanish) Voice Agent', 'silverthreadlabs.com/services/voice-agents/dental'),
-}
-
-
-if __name__ == '__main__':
-    build_handoff(
-        input_path=_LEGACY_ROOT / 'dentists_all_ranked.json',
-        output_path=_LEGACY_ROOT / 'dentists_handoff.csv',
-        service_map=_LEGACY_SERVICE_MAP,
-        pain_weights=_LEGACY_PAIN_WEIGHTS,
-    )
+# Entry point: outreach/scripts/handoff.py — loads pipeline config and
+# resolves master.json under pipelines/<vertical>/outputs/<date>/.

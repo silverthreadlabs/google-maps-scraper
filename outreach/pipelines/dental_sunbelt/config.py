@@ -42,6 +42,24 @@ PAIN_WEIGHTS: dict[str, int] = {
 }
 
 
+# Pain → Silverthread service mapping. Same flat-key shape as PAIN_WEIGHTS;
+# both will be re-keyed to (main, sub) tuples once the pain-classifier
+# subagent's output is wired into ranking + handoff (TODO.md).
+SERVICE_MAP: dict[str, tuple[str, str]] = {
+    'missed_calls_unreachable':       ('Voice AI for Dental (AI Receptionist)',         'silverthreadlabs.com/services/voice-agents/dental'),
+    'after_hours_emergency':          ('After-Hours Voice Coverage',                    'silverthreadlabs.com/services/voice-agents/after-hours-coverage'),
+    'appointment_booking_delay':      ('Voice AI Appointment Booking',                  'silverthreadlabs.com/services/voice-agents/appointment-booking'),
+    'long_wait_in_chair':             ('Workflow Automation (Scheduling)',              'silverthreadlabs.com/services/workflow-automation'),
+    'insurance_verification_missing': ('Insurance Eligibility Verification Workflow',   'silverthreadlabs.com/services/workflow-automation'),
+    'billing_errors':                 ('Billing Automation / Practice Management',      'silverthreadlabs.com/services/agentic-ai'),
+    'recall_followup_missing':        ('Outbound Recall Campaigns',                     'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
+    'intake_paperwork_duplication':   ('Patient Intake Automation',                     'silverthreadlabs.com/services/voice-agents/patient-client-intake'),
+    'no_show_reminder_missing':       ('Automated Appointment Reminders',               'silverthreadlabs.com/services/voice-agents/outbound-campaigns'),
+    'staff_rude_front_desk':          ('AI Receptionist (consistent tone)',             'silverthreadlabs.com/services/voice-agents/ai-receptionist'),
+    'language_barrier_spanish':       ('Multilingual (Spanish) Voice Agent',            'silverthreadlabs.com/services/voice-agents/dental'),
+}
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Email validation extras (consumed by lib/validators/email.py)
 # ─────────────────────────────────────────────────────────────────────────────

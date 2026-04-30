@@ -8,6 +8,16 @@ edit the values.
 from __future__ import annotations
 
 import re
+import sys
+from pathlib import Path
+
+# Make `lib.*` importable when this config is loaded by orchestration scripts
+# that don't already put outreach/ on sys.path.
+_OUTREACH_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_OUTREACH_ROOT) not in sys.path:
+    sys.path.insert(0, str(_OUTREACH_ROOT))
+
+from lib.enrichers.website_crawl import EnrichProfile
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Pain ranking weights (used by lib/ranking.py:quality_score)
@@ -30,6 +40,22 @@ PAIN_WEIGHTS: dict[str, int] = {
     'long_wait_in_chair':               2,
     'staff_rude_front_desk':            1,
 }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Website-crawl enrichment profile (consumed by lib/enrichers/website_crawl.py)
+# ─────────────────────────────────────────────────────────────────────────────
+ENRICH_PROFILE = EnrichProfile(
+    poc_title_markers_js=r"\b(?:Dr\.?|DDS|DMD|D\.D\.S\.?|D\.M\.D\.?)\b",
+    jsonld_person_types=("person", "dentist", "physician"),
+    practice_name_words=frozenset({
+        "dental", "dentistry", "smiles", "orthodontics",
+        "clinic", "office", "practice",
+    }),
+    internal_link_gate_js=r"(contact|about|team|staff|get-in-touch|our-team|meet|providers|doctors|dentist|dr-)",
+    contact_link_pattern=r"/(contact|get-in-touch)",
+    team_link_pattern=r"/(team|staff|providers|doctors|our-doctor|meet|about)",
+)
 
 
 # ─────────────────────────────────────────────────────────────────────────────

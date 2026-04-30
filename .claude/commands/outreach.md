@@ -69,22 +69,50 @@ expects (see step 5 below).
 
 ### Procedure
 
-1. **Locate the source.** Default: latest `outputs/<date>/master.json`.
-   If only raw scrapes exist (no master yet), fall back to
-   `pipelines/<pipeline>/raw/*.json` and dedupe by `place_id`.
+1. **Locate the sources.** Two distinct sources, do not conflate:
+   - **Lead-selection source** — drives *which* leads to classify.
+     Default: latest `outputs/<date>/master.json` (rich aggregate fields
+     like `quality_score`, `tier`). If no master exists yet, the raw
+     NDJSONs become the selection source — dedupe by `place_id`.
+   - **Reviews source** — ALWAYS the raw NDJSONs at
+     `pipelines/<pipeline>/raw/*.json`. Master is post-aggregation and
+     may have dropped `user_reviews{,_extended}` already. Never read
+     reviews from master. Index raw by `place_id`.
+   - **Place_id backfill (degenerate-master fallback).** If the master
+     lacks `place_id` on its leads (early scrapes did this), join
+     master ↔ raw by `(title, metro)` to attach place_id onto a working
+     copy in memory. Print the join stats (`matched: X / Y, ambiguous: Z,
+     unmatched: W`) and refuse to proceed if more than ~5% are unmatched
+     — silent unmatches mean missing classifications later. *(Long-term
+     fix: regenerate master from raw with `place_id` preserved — TODO.md.)*
 2. **Pick the subset to classify.** Ask the user:
    *"How many leads to classify? (default proposal: top-N by quality_score
    if a master exists, otherwise all leads in the raw scrape)"*
    Confirm the lead count before dispatching anything.
 3. **Build the review index + batches.** Walk the selected leads:
-   - For each lead, merge `user_reviews` + `user_reviews_extended` and
-     dedupe by `(reviewer_name, description[:120])` (CLAUDE.md rule 3).
-   - Filter to ≤3★ reviews (pain signal is concentrated there).
-   - Assign each review a globally unique integer `id` (sequential, 0..N-1).
+   - For each `place_id`, look up the lead in raw and merge
+     `user_reviews` + `user_reviews_extended` (CLAUDE.md rule 3).
+   - **Normalize review-field keys.** Raw scrapes use capitalized
+     keys (`Description`, `Rating`, `Name`, `When`); some downstream
+     scrapes use lowercase (`description`, `rating`, `reviewer_name`).
+     Read both shapes:
+     ```python
+     text     = rev.get('description') or rev.get('Description') or ''
+     rating_s = rev.get('rating')      or rev.get('Rating')      or ''
+     reviewer = rev.get('reviewer_name') or rev.get('Name')      or ''
+     try:    rating = int(rating_s)
+     except: rating = None
+     ```
+     Skip reviews where `text` is empty.
+   - Dedupe by `(reviewer, text[:120])`.
+   - Filter to `rating <= 3` (pain signal is concentrated there;
+     `rating is None` → keep, the agent can still classify on text).
+   - Assign each surviving review a globally unique integer `id`
+     (sequential, 0..N-1).
    - Maintain a parallel index in memory:
      `review_index[id] = {place_id, rating, reviewer, snippet}`
-     where `snippet = description[:300]`. The merge step joins on this.
-   - Subagent input row shape: `{id: <int>, text: <review description>}`.
+     where `snippet = text[:300]`. The merge step joins on this.
+   - Subagent input row shape: `{id: <int>, text: <review text>}`.
    Group review rows into batches of **20–40 reviews per batch** (not per
    lead — reviews; a single 40-review practice fills one batch).
 4. **Dispatch — all batches in ONE message, in parallel.**
@@ -239,21 +267,30 @@ python outreach/scripts/handoff.py <pipeline> \
 ## Re-delivery flow (the dental case)
 
 The 2026-04-25 dental delivery needs URL normalization fixes and
-agent-classified pain quotes (TODO.md). Sequence:
+agent-classified pain quotes (TODO.md). The 2026-04-25 master is also
+*degenerate* — it lacks `place_id` on its leads — so a place_id-backfill
+step is required before classify. Sequence:
 
-1. `/outreach dental_sunbelt classify` — emits the sidecar at
-   `enrichment/pain_classifications/<today>.json`.
-2. **Merge sidecar into a new master:**
+0. **Backfill place_id onto a working master** (one-time, while master
+   regeneration from raw is still TODO). Build a new working master at
+   `outputs/<today>/master.json` whose leads carry `place_id` (joined
+   from raw NDJSON by `(title, metro)`). Print join stats and refuse if
+   unmatched > 5%. `merge_classifications.py` joins on `place_id`, so
+   the master fed to merge MUST carry it.
+1. `/outreach dental_sunbelt classify` against the working master — emits
+   the sidecar at `enrichment/pain_classifications/<today>.json`.
+2. **Merge sidecar into the working master:**
    ```bash
    python outreach/scripts/merge_classifications.py \
-     --master  outreach/pipelines/dental_sunbelt/outputs/2026-04-25/master.json \
+     --master  outreach/pipelines/dental_sunbelt/outputs/<today>/master.json \
      --sidecar outreach/pipelines/dental_sunbelt/enrichment/pain_classifications/<today>.json \
      --out     outreach/pipelines/dental_sunbelt/outputs/<today>/master.json
    ```
    Adds `agent_pain_hits` + provenance to every lead. Existing
    `pain_hits` (legacy SBERT) stays untouched — the audit trail.
    Inspect the orphan-place_ids stat: nonzero usually means classify
-   ran against a different master than this one.
+   ran against a different master than this one. (`--master` and `--out`
+   can be the same path; `merge_classifications.py` writes atomically.)
 3. `/outreach dental_sunbelt validate` — annotates the new master.
 4. `/outreach dental_sunbelt handoff` with explicit `--master` and
    `--out` pointing at `outputs/<today>/`.

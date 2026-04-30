@@ -35,31 +35,32 @@ HANDOFF_URL_FIELDS: list[tuple[str, str]] = [
 ]
 
 FIELDNAMES = [
+    # identifiers
     'tier', 'quality_score', 'metro', 'title',
     # contact
     'best_email', 'all_emails', 'email_sources', 'phone', 'phone_normalized',
     'website', 'address', 'google_maps_link',
+    # socials
+    'socials_facebook', 'socials_instagram', 'socials_linkedin',
+    'socials_yelp', 'socials_tiktok', 'socials_youtube',
     # decision-maker
     'owner_name', 'owner_title', 'owner_linkedin', 'additional_team', 'pocs',
     # pain
     'top_pain_category', 'pain_breadth_count', 'pain_quote_1', 'pain_quote_2',
     'pain_quote_1_rating', 'pain_quote_2_rating',
     'recommended_service', 'recommended_service_url',
+    # context for sales
+    'all_pain_categories', 'all_recommended_services',
+    'crawl_status', 'research_note',
     # quality / context
     'review_count', 'rating', 'negative_reviews_1_3_star', 'reviews_analyzed',
+    # audit — pre-normalization URLs (populated only when normalization changed the value)
+    'website_raw', 'google_maps_link_raw', 'website_redirect_target_raw',
     # risk flags
     'is_chain_or_dso', 'chain_reason',
     'website_redirect_mismatch', 'website_redirect_target',
     'emails_invalid_count', 'crawled_emails_suspect',
     'phone_invalid', 'phone_invalid_reason',
-    # socials
-    'socials_facebook', 'socials_instagram', 'socials_linkedin',
-    'socials_yelp', 'socials_tiktok', 'socials_youtube',
-    # context for sales
-    'all_pain_categories', 'all_recommended_services',
-    'crawl_status', 'research_note',
-    # audit — pre-normalization URLs (populated only when normalization changed the value)
-    'website_raw', 'google_maps_link_raw', 'website_redirect_target_raw',
 ]
 
 

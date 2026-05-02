@@ -15,13 +15,13 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 ---
 
 ### Phase 1: Analyze & Plan
-**Use:** `/plan` command principles + `search-first` skill
+**Use:** `everything-claude-code:plan`, `everything-claude-code:search-first`
 
 - Search the codebase for ALL affected files (grep, glob, read)
-- Apply `search-first` — look for existing solutions, patterns, utilities before planning custom work
+- Apply `everything-claude-code:search-first` — look for existing solutions, patterns, utilities before planning custom work
 - Restate requirements clearly
 - Identify: affected files, edge cases, risks, dependencies on other modules
-- Check: does similar functionality already exist in the codebase?
+- Check existing project structure, patterns (naming, error handling, validation), and dependencies
 - **Output:** Print a structured brief:
   ```
   📋 ANALYSIS
@@ -29,6 +29,7 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
   Affected files: [list]
   Risks: [list or "none"]
   Existing patterns to follow: [what you found]
+  Files to create/modify: [list]
   Approach: [2-3 sentences]
   ```
 - → CONTINUE (do NOT wait for confirmation)
@@ -37,34 +38,10 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 
 ---
 
-### Phase 2: Codebase Scan & Architecture
-**Use:** `coding-standards` skill, `backend-patterns` skill, `frontend-patterns` skill
+### Phase 2: Database Changes
+**Use:** `everything-claude-code:database-migrations`, `everything-claude-code:postgres-patterns` (if PostgreSQL)
 
-- Check project structure (monorepo? folders? separate repos?)
-- Read `package.json` (root + workspaces if monorepo) — note existing dependencies
-- Identify existing patterns: routing, naming, state management, ORM, error handling, validation, auth
-- **Dependency check:** List packages relevant to this task already in `package.json`
-- Design solution that FOLLOWS existing conventions per `coding-standards` skill
-- **Output:** Print the plan:
-  ```
-  🏗️ ARCHITECTURE
-  Structure: [monorepo/single-repo/etc]
-  Relevant existing deps: [list from package.json]
-  Patterns to follow: [naming, routing, etc]
-  Files to create: [list or "none"]
-  Files to modify: [list]
-  New dependencies needed: [list or "none — using existing X"]
-  ```
-- → CONTINUE
-
-**SKIP if:** task is a simple fix (typo, config change, one-liner)
-
----
-
-### Phase 3: Database Changes
-**Use:** `database-migrations` skill, `postgres-patterns` skill (if PostgreSQL)
-
-- Follow existing migration tool/ORM conventions per `database-migrations` skill
+- Follow existing migration tool/ORM conventions per `everything-claude-code:database-migrations`
 - Create migration files with proper up/down
 - Add indexes if new query patterns require them
 - Verify migration runs: execute migration command if safe to do so in dev
@@ -73,68 +50,62 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 
 ---
 
-### Phase 4: Backend Implementation
-**Use:** `backend-patterns` skill, `security-review` skill, `api-design` skill
+### Phase 3: Tests (TDD — write BEFORE implementation)
+**Use:** `everything-claude-code:tdd-workflow`
 
-- Make all backend changes following `backend-patterns` skill
-- Apply `security-review` skill: input validation, parameterized queries, auth checks
-- Apply `api-design` skill for new/changed endpoints: proper status codes, error responses, pagination
-- NEVER add a new dependency if `package.json` already has something similar
+- Write failing tests FIRST — define the expected behavior before any production code exists
+- Use the existing test framework (check what's already in the project)
+- Cover: happy path + error paths + boundary/guard paths (per global TDD rules)
+- Every `try/catch`, `else` branch, and early-return guard gets a test in this phase — not deferred
+- Run tests — confirm they FAIL (red). If a test passes before implementation, it's not testing anything
+- Tests drive the implementation in the next phases; do not write stubs or partial implementations here
+
+**SKIP if:** task is trivial (renaming, config change)
+
+---
+
+### Phase 4: Backend Implementation
+**Use:** `everything-claude-code:backend-patterns`, `everything-claude-code:security-review`, `everything-claude-code:api-design`
+
+- Make all backend changes — the goal is to turn red tests green
+- Apply `everything-claude-code:security-review`: input validation, parameterized queries, auth checks
 - Check existing utils/helpers before writing new ones
 - Follow existing error handling patterns exactly
+- Run tests after implementation — confirm they PASS (green)
 
 **SKIP if:** task is frontend-only
 
 ---
 
 ### Phase 5: Frontend Implementation
-**Use:** `frontend-patterns` skill, `coding-standards` skill
+**Use:** `everything-claude-code:frontend-patterns`, `everything-claude-code:coding-standards`
 
-- Make all frontend changes following `frontend-patterns` skill
+- Make all frontend changes — turn remaining red tests green
 - Follow existing component patterns, styling approach, state management
 - Reuse existing components before creating new ones
 - Handle: loading states, error states, empty states
 - Accessibility: semantic HTML, ARIA, keyboard navigation
+- Run tests after implementation — confirm they PASS (green)
 
 **SKIP if:** task is backend-only
 
 ---
 
-### Phase 6: Tests
-**Use:** `tdd-workflow` skill, `/tdd` command principles
-
-- Apply `tdd-workflow` skill standards
-- Use the existing test framework (check what's already in the project)
-- Write tests: happy path + edge cases + error paths
-- Descriptive names: "should [expected] when [condition]"
-- **Actually run tests:** execute the test command (e.g., `npm test`, `pnpm test`, `yarn test`)
-- Fix any failures
-- Check coverage if thresholds exist
-
-**SKIP if:** task is trivial (renaming, config change)
-
----
-
-### Phase 7: QA & Security Verification
-**Use:** `/code-review` command, `security-review` skill, `verification-loop` skill
+### Phase 6: QA & Security Verification
+**Use:** `everything-claude-code:code-review`, `everything-claude-code:security-review`, `everything-claude-code:verification-loop`
 
 **This phase MUST produce a verification report. NEVER SKIP.**
 
-Step 1 — Run automated checks (actually execute these):
-```bash
-# Run ALL that exist in the project — skip any that don't
-npm run lint          # or equivalent
-npm run typecheck     # or tsc --noEmit
-npm run test          # full suite
-npm run build         # verify build passes
-```
+Step 1 — Run automated checks (detect the project's toolchain and execute):
+- Lint, typecheck, test suite, build — run whichever exist in the project
+- Use `everything-claude-code:verification-loop` to drive the cycle
 
-Step 2 — Apply `/code-review` standards to all changed files:
+Step 2 — Apply `everything-claude-code:code-review` standards to all changed files:
 - CRITICAL: hardcoded credentials, SQL injection, XSS, path traversal, auth bypasses
 - HIGH: missing error handling, unvalidated input, insecure defaults
 - MEDIUM: code duplication, missing types, poor naming
 
-Step 3 — Apply `security-review` skill if changes touch: auth, API endpoints, user input, payments, data access
+Step 3 — Apply `everything-claude-code:security-review` if changes touch: auth, API endpoints, user input, payments, data access
 
 Step 4 — Manual checks:
 - console.logs / debug code left behind
@@ -144,34 +115,33 @@ Step 4 — Manual checks:
 
 Step 5 — Fix ALL issues found → re-run checks
 
-**Output:** Print verification report:
+**Output:** Print verification report (include only checks that apply to this project):
 ```
 ✅ VERIFICATION REPORT
-Lint: ✅ passed | ❌ X issues (fixed)
-Types: ✅ passed | ❌ X errors (fixed)
 Tests: ✅ X passed, 0 failed | ❌ X failed (fixed)
-Build: ✅ passed | ❌ failed (fixed)
+Lint/Types: ✅ passed | ❌ X issues (fixed) | ⏭ N/A
+Build: ✅ passed | ❌ failed (fixed) | ⏭ N/A
 Security: ✅ no issues | ⚠️ [list findings]
 Manual review: ✅ clean | ⚠️ [list findings]
 ```
 
 ---
 
-### Phase 8: Documentation
+### Phase 7: Documentation
 - Update relevant docs, README, API docs
-- Add JSDoc/comments only for complex logic (WHY, not WHAT)
+- Add comments only for complex logic (WHY, not WHAT)
 - Update CHANGELOG if project has one
 
 ---
 
-### Phase 9: Summary
+### Phase 8: Summary
 **NEVER SKIP.** Print final summary:
 
 ```
 📊 PIPELINE COMPLETE
 ━━━━━━━━━━━━━━━━━━━━
 Task: [one-line summary]
-Phases executed: [list, e.g., 1,2,4,6,7,9]
+Phases executed: [list, e.g., 1,3,4,6,8]
 Phases skipped: [list with reasons]
 
 Files modified: [count]
@@ -179,9 +149,6 @@ Files created: [count]
 Files deleted: [count]
 
 Tests: [X passed, X failed]
-Lint: [pass/fail]
-Types: [pass/fail]
-Build: [pass/fail]
 Security issues: [count or "none"]
 
 Key decisions:
@@ -194,7 +161,7 @@ Key decisions:
 ```
 ---
 
-### Phase 10: Git & PR (after human confirms)
+### Phase 9: Git & PR (after human confirms)
 
 **PAUSE HERE.** Print:
 ```
@@ -214,18 +181,8 @@ Once confirmed:
 - `git checkout -b [branch-name]`
 
 **Step 2 — Commit:**
-- Stage all changes: `git add -A`
-- Write a commit message following conventional commits:
-  ```
-  [type]: [what was done]
-
-  Why: [1-2 sentences explaining why this branch exists]
-  
-  Changes:
-  - [grouped summary of what changed]
-  
-  Pipeline: phases [X,X,X] executed, [X,X] skipped
-  ```
+- Stage relevant files by name (never `git add -A` — review what's being staged)
+- Use the `conventional-commits` skill to write the commit message
 - `git commit`
 
 **Step 3 — Push:**
@@ -249,7 +206,7 @@ Once confirmed:
 ## Global Rules
 
 - **SECURITY FIRST** — validate inputs, parameterize queries, check auth on every endpoint
-- **Check `package.json` BEFORE installing ANY dependency** — if something similar exists, USE IT
+- **Check existing dependencies BEFORE adding new ones** — if something similar exists, USE IT
 - **Search-first** — search codebase for existing tools, libs, patterns before writing custom code
 - **Adapt to the codebase** — follow existing patterns, naming conventions, folder structure
 - **Immutability** — create new objects, don't mutate

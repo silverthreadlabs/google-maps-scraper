@@ -27,3 +27,6 @@ gmapsdata/*.csv
 # Local browser/MCP caches
 .playwright-mcp/
 skills-lock.json
+
+# Nested repos (cloned here for convenience, pushed to their own remotes)
+stl-knights/

@@ -89,14 +89,19 @@ pain-classifier subagent dispatch shape. Each stage prints its own
    pipeline <pipeline>"*. Output lands in
    `pipelines/<pipeline>/raw/<query>.json` (NDJSON; CLAUDE.md rule 2 —
    never `/tmp`).
-3. **Analyze (currently inline).** Build the first master from raw:
-   chain detection (`lib/chain_detection.ChainDetector`) + quality
-   scoring (`lib/ranking.quality_score`) → `outputs/<today>/master.json`.
-   This stage is not yet a script (TODO.md `analyze-as-script`); follow
-   the runbook's "Stages not yet supported as scripts" section.
+3. **Analyze.** `python outreach/scripts/analyze.py <pipeline>` — dedupe
+   raw by `place_id`, run chain detection
+   (`lib/chain_detection.ChainDetector`), partition gosom-side emails
+   through `validate_email` (image artifacts → `emails_invalid` at
+   ingest), compute initial `quality_score` →
+   `outputs/<today>/master.json`.
 4. **Enrich contacts.** `/outreach <pipeline> enrich` — agent-browser
    crawls websites for emails + POCs. Resumable; writes
-   `enrichment/website_crawl.json`.
+   `enrichment/website_crawl.json`. **Then run `merge_crawl_into_master.py`**
+   so the next stages see crawled emails / POCs on each master lead:
+   ```bash
+   python outreach/scripts/merge_crawl_into_master.py <pipeline>
+   ```
 5. **Classify pain.** `/outreach <pipeline> classify` — dispatches the
    `pain-classifier` subagent against ≤3★ reviews from raw. Emits a
    sidecar at `enrichment/pain_classifications/<today>.json`.
@@ -107,16 +112,25 @@ pain-classifier subagent dispatch shape. Each stage prints its own
      --sidecar outreach/pipelines/<pipeline>/enrichment/pain_classifications/<today>.json \
      --out     outreach/pipelines/<pipeline>/outputs/<today>/master.json
    ```
-   Adds `agent_pain_hits` + provenance to every lead. `--master` and
-   `--out` can be the same path (atomic write).
+   Adds `agent_pain_hits` + recomputes `quality_score` / `weighted_pain`
+   / `tier` from the new pain. `--master` and `--out` can be the same
+   path (atomic write).
 7. **Validate.** `/outreach <pipeline> validate` — annotates email/phone
    invalids via sibling flags. Required before handoff.
 8. **Handoff.** `/outreach <pipeline> handoff` — produces
    `outputs/<today>/handoff.csv` for sales.
+9. **(Optional) Owner lookup** for tier-A/B leads with empty `owner_name`:
+   ```bash
+   python outreach/scripts/owner_lookup.py <pipeline> --print-queue
+   # fill enrichment/owner_lookups/<today>.json by hand from the printed queries
+   python outreach/scripts/owner_lookup.py <pipeline> --apply
+   ```
+   Re-run handoff to pick up the owner columns.
 
 **Re-delivery against an existing master?** See the "Re-delivery flow"
-section in `.claude/commands/outreach.md`. Skips scrape and the first
-analyze; degenerate masters (no `place_id`) get backfilled from raw.
+section in `.claude/commands/outreach.md`. Re-run `analyze.py
+--output-date <new-date>` to write into a new dated folder; the prior
+delivery stays as audit record.
 
 ## Daily driver
 
@@ -128,22 +142,24 @@ dispatches the `pain-classifier` subagent for the LLM-only stages.
 ```bash
 source outreach/.venv/bin/activate
 
-# Stages currently shipped as scripts:
-python outreach/scripts/enrich.py   dental_sunbelt [--queue PATH] [--workers N]
-python outreach/scripts/validate.py dental_sunbelt [--master PATH]
-python outreach/scripts/handoff.py  dental_sunbelt [--master PATH] [--out PATH]
-
-# Bridge classify → handoff: graft sidecar into master with provenance.
+# Stages shipped as scripts (run in order for a fresh campaign):
+python outreach/scripts/analyze.py               <pipeline> [--output-date YYYY-MM-DD] [--force]
+python outreach/scripts/enrich.py                <pipeline> [--queue PATH] [--workers N]
+python outreach/scripts/merge_crawl_into_master.py <pipeline> [--master PATH] [--crawl PATH]
+# (classify is the only LLM stage — dispatched via /outreach <pipeline> classify)
 python outreach/scripts/merge_classifications.py \
-    --master  pipelines/<pipeline>/outputs/<old-date>/master.json \
+    --master  pipelines/<pipeline>/outputs/<today>/master.json \
     --sidecar pipelines/<pipeline>/enrichment/pain_classifications/<today>.json \
     --out     pipelines/<pipeline>/outputs/<today>/master.json
+python outreach/scripts/validate.py              <pipeline> [--master PATH]
+python outreach/scripts/handoff.py               <pipeline> [--master PATH] [--out PATH]
+# Optional, post-handoff for tier-A/B leads:
+python outreach/scripts/owner_lookup.py          <pipeline> --print-queue [--limit N] [--tiers A,B]
+python outreach/scripts/owner_lookup.py          <pipeline> --apply
 
-# Stages still pending (slash-command-only for now):
+# Only stage still slash-command-only:
 #   scrape   — wraps the gosom Docker scraper (skill at
 #              .claude/skills/google-maps-scraper/SKILL.md)
-#   analyze  — pain classification (pain-classifier subagent) + chain
-#              detection + quality scoring → master.json
 
 # Run all unit tests
 for t in $(find outreach/lib outreach/scripts outreach/tests -name 'test_*.py' 2>/dev/null); do

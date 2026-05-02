@@ -38,7 +38,7 @@ FIELDNAMES = [
     # identifiers
     'tier', 'quality_score', 'metro', 'title',
     # contact
-    'best_email', 'all_emails', 'email_sources', 'phone', 'phone_normalized',
+    'best_email', 'all_emails', 'email_sources', 'phone',
     'website', 'address', 'google_maps_link',
     # socials
     'socials_facebook', 'socials_instagram', 'socials_linkedin',
@@ -90,16 +90,47 @@ def trustworthy_emails(l):
     return out
 
 
+def _invalid_email_set(l):
+    return {
+        e['email'].lower()
+        for e in (l.get('emails_invalid') or [])
+        if isinstance(e, dict) and e.get('email')
+    }
+
+
 def all_emails(l):
-    out = list(l.get('emails') or [])
-    out += [e for e in (l.get('crawled_emails') or []) if e not in out]
+    """All extracted emails for the audit column, with already-flagged
+    invalid entries (image artifacts, vendor noise, placeholders) removed —
+    sales reads the CSV directly, so don't surface validate-stage junk
+    here. The full unfiltered set is preserved on master.json for audit."""
+    invalid = _invalid_email_set(l)
+    out = [e for e in (l.get('emails') or []) if e and e.lower() not in invalid]
+    for e in (l.get('crawled_emails') or []):
+        if e and e.lower() not in invalid and e not in out:
+            out.append(e)
     return out
 
 
 def email_sources(l):
-    s = list(l.get('emails_source') or [])
-    s += [x for x in (l.get('crawled_emails_source') or []) if x not in s]
-    return s
+    """Positional sources for `all_emails` — must mirror its filtering so
+    each remaining email lines up with its source by index."""
+    invalid = _invalid_email_set(l)
+    raw_emails  = list(l.get('emails') or [])
+    raw_sources = list(l.get('emails_source') or [])
+    out = []
+    for i, e in enumerate(raw_emails):
+        if not e or e.lower() in invalid:
+            continue
+        out.append(raw_sources[i] if i < len(raw_sources) else 'gosom_scraper')
+    crawled  = list(l.get('crawled_emails') or [])
+    crawled_sources = list(l.get('crawled_emails_source') or [])
+    seen = set(e.lower() for e in raw_emails if e and e.lower() not in invalid)
+    for i, e in enumerate(crawled):
+        if not e or e.lower() in invalid or e.lower() in seen:
+            continue
+        seen.add(e.lower())
+        out.append(crawled_sources[i] if i < len(crawled_sources) else 'agent_browser_crawl')
+    return out
 
 
 def _pain_hits_field(l: dict) -> dict:
@@ -187,7 +218,6 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
         'all_emails': ';'.join(all_emails(l)),
         'email_sources': ';'.join(email_sources(l)),
         'phone': l.get('phone'),
-        'phone_normalized': l.get('phone_normalized'),
         'website': l.get('website') or l.get('web_site'),
         'address': l.get('address'),
         'google_maps_link': l.get('link'),

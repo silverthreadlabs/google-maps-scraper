@@ -72,19 +72,30 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from lib.ranking import quality_score as _quality_score, tier as _tier
+
 PROVENANCE_TAG = 'pain-classifier-subagent'
 
 
-def merge(master: list[dict], sidecar: dict[str, dict]) -> dict:
+def merge(
+    master: list[dict],
+    sidecar: dict[str, dict],
+    pain_weights: dict[str, int] | None = None,
+) -> dict:
     """Mutate `master` in place: each lead gets agent_pain_hits + provenance.
     Returns a stats dict.
 
     Also refreshes the derived `pain_breadth` / `pain_categories` views to
-    reflect agent_pain_hits when present (else legacy `pain_hits`). These
-    are computed views, not raw data; csv_builder reads `pain_breadth_count`
-    from `pain_breadth` and only recomputes when `quality_score` is missing,
-    so without this refresh agent-only pipelines ship handoff CSVs with
-    pain_breadth_count=0."""
+    reflect agent_pain_hits when present (else legacy `pain_hits`).
+
+    When `pain_weights` is supplied, also recomputes `quality_score`,
+    `weighted_pain`, and `tier` from the same derived pain. csv_builder's
+    backfill early-returns when quality_score is set, so analyze-time scores
+    (computed before classify ran) would otherwise stick around in the
+    handoff CSV. Making merge the recompute point keeps master.json
+    self-consistent — handoff just reads the stored score.
+    """
     now = datetime.now(timezone.utc).isoformat(timespec='seconds')
     master_place_ids = {l.get('place_id') for l in master if l.get('place_id')}
     leads_with_hits = 0
@@ -99,6 +110,17 @@ def merge(master: list[dict], sidecar: dict[str, dict]) -> dict:
         derived_pain = hits or lead.get('pain_hits') or {}
         lead['pain_breadth'] = len(derived_pain)
         lead['pain_categories'] = sorted(derived_pain.keys())
+        if pain_weights is not None:
+            rating = lead.get('rating', lead.get('review_rating')) or 0.0
+            score, weighted, _breadth = _quality_score(
+                derived_pain,
+                lead.get('review_count') or 0,
+                rating,
+                pain_weights=pain_weights,
+            )
+            lead['quality_score'] = score
+            lead['weighted_pain'] = weighted
+            lead['tier'] = _tier(score)
     orphan_place_ids = sorted(pid for pid in sidecar if pid not in master_place_ids)
     return {
         'master_leads': len(master),
@@ -106,6 +128,18 @@ def merge(master: list[dict], sidecar: dict[str, dict]) -> dict:
         'leads_without_hits': len(master) - leads_with_hits,
         'orphan_place_ids': orphan_place_ids,
     }
+
+
+def _pipeline_from_path(path: Path) -> str:
+    """Extract the pipeline name from a master.json path like
+    `.../pipelines/<name>/outputs/<date>/master.json`. Returns '' if the
+    path doesn't follow that convention."""
+    parts = path.parts
+    if 'pipelines' in parts:
+        i = parts.index('pipelines')
+        if i + 1 < len(parts):
+            return parts[i + 1]
+    return ''
 
 
 def write_atomic(path: Path, master: list[dict]) -> None:
@@ -142,7 +176,25 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 2
 
-    stats = merge(master, sidecar)
+    # Auto-derive pipeline + pain_weights so quality_score / tier refresh on merge.
+    # Falls back to skip-recompute (legacy behaviour) if the path isn't in our
+    # convention or the pipeline doesn't ship PAIN_WEIGHTS.
+    pipeline = _pipeline_from_path(args.master) or _pipeline_from_path(args.out)
+    pain_weights = None
+    if pipeline:
+        try:
+            from scripts._common import load_pipeline_config
+            cfg = load_pipeline_config(pipeline)
+            pain_weights = getattr(cfg, 'PAIN_WEIGHTS', None)
+        except SystemExit:
+            pain_weights = None
+    if pain_weights is None:
+        sys.stderr.write(
+            f"warn: PAIN_WEIGHTS not resolved (pipeline={pipeline!r}); "
+            f"quality_score/tier will not be refreshed.\n"
+        )
+
+    stats = merge(master, sidecar, pain_weights=pain_weights)
     write_atomic(args.out, master)
 
     print(f"  master leads      : {stats['master_leads']}", file=sys.stderr)
@@ -154,14 +206,6 @@ def main(argv: list[str] | None = None) -> int:
         ellipsis = '…' if len(stats['orphan_place_ids']) > 5 else ''
         print(f"    first {len(sample)}: {sample}{ellipsis}", file=sys.stderr)
     print(f"wrote {args.out}", flush=True)
-    # Print a "next:" hint. Pipeline name is derived from the master path
-    # (outputs/<date>/master.json → pipelines/<pipeline>/...) when possible.
-    pipeline = ''
-    parts = args.out.parts
-    if 'pipelines' in parts:
-        i = parts.index('pipelines')
-        if i + 1 < len(parts):
-            pipeline = parts[i + 1]
     print(f"next: /outreach {pipeline or '<pipeline>'} validate", flush=True)
     return 0
 

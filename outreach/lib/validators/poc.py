@@ -37,9 +37,12 @@ STANDALONE_HEADING_WORDS = frozenset({
 # `WHO WE`, etc. Match on the (first_token_lower, second_token_lower) tuple.
 SECTION_HEADING_OPENERS = frozenset({
     'meet', 'about', 'contact', 'welcome', 'who',
+    'what', 'why', 'when', 'where', 'how',  # `What We Offer`, `Why Dr.`, etc.
+    'in',                                    # `In The News`, `In The Press`
 })
 SECTION_HEADING_SECOND_TOKENS = frozenset({
     'the', 'us', 'our', 'we', 'to',
+    'dr',                                    # `Meet Dr`, `Contact Dr`, `About Dr` (truncated practice headers)
 })
 
 # Two-word role/section labels that look name-like. Lowercased exact match.

@@ -15,8 +15,9 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 ---
 
 ### Phase 1: Analyze & Plan
-**Use:** `everything-claude-code:plan`, `everything-claude-code:search-first`
+**Use:** `everything-claude-code:plan`, `everything-claude-code:search-first`, `everything-claude-code:architect` (for complex/ambiguous tasks)
 
+- For complex, ambiguous, or cross-cutting tasks: use the `architect` agent/skill to design the system before coding — evaluate tradeoffs, define boundaries, and produce an architecture brief
 - Search the codebase for ALL affected files (grep, glob, read)
 - Apply `everything-claude-code:search-first` — look for existing solutions, patterns, utilities before planning custom work
 - Restate requirements clearly
@@ -78,7 +79,7 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 ---
 
 ### Phase 5: Frontend Implementation
-**Use:** `everything-claude-code:frontend-patterns`, `everything-claude-code:coding-standards`
+**Use:** `everything-claude-code:frontend-patterns`, `everything-claude-code:coding-standards`, `everything-claude-code:browser-qa`
 
 - Make all frontend changes — turn remaining red tests green
 - Follow existing component patterns, styling approach, state management
@@ -86,6 +87,7 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 - Handle: loading states, error states, empty states
 - Accessibility: semantic HTML, ARIA, keyboard navigation
 - Run tests after implementation — confirm they PASS (green)
+- **Verify visually with `browser-qa`:** after implementation, use the Playwright MCP tools to navigate the running app and confirm changes landed as expected — check the golden path, error states, and watch for regressions
 
 **SKIP if:** task is backend-only
 
@@ -99,6 +101,7 @@ Execute in order. **SKIP irrelevant phases** — print: `⏭ Phase X: [name] —
 Step 1 — Run automated checks (detect the project's toolchain and execute):
 - Lint, typecheck, test suite, build — run whichever exist in the project
 - Use `everything-claude-code:verification-loop` to drive the cycle
+- **E2E tests (if frontend changed):** use the `e2e-runner` agent to run or generate E2E tests for critical user journeys — covers auth flows, CRUD operations, and navigation. Prefer Playwright MCP tools; quarantine flaky tests with `test.fixme()`
 
 Step 2 — Apply `everything-claude-code:code-review` standards to all changed files:
 - CRITICAL: hardcoded credentials, SQL injection, XSS, path traversal, auth bypasses

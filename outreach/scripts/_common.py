@@ -30,6 +30,26 @@ if str(OUTREACH_ROOT) not in sys.path:
     sys.path.insert(0, str(OUTREACH_ROOT))
 
 
+def load_dotenv(path: Path | None = None) -> None:
+    """Load a .env file into os.environ. Skips blank lines and comments.
+    Does NOT override variables already set in the environment."""
+    env_file = path or OUTREACH_ROOT / '.env'
+    if not env_file.exists():
+        return
+    with env_file.open() as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            if '=' not in line:
+                continue
+            key, _, value = line.partition('=')
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = value
+
+
 def load_pipeline_config(pipeline_name: str) -> ModuleType:
     """Import `pipelines.<pipeline_name>.config` and return the module.
 

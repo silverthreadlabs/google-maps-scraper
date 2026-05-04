@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Development Pipeline"
+  short_description: "Use a structured end-to-end code change workflow."
+  default_prompt: "Use the Codex development pipeline for this non-trivial change."

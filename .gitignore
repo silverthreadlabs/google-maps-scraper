@@ -12,6 +12,7 @@ graphify-out/
 
 # Outreach pipeline (Python venv + caches)
 outreach/.venv/
+outreach/.env
 outreach/**/__pycache__/
 outreach/**/*.py[cod]
 outreach/pipelines/*/enrichment/*.json

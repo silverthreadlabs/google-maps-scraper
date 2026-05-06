@@ -59,8 +59,9 @@ def upsert_campaign(
     metro: str,
     vertical: str,
     description: str | None = None,
+    sdr_emails: list[str] | None = None,
 ) -> dict:
-    payload = {
+    payload: dict[str, object] = {
         'slug': slug,
         'name': name,
         'metro': metro,
@@ -68,6 +69,9 @@ def upsert_campaign(
     }
     if description:
         payload['description'] = description
+    # None = leave assignees alone; [] = clear; [...] = replace.
+    if sdr_emails is not None:
+        payload['sdrEmails'] = sdr_emails
 
     data = json.dumps(payload).encode()
     req = urllib.request.Request(
@@ -110,6 +114,15 @@ def main(argv: list[str] | None = None) -> int:
         '--name', default=None,
         help='campaign display name (default: derived from pipeline name)',
     )
+    parser.add_argument(
+        '--sdrs', default=None,
+        help=(
+            'comma-separated SDR emails to assign. Pass an empty value '
+            '(--sdrs="") to clear assignees; omit the flag to leave them '
+            'untouched. Server resolves to active sales_agent users; '
+            'unresolved emails come back in the response.skipped list.'
+        ),
+    )
     args = parser.parse_args(argv)
 
     api_key = _resolve_api_key(args.api_key)
@@ -121,6 +134,10 @@ def main(argv: list[str] | None = None) -> int:
     vertical = _vertical_from_config(cfg)
     name = args.name or slug.replace('_', ' ').title()
 
+    sdr_emails: list[str] | None = None
+    if args.sdrs is not None:
+        sdr_emails = [e.strip() for e in args.sdrs.split(',') if e.strip()]
+
     result = upsert_campaign(
         base_url=args.base_url,
         api_key=api_key,
@@ -128,10 +145,21 @@ def main(argv: list[str] | None = None) -> int:
         name=name,
         metro=metro,
         vertical=vertical,
+        sdr_emails=sdr_emails,
     )
 
     campaign = result.get('data', {})
     print(f"campaign upserted: {campaign.get('id', '?')} (slug={slug})", flush=True)
+
+    # Surface any SDR emails the server couldn't resolve so the operator
+    # notices typos or lapsed accounts instead of finding out via logs.
+    assignees = result.get('assignees') or {}
+    skipped = assignees.get('skipped') or []
+    if skipped:
+        sys.stderr.write(
+            f"warning: {len(skipped)} sdrEmail(s) unresolved (not active sales_agent): "
+            f"{', '.join(skipped)}\n"
+        )
     return 0
 
 

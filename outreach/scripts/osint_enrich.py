@@ -143,12 +143,37 @@ def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
 
 
 def _serp_fetch_fn(cfg):
-    """Production-time fetch wiring. Tests should patch
-    `scripts.osint_enrich.run_serp_query_with_fallback` directly so the
-    returned callable is never invoked in tests. The orchestrator's CLI
-    hooks it up to the agent-browser session pool (Task 17)."""
+    """Return a fetch_fn(url)->html|None backed by the website_crawl pool.
+
+    SERP serializes per engine — only one Chromium session at a time hits
+    duckduckgo / bing / google to avoid burst-shaped captcha triggers
+    (CLAUDE.md rule 4: session pool, not round-robin).
+
+    Tests should patch `scripts.osint_enrich.run_serp_query_with_fallback`
+    directly so the returned callable is never invoked in tests.
+    """
+    from lib.enrichers.website_crawl import lease_single_session
+
     def fetch_fn(url: str) -> str | None:
-        raise NotImplementedError(
-            'serp fetch fn not wired — tests must patch run_serp_query_with_fallback'
-        )
+        with lease_single_session(session_prefix='osint-serp') as session:
+            try:
+                return session.fetch(url, wait='networkidle', jitter=(2.0, 5.0))
+            except Exception:
+                return None
     return fetch_fn
+
+
+def wire_deep_site_fetch(cfg) -> None:
+    """Monkey-patch `lib.enrichers.deep_site_crawl.fetch_url` with a
+    pool-backed implementation. Called by `main()` before processing leads."""
+    from lib.enrichers import deep_site_crawl
+    from lib.enrichers.website_crawl import lease_single_session
+
+    def fetch(url: str) -> str | None:
+        with lease_single_session(session_prefix='osint-deep') as session:
+            try:
+                return session.fetch(url, wait='networkidle', jitter=(0.5, 2.0))
+            except Exception:
+                return None
+
+    deep_site_crawl.fetch_url = fetch

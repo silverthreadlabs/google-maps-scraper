@@ -15,12 +15,14 @@ from __future__ import annotations
 
 import json
 import queue
+import random
 import re
 import subprocess
 import sys
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -554,3 +556,55 @@ def _summary(done, retry_path, retry):
         'open_or_extract_errors': err, 'no_email_found': no_em,
         'retry_count': len(retry),
     }
+
+
+_HTML_JS = 'JSON.stringify(document.documentElement.outerHTML)'
+
+
+class _SingleSessionFetcher:
+    """Thin wrapper that drives the agent-browser CLI for a named session.
+
+    Callers use `session.fetch(url)` and get back raw HTML (or None on
+    failure). The named session string matches the agent-browser --session
+    flag convention already used by `run_pool`.
+    """
+
+    def __init__(self, session: str) -> None:
+        self._session = session
+
+    def fetch(self, url: str, *, wait: str = 'networkidle',
+              jitter: tuple[float, float] = (0.5, 2.0)) -> str | None:
+        rc, _out, _err = _ab('open', url, session=self._session)
+        if rc != 0:
+            return None
+        _ab('wait', '--load', wait, timeout=NETWORK_IDLE_TIMEOUT, session=self._session)
+        time.sleep(random.uniform(*jitter))
+        rc, out, _err = _ab('eval', '--stdin', input_text=_HTML_JS,
+                            session=self._session)
+        if rc != 0 or not out:
+            return None
+        # agent-browser eval returns a JSON-encoded string; decode it.
+        for line in reversed(out.splitlines()):
+            line = line.strip()
+            if line.startswith('"') and line.endswith('"'):
+                try:
+                    return json.loads(line)
+                except Exception:
+                    continue
+            if line.startswith('<'):
+                return line
+        return None
+
+
+@contextmanager
+def lease_single_session(session_prefix: str = 'osint'):
+    """Yield a `_SingleSessionFetcher` backed by a single named agent-browser
+    session. Intended for sequential, non-parallel callers (OSINT SERP and
+    deep-site fetches) that want the same pool-naming convention without
+    spinning up a full `run_pool` thread pool.
+
+    The session name is deterministic (`<prefix>-0`) so the agent-browser
+    process is reused across calls within the same OS process.
+    """
+    session_name = f'{session_prefix}-0'
+    yield _SingleSessionFetcher(session_name)

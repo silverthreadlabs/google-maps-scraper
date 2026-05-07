@@ -36,5 +36,31 @@ class TestExtractJsonLDPersons(unittest.TestCase):
         self.assertEqual(persons[0]['email'], 'john@smithfamilydental.com')
 
 
+ORG_WITH_FOUNDER_AND_EMPLOYEES = """
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Smith Family Dental",
+  "founder": [
+    {"@type": "Person", "name": "Dr. John Smith", "jobTitle": "Owner"}
+  ],
+  "employee": [
+    {"@type": "Person", "name": "Dr. Mary Jones", "jobTitle": "Associate Dentist", "email": "mary@smithfamilydental.com"}
+  ]
+}
+</script>
+"""
+
+
+class TestExtractFromOrganizationNode(unittest.TestCase):
+    def test_extracts_persons_from_founder_and_employee_arrays(self):
+        persons = extract_jsonld_persons(ORG_WITH_FOUNDER_AND_EMPLOYEES)
+        names = sorted(p['name'] for p in persons)
+        self.assertEqual(names, ['Dr. John Smith', 'Dr. Mary Jones'])
+        mary = next(p for p in persons if p['name'] == 'Dr. Mary Jones')
+        self.assertEqual(mary['email'], 'mary@smithfamilydental.com')
+
+
 if __name__ == '__main__':
     unittest.main()

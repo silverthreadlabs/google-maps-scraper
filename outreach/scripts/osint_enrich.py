@@ -136,7 +136,7 @@ def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
                 industry_term=industry_terms[0] if industry_terms else '',
             )
             try:
-                serp = run_serp_query_with_fallback(query, fetch_fn=_serp_fetch_fn(cfg))
+                serp = run_serp_query_with_fallback(query, fetch_fn=_serp_fetch_fn())
                 if serp['status'] == 'blocked':
                     record['fields'][field]['skipped_reason'] = 'serp_blocked'
                     continue
@@ -152,7 +152,7 @@ def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
     return record
 
 
-def _serp_fetch_fn(cfg):
+def _serp_fetch_fn():
     """Return a fetch_fn(url)->html|None backed by the website_crawl pool.
 
     SERP serializes per engine — only one Chromium session at a time hits
@@ -173,7 +173,7 @@ def _serp_fetch_fn(cfg):
     return fetch_fn
 
 
-def wire_deep_site_fetch(cfg) -> None:
+def wire_deep_site_fetch() -> None:
     """Monkey-patch `lib.enrichers.deep_site_crawl.fetch_url` with a
     pool-backed implementation. Called by `main()` before processing leads."""
     from lib.enrichers import deep_site_crawl
@@ -268,7 +268,7 @@ def main(argv: list[str] | None = None) -> int:
     todo = [l for l in master if l.get('place_id') not in processed]
     print(f"OSINT: {len(todo)} leads to enrich (skipping {len(processed)} already done)", flush=True)
 
-    wire_deep_site_fetch(cfg)
+    wire_deep_site_fetch()
 
     with pipeline_lock(args.pipeline, 'osint_enrich'):
         for i, lead in enumerate(todo, 1):

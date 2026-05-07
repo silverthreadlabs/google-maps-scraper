@@ -21,6 +21,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from lib.enrichers.whois_lookup import lookup_domain
 from lib.enrichers.deep_site_crawl import crawl_domain
 from lib.enrichers.serp import run_serp_query_with_fallback
+from scripts._common import (
+    add_pipeline_arg,
+    load_pipeline_config,
+    pipeline_dir,
+    pipeline_lock,
+    require_attr,
+)
+from scripts.merge_crawl_into_master import latest_master
 
 
 def detect_gaps(lead: dict, fields_desired: list[str]) -> list[str]:
@@ -205,16 +213,6 @@ def append_sidecar_record(sidecar_path: Path, record: dict) -> None:
     tmp = sidecar_path.with_suffix(sidecar_path.suffix + '.tmp')
     tmp.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
     tmp.replace(sidecar_path)
-
-
-from scripts._common import (
-    add_pipeline_arg,
-    load_pipeline_config,
-    pipeline_dir,
-    pipeline_lock,
-    require_attr,
-)
-from scripts.merge_crawl_into_master import latest_master
 
 
 def _load_already_crawled(pdir: Path) -> set[str]:

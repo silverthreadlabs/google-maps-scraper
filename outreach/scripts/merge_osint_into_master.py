@@ -101,3 +101,75 @@ def _graft_list_field(lead: dict, field: str, fr: dict, threshold: float, enrich
     if not _is_filled(lead.get(field)):
         lead[field] = items
         lead[f'{field}_added_at'] = enriched_at
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+import argparse
+import json
+
+from scripts._common import (
+    add_pipeline_arg,
+    load_pipeline_config,
+    pipeline_dir,
+    pipeline_lock,
+    require_attr,
+)
+from scripts.merge_crawl_into_master import latest_master, write_atomic
+
+
+def _latest_osint_sidecar(pdir: Path) -> Path | None:
+    d = pdir / 'enrichment' / 'osint'
+    if not d.is_dir():
+        return None
+    candidates = sorted(d.glob('*.json'), reverse=True)
+    return candidates[0] if candidates else None
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description='Graft enrichment/osint/<date>.json (judged) into master.json.',
+    )
+    add_pipeline_arg(parser)
+    parser.add_argument('--master', type=Path, default=None,
+                        help='master JSON (default: outputs/<latest-date>/master.json)')
+    parser.add_argument('--sidecar', type=Path, default=None,
+                        help='OSINT sidecar (default: latest enrichment/osint/<date>.json)')
+    parser.add_argument('--threshold', type=float, default=None,
+                        help='confidence threshold (default: cfg.OSINT_CONFIDENCE_THRESHOLD)')
+    args = parser.parse_args(argv)
+
+    cfg = load_pipeline_config(args.pipeline)
+    threshold = args.threshold if args.threshold is not None \
+                else float(require_attr(cfg, 'OSINT_CONFIDENCE_THRESHOLD', args.pipeline))
+
+    pdir = pipeline_dir(args.pipeline)
+    master_path = args.master or latest_master(pdir)
+    sidecar_path = args.sidecar or _latest_osint_sidecar(pdir)
+
+    if master_path is None or not master_path.exists():
+        sys.stderr.write(f"error: master not found: {master_path}\n")
+        return 2
+    if sidecar_path is None or not sidecar_path.exists():
+        sys.stderr.write(f"error: OSINT sidecar not found: {sidecar_path}\n")
+        return 2
+
+    with pipeline_lock(args.pipeline, 'merge_osint'):
+        master = json.loads(master_path.read_text())
+        sidecar = json.loads(sidecar_path.read_text())
+        stats = graft(master, sidecar, threshold=threshold)
+        write_atomic(master_path, master)
+
+    print(f"  threshold        : {threshold}", file=sys.stderr)
+    print(f"  grafted          : {stats['grafted']}", file=sys.stderr)
+    print(f"  skipped (below)  : {stats['skipped_below_threshold']}", file=sys.stderr)
+    print(f"  skipped (filled) : {stats['skipped_existing_value']}", file=sys.stderr)
+    print(f"wrote {master_path}", flush=True)
+    print(f"next: /outreach {args.pipeline} classify", flush=True)
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

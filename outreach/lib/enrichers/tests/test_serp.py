@@ -64,5 +64,33 @@ class TestParseBingDDGResults(unittest.TestCase):
         self.assertEqual(results[0]['url'], 'https://linkedin.com/in/john-smith-phoenix-dds')
 
 
+GOOGLE_CAPTCHA_HTML = """
+<html><body>
+<div id="captcha-form">
+  <h2>Our systems have detected unusual traffic from your computer network.</h2>
+  <input type="hidden" name="recaptcha-response">
+</div>
+</body></html>
+"""
+
+DDG_RATE_LIMITED_HTML = """
+<html><body><h1>Anomaly detected</h1><p>Please retry shortly.</p></body></html>
+"""
+
+
+class TestBlockDetection(unittest.TestCase):
+    def test_google_captcha_detected(self):
+        from lib.enrichers.serp import is_blocked
+        self.assertTrue(is_blocked('google', GOOGLE_CAPTCHA_HTML))
+
+    def test_ddg_anomaly_detected(self):
+        from lib.enrichers.serp import is_blocked
+        self.assertTrue(is_blocked('ddg', DDG_RATE_LIMITED_HTML))
+
+    def test_normal_page_not_blocked(self):
+        from lib.enrichers.serp import is_blocked
+        self.assertFalse(is_blocked('google', GOOGLE_HTML))
+
+
 if __name__ == '__main__':
     unittest.main()

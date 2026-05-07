@@ -64,3 +64,30 @@ def parse_ddg_results(html: str) -> list[dict]:
             'snippet': snippet_el.get_text(' ', strip=True) if snippet_el else '',
         })
     return out
+
+
+_BLOCK_MARKERS = {
+    'google': (
+        'unusual traffic',
+        'recaptcha',
+        'detected unusual traffic',
+        'captcha-form',
+    ),
+    'bing': (
+        'access denied',
+        'verify you are a human',
+    ),
+    'ddg': (
+        'anomaly detected',
+        'rate limit',
+    ),
+}
+
+
+def is_blocked(engine: str, html: str) -> bool:
+    """True if the SERP HTML looks like a captcha / rate-limit page."""
+    if not html:
+        return False
+    needle_set = _BLOCK_MARKERS.get(engine, ())
+    h = html.lower()
+    return any(n.lower() in h for n in needle_set)

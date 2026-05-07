@@ -583,13 +583,26 @@ class _SingleSessionFetcher:
                             session=self._session)
         if rc != 0 or not out:
             return None
-        # agent-browser eval returns a JSON-encoded string; decode it.
+        # agent-browser eval returns JSON-encoded (sometimes double-encoded) output.
+        # The JS eval does JSON.stringify(outerHTML), so the transport may wrap that
+        # again: stdout line is `"\"<html>...</html>\""`. Single-decode would leave
+        # the inner quotes; double-decode peels both layers to get raw HTML.
         for line in reversed(out.splitlines()):
             line = line.strip()
+            if not line:
+                continue
             if line.startswith('"') and line.endswith('"'):
                 try:
-                    return json.loads(line)
-                except Exception:
+                    decoded = json.loads(line)
+                    # If the inner value is still JSON-quoted (double-encoded), peel again.
+                    if isinstance(decoded, str) and decoded.startswith('"') and decoded.endswith('"'):
+                        try:
+                            return json.loads(decoded)
+                        except json.JSONDecodeError:
+                            return decoded
+                    if isinstance(decoded, str):
+                        return decoded
+                except json.JSONDecodeError:
                     continue
             if line.startswith('<'):
                 return line

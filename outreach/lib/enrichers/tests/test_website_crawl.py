@@ -217,5 +217,43 @@ class TestExtractJsTemplateNoRejectRegex(unittest.TestCase):
         self.assertNotIn('@2x', EXTRACT_JS_TEMPLATE)
 
 
+class TestSingleSessionFetcherDecode(unittest.TestCase):
+    """Regression: agent-browser eval output is JSON-double-encoded
+    (a JS-stringified HTML payload wrapped again by the eval transport).
+    Single-decode leaves the string still quoted; BeautifulSoup then
+    parses garbage. _SingleSessionFetcher.fetch must double-decode."""
+
+    def test_fetch_double_decodes_jsonwrapped_html(self):
+        from unittest.mock import patch
+        from lib.enrichers.website_crawl import _SingleSessionFetcher
+
+        # agent-browser would emit this on stdout for a JSON.stringify(outerHTML) eval:
+        # an outer JSON layer wrapping the JS-stringified HTML.
+        double_encoded = '"\\"<html><body>hi</body></html>\\""'
+
+        fetcher = _SingleSessionFetcher('test-session')
+        with patch('lib.enrichers.website_crawl._ab',
+                   side_effect=[(0, '', ''), (0, '', ''), (0, double_encoded, '')]):
+            html = fetcher.fetch('https://example.com', wait='networkidle', jitter=(0, 0))
+
+        self.assertEqual(html, '<html><body>hi</body></html>')
+        # Critical: must NOT start with a quote (which would mean single-decode)
+        self.assertFalse(html.startswith('"'))
+        self.assertTrue(html.startswith('<html>'))
+
+    def test_fetch_handles_raw_html_fallback_when_not_json_quoted(self):
+        # If the eval output is unquoted raw HTML, fetcher should still return it.
+        from unittest.mock import patch
+        from lib.enrichers.website_crawl import _SingleSessionFetcher
+
+        raw = '<html><body>x</body></html>'
+        fetcher = _SingleSessionFetcher('test-session')
+        with patch('lib.enrichers.website_crawl._ab',
+                   side_effect=[(0, '', ''), (0, '', ''), (0, raw, '')]):
+            html = fetcher.fetch('https://example.com', wait='networkidle', jitter=(0, 0))
+
+        self.assertEqual(html, raw)
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

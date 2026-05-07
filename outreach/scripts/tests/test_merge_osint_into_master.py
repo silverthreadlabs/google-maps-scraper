@@ -67,5 +67,51 @@ class TestImmutability(unittest.TestCase):
         self.assertEqual(stats['skipped_existing_value'], 1)
 
 
+class TestEmailValidator(unittest.TestCase):
+    def test_invalid_email_lands_with_invalid_flag_not_as_field(self):
+        master = [{'place_id': 'A'}]
+        sidecar = [{
+            'place_id': 'A',
+            'enriched_at': '2026-05-07T15:00:00Z',
+            'fields': {
+                'poc_email': {
+                    'candidates': [{
+                        'value': 'fancybox_sprite@2x.png',  # known image-artifact pattern
+                        'source': 'serp_google', 'query': 'q',
+                        'snippet': 's', 'judge_verdict': 'match',
+                        'judge_confidence': 0.95, 'judge_reasoning': 'r',
+                    }],
+                    'selected_index': 0,
+                    'selected_confidence': 0.95,
+                },
+            },
+        }]
+        graft(master, sidecar, threshold=0.85)
+        self.assertNotIn('poc_email', master[0])  # rejected at boundary
+        self.assertTrue(master[0].get('poc_email_invalid'))
+        self.assertIn('poc_email_invalid_reason', master[0])
+
+    def test_valid_email_grafted_normally(self):
+        master = [{'place_id': 'A'}]
+        sidecar = [{
+            'place_id': 'A',
+            'enriched_at': '2026-05-07T15:00:00Z',
+            'fields': {
+                'poc_email': {
+                    'candidates': [{
+                        'value': 'dr.smith@smithfamilydental.com',
+                        'source': 'whois', 'query': None,
+                        'snippet': None, 'judge_verdict': 'match',
+                        'judge_confidence': 0.92, 'judge_reasoning': 'r',
+                    }],
+                    'selected_index': 0,
+                    'selected_confidence': 0.92,
+                },
+            },
+        }]
+        graft(master, sidecar, threshold=0.85)
+        self.assertEqual(master[0]['poc_email'], 'dr.smith@smithfamilydental.com')
+
+
 if __name__ == '__main__':
     unittest.main()

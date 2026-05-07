@@ -42,5 +42,46 @@ class TestDetectGaps(unittest.TestCase):
         self.assertIn('social_urls', gaps)
 
 
+class TestEnrichLeadTwoWave(unittest.TestCase):
+    def test_serp_wave_uses_poc_name_discovered_in_wave1(self):
+        from unittest.mock import patch, MagicMock
+        from scripts.osint_enrich import enrich_lead
+
+        whois_result = {'registrant_name': None, 'registrant_email': None, 'registrant_org': None, 'status': 'redacted'}
+        deep_result = {'persons': [{'name': 'Dr. John Smith', 'role': 'Owner', 'email': None,
+                                    'source': 'deep_site_crawl_jsonld'}],
+                       'pages_attempted': 3, 'pages_with_data': 1}
+
+        captured_serp_queries = []
+        def fake_serp(query, **kw):
+            captured_serp_queries.append(query)
+            return {'engine': 'ddg', 'query': query, 'results': [], 'status': 'ok'}
+
+        cfg = MagicMock(
+            OSINT_SOURCES=['whois', 'deep_site_crawl', 'serp'],
+            OSINT_FIELDS_DESIRED=['linkedin_url_poc', 'poc_name'],
+            OSINT_SERP_QUERIES={
+                'linkedin_url_poc': 'site:linkedin.com/in "{poc_name}" "{city}" dental',
+            },
+            OSINT_DEEP_CRAWL_PATHS=['/about'],
+            OSINT_INDUSTRY_TERMS=['dentist'],
+        )
+        lead = {'place_id': 'A', 'business_name': 'Smith Family Dental',
+                'website': 'https://smithfamilydental.com', 'city': 'Phoenix', 'domain': 'smithfamilydental.com'}
+
+        with patch('scripts.osint_enrich.lookup_domain', return_value=whois_result), \
+             patch('scripts.osint_enrich.crawl_domain', return_value=deep_result), \
+             patch('scripts.osint_enrich.run_serp_query_with_fallback', side_effect=fake_serp):
+            record = enrich_lead(lead, cfg, already_crawled=set())
+
+        joined = '\n'.join(captured_serp_queries)
+        self.assertIn('Dr. John Smith', joined)
+        self.assertIn('Phoenix', joined)
+        poc_candidates = record['fields']['poc_name']['candidates']
+        self.assertEqual(len(poc_candidates), 1)
+        self.assertEqual(poc_candidates[0]['value'], 'Dr. John Smith')
+        self.assertEqual(poc_candidates[0]['source'], 'deep_site_crawl_jsonld')
+
+
 if __name__ == '__main__':
     unittest.main()

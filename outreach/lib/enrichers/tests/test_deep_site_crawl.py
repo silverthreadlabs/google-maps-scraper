@@ -88,5 +88,25 @@ class TestHeadingProximityExtraction(unittest.TestCase):
         self.assertEqual(john.get('email'), 'john@smithfamilydental.com')
 
 
+class TestPlanFetchPaths(unittest.TestCase):
+    def test_skips_paths_already_crawled_by_website_crawl(self):
+        from lib.enrichers.deep_site_crawl import plan_fetch_paths
+        domain = 'smithfamilydental.com'
+        paths = ['/about', '/team', '/contact']
+        already_crawled = {
+            'https://smithfamilydental.com/about',
+            'https://smithfamilydental.com/contact',
+        }
+        plan = plan_fetch_paths(domain, paths, already_crawled)
+        self.assertEqual(plan, ['https://smithfamilydental.com/team'])
+
+    def test_handles_trailing_slash_and_scheme_variants(self):
+        from lib.enrichers.deep_site_crawl import plan_fetch_paths
+        domain = 'smithfamilydental.com'
+        already_crawled = {'http://smithfamilydental.com/about/'}
+        plan = plan_fetch_paths(domain, ['/about'], already_crawled)
+        self.assertEqual(plan, [])
+
+
 if __name__ == '__main__':
     unittest.main()

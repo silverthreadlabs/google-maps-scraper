@@ -83,5 +83,41 @@ class TestEnrichLeadTwoWave(unittest.TestCase):
         self.assertEqual(poc_candidates[0]['source'], 'deep_site_crawl_jsonld')
 
 
+class TestSidecarResumability(unittest.TestCase):
+    def test_load_existing_sidecar_returns_processed_place_ids(self):
+        import json
+        import tempfile
+        from scripts.osint_enrich import load_processed_place_ids
+
+        with tempfile.NamedTemporaryFile(suffix='.json', mode='w', delete=False) as f:
+            json.dump([
+                {'place_id': 'A', 'fields': {}},
+                {'place_id': 'B', 'fields': {}},
+            ], f)
+            p = Path(f.name)
+        try:
+            ids = load_processed_place_ids(p)
+            self.assertEqual(ids, {'A', 'B'})
+        finally:
+            p.unlink()
+
+    def test_load_processed_returns_empty_set_when_file_missing(self):
+        from scripts.osint_enrich import load_processed_place_ids
+        ids = load_processed_place_ids(Path('/nonexistent/path.json'))
+        self.assertEqual(ids, set())
+
+    def test_append_record_writes_atomically(self):
+        import json
+        import tempfile
+        from scripts.osint_enrich import append_sidecar_record
+
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / 'osint.json'
+            append_sidecar_record(p, {'place_id': 'A', 'fields': {}})
+            append_sidecar_record(p, {'place_id': 'B', 'fields': {}})
+            data = json.loads(p.read_text())
+            self.assertEqual([r['place_id'] for r in data], ['A', 'B'])
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -177,3 +177,32 @@ def wire_deep_site_fetch(cfg) -> None:
                 return None
 
     deep_site_crawl.fetch_url = fetch
+
+
+import json
+
+
+def load_processed_place_ids(sidecar_path: Path) -> set[str]:
+    if not sidecar_path.exists():
+        return set()
+    try:
+        data = json.loads(sidecar_path.read_text())
+    except json.JSONDecodeError:
+        return set()
+    return {r['place_id'] for r in data if r.get('place_id')}
+
+
+def append_sidecar_record(sidecar_path: Path, record: dict) -> None:
+    """Atomic append: read full file, append, write tmp, rename."""
+    sidecar_path.parent.mkdir(parents=True, exist_ok=True)
+    if sidecar_path.exists():
+        try:
+            existing = json.loads(sidecar_path.read_text())
+        except json.JSONDecodeError:
+            existing = []
+    else:
+        existing = []
+    existing.append(record)
+    tmp = sidecar_path.with_suffix(sidecar_path.suffix + '.tmp')
+    tmp.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
+    tmp.replace(sidecar_path)

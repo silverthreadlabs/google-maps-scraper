@@ -32,11 +32,18 @@ def lookup_domain(domain: str) -> dict:
     Keys: registrant_name, registrant_email, registrant_org, status.
     `status` is one of 'ok', 'redacted', 'error'.
     """
-    rec = whois.whois(domain)
+    try:
+        rec = whois.whois(domain)
+    except Exception:
+        return {
+            'registrant_name': None,
+            'registrant_email': None,
+            'registrant_org': None,
+            'status': 'error',
+        }
     name = _first(getattr(rec, 'name', None))
     email = _first(getattr(rec, 'emails', None))
     org = _first(getattr(rec, 'org', None))
-
     if _is_redacted(name, email, org):
         return {
             'registrant_name': None,

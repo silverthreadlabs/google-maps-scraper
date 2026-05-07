@@ -50,5 +50,21 @@ class TestWhoisRedacted(unittest.TestCase):
         self.assertEqual(result['status'], 'redacted')
 
 
+class TestWhoisErrors(unittest.TestCase):
+    def test_network_error_returns_status_error(self):
+        with patch('lib.enrichers.whois_lookup.whois.whois',
+                   side_effect=ConnectionError('boom')):
+            result = lookup_domain('smithfamilydental.com')
+        self.assertEqual(result['status'], 'error')
+        self.assertIsNone(result['registrant_name'])
+
+    def test_unknown_tld_returns_status_error(self):
+        from whois.exceptions import PywhoisError
+        with patch('lib.enrichers.whois_lookup.whois.whois',
+                   side_effect=PywhoisError('No match for domain')):
+            result = lookup_domain('foo.invalidtld')
+        self.assertEqual(result['status'], 'error')
+
+
 if __name__ == '__main__':
     unittest.main()

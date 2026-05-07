@@ -32,3 +32,35 @@ def parse_google_results(html: str) -> list[dict]:
             'snippet': snippet_el.get_text(' ', strip=True) if snippet_el else '',
         })
     return out
+
+
+def parse_bing_results(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, 'html.parser')
+    out: list[dict] = []
+    for li in soup.select('li.b_algo'):
+        a = li.find('a', href=True)
+        if not a:
+            continue
+        snippet_el = li.find('p')
+        out.append({
+            'url': a['href'],
+            'title': a.get_text(strip=True),
+            'snippet': snippet_el.get_text(' ', strip=True) if snippet_el else '',
+        })
+    return out
+
+
+def parse_ddg_results(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, 'html.parser')
+    out: list[dict] = []
+    for r in soup.select('div.result'):
+        a = r.select_one('a.result__a')
+        snippet_el = r.select_one('a.result__snippet, .result__snippet')
+        if not a or 'href' not in a.attrs:
+            continue
+        out.append({
+            'url': a['href'],
+            'title': a.get_text(strip=True),
+            'snippet': snippet_el.get_text(' ', strip=True) if snippet_el else '',
+        })
+    return out

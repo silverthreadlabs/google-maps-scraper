@@ -31,5 +31,38 @@ class TestParseGoogleResults(unittest.TestCase):
         self.assertIn('Phoenix', results[0]['snippet'])
 
 
+BING_HTML = """
+<html><body>
+<li class="b_algo">
+  <h2><a href="https://linkedin.com/in/john-smith-phoenix-dds">Dr. John Smith</a></h2>
+  <p>Owner at Smith Family Dental, Phoenix AZ.</p>
+</li>
+</body></html>
+"""
+
+DDG_HTML = """
+<html><body>
+<div class="result">
+  <a class="result__a" href="https://linkedin.com/in/john-smith-phoenix-dds">Dr. John Smith</a>
+  <a class="result__snippet">Owner at Smith Family Dental, Phoenix AZ.</a>
+</div>
+</body></html>
+"""
+
+
+class TestParseBingDDGResults(unittest.TestCase):
+    def test_parse_bing_results(self):
+        from lib.enrichers.serp import parse_bing_results
+        results = parse_bing_results(BING_HTML)
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0]['url'], 'https://linkedin.com/in/john-smith-phoenix-dds')
+
+    def test_parse_ddg_results(self):
+        from lib.enrichers.serp import parse_ddg_results
+        results = parse_ddg_results(DDG_HTML)
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0]['url'], 'https://linkedin.com/in/john-smith-phoenix-dds')
+
+
 if __name__ == '__main__':
     unittest.main()

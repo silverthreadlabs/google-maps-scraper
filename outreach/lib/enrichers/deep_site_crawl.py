@@ -62,15 +62,7 @@ def extract_jsonld_persons(html: str) -> list[dict]:
                     'email': node.get('email'),
                     'source': 'deep_site_crawl_jsonld',
                 })
-    seen: set[tuple] = set()
-    out: list[dict] = []
-    for p in persons:
-        key = (p.get('name'), p.get('email'))
-        if key in seen or key == (None, None):
-            continue
-        seen.add(key)
-        out.append(p)
-    return out
+    return _dedupe_persons(persons)
 
 
 def _walk_jsonld(node) -> Iterable:
@@ -116,15 +108,7 @@ def extract_heading_proximity_persons(html: str) -> list[dict]:
             'email': emails[0] if emails else None,
             'source': 'deep_site_crawl_heading',
         })
-    seen: set[tuple] = set()
-    out: list[dict] = []
-    for p in persons:
-        key = (p['name'], p.get('email'))
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(p)
-    return out
+    return _dedupe_persons(persons)
 
 
 def _is_valid_name(candidate: str) -> bool:

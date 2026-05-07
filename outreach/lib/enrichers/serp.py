@@ -9,6 +9,7 @@ fallback ladder.
 from __future__ import annotations
 
 from bs4 import BeautifulSoup
+from urllib.parse import quote_plus
 
 
 def parse_google_results(html: str) -> list[dict]:
@@ -83,11 +84,57 @@ _BLOCK_MARKERS = {
     ),
 }
 
+# Signals that indicate blocking regardless of engine (e.g. proxied captcha pages)
+_COMMON_BLOCK_MARKERS = (
+    'captcha-form',
+    'unusual traffic',
+    'recaptcha',
+)
+
 
 def is_blocked(engine: str, html: str) -> bool:
     """True if the SERP HTML looks like a captcha / rate-limit page."""
     if not html:
         return False
-    needle_set = _BLOCK_MARKERS.get(engine, ())
     h = html.lower()
-    return any(n.lower() in h for n in needle_set)
+    engine_markers = _BLOCK_MARKERS.get(engine, ())
+    return any(n.lower() in h for n in engine_markers) or any(
+        n.lower() in h for n in _COMMON_BLOCK_MARKERS
+    )
+
+
+_ENGINE_URLS = {
+    'ddg': 'https://html.duckduckgo.com/html/?q={q}',
+    'bing': 'https://www.bing.com/search?q={q}',
+    'google': 'https://www.google.com/search?q={q}',
+}
+_ENGINE_PARSERS = {
+    'ddg': parse_ddg_results,
+    'bing': parse_bing_results,
+    'google': parse_google_results,
+}
+_FALLBACK_ORDER = ('ddg', 'bing', 'google')
+
+
+def run_serp_query_with_fallback(query: str, *, fetch_fn) -> dict:
+    """Try each engine in priority order; return on first non-blocked result."""
+    for engine in _FALLBACK_ORDER:
+        url = _ENGINE_URLS[engine].format(q=quote_plus(query))
+        html = fetch_fn(url)
+        if html is None:
+            continue
+        if is_blocked(engine, html):
+            continue
+        results = _ENGINE_PARSERS[engine](html)
+        return {
+            'engine': engine,
+            'query': query,
+            'results': results,
+            'status': 'ok',
+        }
+    return {
+        'engine': None,
+        'query': query,
+        'results': [],
+        'status': 'blocked',
+    }

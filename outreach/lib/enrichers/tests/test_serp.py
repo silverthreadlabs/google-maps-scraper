@@ -92,5 +92,36 @@ class TestBlockDetection(unittest.TestCase):
         self.assertFalse(is_blocked('google', GOOGLE_HTML))
 
 
+class TestRunSerpQueryFallback(unittest.TestCase):
+    def test_falls_back_from_ddg_to_bing_to_google(self):
+        from lib.enrichers.serp import run_serp_query_with_fallback
+        calls = []
+        def fake_fetch(url):
+            if 'duckduckgo.com' in url:
+                calls.append('ddg')
+                return DDG_RATE_LIMITED_HTML
+            if 'bing.com' in url:
+                calls.append('bing')
+                return '<html><body>access denied</body></html>'
+            calls.append('google')
+            return GOOGLE_HTML
+        result = run_serp_query_with_fallback(
+            query='site:linkedin.com/in "Dr. John Smith" "Phoenix" dental',
+            fetch_fn=fake_fetch,
+        )
+        self.assertEqual(calls, ['ddg', 'bing', 'google'])
+        self.assertEqual(result['engine'], 'google')
+        self.assertEqual(result['status'], 'ok')
+        self.assertEqual(len(result['results']), 2)
+
+    def test_returns_blocked_when_all_engines_blocked(self):
+        from lib.enrichers.serp import run_serp_query_with_fallback
+        def all_blocked(url):
+            return '<html><body>captcha-form unusual traffic</body></html>'
+        result = run_serp_query_with_fallback(query='foo', fetch_fn=all_blocked)
+        self.assertEqual(result['status'], 'blocked')
+        self.assertEqual(result['results'], [])
+
+
 if __name__ == '__main__':
     unittest.main()

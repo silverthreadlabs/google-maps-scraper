@@ -108,5 +108,28 @@ class TestPlanFetchPaths(unittest.TestCase):
         self.assertEqual(plan, [])
 
 
+class TestCrawlDomainDriver(unittest.TestCase):
+    def test_returns_persons_aggregated_across_pages(self):
+        from unittest.mock import patch
+        from lib.enrichers.deep_site_crawl import crawl_domain
+        def fake_fetch(url):
+            if url.endswith('/about'):
+                return PAGE_WITH_PERSON_JSONLD
+            if url.endswith('/team'):
+                return PAGE_WITHOUT_JSONLD
+            return None
+        with patch('lib.enrichers.deep_site_crawl.fetch_url', side_effect=fake_fetch):
+            result = crawl_domain(
+                domain='smithfamilydental.com',
+                paths=['/about', '/team', '/contact'],
+                already_crawled=set(),
+            )
+        names = sorted(p['name'] for p in result['persons'])
+        self.assertIn('Dr. John Smith', names)
+        self.assertIn('Dr. Mary Jones', names)
+        self.assertEqual(result['pages_attempted'], 3)
+        self.assertEqual(result['pages_with_data'], 2)
+
+
 if __name__ == '__main__':
     unittest.main()

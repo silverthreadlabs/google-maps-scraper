@@ -381,6 +381,31 @@ the `--apply` interface stays unchanged.
 
 ---
 
+## OSINT enrich
+
+`/outreach <pipeline> osint-enrich`
+
+Runs after `merge_crawl_into_master` + `owner_lookup --apply`. Inspects each lead's gaps against `OSINT_FIELDS_DESIRED`, runs enrichers in two waves (whois + deep_site_crawl → serp), writes the unjudged sidecar to `enrichment/osint/<date>.json`. Resumable.
+
+Steps:
+
+1. `python outreach/scripts/osint_enrich.py <pipeline>`
+   - This produces `enrichment/osint/<today>.json` with all candidates, no judgments yet.
+2. Dispatch the `osint-binder` subagent in batches (10–20 leads per batch) over the sidecar:
+   - Tool: `Task` with `subagent_type: osint-binder`
+   - Prompt: `"Read enrichment/osint/<today>.json and write judgments to enrichment/osint_judgments/<today>.json. Process records [start:end]."`
+   - Wait for all batches to complete, then merge the per-batch judgments into a single `osint_judgments/<today>.json`.
+3. `python outreach/scripts/osint_enrich.py <pipeline> --apply-judgments enrichment/osint_judgments/<today>.json`
+   - Merges judgments into the main sidecar (`selected_index`, `selected_confidence` populated).
+4. `python outreach/scripts/merge_osint_into_master.py <pipeline>`
+   - Grafts confident hits into master with provenance.
+
+Per design: confident-or-skip — anything below `OSINT_CONFIDENCE_THRESHOLD` (default 0.85) is left in the sidecar but not grafted.
+
+next: `/outreach <pipeline> classify`
+
+---
+
 ## Stages not yet supported as scripts
 
 - **scrape** — use the `google-maps-scraper` skill

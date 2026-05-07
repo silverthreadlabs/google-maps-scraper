@@ -9,6 +9,8 @@ Resumable: leads already in the sidecar are skipped.
 """
 from __future__ import annotations
 
+import argparse
+import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -179,9 +181,6 @@ def wire_deep_site_fetch(cfg) -> None:
     deep_site_crawl.fetch_url = fetch
 
 
-import json
-
-
 def load_processed_place_ids(sidecar_path: Path) -> set[str]:
     if not sidecar_path.exists():
         return set()
@@ -206,3 +205,90 @@ def append_sidecar_record(sidecar_path: Path, record: dict) -> None:
     tmp = sidecar_path.with_suffix(sidecar_path.suffix + '.tmp')
     tmp.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
     tmp.replace(sidecar_path)
+
+
+from scripts._common import (
+    add_pipeline_arg,
+    load_pipeline_config,
+    pipeline_dir,
+    pipeline_lock,
+    require_attr,
+)
+from scripts.merge_crawl_into_master import latest_master
+
+
+def _load_already_crawled(pdir: Path) -> set[str]:
+    """Read enrichment/website_crawl.json if it exists, return the set
+    of URLs already fetched so deep_site_crawl can dedupe."""
+    p = pdir / 'enrichment' / 'website_crawl.json'
+    if not p.exists():
+        return set()
+    try:
+        rows = json.loads(p.read_text())
+    except json.JSONDecodeError:
+        return set()
+    out: set[str] = set()
+    for row in rows:
+        for page in row.get('pages') or []:
+            url = page.get('url') if isinstance(page, dict) else page
+            if url:
+                out.add(url)
+    return out
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description='Run OSINT enrichment for a pipeline.',
+    )
+    add_pipeline_arg(parser)
+    parser.add_argument('--master', type=Path, default=None,
+                        help='master JSON (default: outputs/<latest-date>/master.json)')
+    parser.add_argument('--sidecar', type=Path, default=None,
+                        help='sidecar output (default: enrichment/osint/<today>.json)')
+    parser.add_argument('--force', action='store_true',
+                        help='re-enrich leads already in the sidecar')
+    args = parser.parse_args(argv)
+
+    cfg = load_pipeline_config(args.pipeline)
+    if not getattr(cfg, 'OSINT_ENABLED', False):
+        sys.stderr.write(f"OSINT disabled for pipeline {args.pipeline} (set OSINT_ENABLED=True in config.py)\n")
+        return 0
+
+    pdir = pipeline_dir(args.pipeline)
+    master_path = args.master or latest_master(pdir)
+    if master_path is None or not master_path.exists():
+        sys.stderr.write(f"error: master not found: {master_path}\n")
+        return 2
+
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    sidecar_path = args.sidecar or (pdir / 'enrichment' / 'osint' / f'{today}.json')
+
+    master = json.loads(master_path.read_text())
+    processed = set() if args.force else load_processed_place_ids(sidecar_path)
+    already_crawled = _load_already_crawled(pdir)
+
+    todo = [l for l in master if l.get('place_id') not in processed]
+    print(f"OSINT: {len(todo)} leads to enrich (skipping {len(processed)} already done)", flush=True)
+
+    wire_deep_site_fetch(cfg)
+
+    with pipeline_lock(args.pipeline, 'osint_enrich'):
+        for i, lead in enumerate(todo, 1):
+            try:
+                record = enrich_lead(lead, cfg, already_crawled=already_crawled)
+                append_sidecar_record(sidecar_path, record)
+                print(f"  [{i}/{len(todo)}] {lead.get('place_id')}: "
+                      f"{sum(len(v['candidates']) for v in record['fields'].values())} candidates",
+                      flush=True)
+            except Exception as e:
+                sys.stderr.write(f"error enriching {lead.get('place_id')}: {e!r}\n")
+
+    print(f"wrote {sidecar_path}", flush=True)
+    print(f"next: dispatch osint-binder subagent on {sidecar_path}, "
+          f"then run python outreach/scripts/merge_osint_into_master.py {args.pipeline}",
+          flush=True)
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

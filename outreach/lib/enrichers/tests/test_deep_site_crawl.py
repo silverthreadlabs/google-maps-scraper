@@ -131,5 +131,36 @@ class TestCrawlDomainDriver(unittest.TestCase):
         self.assertEqual(result['pages_with_data'], 2)
 
 
+PERSON_SHAPED_WITHOUT_TYPE = """
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Smith Family Dental",
+  "staff": [
+    {"name": "Dr. Maya Patel", "jobTitle": "Hygienist", "email": "maya@smithfamilydental.com"}
+  ]
+}
+</script>
+"""
+
+
+class TestExtractsPersonShapedNodesWithoutExplicitType(unittest.TestCase):
+    def test_node_with_name_and_jobtitle_is_extracted_even_without_at_type_person(self):
+        persons = extract_jsonld_persons(PERSON_SHAPED_WITHOUT_TYPE)
+        names = [p['name'] for p in persons]
+        self.assertIn('Dr. Maya Patel', names)
+        maya = next(p for p in persons if p['name'] == 'Dr. Maya Patel')
+        self.assertEqual(maya['role'], 'Hygienist')
+        self.assertEqual(maya['email'], 'maya@smithfamilydental.com')
+
+    def test_organization_node_itself_is_not_misdetected_as_person(self):
+        # The outer Organization node has 'name': 'Smith Family Dental' but
+        # no jobTitle, so it should NOT be picked up as a Person.
+        persons = extract_jsonld_persons(PERSON_SHAPED_WITHOUT_TYPE)
+        names = [p['name'] for p in persons]
+        self.assertNotIn('Smith Family Dental', names)
+
+
 if __name__ == '__main__':
     unittest.main()

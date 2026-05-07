@@ -48,7 +48,14 @@ def extract_jsonld_persons(html: str) -> list[dict]:
                 continue
             t = node.get('@type')
             is_person = t == 'Person' or (isinstance(t, list) and 'Person' in t)
-            if is_person:
+            # Fallback: real-world JSON-LD often embeds staff entries without
+            # @type=Person inside Organization-like nodes. Treat any node with
+            # both a name and a string jobTitle as a Person regardless of @type.
+            has_person_shape = (
+                isinstance(node.get('name'), str)
+                and isinstance(node.get('jobTitle'), str)
+            )
+            if is_person or has_person_shape:
                 persons.append({
                     'name': node.get('name'),
                     'role': node.get('jobTitle') or node.get('role'),

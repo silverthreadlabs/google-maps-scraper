@@ -234,6 +234,28 @@ def _load_already_crawled(pdir: Path) -> set[str]:
     return out
 
 
+def apply_judgments_to_sidecar(sidecar: list[dict], judgments: list[dict]) -> None:
+    """Mutate sidecar in place, merging per-(place_id, field) judgments
+    into each candidate and the field's selected_*."""
+    by_key: dict[tuple[str, str], dict] = {
+        (j['place_id'], j['field']): j for j in judgments
+    }
+    for record in sidecar:
+        pid = record.get('place_id')
+        for field, fr in record.get('fields', {}).items():
+            j = by_key.get((pid, field))
+            if not j:
+                continue
+            for jc in j.get('judgments', []):
+                idx = jc['index']
+                if 0 <= idx < len(fr['candidates']):
+                    fr['candidates'][idx]['judge_verdict'] = jc['verdict']
+                    fr['candidates'][idx]['judge_confidence'] = jc['confidence']
+                    fr['candidates'][idx]['judge_reasoning'] = jc.get('reasoning')
+            fr['selected_index'] = j.get('best_match_index')
+            fr['selected_confidence'] = j.get('selected_confidence')
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description='Run OSINT enrichment for a pipeline.',
@@ -245,6 +267,8 @@ def main(argv: list[str] | None = None) -> int:
                         help='sidecar output (default: enrichment/osint/<today>.json)')
     parser.add_argument('--force', action='store_true',
                         help='re-enrich leads already in the sidecar')
+    parser.add_argument('--apply-judgments', type=Path, default=None,
+                        help='merge judgments file into the existing sidecar')
     args = parser.parse_args(argv)
 
     cfg = load_pipeline_config(args.pipeline)
@@ -260,6 +284,22 @@ def main(argv: list[str] | None = None) -> int:
 
     today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     sidecar_path = args.sidecar or (pdir / 'enrichment' / 'osint' / f'{today}.json')
+
+    if args.apply_judgments:
+        if not sidecar_path.exists():
+            sys.stderr.write(f"error: sidecar not found: {sidecar_path}\n")
+            return 2
+        if not args.apply_judgments.exists():
+            sys.stderr.write(f"error: judgments not found: {args.apply_judgments}\n")
+            return 2
+        sidecar_data = json.loads(sidecar_path.read_text())
+        judgments = json.loads(args.apply_judgments.read_text())
+        apply_judgments_to_sidecar(sidecar_data, judgments)
+        tmp = sidecar_path.with_suffix(sidecar_path.suffix + '.tmp')
+        tmp.write_text(json.dumps(sidecar_data, indent=2, ensure_ascii=False))
+        tmp.replace(sidecar_path)
+        print(f"applied {len(judgments)} judgments to {sidecar_path}", flush=True)
+        return 0
 
     master = json.loads(master_path.read_text())
     processed = set() if args.force else load_processed_place_ids(sidecar_path)

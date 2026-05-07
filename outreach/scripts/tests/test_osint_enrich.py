@@ -119,5 +119,40 @@ class TestSidecarResumability(unittest.TestCase):
             self.assertEqual([r['place_id'] for r in data], ['A', 'B'])
 
 
+class TestApplyJudgments(unittest.TestCase):
+    def test_merges_judgments_into_sidecar_by_place_id_and_field(self):
+        from scripts.osint_enrich import apply_judgments_to_sidecar
+        sidecar = [{
+            'place_id': 'A',
+            'fields': {
+                'linkedin_url_poc': {
+                    'candidates': [
+                        {'value': 'u1', 'judge_verdict': None, 'judge_confidence': None},
+                        {'value': 'u2', 'judge_verdict': None, 'judge_confidence': None},
+                    ],
+                    'selected_index': None,
+                    'selected_confidence': None,
+                },
+            },
+        }]
+        judgments = [{
+            'place_id': 'A',
+            'field': 'linkedin_url_poc',
+            'judgments': [
+                {'index': 0, 'verdict': 'match', 'confidence': 0.92, 'reasoning': 'r0'},
+                {'index': 1, 'verdict': 'rejected', 'confidence': 0.0, 'reasoning': 'r1'},
+            ],
+            'best_match_index': 0,
+            'selected_confidence': 0.92,
+        }]
+        apply_judgments_to_sidecar(sidecar, judgments)
+        f = sidecar[0]['fields']['linkedin_url_poc']
+        self.assertEqual(f['selected_index'], 0)
+        self.assertEqual(f['selected_confidence'], 0.92)
+        self.assertEqual(f['candidates'][0]['judge_verdict'], 'match')
+        self.assertEqual(f['candidates'][0]['judge_confidence'], 0.92)
+        self.assertEqual(f['candidates'][1]['judge_verdict'], 'rejected')
+
+
 if __name__ == '__main__':
     unittest.main()

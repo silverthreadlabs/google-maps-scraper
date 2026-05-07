@@ -42,5 +42,30 @@ class TestGraftConfidentHits(unittest.TestCase):
         self.assertEqual(stats['grafted'], 1)
 
 
+class TestImmutability(unittest.TestCase):
+    def test_does_not_overwrite_existing_value(self):
+        master = [{
+            'place_id': 'A',
+            'linkedin_url_poc': 'https://linkedin.com/in/preexisting',
+            'linkedin_url_poc_source': 'manual',
+        }]
+        sidecar = [{
+            'place_id': 'A',
+            'enriched_at': '2026-05-07T15:00:00Z',
+            'fields': {
+                'linkedin_url_poc': {
+                    'candidates': [CANDIDATE_HIGH],
+                    'selected_index': 0,
+                    'selected_confidence': 0.95,
+                },
+            },
+        }]
+        stats = graft(master, sidecar, threshold=0.85)
+        self.assertEqual(master[0]['linkedin_url_poc'], 'https://linkedin.com/in/preexisting')
+        self.assertEqual(master[0]['linkedin_url_poc_source'], 'manual')
+        self.assertEqual(stats['grafted'], 0)
+        self.assertEqual(stats['skipped_existing_value'], 1)
+
+
 if __name__ == '__main__':
     unittest.main()

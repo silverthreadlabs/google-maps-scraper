@@ -11,6 +11,20 @@ from __future__ import annotations
 
 import whois  # python-whois
 
+_REDACTION_MARKERS = (
+    'REDACTED', 'redacted',
+    'Privacy', 'privacy',
+    'Withheld for Privacy',
+    'WhoisGuard',
+    'Domains By Proxy',
+    'Contact Privacy Inc',
+    'Perfect Privacy',
+)
+_PRIVACY_EMAIL_DOMAINS = (
+    'withheldforprivacy.com', 'whoisguard.com', 'domainsbyproxy.com',
+    'contactprivacy.com', 'privacyguardian.org',
+)
+
 
 def lookup_domain(domain: str) -> dict:
     """Look up `domain` and return a normalized dict.
@@ -22,12 +36,35 @@ def lookup_domain(domain: str) -> dict:
     name = _first(getattr(rec, 'name', None))
     email = _first(getattr(rec, 'emails', None))
     org = _first(getattr(rec, 'org', None))
+
+    if _is_redacted(name, email, org):
+        return {
+            'registrant_name': None,
+            'registrant_email': None,
+            'registrant_org': None,
+            'status': 'redacted',
+        }
     return {
         'registrant_name': name,
         'registrant_email': email,
         'registrant_org': org,
         'status': 'ok',
     }
+
+
+def _is_redacted(name, email, org) -> bool:
+    if name is None and email is None and org is None:
+        return True
+    for v in (name, org):
+        if v and any(m in v for m in _REDACTION_MARKERS):
+            return True
+    if email:
+        host = email.split('@', 1)[-1].lower() if '@' in email else ''
+        if any(host.endswith(d) for d in _PRIVACY_EMAIL_DOMAINS):
+            return True
+        if name is None and email.lower().startswith(('abuse@', 'proxy@')):
+            return True
+    return False
 
 
 def _first(value):

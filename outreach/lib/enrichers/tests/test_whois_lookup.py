@@ -30,5 +30,25 @@ class TestWhoisHappyPath(unittest.TestCase):
         self.assertEqual(result['status'], 'ok')
 
 
+class TestWhoisRedacted(unittest.TestCase):
+    def test_redacted_record_returns_status_redacted(self):
+        fake = _FakeWhoisRecord(
+            name='REDACTED FOR PRIVACY',
+            org='Privacy service provided by Withheld for Privacy',
+            emails='abuse@withheldforprivacy.com',
+        )
+        with patch('lib.enrichers.whois_lookup.whois.whois', return_value=fake):
+            result = lookup_domain('smithfamilydental.com')
+        self.assertEqual(result['status'], 'redacted')
+        self.assertIsNone(result['registrant_name'])
+        self.assertIsNone(result['registrant_email'])
+
+    def test_redacted_when_name_is_none_and_email_is_privacy_service(self):
+        fake = _FakeWhoisRecord(name=None, org=None, emails='proxy@registrar.com')
+        with patch('lib.enrichers.whois_lookup.whois.whois', return_value=fake):
+            result = lookup_domain('foo.example')
+        self.assertEqual(result['status'], 'redacted')
+
+
 if __name__ == '__main__':
     unittest.main()

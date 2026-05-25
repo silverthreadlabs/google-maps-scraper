@@ -72,7 +72,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 from lib.ranking import quality_score as _quality_score, tier as _tier
 
 PROVENANCE_TAG = 'pain-classifier-subagent'

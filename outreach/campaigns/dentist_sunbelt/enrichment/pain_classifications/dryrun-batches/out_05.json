@@ -1,0 +1,356 @@
+[
+  {
+    "id": 150,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "I was scheduled at 4pm, waited at least 15 minutes before being seen",
+        "reasoning": "Patient waited past appointment time before being seen."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "categories": []
+  },
+  {
+    "id": 152,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.92,
+        "quote": "They will have you sitting in the waiting room for an hour and a half",
+        "reasoning": "Patient waited 1.5 hours past their appointment time."
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.93,
+        "quote": "I waited in the lobby for over 40 minutes I never even made it to a chair",
+        "reasoning": "Patient waited far past their 10 AM appointment time."
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "the wait time is way  too long",
+        "reasoning": "Complaint about long wait time at the practice."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "They are unprofessional and rude",
+        "reasoning": "Generic rudeness complaint about staff with no clarity/listening detail, default to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "categories": []
+  },
+  {
+    "id": 156,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "the dr comes in looks at your mouth doesn’t talk to you as the patient only talks to the assistant",
+        "reasoning": "Patient ignored by doctor who only talked to the assistant."
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "to be given lidocaine injections and told she'll be back in 15 minutes",
+        "reasoning": "Patient left waiting in chair after lidocaine injections, suggesting in-chair wait issue."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.92,
+        "quote": "The 2 people in the front desk need to get a training in customer service, not friendly at all. They were kind of rude",
+        "reasoning": "Direct complaint about rude front desk staff."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "were not able to communicate in efficient manner with me",
+        "reasoning": "Front desk staff could not communicate effectively."
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "categories": []
+  },
+  {
+    "id": 160,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "recall_followup_missing",
+        "confidence": 0.65,
+        "quote": "I have been continually contacted by this incompetent dental office every 4 months for nearly two years now. Not only do I no longer live in Texas",
+        "reasoning": "Practice continues unsolicited recall contact to a non-patient — broken/misfiring recall workflow."
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "I have never waited less than 45 minutes to see the dentist here. Other patents in the waiting room have waited for 2 hours or more",
+        "reasoning": "Chronic long waits past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "I was asking about the oral surgeon there then she hung up on me",
+        "reasoning": "Staff hung up on the caller — rude/dismissive front-line behavior."
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "mucho tiempo de espera hasta 3 horas esperando",
+        "reasoning": "Patient reports waiting up to 3 hours."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "they tell you 9am and they’ll call you at 10am",
+        "reasoning": "Patient called back an hour after the scheduled appointment time."
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "categories": []
+  },
+  {
+    "id": 166,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.92,
+        "quote": "Casi 2 horas en espera para q me atiendan",
+        "reasoning": "Patient waited nearly 2 hours to be seen."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Very long wait time even though I had an appointment",
+        "reasoning": "Long wait time despite having an appointment."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "recall_followup_missing",
+        "confidence": 0.7,
+        "quote": "I have also been getting calls from them every few months telling me I have a scheduled appointment the following day. I have not made any appointments, and they won’t stop calling",
+        "reasoning": "Practice's recall/scheduling outreach is misfiring — calling about appointments the patient never made."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.92,
+        "quote": "I was supposed to wait for about 35 minutes before eventually ended up going home because they said it would take another 30",
+        "reasoning": "Patient waited far past appointment time and gave up."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.85,
+        "quote": "I told to the front desk I am deaf I couldn't hear my name when called. Interpreter needed. Free interpreter that they could have gotten",
+        "reasoning": "Communication accommodation (interpreter for deaf patient) was not provided — analogous to language barrier."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "Long wait",
+        "reasoning": "Explicitly mentions a long wait."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Lack of communication and lack of proper care",
+        "reasoning": "Direct complaint about lack of communication from staff."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.6,
+        "quote": "It took her literally seven (7) months to get dentures",
+        "reasoning": "Extreme delay in completing service delivery."
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.55,
+        "quote": "besides it taking almost 7 months for his dentures",
+        "reasoning": "Long delay completing the dentures service."
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "They do not respect the times. You have to wait a long time",
+        "reasoning": "Long waits past scheduled appointment times."
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "I've been waiting an hour and a half despite showing up early for my appointment",
+        "reasoning": "Patient waited 1.5 hours despite arriving early."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "horrible wait time, im in lobby waiting. whats the point of appointment if we dont get seen? its been 45 minutes",
+        "reasoning": "Patient waited 45 minutes in lobby past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "They were trying to charge me for a $350 gingival irrigation treatment that I didn't want. Refused to remove this service from my treatment plan .Wouldn't do my exam/cleaning without charging me for this service first",
+        "reasoning": "Practice charging for an undesired/unrequested service — hidden upcharge pattern."
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.8,
+        "quote": "the provider I had made an appointment with was not the preferred rate provider at that location for my insurance, so called to cancel. Receptionist said \"on no its fine he is accepted by your insurance.\"",
+        "reasoning": "Insurance/provider rate not properly verified before scheduling; receptionist gave incorrect info on coverage."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Receptionist said \"on no its fine he is accepted by your insurance.\" I pulled up my price options and determined it was different between providers",
+        "reasoning": "Receptionist gave incorrect/contradictory information about insurance coverage."
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the assistant Sylvia was Rude and loud..shouting in my ear calling her coworkers",
+        "reasoning": "Rude/unprofessional behavior from clinical assistant during visit."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "categories": []
+  },
+  {
+    "id": 179,
+    "categories": []
+  }
+]

@@ -19,7 +19,7 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from lib.cli._common import add_pipeline_arg, load_dotenv, load_pipeline_config
 

@@ -1,0 +1,276 @@
+[
+  {
+    "id": 210,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "I arrived for my appointment to be told I did not have insurance. I explained it was through work and I was at work yesterday. I was turned away. 30 minutes later the lady called and said another employee looked at Tue wrong portal.",
+        "reasoning": "Insurance was not properly verified before the appointment; staff checked the wrong portal and turned the patient away."
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "categories": []
+  },
+  {
+    "id": 212,
+    "categories": []
+  },
+  {
+    "id": 213,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.7,
+        "quote": "when u need to have someone check on extraction site to see if somethings wrong 48 hrs later they want to set up an appt a couple of days later",
+        "reasoning": "Patient with urgent post-extraction concern was offered an appointment days out instead of immediate evaluation."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.6,
+        "quote": "when u need to have someone check on extraction site to see if somethings wrong 48 hrs later they want to set up an appt a couple of days later",
+        "reasoning": "After an extraction, no proactive post-op check; patient had to chase and was offered a delayed slot."
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.95,
+        "quote": "Hours say they are open so I called and the phone did ring but no one answered so I called again and it went straight to voicemail",
+        "reasoning": "Caller phoned during posted business hours and no one answered."
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "categories": []
+  },
+  {
+    "id": 216,
+    "categories": []
+  },
+  {
+    "id": 217,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "the staff scheduled me at lunchtime. I had to sit for an hour to wait for lunch to be over. I was told they called me and let me know. I never recieved a call.",
+        "reasoning": "Patient waited an hour past appointment time due to scheduling at lunch; no notification was received."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "I was told they called me and let me know. I never recieved a call.",
+        "reasoning": "Staff claimed they had communicated about the lunch break delay, but no call was received — contradictory information."
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "categories": []
+  },
+  {
+    "id": 219,
+    "categories": []
+  },
+  {
+    "id": 220,
+    "categories": []
+  },
+  {
+    "id": 221,
+    "categories": []
+  },
+  {
+    "id": 222,
+    "categories": []
+  },
+  {
+    "id": 223,
+    "categories": []
+  },
+  {
+    "id": 224,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "they never bill you on time making me ow them thousands of dollars their billing department is so bad",
+        "reasoning": "Delayed billing left patient owing thousands unexpectedly — surprise charges from a poor billing department."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "the manager is very rude and arrogant",
+        "reasoning": "Patient describes manager's tone as rude and arrogant."
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "it took two hours just to complete X-rays",
+        "reasoning": "Patient waited two hours just for X-rays during what was supposed to be a routine check-up."
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "they told me \"your % after insurance is $1415.10. TRUTH IS THEY MADE ME PAY 100% of THEY'RE price",
+        "reasoning": "Patient was quoted one amount after insurance but charged the full amount — a divergent surprise bill."
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "categories": []
+  },
+  {
+    "id": 228,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "I went in knowing the issue I had and was charged $99 (before filling out a patient intake form) pretty much to have someone tell me what I a",
+        "reasoning": "Patient was charged $99 before any intake form, a fee they did not expect for the consultation."
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "categories": []
+  },
+  {
+    "id": 230,
+    "categories": []
+  },
+  {
+    "id": 231,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "It has been a nightmare trying to get them to fix their first mistake which has only snowballed into me paying ~$6500 that was supposed to be paid back to me by my ins, but I can't be paid the way the office fil",
+        "reasoning": "Patient is out ~$6500 due to office billing/filing mistake with insurance — billing/intake error causing payment issue."
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "Unfortunately family implant charged my insurance Co hundreds dollars for this \"FREE\" consult.",
+        "reasoning": "Patient was told consult was free but the office charged insurance — undisclosed/surprise charge."
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "I came in here for pain in my mouth from a bad burn, the hygienist was insensitive and completely disregarded.",
+        "reasoning": "Patient raised a specific pain concern and was disregarded by the hygienist."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "he came in after I waited 30 m",
+        "reasoning": "Patient waited 30+ minutes for the doctor (snippet truncated)."
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Staff overbooks and I waited over 45 min to be seen for a cleaning.",
+        "reasoning": "Patient waited 45+ minutes due to overbooking."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.8,
+        "quote": "Rescheduled and they booked an exam not a cleaning, so had to change my appt time again.",
+        "reasoning": "Repeated rescheduling caused by booking the wrong appointment type."
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I happen to look on my insurance app to see charge of $111.  When u called the insurance to inquire as to why since I have never had a cost share on X-rays",
+        "reasoning": "Unexpected $111 charge appeared on insurance app — undisclosed billing the patient discovered after the fact."
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "categories": []
+  },
+  {
+    "id": 237,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.9,
+        "quote": "I called and left a voicemail about how my teeth have now completely messed up, they're hurting & I haven't gotten a response back.",
+        "reasoning": "Patient left a voicemail about a serious post-treatment issue and received no callback."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.65,
+        "quote": "I called and left a voicemail about how my teeth have now completely messed up, they're hurting & I haven't gotten a response back.",
+        "reasoning": "After treatment, no follow-up from the practice on a reported post-visit problem."
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "categories": []
+  },
+  {
+    "id": 239,
+    "categories": []
+  }
+]

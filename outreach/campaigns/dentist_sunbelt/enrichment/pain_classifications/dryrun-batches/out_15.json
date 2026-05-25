@@ -1,0 +1,233 @@
+[
+  {
+    "id": 450,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "To charge a $78 examine fee for nothing but talking, which is simply a consultation isn't wise",
+        "reasoning": "Patient describes an unexpected fee for a consultation, consistent with surprise/unexpected billing."
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Charged me $59 even though I haven't been to their dentist in over a year",
+        "reasoning": "Unexpected charge appearing without recent service is a clear surprise-billing complaint."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "Won't answer emails or their phone",
+        "reasoning": "Phone is not answered when patient calls; insufficient detail to pin to after-hours, defaulting to during-hours."
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "Routine cleaning lead to a nice surprise $250 bill afterwards",
+        "reasoning": "Explicit unexpected post-visit bill matches surprise_billing trigger."
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "categories": []
+  },
+  {
+    "id": 454,
+    "categories": []
+  },
+  {
+    "id": 455,
+    "categories": []
+  },
+  {
+    "id": 456,
+    "categories": []
+  },
+  {
+    "id": 457,
+    "categories": []
+  },
+  {
+    "id": 458,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.9,
+        "quote": "I've got receipts showing I paid but they messed up with applying to the wrong account. Then they call my wife and tell her she is going to collections due to non-payment",
+        "reasoning": "Misapplied payment with collections threat despite proof of payment is a payment-issue complaint."
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "categories": []
+  },
+  {
+    "id": 460,
+    "categories": []
+  },
+  {
+    "id": 461,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "I wasn’t explained how many attachments I would need",
+        "reasoning": "Missing/unclear explanation about Invisalign attachments is a poor_communication complaint."
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "Returned several times due to being in pain from the filling and was essentially told there was nothing they could do",
+        "reasoning": "Patient repeatedly raised pain concern and was dismissed."
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "categories": []
+  },
+  {
+    "id": 464,
+    "categories": []
+  },
+  {
+    "id": 465,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.8,
+        "quote": "Felt like the doctor and the assistant were in a rush to be done and leave, rather than do a",
+        "reasoning": "Patient explicitly describes the visit as rushed."
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.85,
+        "quote": "His visit and time was short and I didnt even feel comfortable asking questions because I got the feeling he had better things to do",
+        "reasoning": "Short visit with dentist appearing inattentive matches rushed/inattentive."
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "categories": []
+  },
+  {
+    "id": 468,
+    "categories": []
+  },
+  {
+    "id": 469,
+    "categories": []
+  },
+  {
+    "id": 470,
+    "categories": []
+  },
+  {
+    "id": 471,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "I asked several times if the appoinment would be free and they assured me it would be free",
+        "reasoning": "Patient was assured visit would be free, then context implies divergence — quoted X, billed Y pattern."
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "categories": []
+  },
+  {
+    "id": 473,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "The lady at front says this is your last appointment because we’re not taking VA anymore cause there fees are to high! Thanks for sharing that with the entire lobby",
+        "reasoning": "Front-desk staff loudly disclosed insurance/HIPAA-sensitive info in lobby — unprofessional front-desk behavior."
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.8,
+        "quote": "this place was horrible to book an appointment.\nI tried twice and was so frustrated that I gave up",
+        "reasoning": "Patient explicitly describes booking process as horrible and gave up after multiple tries."
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "categories": []
+  },
+  {
+    "id": 476,
+    "categories": []
+  },
+  {
+    "id": 477,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "I asked him why I was swelling because I’ve never had an allergic reaction before when my mouth",
+        "reasoning": "Patient raised a specific concern about swelling during the procedure; signal of concern dismissal but truncated."
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "Will charge you for services not provided. And charge you after the visit per “clerical error”",
+        "reasoning": "Unexpected post-visit charges for services not provided matches surprise_billing."
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "categories": []
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "id": 330,
+    "categories": []
+  },
+  {
+    "id": 331,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "I offered to sign some sort of waiver to avoid su",
+        "reasoning": "Patient offered an alternative which was not accommodated; hygienist insisted on higher-priced treatment despite patient's concern."
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.75,
+        "quote": "the receptionist decided to call me and try to reschedule my",
+        "reasoning": "Last-minute reschedule attempt as patient was walking to appointment."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "the hygienist was running behind and could get me in until 12:30. 30 minutes after my appointment",
+        "reasoning": "Hygienist running 30 minutes behind appointment time."
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "categories": []
+  },
+  {
+    "id": 334,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "I was trying to explain",
+        "reasoning": "Patient indicates the dentist did not hear out their explanation about the filling pain."
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "the lady at the front desk said it was actually scheduled for 10:30am; she also said it was confirmed by me. I was so confused",
+        "reasoning": "Conflicting/unclear info about appointment time and confirmation status."
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "you need to check with insurance before providing an invoice",
+        "reasoning": "Explicit complaint that insurance was not verified before invoicing."
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "Lack of communication - the office never sent me an email or text telling me when my appointment was",
+        "reasoning": "Explicit lack of communication about appointment details."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "no_show_reminder_missing",
+        "confidence": 0.75,
+        "quote": "the office never sent me an email or text telling me when my appointment was",
+        "reasoning": "No reminder/notification sent before the appointment."
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "categories": []
+  },
+  {
+    "id": 339,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "So rude. I will never come back here",
+        "reasoning": "Generic rudeness complaint; default to staff_rude_front_desk per taxonomy guidance."
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "categories": []
+  },
+  {
+    "id": 341,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Their staff are very impatient",
+        "reasoning": "Complaint about staff tone/impatience."
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "categories": []
+  },
+  {
+    "id": 343,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "my husband and I would walk into the office and have these massive $500-$1000 bills",
+        "reasoning": "Repeated unexpected large bills upon arrival."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.7,
+        "quote": "our insurance denied the claims and weren’t covering what they said they would",
+        "reasoning": "Coverage was not properly verified before service, leading to denied claims."
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "categories": []
+  },
+  {
+    "id": 345,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.7,
+        "quote": "i am very upset with the way this company has handled payments",
+        "reasoning": "Explicit complaint about payment handling."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "they could set up a \"payment plan\" which really just meant a credit card (care credit) had i known",
+        "reasoning": "Misleading/unclear explanation of what 'payment plan' meant."
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.8,
+        "quote": "They called Monday, the week of, and said they need to reschedule because the Dentist is going out of town",
+        "reasoning": "Practice rescheduled the appointment."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "after being seated, I wait for 20 minutes because the x-ray tool is being u",
+        "reasoning": "Waited 20 minutes in chair due to equipment unavailability."
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "I have tried to get the problem resolved with the office but I have not heard back",
+        "reasoning": "Patient actively reached out to resolve a problem and got no response."
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "I went in for my cleaning and it took almost 2 hours! Way too many opportunities where I was waiting unnecessarily",
+        "reasoning": "Cleaning took two hours due to repeated waiting."
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "I only went in for dentures and they charged me 11,000",
+        "reasoning": "Charged for items (abutments) patient claims were not provided."
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.85,
+        "quote": "they never called in my prescription and then closed at 3 for the weekend",
+        "reasoning": "After visit, prescription was never called in and office closed without resolution."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_after_hours_or_emergency",
+        "confidence": 0.5,
+        "quote": "closed at 3 for the weekend",
+        "reasoning": "No after-hours coverage when patient had urgent need."
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "categories": []
+  },
+  {
+    "id": 352,
+    "categories": []
+  },
+  {
+    "id": 353,
+    "categories": []
+  },
+  {
+    "id": 354,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.85,
+        "quote": "Got X-rays and all to get my teeth cleaned and never heard back from them",
+        "reasoning": "After initial visit/x-rays, practice never followed up to schedule cleaning."
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "categories": []
+  },
+  {
+    "id": 356,
+    "categories": []
+  },
+  {
+    "id": 357,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "I let the hygienist know I only wanted my teeth cleaned on this visit, she informed me I would need to talk to the doctor",
+        "reasoning": "Patient stated a specific preference that was not accommodated."
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "categories": []
+  },
+  {
+    "id": 359,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "they clearly don’t respect people’s time",
+        "reasoning": "Reviewer's primary complaint is wait/time disrespect at appointment."
+      }
+    ]
+  }
+]

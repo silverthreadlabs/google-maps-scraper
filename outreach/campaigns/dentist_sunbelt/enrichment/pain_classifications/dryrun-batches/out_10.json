@@ -1,0 +1,269 @@
+[
+  {
+    "id": 300,
+    "categories": []
+  },
+  {
+    "id": 301,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "Very simple questions could not be answered by the great team members in the billing department.",
+        "reasoning": "Billing staff unable to answer simple questions indicates unclear/missing information from staff."
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "categories": []
+  },
+  {
+    "id": 303,
+    "categories": []
+  },
+  {
+    "id": 304,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "the billing/check out staff should not be openly rude or annoyed with long time patrons that keep rescheduling appointments",
+        "reasoning": "Explicit complaint about non-clinical staff being openly rude to patients."
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "categories": []
+  },
+  {
+    "id": 306,
+    "categories": []
+  },
+  {
+    "id": 307,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "One of the staff at the front desk was rude and unprofessional to my 80 year old husband",
+        "reasoning": "Direct complaint that front-desk staff was rude and unprofessional."
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "they were charging me for procedures I never agreed to and billing insurance in a way that doesn’t make sense",
+        "reasoning": "Unexpected/undisclosed charges for procedures the patient didn't agree to."
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "categories": []
+  },
+  {
+    "id": 310,
+    "categories": []
+  },
+  {
+    "id": 311,
+    "categories": []
+  },
+  {
+    "id": 312,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "Offer low price new patient package that includes cleaning and exam, then tell you that you need a \"deep\" cleaning at hundreds of dollars more.",
+        "reasoning": "Bait-and-switch pricing: quoted low package then hit with hundreds more — surprise billing pattern."
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "categories": []
+  },
+  {
+    "id": 314,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "I don’t think being ignored, not communicating properly or not being kind is an opinion.",
+        "reasoning": "Reviewer specifically calls out being ignored by staff."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "2 of the Front desk girls are horrible, no customer service ski",
+        "reasoning": "Complaint about front desk staff lacking customer service skills."
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "i thought they ran the insurance before we get seen",
+        "reasoning": "Patient assumed insurance was verified before service; office didn't take their insurance and surprise bill arrived months later."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "after like 5 visits for cleaning and cavity s 7 months later i get a bill",
+        "reasoning": "Unexpected bill arrived 7 months after service."
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.75,
+        "quote": "No pain med prescription no after care instructions no gauze.",
+        "reasoning": "After oral surgery, no aftercare instructions or post-op support provided."
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "categories": []
+  },
+  {
+    "id": 318,
+    "categories": []
+  },
+  {
+    "id": 319,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "the one lady that takes care of the insurance is so rude!",
+        "reasoning": "Explicit complaint about non-clinical staff member being rude."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.8,
+        "quote": "the dentist herself does her job too quickly & isn't careful, she doesn't do a thorough job",
+        "reasoning": "Operational rushing — dentist works too quickly and not thoroughly."
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "Had a 1pm appointment, did not get in till 1:25.",
+        "reasoning": "Waited 25 minutes past scheduled appointment time."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.9,
+        "quote": "hurried through my water treatment and hurried even more at cleaning my teeth",
+        "reasoning": "Hygienist hurried through cleaning — operational rushing."
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.7,
+        "quote": "they wanted to book be out 26 days for me to be fix",
+        "reasoning": "Next available slot was nearly a month out for a redo fix."
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "categories": []
+  },
+  {
+    "id": 323,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.85,
+        "quote": "they acted like they called our insurance back and forth to made sure the service they performed were covered. We ended up having to pay $200 out of pocket",
+        "reasoning": "Office faked/inadequate insurance verification before service; patient billed out-of-pocket."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "We ended up having to pay $200 out of pocket for our prevent",
+        "reasoning": "Unexpected $200 out-of-pocket charge after being told preventative service was covered."
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "I was over charged for a procedure, and when I notified them of this, they questioned me because of the estimate I was given.",
+        "reasoning": "Quoted estimate diverged from actual billed amount — classic surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "categories": []
+  },
+  {
+    "id": 326,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.75,
+        "quote": "Dr. McKee spent 5-10 minutes with me and decided I needed a root canal which he was keen on starting immediately.",
+        "reasoning": "Very short visit (5-10 minutes) before major diagnosis — operational rushing."
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "categories": []
+  },
+  {
+    "id": 328,
+    "categories": []
+  },
+  {
+    "id": 329,
+    "categories": []
+  }
+]

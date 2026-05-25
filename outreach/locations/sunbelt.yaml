@@ -1,0 +1,71 @@
+country: US
+locale: en-US
+cities:
+  - name: phoenix
+    state: AZ
+    metro_area_codes: ['480', '602', '623', '928']
+    geographic_prefixes:
+      - chandler dental
+      - mesa dental
+      - gilbert dental
+      - tempe dental
+      - scottsdale dental
+      - glendale dental
+      - phoenix dental
+    neighborhoods:
+      - Downtown
+      - Chandler
+      - Mesa
+      - Gilbert
+      - Tempe
+      - Scottsdale
+      - Glendale
+
+  - name: austin
+    state: TX
+    metro_area_codes: ['512', '737']
+    geographic_prefixes:
+      - south austin
+      - north austin
+      - east austin
+      - west austin
+      - downtown austin
+      - austin dental
+      - round rock
+      - cedar park
+      - pflugerville dental
+      - lakeway dental
+    neighborhoods:
+      - Downtown
+      - South Austin
+      - North Austin
+      - East Austin
+      - Westlake
+      - Round Rock
+      - Cedar Park
+      - Pflugerville
+      - Lakeway
+
+  - name: tampa
+    state: FL
+    metro_area_codes: ['813', '727', '941']
+    geographic_prefixes:
+      - south tampa
+      - north tampa
+      - new tampa
+      - downtown tampa
+      - tampa dental
+      - brandon dental
+      - st petersburg
+      - st. petersburg
+      - clearwater dental
+      - wesley chapel
+    neighborhoods:
+      - South Tampa
+      - North Tampa
+      - New Tampa
+      - Downtown
+      - Brandon
+      - St. Petersburg
+      - Clearwater
+      - Wesley Chapel

@@ -1,0 +1,476 @@
+[
+  {
+    "lead_title": "OCStudio.pro",
+    "website": "https://ocstudio.pro/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "SMinion - продажа шаблонов сайтов",
+    "website": "https://sminion.com/ru",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Page Speed Web Development",
+    "website": "https://pagespeed.com.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "2k design studio",
+    "website": "https://dp.vgorode.ua/reference/reklamnye_ahentstva/111652-2K-Design-Studio",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Operation timed out. The page may still be loading or the element may not exist. "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Pentalog Kyiv - Software Development Company in Ukraine",
+    "website": "https://www.pentalog.com/?utm_source=Google&utm_medium=Organic&utm_campaign=P5MK_PPEN07-GP_AW_GE_GE_WW_EN_0028&utm_content=GMB_Kyiv",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_COMMON_NAME_INVALID "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Merge Development",
+    "website": "https://merge.rocks/",
+    "status": "extract_failed",
+    "errors": [
+      "eval_fail_home: timeout"
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "extract_failed",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "ISpro",
+    "website": "https://ispro.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Credo Technologies 2008, LLC",
+    "website": "https://credotech.eu/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "SITER - Створення сайтів, SEO просування, реклама в інтернеті",
+    "website": "https://siter.org/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_COMMON_NAME_INVALID "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "PG-Group - Digital Learning Development",
+    "website": "http://pg-group.online/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Operation timed out. The page may still be loading or the element may not exist. "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Seismic Point Group LLC",
+    "website": "https://seismicpoint.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Workbeat",
+    "website": "https://workbeat.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Deventor",
+    "website": "https://deventor.io/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "VILMATE LLC",
+    "website": "https://vilmate.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Tov Mkku-Merezhi",
+    "website": "https://uiccnet.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "FutureOne Tech",
+    "website": "https://futureone.tech/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_DATE_INVALID "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Jul&Vol",
+    "website": "https://messageapi.xn--o1a9b.xn--j1amh/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_COMMON_NAME_INVALID "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Logic.digital",
+    "website": "https://logicdigital.agency/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "C",
+    "has_pain": false
+  },
+  {
+    "lead_title": "EPAM Ukraine",
+    "website": "https://careers.epam.ua/company/contact",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 8.5,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Advanced Team",
+    "website": "https://advanced.team/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 8.5,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Linkos Group",
+    "website": "https://www.linkos.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 7.17,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Cprime Studios",
+    "website": "https://cprimestudios.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 6.37,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Eurosoftware UA Ltd.",
+    "website": "http://www.eurosoftware.com.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 5.44,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Melexis Ukraine",
+    "website": "http://melexis.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 5.36,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Mobilunity",
+    "website": "https://mobilunity.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 5.32,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Empat",
+    "website": "https://empat.tech/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 4.93,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Binary Studio",
+    "website": "https://binary-studio.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 4.84,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "DeepInspire",
+    "website": "https://www.deepinspire.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 4.81,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Просування сайтів Львів — COMPAS Agency",
+    "website": "https://compas.agency/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 4.7,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Brights",
+    "website": "http://brights.io/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 4.64,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "ELITEX",
+    "website": "http://elitex.systems/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 4.52,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Веб студія Львів - Створення та просування сайтів ⭐️ Розробка інтернет магазину 🍄 Rubik",
+    "website": "https://rubik.com.ua/lv/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 3.12,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "JWD СОЗДАНИЕ САЙТОВ. НАСТРОЙКА РЕКЛАМЫ.",
+    "website": "http://jwd.dp.ua/",
+    "status": "extract_failed",
+    "errors": [
+      "eval_fail_home: ✗ CDP command timed out: Runtime.evaluate"
+    ],
+    "quality_score": 2.86,
+    "metro": "kyiv",
+    "recovery_reason": "extract_failed",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Cоздание интернет-магазина на OKAY CMS",
+    "website": "https://okay-cms.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 2.71,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Digital-маркетинговое агентство - PODA AGENCY",
+    "website": "https://poda.agency/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Operation timed out. The page may still be loading or the element may not exist. "
+    ],
+    "quality_score": 2.33,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Создание веб сайтов в Днепре",
+    "website": "https://xn----7sbbaqhlkm9ah9aiq.net/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 2.21,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "TenPixls - Unstoppable Business Growth With Your Own Tailor-Made, High-Performance Website",
+    "website": "https://tenpixls.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 1.81,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Rarus",
+    "website": "https://rarus.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_COMMON_NAME_INVALID "
+    ],
+    "quality_score": 0.9,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "Розробка сайтів Київ | WEBKITCHEN Вебкитчен",
+    "website": "https://webkitchen.kiev.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 0.9,
+    "metro": "kyiv",
+    "recovery_reason": "transport_retry",
+    "tier": "D",
+    "has_pain": false
+  },
+  {
+    "lead_title": "MobiMill",
+    "website": "http://mobimill.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 0,
+    "metro": "kyiv",
+    "recovery_reason": "cloudflare",
+    "tier": "D",
+    "has_pain": false
+  }
+]

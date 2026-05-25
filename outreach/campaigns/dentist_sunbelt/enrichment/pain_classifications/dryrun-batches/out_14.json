@@ -1,0 +1,368 @@
+[
+  {
+    "id": 420,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "his office manager is rude, short, and makes you feel like your bothering her when asking questions",
+        "reasoning": "Direct complaint about non-clinical staff (office manager) being rude and dismissive."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.75,
+        "quote": "She refused to call our insurance to find about cost and last procedures she said that was up to us to do",
+        "reasoning": "Office refused to verify insurance coverage/cost; pre-service verification not performed."
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "do to lack of communication and EXTREMELY bad service from the billing department",
+        "reasoning": "Explicit complaint about lack of communication from billing staff."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "was told at checkout that I have a previous balance of ~$66. due to X-rays",
+        "reasoning": "Patient surprised by unexpected previous balance for X-rays at checkout."
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "I was charged $75 per appointment for mis",
+        "reasoning": "Patient charged a fee tied to missed/late appointments which they viewed as unexpected/unfair."
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "the unnecessary cleaning that they performed",
+        "reasoning": "Charged for an unnecessary procedure beyond what patient initially asked about (pricing/scope)."
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "categories": []
+  },
+  {
+    "id": 425,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I called to verify the cash price, which basically tripled from previous appt",
+        "reasoning": "Cash price tripled unexpectedly between visits — surprise pricing change."
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "categories": []
+  },
+  {
+    "id": 427,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "This is a VERY expensive dentist, and after going to a few others, I realized that they di",
+        "reasoning": "Patient discovered pricing/practices were inflated compared to other providers."
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I refused to pay a 25.00 unexpected fee for fluoride that his hygienist told me was covered under my insurance",
+        "reasoning": "Unexpected fluoride fee that patient was told would be covered — surprise billing/hidden upcharge."
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "categories": []
+  },
+  {
+    "id": 430,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "They lack professionalism and customer service.  To avoid arguing, I hung up",
+        "reasoning": "Unprofessional staff behavior during booking call escalated to argument."
+      },
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "Very unpleasant experience in trying to book a dental appt",
+        "reasoning": "Friction in the booking process led to call abandonment."
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "Rude and aggressive office manager who harasses patients",
+        "reasoning": "Explicit complaint about non-clinical staff being rude and aggressive."
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "The door says open til 7PM on Tuesdays,  but no one is here",
+        "reasoning": "Practice not available/answering during posted business hours when patient sought urgent help."
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "categories": []
+  },
+  {
+    "id": 434,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "Unprofessional office manager, incredibly rude to patients",
+        "reasoning": "Direct complaint about office manager being rude/unprofessional."
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Not the best front desk staff, rude and didn’t want to take the time to explain the breakdown of my balance",
+        "reasoning": "Front desk staff described as rude."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "didn’t want to take the time to explain the breakdown of my balance",
+        "reasoning": "Staff failed to explain billing breakdown — unclear/missing information."
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "The office staff are unorganized and rude",
+        "reasoning": "Direct complaint about staff rudeness."
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "before leaving my dental appointment I was told that everything was covered and good to go. More than 8 months later I received a te",
+        "reasoning": "Told everything was covered, then received unexpected charge 8 months later."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.7,
+        "quote": "Please improve your billing and insurance processing system",
+        "reasoning": "Insurance was not properly verified/processed before service, leading to later charge."
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "almost 5 MONTHS LATER, I received an almost $200 charge on my cc on file saying that my cleaning was not covered. No warning, nothing",
+        "reasoning": "Surprise charge on card 5 months after visit despite confirmation of coverage."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.7,
+        "quote": "confirmed for a third time after my arrival that it was covered",
+        "reasoning": "Coverage confirmation at intake proved wrong — verification process failed."
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "I was given a verbal confirmation from the receptionist that my appointment on 01/22/25 was fully covered and that I shouldn’t have to pay out of pocket. After services rendered, I was e",
+        "reasoning": "Told appointment was fully covered, then billed after the fact — quoted X, billed Y."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.65,
+        "quote": "verbal confirmation from the receptionist that my appointment on 01/22/25 was fully covered",
+        "reasoning": "Verbal coverage confirmation failed — pre-service verification was inadequate."
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.75,
+        "quote": "they did imaging for 10 minutes and then wanted me to return on another day for the actual cleaning",
+        "reasoning": "Booked cleaning required a second appointment unnecessarily — scheduling drag-out."
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "They have started adding surprise fees to their services. Even if your insurance covers routine cleanings, expect extra charges",
+        "reasoning": "Explicitly states surprise fees added to services."
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "categories": []
+  },
+  {
+    "id": 443,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "They stopped respondin",
+        "reasoning": "Patient was actively waiting for confirmation about insurance/appointment, practice stopped responding."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.75,
+        "quote": "one hour prior my appointment they texted me to say they can’t pull up my insurance",
+        "reasoning": "Insurance verification not done until 1 hour before appointment, then failed."
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "they will not tell you upfront that your insurance is not in network and you will pay for it",
+        "reasoning": "Coverage/network status not communicated before service — pre-service verification gap."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "scheduled for an intial consult which he was then billed for",
+        "reasoning": "Scheduled for cleaning but billed for consult — quoted one thing, charged for another."
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "categories": []
+  },
+  {
+    "id": 446,
+    "categories": []
+  },
+  {
+    "id": 447,
+    "categories": []
+  },
+  {
+    "id": 448,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I was charged $78 for < 1 minute of a \"limited oral exam\"",
+        "reasoning": "Charged a fee for a minimal exam the patient didn't expect — hidden upcharge."
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "they would be calling me within the week to give me the exact date. I never got a call",
+        "reasoning": "Practice promised callback to confirm appointment date, never followed through."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "they took my money for an appointment that I didnt com",
+        "reasoning": "Charged for an appointment the patient didn't confirm/attend — unexpected charge."
+      }
+    ]
+  }
+]

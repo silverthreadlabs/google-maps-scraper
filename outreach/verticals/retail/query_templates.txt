@@ -1,0 +1,4 @@
+boutique in {neighborhood} {city}
+shop in {neighborhood} {city}
+independent retailer in {city}
+specialty store in {city}

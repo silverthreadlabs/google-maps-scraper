@@ -1,0 +1,56 @@
+country: US
+locale: en-US
+cities:
+  - name: dallas
+    state: TX
+    metro_area_codes: ['214', '469', '972', '945', '817', '682']
+    geographic_prefixes:
+      - dallas
+      - north dallas
+      - downtown dallas
+      - uptown dallas
+      - oak lawn
+      - oak cliff
+      - lakewood
+      - deep ellum
+      - bishop arts
+      - knox-henderson
+      - lower greenville
+      - design district
+      - victory park
+      - west village
+      - preston hollow
+      - park cities
+      - highland park
+      - university park
+      - plano
+      - frisco
+      - mckinney
+      - allen
+      - prosper
+      - richardson
+      - addison
+      - garland
+      - mesquite
+      - irving
+      - las colinas
+      - lewisville
+      - flower mound
+      - southlake
+      - grapevine
+      - colleyville
+      - fort worth
+      - arlington
+      - north texas
+      - texas
+      - dfw
+      - metroplex
+    neighborhoods:
+      - Downtown
+      - Uptown
+      - North Dallas
+      - Plano
+      - Frisco
+      - Richardson
+      - Irving
+      - Highland Park

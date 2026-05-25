@@ -1,0 +1,272 @@
+[
+  {
+    "id": 390,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "Poor Service,  and Incorrect information given when scheduled appointments.",
+        "reasoning": "Reviewer explicitly cites incorrect information given at scheduling, indicating unclear/contradictory communication."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "all they did was the exam No cleanings although I clearly informed they need a cleaning",
+        "reasoning": "Patient's specific request for cleanings was ignored despite clearly informing staff."
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "categories": []
+  },
+  {
+    "id": 392,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "I called in advance twice now to be matched with a hygienist,  who has experience with patients that have extremely sensitive gums. Both times I was matched with random temps. I even called them a week prior to the appt to remind them",
+        "reasoning": "Specific patient request for an experienced hygienist was repeatedly ignored despite multiple reminders."
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "categories": []
+  },
+  {
+    "id": 394,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "does not warrant and attitude. I have other family members who do use your services so, watch the tone.",
+        "reasoning": "Reviewer complains about staff tone/attitude, indicating front-desk rudeness."
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.95,
+        "quote": "This place doesn't answer the phone.  I went once for a cleaning.  Went ok, but have called 4 or 5 times no answer doesn't matter what time of day you call.",
+        "reasoning": "Multiple unanswered calls across various times of day."
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "categories": []
+  },
+  {
+    "id": 397,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "after the way Dena spoke to my daughter, I can no longer recommend this office",
+        "reasoning": "Complaint about how staff spoke to a patient, indicating rude tone."
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Besides them adding services which are not in the treatment plan, they have stated that they will bill cherry financing for this when. It is not in the payment plan.",
+        "reasoning": "Charges added outside the agreed treatment plan, classic surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "categories": []
+  },
+  {
+    "id": 400,
+    "categories": []
+  },
+  {
+    "id": 401,
+    "categories": []
+  },
+  {
+    "id": 402,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "Received an EOB from my insuran",
+        "reasoning": "Update mentions an EOB, suggesting unexpected billing surfaced after the fact, in context of a 1-star review."
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "categories": []
+  },
+  {
+    "id": 404,
+    "categories": []
+  },
+  {
+    "id": 405,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "The doctor let for 1 hour from my mouth numbed until the numb fainted and she hasn’t came back to work on my filling.",
+        "reasoning": "Patient was left in the chair an hour past being numbed, with the doctor not returning."
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "categories": []
+  },
+  {
+    "id": 407,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "Whoever answers the phone kept purposely hanging up on me",
+        "reasoning": "Caller reports being repeatedly hung up on, effectively unanswered phone interactions."
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.85,
+        "quote": "Weeks go by without any response. No one returns calls",
+        "reasoning": "Calls go unreturned for weeks without any response."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "I paid for my mom’s dental treatment back in December, and now it’s the end of April and we still don’t have a solution.",
+        "reasoning": "Patient actively chasing a resolution that the practice has failed to deliver after months."
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "I am still waiting for a text message to apply for financing",
+        "reasoning": "Patient requested financing info and is still waiting; classic dropped follow-through on a patient request."
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "I didn’t wait long to get ushered back into the dental chair, but after that, it was at le",
+        "reasoning": "Reviewer rated 2 stars and explicitly contrasts initial check-in speed against a long wait once in the chair."
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "categories": []
+  },
+  {
+    "id": 412,
+    "categories": []
+  },
+  {
+    "id": 413,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "On the day of my appointment, minutes before going in, I was presented with a treatment plan that required me to pay several",
+        "reasoning": "Unexpected out-of-pocket charges sprung on the patient minutes before the procedure."
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "categories": []
+  },
+  {
+    "id": 415,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "It's the attitude of the office manager that will be sending me elsewhere with my business.",
+        "reasoning": "Reviewer explicitly cites office manager attitude as the reason for leaving."
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "I sent them an email over a year ago because they're in my neighborhood, In-Network with my insurance, and have good reviews. I was looking to have a wisdom tooth extraction set up but since they're not responding I just found a place in Maricopa",
+        "reasoning": "Patient actively inquired about service and got no response for over a year; classic dropped lead."
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "today I called at 10:30am and the front desk was RUDE. She was very short with me.",
+        "reasoning": "Explicit complaint of rude, dismissive front desk tone."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "will surprise you with charges outside of your coverage for \"examinations\" that you never asked for or were warned about",
+        "reasoning": "Patient charged for unrequested services without prior warning — textbook surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "categories": []
+  }
+]

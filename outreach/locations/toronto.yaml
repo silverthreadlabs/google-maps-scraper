@@ -1,0 +1,50 @@
+country: CA
+locale: en-CA
+cities:
+  - name: toronto
+    state: ON
+    metro_area_codes: ['416', '647', '437', '905', '289', '365']
+    geographic_prefixes:
+      - downtown toronto
+      - north york
+      - scarborough
+      - etobicoke
+      - east york
+      - york
+      - yorkville
+      - queen west
+      - queen east
+      - kensington market
+      - kensington
+      - the beaches
+      - leslieville
+      - liberty village
+      - parkdale
+      - bloor west
+      - bloor street
+      - king west
+      - king east
+      - distillery district
+      - roncesvalles
+      - church-wellesley
+      - cabbagetown
+      - rosedale
+      - forest hill
+      - st. clair
+      - eglinton
+      - lawrence
+      - don mills
+      - toronto
+      - gta
+    neighborhoods:
+      - Downtown
+      - North York
+      - Scarborough
+      - Etobicoke
+      - Yorkville
+      - Queen West
+      - Liberty Village
+      - Kensington Market
+      - The Beaches
+      - Leslieville
+      - Distillery District

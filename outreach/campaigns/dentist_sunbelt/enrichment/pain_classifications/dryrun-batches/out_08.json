@@ -1,0 +1,216 @@
+[
+  {
+    "id": 240,
+    "categories": []
+  },
+  {
+    "id": 241,
+    "categories": []
+  },
+  {
+    "id": 242,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Deceitful invoicing practices",
+        "reasoning": "Reviewer alleges deceitful invoicing and unexpected charges (paid extra for cleaning fully covered by insurance, charged for fluoride)."
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "I paid the $99 and was told I needed $40,000 plus  in dental needs.  🧐 I chose to say no and my insurance was billed over $400.  The dentist did absolutely nothing.",
+        "reasoning": "Reviewer says insurance was billed $400 despite the dentist doing nothing beyond the $99 advertised exam — unexpected charge after the fact."
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "categories": []
+  },
+  {
+    "id": 245,
+    "categories": []
+  },
+  {
+    "id": 246,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_after_hours_or_emergency",
+        "confidence": 0.9,
+        "quote": "Hopefully you don’t have an emergency because the “on call” dentist doesn’t answer or call back.",
+        "reasoning": "On-call/emergency dentist did not answer or return calls."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.85,
+        "quote": "Several hours and a couple of voicemails and still",
+        "reasoning": "Patient left multiple voicemails with no callback."
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "categories": []
+  },
+  {
+    "id": 248,
+    "categories": []
+  },
+  {
+    "id": 249,
+    "categories": []
+  },
+  {
+    "id": 250,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "After an extended wait to be seen",
+        "reasoning": "Patient describes an extended wait before being seen by the dentist."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "interrupted me mid sentence telling me she would be right back and then never did",
+        "reasoning": "Dentist interrupted the patient mid-sentence and never returned, dismissing the concern."
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "categories": []
+  },
+  {
+    "id": 252,
+    "categories": []
+  },
+  {
+    "id": 253,
+    "categories": []
+  },
+  {
+    "id": 254,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "Says open Saturday,  but I called twice and no one answered.",
+        "reasoning": "Office advertised Saturday hours but did not answer two calls during business hours."
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "categories": []
+  },
+  {
+    "id": 256,
+    "categories": []
+  },
+  {
+    "id": 257,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "She sat behind me when she was speaking to me about my teeth. I honestly didn’t know if she was speaking me or the dental assistant.",
+        "reasoning": "Dentist communicated unclearly — patient could not tell who was being addressed."
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "categories": []
+  },
+  {
+    "id": 259,
+    "categories": []
+  },
+  {
+    "id": 260,
+    "categories": []
+  },
+  {
+    "id": 261,
+    "categories": []
+  },
+  {
+    "id": 262,
+    "categories": []
+  },
+  {
+    "id": 263,
+    "categories": []
+  },
+  {
+    "id": 264,
+    "categories": []
+  },
+  {
+    "id": 265,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "the receptionist was extremely rude",
+        "reasoning": "Reviewer explicitly calls out the receptionist as extremely rude and patronizing."
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "they gave me a really unclear answer about how I got air while trying to remove",
+        "reasoning": "Patient reports the practice gave an unclear explanation about what happened during the procedure."
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.85,
+        "quote": "My last visit was short. I felt like they were in a hurry.",
+        "reasoning": "Patient explicitly describes the visit as short and rushed."
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "categories": []
+  },
+  {
+    "id": 269,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "The communication between the staff gets lost in translation.",
+        "reasoning": "Reviewer explicitly calls out unclear/lost communication between staff resulting in recurring issues."
+      }
+    ]
+  }
+]

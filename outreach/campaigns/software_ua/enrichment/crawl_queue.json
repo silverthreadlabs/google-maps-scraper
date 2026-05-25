@@ -1,0 +1,5336 @@
+[
+  {
+    "place_id": "ChIJDYJx5LPj20AR2sasji7B3vY",
+    "title": "Broscorp",
+    "website": "https://broscorp.net/",
+    "metro": "kyiv",
+    "address": "Bogdan Khmelnitsky Ave, 9, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49069"
+  },
+  {
+    "place_id": "ChIJ_RDoVasnImsRhIWdzsJ3PJI",
+    "title": "Stormotion",
+    "website": "https://stormotion.io/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJj7C-_wrj20ARucM2TFZdKDs",
+    "title": "OCStudio.pro",
+    "website": "https://ocstudio.pro/",
+    "metro": "kyiv",
+    "address": "Nezalezhnosti St, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJZz43Mv7i20ARlTDB6Vhr7WI",
+    "title": "Creayou Studio. Interaction Design and Full-stack Development for Strong Brands.",
+    "website": "http://creayou.com/",
+    "metro": "kyiv",
+    "address": "Simferopol's'ka St, 2Н, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49005"
+  },
+  {
+    "place_id": "ChIJV3cz0GPqiw8Rg9a69aLrUzI",
+    "title": "Aura web agency",
+    "website": "https://www.aura-webagency.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJtbCvL2NY2UARWYnGV1mO9Hg",
+    "title": "LabsNeural",
+    "website": "https://labsneural.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ7SctVYT920ARbgxW6GDBadk",
+    "title": "Remote Industries",
+    "website": "https://ri.dp.ua/",
+    "metro": "kyiv",
+    "address": "Zymovykh Pokhodiv St, 6, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49022"
+  },
+  {
+    "place_id": "ChIJc6_HBftYSoYRxlaDOfDqSzk",
+    "title": "UniLink | Link in Bio",
+    "website": "https://unil.ink/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJOwqmnbrj20ARtgJh0zNaAkY",
+    "title": "UTOR - QA and Testing partner",
+    "website": "https://u-tor.com/",
+    "metro": "kyiv",
+    "address": "Kharkivska, 8A, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJAQBQRd7i20ARCmSE72Ojjrk",
+    "title": "WEEM",
+    "website": "http://weem.pro/",
+    "metro": "kyiv",
+    "address": "Mykhaila Hrushevskoho St, 9, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJg0Caww_j20ARXpQJTdg1eRo",
+    "title": "Siliconfit",
+    "website": "https://siliconfit.com/?utm_source=gmb&utm_medium=referral",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 72б, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJuYOo1cTj20ARx9AtV5OlDJg",
+    "title": "Visor Software",
+    "website": "https://visor.software/",
+    "metro": "kyiv",
+    "address": "Barykadna St, 10, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJu4CCKFji20ARpF1snpfPibM",
+    "title": "Zenetix",
+    "website": "https://zenetix.com.ua/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 76а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJv1vHN6zj20ARVx64_1y8R8E",
+    "title": "Tov \"Dniprosoft\"",
+    "website": "https://flexsolution.com/",
+    "metro": "kyiv",
+    "address": "Sicheslavska Naberezhna St, 15А, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJqSwdLxHj20AR9zPv712l_WU",
+    "title": "WebGenerator",
+    "website": "https://webgenerator.com.ua/",
+    "metro": "kyiv",
+    "address": "Vulytsya Stepana Bandery, 4а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49047"
+  },
+  {
+    "place_id": "ChIJVSo4c9Xi20ARJ5qgVoIFueI",
+    "title": "Synergize",
+    "website": "https://synergize.digital/",
+    "metro": "kyiv",
+    "address": "Nauky Ave, 2, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJvxmazlNqWCURGBxf1fW2xHg",
+    "title": "SMinion - продажа шаблонов сайтов",
+    "website": "https://sminion.com/ru",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJSWBlsgXh20ARuEKRSTjZ9kY",
+    "title": "AMC Sistel, ltd",
+    "website": "https://sistel.dp.ua/",
+    "metro": "kyiv",
+    "address": "Monitorna St, 7, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49018"
+  },
+  {
+    "place_id": "ChIJy2WoElbj20ARSh8wu-fpLjI",
+    "title": "Lytvynov Production",
+    "website": "https://lytvynov-production.com/",
+    "metro": "kyiv",
+    "address": "Sholom-Aleikhem Street, 4/26, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49044"
+  },
+  {
+    "place_id": "ChIJN59_dko-uwQROtgWcFNhmls",
+    "title": "Page Speed Web Development",
+    "website": "https://pagespeed.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ11Aa6bJZ2UAR0ZPXcSS7KSM",
+    "title": "TopSeoWebsite",
+    "website": "https://topseo.website/",
+    "metro": "kyiv",
+    "address": "Reshetylivs'ka St, 8, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJO8vevJTj20ARW_zX7AidaNI",
+    "title": "Gapsy Studio",
+    "website": "https://gapsystudio.com/",
+    "metro": "kyiv",
+    "address": "Starokozatska St, 55, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJUTB9K0Hj20ARB0h3khp8qQ8",
+    "title": "AORA",
+    "website": "http://aora-agency.com/",
+    "metro": "kyiv",
+    "address": "Levka Lukianenka St, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJcQBsm2rj20ARMXZlm1GZXD4",
+    "title": "PIMA",
+    "website": "http://www.pima.com.ua/",
+    "metro": "kyiv",
+    "address": "Oleksandra Polia Ave, 82Г, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJMR4XdmxZ2UARlCBKEhrP5lk",
+    "title": "Студия интернет маркетинга seo-idea",
+    "website": "https://seo-idea.com.ua/",
+    "metro": "kyiv",
+    "address": "Zhurnalistiv St, 7, оф 305, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49051"
+  },
+  {
+    "place_id": "ChIJe4R_fv7i20ARg_4eZPvm4vg",
+    "title": "FFW Dnipropetrovsk",
+    "website": "https://ffwagency.com/",
+    "metro": "kyiv",
+    "address": "Lesi Ukrainky Ave, 11, Dnipro, Dnipropetrovsk Oblast, Ukraine, 12101"
+  },
+  {
+    "place_id": "ChIJYZEhhvnj20ARdctJcsp6Jr4",
+    "title": "IT Outposts",
+    "website": "https://itoutposts.com/",
+    "metro": "kyiv",
+    "address": "Robocha St, 97, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJAVKYHAjj20AR564uHZaI70w",
+    "title": "Itip",
+    "website": "https://itipteam.com/",
+    "metro": "kyiv",
+    "address": "Kanatna St, 126, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ84LHYxbj20ARONduy5bFf94",
+    "title": "Web Love ME - создание и продвижение сайтов",
+    "website": "https://weblove.me/",
+    "metro": "kyiv",
+    "address": "Lazaria Hloby St, 15, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJn5pJ3-Pi20ARFP78im8Rq34",
+    "title": "Рекламное агентство \"VESNABRAND\"",
+    "website": "https://taplink.cc/marketing.nn",
+    "metro": "kyiv",
+    "address": "49000, Sviatoslava Khorobroho, 44, Dnipro, Dnipropetrovsk Oblast, Ukraine"
+  },
+  {
+    "place_id": "ChIJ742RruDi20ARJKv2z5msETk",
+    "title": "2k design studio",
+    "website": "https://dp.vgorode.ua/reference/reklamnye_ahentstva/111652-2K-Design-Studio",
+    "metro": "kyiv",
+    "address": "Troitska St, 8, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJocZgbM7j20ARFYPCFCW-YvM",
+    "title": "DeAlInterior Design",
+    "website": "https://dealinteriordes.wixsite.com/website",
+    "metro": "kyiv",
+    "address": "Barykadna St, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJgZFchOfi20AR8sx-0s7m_7A",
+    "title": "Webland Design",
+    "website": "http://webland.uk/",
+    "metro": "kyiv",
+    "address": "Sicheslavka Embankment, 53, Dnipro, Dnipropetrovs'ka oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ5yBOLXpY2UARPBc2bDeuH0w",
+    "title": "Prestyzh",
+    "website": "http://prestige.dp.ua/",
+    "metro": "kyiv",
+    "address": "Slobozhanskyi Ave, 35А, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJI2A9yfni20ARuG1u-22iy_A",
+    "title": "Zapleo",
+    "website": "http://zapleo.com/",
+    "metro": "kyiv",
+    "address": "Dmytro Yavornytsky, 111, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJKxNwxWbj20ARLk2wTM3juhI",
+    "title": "Pt78 marketing",
+    "website": "https://pt78.space/",
+    "metro": "kyiv",
+    "address": "Mykhaila Hrushevskoho St, 59А, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJGU7_nIMtVkkRMFwwVF9khd8",
+    "title": "Mobile App Development",
+    "website": "https://itsmhamza.github.io/Portfolio/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJZQGk3yrGvYsRION8qwdNHtQ",
+    "title": "Cinnaboner",
+    "website": "http://cinnaboner.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJw4zwqFETOY8R0jEHBffplZc",
+    "title": "Slick Digital Agency",
+    "website": "https://slickdigitalagency.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJL-Osaf7F16UR2yyljouNam8",
+    "title": "Maria Digital",
+    "website": "https://mariadigital.org/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJx3f-KJvN1EARrZ4vBt7cM6c",
+    "title": "Eleken",
+    "website": "http://eleken.co/",
+    "metro": "kyiv",
+    "address": "Mashynobudivna St, 41, Kyiv, Ukraine, 03067"
+  },
+  {
+    "place_id": "ChIJm4-uMumCrKsRmlorFScVJA8",
+    "title": "HeatUp Digital Agency — реклама та створення сайтів у Дніпрі",
+    "website": "https://heatup.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJmU1Uqdjj20ARLvZPFlzxwZY",
+    "title": "Рекламна агенція Digiterra Agency",
+    "website": "https://www.instagram.com/digiterra_/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJAQBQckvj20ARefl9Iy1ZSWg",
+    "title": "Ankiri",
+    "website": "http://www.ankiri.com/digital-marketing",
+    "metro": "kyiv",
+    "address": "Vulytsya Nila Armstronha, 2Д, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJBawUZFvj20ARN38AIT15txE",
+    "title": "2Me Agency — Web dev | Digital marketing | eCommerce",
+    "website": "https://2me.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJFcUl8Mjj20ARo3rLHPGNN3g",
+    "title": "NML Digital: замовити SEO, PPC, SMM і інші маркетингові послуги",
+    "website": "https://www.nml.biz.ua/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 11, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49044"
+  },
+  {
+    "place_id": "ChIJl27TOPTP1EAR5TepnTmXUQs",
+    "title": "Proxet - Software Development Company",
+    "website": "https://proxet.com/",
+    "metro": "kyiv",
+    "address": "Honcharna St, 2, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJDQ2-VEHN1EARCW4miuON8oo",
+    "title": "AmiFactory LLC - Software Development Company",
+    "website": "https://amifactory.team/",
+    "metro": "kyiv",
+    "address": "17/21, office 201, building E, Zahorivska St, Kyiv, Ukraine, 04107"
+  },
+  {
+    "place_id": "ChIJ5VNHCq_P1EARTeZcIloJBJg",
+    "title": "Pentalog Kyiv - Software Development Company in Ukraine",
+    "website": "https://www.pentalog.com/?utm_source=Google&utm_medium=Organic&utm_campaign=P5MK_PPEN07-GP_AW_GE_GE_WW_EN_0028&utm_content=GMB_Kyiv",
+    "metro": "kyiv",
+    "address": "Shchekavytska St, 30/39, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJ_9lsxcQY9AcR6AuG4IYfXeA",
+    "title": "Yieldy | Custom software development company",
+    "website": "https://yieldy.co/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJTy-vEL3P1EARleSbwhuyHDI",
+    "title": "Suto Games - Game Development Company",
+    "website": "https://sutogames.com/",
+    "metro": "kyiv",
+    "address": "Hetmana Pavla Polubotka St, 1a, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJKfDI-QXN1EARPw2f-mQ0mrQ",
+    "title": "Thinksoft software development partner",
+    "website": "http://thinksoft.net/",
+    "metro": "kyiv",
+    "address": "Dorohozhytska St, 3, Kyiv, Ukraine, 04119"
+  },
+  {
+    "place_id": "ChIJwY3B4krJ1EARlRKSPdBsg-Q",
+    "title": "ZebraTech - створення сайтів / просування у АІ пошуку",
+    "website": "https://zebratech.top/",
+    "metro": "kyiv",
+    "address": "Odeska St, 23A, Kriukivshchyna, Kyiv Oblast, Ukraine, 08121"
+  },
+  {
+    "place_id": "ChIJn64_FQHP1EARffsJdE2wdrA",
+    "title": "Scud CRM & ERP",
+    "website": "https://scudcrm.ua/",
+    "metro": "kyiv",
+    "address": "Pryozernyi Blvd, 5б, оф. 198, Hatne, Kyiv Oblast, Ukraine, 08160"
+  },
+  {
+    "place_id": "ChIJq6rqA07I1EAR3Sicv-7mWRs",
+    "title": "VG++",
+    "website": "http://www.vgplusplus.com/ru/contacts.php",
+    "metro": "kyiv",
+    "address": "Akademika Hlushkova Ave, 40, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJa-a9iA7F1EARCT7HSh5xSM8",
+    "title": "SoftUUP - Web & Mobile App Development Company",
+    "website": "https://www.softuup.com/",
+    "metro": "kyiv",
+    "address": "Inzhenerna St, 1, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ3SAdoGJQhoERE3AHFBGDHfI",
+    "title": "Edgeware Global",
+    "website": "https://edgeware.global/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJMck-AEvJ1EARWnSPutxNjjE",
+    "title": "LLC NewGen",
+    "website": "https://newgen.company/",
+    "metro": "kyiv",
+    "address": "Hryhoriia Hulianytskoho St, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJE60GorHF1EARr_-5UUbxA6c",
+    "title": "АППЛІК | APPLIC - Веб-студія в Києві. Розробка сайтів та мобільних додатків.",
+    "website": "https://applic.com.ua/",
+    "metro": "kyiv",
+    "address": "Vulytsya Tsentralʹna, 21, Kyiv, Ukraine, 02132"
+  },
+  {
+    "place_id": "ChIJtw7ONfTFeWERjO7A_u4nDs8",
+    "title": "Prestashop Service",
+    "website": "https://prestaservice.org/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJSQIErtTJ1EARqVR8Zkskk2c",
+    "title": "DevAtlant",
+    "website": "https://devatlant.com/",
+    "metro": "kyiv",
+    "address": "Stepana Rudnytskoho St, 6d, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJtbVRG4DJ1EARgjCBHjREo60",
+    "title": "BrownFy - створення інтернет-магазинів",
+    "website": "https://brownfy.com/",
+    "metro": "kyiv",
+    "address": "Mykhaila Maksymovycha St, 24Б, Kyiv, Ukraine, 03066"
+  },
+  {
+    "place_id": "ChIJyRWtk2DP1EARqb5emIs9214",
+    "title": "Evolve Ukraine",
+    "website": "https://www.evolve-consultants.co.uk/",
+    "metro": "kyiv",
+    "address": "Kazymyra Malevycha St, 86d, offices 2.3 & 3.2, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJaS5MIraHNQYRTNF5LDN1uss",
+    "title": "Confidence Technology",
+    "website": "https://confidence-tech.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJFyQ0-yLN1EARDCjAUp-c7CE",
+    "title": "SDD Technology",
+    "website": "https://www.sdd-technology.com/",
+    "metro": "kyiv",
+    "address": "Henerala Almazova St, 13, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ-ZaNF0rP1EARzxDtT6Pgql8",
+    "title": "xPOS Ho.Re.Ca SYSTEM",
+    "website": "http://xpos.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ6bXuw9jE1EARh1OjGFwv7kA",
+    "title": "Vortex",
+    "website": "http://vortex.com.ua/",
+    "metro": "kyiv",
+    "address": "Myru Ave, 15А, Ofys 317, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJQW9YAmzF1EARsJQaayfhe2U",
+    "title": "Massive Kinetic",
+    "website": "https://massivekinetic.com/",
+    "metro": "kyiv",
+    "address": "Prospekt Sobornosti, 19, Office 416, Kyiv, Ukraine, 02160"
+  },
+  {
+    "place_id": "ChIJx-Ea5nZbjocRcvF0Kcalmmk",
+    "title": "Papaya IT Company",
+    "website": "https://papaya-it.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJd0oFqIFbjmkRQFp44perqpg",
+    "title": "Voicer Software",
+    "website": "https://admin.voicer.software/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJHRh3YXfF1EARrD4DlOCXAxk",
+    "title": "web uslugi",
+    "website": "https://websitewp.org/",
+    "metro": "kyiv",
+    "address": "Yuriya Shums'koho St, 5, Kyiv, Ukraine, 02098"
+  },
+  {
+    "place_id": "ChIJpwmZ_oXdLScRsIROIDsTcaU",
+    "title": "Merge Development",
+    "website": "https://merge.rocks/",
+    "metro": "kyiv",
+    "address": "Bastionna St, 8/2, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJWxt4AlHO1EARCsbXYwfTR2c",
+    "title": "KeyUA",
+    "website": "http://keyua.org/",
+    "metro": "kyiv",
+    "address": "Esplanadna St, 1, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ8yKOy4nP1EARtgAahPEHbt8",
+    "title": "Syntagma Software",
+    "website": "https://www.syntagmasoft.com/",
+    "metro": "kyiv",
+    "address": "Sportyvna Square, 1a, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJF9a8ATuO96URJf9HnulCs1Q",
+    "title": "Krumkachov web development",
+    "website": "https://neomodern.site/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJPe3eZybF1EAR7Umc9VZOYbM",
+    "title": "Credo Technologies 2008, LLC",
+    "website": "https://credotech.eu/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJy1NB5g_F1EARxINPx3IX-T0",
+    "title": "[D]igitalizer - simplifying everything",
+    "website": "https://digitalizer.site/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJfUkDLTHP1EARzC6jGe6opHU",
+    "title": "Livatek",
+    "website": "http://www.livatek.com/",
+    "metro": "kyiv",
+    "address": "БЦ Преміум Індастрі, Holosiivskyi prospekt, 42, Kyiv, Ukraine, 03039"
+  },
+  {
+    "place_id": "ChIJnyd1GM3P1EARbwwlhVTIOlY",
+    "title": "DevsX",
+    "website": "https://devsx.net/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJq6oar_zO1EARa6jc8DZXLgg",
+    "title": "Vantino R&D",
+    "website": "https://vantino.com/",
+    "metro": "kyiv",
+    "address": "Akademika Filatova St, 2/1, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJC5LLfqDL1EARaJLRg9IdjIo",
+    "title": "Web Studio Simplicity",
+    "website": "https://simplicity.com.ua/?utm_source=googlemaps",
+    "metro": "kyiv",
+    "address": "Parnykova St, 2а, Sofiivska Borschahivka, Kyiv Oblast, Ukraine, 08131"
+  },
+  {
+    "place_id": "ChIJmZf5SmbN1EARELPRIGU861g",
+    "title": "ISpro",
+    "website": "https://ispro.ua/",
+    "metro": "kyiv",
+    "address": "Irpinska St, 1, Kyiv, Ukraine, 03142"
+  },
+  {
+    "place_id": "ChIJjUc_zZ7M1EARC3Nt7nIlehw",
+    "title": "PG-Group - Digital Learning Development",
+    "website": "http://pg-group.online/",
+    "metro": "kyiv",
+    "address": "Lvivska St, 59-а, Kyiv, Ukraine, 08130"
+  },
+  {
+    "place_id": "ChIJv9bEK6XF1EARKnfUo16Vgig",
+    "title": "Paradigma Development",
+    "website": "https://paradigma.dev/",
+    "metro": "kyiv",
+    "address": "Mashynobudivna St, 35а, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJAQAQGDzM1EARAkjewuX7i1U",
+    "title": "CleverForms",
+    "website": "https://clever-forms.com/",
+    "metro": "kyiv",
+    "address": "Oleksy Tykhoho St, 89A, офіс 100, Kyiv, Ukraine, 03067"
+  },
+  {
+    "place_id": "ChIJLUaF9hjM1EARotHXzA087WU",
+    "title": "Seismic Point Group LLC",
+    "website": "https://seismicpoint.com/",
+    "metro": "kyiv",
+    "address": "Borshchahivska St, 202, Kyiv, Ukraine, 03058"
+  },
+  {
+    "place_id": "ChIJCblphy_M1EARcBr2NEtt3Qw",
+    "title": "Dev-Better",
+    "website": "https://dev-better.com/",
+    "metro": "kyiv",
+    "address": "Vadyma Hetmana St, 1-A, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ51DDhaLN1EAR2fJ9H7lD8_o",
+    "title": "DB2 Limited",
+    "website": "https://db2.io/",
+    "metro": "kyiv",
+    "address": "Vatslava Havela Blvd, 8, Kyiv, Ukraine, 03124"
+  },
+  {
+    "place_id": "ChIJ49ekmX7N1EAR2KwC0QM4L78",
+    "title": "sceel.io GmbH",
+    "website": "http://www.sceel.io/",
+    "metro": "kyiv",
+    "address": "Dehtiarivska St, 62, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJwaoIetLN1EARR7mkqcyRc98",
+    "title": "GET-IT",
+    "website": "http://www.get-it.com.ua/",
+    "metro": "kyiv",
+    "address": "Dehtiarivska St, 33-B, Kyiv, Ukraine, 04050"
+  },
+  {
+    "place_id": "ChIJFZosZoLN1EARd7MdnGq5keI",
+    "title": "SITER - Створення сайтів, SEO просування, реклама в інтернеті",
+    "website": "https://siter.org/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJA_aPEbKZrKER0r_J8PyHiPs",
+    "title": "Gart Solutions",
+    "website": "https://gartsolutions.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ-Sq2oJ3N1EARDPJiXkBSXsI",
+    "title": "MA-KO Mobile and Web development",
+    "website": "http://ma-ko.dev/",
+    "metro": "kyiv",
+    "address": "Dorohozhytska St, 3, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ63XQosLN1EARZjrXb7jOoOo",
+    "title": "Graz.tech",
+    "website": "https://graz.tech/",
+    "metro": "kyiv",
+    "address": "Chystiakivska St, 2, Kyiv, Ukraine, 03062"
+  },
+  {
+    "place_id": "ChIJ7VvaaQF4_YER6f2Ik69REYU",
+    "title": "Веб-студія “ADAVAY agency”",
+    "website": "https://adavay.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ0YEYIHLN1EAR8L30_pQlo18",
+    "title": "Soft Taxi",
+    "website": "https://soft.taxi/",
+    "metro": "kyiv",
+    "address": "Danyla Shcherbakivskoho St, 42, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJg_pcItjN1EARUOgP4B6zV-A",
+    "title": "AutoBI",
+    "website": "https://auto-bi.io/",
+    "metro": "kyiv",
+    "address": "Dehtiarivska St, 25, 1 Poverkh 3, Kyiv, Ukraine, 04119"
+  },
+  {
+    "place_id": "ChIJVVUl4UDO1EARUX7SA9X5kv8",
+    "title": "Bluefield technologies",
+    "website": "https://bluefield.tech/",
+    "metro": "kyiv",
+    "address": "Dorohozhytska St, 3, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJTUZevKPN1EARWEJLkjVH__Y",
+    "title": "Сервис обратной связи Gestli",
+    "website": "https://gestli.com/ru/",
+    "metro": "kyiv",
+    "address": "Zoolohichna St, 5, Kyiv, Ukraine, 04119"
+  },
+  {
+    "place_id": "ChIJB74VowHP1EARV4-5eWatZys",
+    "title": "Sky Digital Lab",
+    "website": "https://skydigitallab.com/",
+    "metro": "kyiv",
+    "address": "Yaroslava Khomova Ln, 3, Kyiv, Ukraine, 03035"
+  },
+  {
+    "place_id": "ChIJK_JtqWbO1EAR7Cr6odhyQ_4",
+    "title": "It компания Webtraktor",
+    "website": "http://www.webtraktor.net/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 37-41, оф. 706, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJwS9DoMvP1EARma0szz5T8Yc",
+    "title": "Vymex",
+    "website": "http://vymex.com/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 23а, Kyiv, Ukraine, 04053"
+  },
+  {
+    "place_id": "ChIJveOjzaXP1EAR47A11DmYCbw",
+    "title": "uStudio Company",
+    "website": "http://www.ustudio.company/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 10, Kyiv, Ukraine, 04053"
+  },
+  {
+    "place_id": "ChIJHf9mVrDP1EARQxJpHmrhcbc",
+    "title": "Viinars",
+    "website": "http://www.viinars.com/",
+    "metro": "kyiv",
+    "address": "Zhylianska St, 101, Kyiv, Ukraine, 01135"
+  },
+  {
+    "place_id": "ChIJl4yXkDDP1EARxpDLkforVps",
+    "title": "Dewzilla",
+    "website": "https://dewzilla.com/",
+    "metro": "kyiv",
+    "address": "вулиця Глибочицька, 40 Корпус Е-Ф, Ofis 602, Kyiv, Ukraine, 04050"
+  },
+  {
+    "place_id": "ChIJ22RnhOC1WkQRNQTT4j4T7PE",
+    "title": "Tech Nerds",
+    "website": "https://technerds.pro/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ8WaklrrP1EARqaQ_hV18-jQ",
+    "title": "Digital Health Outcomes",
+    "website": "http://digitalho.com/",
+    "metro": "kyiv",
+    "address": "Vozdvyzhens'ka St, 48, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJF6o9GvDF1EARID5vA6af41o",
+    "title": "Axon",
+    "website": "http://www.axon.dev/",
+    "metro": "kyiv",
+    "address": "Vozdvyzhens'ka St, V45, 45, Business Center, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJG3Nm41DP1EARIMa9wcwoXXA",
+    "title": "Base Blocks Tech",
+    "website": "http://baseblocks.tech/",
+    "metro": "kyiv",
+    "address": "Volodymyrska St, 52/17А, Kyiv, Ukraine, 01030"
+  },
+  {
+    "place_id": "ChIJ___7OFDO1EARSCmhIX8ozoU",
+    "title": "Smart Fusion Solutions",
+    "website": "https://smartfusion.solutions/",
+    "metro": "kyiv",
+    "address": "Kostolna St, 6, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ73ipB-HP1EARIT3tAqqhzlw",
+    "title": "Uspacy",
+    "website": "https://uspacy.ua/",
+    "metro": "kyiv",
+    "address": "Velyka Zhytomyrska St, 21, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJQcN4nBXP1EARH4WWsYhgqgE",
+    "title": "NOSOK.UA - Web Development | WordPress",
+    "website": "https://nosok.ua/",
+    "metro": "kyiv",
+    "address": "Khreschatyk St, 10, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJn8PKXdvP1EARoWKW_-aV0I8",
+    "title": "Neosoft-Tur",
+    "website": "http://www.tourismpro.com.ua/",
+    "metro": "kyiv",
+    "address": "вулиця Хрещатик, 1 Київ то, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJOeVeGN3P1EARAjdXoe5x2to",
+    "title": "Workbeat",
+    "website": "https://workbeat.com.ua/",
+    "metro": "kyiv",
+    "address": "Volodymyrska St, 7, Ofis 1, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJAQCw92fO1EAR7N7YWMm3h9s",
+    "title": "Logic IT Solutions",
+    "website": "https://www.logic-it-solutions.com/functional-testing",
+    "metro": "kyiv",
+    "address": "Business Center, Kyianivskyi Ln, 7a, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJcdEDtYDL1EARRMhDb9SwPlc",
+    "title": "Sunny Mobile LLC",
+    "website": "http://sunny-mobile.com/",
+    "metro": "kyiv",
+    "address": "Zhmerinska str. 22B, office 201 03148, Kyiv, Ukraine"
+  },
+  {
+    "place_id": "ChIJhXzhb4LL1EARh9pBNuKLh-Q",
+    "title": "DA-Studio",
+    "website": "http://da-studio.com.ua/uk/golovna/",
+    "metro": "kyiv",
+    "address": "Велика Окружна дорога 4, 3 поверх, оф.7, Kyiv, Kyiv Oblast, Ukraine, 08130"
+  },
+  {
+    "place_id": "ChIJWeCT_rLP1EAR7hjHXOeutZ8",
+    "title": "UkrWare",
+    "website": "https://ukrware.com/",
+    "metro": "kyiv",
+    "address": "Baseina St, 9, Kyiv, Ukraine, 01024"
+  },
+  {
+    "place_id": "ChIJUUFR6C7P1EARBve1HE6bLSk",
+    "title": "Deventor",
+    "website": "https://deventor.io/",
+    "metro": "kyiv",
+    "address": "Sportyvna Square, 1a Gulliver, Tower B, floor 12, office 29, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJq30JYsrP1EARBElxQ27aWLA",
+    "title": "INSCALE Ukraine",
+    "website": "https://www.inscale.net/",
+    "metro": "kyiv",
+    "address": "1A Sportyvna Square, Gulliver BC, office, 9.3, Tower A 8th floor, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJ189NjkDO1EARz9SlonAG7nY",
+    "title": "LiveArt Online Product Designer",
+    "website": "https://www.liveartdesigner.com/",
+    "metro": "kyiv",
+    "address": "Illinska St, 8, Kyiv, Ukraine, 04070"
+  },
+  {
+    "place_id": "ChIJp4NDhuDP1EAR4JDJIlJ5gz8",
+    "title": "R-Temo",
+    "website": "https://www.behance.net/Kotouskas",
+    "metro": "kyiv",
+    "address": "Khreschatyk St, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJgSSZyfLP1EARQAxDEyjVZxs",
+    "title": "StarTech",
+    "website": "http://jarosstar.com/",
+    "metro": "kyiv",
+    "address": "Entuziastiv St, 47, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ0X00Y9HP1EAR_iY01yjNhfk",
+    "title": "Craftera Digital",
+    "website": "https://craftera.agency/",
+    "metro": "kyiv",
+    "address": "Raisy Okipnoi St, 2, Kyiv, Ukraine, 02002"
+  },
+  {
+    "place_id": "ChIJmxv4A6TP1EARmItACL6TRW4",
+    "title": "ARGENT TEAM",
+    "website": "https://argent.team/",
+    "metro": "kyiv",
+    "address": "Vulytsya Yevhena Sverstyuka, 11Б, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJp2A6H6nL1EARkjCovNASD_A",
+    "title": "ContentAdore",
+    "website": "https://contentadore.com/",
+    "metro": "kyiv",
+    "address": "Mykoly Rudenka Blvd, 14, офис 610, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJVVXBoVXJ1EAR_ih-3xWDqDI",
+    "title": "Use Imagination",
+    "website": "https://use-imagination.com/contacts",
+    "metro": "kyiv",
+    "address": "Mykoly Shepeljeva St, 2, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ1zCwaVfJ1EARAl8_9kYcTkA",
+    "title": "Freshlab",
+    "website": "https://www.freshlab.net/",
+    "metro": "kyiv",
+    "address": "Vidradnyi Ave, 103, офис 607, Kyiv, Ukraine, 03061"
+  },
+  {
+    "place_id": "ChIJIZCEEoXP1EAR0JhOVE0e1ow",
+    "title": "Data Unity",
+    "website": "https://data-unity.com/",
+    "metro": "kyiv",
+    "address": "Sviatoslava Khorobroho St, 1, Kyiv, Ukraine, 03151"
+  },
+  {
+    "place_id": "ChIJtcRA0HHP1EAR-DrR5nkWePo",
+    "title": "XME.digital solutions",
+    "website": "https://www.xme.digital/",
+    "metro": "kyiv",
+    "address": "Lobanovskyi Ave, 56, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ__-jPWTO1EARjmCy5QphpV4",
+    "title": "iTech4Web: Drupal & WordPress: Web Development and UI/UX Design",
+    "website": "https://itech4web.com/",
+    "metro": "kyiv",
+    "address": "Vasylia Lypkivskoho St, 33a, Kyiv, Ukraine, 03035"
+  },
+  {
+    "place_id": "ChIJAQDMukLP1EARe-qn8m7Xcy0",
+    "title": "Finport Technologies",
+    "website": "http://www.finporttechnologies.com/ru/contacts.html",
+    "metro": "kyiv",
+    "address": "Mykhaila Boichuka St, 26, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJL-S3-b4vIGsRHzK0E9ft804",
+    "title": "Viktoriya Studio",
+    "website": "https://web-designing.top/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJVVWVku_O1EARDWd2iX7N5W8",
+    "title": "Allatrack",
+    "website": "http://allatrack.com/",
+    "metro": "kyiv",
+    "address": "Simi Prakhovykh St, 50, Kyiv, Ukraine, 01033"
+  },
+  {
+    "place_id": "ChIJ3cEKvSjP1EAR3mC8-QRx_rc",
+    "title": "VILMATE LLC",
+    "website": "https://vilmate.com/",
+    "metro": "kyiv",
+    "address": "Volodymyrska St, 65, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJyV53eTzP1EARyx9dugm79-M",
+    "title": "Art-IT: создание / разработка сайтов и интернет-магазинов, мобильных приложений. Продвижение в интернете - SEO, SMM",
+    "website": "https://artit.com.ua/",
+    "metro": "kyiv",
+    "address": "Yezhy Gedroitsia St, 6, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJg5hYgfrP1EARLSZUjSKNb9w",
+    "title": "GeeksForLess",
+    "website": "https://geeksforless.com/",
+    "metro": "kyiv",
+    "address": "Parus, Mechnykova St, 2, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJm2XW_RTP1EARa1jZl8PIxMU",
+    "title": "Solvd.",
+    "website": "https://www.solvd.com/",
+    "metro": "kyiv",
+    "address": "Klovs'kyi descent, 7, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJAcwzK_nSG44RpC6rL5IAl1g",
+    "title": "LoyaltyPlant Ukraine",
+    "website": "https://loyaltyplant.com/ua/",
+    "metro": "kyiv",
+    "address": "Mechnykova St, 3, Kyiv, Ukraine, 01601"
+  },
+  {
+    "place_id": "ChIJz5ATfWvN1EARxp0laI4GRGg",
+    "title": "Edgica LLC",
+    "website": "http://www.edgica.com/",
+    "metro": "kyiv",
+    "address": "Kniaziv Ostrozkykh St, 32/2, Kyiv, Ukraine, 01010"
+  },
+  {
+    "place_id": "ChIJw9g9GUbP1EARH6PEOTpnnqc",
+    "title": "ІТ.Трансформація - BAS, консалтинг, розробка, впровадження",
+    "website": "http://www.it-transformation.com.ua/",
+    "metro": "kyiv",
+    "address": "вулиця Джона Маккейна, 26 м, Dzhona Makkeina St, 26, Kyiv, Ukraine, 01103"
+  },
+  {
+    "place_id": "ChIJd0OC7xHP1EARLfT4PZqjZAM",
+    "title": "Infosoft",
+    "website": "http://www.infosoft.ua/",
+    "metro": "kyiv",
+    "address": "Henerala Almazova St, 18-7, Kyiv, Ukraine, 01133"
+  },
+  {
+    "place_id": "ChIJTUI2_DvP1EAR_LoCfgpMrEE",
+    "title": "Adddev LLC",
+    "website": "https://adddev.co/",
+    "metro": "kyiv",
+    "address": "Saperne Pole St, 14/55, 02000, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJSZVBHPMi62ERLxdG7B2zSPA",
+    "title": "Tov Mkku-Merezhi",
+    "website": "https://uiccnet.com.ua/",
+    "metro": "kyiv",
+    "address": "Predslavynska St, 35, корпус 21, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJVUOyWQzP1EARo3Hb0eQt4LQ",
+    "title": "Coidea Agency",
+    "website": "https://coidea.agency/",
+    "metro": "kyiv",
+    "address": "Lesi Ukrainky Blvd, 27/2, Kyiv, Ukraine, 01014"
+  },
+  {
+    "place_id": "ChIJGWMTlnjN1EARzp0_VGCWA5o",
+    "title": "Be Tech CRM",
+    "website": "https://be-tech.pro/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJI8qROYvN1EARDuHE8XWGghk",
+    "title": "Delax",
+    "website": "http://www.delax.website/",
+    "metro": "kyiv",
+    "address": "Mrii St, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJpxJI_hPL1EARiTyT0sUR8Dw",
+    "title": "Etnocode",
+    "website": "http://etnocode.com.ua/",
+    "metro": "kyiv",
+    "address": "Tyraspol`ska St, 60, Kyiv, Ukraine, 04079"
+  },
+  {
+    "place_id": "ChIJ6WVO0iOjliERPykqxKPaqOs",
+    "title": "jkdesign",
+    "website": "https://www.instagram.com/jk__designer_/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ4wxrKx41BEwRmGZC-hdUOu8",
+    "title": "Averyano Design",
+    "website": "https://averyano.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJhyTlMnu6X6YROfhTdPJjI7Y",
+    "title": "SPD Technology",
+    "website": "https://spd.tech/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJN3i83JLP1EARncBsFYOogjI",
+    "title": "Standout",
+    "website": "https://www.standout.in.ua/",
+    "metro": "kyiv",
+    "address": "Dorohozhytska St, 1, Kyiv, Ukraine, 03061"
+  },
+  {
+    "place_id": "ChIJnxH9FRrN1EARSLdyswjA42g",
+    "title": "Jupser - IT Company",
+    "website": "http://jupser.com/",
+    "metro": "kyiv",
+    "address": "Yuriia Illienka St, 18B, Kyiv, Ukraine, 04050"
+  },
+  {
+    "place_id": "ChIJGQyg0HLN1EARt2VDOPllWSA",
+    "title": "Webion Agency",
+    "website": "https://webion.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJW5Gb9HjP1EARt3rlrDDhHhQ",
+    "title": "Telestat",
+    "website": "https://www.telestat.biz/",
+    "metro": "kyiv",
+    "address": "Коворкінг-центр \"Kiev Sky, Mezhyhirska St, 82, Ofis 13, Kyiv, Ukraine, 04080"
+  },
+  {
+    "place_id": "ChIJA87PL9TP1EARBY9WiEdGFM0",
+    "title": "ASD LLC",
+    "website": "http://asd-geo.com.ua/",
+    "metro": "kyiv",
+    "address": "Variazkyi Ln, 4-Б, Kyiv, Ukraine, 04053"
+  },
+  {
+    "place_id": "ChIJ77zQ93zdOkcR-P8Hc7JWOls",
+    "title": "Newsoft",
+    "website": "https://newsoft-ns.com/",
+    "metro": "kyiv",
+    "address": "Zelena St, 149, Lviv, Lviv Oblast, Ukraine, 79035"
+  },
+  {
+    "place_id": "ChIJn_XrWv7nOkcRNUF2j6-0w4A",
+    "title": "Zade",
+    "website": "https://zade.agency/",
+    "metro": "kyiv",
+    "address": "Stryysʹka Vul., Lviv, L'vivs'ka oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVVXhtZXdOkcRRzi7_6kYCtc",
+    "title": "Chunkup",
+    "website": "https://chunkup.com/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 111A, Lviv, Lviv Oblast, Ukraine, 79039"
+  },
+  {
+    "place_id": "ChIJA7XlIJskkEARtkm2EPUxCS4",
+    "title": "Justify Agency",
+    "website": "https://justify.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJI0JKYdvnOkcROyuHN25d-qI",
+    "title": "ISsoft Ukraine",
+    "website": "https://issoft.ua/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 226 А, Lviv, Lviv Oblast, Ukraine, 79071"
+  },
+  {
+    "place_id": "ChIJXSwTqArnOkcR5epz5IjrOME",
+    "title": "Solid Software",
+    "website": "http://solid.software/",
+    "metro": "kyiv",
+    "address": "Kulparkivs'ka Str, 200a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ9wSGfePnOkcRq6QZ8EgXTN8",
+    "title": "GTM Plus",
+    "website": "https://gtm-plus.com/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7Д, Lviv, Lviv Oblast, Ukraine, 79060"
+  },
+  {
+    "place_id": "ChIJLbHW-bvnOkcRwgpm7snykz4",
+    "title": "SolidBrain company",
+    "website": "http://solidbrain.net/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7A, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJYf8zSO_nOkcR5SJj8eGwhBQ",
+    "title": "JetSoftPro",
+    "website": "https://jetsoftpro.com/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7Б, Lviv, Lviv Oblast, Ukraine, 79060"
+  },
+  {
+    "place_id": "ChIJz1XOin7nOkcRwkq9PIRKCAE",
+    "title": "Code Geeks Solutions",
+    "website": "http://codegeeks.solutions/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79026"
+  },
+  {
+    "place_id": "ChIJ7eeAFtnnOkcRULhfikPYAQc",
+    "title": "Flexum",
+    "website": "https://flexum.io/",
+    "metro": "kyiv",
+    "address": "Uhorska St, 14А, Lviv, Lviv Oblast, Ukraine, 79034"
+  },
+  {
+    "place_id": "ChIJ2emoQtvnOkcRHKvQsISw0Do",
+    "title": "berko.tech",
+    "website": "http://berko.tech/",
+    "metro": "kyiv",
+    "address": "Uhorska St, Lviv, L'vivs'ka oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJYYo0Q__pOkcRisrlTtbQW6w",
+    "title": "Selecto",
+    "website": "https://selectoglobal.com/",
+    "metro": "kyiv",
+    "address": "Zelena St, 186, Lviv, Lviv Oblast, Ukraine, 79035"
+  },
+  {
+    "place_id": "ChIJ7dOsd8rnOkcR9IHHkwHDmPQ",
+    "title": "FutureOne Tech",
+    "website": "https://futureone.tech/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73ж, Корпус 10, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJTQqvWClTRKgR2GaL29SFnmg",
+    "title": "WebUi",
+    "website": "https://webui.com.ua/ua/quiz",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJPz9Dot3dOkcRNR6LOe4xlRo",
+    "title": "Karakumsoft",
+    "website": "https://karakumsoft.com/",
+    "metro": "kyiv",
+    "address": "Beresteiskoi unii Sq, 8, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJM8LK_NrnOkcRF-YmF2oF-1I",
+    "title": "SmartTek Solutions",
+    "website": "https://smarttek.solutions/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 71, Lviv, Lviv Oblast, Ukraine, 79029"
+  },
+  {
+    "place_id": "ChIJxyIoQ5vNx4oRvtn-ogwgm7M",
+    "title": "MetaArt",
+    "website": "http://metaart.com.ua/",
+    "metro": "kyiv",
+    "address": "Pekarska St, 10, Lviv, Lviv Oblast, Ukraine, 79014"
+  },
+  {
+    "place_id": "ChIJb3Dg-1HdOkcRVXTGyKOwPBs",
+    "title": "Luxnet",
+    "website": "http://luxnet.io/",
+    "metro": "kyiv",
+    "address": "Halytska Square, 15, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ2VM-qnDdOkcRnKfKYtAgVm8",
+    "title": "Inspirito",
+    "website": "http://www.inspiri.to/",
+    "metro": "kyiv",
+    "address": "вул. Ф. Колесси, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ01tcJd7dOkcRauFRVUxsWwk",
+    "title": "GreenM",
+    "website": "https://greenm.io/",
+    "metro": "kyiv",
+    "address": "Shpytalna St, 11, Lviv, Lviv Oblast, Ukraine, 79007"
+  },
+  {
+    "place_id": "ChIJg9R0n8LdOkcRNBRL-aignLk",
+    "title": "Team Rainmakers",
+    "website": "https://trm.solutions/",
+    "metro": "kyiv",
+    "address": "Akademika Hnatyuka St, 22/20, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJsZirVWjdOkcR5Hno49C8EX4",
+    "title": "SKYNEX",
+    "website": "http://www.skynex.tv/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJISeGUF_dOkcRwSV3W07gItk",
+    "title": "Define Solutions",
+    "website": "https://www.definesolutions.co/",
+    "metro": "kyiv",
+    "address": "Hazova St, 38, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJe51yFO3dOkcR4QUtJux8PLM",
+    "title": "Tsukat",
+    "website": "http://tsukat.com/",
+    "metro": "kyiv",
+    "address": "Promyslova St, 52, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ7XDQQ_3dOkcRbCeGlF8AYBE",
+    "title": "NicShop - зручні і доступні інтернет магазини",
+    "website": "https://nicshop.com.ua/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJcUHsfordOkcROvgQTfyMIO4",
+    "title": "AppRecode (AppRecode - DevOps Consulting and Development Company)",
+    "website": "https://apprecode.com/",
+    "metro": "kyiv",
+    "address": "Studyns'koho St, 14, Lviv, Lviv Oblast, Ukraine, 79037"
+  },
+  {
+    "place_id": "ChIJJWg9HvTnOkcRNQ3Tjg_eBR8",
+    "title": "Emex",
+    "website": "https://emex.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 230A, 4B, Lviv, L'vivs'ka oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ_3DND37nOkcRa3eYmzaO-zI",
+    "title": "Luxe Quality",
+    "website": "https://luxequality.com/",
+    "metro": "kyiv",
+    "address": "Naukova St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJm0AeuYrnOkcRhDkS1XnrgDE",
+    "title": "SOLEAD Software",
+    "website": "http://solead.software/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7д, Lviv, Lviv Oblast, Ukraine, 79071"
+  },
+  {
+    "place_id": "ChIJg_gC467dOkcRFZ9B6CCkfYY",
+    "title": "Pega Agency",
+    "website": "https://www.pega.agency/",
+    "metro": "kyiv",
+    "address": "Het'mana Mazepy St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJBRnHpsAINEcRtiCGL99uy_o",
+    "title": "PPCExperts Co. (PE Krasnov Taras Oleksandrovych)",
+    "website": "https://www.ppcexpertsco.com/",
+    "metro": "kyiv",
+    "address": "Tvorcha St, 38, Lviv, Lviv Oblast, Ukraine, 79037"
+  },
+  {
+    "place_id": "ChIJv6vQ5nfdOkcRhBG3PDOyXV8",
+    "title": "Kykil Agency",
+    "website": "https://www.kykil.com/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, 200, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJBxm3LqrdOkcRjrqPSDfdDdo",
+    "title": "Bitimark Digital Marketing Agency",
+    "website": "https://bitimark.com/",
+    "metro": "kyiv",
+    "address": "Viacheslava Chornovola Ave, 67Б, Lviv, Lviv Oblast, Ukraine, 79020"
+  },
+  {
+    "place_id": "ChIJOexW4HbdOkcRCbiEH_Ilotc",
+    "title": "On Top Agency",
+    "website": "http://www.ontop.agency/",
+    "metro": "kyiv",
+    "address": "Zamknena St, 9, 2nd Floor, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJCxLCP67nOkcRAJJo6NpfwTA",
+    "title": "WebBees",
+    "website": "https://webbees.com.ua/",
+    "metro": "kyiv",
+    "address": "Konduktorska St, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJU4rgAhiMwkwRnvdKK8e5Kxo",
+    "title": "Webunites – Website Solutions",
+    "website": "https://webunites.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJbWGuiIfdOkcR5RvJAjVInqg",
+    "title": "Intelligent System Design",
+    "website": "http://www.intelsd.com/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 197, Офіс №25, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJH4MXgefnOkcRU1URmze8S8M",
+    "title": "Ternala",
+    "website": "https://ternala.com/",
+    "metro": "kyiv",
+    "address": "Zaliznyaka, 21, Lviv, Lviv Oblast, Ukraine, 79057"
+  },
+  {
+    "place_id": "ChIJ-3z17rUEBWARF9o41nF4QGk",
+    "title": "Donnael Sport",
+    "website": "https://donnael.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJA6djeW7dOkcR2M-mbLCIbeQ",
+    "title": "Webbook",
+    "website": "http://webbookstudio.com/",
+    "metro": "kyiv",
+    "address": "12 Doroshenka St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJdTUAgZHdOkcRYqZhXLeCog0",
+    "title": "shuandr design",
+    "website": "https://shuandr.lviv.ua/",
+    "metro": "kyiv",
+    "address": "Mykoly Kopernyka St, 20, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVd6lH2PDOkcRg4QNG8-42nE",
+    "title": "Digitelia - Marketing agency",
+    "website": "http://digitelia.co/",
+    "metro": "kyiv",
+    "address": "Kytaysʹka Vul., 10, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJbR443-zDOkcRwNwqaVYUsb8",
+    "title": "Arquentum Design",
+    "website": "https://www.arquentum.com/",
+    "metro": "kyiv",
+    "address": "Lysenytska St, 19b, Lviv, Lviv Oblast, Ukraine, 79032"
+  },
+  {
+    "place_id": "ChIJlS9CGh_pOkcRl4B8umvSNcA",
+    "title": "Ria Direkt - Kompleksne Prosuvannya Vashoho Biznesu",
+    "website": "https://direkt.com.ua/",
+    "metro": "kyiv",
+    "address": "Buzkova St, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJb4lqjEy6ZEQRdcR8gawzxRU",
+    "title": "hulo.dev",
+    "website": "https://hulo.dev/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ9547CoHdOkcRslWnSTcEf0k",
+    "title": "Heads Company",
+    "website": "https://heads.company/",
+    "metro": "kyiv",
+    "address": "Dzherelna St, 93, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJP6f1OSQLLGARmLffdN4C5gM",
+    "title": "Abra Agency - creative web agency",
+    "website": "https://abra.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJwU-WqqHdOkcRezuObrnoTS8",
+    "title": "Антвен Вебстер",
+    "website": "http://fogwebstudio.site/",
+    "metro": "kyiv",
+    "address": "Kleparivska St, 49 13, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJq5sueJ_dOkcRdgcGjlVrGJw",
+    "title": "Zemla Studio",
+    "website": "http://zemla.studio/",
+    "metro": "kyiv",
+    "address": "Kushevycha St, 1, кабінет, 323, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJNRvr5lXdOkcR3Rx7enYXvpM",
+    "title": "Bearcka",
+    "website": "https://www.bearcka.com/",
+    "metro": "kyiv",
+    "address": "Zhovkivska St, 30, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJCULk8ODcOkcRlZQbeoLG_-o",
+    "title": "веб студия Jupiter Design",
+    "website": "https://jupiter-design.net/",
+    "metro": "kyiv",
+    "address": "Kovelska St, 122, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJiVax7pxTgCcRV0-05T06ayo",
+    "title": "URich",
+    "website": "https://urich.org/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJe2JBzPLpOkcRQpBGCAgohyA",
+    "title": "nerd stud Розробка веб-сайтів та програмного забезпечення",
+    "website": "https://nerd-stud.io/",
+    "metro": "kyiv",
+    "address": "Zelena St, 149Е, Lviv, Lviv Oblast, Ukraine, 79035"
+  },
+  {
+    "place_id": "ChIJ6cbPiPvdOkcR0QiDYI12X4M",
+    "title": "NoBorder",
+    "website": "https://www.noborder.dev/",
+    "metro": "kyiv",
+    "address": "Lukasha St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJS8IukF7nOkcRxJabrM2Bp8o",
+    "title": "Volpis",
+    "website": "http://www.volpis.com/",
+    "metro": "kyiv",
+    "address": "Akademika Andriya Sakharova St, 37, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ92-2krHhOkcRYv18oXfzQ2A",
+    "title": ".doCode Development",
+    "website": "https://docode.dev/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 186b, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJl1obhzx8pKIRxlO-ffF7Wb0",
+    "title": "Jul&Vol",
+    "website": "https://messageapi.xn--o1a9b.xn--j1amh/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ9yWlJ7aHLYwRYO5Eu_QorGM",
+    "title": "Bogdan Dyuk",
+    "website": "https://sites.google.com/view/bogdandyuk",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJq1cwlGzoOkcReoG-_On89CA",
+    "title": "Design studio and marketing Perfect City",
+    "website": "https://pustovit.com/",
+    "metro": "kyiv",
+    "address": "Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJuyMsWcccu6YRJUZwdFCFz7s",
+    "title": "Live2Sport LLC",
+    "website": "https://live2sport.com/",
+    "metro": "kyiv",
+    "address": "Sofii Karaffy-Korbut St, 22/55, Lviv, Lviv Oblast, Ukraine, 79053"
+  },
+  {
+    "place_id": "ChIJ2Y41lxC51mURIubGnrtNK4M",
+    "title": "Enkoss",
+    "website": "https://www.enkoss.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJq6oucAndOkcRrChJETdH78o",
+    "title": "Dumka",
+    "website": "https://dumka.pro/",
+    "metro": "kyiv",
+    "address": "9a, Lemkivska St, Lviv, L'vivs'ka oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJeQAZHiDdOkcRpbirGtgvrAQ",
+    "title": "Gram Branding Agency",
+    "website": "http://www.gram.family/",
+    "metro": "kyiv",
+    "address": "Pavlyka St, 5, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ3e1p6ChIGWwRw3LAQbYjbwM",
+    "title": "Filer",
+    "website": "http://dzhdev.rf.gd/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJwUqOfxPdOkcRmP73HmU0DhM",
+    "title": "Sinspired",
+    "website": "https://sinspiredstudio.com/",
+    "metro": "kyiv",
+    "address": "Zelena St, 25, Lviv, Lviv Oblast, Ukraine, 79005"
+  },
+  {
+    "place_id": "ChIJc9wUH6facYcRF5Ot_gM3z_g",
+    "title": "Weweb",
+    "website": "https://weweb.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJp0BP8QVBECYRqymXdF3XGIQ",
+    "title": "Will Design Creative Agency",
+    "website": "https://www.willdesign.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJUQiwTOXnOkcRrFktu9sAwGo",
+    "title": "Sova Logic Digital Agency - сайти та реклама",
+    "website": "https://sovalogic.com.ua/",
+    "metro": "kyiv",
+    "address": "Volodymyra Velykoho St, 29, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJD_HlxF_nOkcRmxEgIZds0fk",
+    "title": "DigitOWL Marketing Outsourcing",
+    "website": "https://digitowl.com.ua/",
+    "metro": "kyiv",
+    "address": "Sknylivska St, 65b, Lviv, Lviv Oblast, Ukraine, 79071"
+  },
+  {
+    "place_id": "ChIJbSWgml2thmgRw8xAFb5iS6Q",
+    "title": "Willmore Digital Advertising Agency",
+    "website": "https://www.willmore.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJMwYnNRLdOkcRCjcWC-5cmN4",
+    "title": "LITOKHIN Digital Marketing Agency",
+    "website": "https://www.uts.lviv.ua/",
+    "metro": "kyiv",
+    "address": "Dmytra Bortnyans'koho St, 52, Lviv, Lviv Oblast, Ukraine, 79042"
+  },
+  {
+    "place_id": "ChIJKbR9q63dOkcRRfqF_yHnsVY",
+    "title": "Next Generation ICT Ltd (TA Fractional Teams)",
+    "website": "http://www.fractionalteams.com/",
+    "metro": "kyiv",
+    "address": "Communa, Kol'berha St, 3, Lviv, Lviv Oblast, Ukraine, 79013"
+  },
+  {
+    "place_id": "ChIJwwV_cqzdOkcRrUUtsfzz8A0",
+    "title": "Zona Digital - цифрове агентство",
+    "website": "https://zd.agency/?utm_source=google&utm_medium=profile&utm_campaign=google_business",
+    "metro": "kyiv",
+    "address": "Kostia Levytskoho St, 4, офіс 33, Lviv, Lviv Oblast, Ukraine, 79008"
+  },
+  {
+    "place_id": "ChIJHetdk3TnOkcR6vzTWsY1q1A",
+    "title": "Insight Marketing Agency",
+    "website": "https://digitalinsight.com.ua/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73В, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJAfWmfv_FjKMRh0iVew5XujY",
+    "title": "WE.DESIGN studio. Creative and branding.",
+    "website": "https://wedesign-studio.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJZZp8-XPdOkcROZACK34_rU4",
+    "title": "Studio IDI",
+    "website": "http://designidi.com/",
+    "metro": "kyiv",
+    "address": "Bohdana Lepkoho St, 1, Shchyrets, Lviv Oblast, Ukraine, 81160"
+  },
+  {
+    "place_id": "ChIJbTE3gGpeTYcRvRW4CgtiWN0",
+    "title": "Growth Kitchen",
+    "website": "https://growthkitchen.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJRe6oIDX-JiMRwUzHHvywKcg",
+    "title": "SHUM",
+    "website": "https://www.shumagency.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=6974260618740570222",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJT2NNBADdOkcRRxXFZ-JTKFE",
+    "title": "Atlant Digital",
+    "website": "https://atlant.digital/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 25, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJQft8Sl_dOkcRWp1BZByKESs",
+    "title": "Rioks",
+    "website": "https://rioks.com/",
+    "metro": "kyiv",
+    "address": "Serbska St, 15, Lviv, Lviv Oblast, Ukraine, 79008"
+  },
+  {
+    "place_id": "ChIJLxago8JzdmUR77zkLQybyV4",
+    "title": "Logic.digital",
+    "website": "https://logicdigital.agency/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJg-vLJDbdOkcRMDEsbXyqwAs",
+    "title": "Plann Ads",
+    "website": "https://plannads.com/",
+    "metro": "kyiv",
+    "address": "Vesniana St, 4, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJPYdJBxpJOkcRlVRJhhVvz90",
+    "title": "Digital Agency \"Profit\"",
+    "website": "https://profit.in.ua/",
+    "metro": "kyiv",
+    "address": "Oleksandra Dovzhenka St, 2, Truskavets, Lviv Oblast, Ukraine, 82200"
+  },
+  {
+    "place_id": "ChIJsw1yMf7O1EARW6HIo06uODA",
+    "title": "White Web",
+    "website": "http://whiteweb.ua/",
+    "metro": "kyiv",
+    "address": "Dniprovska Embankment, 26к, Kyiv, Ukraine, 02132"
+  },
+  {
+    "place_id": "ChIJ8WTRi-3P1EAR6Tgfjvis0s8",
+    "title": "Brander",
+    "website": "https://brander.ua/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, 55, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJx7FfadnI1EART6-jYcqRHHQ",
+    "title": "Join.To.IT - Software Development Company",
+    "website": "https://jointoit.com/",
+    "metro": "kyiv",
+    "address": "Okhtyrskyi Ln, 7, Korpus 3, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJk1G1VInnOkcRXNdUd5Xk-00",
+    "title": "Focusweb",
+    "website": "http://focusweb.com.ua/",
+    "metro": "kyiv",
+    "address": "Офіс 507, Akademika Andriya Sakharova St, 43, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJC1Xm-7P920ARftyJhhY7hBM",
+    "title": "WizardsDev",
+    "website": "https://wizardsdev.com/",
+    "metro": "kyiv",
+    "address": "Simferopol's'ka St, 17а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49005"
+  },
+  {
+    "place_id": "ChIJf1JXFUTF1EARfUlOUSUjvjA",
+    "title": "Whimsy Games Group LTD",
+    "website": "https://whimsygames.co/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJDQh7_LvnOkcRNP0W6uO4Mws",
+    "title": "Eleks",
+    "website": "https://eleks.com/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7Г, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJD4PvrlnP1EARgnbJjaBlZT4",
+    "title": "Altum Software",
+    "website": "https://altumsoftware.io/",
+    "metro": "kyiv",
+    "address": "Mykhaila Boichuka St, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJf-63ep_nOkcRUbh83XOutr4",
+    "title": "SoftServe Lviv 1",
+    "website": "https://career.softserveinc.com/uk-ua/about?utm_source=gbp&utm_medium=organic",
+    "metro": "kyiv",
+    "address": "Volodymyra Velykoho St, 52, Lviv, Lviv Oblast, Ukraine, 79053"
+  },
+  {
+    "place_id": "ChIJfa-Y9yjdOkcRIzR0rnCpUHw",
+    "title": "Voodoo Ecom | Технологічна освітня компанія",
+    "website": "https://voodooecom.com/",
+    "metro": "kyiv",
+    "address": "Shpytalna St, 11, Lviv, Lviv Oblast, Ukraine, 79005"
+  },
+  {
+    "place_id": "ChIJd-P0Asfj20ARrMOOrNFdKHs",
+    "title": "EPAM Ukraine",
+    "website": "https://careers.epam.ua/company/contact",
+    "metro": "kyiv",
+    "address": "Barykadna St, 16, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49044"
+  },
+  {
+    "place_id": "ChIJ0ZodaeTi20AR1bOEUBD3UmY",
+    "title": "Advanced Team",
+    "website": "https://advanced.team/",
+    "metro": "kyiv",
+    "address": "Starokozatska St, 48а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ5VR5s31Y2UARmg2mpjiDCio",
+    "title": "ДЖИ ЭМ ЭС СЕРВИС ООО",
+    "website": "http://www.gms.ua/",
+    "metro": "kyiv",
+    "address": "Pavla Virskoho St, 1, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49083"
+  },
+  {
+    "place_id": "ChIJPb-9xTTM1EARbLck8ydlBbU",
+    "title": "ТОВ \"Ассофт\"",
+    "website": "http://assoft.com.ua/",
+    "metro": "kyiv",
+    "address": "просп, Vatslava Havela Blvd, 8, корп. 10, Kyiv, Ukraine, 03124"
+  },
+  {
+    "place_id": "ChIJd2msBf3M1EARPr8tFsI_dHA",
+    "title": "IMOOX",
+    "website": "https://www.imoox.net/uk-UA/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ2a0tZgQU94wRzKRDvfmfGys",
+    "title": "Hoverla Soft",
+    "website": "https://hoverlasoft.com/",
+    "metro": "kyiv",
+    "address": "Taras Shevchenko St, 62, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJaRoJcofL1EARsOdHYHTKPs8",
+    "title": "SkyService POS - автоматизація бізнесу",
+    "website": "https://skyservice.pro/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ69P6u6jF1EARHk2JyT6dJYY",
+    "title": "RO App Україна",
+    "website": "https://roapp.com.ua/",
+    "metro": "kyiv",
+    "address": "Kharkivs'ke Hwy, 201/203, Kyiv, Ukraine, 02121"
+  },
+  {
+    "place_id": "ChIJ__9PlH_O1EARFsmiIvFuHFk",
+    "title": "ДОК ПРОФ",
+    "website": "http://docprof.ua/",
+    "metro": "kyiv",
+    "address": "Mytrofana Dovnar-Zapolskoho St, 5, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ02Ft-2nP1EARSh3YJYpqcWo",
+    "title": "WEZOM",
+    "website": "https://wezom.com.ua/",
+    "metro": "kyiv",
+    "address": "Andriia Verkhohliada St, 2А, офис 440, этаж 23, Kyiv, Ukraine, 01103"
+  },
+  {
+    "place_id": "ChIJoYTcXIDdOkcR9Vzhe5v3HeU",
+    "title": "SoftServe Lviv 3",
+    "website": "https://career.softserveinc.com/uk-ua/about?utm_source=gbp&utm_medium=organic",
+    "metro": "kyiv",
+    "address": "2-4 поверх, корпус 8, офіс №3, Heroiv UPA St, 72, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ9aOvM6_dOkcRTmQs9hylGh4",
+    "title": "Nerdysoft",
+    "website": "http://nerdysoft.com/",
+    "metro": "kyiv",
+    "address": "Shevchenka Ave, 9, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ23prlSnj20ARSM3GTK6qUvI",
+    "title": "Tov Nvp \"Pk-Servis\"",
+    "website": "https://pc-service.ua/",
+    "metro": "kyiv",
+    "address": "Nauky Ave, 40, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49045"
+  },
+  {
+    "place_id": "ChIJj2KnT9jI1EARJaaWnjzYyhM",
+    "title": "Star",
+    "website": "https://star.global/",
+    "metro": "kyiv",
+    "address": "2I build, Okhtyrskyi Ln, 7, Kyiv, Ukraine, 03680"
+  },
+  {
+    "place_id": "ChIJVVVltyLM1EARjd7egLK1iGk",
+    "title": "SalesAR",
+    "website": "https://salesar.io/",
+    "metro": "kyiv",
+    "address": "Okhtyrsky Lane, Okhtyrskyi Ln, 3, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJoQJm8wndOkcRy0VNB4MZzU0",
+    "title": "Avenga",
+    "website": "https://www.avenga.com/",
+    "metro": "kyiv",
+    "address": "Kamianetska St, 1а, Lviv, Lviv Oblast, Ukraine, 79034"
+  },
+  {
+    "place_id": "ChIJv9cspb_O1EARGwz-8I_vQRs",
+    "title": "ALLSTARSIT",
+    "website": "https://allstarsit.com/",
+    "metro": "kyiv",
+    "address": "Sportyvna Square, 1А, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJ7e7GbQHN1EARYX6fwAzzKWc",
+    "title": "Linkos Group",
+    "website": "https://www.linkos.ua/",
+    "metro": "kyiv",
+    "address": "Irpinska St, 1, Kyiv, Ukraine, 03142"
+  },
+  {
+    "place_id": "ChIJf0kpb3vdOkcROA0NQ3u78YU",
+    "title": "Universal Web",
+    "website": "https://universalweb.com.ua/",
+    "metro": "kyiv",
+    "address": "Maksyma Zaliznyaka St, 17, Lviv, L'vivs'ka oblast, Ukraine, 79013"
+  },
+  {
+    "place_id": "ChIJh-b2XNji20ARDZkQhgi8Ocg",
+    "title": "Первая Украинская Студия",
+    "website": "https://webstudio.biz/",
+    "metro": "kyiv",
+    "address": "Barykadna St, 16, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJjZvWYs3aH0ERiLI8jknV94U",
+    "title": "Zina Design Studio",
+    "website": "https://zina.design/",
+    "metro": "kyiv",
+    "address": "Krutohirnyi Descent, 12б, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49001"
+  },
+  {
+    "place_id": "ChIJ43nBW6jCOkcRKxv94k2Ze8M",
+    "title": "Intellias",
+    "website": "https://career.intellias.com/",
+    "metro": "kyiv",
+    "address": "Panasa Myrnoho St, 24, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJHUsm8LvnOkcR3u46qbc3rac",
+    "title": "Symphony Solutions",
+    "website": "https://symphony-solutions.com/",
+    "metro": "kyiv",
+    "address": "Naukova St, 2Б, Lviv, Lviv Oblast, Ukraine, 79053"
+  },
+  {
+    "place_id": "ChIJUXYp6XXN1EARVeRlfHI8m5s",
+    "title": "CIENCE Technologies",
+    "website": "https://www.cience.com/",
+    "metro": "kyiv",
+    "address": "37-K, Saksahanskoho St, Kyiv, Ukraine, 01333"
+  },
+  {
+    "place_id": "ChIJjfQm_n7nOkcRJnocd2IewwU",
+    "title": "Студія дизайну та реклами «BRANDME»",
+    "website": "https://brandme.in.ua/",
+    "metro": "kyiv",
+    "address": "вулиця Героїв УПА 73, корп.4, пов. 1 вхід з, Antonovycha St, 102, Lviv, Lviv Oblast, Ukraine, 79015"
+  },
+  {
+    "place_id": "ChIJ0d2ySt7i20ARP6tMScWf-b4",
+    "title": "Daxx Dnipro",
+    "website": "http://www.daxx.com/",
+    "metro": "kyiv",
+    "address": "Sviatoslava Khorobroho, 12, 316, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJWXAAZhzj20ARjwu65L3zp4U",
+    "title": "Covent IT - Dnipro",
+    "website": "https://coventit.com/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 18а, 49000, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJdQjXLf7i20ARag7LzLdet0w",
+    "title": "eMiS",
+    "website": "https://emis.ua/",
+    "metro": "kyiv",
+    "address": "Troitska St, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49006"
+  },
+  {
+    "place_id": "ChIJz97lfZrdOkcRRYNHqoRH2zA",
+    "title": "Kindgeek",
+    "website": "http://kindgeek.com/",
+    "metro": "kyiv",
+    "address": "Oleny Stepanivny St, 45, Lviv, Lviv Oblast, Ukraine, 79018"
+  },
+  {
+    "place_id": "ChIJwbXoCF3F1EARgYqn1mg7O-Q",
+    "title": "Aniart",
+    "website": "http://www.aniart.com.ua/",
+    "metro": "kyiv",
+    "address": "Strilets'ka St, 4-6, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJwxW9kH7nOkcR7uYNXMsAmLQ",
+    "title": "Abto Software",
+    "website": "http://www.abtosoftware.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 71Б, Lviv, Lviv Oblast, Ukraine, 79018"
+  },
+  {
+    "place_id": "ChIJYUhk9DWQ4EARmQ4BKZ8kbSQ",
+    "title": "Дизайн студия «Вектор»",
+    "website": "http://vectorstudio.com.ua/",
+    "metro": "kyiv",
+    "address": "Sicheslavska Naberezhna St, 15А, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJdXnOo0TdOkcRdYap5U-67hA",
+    "title": "Cyber Craft",
+    "website": "http://www.cybercraftinc.com/",
+    "metro": "kyiv",
+    "address": "Levyts'koho St, 75а, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJF_J8jRHO1EARkXUd5RBIUiU",
+    "title": "DEVELOPEX ️: Custom & Outsourcing Software Development Services",
+    "website": "https://developex.com/",
+    "metro": "kyiv",
+    "address": "Naberezhno-Lugova St, 9/45, Kyiv, Ukraine, 04073"
+  },
+  {
+    "place_id": "ChIJAx2ZHN3i20ARzEq3yJnETN4",
+    "title": "Feniks Indastri",
+    "website": "https://fnx.com.ua/",
+    "metro": "kyiv",
+    "address": "Ivana Shulyka St, 10, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJz4w6l1fO1EARsAnMSQHTnQ8",
+    "title": "Redwerk - Custom Software Development Company",
+    "website": "https://redwerk.com/",
+    "metro": "kyiv",
+    "address": "Ivana Franka St, office 40, Kyiv, Ukraine, 01030"
+  },
+  {
+    "place_id": "ChIJU47zxQzdOkcR9k0iTo1qCrw",
+    "title": "TechMagic",
+    "website": "https://www.techmagic.co/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79026"
+  },
+  {
+    "place_id": "ChIJWdfySo3nOkcR_Zua65Ve3JA",
+    "title": "SeoSite",
+    "website": "https://alexsmokinof.lviv.ua/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 69, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJp4WFX9zi20ARONFzeW6evpM",
+    "title": "SoftServe Dnipro 1",
+    "website": "https://career.softserveinc.com/uk-ua/about?utm_source=gbp&utm_medium=organic",
+    "metro": "kyiv",
+    "address": "Barykadna St, 1, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJdeGJ0hTdOkcRZr-iEUoUuew",
+    "title": "Reklamna Kompaniya Art Bro : Vyvisky, Reklama, Marketynh",
+    "website": "https://www.artbro.com.ua/",
+    "metro": "kyiv",
+    "address": "вул. Жовківська, буд. 30-В, офіс № 4, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJSVrxpB3P1EARNbfHYE_MaSM",
+    "title": "Shop-Express — Ecommerce Platform",
+    "website": "https://shop-express.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ70nKy9Ti20ARteeGqw6o3Zg",
+    "title": "Yalantis",
+    "website": "https://yalantis.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJZZzOrH_nOkcRCWt9ana65z4",
+    "title": "Avenga",
+    "website": "https://www.avenga.com/",
+    "metro": "kyiv",
+    "address": "Korpus 2, корпус 2, Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJQd8-RbTn20ARTJazYXMlTlo",
+    "title": "ISD Ltd",
+    "website": "https://www.isd.dp.ua/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 14, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49044"
+  },
+  {
+    "place_id": "ChIJUTDxSOTi20ARGGnsSGyud6Y",
+    "title": "Cprime Studios",
+    "website": "https://cprimestudios.com/",
+    "metro": "kyiv",
+    "address": "Mechnykova St, 18, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJzQu1KN7i20ARRJre7aBjPcI",
+    "title": "MSYSTEM AGENCY",
+    "website": "https://msystem.ua/",
+    "metro": "kyiv",
+    "address": "Mykhaila Hrushevskoho St, 10, 3 поверх, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ-7JGonfN1EARFB5eO58TSOA",
+    "title": "ALPACKED LLC - DevOps company",
+    "website": "http://alpacked.io/",
+    "metro": "kyiv",
+    "address": "Nyzhnii Val St, 19/21, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJS-KxJEvE1EARbtpj4eFLUHk",
+    "title": "Trinetix Solutions",
+    "website": "https://www.trinetix.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJm01pVELO1EARW3XDyJLpBmo",
+    "title": "Kitsoft",
+    "website": "http://kitsoft.ua/",
+    "metro": "kyiv",
+    "address": "Kniaziv Ostrozkykh St, 32/2, Kyiv, Ukraine, 01010"
+  },
+  {
+    "place_id": "ChIJ102cZSXM1EAREfT302vB8CA",
+    "title": "Upplabs",
+    "website": "https://www.upplabs.com/",
+    "metro": "kyiv",
+    "address": "Vadyma Hetmana St, 1B, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJlab_R0fP1EARcIUV1tVErdc",
+    "title": "Railsware",
+    "website": "https://railsware.com/",
+    "metro": "kyiv",
+    "address": "Creative State of Arsenal, Ivan Mazepa St, 1, Kyiv, Ukraine, 01010"
+  },
+  {
+    "place_id": "ChIJB9Rh-wjdOkcRCkrqnVlHiTA",
+    "title": "Bitcom",
+    "website": "https://bitcom.systems/",
+    "metro": "kyiv",
+    "address": "Holovatskoho St, 23г/16, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJybqlrBHnOkcRqzsmd5Sj5Ww",
+    "title": "Intelvision",
+    "website": "https://intelvision.pro/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 33, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ56zk_aTP1EARooLFP_C15jM",
+    "title": "Skywell Software",
+    "website": "https://skywell.software/",
+    "metro": "kyiv",
+    "address": "Yevhena Konovaltsia St, 36д, Kyiv, Ukraine, 01133"
+  },
+  {
+    "place_id": "ChIJiwzl5DjM1EAR9FyU-BkYvW0",
+    "title": "Tov \"Koloris\"",
+    "website": "https://coloris.com.ua/",
+    "metro": "kyiv",
+    "address": "Polkovnyka Shutova St, 9А, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJwdJoLf7O1EARp9ke2bfFZHU",
+    "title": "PlayTech",
+    "website": "http://www.playtech.com/",
+    "metro": "kyiv",
+    "address": "Palace of Sports, 19, 20, 21, 22, 23 floors 02000, Sportyvna Square, 1, Kyiv, Ukraine"
+  },
+  {
+    "place_id": "ChIJ5byxvujI1EARu5l3w_xdZw8",
+    "title": "Newxel",
+    "website": "https://newxel.com/",
+    "metro": "kyiv",
+    "address": "Holosiivskyi prospekt, 132, Kyiv, Ukraine, 03127"
+  },
+  {
+    "place_id": "ChIJES1Lrb7nOkcRzuBZGDLCWYI",
+    "title": "Sigma Software",
+    "website": "https://career.sigma.software/lviv/",
+    "metro": "kyiv",
+    "address": "Бізнес-центр \"Оптіма Плаза, Naukova St, 7Д, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJA-LQju3M1EARYlsb6jfe9HQ",
+    "title": "IPLAND",
+    "website": "http://ipland.com.ua/",
+    "metro": "kyiv",
+    "address": "Hetmana Kyryla Rozumovskoho St, 27, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ285DYGfF1EAR7ZpMhKUtvZw",
+    "title": "Lizard Soft",
+    "website": "http://lizard-soft.com/",
+    "metro": "kyiv",
+    "address": "Prospekt Sobornosti, 15, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJwfgk9MWNFkARGHilSenJ0GQ",
+    "title": "WDI - Web Design & Development Company in Pakistan | Software Development | App Developmet",
+    "website": "https://webdevelopmentislamabad.pk/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJfdcHXsHdOkcRBX78gn3_kEM",
+    "title": "Creative SMM - курси інтернет-маркетингу у Львові",
+    "website": "https://creativesmm.com.ua/",
+    "metro": "kyiv",
+    "address": "Volodymyra Velykoho St, 18, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJc9noLlPdOkcR4ZN_OA9C-k4",
+    "title": "K2 - Reklama Dlya Internet-Mahazyniv",
+    "website": "https://k2-promo.company/",
+    "metro": "kyiv",
+    "address": "Vesniana St, 4, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJf51OVnnnOkcR8tq21PGvzis",
+    "title": "SMR",
+    "website": "https://smr.com.ua/",
+    "metro": "kyiv",
+    "address": "Sonyashnykova St, 28, кв.2, Lviv, Lviv Oblast, Ukraine, 79066"
+  },
+  {
+    "place_id": "ChIJRcLBcYXnOkcRzmYwQJQ4PGQ",
+    "title": "Sombra",
+    "website": "https://sombrainc.com/",
+    "metro": "kyiv",
+    "address": "ЖК Національний, 108, Стрийська, Stryiska St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJfVtOjx3j20ARNhnWG96ejrc",
+    "title": "Blaize Tech",
+    "website": "https://blaize.tech/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 20, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJb53wh_rnOkcRV5LLy0RfyJo",
+    "title": "Keenethics",
+    "website": "https://keenethics.com/",
+    "metro": "kyiv",
+    "address": "Kyryla i Mefodiya St, 20a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJWwu3dTjnOkcRhqwmG3vVz3c",
+    "title": "SoftServe Lviv 10",
+    "website": "http://softserveinc.com/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 321, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ36LH0sTi20ARy_9mC6Iss7s",
+    "title": "LANARS",
+    "website": "https://www.lanars.com/",
+    "metro": "kyiv",
+    "address": "Krutohirnyi Descent, 12б, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ_43Es8jI1EARHwHcqIp4iQg",
+    "title": "SvitSoft | Світсофт - Digital Transformation",
+    "website": "https://www.svitsoft.com/?utm_source=google&utm_medium=business&utm_campaign=perehod_na_site",
+    "metro": "kyiv",
+    "address": "Pyrohivskyi shliakh St, 167-А, 3 поверх, Kyiv, Ukraine, 03026"
+  },
+  {
+    "place_id": "ChIJeWG6nhXM1EARv-b89jv-M7U",
+    "title": "Miratech",
+    "website": "https://miratechgroup.com/",
+    "metro": "kyiv",
+    "address": "Vatslava Havela Blvd, 6з, Kyiv, Ukraine, 03124"
+  },
+  {
+    "place_id": "ChIJjbFFCW3P1EARfx5UOaJN4mA",
+    "title": "PNN Soft",
+    "website": "https://pnnsoft.com/",
+    "metro": "kyiv",
+    "address": "Kyiv, str, Harmatna St, 4, 03067, Kyiv, Ukraine, 03062"
+  },
+  {
+    "place_id": "ChIJL3pv1U_O1EARA5v2C7C99fY",
+    "title": "Big Digitals",
+    "website": "http://bigdig.com.ua/",
+    "metro": "kyiv",
+    "address": "Sumska St, 1, Kyiv, Ukraine, 03039"
+  },
+  {
+    "place_id": "ChIJI1_RITzoOkcRuQRdpXeHt0c",
+    "title": "Panem Agency - Просування сайтів Львів",
+    "website": "https://panem.ua/?utm_source=google&utm_medium=organic&utm_campaign=gmb-local",
+    "metro": "kyiv",
+    "address": "Uhorska St, 14, Lviv, Lviv Oblast, Ukraine, 79034"
+  },
+  {
+    "place_id": "ChIJDUFbMKPj20ARSvUXMczMTP0",
+    "title": "Маркетингове агентство Dash Digital Agency",
+    "website": "https://dash-agency.com.ua/",
+    "metro": "kyiv",
+    "address": "Oleksandra Polia Ave, 101, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJQcATImLO1EARY_rl3E1WLiM",
+    "title": "Futuline Studio",
+    "website": "https://futuline.kiev.ua/",
+    "metro": "kyiv",
+    "address": "Tarasa Shevchenko Blvd, 62, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJHdh_ezdbBEcRuJZG44yFJqU",
+    "title": "Netguru",
+    "website": "https://www.netguru.com/",
+    "metro": "kyiv",
+    "address": "Nowe Garbary Office Center, Małe Garbary 9, 61-756 Poznań, Poland"
+  },
+  {
+    "place_id": "ChIJGZ3vNNfi20ARnOgpJOncsm0",
+    "title": "RubyGarage - Ruby on Rails development company",
+    "website": "http://rubygarage.org/",
+    "metro": "kyiv",
+    "address": "4/26 Sholom Aleyhem str, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJD3GBZanj20ARSOjhRH9tpec",
+    "title": "Команда Експертів з Digital-Маркетингу - Osadchiy Team | Контекстна Реклама | Таргетована Реклама | Розробка Сайтів",
+    "website": "https://osadchiy.org/?utm_source=gbp",
+    "metro": "kyiv",
+    "address": "бульвар Європейський, 4, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJI0N1CbznOkcRVoBORcUxA6E",
+    "title": "Exoft",
+    "website": "http://exoft.net/",
+    "metro": "kyiv",
+    "address": "вулиця Тараса Шевченка, 111, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJnRKvdFvF1EARoEymZvoOuM4",
+    "title": "Замовити сайт. Розробка інтернет-магазинів під ключ. Веб Студія БАСТ",
+    "website": "https://webstudiobast.com/",
+    "metro": "kyiv",
+    "address": "Leonida Kadeniuka Ave, 4, Kyiv, Ukraine, 02105"
+  },
+  {
+    "place_id": "ChIJeTn0yVbdOkcRaJ5GgMp1wiw",
+    "title": "Vakoms, Lviv Office",
+    "website": "https://www.vakoms.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ73Dvjtni20ARbDMjN9bgSjI",
+    "title": "SUNAPI Business Software",
+    "website": "http://sunapi.eu/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 10, 215, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJz-8_h5rnOkcR-NqHMLh9vcA",
+    "title": "REDSTONE | Digital Agency - розробка та створення сайтів Львів",
+    "website": "https://redstone.agency/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ-1zMmkfdOkcRXyVZ7BeaciA",
+    "title": "Розробка сайтів Львів WebLux",
+    "website": "https://weblux.com.ua/",
+    "metro": "kyiv",
+    "address": "Zelena St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJBQJNMuvnOkcRPTXU3HsR9zQ",
+    "title": "PLVision",
+    "website": "http://plvision.eu/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJF5GuYOTN1EARk40M7XZyZn4",
+    "title": "Dinamicka Development",
+    "website": "http://dinamicka.com/",
+    "metro": "kyiv",
+    "address": "Dzhona Makkeina St, 7, Kyiv, Ukraine, 04080"
+  },
+  {
+    "place_id": "ChIJPTHJ6mrdOkcRJ3KbdVQrJKA",
+    "title": "Eurosoftware UA Ltd.",
+    "website": "http://www.eurosoftware.com.ua/",
+    "metro": "kyiv",
+    "address": "Lychakivska St, 33A, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJO7WlkB3dOkcRsEiswKyjT8Q",
+    "title": "Leosvit Marketing",
+    "website": "https://leosvit.com/",
+    "metro": "kyiv",
+    "address": "офіс 6, Dmytra Danylyshyna St, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJjV0p2-fi20ARfr5tqfEskjg",
+    "title": "WebPR",
+    "website": "https://webpr.ua/",
+    "metro": "kyiv",
+    "address": "бульвар Європейський, 4, офіс 508, 5 поверх, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJRby7aevnOkcR9NuP4JEuUR8",
+    "title": "Edvantis Ukraine",
+    "website": "http://www.edvantis.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 226а, Lviv, Lviv Oblast, Ukraine, 79071"
+  },
+  {
+    "place_id": "ChIJw7eT8kDP1EAR3oRCSFe9-1c",
+    "title": "Prohramika",
+    "website": "http://programika.app/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 60, Kyiv, Ukraine, 04050"
+  },
+  {
+    "place_id": "ChIJ-Za4dDzP1EAR6DAOqU4z8nc",
+    "title": "IZI.TRADE LLC",
+    "website": "https://izi.trade/",
+    "metro": "kyiv",
+    "address": "Zhylianska St, 101, Kyiv, Ukraine, 01135"
+  },
+  {
+    "place_id": "ChIJq4vH5K_dOkcR6ObbZDyZXfg",
+    "title": "Peeklogic - Salesforce Development and Consulting Company",
+    "website": "https://www.peeklogic.com/",
+    "metro": "kyiv",
+    "address": "Petra Pancha St, 7, кв. 85, Lviv, Lviv Oblast, Ukraine, 79490"
+  },
+  {
+    "place_id": "ChIJbXgkZOLnOkcRGTS5RZaLdqA",
+    "title": "EVNE Developers",
+    "website": "http://evnedev.com/",
+    "metro": "kyiv",
+    "address": "Yaroslavenka St, 21, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJvW-CH2LM1EARNM54UQUvvQI",
+    "title": "Melexis Ukraine",
+    "website": "http://melexis.com/",
+    "metro": "kyiv",
+    "address": "Kotel'nykova, Mykhaila Kotel'nykova St, 4, Kyiv, Ukraine"
+  },
+  {
+    "place_id": "ChIJw0GEs2PnOkcRgATFipspe14",
+    "title": "Inoxoft",
+    "website": "https://inoxoft.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 72, building 8, floor 3, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJyb2vWVH820ARKBYm_N5mDG8",
+    "title": "Ardas",
+    "website": "https://ardas-it.com/",
+    "metro": "kyiv",
+    "address": "20-richchya Peremohy St, 77, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ1Y4_90jdOkcRI6o5MNWRxgg",
+    "title": "Intelliarts Ltd.",
+    "website": "http://intelliarts.com/",
+    "metro": "kyiv",
+    "address": "Kotyka St, 7, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJAQCQ9vDO1EARE7-H8FxogVY",
+    "title": "Mobilunity",
+    "website": "https://mobilunity.com/",
+    "metro": "kyiv",
+    "address": "Dmytrivska St, 92-94, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJXbNWCB7M1EAR2OQ6LOnBz9M",
+    "title": "Luxury Site",
+    "website": "https://luxsite.agency/uk/",
+    "metro": "kyiv",
+    "address": "Vadyma Hetmana St, 4, Kyiv, Ukraine, 04116"
+  },
+  {
+    "place_id": "ChIJSTsRjmkKni4RqH999Aluizw",
+    "title": "Website Designer and Developer / SEO",
+    "website": "https://www.crezyno.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJj1UoceXO1EARkh5xKhx5p9I",
+    "title": "Customertimes Ukraine",
+    "website": "https://customertimes.com/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, 19-21, 10th Floor, 40 Suite, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJYxn8CwvP1EARPirwaYGzUzQ",
+    "title": "Intellectsoft UA",
+    "website": "https://www.intellectsoft.net/",
+    "metro": "kyiv",
+    "address": "Leiptsyzka St, 15, Kyiv, Ukraine, 01015"
+  },
+  {
+    "place_id": "ChIJJ8dzDWndOkcRwXo37CLYLiQ",
+    "title": "Teamvoy",
+    "website": "https://teamvoy.com/",
+    "metro": "kyiv",
+    "address": "Akademika Bohomol'tsya St, 6, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ86zl3AndOkcR7Rox21lxr4U",
+    "title": "SUFIX",
+    "website": "https://websufix.com/",
+    "metro": "kyiv",
+    "address": "Viacheslava Chornovola Ave, 59, 3 Poverkh, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJi7Jf9a3F1EARshALSRKN6Fs",
+    "title": "studio ArtWeb",
+    "website": "http://artweb.ua/",
+    "metro": "kyiv",
+    "address": "ул, Dniprovska Embankment, 26 Б, оф. 176, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJSRWIclTdOkcRdHO_8C_NQt8",
+    "title": "Starosta Agency",
+    "website": "https://starosta-agency.com/",
+    "metro": "kyiv",
+    "address": "Viacheslava Chornovola Ave, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJWXQq6qvP1EARiYLqNklvqJI",
+    "title": "Peiko",
+    "website": "https://peiko.space/",
+    "metro": "kyiv",
+    "address": "Lobanovskyi Ave, 56, Kyiv, Ukraine, 03037"
+  },
+  {
+    "place_id": "ChIJaxrZm4bO1EARRfqcWdusjB0",
+    "title": "Digicode",
+    "website": "https://mydigicode.com/",
+    "metro": "kyiv",
+    "address": "Simi Prakhovykh St, 58/10, Kyiv, Ukraine, 04116"
+  },
+  {
+    "place_id": "ChIJm-fcJ_Hi20AR8vbCZoWbzHE",
+    "title": "Livepage",
+    "website": "https://livepage.ua/",
+    "metro": "kyiv",
+    "address": "Kniazia Yaroslava Mudroho St, 27, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJz1XOin7nOkcRH8K3IYp1CMw",
+    "title": "Binariks",
+    "website": "https://binariks.com/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79026"
+  },
+  {
+    "place_id": "ChIJSxCOGIjO1EARDjNL-vIm3R0",
+    "title": "Artkai - an award-winning full-cycle product development company",
+    "website": "https://artk.ai/",
+    "metro": "kyiv",
+    "address": "Druzhby Narodiv boulevard, 14/16, Kyiv, Ukraine, 01042"
+  },
+  {
+    "place_id": "ChIJGYNFYjvP1EARncP8I53Vi2g",
+    "title": "IT-Transit",
+    "website": "http://www.it-transit.com/",
+    "metro": "kyiv",
+    "address": "Kazymyra Malevycha St, 86Е, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJX2rsRwPoOkcRZ5OSO223xkU",
+    "title": "Ab Systema",
+    "website": "https://ab.biz.ua/",
+    "metro": "kyiv",
+    "address": "Sichyns'koho St, 7А, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJlWRW5nstGUcR2blmDFg3muE",
+    "title": "TeaCode.io - AI & custom software development partner for scaling your business",
+    "website": "https://teacode.io/",
+    "metro": "kyiv",
+    "address": "Postępu 15/7 piętro, 02-676 Warszawa, Poland"
+  },
+  {
+    "place_id": "ChIJsWrdTe3N1EAROT9L3vZo3UA",
+    "title": "Noname Digital",
+    "website": "https://noname.digital/",
+    "metro": "kyiv",
+    "address": "вулиця Дорогожицька, 3. Київ, 02000, Kyiv, Ukraine, 03056"
+  },
+  {
+    "place_id": "ChIJL7sWwG7dOkcR33XIqh5q7uY",
+    "title": "Rebbix",
+    "website": "https://rebbix.com/",
+    "metro": "kyiv",
+    "address": "Kostia Levytskoho St, 84, Lviv, Lviv Oblast, Ukraine, 79017"
+  },
+  {
+    "place_id": "ChIJq6p6GLbF1EARoGIwrVHYSrA",
+    "title": "Abweb - Studio website development and Internet marketing",
+    "website": "http://abweb.com.ua/",
+    "metro": "kyiv",
+    "address": "Dniprovska Embankment, 26К, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJV8SyOgTQ1EAR4balDRTvMfE",
+    "title": "WebLife",
+    "website": "https://weblife.ua/",
+    "metro": "kyiv",
+    "address": "Raisy Okipnoi St, 10Б, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJB2BFAGrdOkcRbRi-0KGVSE4",
+    "title": "HAPPY Design studio",
+    "website": "http://happydesign.pro/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJm_DfSdfN1EAR7nYbHbl0WMc",
+    "title": "A4",
+    "website": "https://a4.com.ua/",
+    "metro": "kyiv",
+    "address": "Derevlianska St, 8, 3, Kyiv, Ukraine, 04119"
+  },
+  {
+    "place_id": "ChIJF4upWZvdOkcRGwdydUERnaU",
+    "title": "DevCom",
+    "website": "http://devcom.com/",
+    "metro": "kyiv",
+    "address": "Storozhenka St, 16, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJa_5KHX3dOkcR26luD-U4x4w",
+    "title": "Vector Software",
+    "website": "http://vector-software.com/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 19, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJe7oTDOpY2UARHps2mdHjys0",
+    "title": "Im",
+    "website": "https://web-master.dp.ua/",
+    "metro": "kyiv",
+    "address": "Berezynska St, 38, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49108"
+  },
+  {
+    "place_id": "ChIJ4SG6eTvP1EAR0mVsiy2CHJ8",
+    "title": "JANUARY UA",
+    "website": "http://www.january.ua/",
+    "metro": "kyiv",
+    "address": "Hryhoriia Kochura St, 18, Kyiv, Ukraine, 03110"
+  },
+  {
+    "place_id": "ChIJjxK9HJrnOkcRlQGnPfrU_lw",
+    "title": "Legion - Розробка та просування сайтів",
+    "website": "http://legion-marketing.com.ua/",
+    "metro": "kyiv",
+    "address": "Knyahyni Ol'hy St, 100Д, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJNVNb_j3M1EAR2tj6cI9sPoo",
+    "title": "SoftwareOne Ukraine T.O.V.",
+    "website": "https://www.softwareone.com/uk-ua",
+    "metro": "kyiv",
+    "address": "Horizon Park Business Center, 4B, Mykoly Hrinchenka St, Kyiv, Ukraine, 03038"
+  },
+  {
+    "place_id": "ChIJ3UylIe7P1EARyoLHU4QUmr0",
+    "title": "Empat",
+    "website": "https://empat.tech/",
+    "metro": "kyiv",
+    "address": "Yevhena Chykalenka St, 45/2, Kyiv, Ukraine, 01004"
+  },
+  {
+    "place_id": "ChIJcXDWS8HM1EAR0-OIp4LnMDM",
+    "title": "SoftElegance",
+    "website": "http://www.softelegance.com/",
+    "metro": "kyiv",
+    "address": "Akademika Palladina Ave, 44, Kyiv, Ukraine, 03142"
+  },
+  {
+    "place_id": "ChIJpbVKIX7P1EAR9kqLv714pXw",
+    "title": "Introduct Group",
+    "website": "http://www.introduct.tech/",
+    "metro": "kyiv",
+    "address": "Dmytrivska St, 44А, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJaVQHfpLN1EARERSG_Kl0Skc",
+    "title": "Systemy Dlya Biznesu Kyiv",
+    "website": "https://sys2biz.com.ua/",
+    "metro": "kyiv",
+    "address": "Yuriia Illienka St, 83Д, Ofis 116, Kyiv, Ukraine, 04119"
+  },
+  {
+    "place_id": "ChIJXUpg3GPnOkcR9M3Z2FyTF1Y",
+    "title": "NERDZ LAB",
+    "website": "https://nerdzlab.com/",
+    "metro": "kyiv",
+    "address": "Varshavska St, 201А, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJa7OtIqTnOkcRxpaNlJK04PM",
+    "title": "UTECH inc Lviv",
+    "website": "https://utechcorp.com/?utm_source=mybusiness&utm_medium=website&utm_campaign=ukraine",
+    "metro": "kyiv",
+    "address": "Okruzhna St, 53, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJGdj9J17dOkcR5kutqm30EMY",
+    "title": "Everymatrix",
+    "website": "https://everymatrix.com/offices/lviv/",
+    "metro": "kyiv",
+    "address": "Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJeRfDHj7M1EARajVTq22s1bA",
+    "title": "DICEUS – Custom Software Development Company",
+    "website": "https://diceus.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJaUzER4nnOkcRMe4_qFRQxBw",
+    "title": "ByteAnt",
+    "website": "http://www.byteant.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJiwOQ5tXeJEcRAxuDnn6AWzo",
+    "title": "Binary Studio",
+    "website": "https://binary-studio.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJIUIb7QfDOkcRsEPhO7zLbAQ",
+    "title": "\"AM-print\" Широкоформатний друк",
+    "website": "http://am-print.com.ua/",
+    "metro": "kyiv",
+    "address": "Бізнес-центр \"Вулик, Dzhordzha Vashynhtona St, 7, Lviv, Lviv Oblast, Ukraine, 79035"
+  },
+  {
+    "place_id": "ChIJ4d34GxrdOkcRiJ9SwDzukCU",
+    "title": "inVerita",
+    "website": "http://inveritasoft.com/",
+    "metro": "kyiv",
+    "address": "Ivana Franka St, 102, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJOXvIgXHdOkcRdZmcAI9bJvc",
+    "title": "Rolique, R&D office",
+    "website": "http://rolique.io/",
+    "metro": "kyiv",
+    "address": "Smal-Stotskoho St, 1, Lviv, Lviv Oblast, Ukraine, 79015"
+  },
+  {
+    "place_id": "ChIJozPolGrdOkcRMm7O68mKYwI",
+    "title": "DeepInspire",
+    "website": "https://www.deepinspire.com/",
+    "metro": "kyiv",
+    "address": "Lychakivska St, 33a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVxyq5K_dOkcRe7jQXICKqCI",
+    "title": "Reklamna Ahentsiya Team",
+    "website": "https://smmteam.com.ua/",
+    "metro": "kyiv",
+    "address": "Akademika Lazarenka St, 2а, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ0eN3SAndOkcRjU5U2yjx09k",
+    "title": "Temy",
+    "website": "http://temy.co/",
+    "metro": "kyiv",
+    "address": "Haidamats'ka St, 9а, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJh0C-ppzdOkcRtMwRZL1-bn4",
+    "title": "Qubstudio",
+    "website": "http://qubstudio.com/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 120 Г, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJtYvcOzvcQUcR7ZeaxqvBNWs",
+    "title": "UX studio",
+    "website": "http://uxstudioteam.com/",
+    "metro": "kyiv",
+    "address": "Budapest, UX studio, Salétrom u. 4, 1085 Hungary"
+  },
+  {
+    "place_id": "ChIJ7aAgQYrO1EARmT__oc5zg6A",
+    "title": "Fresh Design Agency",
+    "website": "https://freshdesign.ua/",
+    "metro": "kyiv",
+    "address": "Kozatska St, 122, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJoXzeJQrdOkcRCastSafPldo",
+    "title": "Respect.Studio",
+    "website": "http://respect.studio/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73B, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJJ2-J8iLdOkcRGJd99hejYiI",
+    "title": "Веб-студія IT-Kitchen",
+    "website": "https://it-kitchen.com.ua/",
+    "metro": "kyiv",
+    "address": "Dzherelna St, 38, Lviv, Lviv Oblast, Ukraine, 79007"
+  },
+  {
+    "place_id": "ChIJIfcecOcJMQkReUpWLN8bfAo",
+    "title": "The Nosh Digital",
+    "website": "https://thenoshdigital.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJJcLP97vnOkcRgubnxP0zJfU",
+    "title": "unicrew",
+    "website": "https://unicrew.com/",
+    "metro": "kyiv",
+    "address": "Shchyretska St, 36/5, Lviv, Lviv Oblast, Ukraine, 79071"
+  },
+  {
+    "place_id": "ChIJ-QdxzZTnOkcRTk760AQLw4I",
+    "title": "Linkup ST",
+    "website": "https://linkupst.com/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 22, Sokilnyky, Lviv, Lviv Oblast, Ukraine, 81130"
+  },
+  {
+    "place_id": "ChIJ4ZnLpwLdOkcROmxGB9CzvvM",
+    "title": "Kevych Solutions",
+    "website": "https://kevychsolutions.com/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJz1XOin7nOkcRynurrDv4c7g",
+    "title": "Просування сайтів Львів — COMPAS Agency",
+    "website": "https://compas.agency/",
+    "metro": "kyiv",
+    "address": "Mel'nyka St, 18, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJGwxudjLM1EARt0D9PqLhcGY",
+    "title": "Django Stars LLC - Software Development Company",
+    "website": "http://djangostars.com/#hello-gmb",
+    "metro": "kyiv",
+    "address": "Hlybochytska St, 32Б, Kyiv, Ukraine, 04050"
+  },
+  {
+    "place_id": "ChIJoSIsVwrnOkcRb1G28WTIO1o",
+    "title": "Perpetio, R&D office",
+    "website": "https://perpet.io/",
+    "metro": "kyiv",
+    "address": "Yaneva St, 8, Lviv, Lviv Oblast, Ukraine, 79026"
+  },
+  {
+    "place_id": "ChIJXf01MNzi20ARAeKJy_X_3GI",
+    "title": "Веб Элита",
+    "website": "https://web-elita.com/",
+    "metro": "kyiv",
+    "address": "Hoholya St, 15, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJtagey6va1EARQCz57yKoWaM",
+    "title": "Веб-студия \"Лаймнет\" - создание сайтов",
+    "website": "https://www.limenet.kiev.ua/",
+    "metro": "kyiv",
+    "address": "Hetmana Pavla Polubotka St, 52, оф 817, Kyiv, Ukraine, 02094"
+  },
+  {
+    "place_id": "ChIJteTFphTO1EAREO2eBmKhSlM",
+    "title": "Brights",
+    "website": "http://brights.io/",
+    "metro": "kyiv",
+    "address": "Simi Prakhovykh St, 50b, Kyiv, Ukraine, 01033"
+  },
+  {
+    "place_id": "ChIJ5a50QeTcOkcRhd_0EBx_DdI",
+    "title": "Information System Development (ISD)",
+    "website": "http://www.isd.dp.ua/",
+    "metro": "kyiv",
+    "address": "Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJAQDE32rBMEcRdpVkqCC434A",
+    "title": "Web Deluxe",
+    "website": "https://web-deluxe.com/?utm_source=gmaps",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJYbPEQEXO1EARbneO0bSJWSc",
+    "title": "NCube",
+    "website": "https://ncube.com/",
+    "metro": "kyiv",
+    "address": "Triokhsviatytelska St, 13, 13, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJrz70yVbdOkcRvSOEg7FCza4",
+    "title": "Indeema Software Inc. Ukrainian office",
+    "website": "https://www.indeema.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJmSFphoDdOkcR-YWK08FZaxA",
+    "title": "Blackthorn Vision",
+    "website": "http://blackthorn-vision.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 59, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJZV01YG9Y2UARQrzTIkk4UXY",
+    "title": "Anril",
+    "website": "https://anril.dp.ua/",
+    "metro": "kyiv",
+    "address": "Shchepkina St, 15А, офіс 1, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49053"
+  },
+  {
+    "place_id": "ChIJS1eKlQDO1EARrpF2hs7kFI8",
+    "title": "Smile Ukraine",
+    "website": "http://www.smile-ukraine.com/",
+    "metro": "kyiv",
+    "address": "Yevhena Chykalenka St, 45/2, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJGcVPlULdOkcRLMYmeo9QGyk",
+    "title": "✅SpaceY - Business & Marketing & Education & Web advertise & Finance Consulting Management",
+    "website": "https://space-y-llc.com/",
+    "metro": "kyiv",
+    "address": "Vodohinna St, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJbZC28wTdOkcRfdIgCt7ev08",
+    "title": "Submarine Creative Agency",
+    "website": "https://www.submarineagency.com.ua/",
+    "metro": "kyiv",
+    "address": "Shopena St, 10, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJgcre5JPL1EARX1b-h6O5BWw",
+    "title": "Impulse Design",
+    "website": "https://impulse-design.com.ua/",
+    "metro": "kyiv",
+    "address": "L'vivs'ka Square, 1-5, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJz0bR4tvF1EARudn_iq9jaOQ",
+    "title": "MEGASITE",
+    "website": "https://megasite.ua/",
+    "metro": "kyiv",
+    "address": "Borysa Hmyri St, 16, оф. 541, Kyiv, Ukraine, 02140"
+  },
+  {
+    "place_id": "ChIJby7ddPDO1EARZOZnjWzbGTg",
+    "title": "Website development",
+    "website": "https://simplystudio.net/",
+    "metro": "kyiv",
+    "address": "Simirenko St, 36, Kyiv, Ukraine, 01033"
+  },
+  {
+    "place_id": "ChIJN7lUcG3N1EARacw89XY2P-g",
+    "title": "PROCRM",
+    "website": "https://procrm.ua/",
+    "metro": "kyiv",
+    "address": "Lobanovskyi Ave, 150, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJizHG5Q_dOkcRdv9lcqGdiDQ",
+    "title": "Brainence",
+    "website": "https://brainence.com/",
+    "metro": "kyiv",
+    "address": "Lemkivska St, 9а, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJu6h6bgvoOkcRQSc546oHQ9g",
+    "title": "AG.marketing",
+    "website": "https://ag.marketing/?utm_source=gmbusiness",
+    "metro": "kyiv",
+    "address": "Chervonoyi Kalyny Ave, 35, Ofis 209, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJYaN_GnPdOkcRBgygCETC55U",
+    "title": "ELITEX",
+    "website": "http://elitex.systems/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJFSrvpffdOkcRax4UF5ec_Pw",
+    "title": "Intent Solutions Group",
+    "website": "https://www.intentsg.com/",
+    "metro": "kyiv",
+    "address": "Yevhena Petrushevycha Square, 3, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJD6nZ53rdOkcRkt8fEJuO58w",
+    "title": "LaSoft - Web & Mobile Software Development Agency",
+    "website": "https://lasoft.org/",
+    "metro": "kyiv",
+    "address": "Muchna St, 7, Lviv, Lviv Oblast, Ukraine, 79014"
+  },
+  {
+    "place_id": "ChIJYRzA8-DO1EARxlii_o3r2k4",
+    "title": "Altamira",
+    "website": "https://www.altamira.ai/",
+    "metro": "kyiv",
+    "address": "Instytutska St, 19b, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJYYirLa3EtSMRlyeBmQzsYiE",
+    "title": "Artilab",
+    "website": "https://artilab.pro/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJoxo35fHF1EARJJewKDZ9Zv4",
+    "title": "INGENUM / ІНЖЕНУМ - автоматизація торгівлі в BAS / 1C* ᐉ Модулі eComm+",
+    "website": "https://ingenum.ua/",
+    "metro": "kyiv",
+    "address": "Budindustrii St, 8, Kyiv, Ukraine, 01013"
+  },
+  {
+    "place_id": "ChIJ29Qd50zE1EARXvA6jU23PG8",
+    "title": "Создание и разработка сайтов Киев — artARTERY",
+    "website": "https://artartery.com.ua/",
+    "metro": "kyiv",
+    "address": "Розробка та створення сайтів у Києві 🍄 | аrtАRTЕRY, Mala Zhytomyrska St, 20, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJf2XEdpfdOkcRpDkopJD9Hc0",
+    "title": "BotsBand",
+    "website": "https://botsband.online/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 111А, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJI_Og-n7nOkcRQahUcZ18ODU",
+    "title": "ElifTech",
+    "website": "http://www.eliftech.com/",
+    "metro": "kyiv",
+    "address": "Zoriana St, 12, Lviv, Lviv Oblast, Ukraine, 79054"
+  },
+  {
+    "place_id": "ChIJ3Q_3CwvP1EARRs2ZVcSEPhY",
+    "title": "Codemotion",
+    "website": "https://codemotion.ninja/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJia3oOHHdOkcR_b3vC_YYjMk",
+    "title": "4STUDIO",
+    "website": "https://www.4studio.agency/",
+    "metro": "kyiv",
+    "address": "Zelena St, 149, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ_5fcdJ7j20ARDm0KwOOSCbA",
+    "title": "UaStar",
+    "website": "https://uastar.com/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 107а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJU_jfoIzP1EARox0-V94_hPw",
+    "title": "Priocom",
+    "website": "http://priocom.com/",
+    "metro": "kyiv",
+    "address": "Hetmana Pavla Skoropadskoho St, 9, Kyiv, Ukraine, 01024"
+  },
+  {
+    "place_id": "ChIJJcpyHtHi20ARxP1F6zMd9aE",
+    "title": "Mind Studios",
+    "website": "https://themindstudios.com/",
+    "metro": "kyiv",
+    "address": "Hoholya St, 26, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJlUIn6PHMHkcRw_rN6bje804",
+    "title": "LeanCode – Flutter Development Company",
+    "website": "https://leancode.co/",
+    "metro": "kyiv",
+    "address": "Wróbla 8A, 02-736 Warszawa, Poland"
+  },
+  {
+    "place_id": "ChIJr7HKbG_dOkcR6KxeiKiSi4c",
+    "title": "Euristiq",
+    "website": "https://euristiq.com/",
+    "metro": "kyiv",
+    "address": "Uhorska St, 14, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJSYPV6YDdOkcRneM2R9UoXbE",
+    "title": "Lemberg Solutions",
+    "website": "http://lembergsolutions.com/",
+    "metro": "kyiv",
+    "address": "Fedkovycha St, 60а, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJITE8meji20AREMxlgAZHq6Q",
+    "title": "Dinarys",
+    "website": "https://dinarys.com/",
+    "metro": "kyiv",
+    "address": "Mechnykova St, 9, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJc8CYdrn6bmER85B--t7tIPA",
+    "title": "CodexLink - #1 Digital Solutions for Your Business: Web development, SEO, Social Media Management",
+    "website": "https://codexlink.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJL_OCkjHP1EARtCGk6jqqHpQ",
+    "title": "Разработка чат-ботів агенція",
+    "website": "https://botlabs.agency/ua",
+    "metro": "kyiv",
+    "address": "Mykhaila Maksymovycha St, 26, Kyiv, Ukraine, 03118"
+  },
+  {
+    "place_id": "ChIJV71UFu7P1EARRWslzD4wFso",
+    "title": "En-design",
+    "website": "http://www.en-design.com.ua/",
+    "metro": "kyiv",
+    "address": "Vulytsya Yevhena Sverstyuka, 11Ж, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ8RwA2v_O1EAR_zkn5F0YDa0",
+    "title": "DevRain",
+    "website": "https://devrain.com/",
+    "metro": "kyiv",
+    "address": "Velyka Vasylkivska St, 72, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJPYPq42_oOkcRFJRcurAoNJ4",
+    "title": "WebTune: Розробка та просування сайтів | SMM | SEO | Контекстна реклама | Маркетинговий консалтинг",
+    "website": "https://www.webtune.com.ua/",
+    "metro": "kyiv",
+    "address": "Akademika Lazarenka St, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJMWpzRe7nOkcRPZQhP-zRoBk",
+    "title": "Знаєш Agency",
+    "website": "https://znaesh.agency/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73Ж, Lviv, Lviv Oblast, Ukraine, 79053"
+  },
+  {
+    "place_id": "ChIJU2QnwWfP1EAR1Wldl4WXRm0",
+    "title": "Tallium Inc.",
+    "website": "https://tallium.com/",
+    "metro": "kyiv",
+    "address": "72 Velyka Vasylkivska str., Ent. 3, 5th floor, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJz97lfZrdOkcRJUb0lcyzYZ8",
+    "title": "Relevant Software - Software Development Company",
+    "website": "https://relevant.software/?utm_source=GBP&utm_medium=organic",
+    "metro": "kyiv",
+    "address": "22A, Zolota St, Lviv, Lviv Oblast, Ukraine, 79011"
+  },
+  {
+    "place_id": "ChIJ4Qb8yd_i20ARYuLng3lPXCM",
+    "title": "Агенція ROI-based інтернет-маркетингу #ADINDEX",
+    "website": "https://adindex.ua/",
+    "metro": "kyiv",
+    "address": "Kniazia Yaroslava Mudroho St, 27, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ1_Xsb0rP1EARyfRTjsdeKj0",
+    "title": "Span | Спан",
+    "website": "https://www.span.eu/ua",
+    "metro": "kyiv",
+    "address": "Naberezhno-Khreshachatyts'ka St, 9, Kyiv, Ukraine, 04070"
+  },
+  {
+    "place_id": "ChIJWxt4AlHO1EARJki4TU3leVI",
+    "title": "SAP Ukraine",
+    "website": "https://www.sap.com/ukraine?url_id=Google_Maps",
+    "metro": "kyiv",
+    "address": "Dilova St, 5, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJQ3Gg-H7nOkcRbjyiu-x2MLo",
+    "title": "Bambuk Studio",
+    "website": "http://bambukstudio.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 59, Lviv, Lviv Oblast, Ukraine, 79029"
+  },
+  {
+    "place_id": "ChIJKa8YGgUHMkcRkt7O3moW-qk",
+    "title": "SEM-manager",
+    "website": "http://sem-manager.net/",
+    "metro": "kyiv",
+    "address": "Varshavska St, 136, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJi-XoUr_p1EARreKxs_cZqI4",
+    "title": "DTEAM - Web & Mobile Development",
+    "website": "http://dteam.dev/",
+    "metro": "kyiv",
+    "address": "Myru St, 1a, Boryspil', Kyiv Oblast, Ukraine, 08300"
+  },
+  {
+    "place_id": "ChIJHZ45pUrP1EARUCFs2te-uUw",
+    "title": "UISLab - Українські інтелектуальні системи",
+    "website": "https://uislab.com/",
+    "metro": "kyiv",
+    "address": "Holosiivska St, 17, Kyiv, Ukraine, 03039"
+  },
+  {
+    "place_id": "ChIJ8z6vdcn93a0RrrvyJHd3BTg",
+    "title": "DigitalWeb",
+    "website": "https://digitalweb.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJmXuUZpHP1EARtZlFQqEoOfo",
+    "title": "Конструктор сайтів LP-Mobi",
+    "website": "http://lp-mobi.biz/",
+    "metro": "kyiv",
+    "address": "Andriia Verkhohliada St, 12, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJES1Lrb7nOkcRWwCM1LPB8bY",
+    "title": "solid brain",
+    "website": "http://solidbrain.net/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 59, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJAQCwMcTnOkcRdlxnQHMmxAM",
+    "title": "iMAGO: Агентство інтернет-маркетингу | Розробка та просування сайтів | SMM | SEO | Контекстна та таргетована реклама",
+    "website": "https://imago.com.ua/",
+    "metro": "kyiv",
+    "address": "Tyutyunnykiv St, 55, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJAV5ot0TM1EAR_tWZ3Q9_lgw",
+    "title": "TrustSourcing",
+    "website": "http://trustsourcing.com/",
+    "metro": "kyiv",
+    "address": "Beresteiskyi Ave, 65, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJQRxuEJbJxUARRhIuZMkyjz4",
+    "title": "WeStudy - платформа для курсів",
+    "website": "https://westudy.ua/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79026"
+  },
+  {
+    "place_id": "ChIJjdDNmslg3EARUaBec7Y_jDs",
+    "title": "Light IT Global | Software development сompany",
+    "website": "https://light-it.net/",
+    "metro": "kyiv",
+    "address": "Pavla Li Ln, 2B, Kyiv, Ukraine, 03195"
+  },
+  {
+    "place_id": "ChIJVVUFiBXO1EARpXsUf4jxxKA",
+    "title": "ITernal Group",
+    "website": "https://iternal.group/",
+    "metro": "kyiv",
+    "address": "Street, Saperne Pole St, 14/55, 2 floor, Kyiv, Ukraine, 01042"
+  },
+  {
+    "place_id": "ChIJVTuEv27dOkcRvAhCMLR7ocY",
+    "title": "The Gradient",
+    "website": "http://thegradient.com/",
+    "metro": "kyiv",
+    "address": "Dmytra Vitovskoho St, 57, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJR3hfFRbS1EARik1a0MCGNKo",
+    "title": "Intetics Kyiv Software Development Center",
+    "website": "https://intetics.com/",
+    "metro": "kyiv",
+    "address": "Polova St, 24, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJVWcGDWPO1EARdwmO2iV_Tys",
+    "title": "SHALB DevOps services",
+    "website": "https://www.shalb.com/",
+    "metro": "kyiv",
+    "address": "Pavlivska St, 17, 12Y Poverkh, Kyiv, Ukraine, 01054"
+  },
+  {
+    "place_id": "ChIJjx9jF7WIAK0R-xtPGZ8G8g4",
+    "title": "Digital Gravity - Web Development | Web Designing | SEO Services",
+    "website": "https://thedigitalgravity.com/web-development-islamabad",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJJ0wWBOFU3gERn8W-h-9iVGw",
+    "title": "SiteWithSoul веб студія",
+    "website": "https://site-with-soul.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJAXj1X-PP1EARfrllqkXxUzw",
+    "title": "Ubtech Software Development",
+    "website": "https://ub-tech.com.ua/",
+    "metro": "kyiv",
+    "address": "Bolsunovska St, 13, Kyiv, Ukraine, 01104"
+  },
+  {
+    "place_id": "ChIJf3WnmVzdOkcRIj21YBcwUqI",
+    "title": "Smart Rockstars",
+    "website": "http://www.smartrockstars.com/",
+    "metro": "kyiv",
+    "address": "Zelena St, 44б, Lviv, Lviv Oblast, Ukraine, 79017"
+  },
+  {
+    "place_id": "ChIJW1DtEd3nOkcRroDdANt6LyA",
+    "title": "Movadex",
+    "website": "https://www.movadex.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJG-YYOGfnOkcRsKm05LgDnE4",
+    "title": "Рекламне агентство GRAIN",
+    "website": "https://grain.lviv.ua/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 174, офіс 6, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJgXt79c_I1EARZyMAqVxeNX8",
+    "title": "Finik.Pro",
+    "website": "https://finik.pro/",
+    "metro": "kyiv",
+    "address": "Vasylkivska St, Kyiv, Ukraine, 03022"
+  },
+  {
+    "place_id": "ChIJl0QZZWrdOkcRwNH-MZOd518",
+    "title": "DikArt Creative Marketing Company",
+    "website": "http://dikart.com.ua/",
+    "metro": "kyiv",
+    "address": "Beryndy St, 3, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJKYAjEpvdOkcRTNLXKsY-HPU",
+    "title": "Goldweb Solutions. Web development company",
+    "website": "https://goldwebsolutions.com/",
+    "metro": "kyiv",
+    "address": "Oleny Stepanivny St, 45, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJr_KxqfrO1EARVxnshw53_HI",
+    "title": "Розробка сайтів. Веб студія - INCREATE",
+    "website": "https://increate.ua/",
+    "metro": "kyiv",
+    "address": "Akademika Hlushkova Ave, 1П5, Kyiv, Ukraine, 03127"
+  },
+  {
+    "place_id": "ChIJK2CoImzdOkcRnT1VFvnE30E",
+    "title": "Proffiz",
+    "website": "https://proffiz.com/",
+    "metro": "kyiv",
+    "address": "Uhorska St, 14, Korpus 3, Lviv, Lviv Oblast, Ukraine, 79034"
+  },
+  {
+    "place_id": "ChIJYVrZfMPi20ARFVn1TrThL7M",
+    "title": "Freedes Studio",
+    "website": "https://freedesstudio.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJe1fN4_zO1EARckRv463UieQ",
+    "title": "Revenue Grid",
+    "website": "https://revenuegrid.com/",
+    "metro": "kyiv",
+    "address": "Antonovycha St, 33в, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJpdjskpnM1EARvIe_RgQBnCA",
+    "title": "UIT - Українські інтелектуальні технології",
+    "website": "https://uit.kiev.ua/",
+    "metro": "kyiv",
+    "address": "Beresteiskyi Ave, 63Б, Kyiv, Ukraine, 03113"
+  },
+  {
+    "place_id": "ChIJgRRoMnvO1EARELNZq9gSMgc",
+    "title": "Xpand Ukraine",
+    "website": "http://www.xpandsoftware.com/",
+    "metro": "kyiv",
+    "address": "V45, Vozdvyzhens'ka St, 45, Business Center, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJxXmybXOGKUURKt2hi4h4mNM",
+    "title": "seoXpert - SEO просування, контекстна реклама",
+    "website": "https://seoxpert.net/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJzaxwV1z720ARQ47xp5Iid38",
+    "title": "iTOP.Media",
+    "website": "https://itop.media/",
+    "metro": "kyiv",
+    "address": "Panikakhy St, 2, корпус 01, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJdwL2aR7J1EARO6xEfQiMdv0",
+    "title": "Laravel development studio «AltSolution»",
+    "website": "https://altsolution.net/",
+    "metro": "kyiv",
+    "address": "Starokyivska St, 10Г, оф 312, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJCz61_Vz720ARCr9UMjj8Gbc",
+    "title": "SysGears",
+    "website": "http://sysgears.com/",
+    "metro": "kyiv",
+    "address": "Hoholya St, 15, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJmaZHNeni20ARiLmMv2JqefU",
+    "title": "Web Art studio",
+    "website": "https://web-art.dp.ua/",
+    "metro": "kyiv",
+    "address": "Kniazia Volodymyra Velykoho St, 10 Б, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ8U0jTCTM1EARAaSNVbsTCIc",
+    "title": "SysIQ Support and Development Center",
+    "website": "http://sysiq.com/careers",
+    "metro": "kyiv",
+    "address": "Mykhaila Braichevskoho St, 24, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ__9Dhy_M1EAR9pP6YZlKziU",
+    "title": "BestSite",
+    "website": "https://bestsite.kiev.ua/",
+    "metro": "kyiv",
+    "address": "Vadyma Hetmana St, 1, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ18ctJCPL1EARrqL_4hcJusI",
+    "title": "ТОВ «Лінко Україна»",
+    "website": "https://linqo.com.ua/",
+    "metro": "kyiv",
+    "address": "Lesya Kurbasa Ave, 2Г, Kyiv, Ukraine, 03148"
+  },
+  {
+    "place_id": "ChIJdwvRtuLP1EARDQqqfS3mxWA",
+    "title": "Ocean Agency - розробка IT продуктів (сайтів, CRM, мобільних додатків)",
+    "website": "https://ocean-agency.com.ua/",
+    "metro": "kyiv",
+    "address": "Saperne Pole St, 12, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJQ_QIZCXM1EAReofLGA9YNRI",
+    "title": "Matrix Software",
+    "website": "http://www.matrix-soft.org/",
+    "metro": "kyiv",
+    "address": "1B, St. Getmena, Kyiv, Ukraine, 04050"
+  },
+  {
+    "place_id": "ChIJTfBoA2LO1EARbQcpHWSa9SM",
+    "title": "IBA Group",
+    "website": "https://ua.ibagroupit.com/",
+    "metro": "kyiv",
+    "address": "Oleksandra Konyskoho St, 45, 49, 53, Kyiv, Ukraine, 01054"
+  },
+  {
+    "place_id": "ChIJ135jFtzi20ARVvfBsH5joVM",
+    "title": "Luxoft",
+    "website": "https://www.luxoft.com/",
+    "metro": "kyiv",
+    "address": "Kelnskyi Blvd, 2, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49044"
+  },
+  {
+    "place_id": "ChIJDcBNROvK50ARqCdP_hpDK_M",
+    "title": "WEBCASE Studio LLC",
+    "website": "https://webcase.ua/",
+    "metro": "kyiv",
+    "address": "Starokozatska St, 58, оф.428, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJcSFCzFHO1EARTQJOST5cAXE",
+    "title": "WeSoftYou Ukraine",
+    "website": "https://wesoftyou.com/",
+    "metro": "kyiv",
+    "address": "Yevhena Konovaltsia St, 44a, Kyiv, Ukraine, 01033"
+  },
+  {
+    "place_id": "ChIJa-gHWq7P1EARxywrxBz2rQ0",
+    "title": "Geniusee",
+    "website": "http://geniusee.com/",
+    "metro": "kyiv",
+    "address": "Yaroslavs'kyi Ln, 4, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJoft4WAvP1EARHrPRM6Lgxwo",
+    "title": "Edsson Ukraine LLC",
+    "website": "https://www.edsson.com/",
+    "metro": "kyiv",
+    "address": "Redutna St, 32, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJZ2b5XwrdOkcRhk2vX8i03Xc",
+    "title": "Jappware",
+    "website": "https://www.jappware.com/",
+    "metro": "kyiv",
+    "address": "Zarytskykh St, 5, Lviv, Lviv Oblast, Ukraine, 79011"
+  },
+  {
+    "place_id": "ChIJUxHlWxndOkcRDTbMoJWL3BA",
+    "title": "Incora",
+    "website": "https://incora.software/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJpZsm1r7nOkcR_iUCDS41zdI",
+    "title": "Romexsoft",
+    "website": "https://romexsoft.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 200а, Lviv, Lviv Oblast, Ukraine, 79071"
+  },
+  {
+    "place_id": "ChIJWULkU2ndOkcRXnhD0IReUlE",
+    "title": "Cieden LLC",
+    "website": "http://cieden.com/",
+    "metro": "kyiv",
+    "address": "3a, Stets'ka, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJGbGHhkHdOkcRBX8wnj-kKeQ",
+    "title": "Stroom Digital",
+    "website": "https://stroom.digital/",
+    "metro": "kyiv",
+    "address": "Rynok Square, 3, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJj3yiXP7j20ARFyWOnXNI3Kw",
+    "title": "Black Lab - Створення сайтів під ключ і рекламні рішення для вашого бізнесу 📈",
+    "website": "https://blacklab.com.ua/",
+    "metro": "kyiv",
+    "address": "Vulytsya Korolevy Yelyzavety Ii, 2, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJozrlt8fN1EARTdFoLuoJDKA",
+    "title": "Fulcrum Rocks",
+    "website": "https://fulcrum.rocks/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJb0yFurnN1EARPLbTMjCp88w",
+    "title": "Chudovo OÜ",
+    "website": "https://chudovo.com/",
+    "metro": "kyiv",
+    "address": "Sholudenka St, 3, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ2VBaOJHO1EARUGgeeBCkVsg",
+    "title": "Luxeo (Люксео) - SEO просування сайту та розкрутка сайту",
+    "website": "https://luxeo.team/",
+    "metro": "kyiv",
+    "address": "Beresteiskyi Ave, 30, Kyiv, Ukraine, 04116"
+  },
+  {
+    "place_id": "ChIJRVfmb3_dOkcRkxdcjPHbf5s",
+    "title": "Honeycomb Software",
+    "website": "https://honeycombsoft.com/",
+    "metro": "kyiv",
+    "address": "Futura Hub, Kulparkivska St, 200a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJaZIkRw_dOkcRA7D_WarbdIU",
+    "title": "dops.digital",
+    "website": "http://dops.digital/",
+    "metro": "kyiv",
+    "address": "Sofii Yablonskoi St, 31, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJyRheeG7dOkcRLdZ224yMz60",
+    "title": "Dolphin Team - marketing in social networks",
+    "website": "http://dolphins.agency/",
+    "metro": "kyiv",
+    "address": "Knyahyni Ol'hy St, 8, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJzehsHOTi20ARkTpldWa_jXo",
+    "title": "Cleveroad",
+    "website": "https://www.cleveroad.com/",
+    "metro": "kyiv",
+    "address": "Pylypa Orlyka Ave, 18, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJJd-Ks1rj20ARciZGfHnfL10",
+    "title": "Solarweb - маркетингова агенція, яка збільшує продажі",
+    "website": "https://solarweb.agency/",
+    "metro": "kyiv",
+    "address": "Serhiia Podolynskoho St, 31Г, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJl2qJVffwXKIRxOkrN6Lz5XI",
+    "title": "Viral Boost Digital Marketing in Pakistan",
+    "website": "https://dogtrainingxyz.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJu58TgfUnQKARWXuvFlVKo0A",
+    "title": "Growth Digital Marketing|Digital Marketing",
+    "website": "https://www.facebook.com/profile.php?id=61568942542141",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJqcQKsu3P1EARXZ6LRspKt34",
+    "title": "UDS Systems",
+    "website": "https://uds.systems/",
+    "metro": "kyiv",
+    "address": "Lobanovskyi Ave, 150 Б, Kyiv, Ukraine, 03118"
+  },
+  {
+    "place_id": "ChIJjVzLCxHO1EARWM_y9W7Iaug",
+    "title": "CHYZH agency - разробка мобільних додатків",
+    "website": "https://chyzh.agency/ua",
+    "metro": "kyiv",
+    "address": "Patorzhyns'koho St, 4, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJn8Eo7q7dOkcRUL7rniod_fI",
+    "title": "HebronSoft",
+    "website": "https://hebronsoft.com/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 10, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJk9YEmVzdOkcRA9ZL8rpiSks",
+    "title": "Codejig",
+    "website": "https://www.codejig.com/",
+    "metro": "kyiv",
+    "address": "Hrabovskoho St, 11, офіс 117, Lviv, Lviv Oblast, Ukraine, 79017"
+  },
+  {
+    "place_id": "ChIJm0oTyJLdOkcRN4Ah3UsGgl0",
+    "title": "Esfirum | Веб-студія | Розробка та Створення Сайтів | SEO, SMM, Контекстна реклама",
+    "website": "https://esfirum.com/",
+    "metro": "kyiv",
+    "address": "Tyutyunnykiv St, 10, Lviv, Lviv Oblast, Ukraine, 79011"
+  },
+  {
+    "place_id": "ChIJAQCwMcTnOkcRpIo0e29w62A",
+    "title": "Створення сайтів - PBB design",
+    "website": "https://pbb.design/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 202, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJlZcyLdfi20ARmZ_jxJDL-HQ",
+    "title": "Kultprosvet",
+    "website": "http://kultprosvet.net/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 5, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJf114Q6fk20AR9LbFcKjd3eA",
+    "title": "Agilie",
+    "website": "https://agilie.com/",
+    "metro": "kyiv",
+    "address": "Volodymyra Monomakha, 17А, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJm8SyZH7P1EARh3UVd6HAvrQ",
+    "title": "PYGIO",
+    "website": "https://www.pygio.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJk0t3fFfO1EARgq7WjAN5zeA",
+    "title": "GALSD Web Development",
+    "website": "https://galsd.com/",
+    "metro": "kyiv",
+    "address": "Volodymyrska St, 49а, Kyiv, Ukraine, 01034"
+  },
+  {
+    "place_id": "ChIJP3uYLLus44ER91N5EuQe5Ok",
+    "title": "LOZA STUDIO",
+    "website": "https://loza.studio/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJhVGCw6jhOkcRWhWG_hMWbG4",
+    "title": "Bits Orchestra",
+    "website": "https://bitsorchestra.com/",
+    "metro": "kyiv",
+    "address": "Vulytsya Andreya Sheptytsʹkoho, 3, Zymna Voda, Lviv Oblast, Ukraine, 81110"
+  },
+  {
+    "place_id": "ChIJI96TG5znOkcR2U1bdQo33ME",
+    "title": "Рекламна агенція Smart Ads Studio",
+    "website": "https://smartads.net.ua/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 225, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJc67Mc7fP1EARo5sCZMlH1Xs",
+    "title": "Idea Digital Agency | Просування сайтів у Києві",
+    "website": "https://ideadigital.agency/",
+    "metro": "kyiv",
+    "address": "Velyka Vasylkivska St, 141, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJ__8z-7Tn20ARfRsrTAt57bU",
+    "title": "\"well done\" маркетингова агенція / marketing agency",
+    "website": "https://well-done.com.ua/",
+    "metro": "kyiv",
+    "address": "Mechnykova St, 18, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ_1WlE8HP1EARvdQry6nymwc",
+    "title": "Pharos Production Inc.",
+    "website": "https://pharosproduction.com/",
+    "metro": "kyiv",
+    "address": "44-B Eugene Konovalets Str, Suite 201, Kyiv, Ukraine, 01133"
+  },
+  {
+    "place_id": "ChIJi0lt97LP1EARXQPNMFXR8IY",
+    "title": "GoFriends",
+    "website": "https://gofriends.com.ua/",
+    "metro": "kyiv",
+    "address": "Львовская 22, Panasa Mirnogo, 28A, Kyiv, Ukraine, 01011"
+  },
+  {
+    "place_id": "ChIJgyLCbOLdOkcROeWKGXLbHLY",
+    "title": "Reenbit",
+    "website": "https://reenbit.com/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79004"
+  },
+  {
+    "place_id": "ChIJ-d0epqjdOkcRLfJHDrw2E5s",
+    "title": "42Flows.Tech",
+    "website": "http://42flows.tech/",
+    "metro": "kyiv",
+    "address": "Kobylianskoi St, 2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJrc8fkezdOkcRkljk5Zx7T7w",
+    "title": "Веб студія Львів - Створення та просування сайтів ⭐️ Розробка інтернет магазину 🍄 Rubik",
+    "website": "https://rubik.com.ua/lv/",
+    "metro": "kyiv",
+    "address": "Shevchenka Ave, 7, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJrZQWGJrdOkcRNawKiwe3tDY",
+    "title": "Webugol",
+    "website": "https://webugol.com/",
+    "metro": "kyiv",
+    "address": "Viacheslava Chornovola Ave, 45а, корпус №5, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJr3M2XAndOkcRxYlqs06r_ME",
+    "title": "directa design bureau",
+    "website": "http://directa.cc/",
+    "metro": "kyiv",
+    "address": "Ivana Rutkovycha St, Lviv, Lviv Oblast, Ukraine, 79005"
+  },
+  {
+    "place_id": "ChIJsYO23lbnOkcRRbvOWPvkwWg",
+    "title": "websoft створення сайтів у Львові",
+    "website": "https://www.websoft.biz.ua/",
+    "metro": "kyiv",
+    "address": "Ivana Vyhovskoho St, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ9diVw9zdOkcRjnq1zbkT9q4",
+    "title": "Internet Marketynh, Stvorennya Ta Prosuvannya Saytiv, Prosuvannya Sotsmerezh",
+    "website": "https://korobova.site/",
+    "metro": "kyiv",
+    "address": "Zhovkivska St, 30-В, Ofis 5, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJHVN2zNHj20ARk46PKBxEK_o",
+    "title": "Sigma Software, Dnipro Office",
+    "website": "https://career.sigma.software/",
+    "metro": "kyiv",
+    "address": "Sicheslavska Naberezhna St, 53, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJxQofZslezaoR4EVxjBPLjWE",
+    "title": "Digital Marketing and Web Development Services",
+    "website": "https://futureweblink.dcms.site/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJT-68ZHzJ1EARuQ4jHejCHB0",
+    "title": "CRMOZ",
+    "website": "https://en.crmoz.com/",
+    "metro": "kyiv",
+    "address": "Holosiivskyi prospekt, 132, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJjfgMyGPF1EARCyqQrZIRS9k",
+    "title": "Romanuke Web Studio",
+    "website": "http://romanuke.com/en/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJVVUF7Kza1EARrHrRUw3FvnI",
+    "title": "Ubrainians",
+    "website": "https://ubrainians.com/",
+    "metro": "kyiv",
+    "address": "Winston Churchill St, 42, Kyiv, Ukraine, 02094"
+  },
+  {
+    "place_id": "ChIJGf3nIGnF1EAR7CJMzDRpfXA",
+    "title": "appvales",
+    "website": "http://appvales.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJWf0ZlfXP1EARTlwmn6uAoa4",
+    "title": "Coderfy - custom software development",
+    "website": "https://coderfy.com/",
+    "metro": "kyiv",
+    "address": "Sichovykh Striltsiv St, 25, Kyiv, Ukraine, 04053"
+  },
+  {
+    "place_id": "ChIJV5kHmWPM1EARu7K1C7-hFpM",
+    "title": "INFOUNION - создание сайтов, SEO продвижение и раскрутка сайтов, контекстная реклама, SMM",
+    "website": "https://infounion.com.ua/",
+    "metro": "kyiv",
+    "address": "Dehtiarivska St, 53А, оф. 416, Kyiv, Ukraine, 03113"
+  },
+  {
+    "place_id": "ChIJsVFwab_nOkcRrwRtXHab5R4",
+    "title": "Embrox Solutions",
+    "website": "https://embrox.com/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 1, Lviv, L'vivs'ka oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ1dQEl8DnOkcRhtI7-CUg9KA",
+    "title": "Lionwood software",
+    "website": "https://lionwood.software/",
+    "metro": "kyiv",
+    "address": "БЦ Quoroom Metropol, Shchyretska St, 36, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJHRqcQ6vdOkcR7G_RxoZp2zM",
+    "title": "UKEESS Software House",
+    "website": "https://ukeess.com/",
+    "metro": "kyiv",
+    "address": "Mirtova St, 12, Lviv, Lviv Oblast, Ukraine, 79051"
+  },
+  {
+    "place_id": "ChIJOSrN70DdOkcRrw--eaCgmwk",
+    "title": "Larixoft",
+    "website": "http://larixoft.com/",
+    "metro": "kyiv",
+    "address": "Viacheslava Chornovola Ave, 63, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJtRNGSNLdOkcRdcqWkTIfQ8w",
+    "title": "Promactive",
+    "website": "https://promactiveinc.com/",
+    "metro": "kyiv",
+    "address": "Chornovola ave, 77, Lviv, Lviv Oblast, Ukraine, 79020"
+  },
+  {
+    "place_id": "ChIJ6Teu0NLdOkcRZG6TzQaiWL8",
+    "title": "GreatPix Studio",
+    "website": "http://greatpix.studio/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJHf5vGXrnOkcR4IfXSnRPcMw",
+    "title": "Маркетингова компанія Krylov Company",
+    "website": "https://www.krylovcompany.com.ua/",
+    "metro": "kyiv",
+    "address": "Knyahyni Ol'hy St, 114, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJHePbhzkYIoYRVaWFqRssh8Q",
+    "title": "Clockwise Software",
+    "website": "https://clockwise.software/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJxzBdOJjj20ARglquiHucjOU",
+    "title": "JWD СОЗДАНИЕ САЙТОВ. НАСТРОЙКА РЕКЛАМЫ.",
+    "website": "http://jwd.dp.ua/",
+    "metro": "kyiv",
+    "address": "г, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJJ9ny-DbN1EARA2pMOSJlbJw",
+    "title": "Devox Software - Software Development Outsourcing Company",
+    "website": "https://devoxsoftware.com/",
+    "metro": "kyiv",
+    "address": "35 Kulzhenko str, Kyiv, Ukraine, 02055"
+  },
+  {
+    "place_id": "ChIJB_PFzuLO1EARjZ8rQiz37hw",
+    "title": "Brainberry",
+    "website": "https://brainberry.ua/",
+    "metro": "kyiv",
+    "address": "Bolsunovska St, 8, Kyiv, Ukraine, 01014"
+  },
+  {
+    "place_id": "ChIJ_0jdO4PLxUARh7LW961iHIQ",
+    "title": "Zanzarra",
+    "website": "https://zanzarra.com/",
+    "metro": "kyiv",
+    "address": "Rudaki St, 21а, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJKX8zVozpOkcR1seBkcXZXPU",
+    "title": "Intex Agency",
+    "website": "https://intexagency.com/",
+    "metro": "kyiv",
+    "address": "Mykoly Pymonenka St, 32, Lviv, Lviv Oblast, Ukraine, 79014"
+  },
+  {
+    "place_id": "ChIJyUSgZvXnOkcR2ZnPe5kvrs8",
+    "title": "Krasnyk Studio",
+    "website": "https://krasnykstudio.com.ua/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7д, Lviv, Lviv Oblast, Ukraine, 79060"
+  },
+  {
+    "place_id": "ChIJ4T2cGWbdOkcRSE2-7coGrhI",
+    "title": "Deviark OU",
+    "website": "http://www.deviark.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJOQrZw_EOHGsRbyfNcc2_Huc",
+    "title": "Digital agency BeVisible",
+    "website": "https://bevisible.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJJf8sqrnj20ARuBRzbm8pce8",
+    "title": "CherryX-Digital",
+    "website": "https://cherryx-digital.com/",
+    "metro": "kyiv",
+    "address": "Sholom-Aleikhema St, 4/26, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJZVp1p7_O1EARLfPYE9dBd24",
+    "title": "Веб-студия Reaktiv",
+    "website": "https://reaktiv.kiev.ua/",
+    "metro": "kyiv",
+    "address": "Vasylia Lypkivskoho St, 45, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJb17Ds4bdOkcRj5spfwZ_OjY",
+    "title": "Web development company «Asign»",
+    "website": "http://www.asign.in.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJb6FLBW_dOkcRS_lyg0StXIg",
+    "title": "WebCodium",
+    "website": "https://webcodium.com/",
+    "metro": "kyiv",
+    "address": "Dzherelna St, 5, Lviv, Lviv Oblast, Ukraine, 79032"
+  },
+  {
+    "place_id": "ChIJrxMADfnj20ARioFWlTHE0Tg",
+    "title": "Cоздание интернет-магазина на OKAY CMS",
+    "website": "https://okay-cms.com/",
+    "metro": "kyiv",
+    "address": "Kniazia Yaroslava Mudroho St, 27, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJwZbL0hHl20ARy_Nkv8gJ_EM",
+    "title": "Trust-seo крауд маркетинг, купить крауд ссылки на сайт и вечные ссылки",
+    "website": "https://trust-seo.com/",
+    "metro": "kyiv",
+    "address": "Bogdan Khmelnitsky Ave, 106а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJCRgYc8X920ARtOXuhBt1sVg",
+    "title": "NETKEEP",
+    "website": "https://netkeep.com.ua/",
+    "metro": "kyiv",
+    "address": "Nauky Ave, 74, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJlbm4zq3P1EARR1xhq9F61HQ",
+    "title": "Rossery Agency",
+    "website": "https://rossery.com/",
+    "metro": "kyiv",
+    "address": "вулиця Мечникова, 3 (702 офис, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJ2xvA5RPS1EARnmJQOZX-Zdk",
+    "title": "Eltrino",
+    "website": "https://eltrino.com/",
+    "metro": "kyiv",
+    "address": "Tatarska St, 21, A, Kyiv, Ukraine, 04107"
+  },
+  {
+    "place_id": "ChIJmwY2zB_P1EARkBSC8oot3YQ",
+    "title": "ABC Digital",
+    "website": "https://abc-digital.com/",
+    "metro": "kyiv",
+    "address": "Mykhaila Boichuka St, 41б, Kyiv, Ukraine, 01014"
+  },
+  {
+    "place_id": "ChIJh1nOpGPP1EARpg7xJTekckc",
+    "title": "ClouB - B2B портал",
+    "website": "http://cloub.com.ua/",
+    "metro": "kyiv",
+    "address": "Velyka Vasylkivska St, 143/2, Kyiv, Ukraine, 03150"
+  },
+  {
+    "place_id": "ChIJobaqQfTnOkcRy0ObhRpD9NM",
+    "title": "Clover Dynamics",
+    "website": "https://www.cloverdynamics.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 77, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVRCagQDoOkcRHijmzKTsx2s",
+    "title": "Creative studio",
+    "website": "https://studio-creative.com.ua/",
+    "metro": "kyiv",
+    "address": "Navrotskoho St, 1, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJKRkkXJPdOkcRtvar5DkfBxc",
+    "title": "Excited",
+    "website": "https://excited.agency/",
+    "metro": "kyiv",
+    "address": "Zelena St, 151, Lviv, Lviv Oblast, Ukraine, 79035"
+  },
+  {
+    "place_id": "ChIJK7U1p-LcOkcRQGh02PrnDDY",
+    "title": "BotsCrew",
+    "website": "http://botscrew.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJpZmU8zTdOkcRU7AsTX_-3VU",
+    "title": "BrandUP - Рекламна агенція",
+    "website": "https://brandup.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJcwg1zqHb20AR9bauLtmhrOY",
+    "title": "Blender - маркетингове агентство",
+    "website": "https://blender.team/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 111, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJbXcskoPO1EARqCb8Y2D4SrM",
+    "title": "Intersog Ukraine - Software Development Company",
+    "website": "http://ukraine.intersog.com/",
+    "metro": "kyiv",
+    "address": "Beresteiskyi Ave, 31, Kyiv, Ukraine, 03055"
+  },
+  {
+    "place_id": "ChIJ8_zJoVzN1EARa3bexIb1AB0",
+    "title": "Yevizytka",
+    "website": "https://evizitka.cc/",
+    "metro": "kyiv",
+    "address": "Akademika Palladina Ave, 18/30, Kyiv, Ukraine, 03142"
+  },
+  {
+    "place_id": "ChIJyeHIz5TnOkcRF88s-5zEZBc",
+    "title": "UkrInSofT",
+    "website": "https://ukrinsoft.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 71, Lviv, Lviv Oblast, Ukraine, 79028"
+  },
+  {
+    "place_id": "ChIJGeMAwyjnOkcRj2p088q8vNU",
+    "title": "Forbytes",
+    "website": "https://forbytes.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 59, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJz_dyPphn3EARRYmxkia_AYE",
+    "title": "S-PRO - Software Development Company",
+    "website": "https://s-pro.io/?utm_source=google&utm_medium=organic&utm_campaign=google-my-business",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 7, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJi4WUZQHoOkcRfKppbY5e_ec",
+    "title": "ArtfulBits",
+    "website": "http://www.artfulbits.com/",
+    "metro": "kyiv",
+    "address": "Rodyny Krushel'nyts'kykh St, 5a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ_w_IdXLQYqgRhsVWt8czNw0",
+    "title": "The Vate | Веб-агенція | Розробка та Створення Сайтів під ключ | Веб дизайн та Просування сайтів",
+    "website": "https://thevate-agency.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJb4Qm7QfdOkcRBHCXmLxQXbg",
+    "title": "Benamix",
+    "website": "https://benamix.com/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, 11-15, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJy5_Oqn_nOkcR6zb8yUM4e_U",
+    "title": "European Virtual Assistant Agency",
+    "website": "http://vafromeurope.com/",
+    "metro": "kyiv",
+    "address": "Korpus 5A, Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJqVUSXLLpOkcRUowMmWewupk",
+    "title": "Веб студія WebArtix",
+    "website": "https://webartix.com.ua/",
+    "metro": "kyiv",
+    "address": "Zelena St, 151, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJC82vmRbnOkcRsPwaYO9v8qo",
+    "title": "VNV Agency",
+    "website": "https://vnv.agency/",
+    "metro": "kyiv",
+    "address": "Vulytsya Karla Miklʹosha, 4, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJH3e6sXrnOkcRHiUJBbCd8uM",
+    "title": "Рекламна агенція Go Media",
+    "website": "https://go-media.com.ua/",
+    "metro": "kyiv",
+    "address": "вулиця Стрийська, 108, Львів, Львівська область, 79000 Бізнес центр Національний ,корпус 8, Офіс 678, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJz5D54jzdOkcRb9jRLVp6_kc",
+    "title": "TAK agency",
+    "website": "https://tak.global/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 48Г, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJAQAsbm_dOkcRoSgyLG1RBGg",
+    "title": "Marketing Agency FAЙTA",
+    "website": "https://fajta.com.ua/",
+    "metro": "kyiv",
+    "address": "Miskevycha Square, 8, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJlRPaNNrpOkcRzLzBD2KIQAM",
+    "title": "23AB Agency",
+    "website": "https://23ab.agency/",
+    "metro": "kyiv",
+    "address": "Zelena St, 281a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVVXpGOHI1EARV6Fvnpl4dDM",
+    "title": "Playtini",
+    "website": "https://playtini.ua/",
+    "metro": "kyiv",
+    "address": "Yulii Zdanovska St, 75, Kyiv, Ukraine, 03189"
+  },
+  {
+    "place_id": "ChIJkZ9u7Xfj20AR9m5v2UpRImc",
+    "title": "molfar.io",
+    "website": "https://www.molfar.io/",
+    "metro": "kyiv",
+    "address": "Sicheslavska Naberezhna St, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJ98EuK3EDLz4RVHaoosqtjuQ",
+    "title": "ScienceSoft",
+    "website": "https://www.scnsoft.com/ar",
+    "metro": "kyiv",
+    "address": "POB 12213 Al 8570 Olaya St, Al Olaya, Riyadh 12213, Saudi Arabia"
+  },
+  {
+    "place_id": "ChIJ9X1_ZhZZ2UARHxa5ABxT1LA",
+    "title": "Web-Happy Studio",
+    "website": "https://web-happy.com/",
+    "metro": "kyiv",
+    "address": "Tvers'ka St, 13, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49051"
+  },
+  {
+    "place_id": "ChIJDTUqkzQho2gRaSarDwn4WgI",
+    "title": "Sisi Des&Dev - Дизайн та Розробка",
+    "website": "https://sidev.digital/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJw9erNSA5_UURnaV4ia2Cixc",
+    "title": "Quadroom Agency",
+    "website": "https://quadroom.agency/",
+    "metro": "kyiv",
+    "address": "Nahirna St, 18/16, офіс 286, Kyiv, Ukraine, 01001"
+  },
+  {
+    "place_id": "ChIJ___v7oDdOkcRYnmUaCpzT5E",
+    "title": "Waverley Software Ukraine",
+    "website": "https://waverleysoftware.com/",
+    "metro": "kyiv",
+    "address": "Brativ Mikhnovs'kykh St, 1, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJHWD0j5DnOkcRUj_QyZ2cy7Q",
+    "title": "CIGen",
+    "website": "https://cigen.xyz/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 356, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVVUVSr3nOkcRTQvFut-KW3w",
+    "title": "Perfsol",
+    "website": "https://perfsol.tech/",
+    "metro": "kyiv",
+    "address": "Volodymyra Velykoho St, 4, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJx3dwCgDnOkcRMYPGYPxqvpM",
+    "title": "Viso",
+    "website": "https://www.viso.software/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJcQBbk358BEARZN50gdFNGPs",
+    "title": "Stravnyak Digital — маркетингове агентство Львів",
+    "website": "http://stravnyak.com/",
+    "metro": "kyiv",
+    "address": "Lypynskoho St, 36, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJnYB9gP3nOkcRyJPrdnoNLuM",
+    "title": "Розкрутка і просування сайту VTopi",
+    "website": "https://vtopi.lviv.ua/",
+    "metro": "kyiv",
+    "address": "м, Navrotskoho St, 1, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ4Z-cH3Xq9GoRcYuLidf8AWU",
+    "title": "Heeeper",
+    "website": "https://www.heeeper.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJFUYZzaJJ1UYRHZ3pC5TTUuU",
+    "title": "Digital-маркетинговое агентство - PODA AGENCY",
+    "website": "https://poda.agency/",
+    "metro": "kyiv",
+    "address": "Lesi Ukrainky St, 10, Chernihiv, Chernihiv Oblast, Ukraine, 14000"
+  },
+  {
+    "place_id": "ChIJacJtWuvl20ARJvKiCVLoKRY",
+    "title": "Создание веб сайтов в Днепре",
+    "website": "https://xn----7sbbaqhlkm9ah9aiq.net/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJe1gyIYHP1EARv4ggHSm8voY",
+    "title": "iwis",
+    "website": "https://iwis.io/",
+    "metro": "kyiv",
+    "address": "32/2, Kniaziv Ostrozkykh St, Kyiv, Ukraine, 01010"
+  },
+  {
+    "place_id": "ChIJCcaVH0rj20ARu2k-NsnGw94",
+    "title": "Profit Center FX",
+    "website": "http://profitcenterfx.com/",
+    "metro": "kyiv",
+    "address": "Vulytsya Korolevy Yelyzavety Ii, 1, офис 306, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJAQAA_5ni20ARso-ezmCCAyw",
+    "title": "WOXAPP",
+    "website": "https://woxapp.com/",
+    "metro": "kyiv",
+    "address": "Soniachna Naberezhna St, 2, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJHxwLyOfP1EARI3Ow9aprDVA",
+    "title": "MWDN Kyiv - Software Development Company",
+    "website": "http://mwdn.com/",
+    "metro": "kyiv",
+    "address": "1A, Sportyvna Square Gulliver, Tower B, Floor 11-12, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJ-wGJh37P1EARpXFrGqjuhQ0",
+    "title": "Scalors Ukraine",
+    "website": "https://scalors.com/",
+    "metro": "kyiv",
+    "address": "вулиця Миколи Пимоненка, 13, офіс А1, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJWwIucPXP1EARdcrAAnSnKzs",
+    "title": "IntelSoft Technologies",
+    "website": "http://intelsofttech.com/",
+    "metro": "kyiv",
+    "address": "Yaroslavska St, 58, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJH8ZssPDP1EARrjjbkEmxJc0",
+    "title": "Global Mediator Aps",
+    "website": "https://global-mediator.com/",
+    "metro": "kyiv",
+    "address": "Antonovycha St, 33v, Kyiv, Ukraine, 01033"
+  },
+  {
+    "place_id": "ChIJl16RibrN1EAR8CAjytx9N5Y",
+    "title": "Stamax",
+    "website": "https://stamax.ua/",
+    "metro": "kyiv",
+    "address": "вулиця Володимира, Tyraspol`ska St, 14, Kyiv, Ukraine, 04060"
+  },
+  {
+    "place_id": "ChIJeWUyUQ3O1EARUWfVnO1vRsE",
+    "title": "Gera-IT",
+    "website": "https://gera-it.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJec8YlJPpOkcRsbEiOApUIu4",
+    "title": "Bliscore",
+    "website": "https://bliscore.com/",
+    "metro": "kyiv",
+    "address": "Naukova St, 2a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJcaua4OHnOkcR4c_Q7Z2E0uA",
+    "title": "Nineva Studios",
+    "website": "http://ninevastudios.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJKa7UvArdOkcRC_b5OWFu6mU",
+    "title": "Lazor Digital",
+    "website": "https://lazordigital.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJK2oYisrDOkcRNj5yoO2xTdw",
+    "title": "Linked Promo",
+    "website": "https://linked-promo.com/",
+    "metro": "kyiv",
+    "address": "Glibova, 10, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJY3ddovrDOkcRlK2PvkgPSqI",
+    "title": "and action",
+    "website": "http://and-action.net/",
+    "metro": "kyiv",
+    "address": "Rynok Square, 1, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJGQGxKsTi20ARlPUipe6_nUg",
+    "title": "You are launched",
+    "website": "https://www.urlaunched.com/",
+    "metro": "kyiv",
+    "address": "Sicheslavska Naberezhna St, 49, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJcX1wUfZZ2UARSdH9qqDpqYY",
+    "title": "Adloonix - Market Research Company",
+    "website": "https://adloonix.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJyT9s_lfi20AR-OIK2r-tyL8",
+    "title": "Conversor",
+    "website": "https://conversor.com.ua/",
+    "metro": "kyiv",
+    "address": "Pastera St, 4В, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49038"
+  },
+  {
+    "place_id": "ChIJGQBAAw7P1EAR9lq_tofxSyE",
+    "title": "8allocate",
+    "website": "http://www.8allocate.com/",
+    "metro": "kyiv",
+    "address": "поверх 4, Lesi Ukrainky Blvd, 26, Kyiv, Ukraine, 01133"
+  },
+  {
+    "place_id": "ChIJo3E21gDN1EARRwZf0UF0c64",
+    "title": "TenPixls - Unstoppable Business Growth With Your Own Tailor-Made, High-Performance Website",
+    "website": "https://tenpixls.com/",
+    "metro": "kyiv",
+    "address": "Borshchahivska St, 206, Kyiv, Ukraine, 03058"
+  },
+  {
+    "place_id": "ChIJU6T9jDHM1EARyX9euxtMuaI",
+    "title": "Game Development Company, VR Development, 3D Modeling - ByOwls, Inc.",
+    "website": "https://byowls.com/",
+    "metro": "kyiv",
+    "address": "Unit City, Dorohozhytska St, 3, Kyiv, Ukraine, 04119"
+  },
+  {
+    "place_id": "ChIJjdDtUULO1EAROTrOenEZQWk",
+    "title": "Frontmen, LLC",
+    "website": "https://frontmen.fm/",
+    "metro": "kyiv",
+    "address": "Nyzhnii Val St, 15, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJ10FyijvP1EARowgN4Zg82To",
+    "title": "LLC GEOSAP",
+    "website": "http://eprasys.com.ua/",
+    "metro": "kyiv",
+    "address": "Montazhnykiv St, 72, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ27MIrPDdOkcRE4t8xVp6muc",
+    "title": "Impressit",
+    "website": "https://impressit.io/",
+    "metro": "kyiv",
+    "address": "Zarytskykh St, Lviv, Lviv Oblast, Ukraine, 79011"
+  },
+  {
+    "place_id": "ChIJozMoUXbdOkcR-oOEPAkjMvo",
+    "title": "Scelex",
+    "website": "https://scelex.com/",
+    "metro": "kyiv",
+    "address": "Zarytskykh St, 5, Lviv, Lviv Oblast, Ukraine, 79011"
+  },
+  {
+    "place_id": "ChIJv5_kK8HnOkcRAmY4nYmhQHk",
+    "title": "StartupSoft Lviv",
+    "website": "https://www.startupsoft.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 59, 42nd block 2nd floor, Lviv, Lviv Oblast, Ukraine, 79041"
+  },
+  {
+    "place_id": "ChIJbUAX3wrdOkcRSXwWghpEztI",
+    "title": "Halysoft",
+    "website": "http://halysoft.com/",
+    "metro": "kyiv",
+    "address": "room 33, 79000, Hazova St, 36/2, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJowK40PXdOkcRiqCANdNyrKI",
+    "title": "Startokay",
+    "website": "https://startokay.com/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 8/22, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ191saRrpOkcRYef01KKMuMM",
+    "title": "Romb Studio - Seo просування сайтів у Львові",
+    "website": "https://www.romb-studio.com.ua/",
+    "metro": "kyiv",
+    "address": "Zelena St, 204, Lviv, Lviv Oblast, Ukraine, 79028"
+  },
+  {
+    "place_id": "ChIJvw9jvi_dOkcRJJy3ArOv_uQ",
+    "title": "ddd© agency",
+    "website": "https://ddd.do/",
+    "metro": "kyiv",
+    "address": "Anheliv Sq, 1, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJLwOTzPrlHC4RcGs2TgkP6gk",
+    "title": "Digital агентство iMart",
+    "website": "https://imart.pro/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJGeBeud7i20AR7EM-OAB07Wc",
+    "title": "Moohii",
+    "website": "https://moohii.com/",
+    "metro": "kyiv",
+    "address": "Vulytsya Korolevy Yelyzavety Ii, 2, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJa3rTE9Li20ARv5j1IkYnAT8",
+    "title": "Sayber Shark",
+    "website": "https://cybershark.pro/",
+    "metro": "kyiv",
+    "address": "Zhurnalistiv St, 1, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49051"
+  },
+  {
+    "place_id": "ChIJ8wSuzQT920AROKmoE_kT0KI",
+    "title": "Digital Агентство Web Time-PRO",
+    "website": "http://webtime-pro.com/",
+    "metro": "kyiv",
+    "address": "Manuilovkiy Ave, 73, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJrcO3uArP1EARckxqkQXsNY4",
+    "title": "AVA.codes",
+    "website": "https://thefrontendcompany.com/",
+    "metro": "kyiv",
+    "address": "Zvirynetska St, 63, Kyiv, Ukraine, 03057"
+  },
+  {
+    "place_id": "ChIJkTMPzf3O1EARmtDlBq83Gbk",
+    "title": "ALTY INC.",
+    "website": "https://alty.co/",
+    "metro": "kyiv",
+    "address": "Pomarancheva St, 26, Kyiv, Ukraine, 03195"
+  },
+  {
+    "place_id": "ChIJkYt_iRTP1EARd--95jzmR-o",
+    "title": "CASE Digital Studio",
+    "website": "https://case-digital.com/",
+    "metro": "kyiv",
+    "address": "Myru Ave, 15а, Of. 409, Kyiv, Ukraine, 02105"
+  },
+  {
+    "place_id": "ChIJ2bhTM6zF1EAR59HMzqNUPBc",
+    "title": "Dream Team",
+    "website": "https://www.dreamteam.ua/",
+    "metro": "kyiv",
+    "address": "Knyazhyi Zaton St, 9A, of. 369, Kyiv, Ukraine, 02095"
+  },
+  {
+    "place_id": "ChIJBcT78CkyL0IRwbLuV875VSw",
+    "title": "WinSoft",
+    "website": "https://winsoft.io/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJpb4I82_O1EAR_EPuSHrEPmA",
+    "title": "OmiSoft LLC",
+    "website": "https://omisoft.net/",
+    "metro": "kyiv",
+    "address": "Beresteiskyi Ave, 26, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJNYYuPljP1EARxHEaojXffIk",
+    "title": "Data Science UA",
+    "website": "https://data-science.com.ua/",
+    "metro": "kyiv",
+    "address": "Sportyvna Square, 1А, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJMdCUK3LP1EAR7ieLnbRQ9Og",
+    "title": "Covio",
+    "website": "http://covio.fr/",
+    "metro": "kyiv",
+    "address": "Kudryashova St, Kyiv, Ukraine, 03061"
+  },
+  {
+    "place_id": "ChIJ2YKlySpn3EARYX8wOP9LaB4",
+    "title": "Fruitful Code | not operating due to running away.",
+    "website": "https://fruitfulcode.com/",
+    "metro": "kyiv",
+    "address": "Mykhaila Boichuka St, 1А, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJafqChUjSVqYRvjHdz8o19h0",
+    "title": "Інтернет агенція inSite",
+    "website": "https://insite.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJPYQDHyLnOkcRiGM3X0lDBg8",
+    "title": "CodeLions LLC",
+    "website": "http://codelions.co/",
+    "metro": "kyiv",
+    "address": "Volodymyra Velykoho St, 4, room # 418, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJvxST2pzdOkcRX93vnZvXgvE",
+    "title": "Bluepes",
+    "website": "https://bluepes.com/",
+    "metro": "kyiv",
+    "address": "Valova St, 13, Lviv, Lviv Oblast, Ukraine, 79018"
+  },
+  {
+    "place_id": "ChIJz9wzxs6_OwQRNqV-mfIZbv4",
+    "title": "Unreal Solutions",
+    "website": "http://unrealrpsolutions.dev/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJozPolGrdOkcRAYyQ-KzHFbQ",
+    "title": "A2 Software",
+    "website": "https://www.a2software.dk/",
+    "metro": "kyiv",
+    "address": "Akademika Andriya Sakharova St, 41, Lviv, Lviv Oblast, Ukraine, 79012"
+  },
+  {
+    "place_id": "ChIJXWvF4PDdOkcRfuHwrDFN9VU",
+    "title": "Optimate",
+    "website": "https://www.optimate.online/book-demo?utm_source=google-my-business",
+    "metro": "kyiv",
+    "address": "Ivana Ohiienka St, 6/6, Lviv, Lviv Oblast, Ukraine, 79007"
+  },
+  {
+    "place_id": "ChIJiyvTPlfdOkcRSWnVb8046DU",
+    "title": "by Nichol",
+    "website": "http://nichol.com.ua/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, 102, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJD6nZ53rdOkcRVX6BLtOm5tM",
+    "title": "Digitelia",
+    "website": "http://digitelia.co/",
+    "metro": "kyiv",
+    "address": "Henerala Chuprynky St, 126, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJl0DloyrdOkcRxByRroQUZ9Q",
+    "title": "dgn.com.ua",
+    "website": "https://dgn.com.ua/",
+    "metro": "kyiv",
+    "address": "Horodotska St, 128, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJg07JImLdOkcR-M1vBYOyddg",
+    "title": "Flying Age | Strategic Design House",
+    "website": "https://flying-age.com/",
+    "metro": "kyiv",
+    "address": "Rudanskoho St, 1, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJxfdeHADdOkcRXTxCcyG_6Ro",
+    "title": "Atlant Digital — Performance Marketing Agency",
+    "website": "https://atlant.digital/",
+    "metro": "kyiv",
+    "address": "Shkilna St, 25, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJu4NF6TvdOkcR5ttKZA7MWzI",
+    "title": "Wordesty",
+    "website": "https://wordesty.com/",
+    "metro": "kyiv",
+    "address": "Pid Dubom St, 7Б, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJy8A6otcJJ0ER9UcVag12eSs",
+    "title": "SnoopGame QA",
+    "website": "http://snoopgame.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJFUCOePCDj24RPfTjpkTt8IY",
+    "title": "Shaola Design",
+    "website": "https://shaola.com.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJq2c7DUjDOkcRat18fV67B3M",
+    "title": "Pro Marketing UA",
+    "website": "https://www.promarketingua.com.ua/",
+    "metro": "kyiv",
+    "address": "Medovoi Pechery St, 3, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJq6q6Rg_dOkcR3GFLDd5qslc",
+    "title": "Morozov Agency",
+    "website": "https://morozov.agency/",
+    "metro": "kyiv",
+    "address": "Sofii Yablonskoi St, 31, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJSdq-QS7j20ARiIAbH_xNdIY",
+    "title": "Деменков І.Ю., ФОП",
+    "website": "https://demenkov.dp.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJKQ24-7X920ARuz_q08DW7wc",
+    "title": "Boostanova",
+    "website": "https://boostanova.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJRz1iYaDk20ARZFTXEKMwrvs",
+    "title": "monteks",
+    "website": "https://monteks.com.ua/uk/",
+    "metro": "kyiv",
+    "address": "Budivel'nykiv St, 34, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49055"
+  },
+  {
+    "place_id": "ChIJv2wTmtzj20ARnyIpNuDuUa8",
+    "title": "Admix Global",
+    "website": "https://admixglobal.com/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 72, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJaRCdzufi20ARjqv2R2ni5vI",
+    "title": "Создание сайтов и SEO продвижение IVK Digital",
+    "website": "http://ivkseo.com/",
+    "metro": "kyiv",
+    "address": "Volodymyra Monomakha, 7, 316, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJeYqSfLZZ2UARGs3DZHv1DLs",
+    "title": "Redbrix",
+    "website": "https://redbrix.co/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJbbQ8tTVf2UARe5ImxH5GkeY",
+    "title": "WebHeads.Agency",
+    "website": "https://webheads.agency/",
+    "metro": "kyiv",
+    "address": "Lazaryana St, 3, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJkZawmcTj20ARMnYUEms07wU",
+    "title": "Создание сайта днепр",
+    "website": "https://zebraweb.dev/",
+    "metro": "kyiv",
+    "address": "Kharkivs'ka St, 8А, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJlUq9em_j20ARt8xu8STnr8A",
+    "title": "CSO Digital",
+    "website": "https://csodigital.org/",
+    "metro": "kyiv",
+    "address": "Krutohirnyi Descent, 21а, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJjZcrpojj20ARz1AkKQn93LQ",
+    "title": "Adscope",
+    "website": "https://adscope.space/",
+    "metro": "kyiv",
+    "address": "Bohdana Khmel'nyts'koho St, 16, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJZUGJlZ3L1EAR_Hezjk-OrJQ",
+    "title": "Maqitra IT Development",
+    "website": "https://maqitra.com/",
+    "metro": "kyiv",
+    "address": "Balukova St, Kriukivshchyna, Kyiv Oblast, Ukraine, 08136"
+  },
+  {
+    "place_id": "ChIJGfTdpEPM1EAR9s5wTsrLH1o",
+    "title": "Rarus",
+    "website": "https://rarus.ua/",
+    "metro": "kyiv",
+    "address": "Druzhkivska St, 10, Kyiv, Ukraine, 03113"
+  },
+  {
+    "place_id": "ChIJs8rBvzXM1EAR304m2_KyN_I",
+    "title": "Evolvice GmbH",
+    "website": "https://www.evolvice.de/",
+    "metro": "kyiv",
+    "address": "Dehtiarivska St, 62, Kyiv, Ukraine, 04112"
+  },
+  {
+    "place_id": "ChIJ5f6Y9KDP1EAR0AX7FtmgyF0",
+    "title": "Monosoft",
+    "website": "https://monosoft.dev/",
+    "metro": "kyiv",
+    "address": "Dmytrivska St, 35Б, Kyiv, Ukraine, 01054"
+  },
+  {
+    "place_id": "ChIJ__FMQr_P1EARBmSOEH2nqB8",
+    "title": "Beetroot AB, Kyiv Office",
+    "website": "https://beetroot.se/",
+    "metro": "kyiv",
+    "address": "Luk'yanivsʹkyy Provulok, 6, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJjStrGFTP1EAR5qTCTV_J5pM",
+    "title": "Wild Web Art",
+    "website": "http://wildwebart.com/",
+    "metro": "kyiv",
+    "address": "Velyka Zhytomyrska St, 4В, Of. 39, Kyiv, Ukraine, 01025"
+  },
+  {
+    "place_id": "ChIJ3TPHEfTL1EAReUZdYT8p9ys",
+    "title": "WebDeal Digital Agency",
+    "website": "https://webdeal.com.ua/",
+    "metro": "kyiv",
+    "address": "Hnata Yury St, 9, оф. 524, Kyiv, Ukraine, 03148"
+  },
+  {
+    "place_id": "ChIJxcEIOUDG1EARNeKhK5Kgrao",
+    "title": "The WEB ROOM development studio",
+    "website": "https://web-room.com.ua/",
+    "metro": "kyiv",
+    "address": "Dzhona Makkeina St, 20А, Kyiv, Ukraine, 01042"
+  },
+  {
+    "place_id": "ChIJUeEpr_3P1EARs1frxEpuDFk",
+    "title": "Sombra",
+    "website": "https://sombrainc.com/",
+    "metro": "kyiv",
+    "address": "Sportyvna Square, 1A, Kyiv, Ukraine, 01023"
+  },
+  {
+    "place_id": "ChIJPZTz_MrP1EARU0jUWK0BEeI",
+    "title": "Розробка сайтів Київ | WEBKITCHEN Вебкитчен",
+    "website": "https://webkitchen.kiev.ua/",
+    "metro": "kyiv",
+    "address": "вулиця Ярославська, Подол, Контрактовая Площадь, 35А, 3 этаж, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJ_4KmYvjdOkcRLaHHnK8D-WM",
+    "title": "Crunch-IS",
+    "website": "https://crunch-is.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, будинок 73а, Lviv, Lviv Oblast, Ukraine, 79029"
+  },
+  {
+    "place_id": "ChIJucP3je_dOkcRy5WKTrlwJcY",
+    "title": "uSoftware",
+    "website": "http://usoftware.co/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 226а, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJFzB4QDjnOkcRskVOIeFokVA",
+    "title": "wwwest solutions",
+    "website": "https://wwwest.solutions/",
+    "metro": "kyiv",
+    "address": "Rankova St, Lviv, Lviv Oblast, Ukraine, 79021"
+  },
+  {
+    "place_id": "ChIJRSxZJJfnOkcRelreTDbAfZQ",
+    "title": "MagicFuse",
+    "website": "https://magicfuse.co/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 108, Lviv, Lviv Oblast, Ukraine, 79026"
+  },
+  {
+    "place_id": "ChIJp8CTc9nnOkcRbcdDjd_wdJ4",
+    "title": "Scimus",
+    "website": "https://thescimus.com/",
+    "metro": "kyiv",
+    "address": "Kulparkivska St, 59, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ_ctre2bnOkcRMzIWuBEkQPM",
+    "title": "Розробка сайтів у Львові «‎Boin Studio»",
+    "website": "https://boinstudio.com/stvorennya-saytiv-lviv/",
+    "metro": "kyiv",
+    "address": "Kul'chyts'koi St, 15, кв. 89, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJt3shPkDoOkcRWfoDGcQKBKo",
+    "title": "Keystone: promotion, optimization and Internet marketing Lions",
+    "website": "https://keystone.company/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79022"
+  },
+  {
+    "place_id": "ChIJ6QEH5OTnOkcRBvYe7PYgBfY",
+    "title": "Pixetic - a Digital Design Agency",
+    "website": "https://pixetic.com/",
+    "metro": "kyiv",
+    "address": "Kamianetska St, 1a, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJk0CKeE3dOkcRh5tYeZhnXXw",
+    "title": "QUARTE",
+    "website": "https://quarte.design/",
+    "metro": "kyiv",
+    "address": "Ivana Franka St, 102, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJfXyL823dOkcRabF9SFdOJls",
+    "title": "\"Website\" - Creating websites, online stores in Lviv",
+    "website": "http://websait.lviv.ua/",
+    "metro": "kyiv",
+    "address": "Svobody Ave, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJeZDshErdOkcR9qZ4D-RVZ04",
+    "title": "ZAPAKOVANO - Креативна агенція інтернет маркетингу",
+    "website": "https://zapakovano.agency/",
+    "metro": "kyiv",
+    "address": "Dzherelna St, 83 13, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJDf54zxQqTgcRd2-fQzwP9bs",
+    "title": "WebGid",
+    "website": "https://webgid.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJlfudDn_nOkcRY0e2HCSqF4g",
+    "title": "Fivecube Agency",
+    "website": "https://fivecube.agency/",
+    "metro": "kyiv",
+    "address": "Uhorska St, 14, Lviv, Lviv Oblast, Ukraine, 79034"
+  },
+  {
+    "place_id": "ChIJXxq3wCPdOkcRwYQVg3I26r0",
+    "title": "GrowthMate",
+    "website": "https://growthmate.io/",
+    "metro": "kyiv",
+    "address": "Shevchenka St, 60, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJOYRbAgXnOkcRAeHsQ-r2MLk",
+    "title": "Bypaul design studio | Брендинг, айдентика та графічний дизайн",
+    "website": "https://bypaul.design/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJvTKY2DHdOkcRroAXCRtreqk",
+    "title": "Financial Models Lab",
+    "website": "https://financialmodelslab.com/",
+    "metro": "kyiv",
+    "address": "Yunakiva 9e40, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJVVUlzsTi20ARdZHtnuzLJAs",
+    "title": "Flyaps",
+    "website": "https://flyaps.com/",
+    "metro": "kyiv",
+    "address": "12B, Krutohirnyi Descent, Dnipro, Dnipropetrovs'ka oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJOwZvQxP720AR5dA_ubtTjGw",
+    "title": "SFG",
+    "website": "https://sfg.ua/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJO6Ep2fni20ARcTByJt671xk",
+    "title": "ArtSEO",
+    "website": "https://artseo.top/?utm_source=gmb&utm_medium=referral",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 96, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJabco3_5Z2UARAx41zRbUwUc",
+    "title": "Navcolo",
+    "website": "https://navcolo.space/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJ8ThwINzi20ARXFDzV5Moah4",
+    "title": "AdMix - интернет-маркетинг: Контекстная реклама, SEO, SMM, Создание сайтов Днепр, Киев Украина",
+    "website": "http://admix.com.ua/",
+    "metro": "kyiv",
+    "address": "Dmytra Yavornytskoho Ave, 93/513, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJs9ToQFr33QIRQsbhnyoh1BQ",
+    "title": "Software Development - Website Development and Mobile App Development",
+    "website": "https://alamondai.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJfTpoUP_j20ARrVFFvN3rX40",
+    "title": "MORE | Агентство інтернет-маркетингу",
+    "website": "https://www.domore.com.ua/?utm_source=google&utm_medium=GBP",
+    "metro": "kyiv",
+    "address": "Barykadna St, 16, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49044"
+  },
+  {
+    "place_id": "ChIJAQCMAfji20ARBPp25caViTg",
+    "title": "Маркетинговые исследования",
+    "website": "http://def.com.ua/kontakty.html",
+    "metro": "kyiv",
+    "address": "Vasylia Chaplenka St, д.5, Dnipro, Dnipropetrovsk Oblast, Ukraine, 49000"
+  },
+  {
+    "place_id": "ChIJQQAwCnfJ1EARE1MER2Uid3E",
+    "title": "Qubit Labs - Hire Remote Software Developers",
+    "website": "https://qubit-labs.com/",
+    "metro": "kyiv",
+    "address": "Krasylivska St, 7, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJVVVVAv7O1EARCg6wmHs4k7g",
+    "title": "Rocketech",
+    "website": "https://rocketech.it/",
+    "metro": "kyiv",
+    "address": "Sportyvna Square, 1А, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJhcZnadrF1EARIM2oQg2piV0",
+    "title": "Red Carlos Solutions",
+    "website": "https://red-carlos.co/",
+    "metro": "kyiv",
+    "address": "вул.Гришка Михайла буд. 9 Київ, місто, Kyiv city, Ukraine, 02140"
+  },
+  {
+    "place_id": "ChIJx7SVCmvF1EARTlXhZ-f8YVE",
+    "title": "iashchuk",
+    "website": "http://iashchuk.com/",
+    "metro": "kyiv",
+    "address": "Urlivska St, 20, Kyiv, Ukraine, 02081"
+  },
+  {
+    "place_id": "ChIJq91dJFfF1EARRRVBdVXaeIs",
+    "title": "eTeam Kyiv",
+    "website": "https://www.eteam.io/",
+    "metro": "kyiv",
+    "address": "10A, Naberezhno-Khreshchatytska St, Kyiv, Ukraine, 04070"
+  },
+  {
+    "place_id": "ChIJmZHfffBEeyYRPFhKqKnZuho",
+    "title": "TeleBots",
+    "website": "https://telebots.site/",
+    "metro": "kyiv",
+    "address": "Kovalski Square, 5a, Kyiv, Ukraine, 01000"
+  },
+  {
+    "place_id": "ChIJfRDDVTTP1EAR2xApHKax6SQ",
+    "title": "АРКАДА, ПрАТ",
+    "website": "http://www.arcada.com.ua/",
+    "metro": "kyiv",
+    "address": "Holosiivskyi prospekt, 42, Kyiv, Ukraine, 03039"
+  },
+  {
+    "place_id": "ChIJdWZBVzi7MUURUN5PAO1QoHk",
+    "title": "Веб розробка - Raccoon Webcode",
+    "website": "https://raccoon-web.io/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJyZxDkjvN1EARsfqr6bIwyCE",
+    "title": "APELVIL LTD",
+    "website": "https://www.apelvil.com.ua/",
+    "metro": "kyiv",
+    "address": "ул, Vatslava Havela Blvd, 4, Kyiv, Ukraine, 03124"
+  },
+  {
+    "place_id": "ChIJGeMggmzP1EARHKtjWezoZ8Y",
+    "title": "Greenice",
+    "website": "https://greenice.net/",
+    "metro": "kyiv",
+    "address": "Starokyivska St, 10Г, Kyiv, Ukraine, 04112"
+  },
+  {
+    "place_id": "ChIJ_dy9y3rO1EARATqpid4qS0Y",
+    "title": "JazzServe",
+    "website": "https://jazzserve.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJIwy1FJPN1EAR5EnOnK2-nyo",
+    "title": "Polytech Software",
+    "website": "https://polytech.software/",
+    "metro": "kyiv",
+    "address": "Danyla Shcherbakivskoho St, 52, Kyiv, Ukraine, 04111"
+  },
+  {
+    "place_id": "ChIJUwLJiVLP1EARhDQs9hqKKBE",
+    "title": "Almexoft",
+    "website": "https://almexoft.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJxa__fI_P1EARrRLbRkmoO5c",
+    "title": "WebCorp Студия — Разработка сайтов. Продвижение и раскрутка сайтов",
+    "website": "https://webcorp-studio.com/",
+    "metro": "kyiv",
+    "address": "Beresteiskyi Ave, 26, Kyiv, Ukraine, 04116"
+  },
+  {
+    "place_id": "ChIJmcIl5SXP1EARWViyypHhMr4",
+    "title": "Wlaunch",
+    "website": "https://wlaunch.net/uk/?utm_source=google",
+    "metro": "kyiv",
+    "address": "Petra Sahaidachnoho St, 12, Kyiv, Ukraine, 04070"
+  },
+  {
+    "place_id": "ChIJ5xaRySzP1EARW0D8AJFb6Lo",
+    "title": "MobiMill",
+    "website": "http://mobimill.com/",
+    "metro": "kyiv",
+    "address": "Brovarskyi Avenue, Kyiv, 5ы, Kyiv city, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ2ejdPHbL1EARz1DD65mXpr4",
+    "title": "Yottabyte Studio",
+    "website": "https://yottabyte.studio/",
+    "metro": "kyiv",
+    "address": "Voronkivska, 5, Sofiivska Borschahivka, Kyiv Oblast, Ukraine, 08147"
+  },
+  {
+    "place_id": "ChIJR9y-BL_P1EARzaezWLTOxg0",
+    "title": "DevIT",
+    "website": "https://devit.group/",
+    "metro": "kyiv",
+    "address": "Simi Prakhovykh St, 58/10, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJOeCsFJbO1EARtOvwyQjxaPQ",
+    "title": "Креативна агенція - QDesign",
+    "website": "https://qd.ua/",
+    "metro": "kyiv",
+    "address": "Henerala Henadiia Vorobiova St, 6, Kyiv, Ukraine, 03049"
+  },
+  {
+    "place_id": "ChIJh4zz_9rJ1EARQxX7Ib_fndU",
+    "title": "GoodPage Studio",
+    "website": "https://goodpage.studio/",
+    "metro": "kyiv",
+    "address": "Zhylianska St, 59, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJO1towhbP1EARrPBsHaOYeeI",
+    "title": "JEVERA",
+    "website": "https://www.jevera.software/",
+    "metro": "kyiv",
+    "address": "Velyka Vasylkivska St, 72А, Kyiv, Ukraine, 03037"
+  },
+  {
+    "place_id": "ChIJdd6AdVDO1EARbeVppg9sQHw",
+    "title": "Linecore",
+    "website": "https://www.linecore.com/",
+    "metro": "kyiv",
+    "address": "Volodymyrska St, 101, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJp8ajTAHP1EAR9RvtP4ll44o",
+    "title": "Розробка сайтів, створення сайту, додатків - 1 Web Development",
+    "website": "https://1-web-development.com/uk",
+    "metro": "kyiv",
+    "address": "Yevhena Konovaltsia St, 11, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJNzh55X_P1EAR6AN9Tb5Aa_0",
+    "title": "Code-Room LLC",
+    "website": "https://code-room.com/",
+    "metro": "kyiv",
+    "address": "Yevhena Konovaltsia St, 36Б, 169, Kyiv, Ukraine, 02000"
+  },
+  {
+    "place_id": "ChIJ_SCR8WvP1EARbBcQ6QMAXLk",
+    "title": "BAZU",
+    "website": "https://bazucompany.com/",
+    "metro": "kyiv",
+    "address": "Yevhena Konovaltsia St, 36д, Kyiv, Ukraine, 04071"
+  },
+  {
+    "place_id": "ChIJndpGQ5zN1EARAPNe1c0ZJkY",
+    "title": "Computools",
+    "website": "https://computools.com/",
+    "metro": "kyiv",
+    "address": "Dorohozhytska St, 1, Kyiv, Ukraine, 04070"
+  },
+  {
+    "place_id": "ChIJd7U8UePL1EARaG_7pjZ2dE0",
+    "title": "Inception Developers",
+    "website": "https://noname.digital/",
+    "metro": "kyiv",
+    "address": "Dorohozhytska St, 3, Kyiv, Ukraine, 08131"
+  },
+  {
+    "place_id": "ChIJkaq31rrP1EARBK9C8AvYfp4",
+    "title": "Boosters (by Genesis)",
+    "website": "https://boosters.team/",
+    "metro": "kyiv",
+    "address": "Kyrylivska St, 40, Kyiv, Ukraine, 04080"
+  },
+  {
+    "place_id": "ChIJK7Uj85zDOkcRVqzS56IxpIY",
+    "title": "Softonix",
+    "website": "https://softonix.org/",
+    "metro": "kyiv",
+    "address": "26 офіс, Dzhordzha Vashynhtona St, 7, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJzVlra0bdOkcRW-p_OlLquG0",
+    "title": "OporaSolutions",
+    "website": "https://oporasolutions.com/",
+    "metro": "kyiv",
+    "address": "Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ-9JSQv7dOkcR8tbkwp3AZt4",
+    "title": "InterLink LLC",
+    "website": "https://interlink-ua.com/",
+    "metro": "kyiv",
+    "address": "Stryiska St, 22, Sokilnyky, Lviv Oblast, Ukraine, 81130"
+  },
+  {
+    "place_id": "ChIJ5TAmJm3dOkcRn_Sus27WkHo",
+    "title": "Lvivity",
+    "website": "https://lvivity.com/",
+    "metro": "kyiv",
+    "address": "Heroiv UPA St, 73, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ1a4VXp3dOkcRwzZO5PkxbOE",
+    "title": "Software Service & Innovation @Lviv",
+    "website": "https://soft-innovation.ch/",
+    "metro": "kyiv",
+    "address": "Viacheslava Chornovola Ave, 45а, корпус 5, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJM87t_2_nOkcRJpbc_gcGuj4",
+    "title": "WebSpirit creative agency - Website development",
+    "website": "https://webspirit.com.ua/",
+    "metro": "kyiv",
+    "address": "Liubinska St, 92, Lviv, Lviv Oblast, Ukraine, 79054"
+  },
+  {
+    "place_id": "ChIJvdutNePdOkcRzW7pgaVhTxQ",
+    "title": "Develin Core",
+    "website": "https://develincore.com/",
+    "metro": "kyiv",
+    "address": "Zelena St, 109, Lviv, Lviv Oblast, Ukraine, 79035"
+  },
+  {
+    "place_id": "ChIJ_714xfLdOkcRQ6VodTYMtZs",
+    "title": "Kodrix Web Agency",
+    "website": "https://kodrix.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJTVq0JujdOkcRTk978Lvgyik",
+    "title": "Univisia",
+    "website": "https://www.univisia.com/",
+    "metro": "kyiv",
+    "address": "Kryva Lypa Passage, 9/5, Lviv, Lviv Oblast, Ukraine, 79007"
+  },
+  {
+    "place_id": "ChIJl_1o278fM4IRpp0MxIi1HCA",
+    "title": "INTEGRO CRM",
+    "website": "https://www.integro24.com/",
+    "metro": "kyiv",
+    "address": "Slovats'koho St, 14, Lviv, Lviv Oblast, Ukraine, 79001"
+  },
+  {
+    "place_id": "ChIJDWEUKZ3dOkcRegLM0dPxRQQ",
+    "title": "Khit Keram Ofis Vyrobnyka Termorehulyatoriv Ta Obihrivachiv",
+    "website": "https://heatceram.com.ua/",
+    "metro": "kyiv",
+    "address": "Soiuzu Ukrainok St, 4а, Lviv, Lviv Oblast, Ukraine, 79019"
+  },
+  {
+    "place_id": "ChIJoYhhJsbnOkcRnUwoqaY7PKo",
+    "title": "Complex Agency",
+    "website": "https://the-complex.agency/",
+    "metro": "kyiv",
+    "address": "Stryiska St, Lviv, Lviv Oblast, Ukraine, 79068"
+  },
+  {
+    "place_id": "ChIJm7lgjD7dOkcRok-QbH8_Nm4",
+    "title": "Kraft Web Agency",
+    "website": "https://kraftwebagency.com/",
+    "metro": "kyiv",
+    "address": "Soborna Square, 14, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJjS--TVDdOkcR_RnVGPN7VD8",
+    "title": "iXioo",
+    "website": "https://ixioo.com/",
+    "metro": "kyiv",
+    "address": "Levka Lukianenka St, 27A, Lviv, Lviv Oblast, Ukraine, 79007"
+  },
+  {
+    "place_id": "ChIJe04RR_Nd2G0RxSQewXVwAQs",
+    "title": "Gnome Agency - Розробка сайтів для бізнесу",
+    "website": "https://gnomeagency.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJo7nPwmbDOkcRI1FzOm83Avc",
+    "title": "Bocharovalex - Site design, landing page. Development of logo, identity, corporate style.",
+    "website": "http://bocharovalex.tilda.ws/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJsfoJBk3dOkcR7R-gnRmNS_I",
+    "title": "GoodWebStudio",
+    "website": "https://goodwebstudio.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJyVEijj7dOkcR73bO1n6F_aM",
+    "title": "Nektaryn Agency",
+    "website": "https://nektaryn.com/",
+    "metro": "kyiv",
+    "address": "Soborna Square, 14, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJEzsV6ZbdOkcRsQIVpNWBjZQ",
+    "title": "inLogicSoft",
+    "website": "https://inlogicsoft.com/",
+    "metro": "kyiv",
+    "address": "Nechuya-Levyts'koho St, 5, Lviv, Lviv Oblast, Ukraine, 79000"
+  },
+  {
+    "place_id": "ChIJ9UnrwkNeTwoR3av7nmGQtAw",
+    "title": "ProgGenius",
+    "website": "https://www.proggenius.com/",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJA1fNEN8DGTkRI8d9r2RyQAQ",
+    "title": "Mobile app Development",
+    "website": "https://www.fiverr.com/users/xcodegeeks",
+    "metro": "kyiv",
+    "address": ""
+  },
+  {
+    "place_id": "ChIJk-FXm1znOkcRgY3BhRFldMY",
+    "title": "Galera – Motion Design & Animation Agency",
+    "website": "https://galera.agency/",
+    "metro": "kyiv",
+    "address": "Naukova St, 7, Lviv, Lviv Oblast, Ukraine, 79000"
+  }
+]

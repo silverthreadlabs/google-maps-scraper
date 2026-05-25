@@ -1,0 +1,285 @@
+[
+  {
+    "id": 510,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "told I’d receive a late fee for being “late” to go and re-park my car",
+        "reasoning": "Unexpected/undisclosed late fee imposed without prior warning is a surprise charge."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Was not told where to park and then told I’d receive a late fee",
+        "reasoning": "Reviewer explicitly cites missing/contradictory information about parking, leading to a fee."
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "One seemed to be consenting to getting a root c",
+        "reasoning": "Reviewer describes confusion about consent forms presented at the visit, suggesting unclear explanation."
+      }
+    ]
+  },
+  {
+    "id": 512,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.85,
+        "quote": "The receptionist informed me orthodontics weren't covered under my insurance and tried to charge me the full fee",
+        "reasoning": "Practice failed to correctly verify insurance coverage before charging the patient."
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "They stopped accepting this insurance and did not inform me when I called with my updated policy information",
+        "reasoning": "Reviewer flags failure to communicate critical insurance status when directly asked."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.7,
+        "quote": "They stopped accepting this insurance and did not inform me when I called with my updated policy information",
+        "reasoning": "Insurance acceptance not verified/communicated before service even when patient asked directly."
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.9,
+        "quote": "I was offered a spot on the waiting list or an appointment several months out",
+        "reasoning": "Next available appointment was several months away."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.55,
+        "quote": "I found it hard to make an appointment",
+        "reasoning": "Reviewer states difficulty making/rescheduling appointments."
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "Made my wife pay a rescheduling fee when we had to cancel the appointment due to my fathers funeral",
+        "reasoning": "Unexpected rescheduling fee charged in extenuating circumstances; reads as a surprise/inflexible charge."
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "categories": []
+  },
+  {
+    "id": 517,
+    "categories": []
+  },
+  {
+    "id": 518,
+    "categories": []
+  },
+  {
+    "id": 519,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "Just tried to make and appointment for a cleaning and was denied because I called and canceled three times within a couple years",
+        "reasoning": "Patient was refused booking, a friction in scheduling access."
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "categories": []
+  },
+  {
+    "id": 521,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "50 dollar no show fee. during a pandemic. even called ahead and told them i couldn't come in",
+        "reasoning": "Unexpected fee charged despite advance notice."
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "categories": []
+  },
+  {
+    "id": 523,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.6,
+        "quote": "You have  to wait soooooo long",
+        "reasoning": "Reviewer cites long wait to get service for braces."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "They should've told us they don't allow cleaning for braces",
+        "reasoning": "Reviewer explicitly says practice failed to communicate a key policy."
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_after_hours_or_emergency",
+        "confidence": 0.75,
+        "quote": "I had a very bad experience when I needed to call the emergency line on a Saturday",
+        "reasoning": "Bad experience contacting the emergency line on a weekend suggests after-hours/emergency coverage failure."
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "wated 45 minutes in the chair and left forever",
+        "reasoning": "Patient explicitly waited 45 minutes in the chair past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "They were very slow and by the time she left she was about to wet herself",
+        "reasoning": "Reviewer describes excessive waiting/slow service during the visit."
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "categories": []
+  },
+  {
+    "id": 528,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "The communication is poor",
+        "reasoning": "Reviewer explicitly calls out poor communication."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "They had confirmed the price and the appointment and when I got there it was a totally different story",
+        "reasoning": "Quoted price diverged from what was billed/charged at appointment."
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Expect to wait at least an hour past your appt time",
+        "reasoning": "Patient waited an hour past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "categories": []
+  },
+  {
+    "id": 531,
+    "categories": []
+  },
+  {
+    "id": 532,
+    "categories": []
+  },
+  {
+    "id": 533,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "la señorita que me atendio en español no me Tomo ninguni dato",
+        "reasoning": "Reviewer describes failure of intake call — reception didn't take any of his information."
+      }
+    ]
+  },
+  {
+    "id": 534,
+    "categories": []
+  },
+  {
+    "id": 535,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.95,
+        "quote": "I’ve been calling for the past two weeks and no one ever answers. The voicemail says they’re open Monday to Friday",
+        "reasoning": "Patient called repeatedly during stated business hours with no answer."
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "categories": []
+  },
+  {
+    "id": 537,
+    "categories": []
+  },
+  {
+    "id": 538,
+    "categories": []
+  },
+  {
+    "id": 539,
+    "categories": []
+  }
+]

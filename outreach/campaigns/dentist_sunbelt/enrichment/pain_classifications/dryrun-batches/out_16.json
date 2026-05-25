@@ -1,0 +1,285 @@
+[
+  {
+    "id": 480,
+    "categories": []
+  },
+  {
+    "id": 481,
+    "categories": []
+  },
+  {
+    "id": 482,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "Claimed a treatment would be covered, then months later a bill arrived for said treatment.",
+        "reasoning": "Patient was told treatment was covered, then received an unexpected bill months later — classic surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "I was there for over 2 hours for just X-rays and a cleaning. I had to wait 35 mins after the X-ray for my cleaning and then another 25 mins for the dentist to come.",
+        "reasoning": "Long in-chair waits between procedure steps explicitly described."
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "I got X-rays and pictures taken for over an hour and was never seen for a cleaning",
+        "reasoning": "Patient sat through over an hour of imaging and never received the cleaning they came for — operational issue with prolonged session."
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "The dental surgeon was rude and unhelpful when seeking answers about care and follow-up. Was called names by the dental surgeon Dr. Brazil and treated poorly by his assistants.",
+        "reasoning": "Rude and dismissive treatment from non-front-desk staff (surgeon and assistants); taxonomy applies to any non-clinical/clinical staff being unprofessional in tone."
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Charges were murky and getting a reimbursement for overcharges was nearly",
+        "reasoning": "Murky charges and overcharges requiring reimbursement indicate surprise/unclear billing."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.7,
+        "quote": "getting a reimbursement for overcharges was nearly",
+        "reasoning": "Reimbursement/refund delay explicitly mentioned."
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "the office will try to extract more money of you after the fact. I made it a point to get proper estimates for all treatment before agreeing to anything. A few months later, they reached out harassing me for more money.",
+        "reasoning": "Patient got upfront estimates, but was billed for additional money months later — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 488,
+    "categories": []
+  },
+  {
+    "id": 489,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "I asked the receptionist to book my second dental cleaning the last day of my enamel dental insurance. She booked me past my insurance date and the office is refusing to give me the second cleaning I already paid for.",
+        "reasoning": "Receptionist mis-scheduled the appointment outside the insurance coverage window — scheduling failure."
+      }
+    ]
+  },
+  {
+    "id": 490,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I thought I was getting a full treatment, only to find out that the actual cleaning would be a lot more, only after I completed the consultation.",
+        "reasoning": "Bait-and-switch on quoted vs actual price — surprise billing/hidden upcharge."
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "categories": []
+  },
+  {
+    "id": 492,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I really appreciate transparency in pricing for the services you will receive to avoid any surprises.",
+        "reasoning": "Reviewer signals lack of pricing transparency leading to surprises during a routine cleaning visit."
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "categories": []
+  },
+  {
+    "id": 494,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Wait times were absolutely ridiculous. I got there 5 minutes early for my appointment for a cavity filling which I had scheduled online. I waited 30 minutes to see the dentist",
+        "reasoning": "30-minute wait past appointment time explicitly stated."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "I was notified that I was mistakenly schedule for a cleaning instead and the dentist didn't have",
+        "reasoning": "Booking error — wrong appointment type scheduled for the patient."
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "categories": []
+  },
+  {
+    "id": 496,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "Also never received the email about an estimated cost as they promise",
+        "reasoning": "Patient was promised a cost estimate email and never received it — patient actively expected a follow-up that didn't come."
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "Terrible communication with scheduling",
+        "reasoning": "Explicitly cited poor communication around scheduling."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "I sat on the chair for 1hr before a dentist came in the room and then they asked if we could reschedule the cleaning after I was there for over an hour.",
+        "reasoning": "Hour-long in-chair wait before being seen, then asked to reschedule."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "they asked if we could reschedule the cleaning after I was there for over an hour",
+        "reasoning": "Patient asked to reschedule after waiting — scheduling friction."
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "will give you a breakdown of what your expected bill to be, that is far from what the actual bill will be",
+        "reasoning": "Quoted bill diverges significantly from actual bill — textbook surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "categories": []
+  },
+  {
+    "id": 500,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.8,
+        "quote": "they needed to reschedule me to figure out which drugs I needed for a CLEANING. This was frustrating",
+        "reasoning": "Patient was rescheduled mid-process due to office disorganization."
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "categories": []
+  },
+  {
+    "id": 502,
+    "categories": []
+  },
+  {
+    "id": 503,
+    "categories": []
+  },
+  {
+    "id": 504,
+    "categories": []
+  },
+  {
+    "id": 505,
+    "categories": []
+  },
+  {
+    "id": 506,
+    "categories": []
+  },
+  {
+    "id": 507,
+    "categories": []
+  },
+  {
+    "id": 508,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "the hygienist wouldn’t do a fluoride treatment, saying that I needed to ask for that ahead of time. I found this odd as other dentists had always done this by default rather th",
+        "reasoning": "Implicit-vs-explicit expectations not communicated to patient about service availability."
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "the admin staff is very rude, curt",
+        "reasoning": "Explicit complaint about admin/front-desk staff being rude and curt."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.6,
+        "quote": "will ask you to pay for things upfront that your insurance will",
+        "reasoning": "Suggests insurance coverage isn't being properly verified before charging the patient."
+      }
+    ]
+  }
+]

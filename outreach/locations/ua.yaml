@@ -1,0 +1,44 @@
+country: UA
+locale: uk-UA
+# UA mobile prefixes are nationwide (50, 63, 66, 67, 68, 73, 93, 95, 96, 97,
+# 98, 99). They appear in every city's metro_area_codes because business
+# mobiles outnumber landlines in software-agency listings; without them every
+# mobile would flag as metro_mismatch.
+cities:
+  - name: kyiv
+    state: ''
+    metro_area_codes:
+      ['44',
+       '50', '63', '66', '67', '68', '73',
+       '93', '95', '96', '97', '98', '99']
+    geographic_prefixes:
+      - kyiv
+      - kiev
+      - київ
+      - ukraine
+      - україна
+    neighborhoods: []
+
+  - name: lviv
+    state: ''
+    metro_area_codes:
+      ['32',
+       '50', '63', '66', '67', '68', '73',
+       '93', '95', '96', '97', '98', '99']
+    geographic_prefixes:
+      - lviv
+      - lvov
+      - львів
+    neighborhoods: []
+
+  - name: dnipro
+    state: ''
+    metro_area_codes:
+      ['56',
+       '50', '63', '66', '67', '68', '73',
+       '93', '95', '96', '97', '98', '99']
+    geographic_prefixes:
+      - dnipro
+      - dnepr
+      - дніпро
+    neighborhoods: []

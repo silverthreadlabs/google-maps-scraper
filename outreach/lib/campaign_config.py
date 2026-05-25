@@ -196,9 +196,94 @@ def _overlay_dict(base: dict, overlay: dict | None) -> dict:
 
 
 def load_campaign(campaign_slug: str) -> CampaignConfig:
-    """Load + merge the three config sources for `campaign_slug`.
+    """Load + merge the three config sources for `campaign_slug`."""
+    campaign_dir = OUTREACH_ROOT / 'campaigns' / campaign_slug
+    if not campaign_dir.is_dir():
+        raise FileNotFoundError(f'campaign directory not found: {campaign_dir}')
 
-    Caller passes the slug (directory name under campaigns/), e.g.
-    'dentist_sunbelt'. Returns a fully-merged CampaignConfig.
-    """
-    raise NotImplementedError('filled in by subsequent tasks')
+    meta = _read_campaign_yaml(campaign_dir / 'campaign.yaml')
+    vertical_name = meta['vertical']
+    location_name = meta['location']
+
+    vertical_mod = _load_python_module(
+        OUTREACH_ROOT / 'verticals' / vertical_name / 'config.py',
+        module_name=f'outreach_vertical_{vertical_name}',
+    )
+
+    location = _read_location_yaml(
+        OUTREACH_ROOT / 'locations' / f'{location_name}.yaml',
+    )
+
+    overrides = _load_python_module_optional(
+        campaign_dir / 'overrides.py',
+        module_name=f'outreach_overrides_{campaign_slug}',
+    )
+
+    return _merge(meta, vertical_mod, location, overrides)
+
+
+def _merge(
+    meta: dict,
+    vertical: ModuleType,
+    location: dict,
+    overrides: ModuleType | None,
+) -> CampaignConfig:
+    """Combine the three sources into a single CampaignConfig."""
+    o = overrides
+
+    return CampaignConfig(
+        slug=meta['slug'],
+        vertical=meta['vertical'],
+        location=meta['location'],
+
+        pain_weights=_overlay_dict(
+            getattr(vertical, 'PAIN_WEIGHTS', {}),
+            getattr(o, 'PAIN_WEIGHTS', None) if o else None,
+        ),
+        service_map=_overlay_dict(
+            getattr(vertical, 'SERVICE_MAP', {}),
+            getattr(o, 'SERVICE_MAP', None) if o else None,
+        ),
+
+        dso_title_regex=_concat_regex(
+            getattr(vertical, 'DSO_TITLE_REGEX', None),
+            getattr(o, 'DSO_TITLE_REGEX_EXTRA', None) if o else None,
+        ),
+        dso_email_domains=_union_sets(
+            getattr(vertical, 'DSO_EMAIL_DOMAINS', set()),
+            getattr(o, 'DSO_EMAIL_DOMAINS_EXTRA', None) if o else None,
+        ),
+        geographic_prefixes=_union_sets(
+            _union_sets(
+                getattr(vertical, 'GEOGRAPHIC_PREFIXES_GENERIC', set()),
+                location.get('geographic_prefixes'),
+            ),
+            getattr(o, 'GEOGRAPHIC_PREFIXES_EXTRA', None) if o else None,
+        ),
+
+        metros=list(location.get('metros') or []),
+        metro_area_codes=dict(location.get('metro_area_codes') or {}),
+
+        enrich_profile=getattr(vertical, 'ENRICH_PROFILE', None),
+        vendor_domains_extra=frozenset(
+            getattr(vertical, 'VENDOR_DOMAINS_EXTRA', frozenset())
+        ) | frozenset(
+            getattr(o, 'VENDOR_DOMAINS_EXTRA', frozenset()) if o else frozenset()
+        ),
+        independent_filters=dict(
+            getattr(vertical, 'INDEPENDENT_FILTERS', {})
+        ),
+
+        osint_enabled=getattr(vertical, 'OSINT_ENABLED', False),
+        osint_sources=list(getattr(vertical, 'OSINT_SOURCES', [])),
+        osint_fields_desired=list(getattr(vertical, 'OSINT_FIELDS_DESIRED', [])),
+        osint_confidence_threshold=float(
+            getattr(vertical, 'OSINT_CONFIDENCE_THRESHOLD', 0.85)
+        ),
+        osint_handoff_fields=list(getattr(vertical, 'OSINT_HANDOFF_FIELDS', [])),
+        osint_serp_queries=dict(getattr(vertical, 'OSINT_SERP_QUERIES', {})),
+        osint_deep_crawl_paths=list(
+            getattr(vertical, 'OSINT_DEEP_CRAWL_PATHS', [])
+        ),
+        osint_industry_terms=list(getattr(vertical, 'OSINT_INDUSTRY_TERMS', [])),
+    )

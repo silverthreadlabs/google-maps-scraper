@@ -1,0 +1,2 @@
+{vertical_keyword} in {neighborhood} {city} {state}
+{vertical_keyword} clinic in {city} {state}

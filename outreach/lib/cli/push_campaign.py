@@ -1,7 +1,7 @@
 """
 Upsert a campaign in the stl-knights backend from a pipeline config.
 
-Reads `pipelines/<pipeline>/config.py` for metro/vertical metadata and
+Reads `campaigns/<pipeline>/config.py` for metro/vertical metadata and
 POSTs to the campaigns API. The pipeline directory name becomes the slug.
 
 Auth: reads OUTREACH_API_KEY from env (or --api-key). Exits 2 if unset.
@@ -21,7 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scripts._common import add_pipeline_arg, load_dotenv, load_pipeline_config
+from lib.cli._common import add_pipeline_arg, load_dotenv, load_pipeline_config
 
 load_dotenv()
 
@@ -38,16 +38,8 @@ def _resolve_api_key(cli_key: str | None) -> str:
 
 
 def _vertical_from_config(cfg) -> str:
-    """Best-effort vertical name from pipeline config.
-
-    Checks VERTICAL (explicit), then docstring first line, then falls
-    back to the pipeline slug itself."""
-    if hasattr(cfg, 'VERTICAL'):
-        return cfg.VERTICAL
-    doc = (cfg.__doc__ or '').strip().split('\n')[0].strip()
-    if doc:
-        return doc.rstrip('.')
-    return ''
+    """Vertical name from merged CampaignConfig."""
+    return getattr(cfg, 'vertical', '')
 
 
 def upsert_campaign(
@@ -129,7 +121,7 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_pipeline_config(args.pipeline)
 
     slug = args.pipeline.replace('/', '_')
-    metros = getattr(cfg, 'METROS', [])
+    metros = getattr(cfg, 'metros', [])
     metro = metros[0] if metros else ''
     vertical = _vertical_from_config(cfg)
     name = args.name or slug.replace('_', ' ').title()

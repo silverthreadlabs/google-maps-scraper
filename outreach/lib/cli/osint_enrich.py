@@ -21,14 +21,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from lib.enrichers.whois_lookup import lookup_domain
 from lib.enrichers.deep_site_crawl import crawl_domain
 from lib.enrichers.serp import run_serp_query_with_fallback
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
     pipeline_lock,
     require_attr,
 )
-from scripts.merge_crawl_into_master import latest_master
+from lib.cli.merge_crawl_into_master import latest_master
 
 
 def detect_gaps(lead: dict, fields_desired: list[str]) -> list[str]:
@@ -68,11 +68,11 @@ def _domain_from_website(url: str | None) -> str | None:
 
 def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
     """Run two-wave enrichment for a single lead. Returns sidecar record."""
-    fields_desired = list(getattr(cfg, 'OSINT_FIELDS_DESIRED', []))
-    sources = set(getattr(cfg, 'OSINT_SOURCES', []))
-    industry_terms = getattr(cfg, 'OSINT_INDUSTRY_TERMS', [])
-    serp_queries = getattr(cfg, 'OSINT_SERP_QUERIES', {})
-    deep_paths = getattr(cfg, 'OSINT_DEEP_CRAWL_PATHS', [])
+    fields_desired = list(getattr(cfg, 'osint_fields_desired', []))
+    sources = set(getattr(cfg, 'osint_sources', []))
+    industry_terms = getattr(cfg, 'osint_industry_terms', [])
+    serp_queries = getattr(cfg, 'osint_serp_queries', {})
+    deep_paths = getattr(cfg, 'osint_deep_crawl_paths', [])
 
     record = {
         'place_id': lead.get('place_id'),
@@ -272,7 +272,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     cfg = load_pipeline_config(args.pipeline)
-    if not getattr(cfg, 'OSINT_ENABLED', False):
+    if not getattr(cfg, 'osint_enabled', False):
         sys.stderr.write(f"OSINT disabled for pipeline {args.pipeline} (set OSINT_ENABLED=True in config.py)\n")
         return 0
 

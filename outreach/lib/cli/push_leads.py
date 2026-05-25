@@ -35,7 +35,7 @@ from lib.handoff.csv_builder import (
     top_pain_with_quotes,
     trustworthy_emails,
 )
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_dotenv,
     load_pipeline_config,
@@ -45,9 +45,9 @@ from scripts._common import (
 )
 
 load_dotenv()
-from scripts.analyze import merge_reviews, load_raw, dedupe_by_place_id
-from scripts.push_campaign import _resolve_api_key, _vertical_from_config, upsert_campaign
-from scripts.validate import latest_master
+from lib.cli.analyze import merge_reviews, load_raw, dedupe_by_place_id
+from lib.cli.push_campaign import _resolve_api_key, _vertical_from_config, upsert_campaign
+from lib.cli.validate import latest_master
 
 DEFAULT_CHUNK_SIZE = 50
 
@@ -314,7 +314,7 @@ def main(argv: list[str] | None = None) -> int:
 
     pain_weights = require_attr(cfg, 'PAIN_WEIGHTS', args.pipeline)
     service_map = require_attr(cfg, 'SERVICE_MAP', args.pipeline)
-    metros = getattr(cfg, 'METROS', [])
+    metros = getattr(cfg, 'metros', [])
     metro = metros[0] if metros else ''
     vertical = _vertical_from_config(cfg)
 

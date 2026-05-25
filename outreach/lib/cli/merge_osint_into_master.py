@@ -110,14 +110,14 @@ def _graft_list_field(lead: dict, field: str, fr: dict, threshold: float, enrich
 import argparse
 import json
 
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
     pipeline_lock,
     require_attr,
 )
-from scripts.merge_crawl_into_master import latest_master, write_atomic
+from lib.cli.merge_crawl_into_master import latest_master, write_atomic
 
 
 def _latest_osint_sidecar(pdir: Path) -> Path | None:
@@ -138,7 +138,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument('--sidecar', type=Path, default=None,
                         help='OSINT sidecar (default: latest enrichment/osint/<date>.json)')
     parser.add_argument('--threshold', type=float, default=None,
-                        help='confidence threshold (default: cfg.OSINT_CONFIDENCE_THRESHOLD)')
+                        help='confidence threshold (default: cfg.osint_confidence_threshold)')
     args = parser.parse_args(argv)
 
     cfg = load_pipeline_config(args.pipeline)

@@ -6,8 +6,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from scripts.analyze import (
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
+from lib.cli.analyze import (
     analyze,
     build_lead,
     dedupe_by_place_id,
@@ -206,23 +206,45 @@ class TestAnalyzeOrchestration(unittest.TestCase):
 
 class TestCli(unittest.TestCase):
     def _make_pipeline(self, tmpd: Path) -> Path:
-        """Spin up a minimal `outreach/pipelines/<x>/` shape that
-        load_pipeline_config can import. Returns the outreach root the test
-        should add to sys.path."""
+        """Spin up a minimal outreach root with the new campaign shape:
+        verticals/<v>/config.py + locations/<l>.yaml + campaigns/<c>/campaign.yaml.
+        Returns the outreach root the test should patch OUTREACH_ROOT to."""
         outreach_root = tmpd / 'outreach'
-        pipelines = outreach_root / 'pipelines'
-        pdir = pipelines / 'test_pipeline'
-        (pdir / 'raw').mkdir(parents=True)
-        (pdir / 'outputs').mkdir()
-        (pipelines / '__init__.py').write_text('')
-        (pdir / '__init__.py').write_text('')
-        (pdir / 'config.py').write_text(
+
+        # vertical
+        (outreach_root / 'verticals' / 'test_v').mkdir(parents=True)
+        (outreach_root / 'verticals' / 'test_v' / 'config.py').write_text(
             'import re\n'
             f'PAIN_WEIGHTS = {PAIN_WEIGHTS!r}\n'
+            'SERVICE_MAP = {}\n'
             'DSO_TITLE_REGEX = re.compile(r"\\b(Aspen Dental)\\b", re.I)\n'
             'DSO_EMAIL_DOMAINS = {"aspendental.com"}\n'
-            'GEOGRAPHIC_PREFIXES = {"dallas"}\n'
-            'METROS = ["dallas"]\n'
+            'GEOGRAPHIC_PREFIXES_GENERIC = set()\n'
+            'INDEPENDENT_FILTERS = {"max_rating_exclusive": 5.0}\n'
+            'OSINT_ENABLED = False\n'
+        )
+
+        # location
+        (outreach_root / 'locations').mkdir(parents=True)
+        (outreach_root / 'locations' / 'test_l.yaml').write_text(
+            "country: US\n"
+            "locale: en-US\n"
+            "cities:\n"
+            "  - name: dallas\n"
+            "    state: TX\n"
+            "    metro_area_codes: ['214']\n"
+            "    geographic_prefixes: ['dallas']\n"
+            "    neighborhoods: []\n"
+        )
+
+        # campaign
+        pdir = outreach_root / 'campaigns' / 'test_pipeline'
+        (pdir / 'raw').mkdir(parents=True)
+        (pdir / 'outputs').mkdir()
+        (pdir / 'campaign.yaml').write_text(
+            "vertical: test_v\n"
+            "location: test_l\n"
+            "slug: test_pipeline\n"
         )
         # write 2 raw rows
         raw = pdir / 'raw' / 'test.json'
@@ -237,21 +259,24 @@ class TestCli(unittest.TestCase):
             # Patch the OUTREACH_ROOT scripts._common resolved to so the
             # CLI talks to the temp pipeline. Easiest path: monkey-patch
             # both the constant and pipeline_dir's lookup base.
-            from scripts import _common
-            from scripts import analyze as analyze_mod
+            from lib.cli import _common
+            from lib import campaign_config as cc
             saved_root = _common.OUTREACH_ROOT
+            saved_cc_root = cc.OUTREACH_ROOT
             saved_paths = list(sys.path)
             _common.OUTREACH_ROOT = outreach_root
+            cc.OUTREACH_ROOT = outreach_root
             sys.path.insert(0, str(outreach_root))
             try:
                 rc = analyze_main(['test_pipeline', '--output-date', '2026-05-01'])
             finally:
                 _common.OUTREACH_ROOT = saved_root
+                cc.OUTREACH_ROOT = saved_cc_root
                 sys.path[:] = saved_paths
 
             self.assertEqual(rc, 0)
             out = json.loads(
-                (outreach_root / 'pipelines' / 'test_pipeline'
+                (outreach_root / 'campaigns' / 'test_pipeline'
                  / 'outputs' / '2026-05-01' / 'master.json').read_text()
             )
             self.assertEqual(len(out), 2)

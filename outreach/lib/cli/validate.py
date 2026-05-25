@@ -33,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from lib.validators.email import validate_email
 from lib.validators.phone import validate_phone
 from lib.validators.poc import validate_poc
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
@@ -118,8 +118,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     cfg = load_pipeline_config(args.pipeline)
-    extra_vendor = getattr(cfg, 'VENDOR_DOMAINS_EXTRA', frozenset())
-    metros = getattr(cfg, 'METRO_AREA_CODES', None)
+    extra_vendor = getattr(cfg, 'vendor_domains_extra', frozenset())
+    metros = getattr(cfg, 'metro_area_codes', None)
 
     pdir = pipeline_dir(args.pipeline)
     master_path = args.master or latest_master(pdir)

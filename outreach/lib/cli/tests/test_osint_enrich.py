@@ -3,8 +3,8 @@ import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from scripts.osint_enrich import detect_gaps
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
+from lib.cli.osint_enrich import detect_gaps
 
 
 FIELDS_DESIRED = [
@@ -45,7 +45,7 @@ class TestDetectGaps(unittest.TestCase):
 class TestEnrichLeadTwoWave(unittest.TestCase):
     def test_serp_wave_uses_poc_name_discovered_in_wave1(self):
         from unittest.mock import patch, MagicMock
-        from scripts.osint_enrich import enrich_lead
+        from lib.cli.osint_enrich import enrich_lead
 
         whois_result = {'registrant_name': None, 'registrant_email': None, 'registrant_org': None, 'status': 'redacted'}
         deep_result = {'persons': [{'name': 'Dr. John Smith', 'role': 'Owner', 'email': None,
@@ -58,20 +58,20 @@ class TestEnrichLeadTwoWave(unittest.TestCase):
             return {'engine': 'ddg', 'query': query, 'results': [], 'status': 'ok'}
 
         cfg = MagicMock(
-            OSINT_SOURCES=['whois', 'deep_site_crawl', 'serp'],
-            OSINT_FIELDS_DESIRED=['linkedin_url_poc', 'poc_name'],
-            OSINT_SERP_QUERIES={
+            osint_sources=['whois', 'deep_site_crawl', 'serp'],
+            osint_fields_desired=['linkedin_url_poc', 'poc_name'],
+            osint_serp_queries={
                 'linkedin_url_poc': 'site:linkedin.com/in "{poc_name}" "{city}" dental',
             },
-            OSINT_DEEP_CRAWL_PATHS=['/about'],
-            OSINT_INDUSTRY_TERMS=['dentist'],
+            osint_deep_crawl_paths=['/about'],
+            osint_industry_terms=['dentist'],
         )
         lead = {'place_id': 'A', 'business_name': 'Smith Family Dental',
                 'website': 'https://smithfamilydental.com', 'city': 'Phoenix', 'domain': 'smithfamilydental.com'}
 
-        with patch('scripts.osint_enrich.lookup_domain', return_value=whois_result), \
-             patch('scripts.osint_enrich.crawl_domain', return_value=deep_result), \
-             patch('scripts.osint_enrich.run_serp_query_with_fallback', side_effect=fake_serp):
+        with patch('lib.cli.osint_enrich.lookup_domain', return_value=whois_result), \
+             patch('lib.cli.osint_enrich.crawl_domain', return_value=deep_result), \
+             patch('lib.cli.osint_enrich.run_serp_query_with_fallback', side_effect=fake_serp):
             record = enrich_lead(lead, cfg, already_crawled=set())
 
         joined = '\n'.join(captured_serp_queries)
@@ -87,7 +87,7 @@ class TestSidecarResumability(unittest.TestCase):
     def test_load_existing_sidecar_returns_processed_place_ids(self):
         import json
         import tempfile
-        from scripts.osint_enrich import load_processed_place_ids
+        from lib.cli.osint_enrich import load_processed_place_ids
 
         with tempfile.NamedTemporaryFile(suffix='.json', mode='w', delete=False) as f:
             json.dump([
@@ -102,14 +102,14 @@ class TestSidecarResumability(unittest.TestCase):
             p.unlink()
 
     def test_load_processed_returns_empty_set_when_file_missing(self):
-        from scripts.osint_enrich import load_processed_place_ids
+        from lib.cli.osint_enrich import load_processed_place_ids
         ids = load_processed_place_ids(Path('/nonexistent/path.json'))
         self.assertEqual(ids, set())
 
     def test_append_record_writes_atomically(self):
         import json
         import tempfile
-        from scripts.osint_enrich import append_sidecar_record
+        from lib.cli.osint_enrich import append_sidecar_record
 
         with tempfile.TemporaryDirectory() as d:
             p = Path(d) / 'osint.json'
@@ -121,7 +121,7 @@ class TestSidecarResumability(unittest.TestCase):
 
 class TestApplyJudgments(unittest.TestCase):
     def test_merges_judgments_into_sidecar_by_place_id_and_field(self):
-        from scripts.osint_enrich import apply_judgments_to_sidecar
+        from lib.cli.osint_enrich import apply_judgments_to_sidecar
         sidecar = [{
             'place_id': 'A',
             'fields': {

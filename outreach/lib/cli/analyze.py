@@ -1,11 +1,11 @@
 """
 Build the initial master.json for a pipeline from its raw scrape NDJSON(s).
 
-Reads `pipelines/<pipeline>/raw/*.json`, dedupes by `place_id`, runs chain
+Reads `campaigns/<pipeline>/raw/*.json`, dedupes by `place_id`, runs chain
 detection (`lib.chain_detection.ChainDetector`), computes review-merge stats
 and `quality_score`, validates incoming gosom-side emails to partition them
 into `emails` vs `emails_invalid` at ingest, and writes
-`pipelines/<pipeline>/outputs/<date>/master.json`.
+`campaigns/<pipeline>/outputs/<date>/master.json`.
 
 Email-ingest hardening (`emails_invalid` at boundary):
   Gosom's email regex captures WordPress image filenames like
@@ -37,7 +37,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from lib.chain_detection import ChainDetector
 from lib.ranking import quality_score, tier
 from lib.validators.email import validate_email
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
@@ -271,9 +271,9 @@ def main(argv: list[str] | None = None) -> int:
     dso_title_regex     = require_attr(cfg, 'DSO_TITLE_REGEX', args.pipeline)
     dso_email_domains   = require_attr(cfg, 'DSO_EMAIL_DOMAINS', args.pipeline)
     geographic_prefixes = require_attr(cfg, 'GEOGRAPHIC_PREFIXES', args.pipeline)
-    metros              = getattr(cfg, 'METROS', [])
+    metros              = getattr(cfg, 'metros', [])
     metro               = metros[0] if metros else ''
-    extra_vendor        = getattr(cfg, 'VENDOR_DOMAINS_EXTRA', frozenset())
+    extra_vendor        = getattr(cfg, 'vendor_domains_extra', frozenset())
 
     pdir = pipeline_dir(args.pipeline)
     raw_dir = pdir / 'raw'

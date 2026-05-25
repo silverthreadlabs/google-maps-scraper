@@ -7,31 +7,31 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
 
 
 class _LockTestBase(unittest.TestCase):
     """Patches OUTREACH_ROOT to a fresh temp dir per test so the lockfile
-    lands somewhere disposable instead of in the real outreach/pipelines/."""
+    lands somewhere disposable instead of in the real outreach/campaigns/."""
 
     def setUp(self):
         self.tmpdir = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmpdir.cleanup)
         self.outreach_root = Path(self.tmpdir.name)
-        (self.outreach_root / 'pipelines' / 'test_vertical').mkdir(parents=True)
+        (self.outreach_root / 'campaigns' / 'test_vertical').mkdir(parents=True)
 
-        self.outreach_patch = patch('scripts._common.OUTREACH_ROOT', self.outreach_root)
+        self.outreach_patch = patch('lib.cli._common.OUTREACH_ROOT', self.outreach_root)
         self.outreach_patch.start()
         self.addCleanup(self.outreach_patch.stop)
 
     @property
     def lockfile(self) -> Path:
-        return self.outreach_root / 'pipelines' / 'test_vertical' / '.lock'
+        return self.outreach_root / 'campaigns' / 'test_vertical' / '.lock'
 
 
 class TestPipelineLockHappyPath(_LockTestBase):
     def test_acquires_writes_payload_and_releases(self):
-        from scripts._common import pipeline_lock
+        from lib.cli._common import pipeline_lock
 
         self.assertFalse(self.lockfile.exists())
         with pipeline_lock('test_vertical', 'enrich'):
@@ -46,7 +46,7 @@ class TestPipelineLockHappyPath(_LockTestBase):
         self.assertFalse(self.lockfile.exists())
 
     def test_releases_lock_on_exception(self):
-        from scripts._common import pipeline_lock
+        from lib.cli._common import pipeline_lock
 
         with self.assertRaises(ValueError):
             with pipeline_lock('test_vertical', 'enrich'):
@@ -60,7 +60,7 @@ class TestPipelineLockHappyPath(_LockTestBase):
 
 class TestPipelineLockContention(_LockTestBase):
     def test_refuses_when_held_by_live_pid(self):
-        from scripts._common import pipeline_lock
+        from lib.cli._common import pipeline_lock
 
         # Our own PID is alive — writing it should make the next acquire
         # refuse with exit 2.
@@ -81,7 +81,7 @@ class TestPipelineLockContention(_LockTestBase):
         self.assertEqual(payload['stage'], 'enrich')
 
     def test_reclaims_stale_lock_when_pid_not_alive(self):
-        from scripts._common import pipeline_lock
+        from lib.cli._common import pipeline_lock
 
         # PID 0 is reserved (kernel scheduler) and `os.kill(0, 0)` is
         # special — using it lets _pid_alive return False reliably without
@@ -100,7 +100,7 @@ class TestPipelineLockContention(_LockTestBase):
         self.assertFalse(self.lockfile.exists())
 
     def test_corrupt_lockfile_is_reclaimed(self):
-        from scripts._common import pipeline_lock
+        from lib.cli._common import pipeline_lock
 
         self.lockfile.write_text('{ this is not valid json')
 
@@ -115,7 +115,7 @@ class TestPipelineLockSafety(_LockTestBase):
         # If a manual `rm` or another acquirer overwrites the lockfile
         # mid-run, our context manager must not delete the new owner's
         # lock when our `with` block exits.
-        from scripts._common import pipeline_lock
+        from lib.cli._common import pipeline_lock
 
         with pipeline_lock('test_vertical', 'enrich'):
             # Simulate a different process taking over (don't do this for

@@ -5,8 +5,8 @@ import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from scripts.owner_lookup import (
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
+from lib.cli.owner_lookup import (
     OWNER_SOURCE,
     apply_sidecar,
     print_queue,

@@ -6,9 +6,9 @@ from pathlib import Path
 from types import ModuleType
 from unittest.mock import MagicMock, patch
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
 
-from scripts.push_campaign import (
+from lib.cli.push_campaign import (
     _resolve_api_key,
     _vertical_from_config,
     upsert_campaign,
@@ -35,22 +35,16 @@ class TestResolveApiKey(unittest.TestCase):
 class TestVerticalFromConfig(unittest.TestCase):
     def test_explicit_vertical_attr(self):
         cfg = ModuleType('cfg')
-        cfg.VERTICAL = 'cosmetic surgery'
+        cfg.vertical = 'cosmetic surgery'
         self.assertEqual(_vertical_from_config(cfg), 'cosmetic surgery')
 
-    def test_falls_back_to_docstring(self):
+    def test_empty_when_no_vertical(self):
         cfg = ModuleType('cfg')
-        cfg.__doc__ = 'Dental Sunbelt campaign.\nMore details.'
-        self.assertEqual(_vertical_from_config(cfg), 'Dental Sunbelt campaign')
-
-    def test_empty_when_no_info(self):
-        cfg = ModuleType('cfg')
-        cfg.__doc__ = None
         self.assertEqual(_vertical_from_config(cfg), '')
 
 
 class TestUpsertCampaign(unittest.TestCase):
-    @patch('scripts.push_campaign.urllib.request.urlopen')
+    @patch('lib.cli.push_campaign.urllib.request.urlopen')
     def test_success(self, mock_urlopen):
         response_data = {'success': True, 'data': {'id': 'uuid-1', 'slug': 'test'}}
         mock_resp = MagicMock()
@@ -77,13 +71,13 @@ class TestUpsertCampaign(unittest.TestCase):
 
 
 class TestMainCLI(unittest.TestCase):
-    @patch('scripts.push_campaign.upsert_campaign')
-    @patch('scripts.push_campaign.load_pipeline_config')
-    @patch('scripts.push_campaign._resolve_api_key')
+    @patch('lib.cli.push_campaign.upsert_campaign')
+    @patch('lib.cli.push_campaign.load_pipeline_config')
+    @patch('lib.cli.push_campaign._resolve_api_key')
     def test_derives_slug_from_pipeline_name(self, mock_key, mock_cfg, mock_upsert):
         mock_key.return_value = 'key123456789012345678901234567890'
         cfg = ModuleType('cfg')
-        cfg.METROS = ['dallas']
+        cfg.metros = ['dallas']
         cfg.__doc__ = 'Cosmetic Surgeons Dallas.'
         mock_cfg.return_value = cfg
         mock_upsert.return_value = {'data': {'id': 'uuid-1'}}

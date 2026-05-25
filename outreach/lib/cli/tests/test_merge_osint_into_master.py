@@ -3,8 +3,8 @@ import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from scripts.merge_osint_into_master import graft
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
+from lib.cli.merge_osint_into_master import graft
 
 
 CANDIDATE_HIGH = {

@@ -26,14 +26,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lib.handoff.csv_builder import build_handoff
 from lib.ranking import tier
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
     pipeline_lock,
     require_attr,
 )
-from scripts.validate import latest_master  # reuse the same convention
+from lib.cli.validate import latest_master  # reuse the same convention
 
 
 def _owner_lookup_candidates(master_path: Path) -> int:

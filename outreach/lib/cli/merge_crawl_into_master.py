@@ -28,7 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lib.chain_detection import extract_hostname
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     pipeline_dir,
     pipeline_lock,

@@ -60,9 +60,9 @@ different master than the one given here — investigate before shipping.
 Usage
 -----
     python outreach/scripts/merge_classifications.py \\
-        --master   outreach/pipelines/dental_sunbelt/outputs/2026-04-25/master.json \\
-        --sidecar  outreach/pipelines/dental_sunbelt/enrichment/pain_classifications/2026-04-30.json \\
-        --out      outreach/pipelines/dental_sunbelt/outputs/2026-04-30/master.json
+        --master   outreach/campaigns/dental_sunbelt/outputs/2026-04-25/master.json \\
+        --sidecar  outreach/campaigns/dental_sunbelt/enrichment/pain_classifications/2026-04-30.json \\
+        --out      outreach/campaigns/dental_sunbelt/outputs/2026-04-30/master.json
 """
 from __future__ import annotations
 
@@ -132,11 +132,11 @@ def merge(
 
 def _pipeline_from_path(path: Path) -> str:
     """Extract the pipeline name from a master.json path like
-    `.../pipelines/<name>/outputs/<date>/master.json`. Returns '' if the
+    `.../campaigns/<name>/outputs/<date>/master.json`. Returns '' if the
     path doesn't follow that convention."""
     parts = path.parts
-    if 'pipelines' in parts:
-        i = parts.index('pipelines')
+    if 'campaigns' in parts:
+        i = parts.index('campaigns')
         if i + 1 < len(parts):
             return parts[i + 1]
     return ''
@@ -183,9 +183,9 @@ def main(argv: list[str] | None = None) -> int:
     pain_weights = None
     if pipeline:
         try:
-            from scripts._common import load_pipeline_config
+            from lib.cli._common import load_pipeline_config
             cfg = load_pipeline_config(pipeline)
-            pain_weights = getattr(cfg, 'PAIN_WEIGHTS', None)
+            pain_weights = getattr(cfg, 'pain_weights', None)
         except SystemExit:
             pain_weights = None
     if pain_weights is None:

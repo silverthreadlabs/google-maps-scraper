@@ -1,7 +1,7 @@
 """
 Run website-crawl enrichment for a pipeline.
 
-Reads the lead queue from `pipelines/<pipeline>/enrichment/crawl_queue.json`
+Reads the lead queue from `campaigns/<pipeline>/enrichment/crawl_queue.json`
 (override with `--queue`). Walks each lead's website with agent-browser via
 the lib's `run_pool`, writing per-lead enriched payloads to
 `enrichment/website_crawl.json` and a retry list to `website_crawl_retry.json`.
@@ -24,7 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lib.enrichers.website_crawl import run_pool
-from scripts._common import (
+from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
     pipeline_dir,
@@ -40,7 +40,7 @@ def main(argv: list[str] | None = None) -> int:
     add_pipeline_arg(parser)
     parser.add_argument(
         '--queue', type=Path, default=None,
-        help='lead queue JSON (default: pipelines/<pipeline>/enrichment/crawl_queue.json)',
+        help='lead queue JSON (default: campaigns/<pipeline>/enrichment/crawl_queue.json)',
     )
     parser.add_argument(
         '--workers', type=int, default=4,

@@ -5,9 +5,9 @@ import unittest
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
 
-from scripts.push_leads import (
+from lib.cli.push_leads import (
     _build_emails,
     _build_pocs,
     _build_reviews_payload,

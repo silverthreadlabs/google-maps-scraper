@@ -36,7 +36,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scripts._common import add_pipeline_arg, pipeline_dir, pipeline_lock
+from lib.cli._common import add_pipeline_arg, pipeline_dir, pipeline_lock
 
 
 OWNER_SOURCE = 'web_search_linkedin'

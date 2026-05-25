@@ -5,8 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from scripts.merge_classifications import merge, write_atomic, PROVENANCE_TAG, main
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent.parent))
+from lib.cli.merge_classifications import merge, write_atomic, PROVENANCE_TAG, main
 
 
 HIT = {

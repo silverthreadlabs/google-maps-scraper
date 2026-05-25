@@ -66,8 +66,11 @@ NOREPLY_RE = re.compile(
     re.I,
 )
 
-# Image filenames captured by the @-regex (e.g. fancybox_sprite@2x.png)
-IMAGE_RE = re.compile(r'@\d+x\.(png|jpg|jpeg|svg|gif|webp)$', re.I)
+# Image filenames captured by the @-regex. Two flavors observed in the wild:
+#   foo@2x.png            — retina-suffix immediately after the @
+#   foo@-158x106.jpg      — width×height suffix with a separator after the @
+# Allow any non-alpha chars between the @ and the `<digits>x<ext>` tail.
+IMAGE_RE = re.compile(r'@[^a-zA-Z]*\d+x\d*\.(png|jpg|jpeg|svg|gif|webp)$', re.I)
 
 # Basic email shape — already filtered upstream but double-check.
 EMAIL_RE = re.compile(r'^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
@@ -86,6 +89,13 @@ def validate_email(
 
     if IMAGE_RE.search(em):
         return False, 'image_artifact'
+
+    # URL-encoded chars in the local part are scraper noise (e.g. '%20info@...'
+    # where '%20' is an encoded leading space). Real address syntax doesn't
+    # use percent-encoding; the clean form is usually right next to it in
+    # the captured list.
+    if '%' in em.split('@', 1)[0]:
+        return False, 'malformed'
 
     if not EMAIL_RE.match(em):
         return False, 'malformed'

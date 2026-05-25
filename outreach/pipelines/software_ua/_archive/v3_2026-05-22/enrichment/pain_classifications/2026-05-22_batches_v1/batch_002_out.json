@@ -1,0 +1,101 @@
+[
+  {"id": 60, "categories": []},
+  {"id": 61, "categories": []},
+  {"id": 62, "categories": []},
+  {"id": 63, "categories": []},
+  {
+    "id": 64,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.78,
+        "quote": "She repeatedly asked the same questions without modification, even after I mentioned not understanding her.",
+        "reasoning": "Reviewer describes unclear/contradictory communication from HR staff — repeated questions without clarification despite stated confusion."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.7,
+        "quote": "her communication seemed limited to English, which could be challenging for non-English speakers",
+        "reasoning": "Explicit complaint that staff couldn't communicate with non-English speakers."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "They kept me waiting in the loby and then sales representative denied attending me.",
+        "reasoning": "Customer was kept waiting then not attended to — operational waiting/inattention signal."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "sales representative denied attending me. Felt ignored.",
+        "reasoning": "Customer raised an inquiry (mobile app development) and was dismissed/ignored by sales."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.72,
+        "quote": "always giving an excuse as out of scope at the end by use this excuse to milk you",
+        "reasoning": "Describes bait-and-switch / hidden upcharges via 'out of scope' billing after deposit."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.82,
+        "quote": "They keep redirecting inquiries to one another and wasting valuable time of others.",
+        "reasoning": "Sales staff give contradictory/unclear info, bouncing inquiries between people — classic poor communication."
+      }
+    ]
+  },
+  {"id": 68, "categories": []},
+  {"id": 69, "categories": []},
+  {"id": 70, "categories": []},
+  {"id": 71, "categories": []},
+  {"id": 72, "categories": []},
+  {"id": 73, "categories": []},
+  {"id": 74, "categories": []},
+  {
+    "id": 75,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "Management never listens to employee problems.",
+        "reasoning": "Explicit complaint that concerns raised are ignored — fits not_listening sub, though context is employee not customer."
+      }
+    ]
+  },
+  {"id": 76, "categories": []},
+  {"id": 77, "categories": []},
+  {"id": 78, "categories": []},
+  {"id": 79, "categories": []},
+  {"id": 80, "categories": []},
+  {"id": 81, "categories": []},
+  {"id": 82, "categories": []},
+  {"id": 83, "categories": []},
+  {"id": 84, "categories": []},
+  {"id": 85, "categories": []},
+  {"id": 86, "categories": []},
+  {"id": 87, "categories": []},
+  {"id": 88, "categories": []},
+  {"id": 89, "categories": []}
+]

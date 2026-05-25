@@ -1,0 +1,150 @@
+[
+  {
+    "lead_title": "EVNE Developers",
+    "website": "http://evnedev.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "SvitSoft | Світсофт - Digital Transformation",
+    "website": "https://www.svitsoft.com/?utm_source=google&utm_medium=business&utm_campaign=perehod_na_site",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_ABORTED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Linkos Group",
+    "website": "https://www.linkos.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Cprime Studios",
+    "website": "https://cprimestudios.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Eurosoftware UA Ltd.",
+    "website": "http://www.eurosoftware.com.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Melexis Ukraine",
+    "website": "http://melexis.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Mobilunity",
+    "website": "https://mobilunity.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "HAPPY Design studio",
+    "website": "http://happydesign.pro/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "JANUARY UA",
+    "website": "http://www.january.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Empat",
+    "website": "https://empat.tech/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Binary Studio",
+    "website": "https://binary-studio.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "DeepInspire",
+    "website": "https://www.deepinspire.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Просування сайтів Львів — COMPAS Agency",
+    "website": "https://compas.agency/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Django Stars LLC - Software Development Company",
+    "website": "http://djangostars.com/#hello-gmb",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Brights",
+    "website": "http://brights.io/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ELITEX",
+    "website": "http://elitex.systems/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "BotsBand",
+    "website": "https://botsband.online/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Operation timed out. The page may still be loading or the element may not exist. "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  }
+]

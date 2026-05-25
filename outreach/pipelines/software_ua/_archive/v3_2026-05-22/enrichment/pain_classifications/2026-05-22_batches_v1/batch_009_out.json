@@ -1,0 +1,52 @@
+[
+  {"id": 270, "categories": []},
+  {"id": 271, "categories": []},
+  {"id": 272, "categories": []},
+  {"id": 273, "categories": []},
+  {"id": 274, "categories": []},
+  {"id": 275, "categories": []},
+  {"id": 276, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "відчувешь на собі зовсім не дружнє ставлення", "reasoning": "Visitor describes unfriendly/dismissive treatment from staff at the barrier."}
+  ]},
+  {"id": 277, "categories": []},
+  {"id": 278, "categories": []},
+  {"id": 279, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.65, "quote": "знайти людину, яка відповість на дзвінок або повідомлення", "reasoning": "Client actively chasing the agency for callbacks/replies that never come."},
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.6, "quote": "пропонують платні послуги, вартість яких вища за середню по ринку", "reasoning": "Client says promised free promotion is swapped for unexpected paid services after initial agreement."}
+  ]},
+  {"id": 280, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.8, "quote": "Спілкування менеджера жахливе", "reasoning": "Direct complaint that the manager's communication tone was awful."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.7, "quote": "Звіти не зрозуміли, для клієнта. Мені надсилали звіти слово с слово з тижня в тиждень", "reasoning": "Reports were unclear and duplicated week-to-week, evidencing absent/unclear info."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.6, "quote": "затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати", "reasoning": "Client had to chase the agency for status updates that were never proactively sent."}
+  ]},
+  {"id": 281, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.7, "quote": "під  виглядом певного продукту ви впарюєте просто шокуюче відверту єрунду", "reasoning": "Bait-and-switch — paid for one product, received something materially different."}
+  ]},
+  {"id": 282, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.8, "quote": "Про ці \"правила\" ми дізнались тільки в кінці співпраці", "reasoning": "Critical rule never communicated upfront — explicit unclear/absent information."}
+  ]},
+  {"id": 283, "categories": []},
+  {"id": 284, "categories": []},
+  {"id": 285, "categories": []},
+  {"id": 286, "categories": []},
+  {"id": 287, "categories": []},
+  {"id": 288, "categories": []},
+  {"id": 289, "categories": []},
+  {"id": 290, "categories": []},
+  {"id": 291, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.8, "quote": "there are also many contradictions between what they initially say and what they actually do", "reasoning": "Explicit contradictory information from staff vs delivery."}
+  ]},
+  {"id": 292, "categories": []},
+  {"id": 293, "categories": []},
+  {"id": 294, "categories": []},
+  {"id": 295, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "Хамское общение", "reasoning": "Explicit rude/boorish communication from staff."},
+    {"main": "calls_unanswered", "sub": "voicemail_never_returned", "confidence": 0.55, "quote": "игнорирование телефонных звонков", "reasoning": "Phone calls being ignored — closest fit is unanswered/unreturned calls."}
+  ]},
+  {"id": 296, "categories": []},
+  {"id": 297, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "Хамуватий персонал", "reasoning": "Direct statement that staff are rude/boorish."}
+  ]},
+  {"id": 298, "categories": []},
+  {"id": 299, "categories": []}
+]

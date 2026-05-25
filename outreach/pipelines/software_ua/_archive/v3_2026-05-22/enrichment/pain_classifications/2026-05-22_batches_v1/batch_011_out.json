@@ -1,0 +1,184 @@
+[
+  {
+    "id": 330,
+    "categories": []
+  },
+  {
+    "id": 331,
+    "categories": []
+  },
+  {
+    "id": 332,
+    "categories": []
+  },
+  {
+    "id": 333,
+    "categories": []
+  },
+  {
+    "id": 334,
+    "categories": []
+  },
+  {
+    "id": 335,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "Don't have staff to help anyone.",
+        "reasoning": "Indicates absent/unhelpful staff support, a frontline communication gap, though sub-category is ambiguous."
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "categories": []
+  },
+  {
+    "id": 337,
+    "categories": []
+  },
+  {
+    "id": 338,
+    "categories": []
+  },
+  {
+    "id": 339,
+    "categories": []
+  },
+  {
+    "id": 340,
+    "categories": []
+  },
+  {
+    "id": 341,
+    "categories": []
+  },
+  {
+    "id": 342,
+    "categories": []
+  },
+  {
+    "id": 343,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.9,
+        "quote": "Multiple emails and phone calls, but no response at all.",
+        "reasoning": "Reviewer made repeated phone calls (and emails) and got no callback over two weeks."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.92,
+        "quote": "As a business actively seeking a marketing partner, I expected at least some acknowledgment or follow-up.",
+        "reasoning": "Patient/prospect actively inquired and never received a callback — classic dropped lead."
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "Our concerns were repeatedly ignored or mishandled, leading to a further breakdown of trust.",
+        "reasoning": "Customer raised specific concerns that were dismissed/ignored."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Jives Media regularly took days to respond to our emails, even as a new client.",
+        "reasoning": "Slow/poor communication responsiveness from staff."
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "categories": []
+  },
+  {
+    "id": 346,
+    "categories": []
+  },
+  {
+    "id": 347,
+    "categories": []
+  },
+  {
+    "id": 348,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "no response",
+        "reasoning": "Brief but indicates no response to an inquiry; channel ambiguous."
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "categories": []
+  },
+  {
+    "id": 350,
+    "categories": []
+  },
+  {
+    "id": 351,
+    "categories": []
+  },
+  {
+    "id": 352,
+    "categories": []
+  },
+  {
+    "id": 353,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "quote": "They don't even text back.",
+        "reasoning": "Outreach (text) goes unanswered — closest fit is unanswered-callback pattern."
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.85,
+        "quote": "i am trying to contact from 30 june but still no reply",
+        "reasoning": "Repeated contact attempts with no reply over an extended period."
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "categories": []
+  },
+  {
+    "id": 356,
+    "categories": []
+  },
+  {
+    "id": 357,
+    "categories": []
+  },
+  {
+    "id": 358,
+    "categories": []
+  },
+  {
+    "id": 359,
+    "categories": []
+  }
+]

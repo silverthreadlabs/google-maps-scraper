@@ -1,0 +1,53 @@
+[
+  {"id": 300, "categories": []},
+  {"id": 301, "categories": []},
+  {"id": 302, "categories": []},
+  {"id": 303, "categories": []},
+  {"id": 304, "categories": []},
+  {"id": 305, "categories": []},
+  {"id": 306, "categories": []},
+  {"id": 307, "categories": []},
+  {"id": 308, "categories": []},
+  {"id": 309, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.72, "quote": "Хамство і шахрайство", "reasoning": "Reviewer calls out rude/dismissive staff behavior ('rudeness')."}
+  ]},
+  {"id": 310, "categories": []},
+  {"id": 311, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "I had to constantly chase them just to get basic tasks done", "reasoning": "Customer actively chasing the agency for deliverables — pattern of dropped follow-through on requested work."}
+  ]},
+  {"id": 312, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.78, "quote": "waited for half an hour for a person yo come and take my cv", "reasoning": "Customer waited far past expected service time at the help desk."}
+  ]},
+  {"id": 313, "categories": []},
+  {"id": 314, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.78, "quote": "после получения денег морозятся и хамят", "reasoning": "After payment, staff become rude and ignore the customer — rude tone from staff."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.6, "quote": "после получения денег морозятся", "reasoning": "Customer reports being 'frozen out' (ignored) after paying — dropped responsiveness."}
+  ]},
+  {"id": 315, "categories": []},
+  {"id": 316, "categories": []},
+  {"id": 317, "categories": []},
+  {"id": 318, "categories": []},
+  {"id": 319, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.88, "quote": "хамське ставлення і грубість з боку Надії Вергелес", "reasoning": "Explicit complaint about rude attitude and rudeness from a named staff member."}
+  ]},
+  {"id": 320, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.75, "quote": "зверхність ледве не з порогу", "reasoning": "Reviewer reports arrogant/dismissive tone from staff almost from the door."}
+  ]},
+  {"id": 321, "categories": [
+    {"main": "calls_unanswered", "sub": "voicemail_never_returned", "confidence": 0.7, "quote": "Ні на дзвінки, ні в пошту, ні в чат не відповідають", "reasoning": "Multiple channels (calls, email, chat) unanswered for days."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.78, "quote": "Вже декілька днів чекаємо відповіді", "reasoning": "Customer awaiting a response for days after reaching out — dropped inquiry."}
+  ]},
+  {"id": 322, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.72, "quote": "\"футболили\" від одного до іншого так і не вирішивши питання", "reasoning": "Customer shuffled between staff with no resolution — unclear/contradictory handling of the inquiry."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "не прийнявши замовлення", "reasoning": "Customer's order/inquiry was never accepted or followed through."}
+  ]},
+  {"id": 323, "categories": [
+    {"main": "calls_unanswered", "sub": "missed_calls_during_business_hours", "confidence": 0.85, "quote": "Не можливо зв'язатись з менеджером ні по телефону, ні залишивши заявку", "reasoning": "Cannot reach manager by phone; operator never answered after 5+ min in queue."}
+  ]},
+  {"id": 324, "categories": []},
+  {"id": 325, "categories": []},
+  {"id": 326, "categories": []},
+  {"id": 327, "categories": []},
+  {"id": 328, "categories": []},
+  {"id": 329, "categories": []}
+]

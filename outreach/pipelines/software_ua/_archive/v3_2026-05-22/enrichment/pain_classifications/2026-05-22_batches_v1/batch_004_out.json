@@ -1,0 +1,223 @@
+[
+  {
+    "id": 120,
+    "categories": []
+  },
+  {
+    "id": 121,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "Служба техпідтримки тільки реєструє звернення і все, ні якого зворотного зв'язку",
+        "reasoning": "User contacted support and never received a callback/response."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "categories": []
+  },
+  {
+    "id": 123,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "майже неможливо звʼязатись",
+        "reasoning": "Customer says it's nearly impossible to reach support by phone."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "такого хамського відношення я ще не чула",
+        "reasoning": "Explicit complaint about rude tone from support operator."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "менеджер Альона відповідала на мої запитання зверхньо та непривітно",
+        "reasoning": "Manager spoke condescendingly and unfriendly — rude tone."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "no_show_reminder_missing",
+        "confidence": 0.55,
+        "quote": "нет уведомлений об освободившемся месте у врача",
+        "reasoning": "No notifications about available appointment slots — missing proactive reminder."
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "не можливо записатись на прийом",
+        "reasoning": "Cannot book an appointment due to system bugs."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "categories": []
+  },
+  {
+    "id": 128,
+    "categories": []
+  },
+  {
+    "id": 129,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "прийшовши до лікаря з‘ясувалося що лікар не знає про прийом, так як з даного сервісу не передали про мій запис",
+        "reasoning": "Booking made through service didn't reach the doctor — scheduling failure requiring user to call to confirm."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "categories": []
+  },
+  {
+    "id": 131,
+    "categories": []
+  },
+  {
+    "id": 132,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "менеджер Каріна спочатку створила атмосферу не затишку і не комфорту",
+        "reasoning": "Manager created uncomfortable atmosphere — rude/dismissive front-line behavior."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "сказала мені щоб я передзвонила а коли я передзвонила то мені передзвонили чере годину коли мені вже стало не потрібно",
+        "reasoning": "Customer was told to call back, then callback came an hour late when no longer needed — dropped lead."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "Технічна підтримка, будь-ласка звʼяжіться зі мною",
+        "reasoning": "User pleading for support to contact them — request unanswered."
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "categories": []
+  },
+  {
+    "id": 135,
+    "categories": []
+  },
+  {
+    "id": 136,
+    "categories": []
+  },
+  {
+    "id": 137,
+    "categories": []
+  },
+  {
+    "id": 138,
+    "categories": []
+  },
+  {
+    "id": 139,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "менеджер відписує переважно загальними фразами",
+        "reasoning": "Manager replied with vague generic phrases — unclear communication."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "мені щоразу обіцяють \"до кінця наступного тижня\"",
+        "reasoning": "Repeated unfulfilled promises of callback/delivery — dropped follow-through."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "categories": []
+  },
+  {
+    "id": 141,
+    "categories": []
+  },
+  {
+    "id": 142,
+    "categories": []
+  },
+  {
+    "id": 143,
+    "categories": []
+  },
+  {
+    "id": 144,
+    "categories": []
+  },
+  {
+    "id": 145,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "It is painful when one is not entertained on telephone with courtesy and interest",
+        "reasoning": "Lack of courtesy on the phone — discourteous front-line behavior."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "categories": []
+  },
+  {
+    "id": 147,
+    "categories": []
+  },
+  {
+    "id": 148,
+    "categories": []
+  },
+  {
+    "id": 149,
+    "categories": []
+  }
+]

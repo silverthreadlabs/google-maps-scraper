@@ -1,0 +1,209 @@
+[
+  {
+    "id": 240,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "После того как вам пообещают ответить до конца дня или отправить коммерческое предложение, пройдёт дней 5-ть",
+        "reasoning": "Customer was promised a commercial proposal/response by end of day and waited 5 days — classic dropped lead/quote."
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "После оплаты  2 дня ждал пока со мной связались",
+        "reasoning": "After paying, customer waited 2 days for any contact — vendor failed to follow up on an active engagement."
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "categories": []
+  },
+  {
+    "id": 243,
+    "categories": []
+  },
+  {
+    "id": 244,
+    "categories": []
+  },
+  {
+    "id": 245,
+    "categories": []
+  },
+  {
+    "id": 246,
+    "categories": []
+  },
+  {
+    "id": 247,
+    "categories": []
+  },
+  {
+    "id": 248,
+    "categories": []
+  },
+  {
+    "id": 249,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "quote": "koi reply nahi date kab sa tanga hua ha",
+        "reasoning": "Customer reports no reply for a long time — appears to be a dropped inquiry/lead."
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "categories": []
+  },
+  {
+    "id": 251,
+    "categories": []
+  },
+  {
+    "id": 252,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "Обслуговують довго, замовлення переплутали",
+        "reasoning": "Customer reports long service wait at the cafe."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.45,
+        "quote": "замовлення переплутали",
+        "reasoning": "Order was mixed up — suggests communication/intake error, though weak signal."
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "змушена була заплатити ще 250 грн за ненавмисно розбиту чашку",
+        "reasoning": "Unexpected 250 UAH charge for a broken cup not on the menu and not on the card receipt — surprise/hidden charge."
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "в 20:51 ви не обслуговуєте, бо у вас персмінка",
+        "reasoning": "Staff refused service before posted closing time — dismissive front-of-house behavior."
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "categories": []
+  },
+  {
+    "id": 256,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "10 хвилин чекала щоб прийняли моє замовлення. На мене просто не звертали увагу!",
+        "reasoning": "Waited 10 minutes to be served; staff ignored the customer."
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "categories": []
+  },
+  {
+    "id": 258,
+    "categories": []
+  },
+  {
+    "id": 259,
+    "categories": []
+  },
+  {
+    "id": 260,
+    "categories": []
+  },
+  {
+    "id": 261,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "Koi baat nahi suntay paisay puray laitay hain r kaam adha kar k daitay hain",
+        "reasoning": "Customer states the company doesn't listen, takes full payment but delivers half the work."
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "На просьбу не ставить авто, одна дама начала хамить",
+        "reasoning": "Employee responded rudely to a polite request — rude staff behavior."
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Самая отвратительная обратная связь которая может быть. Не работает аппарат, никто ничего не может сделать",
+        "reasoning": "Customer reports terrible feedback/communication — nobody can resolve or explain the issue."
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "categories": []
+  },
+  {
+    "id": 265,
+    "categories": []
+  },
+  {
+    "id": 266,
+    "categories": []
+  },
+  {
+    "id": 267,
+    "categories": []
+  },
+  {
+    "id": 268,
+    "categories": []
+  },
+  {
+    "id": 269,
+    "categories": []
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "id": 90,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.55,
+        "quote": "Complete and total garbage!! Waste of Money!",
+        "reasoning": "Generic complaint that paid-for deliverable was garbage — points to bad_deliverable."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "categories": []
+  },
+  {
+    "id": 92,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.7,
+        "quote": "вам пропонують платні послуги, вартість яких вища за середню по ринку",
+        "reasoning": "After promised free promotion, paid services pushed at above-market prices — costs grew beyond initial promise."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Обіцяна безоплатна реклама на місяць (чи хоча б тиждень) просування насправді часто не має нічого спільного з реальністю",
+        "reasoning": "Promised free month of ads has nothing to do with reality — delivered diverges from sold."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "no_warning_of_delay",
+        "confidence": 0.75,
+        "quote": "затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати",
+        "reasoning": "Delays from their own plan with no proactive communication; client had to chase."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Спілкування менеджера жахливе",
+        "reasoning": "Communication from the manager described as terrible — supported by detailed examples."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Таргет злили так що я в шоці була",
+        "reasoning": "Ad targeting work delivered with worse results than client did themselves — bad deliverable."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "обіцяють круто команду, реально роботу над сторінкою, рекомендації по веденню, ведення сторінки і тд. Отримали - мінус в грошах",
+        "reasoning": "Explicit gap between what was promised and what was delivered."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "під  виглядом певного продукту ви впарюєте просто шокуюче відверту єрунду",
+        "reasoning": "Course delivered substantially diverges from what was sold; explicit list of missing promised items."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.8,
+        "quote": "тому що курс ще в розробці",
+        "reasoning": "Sold a course that doesn't yet exist — paid for X, received less than X."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "Про ці \"правила\" ми дізнались тільки в кінці співпраці",
+        "reasoning": "Important rule about ad campaign deletion never communicated up-front — unclear/missing info."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "categories": []
+  },
+  {
+    "id": 97,
+    "categories": []
+  },
+  {
+    "id": 98,
+    "categories": []
+  },
+  {
+    "id": 99,
+    "categories": []
+  },
+  {
+    "id": 100,
+    "categories": []
+  },
+  {
+    "id": 101,
+    "categories": []
+  },
+  {
+    "id": 102,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "игнорирование телефонных звонков",
+        "reasoning": "Explicitly states phone calls are ignored."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Хамское общение",
+        "reasoning": "Rude communication style from staff."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "categories": []
+  },
+  {
+    "id": 104,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Хамуватий персонал",
+        "reasoning": "Rude staff — tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_juniors",
+        "confidence": 0.9,
+        "quote": "Обіцяють якість, а насправді передають підряд школярам початківцям",
+        "reasoning": "Promised quality but work secretly handed to schoolchild beginners — classic unannounced handoff to juniors."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Хамство",
+        "reasoning": "Mentions rudeness."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.75,
+        "quote": "Терміни для них існують тільки на словах",
+        "reasoning": "Deadlines exist only in words — deadlines aren't honored."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.65,
+        "quote": "робота примітивізм не відповідає оплаті",
+        "reasoning": "Work is primitive and doesn't match what was paid."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "Вместо обещанного хорошего сайта получила гору негатива и подобие сайта по цене полноценного портала",
+        "reasoning": "Promised a good site, received a poor imitation at full-portal price — diverges from promise."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "после получения денег морозятся и хамят",
+        "reasoning": "After payment, staff become rude and unresponsive."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "сайты делают дерьмовые",
+        "reasoning": "Websites delivered are bad quality."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "categories": []
+  },
+  {
+    "id": 110,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "хамське ставлення і грубість з боку Надії Вергелес",
+        "reasoning": "Explicit rude and impolite behavior from named staff member."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Жахлива комунікація! зверхність ледве не з порогу",
+        "reasoning": "Terrible communication with arrogance from the start — tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "Ні на дзвінки, ні в пошту, ні в чат не відповідають",
+        "reasoning": "No response on phone, email, or chat for several days."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "\"футболили\" від одного до іншого так і не вирішивши питання,не прийнявши замовлення, не попереджаючи ні про час вихідних ні про терміни обробки запиту",
+        "reasoning": "Bounced between staff with no resolution and no information about hours/timing."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "Не можливо зв'язатись з менеджером ні по телефону, ні залишивши заявку",
+        "reasoning": "Can't reach manager by phone or by leaving a request."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.6,
+        "quote": "Дорого довго і неякісно",
+        "reasoning": "Expensive, slow, and low-quality — slow points to late delivery."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.6,
+        "quote": "Дорого довго і неякісно",
+        "reasoning": "Explicitly cites low quality of deliverable."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "Дуже НЕякісно вишили логотип",
+        "reasoning": "Logo embroidery delivered with very poor quality."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "categories": []
+  },
+  {
+    "id": 118,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.95,
+        "quote": "Берут деньги и ничего не делают. Заключили договор, сделали и 100% предоплату. За несколько месяцев ничего не сделано",
+        "reasoning": "Took full payment, nothing delivered after months — abandoned project."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "categories": []
+  }
+]

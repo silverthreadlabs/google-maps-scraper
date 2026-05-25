@@ -20,6 +20,7 @@ import json
 import math
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -48,7 +49,7 @@ from scripts.analyze import merge_reviews, load_raw, dedupe_by_place_id
 from scripts.push_campaign import _resolve_api_key, _vertical_from_config, upsert_campaign
 from scripts.validate import latest_master
 
-CHUNK_SIZE = 50
+DEFAULT_CHUNK_SIZE = 50
 
 
 def _build_reviews_index(raw_dir: Path) -> dict[str, list[dict]]:
@@ -113,10 +114,13 @@ def _build_emails(lead: dict) -> list[dict]:
     return result[:50]
 
 
-def _build_reviews_payload(reviews: list[dict]) -> list[dict]:
+DEFAULT_REVIEWS_CAP = 500
+
+
+def _build_reviews_payload(reviews: list[dict], cap: int = DEFAULT_REVIEWS_CAP) -> list[dict]:
     """Convert analyze.merge_reviews output to API reviewPayloadSchema."""
     payload = []
-    for rev in reviews[:500]:
+    for rev in reviews[:cap]:
         payload.append({
             'reviewer_name': rev.get('reviewer') or rev.get('Name') or '',
             'rating': rev.get('rating') or 1,
@@ -156,6 +160,7 @@ def transform_lead(
     reviews_index: dict[str, list[dict]],
     pain_weights: dict[str, int],
     service_map: dict[str, tuple[str, str]],
+    reviews_cap: int = DEFAULT_REVIEWS_CAP,
 ) -> dict:
     """Transform a master.json lead into the importLeadsSchema shape."""
     place_id = lead.get('place_id') or ''
@@ -203,8 +208,11 @@ def transform_lead(
         'chain_reason': lead.get('chain_reason'),
         'emails': _build_emails(lead),
         'pain_hits': pain_hits,
-        'reviews': _build_reviews_payload(raw_reviews),
+        'reviews': _build_reviews_payload(raw_reviews, cap=reviews_cap),
     }
+
+
+RETRYABLE_STATUSES = {429, 500, 502, 503, 504}
 
 
 def push_chunk(
@@ -213,28 +221,45 @@ def push_chunk(
     api_key: str,
     campaign_id: str,
     leads: list[dict],
+    max_retries: int = 3,
+    backoff_base: float = 2.0,
 ) -> dict:
-    """POST a chunk of leads to the import endpoint."""
+    """POST a chunk of leads to the import endpoint with retry/backoff on
+    429 and 5xx. Final failure raises so the caller counts it as an error."""
     data = json.dumps({'leads': leads}).encode()
-    req = urllib.request.Request(
-        f'{base_url}/leads/campaigns/{campaign_id}/import',
-        data=data,
-        headers={
-            'Content-Type': 'application/json',
-            'Authorization': f'Bearer {api_key}',
-        },
-        method='POST',
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=300) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode(errors='replace')
-        sys.stderr.write(f"error: API returned {e.code}: {error_body}\n")
-        raise
-    except urllib.error.URLError as e:
-        sys.stderr.write(f"error: cannot reach API at {base_url}: {e.reason}\n")
-        raise
+    last_exc: Exception | None = None
+    for attempt in range(max_retries + 1):
+        req = urllib.request.Request(
+            f'{base_url}/leads/campaigns/{campaign_id}/import',
+            data=data,
+            headers={
+                'Content-Type': 'application/json',
+                'Authorization': f'Bearer {api_key}',
+            },
+            method='POST',
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            error_body = e.read().decode(errors='replace')
+            if e.code in RETRYABLE_STATUSES and attempt < max_retries:
+                sleep_for = backoff_base ** attempt
+                sys.stderr.write(
+                    f"warn: API returned {e.code} (attempt {attempt + 1}/{max_retries + 1}), "
+                    f"retrying in {sleep_for:.1f}s\n"
+                )
+                time.sleep(sleep_for)
+                last_exc = e
+                continue
+            sys.stderr.write(f"error: API returned {e.code}: {error_body}\n")
+            raise
+        except urllib.error.URLError as e:
+            sys.stderr.write(f"error: cannot reach API at {base_url}: {e.reason}\n")
+            raise
+    # Exhausted retries on retryable status
+    assert last_exc is not None
+    raise last_exc
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -261,6 +286,26 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         '--dry-run', action='store_true',
         help='transform and validate without sending to API',
+    )
+    parser.add_argument(
+        '--chunk-size', type=int, default=DEFAULT_CHUNK_SIZE,
+        help=f'leads per import request (default: {DEFAULT_CHUNK_SIZE}). '
+             f'Lower when nginx returns 413 on large review payloads.',
+    )
+    parser.add_argument(
+        '--reviews-cap', type=int, default=DEFAULT_REVIEWS_CAP,
+        help=f'max reviews attached per lead (default: {DEFAULT_REVIEWS_CAP}). '
+             f'Lower to shrink per-lead payload when nginx 413s individual leads.',
+    )
+    parser.add_argument(
+        '--only-place-ids', type=Path, default=None,
+        help='path to a file of place_ids (one per line) to restrict the push to. '
+             'Useful for retrying a failed subset; importer upserts by place_id.',
+    )
+    parser.add_argument(
+        '--chunk-sleep', type=float, default=0.0,
+        help='seconds to sleep between chunks (default: 0). Use a positive '
+             'value to pace requests below the API rate limit.',
     )
     args = parser.parse_args(argv)
 
@@ -294,6 +339,23 @@ def main(argv: list[str] | None = None) -> int:
     master = json.loads(master_path.read_text())
     print(f"loaded {len(master)} leads from {master_path}", flush=True)
 
+    if args.only_place_ids:
+        wanted = {
+            line.strip() for line in args.only_place_ids.read_text().splitlines()
+            if line.strip()
+        }
+        before = len(master)
+        master = [lead for lead in master if (lead.get('place_id') or '') in wanted]
+        missing = wanted - {lead.get('place_id') or '' for lead in master}
+        print(
+            f"filtered to {len(master)} of {before} leads via {args.only_place_ids} "
+            f"({len(missing)} place_ids not found in master)",
+            flush=True,
+        )
+        if not master:
+            sys.stderr.write("error: --only-place-ids filtered everything out\n")
+            return 2
+
     slug = args.pipeline.replace('/', '_')
     name = args.campaign_name or slug.replace('_', ' ').title()
 
@@ -320,6 +382,7 @@ def main(argv: list[str] | None = None) -> int:
                 reviews_index=reviews_index,
                 pain_weights=pain_weights,
                 service_map=service_map,
+                reviews_cap=args.reviews_cap,
             )
             for lead in master
         ]
@@ -332,10 +395,11 @@ def main(argv: list[str] | None = None) -> int:
 
     total_imported = 0
     total_errors = 0
-    for i in range(0, len(transformed), CHUNK_SIZE):
-        chunk = transformed[i:i + CHUNK_SIZE]
-        chunk_num = (i // CHUNK_SIZE) + 1
-        total_chunks = math.ceil(len(transformed) / CHUNK_SIZE)
+    chunk_size = args.chunk_size
+    for i in range(0, len(transformed), chunk_size):
+        chunk = transformed[i:i + chunk_size]
+        chunk_num = (i // chunk_size) + 1
+        total_chunks = math.ceil(len(transformed) / chunk_size)
         print(f"pushing chunk {chunk_num}/{total_chunks} ({len(chunk)} leads) ...", flush=True)
         try:
             resp = push_chunk(
@@ -350,6 +414,9 @@ def main(argv: list[str] | None = None) -> int:
         except (urllib.error.HTTPError, urllib.error.URLError):
             total_errors += len(chunk)
             continue
+        finally:
+            if args.chunk_sleep > 0:
+                time.sleep(args.chunk_sleep)
 
     print(
         f"done: {total_imported} imported, {total_errors} errors "

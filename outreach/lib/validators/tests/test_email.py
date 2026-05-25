@@ -45,6 +45,23 @@ INVALID_IMAGE = [
     'fancybox_sprite@2x.png',
     'logo@3x.svg',
     'icon@2x.jpeg',
+    # Real artifact from a software_ua crawl: '@-NNNxNNN.jpg' (dash before
+    # the width). The `@` regex captures the slug as the local part and the
+    # filename as the domain, so the validator must catch the image-size
+    # suffix even when it isn't immediately preceded by digits.
+    'how-to-build-a-saas-platform2@-158x106.jpg',
+    'agency-growth-levers@-614x346.jpg',
+]
+
+# URL-encoded leading whitespace (e.g. '%20' = space). Some gosom captures
+# include the encoded space and slip past the basic EMAIL_RE because `%`
+# is a permitted local-part character. The clean version of the address is
+# usually right next to it in the same emails[] array, so rejecting the
+# encoded variant is harmless and avoids backend validation 500s.
+INVALID_URL_ENCODED = [
+    '%20marketing@signupsolution.com',
+    '%20info@creativewebvisions.com',
+    '%20Info@unitedsol.net',
 ]
 
 INVALID_NOREPLY = [
@@ -128,6 +145,13 @@ class TestEmailValidity(unittest.TestCase):
             with self.subTest(email=e):
                 ok, reason = validate_email(e)
                 self.assertFalse(ok)
+                self.assertEqual(reason, 'malformed')
+
+    def test_url_encoded_prefix(self):
+        for e in INVALID_URL_ENCODED:
+            with self.subTest(email=e):
+                ok, reason = validate_email(e)
+                self.assertFalse(ok, f"expected reject for {e}")
                 self.assertEqual(reason, 'malformed')
 
 

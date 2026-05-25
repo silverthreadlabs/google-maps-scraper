@@ -85,6 +85,67 @@ routed to the Automation Audit, not a specific build.
 *Example phrasings:* "front desk was incredibly rude", "no one
 explained what was going on", "they didn't listen to anything I said".
 
+---
+
+## Professional-services pain (added 2026-05-22)
+
+The mains below apply to project-based / B2B service businesses
+(software agencies, design studios, consultancies, marketing firms).
+They will rarely fire on local-service-business reviews (dental,
+plumbing, restaurants). If a review is clearly from a local service
+business, prefer the mains 1–6 above.
+
+### 7. `delivery_quality`
+
+**STL service:** indirect — pain signals general operational/quality
+problems; route to Automation Audit, not a specific product build.
+
+- `bad_deliverable` — work product was broken / didn't meet spec / shipped with bugs
+- `unfinished_work` — paid for X, received less than X / project abandoned mid-flight
+- `does_not_match_promise` — finished work substantially diverges from what was sold
+
+*Example phrasings:* "the website they built was broken from day one",
+"paid for a full project, got a half-finished prototype", "what they
+delivered had nothing to do with what we agreed".
+
+### 8. `hidden_subcontracting`
+
+**STL service:** none direct — useful as supporting pain evidence; the
+client is angry that delivery was handed off without disclosure.
+
+- `unannounced_handoff_to_juniors` — work passed to interns / juniors / students
+- `unannounced_handoff_to_third_party` — work passed to external freelancers / offshore
+- `unauthorized_team_change` — promised team / lead changed without notice
+
+*Example phrasings:* "they handed it off to students", "found out our
+project was being done by interns", "the senior dev I was sold on never
+touched the code".
+
+### 9. `deadline_missed`
+
+**STL service:** Ezly (proposal generator + faster client responses
+help set + manage expectations); also indirect for Automation Audit.
+
+- `late_delivery` — delivered past agreed deadline
+- `no_warning_of_delay` — went silent and missed deadline without notice
+- `repeated_delays` — multiple slipped deadlines on the same project
+
+*Example phrasings:* "promised in 4 weeks, took 4 months", "missed
+the deadline and never told us", "the launch date moved three times".
+
+### 10. `scope_drift`
+
+**STL service:** Ezly (clearer proposals + faster scope-clarification
+replies); useful supporting pain evidence.
+
+- `unexpected_extra_charges` — costs grew beyond the quote
+- `scope_silently_shrunk` — features in original quote disappeared from delivery
+- `change_request_friction` — minor adjustments treated as full re-engagement
+
+*Example phrasings:* "the quote kept growing every week", "features we
+agreed on were silently dropped", "small change request became a new
+contract".
+
 ## Disambiguation (when subs overlap)
 
 These pairs caused the most agent errors in the first eval run. Pick by

@@ -1,0 +1,49 @@
+[
+  {
+    "id": 180,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.88,
+        "quote": "гроші на мій рахунок поки що так і не повернулись",
+        "reasoning": "Reviewer reports money was withheld/blocked from their account and not refunded after cancelled orders — a refund/payment failure."
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "categories": []
+  },
+  {
+    "id": 182,
+    "categories": []
+  },
+  {
+    "id": 183,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "if you don’t put a lot of money when it ask for it in order to continue… then … you lose your money",
+        "reasoning": "App imposes undisclosed additional payment demands to keep prior money — unexpected charges not disclosed upfront."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.55,
+        "quote": "They have an app that they didn’t tell you all the truth",
+        "reasoning": "Reviewer says the app's promised behavior (work and make money) diverged from reality — does-not-match-promise."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "categories": []
+  },
+  {
+    "id": 185,
+    "categories": []
+  }
+]

@@ -89,6 +89,41 @@ def _read_campaign_yaml(path: Path) -> dict:
     return data
 
 
+def _read_location_yaml(path: Path) -> dict:
+    """Read locations/<loc>.yaml; return a flattened dict.
+
+    Returns:
+        metros: list[str]                — city names in declared order
+        metro_area_codes: dict[str, set[str]]
+        geographic_prefixes: set[str]    — UNION across all cities
+        neighborhoods: dict[str, list[str]]
+        country: str
+        locale: str
+    """
+    if not path.exists():
+        raise FileNotFoundError(f'location yaml not found: {path}')
+    data = yaml.safe_load(path.read_text()) or {}
+    cities = data.get('cities') or []
+    metros: list[str] = []
+    area_codes: dict[str, set[str]] = {}
+    prefixes: set[str] = set()
+    neighborhoods: dict[str, list[str]] = {}
+    for city in cities:
+        name = city['name']
+        metros.append(name)
+        area_codes[name] = set(str(c) for c in (city.get('metro_area_codes') or []))
+        prefixes.update(city.get('geographic_prefixes') or [])
+        neighborhoods[name] = list(city.get('neighborhoods') or [])
+    return {
+        'metros': metros,
+        'metro_area_codes': area_codes,
+        'geographic_prefixes': prefixes,
+        'neighborhoods': neighborhoods,
+        'country': data.get('country', ''),
+        'locale': data.get('locale', ''),
+    }
+
+
 def load_campaign(campaign_slug: str) -> CampaignConfig:
     """Load + merge the three config sources for `campaign_slug`.
 

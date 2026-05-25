@@ -55,5 +55,66 @@ class TestCampaignYamlParsing(unittest.TestCase):
         self.assertIn('location', str(cm.exception))
 
 
+class TestLocationYamlParsing(unittest.TestCase):
+    def setUp(self):
+        import tempfile
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        (self.root / 'locations').mkdir()
+        (self.root / 'locations' / 'sunbelt.yaml').write_text(
+            "country: US\n"
+            "locale: en-US\n"
+            "cities:\n"
+            "  - name: austin\n"
+            "    state: TX\n"
+            "    metro_area_codes: ['512', '737']\n"
+            "    geographic_prefixes:\n"
+            "      - south austin\n"
+            "      - round rock\n"
+            "    neighborhoods:\n"
+            "      - Downtown\n"
+            "      - South Austin\n"
+            "  - name: phoenix\n"
+            "    state: AZ\n"
+            "    metro_area_codes: ['480', '602']\n"
+            "    geographic_prefixes:\n"
+            "      - chandler\n"
+            "    neighborhoods:\n"
+            "      - Downtown Phoenix\n"
+        )
+
+    def test_extracts_metros_in_order(self):
+        from lib.campaign_config import _read_location_yaml
+        loc = _read_location_yaml(self.root / 'locations' / 'sunbelt.yaml')
+        self.assertEqual(loc['metros'], ['austin', 'phoenix'])
+
+    def test_extracts_metro_area_codes_as_sets(self):
+        from lib.campaign_config import _read_location_yaml
+        loc = _read_location_yaml(self.root / 'locations' / 'sunbelt.yaml')
+        self.assertEqual(loc['metro_area_codes']['austin'], {'512', '737'})
+        self.assertEqual(loc['metro_area_codes']['phoenix'], {'480', '602'})
+
+    def test_unions_geographic_prefixes_across_cities(self):
+        from lib.campaign_config import _read_location_yaml
+        loc = _read_location_yaml(self.root / 'locations' / 'sunbelt.yaml')
+        self.assertEqual(
+            loc['geographic_prefixes'],
+            {'south austin', 'round rock', 'chandler'},
+        )
+
+    def test_keeps_per_city_neighborhoods(self):
+        from lib.campaign_config import _read_location_yaml
+        loc = _read_location_yaml(self.root / 'locations' / 'sunbelt.yaml')
+        self.assertEqual(
+            loc['neighborhoods']['austin'],
+            ['Downtown', 'South Austin'],
+        )
+        self.assertEqual(
+            loc['neighborhoods']['phoenix'],
+            ['Downtown Phoenix'],
+        )
+
+
 if __name__ == '__main__':
     unittest.main()

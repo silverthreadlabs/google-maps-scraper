@@ -116,5 +116,52 @@ class TestLocationYamlParsing(unittest.TestCase):
         )
 
 
+class TestPythonModuleLoading(unittest.TestCase):
+    def setUp(self):
+        import tempfile
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        (self.root / 'verticals' / 'dentist').mkdir(parents=True)
+        (self.root / 'verticals' / 'dentist' / 'config.py').write_text(
+            "PAIN_WEIGHTS = {'calls_unanswered': 5}\n"
+            "SERVICE_MAP = {'calls_unanswered': ('Voice AI', 'silverthreadlabs.com/voice')}\n"
+            "DSO_TITLE_REGEX = None  # placeholder\n"
+            "DSO_EMAIL_DOMAINS = {'aspendental.com'}\n"
+            "GEOGRAPHIC_PREFIXES_GENERIC = {'family dental'}\n"
+            "VENDOR_DOMAINS_EXTRA = frozenset({'gargle.com'})\n"
+            "OSINT_ENABLED = True\n"
+        )
+
+    def test_load_vertical_module_returns_module(self):
+        from lib.campaign_config import _load_python_module
+        mod = _load_python_module(
+            self.root / 'verticals' / 'dentist' / 'config.py',
+            module_name='outreach_vertical_dentist',
+        )
+        self.assertEqual(mod.PAIN_WEIGHTS, {'calls_unanswered': 5})
+
+    def test_load_overrides_returns_none_when_file_missing(self):
+        from lib.campaign_config import _load_python_module_optional
+        mod = _load_python_module_optional(
+            self.root / 'campaigns' / 'fake' / 'overrides.py',
+            module_name='outreach_overrides_fake',
+        )
+        self.assertIsNone(mod)
+
+    def test_load_overrides_returns_module_when_present(self):
+        (self.root / 'campaigns' / 'with_overrides').mkdir(parents=True)
+        (self.root / 'campaigns' / 'with_overrides' / 'overrides.py').write_text(
+            "PAIN_WEIGHTS = {'calls_unanswered': 99}\n"
+        )
+        from lib.campaign_config import _load_python_module_optional
+        mod = _load_python_module_optional(
+            self.root / 'campaigns' / 'with_overrides' / 'overrides.py',
+            module_name='outreach_overrides_with_overrides',
+        )
+        self.assertIsNotNone(mod)
+        self.assertEqual(mod.PAIN_WEIGHTS, {'calls_unanswered': 99})
+
+
 if __name__ == '__main__':
     unittest.main()

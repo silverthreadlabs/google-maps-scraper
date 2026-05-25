@@ -22,6 +22,8 @@ from pathlib import Path
 from types import ModuleType
 from typing import Any
 
+import importlib.util
+
 import yaml
 
 OUTREACH_ROOT = Path(__file__).resolve().parent.parent
@@ -122,6 +124,31 @@ def _read_location_yaml(path: Path) -> dict:
         'country': data.get('country', ''),
         'locale': data.get('locale', ''),
     }
+
+
+def _load_python_module(path: Path, *, module_name: str) -> ModuleType:
+    """Import a .py file at `path` as a fresh module named `module_name`.
+
+    Unique `module_name` prevents collisions when multiple verticals or
+    overrides are loaded in the same process (e.g. during the equivalence
+    test).
+    """
+    if not path.exists():
+        raise FileNotFoundError(f'python module not found: {path}')
+    spec = importlib.util.spec_from_file_location(module_name, path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f'cannot build spec for {path}')
+    mod = importlib.util.module_from_spec(spec)
+    sys.modules[module_name] = mod
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def _load_python_module_optional(path: Path, *, module_name: str) -> ModuleType | None:
+    """Same as _load_python_module but returns None if path doesn't exist."""
+    if not path.exists():
+        return None
+    return _load_python_module(path, module_name=module_name)
 
 
 def load_campaign(campaign_slug: str) -> CampaignConfig:

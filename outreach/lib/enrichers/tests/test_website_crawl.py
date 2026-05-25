@@ -158,5 +158,102 @@ class TestParseEvalOutput(unittest.TestCase):
         self.assertIsNone(parse_eval_output("not json at all\nblah blah"))
 
 
+class TestFilterValidEmails(unittest.TestCase):
+    """The JS REJECT regex used to drop these in the browser. Now Python
+    does it via `filter_valid_emails` → `validate_email`."""
+
+    def setUp(self):
+        from lib.enrichers.website_crawl import filter_valid_emails
+        self.f = filter_valid_emails
+
+    def test_drops_image_artifact_emails(self):
+        # WordPress/retina image filenames matched the email regex on
+        # row 0 of the cosmetic_surgeons_dallas handoff (12 of them).
+        out = self.f([
+            'real@drburns.com',
+            'shutterstock_2675292683_1440x640@2x.jpg',
+            'image_x_1440x640@2x.png',
+        ])
+        self.assertEqual(out, ['real@drburns.com'])
+
+    def test_drops_vendor_domains(self):
+        out = self.f([
+            'info@drburns.com', 'tracker@wix.com', 'data@cloudflare.com',
+        ])
+        self.assertEqual(out, ['info@drburns.com'])
+
+    def test_drops_placeholder_locals_and_domains(self):
+        out = self.f([
+            'real@drburns.com', 'sample@anything.com', 'info@example.com',
+            'your@email.com', 'noreply@drburns.com',
+        ])
+        self.assertEqual(out, ['real@drburns.com'])
+
+    def test_dedupes_case_insensitively_preserves_first(self):
+        out = self.f(['Info@Drburns.com', 'info@drburns.com'])
+        self.assertEqual(out, ['Info@Drburns.com'])
+
+    def test_skips_blank_and_non_string(self):
+        out = self.f(['', '  ', None, 123, 'real@drburns.com'])
+        self.assertEqual(out, ['real@drburns.com'])
+
+    def test_extra_vendor_domains_layer(self):
+        out = self.f(
+            ['hello@vendor.example', 'real@drburns.com'],
+            extra_vendor_domains=frozenset({'vendor.example'}),
+        )
+        self.assertEqual(out, ['real@drburns.com'])
+
+
+class TestExtractJsTemplateNoRejectRegex(unittest.TestCase):
+    """Lock the architectural change: JS no longer carries a hard-coded
+    REJECT regex of vendor / image / placeholder patterns. Filtering is
+    Python-side via `filter_valid_emails` so we only have one set of rules."""
+
+    def test_template_does_not_declare_reject_constant(self):
+        from lib.enrichers.website_crawl import EXTRACT_JS_TEMPLATE
+        self.assertNotIn('const REJECT', EXTRACT_JS_TEMPLATE)
+        self.assertNotIn('@wix\\.com', EXTRACT_JS_TEMPLATE)
+        self.assertNotIn('@2x', EXTRACT_JS_TEMPLATE)
+
+
+class TestSingleSessionFetcherDecode(unittest.TestCase):
+    """Regression: agent-browser eval output is JSON-double-encoded
+    (a JS-stringified HTML payload wrapped again by the eval transport).
+    Single-decode leaves the string still quoted; BeautifulSoup then
+    parses garbage. _SingleSessionFetcher.fetch must double-decode."""
+
+    def test_fetch_double_decodes_jsonwrapped_html(self):
+        from unittest.mock import patch
+        from lib.enrichers.website_crawl import _SingleSessionFetcher
+
+        # agent-browser would emit this on stdout for a JSON.stringify(outerHTML) eval:
+        # an outer JSON layer wrapping the JS-stringified HTML.
+        double_encoded = '"\\"<html><body>hi</body></html>\\""'
+
+        fetcher = _SingleSessionFetcher('test-session')
+        with patch('lib.enrichers.website_crawl._ab',
+                   side_effect=[(0, '', ''), (0, '', ''), (0, double_encoded, '')]):
+            html = fetcher.fetch('https://example.com', wait='networkidle', jitter=(0, 0))
+
+        self.assertEqual(html, '<html><body>hi</body></html>')
+        # Critical: must NOT start with a quote (which would mean single-decode)
+        self.assertFalse(html.startswith('"'))
+        self.assertTrue(html.startswith('<html>'))
+
+    def test_fetch_handles_raw_html_fallback_when_not_json_quoted(self):
+        # If the eval output is unquoted raw HTML, fetcher should still return it.
+        from unittest.mock import patch
+        from lib.enrichers.website_crawl import _SingleSessionFetcher
+
+        raw = '<html><body>x</body></html>'
+        fetcher = _SingleSessionFetcher('test-session')
+        with patch('lib.enrichers.website_crawl._ab',
+                   side_effect=[(0, '', ''), (0, '', ''), (0, raw, '')]):
+            html = fetcher.fetch('https://example.com', wait='networkidle', jitter=(0, 0))
+
+        self.assertEqual(html, raw)
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

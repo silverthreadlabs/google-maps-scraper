@@ -1,0 +1,381 @@
+[
+  {
+    "id": 60,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Сервіс жахливий, тех підтримка довго відновлює роботу",
+        "reasoning": "Complains the service is terrible and tech support is slow to restore operation — points to broken/poor deliverable."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Вечно виснет!",
+        "reasoning": "Product constantly hangs/freezes — broken deliverable."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "Добиться каких либо решений менеджеров очень тяжело",
+        "reasoning": "Very hard to get any decisions from managers — unresponsive/unclear communication."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Постійні зависання, недороблений функціонал, постійні збої в роботі стали просто нормою",
+        "reasoning": "Constant hangs, unfinished functionality, constant failures — clearly broken product."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "Те що ви прочитаєте на сайті, не відповідає дійсності, заявлений функціонал працює виключно на половину",
+        "reasoning": "What's advertised doesn't match reality; declared functionality works only half."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Настроенная реклама оказалась не эффективной. От слова вообще",
+        "reasoning": "Configured ads turned out completely ineffective — work didn't match what was sold."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "На письменную претензию не отвечают.\nДиректор на связь не выходит",
+        "reasoning": "Customer's written complaint not answered; director doesn't respond — active outreach being ignored."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "постійні лаги і баги під час роботи на рівному місці",
+        "reasoning": "Constant lags and bugs — broken product."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "categories": []
+  },
+  {
+    "id": 66,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.85,
+        "quote": "Делали очень долго",
+        "reasoning": "Took very long to deliver the site — late delivery."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "Не слышат пожелания заказчика",
+        "reasoning": "They don't hear/listen to the customer's wishes."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "он написан очень коряво, пришлось многое переделывать",
+        "reasoning": "Code was written poorly, had to redo a lot — bad deliverable."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.85,
+        "quote": "Так долго и не профессионально, еще никто не делал продукт",
+        "reasoning": "No one has taken this long and unprofessionally to make a product — late delivery."
+      },
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_juniors",
+        "confidence": 0.8,
+        "quote": "нанимает сотрудников ниже среднего уровня",
+        "reasoning": "Company hires below-average staff to handle overflow — handoff to juniors."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "мы проверяем видим ошибку",
+        "reasoning": "Customer finds bugs after delivery — broken deliverable."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Ждать ответа от менеджера, ТРИ ДНЯ",
+        "reasoning": "Waiting three days for manager response — communication breakdown."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "После того как вам пообещают ответить до конца дня или отправить коммерческое предложение, пройдёт дней 5-ть",
+        "reasoning": "Promised to send commercial proposal end of day, took 5 days — dropped quote/lead."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "Не про какие отстроенные процессы как в презентации и речь не идёт",
+        "reasoning": "No structured processes as promised in presentation — doesn't match promise."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "Все время проваливают сроки запуска рекламы",
+        "reasoning": "Constantly miss ad launch deadlines — repeated delays."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "После оплаты  2 дня ждал пока со мной связались",
+        "reasoning": "Waited 2 days after payment for contact — dropped follow-up."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.7,
+        "quote": "В сроки не всегда укладываются",
+        "reasoning": "Don't always meet deadlines."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.6,
+        "quote": "Пишут неправильную информацию",
+        "reasoning": "Write incorrect information — misrepresentation."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "ребята щеки дуют на презентации компании так, что и я повелся",
+        "reasoning": "Big talk in presentation that misled the customer — delivery diverges from sales pitch."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "categories": []
+  },
+  {
+    "id": 73,
+    "categories": []
+  },
+  {
+    "id": 74,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "ця компанія не виправдовує своїх обіцянок",
+        "reasoning": "Company doesn't live up to its promises."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.85,
+        "quote": "wastes customer's money but don't provide final results",
+        "reasoning": "Customer paid but no final results delivered — unfinished work."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "Работники совсем не улыбчивые",
+        "reasoning": "Staff weren't smiling — mild unfriendly tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "Обслуговують довго, замовлення переплутали",
+        "reasoning": "Slow service and mixed up the order."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "змушена була заплатити ще 250 грн за ненавмисно розбиту чашку",
+        "reasoning": "Forced to pay 250 UAH surprise charge for a broken cup not on the menu — unexpected charge."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "в 20:51 ви не обслуговуєте",
+        "reasoning": "Refused service before posted closing time — operational service issue."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "categories": []
+  },
+  {
+    "id": 81,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "10 хвилин чекала щоб прийняли моє замовлення",
+        "reasoning": "Waited 10 minutes for order to be taken."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "На мене просто не звертали увагу",
+        "reasoning": "Staff simply didn't pay attention to her."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "categories": []
+  },
+  {
+    "id": 83,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "одна дама начала хамить",
+        "reasoning": "A lady started being rude when asked not to park there."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "Самая отвратительная обратная связь которая может быть",
+        "reasoning": "Worst feedback/response possible — unable to reach support."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Не работает аппарат, никто ничего не может сделать",
+        "reasoning": "Machine doesn't work, no one can do anything — broken product, no support resolution."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "categories": []
+  },
+  {
+    "id": 86,
+    "categories": []
+  },
+  {
+    "id": 87,
+    "categories": []
+  },
+  {
+    "id": 88,
+    "categories": []
+  },
+  {
+    "id": 89,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "відчувешь на собі зовсім не дружнє ставлення",
+        "reasoning": "Feels distinctly unfriendly treatment from staff at the gate."
+      }
+    ]
+  }
+]

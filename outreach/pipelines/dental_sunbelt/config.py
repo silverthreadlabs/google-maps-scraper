@@ -170,3 +170,38 @@ INDEPENDENT_FILTERS = {
     'min_pain_categories':  1,          # must have at least 1 detected pain
     'exclude_chains':       True,
 }
+
+
+# ────────────────────────────────────────────────────────────────────────
+# OSINT enrichment
+# See outreach/docs/2026-05-07-osint-enrichment-design.md
+# ────────────────────────────────────────────────────────────────────────
+
+OSINT_ENABLED = True
+OSINT_SOURCES = ["whois", "deep_site_crawl", "serp"]
+OSINT_FIELDS_DESIRED = [
+    "linkedin_url_company",
+    "linkedin_url_poc",
+    "social_urls",
+    "poc_name",
+    "poc_email",
+    "poc_role",
+    "news_mentions",
+]
+OSINT_CONFIDENCE_THRESHOLD = 0.85
+OSINT_HANDOFF_FIELDS = ["linkedin_url_poc", "linkedin_url_company", "social_urls"]
+
+OSINT_SERP_QUERIES = {
+    "linkedin_url_poc":     'site:linkedin.com/in "{poc_name}" "{city}" dentist OR DDS OR DMD',
+    "linkedin_url_company": 'site:linkedin.com/company "{business_name}" "{city}" dental',
+    "social_urls":          '"{business_name}" "{city}" instagram OR facebook OR twitter',
+    "news_mentions":        '"{business_name}" "{city}" news OR press OR opening',
+}
+
+OSINT_DEEP_CRAWL_PATHS = [
+    "/about", "/about-us", "/our-team", "/team", "/staff",
+    "/leadership", "/our-doctors", "/dentists",
+    "/contact", "/contact-us",
+]
+
+OSINT_INDUSTRY_TERMS = ["dentist", "DDS", "DMD", "dental practice"]

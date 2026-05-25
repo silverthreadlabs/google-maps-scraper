@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Browser"
+  short_description: "Automate websites with the agent-browser CLI."
+  default_prompt: "Use agent-browser to open the target site, inspect the page, interact safely, and report the result."

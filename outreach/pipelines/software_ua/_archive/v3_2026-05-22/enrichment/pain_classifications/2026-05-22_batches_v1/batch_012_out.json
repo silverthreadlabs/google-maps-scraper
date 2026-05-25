@@ -1,0 +1,98 @@
+[
+  {"id": 360, "categories": []},
+  {
+    "id": 361,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "kept dialing thier land line contact no to discuss further.. no one answering the phone",
+        "reasoning": "Reviewer repeatedly called the business line during attempts to reach them and no one picked up."
+      }
+    ]
+  },
+  {"id": 362, "categories": []},
+  {"id": 363, "categories": []},
+  {"id": 364, "categories": []},
+  {"id": 365, "categories": []},
+  {"id": 366, "categories": []},
+  {"id": 367, "categories": []},
+  {"id": 368, "categories": []},
+  {"id": 369, "categories": []},
+  {"id": 370, "categories": []},
+  {
+    "id": 371,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "quote": "ghosted me and told me our interviews are in progress you will get the update soon but not updated me",
+        "reasoning": "Candidate was promised an update after engaging with the company and never received it — patient/customer-initiated request dropped."
+      }
+    ]
+  },
+  {"id": 372, "categories": []},
+  {"id": 373, "categories": []},
+  {"id": 374, "categories": []},
+  {
+    "id": 375,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.88,
+        "quote": "Взяли в два с половиной раза дороже, чем в их же собственном прайсе",
+        "reasoning": "Customer was charged 2.5x the listed price; quoted X, billed Y — classic surprise billing."
+      }
+    ]
+  },
+  {"id": 376, "categories": []},
+  {"id": 377, "categories": []},
+  {"id": 378, "categories": []},
+  {"id": 379, "categories": []},
+  {"id": 380, "categories": []},
+  {"id": 381, "categories": []},
+  {
+    "id": 382,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.4,
+        "quote": "прошло 2 месяца, обещали за 1",
+        "reasoning": "Delivery took 2 months instead of promised 1 — closest taxonomy fit is delivery delay, though this is more project delay than booking; low confidence."
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.35,
+        "quote": "постоянно переносили сроки и последующее сопровождения при запуске тоже не понравилось",
+        "reasoning": "Repeated deadline shifts and poor post-launch support hint at communication issues, but evidence is thin."
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "quote": "получать игнор в свою сторону",
+        "reasoning": "Customer reports being ignored by the vendor when raising concerns."
+      }
+    ]
+  },
+  {"id": 385, "categories": []},
+  {"id": 386, "categories": []},
+  {"id": 387, "categories": []},
+  {"id": 388, "categories": []},
+  {"id": 389, "categories": []}
+]

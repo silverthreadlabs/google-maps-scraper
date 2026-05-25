@@ -1,0 +1,276 @@
+[
+  {
+    "id": 26,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "Sole purpose of my appointment was the cleaning but I had to a schedule a whole other appointment.",
+        "reasoning": "Patient had to schedule an additional appointment for what was the original purpose, indicating scheduling friction."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "I was told “we will see if there is time left for a cleaning”",
+        "reasoning": "Practice failed to communicate up front that the new-patient visit would not include a cleaning."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.9,
+        "quote": "This should be clearly told to patients ahead of time if this is their process not to expect a cleaning simply because you’ve never been to this practice before.",
+        "reasoning": "Reviewer explicitly calls out that the practice's process wasn't communicated when booking."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the girl who told me gave me attitude",
+        "reasoning": "Explicit complaint about attitude from staff."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "come back another time because “they have other appointments scheduled”",
+        "reasoning": "Patient was told to reschedule mid-appointment, repeated scheduling friction."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Nobody told me that’s optional and nobody said anything about being able to perform cleaning without doing that.",
+        "reasoning": "Undisclosed optional service charged without informing patient — surprise charge pattern."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "Casi 2 horas en espera para q me atiendan",
+        "reasoning": "Patient waited nearly 2 hours to be seen."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "I was told that the doctor would return my call.  I called back a week later and they didn't know what I was talking about.",
+        "reasoning": "Patient actively requested a callback for a second opinion and never received it."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.7,
+        "quote": "He was booked 2 weeks out.",
+        "reasoning": "Next available appointment was two weeks out for an urgent treatment-plan discussion."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "she didn’t even look at it",
+        "reasoning": "Patient's specific concern (bump on gums) was ignored."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "she was talking to me like I was stupid",
+        "reasoning": "Dismissive/condescending tone from clinical staff."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "categories": []
+  },
+  {
+    "id": 33,
+    "categories": []
+  },
+  {
+    "id": 34,
+    "categories": []
+  },
+  {
+    "id": 35,
+    "categories": []
+  },
+  {
+    "id": 36,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "I voiced my concern and it was ignored.",
+        "reasoning": "Patient explicitly says their specific concern about the bridge was ignored."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "categories": []
+  },
+  {
+    "id": 38,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "pricing was not transparent — after insurance adjustments, the rates seemed inflated to offset the discounts",
+        "reasoning": "Non-transparent pricing / inflated rates after insurance — surprise-billing trigger from disambiguation guidance."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "I walked up to the counter where no one acknowledged me.",
+        "reasoning": "Front-desk staff failed to acknowledge a visitor — dismissive front-of-house behavior."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "categories": []
+  },
+  {
+    "id": 41,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "Waited a bit for my appointment which pushed me into being there a bit longer than I was expecting.",
+        "reasoning": "Reviewer notes waiting past appointment time, though mildly stated."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "categories": []
+  },
+  {
+    "id": 43,
+    "categories": []
+  },
+  {
+    "id": 44,
+    "categories": []
+  },
+  {
+    "id": 45,
+    "categories": []
+  },
+  {
+    "id": 46,
+    "categories": []
+  },
+  {
+    "id": 47,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "less than 24 hours before scheduled procedure they decide they don't want to do it",
+        "reasoning": "Practice cancelled a long-planned procedure with under 24 hours notice — severe scheduling disruption."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "They canceled on me and gave me no explanation that made sense.",
+        "reasoning": "Explanation for cancellation was unclear/insufficient."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.95,
+        "quote": "I was told I would receive a treatment plan with pricing so I could schedule the work I need done. Never did",
+        "reasoning": "Patient explicitly requested a treatment plan/quote and never received it."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "I have tried multiple times to call and can never get thru to anyone.",
+        "reasoning": "Patient called multiple times and could not reach anyone."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "all I got was a text to pay almost triple what I was quoted for the visit",
+        "reasoning": "Quoted X, billed Y — classic surprise billing, plus sent to collections."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "Poor communication, poor billing practices, and zero help planning future services.",
+        "reasoning": "Reviewer explicitly cites poor communication as the issue."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "categories": []
+  },
+  {
+    "id": 50,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "Or could you have shown some compassion and listened to the patient.",
+        "reasoning": "Patient said she was uncomfortable with new system; hygienist dismissed concern."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "The receptionist could barely muster words when checking out, let alone a smile.",
+        "reasoning": "Receptionist behavior described as cold/dismissive at front desk."
+      }
+    ]
+  }
+]

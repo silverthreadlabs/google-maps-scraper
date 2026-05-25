@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pain Classifier"
+  short_description: "Classify reviews against the Silverthread pain taxonomy."
+  default_prompt: "Classify these reviews against the Silverthread Labs pain taxonomy and write structured JSON."

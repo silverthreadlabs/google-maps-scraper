@@ -1,0 +1,166 @@
+"""Tests for lib.enrichers.deep_site_crawl."""
+import sys
+import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
+from lib.enrichers.deep_site_crawl import extract_jsonld_persons
+
+
+PAGE_WITH_PERSON_JSONLD = """
+<html><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Smith Family Dental",
+  "url": "https://smithfamilydental.com",
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. John Smith",
+    "jobTitle": "Owner",
+    "email": "john@smithfamilydental.com"
+  }
+}
+</script>
+</head><body></body></html>
+"""
+
+
+class TestExtractJsonLDPersons(unittest.TestCase):
+    def test_extracts_person_with_name_role_email(self):
+        persons = extract_jsonld_persons(PAGE_WITH_PERSON_JSONLD)
+        self.assertEqual(len(persons), 1)
+        self.assertEqual(persons[0]['name'], 'Dr. John Smith')
+        self.assertEqual(persons[0]['role'], 'Owner')
+        self.assertEqual(persons[0]['email'], 'john@smithfamilydental.com')
+
+
+ORG_WITH_FOUNDER_AND_EMPLOYEES = """
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Smith Family Dental",
+  "founder": [
+    {"@type": "Person", "name": "Dr. John Smith", "jobTitle": "Owner"}
+  ],
+  "employee": [
+    {"@type": "Person", "name": "Dr. Mary Jones", "jobTitle": "Associate Dentist", "email": "mary@smithfamilydental.com"}
+  ]
+}
+</script>
+"""
+
+
+class TestExtractFromOrganizationNode(unittest.TestCase):
+    def test_extracts_persons_from_founder_and_employee_arrays(self):
+        persons = extract_jsonld_persons(ORG_WITH_FOUNDER_AND_EMPLOYEES)
+        names = sorted(p['name'] for p in persons)
+        self.assertEqual(names, ['Dr. John Smith', 'Dr. Mary Jones'])
+        mary = next(p for p in persons if p['name'] == 'Dr. Mary Jones')
+        self.assertEqual(mary['email'], 'mary@smithfamilydental.com')
+
+
+PAGE_WITHOUT_JSONLD = """
+<html><body>
+  <section class="team">
+    <h2>Meet Dr. John Smith</h2>
+    <p class="role">Owner & Lead Dentist</p>
+    <p>Email: <a href="mailto:john@smithfamilydental.com">john@smithfamilydental.com</a></p>
+  </section>
+  <section class="team">
+    <h2>About Dr. Mary Jones</h2>
+    <p>Associate Dentist</p>
+    <p>Contact: mary@smithfamilydental.com</p>
+  </section>
+</body></html>
+"""
+
+
+class TestHeadingProximityExtraction(unittest.TestCase):
+    def test_extracts_persons_from_about_meet_headings(self):
+        from lib.enrichers.deep_site_crawl import extract_heading_proximity_persons
+        persons = extract_heading_proximity_persons(PAGE_WITHOUT_JSONLD)
+        self.assertEqual(len(persons), 2)
+        john = next(p for p in persons if 'John Smith' in (p.get('name') or ''))
+        self.assertIn('Owner', john.get('role') or '')
+        self.assertEqual(john.get('email'), 'john@smithfamilydental.com')
+
+
+class TestPlanFetchPaths(unittest.TestCase):
+    def test_skips_paths_already_crawled_by_website_crawl(self):
+        from lib.enrichers.deep_site_crawl import plan_fetch_paths
+        domain = 'smithfamilydental.com'
+        paths = ['/about', '/team', '/contact']
+        already_crawled = {
+            'https://smithfamilydental.com/about',
+            'https://smithfamilydental.com/contact',
+        }
+        plan = plan_fetch_paths(domain, paths, already_crawled)
+        self.assertEqual(plan, ['https://smithfamilydental.com/team'])
+
+    def test_handles_trailing_slash_and_scheme_variants(self):
+        from lib.enrichers.deep_site_crawl import plan_fetch_paths
+        domain = 'smithfamilydental.com'
+        already_crawled = {'http://smithfamilydental.com/about/'}
+        plan = plan_fetch_paths(domain, ['/about'], already_crawled)
+        self.assertEqual(plan, [])
+
+
+class TestCrawlDomainDriver(unittest.TestCase):
+    def test_returns_persons_aggregated_across_pages(self):
+        from unittest.mock import patch
+        from lib.enrichers.deep_site_crawl import crawl_domain
+        def fake_fetch(url):
+            if url.endswith('/about'):
+                return PAGE_WITH_PERSON_JSONLD
+            if url.endswith('/team'):
+                return PAGE_WITHOUT_JSONLD
+            return None
+        with patch('lib.enrichers.deep_site_crawl.fetch_url', side_effect=fake_fetch):
+            result = crawl_domain(
+                domain='smithfamilydental.com',
+                paths=['/about', '/team', '/contact'],
+                already_crawled=set(),
+            )
+        names = sorted(p['name'] for p in result['persons'])
+        self.assertIn('Dr. John Smith', names)
+        self.assertIn('Dr. Mary Jones', names)
+        self.assertEqual(result['pages_attempted'], 3)
+        self.assertEqual(result['pages_with_data'], 2)
+
+
+PERSON_SHAPED_WITHOUT_TYPE = """
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Smith Family Dental",
+  "staff": [
+    {"name": "Dr. Maya Patel", "jobTitle": "Hygienist", "email": "maya@smithfamilydental.com"}
+  ]
+}
+</script>
+"""
+
+
+class TestExtractsPersonShapedNodesWithoutExplicitType(unittest.TestCase):
+    def test_node_with_name_and_jobtitle_is_extracted_even_without_at_type_person(self):
+        persons = extract_jsonld_persons(PERSON_SHAPED_WITHOUT_TYPE)
+        names = [p['name'] for p in persons]
+        self.assertIn('Dr. Maya Patel', names)
+        maya = next(p for p in persons if p['name'] == 'Dr. Maya Patel')
+        self.assertEqual(maya['role'], 'Hygienist')
+        self.assertEqual(maya['email'], 'maya@smithfamilydental.com')
+
+    def test_organization_node_itself_is_not_misdetected_as_person(self):
+        # The outer Organization node has 'name': 'Smith Family Dental' but
+        # no jobTitle, so it should NOT be picked up as a Person.
+        persons = extract_jsonld_persons(PERSON_SHAPED_WITHOUT_TYPE)
+        names = [p['name'] for p in persons]
+        self.assertNotIn('Smith Family Dental', names)
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -7,8 +7,95 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 from lib.handoff.csv_builder import (
     apply_url_normalization,
     HANDOFF_URL_FIELDS,
+    FIELDNAMES,
     top_pain_with_quotes,
+    _build_row,
 )
+
+
+class TestCsvColumns(unittest.TestCase):
+    def test_phone_normalized_column_dropped(self):
+        # The phone_normalized column was never used by sales — only `phone`
+        # is consumed downstream. Keeping it as an empty column just inflates
+        # the CSV and confuses reviewers.
+        self.assertNotIn('phone_normalized', FIELDNAMES)
+
+    def test_build_row_does_not_emit_phone_normalized_key(self):
+        row = _build_row(
+            {'phone': '+1 214-272-8533', 'phone_normalized': '+12142728533'},
+            service_map={},
+            pain_weights={},
+        )
+        self.assertEqual(row.get('phone'), '+1 214-272-8533')
+        self.assertNotIn('phone_normalized', row)
+
+
+class TestAllEmailsExcludesInvalid(unittest.TestCase):
+    # `best_email` already filters via `trustworthy_emails`; `all_emails` and
+    # `email_sources` historically didn't, so flagged junk (e.g. image
+    # filenames `*_1440x640@2x.png` ingested from the gosom scraper that
+    # `validate_email` already marked `image_artifact`) leaked into the CSV.
+    # The CSV is what sales sees — invalid hits should not surface there.
+
+    def _row(self, lead):
+        return _build_row(lead, service_map={}, pain_weights={})
+
+    def test_all_emails_skips_items_in_emails_invalid(self):
+        lead = {
+            'emails': ['real@example.com', 'foo@2x.png', 'bar@3x.jpg'],
+            'crawled_emails': [],
+            'emails_invalid': [
+                {'email': 'foo@2x.png', 'reason': 'image_artifact'},
+                {'email': 'bar@3x.jpg', 'reason': 'image_artifact'},
+            ],
+        }
+        row = self._row(lead)
+        self.assertEqual(row['all_emails'], 'real@example.com')
+
+    def test_email_sources_pares_to_match_filtered_all_emails(self):
+        # email_sources is positional/parallel to all_emails — 1 valid email
+        # out → exactly 1 source out, not 3.
+        lead = {
+            'emails': ['real@example.com', 'foo@2x.png', 'bar@3x.jpg'],
+            'emails_source': ['gosom_scraper', 'gosom_scraper', 'gosom_scraper'],
+            'crawled_emails': [],
+            'emails_invalid': [
+                {'email': 'foo@2x.png', 'reason': 'image_artifact'},
+                {'email': 'bar@3x.jpg', 'reason': 'image_artifact'},
+            ],
+        }
+        row = self._row(lead)
+        self.assertEqual(row['all_emails'].split(';'), ['real@example.com'])
+        self.assertEqual(row['email_sources'].split(';'), ['gosom_scraper'])
+
+    def test_all_emails_case_insensitive_match_against_invalid(self):
+        # emails_invalid stores the email as captured; comparison must be
+        # case-insensitive so capitalization variants don't slip through.
+        lead = {
+            'emails': ['Foo@2x.png'],
+            'emails_invalid': [{'email': 'foo@2x.png', 'reason': 'image_artifact'}],
+        }
+        row = self._row(lead)
+        self.assertEqual(row['all_emails'], '')
+
+
+class TestPainQuotesNotTruncated(unittest.TestCase):
+    def test_pain_quote_passes_through_full_snippet(self):
+        # The CSV must ship the full review text — no [:N] truncation in
+        # csv_builder. (Truncation upstream in classify is a separate fix.)
+        long_snippet = 'A' * 1500 + ' end-marker'
+        lead = {
+            'agent_pain_hits': {
+                'calls_unanswered': [
+                    {'snippet': long_snippet, 'rating': 1, 'reviewer': 'X'}
+                ]
+            }
+        }
+        _, quotes = top_pain_with_quotes(
+            lead, pain_weights={'calls_unanswered': 5}, n_quotes=1,
+        )
+        self.assertEqual(quotes[0]['snippet'], long_snippet)
+        self.assertTrue(quotes[0]['snippet'].endswith('end-marker'))
 
 
 PAIN_WEIGHTS = {

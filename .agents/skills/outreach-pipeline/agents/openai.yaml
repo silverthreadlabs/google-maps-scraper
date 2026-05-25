@@ -1,0 +1,4 @@
+interface:
+  display_name: "Outreach Pipeline"
+  short_description: "Run Silverthread outreach pipeline stages."
+  default_prompt: "Run the requested outreach pipeline stage, preserve provenance, and summarize outputs."

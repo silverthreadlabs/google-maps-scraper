@@ -1,0 +1,338 @@
+[
+  {
+    "id": 150,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Ні сайтом, ні додатком користуватися нереально",
+        "reasoning": "App and website both unusable — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "жахлива мобільна версія ашанівського сайту. форми не робочі, вибір дат взагалі з багами",
+        "reasoning": "Mobile site forms broken, date picker buggy — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "categories": []
+  },
+  {
+    "id": 153,
+    "categories": []
+  },
+  {
+    "id": 154,
+    "categories": []
+  },
+  {
+    "id": 155,
+    "categories": []
+  },
+  {
+    "id": 156,
+    "categories": []
+  },
+  {
+    "id": 157,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "камера не работала одна, после его действий не работают три камеры",
+        "reasoning": "Equipment installed/serviced poorly — work product broken."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "при разговоре по телефону вообще бросил трубку",
+        "reasoning": "Director hung up on customer — rude staff behavior."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "categories": []
+  },
+  {
+    "id": 159,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "Показали результати в 8 раз гірші ніж обіцяли",
+        "reasoning": "Results 8x worse than promised — substantially diverges from sold."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "якщо треба буде вирішити якусь проблему після оплати будете чекати тижнями на відповідь",
+        "reasoning": "Post-payment, customer waits weeks for responses to problems."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "отримав збільшення ДРВ (доля рекламних витрат) в перший місяць на 30%, другий - 30-40%, третій - 50%",
+        "reasoning": "Ad spend share grew progressively beyond expectations."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "Компенсацію коштів за неякісно надані послуги не отримав",
+        "reasoning": "Poor-quality services not matching what was sold."
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "методи та звіти шаблонні, результат роботи компаній посередній",
+        "reasoning": "Templated reports, mediocre campaign results — weak deliverable."
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "The AMM had fatal flaws even after they audited the code",
+        "reasoning": "Fatal flaws in delivered AMM and order book — broken, audit-cancelled deliverable."
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "За два месяца контекстной рекламы - 0 заказов, за полгода сеопродвижения сайта с нуля, максимальные позиции по СЧ - 30-тые в топ гугл",
+        "reasoning": "Zero results from paid campaigns and SEO over months — fails promise."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.8,
+        "quote": "возьмут деньги, ничего не сделают толком",
+        "reasoning": "Took money, didn't deliver — unfinished/abandoned work."
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "categories": []
+  },
+  {
+    "id": 166,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.95,
+        "quote": "they failed to fix the old system and we also paid them to create a new one but also failed",
+        "reasoning": "Failed both rescue and new build — incomplete/failed delivery."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "categories": []
+  },
+  {
+    "id": 168,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "We spent a lot of money for a very poor code and for a not working app",
+        "reasoning": "Poor code and non-working app — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.85,
+        "quote": "24 октября отправил запрос на почту — ответа не последовало. Позвонил 4 ноября, сотрудники пообещали пересмотреть почту и ответить. Но прошло еще 10 дней, а ответа так и не получил",
+        "reasoning": "Email + phone request promised callback, never received response."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "24 октября отправил запрос на почту — ответа не последовало",
+        "reasoning": "Inquiry made, never heard back — dropped lead."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "Верстка проведена з ошибками в навигации, размере шрифтов, отступами полей и массой технических косяков",
+        "reasoning": "Site delivered with many technical errors — broken deliverable."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.75,
+        "quote": "За устранение допущенных ошибок студия требовала дополнительную почасовую оплату",
+        "reasoning": "Studio demanded extra hourly pay to fix their own errors."
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "categories": []
+  },
+  {
+    "id": 172,
+    "categories": []
+  },
+  {
+    "id": 173,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.85,
+        "quote": "Розробляти сайт роками",
+        "reasoning": "Site dev dragging on for years."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Купляти шаблони на WP і видавати за ноухау",
+        "reasoning": "Selling WP templates as bespoke know-how — doesn't match promise."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "Unfortunately, we can not delivery...",
+        "reasoning": "CEO says they cannot deliver — failed/unfinished work."
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "коли заходів дещо доробити (мінімальний заказ на 900-1500грн) тупо ігнор",
+        "reasoning": "Requested follow-on work, ignored."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "папірець торгової марки який мені зробив леосвіт «ЛІПА»",
+        "reasoning": "Trademark paperwork sold as real was fake."
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.95,
+        "quote": "Звернулись із замовленням майже СІМ (!!!) місяців тому. 18.07. Регламентована дата виконання замовлення 15.08. Здійснена передоплата 70%. До сих рір праців ник Іван каже \"завтра\"",
+        "reasoning": "Deadline of Aug 15 missed; seven months later still 'tomorrow' — repeated delays."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "А завтра не відповідає на дзвінки",
+        "reasoning": "Doesn't answer calls."
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.8,
+        "quote": "Не выполнили договорные обязательства и перестали отвечать на смс",
+        "reasoning": "Did not fulfill contract and went silent."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.75,
+        "quote": "Не выполнили договорные обязательства",
+        "reasoning": "Did not fulfill contractual obligations."
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "Три дня не могу дозвониться",
+        "reasoning": "Three days unable to reach operators."
+      }
+    ]
+  }
+]

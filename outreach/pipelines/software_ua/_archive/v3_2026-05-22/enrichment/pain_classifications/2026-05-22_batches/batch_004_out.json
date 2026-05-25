@@ -1,0 +1,351 @@
+[
+  {
+    "id": 120,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "платишь деньги, а как только сталкиваются с каким то вопросом - мы тут не причем, решайте сами",
+        "reasoning": "Client paid but vendor abandoned responsibility on issues — work effectively left undone."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "не пунктуальність і безответственность",
+        "reasoning": "Complaint specifically calls out lack of punctuality from the partner."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.9,
+        "quote": "Взяли в два с половиной раза дороже, чем в их же собственном прайсе",
+        "reasoning": "Final price ballooned to 2.5x the quoted/listed price — classic unexpected extra charges."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "Сказали, будет чуть дороже. Чуть оказалось в два с половиной раза больше",
+        "reasoning": "Quoted slightly more, billed 2.5x — surprise billing pattern."
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Получила тонкую бумагу, ламинация под вопросом(ощущение что ее и нет) и КРИВЫЕ УГЛЫ!",
+        "reasoning": "Ordered cards delivered with crooked corners, missing lamination, poor print — broken deliverable."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "Заказала визитки с ламинацией и круглыми углами.Получила тонкую бумагу",
+        "reasoning": "Ordered lamination+round corners; received different (thin paper, crooked corners) — diverges from promise."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "Получила темно серое полотно, мрачное, не соответствующее цветовой гамме на фото, с которого делали макет",
+        "reasoning": "Delivered product color doesn't match the source/agreed design — substantially diverges from promise."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.7,
+        "quote": "Отказались переделать, только с условием проплыты ещё половину от заплаченного",
+        "reasoning": "Fix required paying an additional 50% — extra charges beyond the original deal."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "categories": []
+  },
+  {
+    "id": 126,
+    "categories": []
+  },
+  {
+    "id": 127,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.95,
+        "quote": "прошло 2 месяца, обещали за 1",
+        "reasoning": "Promised 1 month, delivered in 2 — explicit late delivery."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "сам продукт получился конкретно убогим",
+        "reasoning": "Final website described as outright poor — bad deliverable."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "очень долго делали, постоянно переносили сроки",
+        "reasoning": "Took very long and deadlines were repeatedly pushed back."
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "необходимо постоянно подгонять, чтобы задачи были выполнены",
+        "reasoning": "Client must constantly push to get tasks done — implies chronic slippage."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "работу выполняют на тяп-ляп, на каждый недочёт приходится тыкать пальцем",
+        "reasoning": "Sloppy work; client has to point out each defect — broken deliverable."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.8,
+        "quote": "Деньги берут, результат приходится ждать месяцами, подкармливаясь завтраками",
+        "reasoning": "Result delayed by months with empty promises — repeated delays."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "categories": []
+  },
+  {
+    "id": 132,
+    "categories": []
+  },
+  {
+    "id": 133,
+    "categories": []
+  },
+  {
+    "id": 134,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "сайт взагалі не сподобався, робота виконана не якісно",
+        "reasoning": "Site disliked, work poor quality — bad deliverable."
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "підтримці величезний мінус, дуже тугі, повільно реагують, одні відписки.. можна днями чекати відповіді",
+        "reasoning": "Support gives only slow brush-off replies, days to respond — poor communication from staff."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Зараз сайт не працює уже 5 днів, після того як «виправили» попередній баг",
+        "reasoning": "Site down for 5 days after a 'fix' — broken delivered product."
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "categories": []
+  },
+  {
+    "id": 137,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "проблему із постійними підвисаннями платформи ігнорують",
+        "reasoning": "Customer's specific problem (platform freezes) is ignored by staff."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Сервери нестабільні, сайт може \"лежати\" в самий пік замовлень",
+        "reasoning": "Unstable servers; site goes down at peak — broken delivered service."
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.6,
+        "quote": "кампании не принесли какого-то результата",
+        "reasoning": "Paid campaigns produced no result; manager couldn't explain why — outcome diverged from what was sold."
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "categories": []
+  },
+  {
+    "id": 140,
+    "categories": []
+  },
+  {
+    "id": 141,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Продають браковані шаблонні сайти",
+        "reasoning": "Sells defective template sites — bad deliverable."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.8,
+        "quote": "потім вимагають гроші за те, що вони виправлять недоробки",
+        "reasoning": "Demands extra money to fix their own defects — extra charges beyond agreed scope."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.6,
+        "quote": "Вже скоро рік буде як не можемо довести роботу до кінця",
+        "reasoning": "Nearly a year and project still not finished — chronic delays."
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "Сайти глючені, дужее багато недоробок",
+        "reasoning": "Buggy sites with many defects — broken deliverable."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.75,
+        "quote": "Wizor відмовляється виправляти свою халтуру",
+        "reasoning": "Vendor refuses to fix shoddy work — project effectively abandoned/unfinished."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Very unprofiesional and really bad language abount my russian granparents",
+        "reasoning": "Staff used bad/unprofessional language about reviewer's grandparents — rude staff tone."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Very unprofessional and rude",
+        "reasoning": "Explicitly calls out rude/unprofessional staff behavior."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "categories": []
+  },
+  {
+    "id": 146,
+    "categories": []
+  },
+  {
+    "id": 147,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": null,
+        "confidence": 0.4,
+        "quote": "технічна підтримка 👎👎",
+        "reasoning": "Negative call-out of technical support, but no specifics on what failed."
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "categories": []
+  },
+  {
+    "id": 149,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "клиенты Meest China более месяца не могли работать с личным кабинетом (совсем, ни оплаты провести, ни товар/доставку оформить)",
+        "reasoning": "Customer dashboard non-functional for over a month due to bad development work."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "пошел уже второй месяц, а в личном кабинете до сих пор есть серьезные недоработки",
+        "reasoning": "After two months serious defects remain unfixed — work effectively incomplete."
+      }
+    ]
+  }
+]

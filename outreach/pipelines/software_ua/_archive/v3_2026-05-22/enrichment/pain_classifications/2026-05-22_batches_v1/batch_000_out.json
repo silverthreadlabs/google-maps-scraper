@@ -1,0 +1,152 @@
+[
+  {"id": 0, "categories": []},
+  {"id": 1, "categories": []},
+  {"id": 2, "categories": []},
+  {"id": 3, "categories": []},
+  {"id": 4, "categories": []},
+  {
+    "id": 5,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "Дуже складна, довга комунікація",
+        "reasoning": "Customer says responses to support requests drag on for over a week; active requests not answered timely."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Дуже складна, довга комунікація",
+        "reasoning": "Reviewer explicitly describes communication as difficult and prolonged."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "Скачають гроші, а після оплати, нахомлять і зроблять усе, що б обслуговувати якнайдовше і дорожче",
+        "reasoning": "Customer alleges the company stretches out service to bill more after payment — undisclosed/inflated charges."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "півроку намагалися добитися, щоб нам довели справу до кінця",
+        "reasoning": "Customer actively chased the vendor for months to finish the project; vendor never followed through."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "все менеджеры и интеграторы стали сильно заняты и у них больше не было времени заниматься нами",
+        "reasoning": "After paying, customer could not get post-sale support; managers stopped responding."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "quote": "телефонні дзвінки - просто ігнор (в формі \"Вам передзвонять\")",
+        "reasoning": "Customer left callback requests via phone form and was ignored."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "Дочекатись відповіді на звернення неможливо.... всі справи затягують на місяці, на запити не реагують",
+        "reasoning": "Customer actively submitted multiple inquiries across channels and got no response."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "Мы им постоянно напоминали о наших  не решенных проблемах",
+        "reasoning": "Customer had to repeatedly chase the vendor about unresolved questions."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "на 90% наших вопросов ответ был - мы не знаем, мы посмотрим и вам потом скажем. А потом они забывали",
+        "reasoning": "Staff could not give clear answers and forgot follow-ups — unclear/missing information."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.4,
+        "quote": "на відповідь очікував приблизно 5 днів",
+        "reasoning": "Customer waited 5 days for an estimate response; weak fit — more about response delay than scheduling."
+      }
+    ]
+  },
+  {"id": 12, "categories": []},
+  {"id": 13, "categories": []},
+  {"id": 14, "categories": []},
+  {"id": 15, "categories": []},
+  {"id": 16, "categories": []},
+  {"id": 17, "categories": []},
+  {"id": 18, "categories": []},
+  {"id": 19, "categories": []},
+  {"id": 20, "categories": []},
+  {
+    "id": 21,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "the direction isn't marked at the front",
+        "reasoning": "Reviewer notes the entrance/directions are unclear — missing information for visitors."
+      }
+    ]
+  },
+  {"id": 22, "categories": []},
+  {"id": 23, "categories": []},
+  {"id": 24, "categories": []},
+  {"id": 25, "categories": []},
+  {"id": 26, "categories": []},
+  {"id": 27, "categories": []},
+  {
+    "id": 28,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "third class behaviour of staff , especially their office boy . Who don't have any manners how to talk to elders",
+        "reasoning": "Direct complaint about rude/unprofessional staff tone toward visitors."
+      }
+    ]
+  },
+  {"id": 29, "categories": []}
+]

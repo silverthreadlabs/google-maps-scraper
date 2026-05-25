@@ -15,14 +15,26 @@ from __future__ import annotations
 
 import json
 import queue
+import random
 import re
 import subprocess
+import sys
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
+
+# Validators live one level up from enrichers under outreach/lib — make sure
+# `lib.validators.email` is importable when this module is loaded directly
+# (e.g. from a unit test that hasn't already put outreach/ on sys.path).
+_OUTREACH_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_OUTREACH_ROOT) not in sys.path:
+    sys.path.insert(0, str(_OUTREACH_ROOT))
+
+from lib.validators.email import validate_email
 
 PER_CMD_TIMEOUT = 45
 NETWORK_IDLE_TIMEOUT = 25
@@ -61,7 +73,11 @@ class EnrichProfile:
 EXTRACT_JS_TEMPLATE = r"""
 (() => {
   const html = document.documentElement.outerHTML;
-  const REJECT = /(\.png|\.jpg|\.jpeg|\.svg|\.gif|\.webp|\.woff|\.woff2|\.ttf|\.eot|\.ico|\.css|\.js|\.json|\.xml|@sentry|@keen|@example|@2x|@3x|wixpress|cloudflare|@u\.|@s\.|@v\.|@w\.|@a\.|@b\.|@rola\.com|@wix\.com|@wixsite\.com|@squarespace\.com|@godaddy\.com|@duda\.co|@weebly\.com|@webflow\.io|@webflow\.com|@yelp\.com|@google\.com|@facebook\.com|@instagram\.com|@youtube\.com|@gmpg\.org|@schema\.org|@w3\.org|@sentry\.io|@datadoghq\.com|@hubspot\.com|@mailchimp\.com|@constantcontact\.com|@noreply|@no-reply|@donotreply|@do-not-reply|@yourdomain\.com|@domain\.com|@email\.com|@yoursite\.com|sample@|test@|demo@|placeholder@|email@email|john\.doe@|jane\.doe@)/i;
+  // Email candidates come back UNFILTERED — the long REJECT regex this used
+  // to carry (image extensions, vendor domains, placeholders, tracking-pixel
+  // sub-domains, …) has moved into Python `filter_valid_emails` so we have
+  // a single audit-friendly validator instead of two ad-hoc lists drifting
+  // apart. The JS just collects; Python decides.
   const PERSON_TYPES = __JSONLD_PERSON_TYPES__;
   const drMarker = /__POC_TITLE_MARKERS__/i;
   // Honorific prefix is optional, so this captures "Sarah Patel" whether or
@@ -69,7 +85,7 @@ EXTRACT_JS_TEMPLATE = r"""
   const drNameRe = /(?:Dr\.?\s+)?([A-Z][a-zA-Z'’-]{1,}(?:\s+[A-Z]\.?)?\s+[A-Z][a-zA-Z'’-]{1,})/;
 
   const emails = [...new Set((html.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g) || [])
-    .filter(e => !REJECT.test(e)).map(e => e.toLowerCase()))];
+    .map(e => e.toLowerCase()))];
   const mailtos = [...new Set(Array.from(document.querySelectorAll('a[href^="mailto:"]'))
     .map(a => { try { return decodeURIComponent(a.href.replace(/^mailto:/,'').split('?')[0]).toLowerCase(); } catch(e){ return ''; } })
     .filter(Boolean))];
@@ -135,6 +151,40 @@ EXTRACT_JS_TEMPLATE = r"""
   });
 })()
 """
+
+
+def filter_valid_emails(
+    candidates: Iterable[str],
+    *,
+    extra_vendor_domains: frozenset[str] = frozenset(),
+) -> list[str]:
+    """Replacement for the JS-side REJECT regex. Run each email-shaped
+    candidate through `validate_email`; keep only RFC-shape-valid,
+    non-vendor, non-placeholder, non-image-artifact addresses.
+    Order is preserved (first occurrence); case-insensitive dedupe.
+
+    Vertical-specific marketing vendors aren't applied here — the validate
+    stage adds those via `pipelines/<x>/config.py:VENDOR_DOMAINS_EXTRA`.
+    Callers can pass them via `extra_vendor_domains` if they want a single
+    pass without a downstream validate step.
+    """
+    out: list[str] = []
+    seen: set[str] = set()
+    for em in candidates or []:
+        if not isinstance(em, str):
+            continue
+        em = em.strip()
+        if not em:
+            continue
+        ok, _reason = validate_email(em, extra_vendor_domains=extra_vendor_domains)
+        if not ok:
+            continue
+        key = em.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(em)
+    return out
 
 
 def _build_extract_js(profile: EnrichProfile) -> str:
@@ -345,7 +395,10 @@ def crawl_url(website, lead_title, *, profile: EnrichProfile, session: str):
                 existing['email'] = p['email']
 
     result['pocs'] = list(poc_by_name.values())
-    result['emails'] = sorted(set(result['emails']))
+    # Python validation replaces the old JS REJECT regex — same intent
+    # (drop image-artifact / vendor-domain / placeholder hits) but routed
+    # through the canonical `validate_email` so the rules don't drift.
+    result['emails'] = sorted(filter_valid_emails(set(result['emails'])))
     result['socials'] = sorted(set(result['socials']))
 
     if result['emails']:
@@ -503,3 +556,68 @@ def _summary(done, retry_path, retry):
         'open_or_extract_errors': err, 'no_email_found': no_em,
         'retry_count': len(retry),
     }
+
+
+_HTML_JS = 'JSON.stringify(document.documentElement.outerHTML)'
+
+
+class _SingleSessionFetcher:
+    """Thin wrapper that drives the agent-browser CLI for a named session.
+
+    Callers use `session.fetch(url)` and get back raw HTML (or None on
+    failure). The named session string matches the agent-browser --session
+    flag convention already used by `run_pool`.
+    """
+
+    def __init__(self, session: str) -> None:
+        self._session = session
+
+    def fetch(self, url: str, *, wait: str = 'networkidle',
+              jitter: tuple[float, float] = (0.5, 2.0)) -> str | None:
+        rc, _out, _err = _ab('open', url, session=self._session)
+        if rc != 0:
+            return None
+        _ab('wait', '--load', wait, timeout=NETWORK_IDLE_TIMEOUT, session=self._session)
+        time.sleep(random.uniform(*jitter))
+        rc, out, _err = _ab('eval', '--stdin', input_text=_HTML_JS,
+                            session=self._session)
+        if rc != 0 or not out:
+            return None
+        # agent-browser eval returns JSON-encoded (sometimes double-encoded) output.
+        # The JS eval does JSON.stringify(outerHTML), so the transport may wrap that
+        # again: stdout line is `"\"<html>...</html>\""`. Single-decode would leave
+        # the inner quotes; double-decode peels both layers to get raw HTML.
+        for line in reversed(out.splitlines()):
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith('"') and line.endswith('"'):
+                try:
+                    decoded = json.loads(line)
+                    # If the inner value is still JSON-quoted (double-encoded), peel again.
+                    if isinstance(decoded, str) and decoded.startswith('"') and decoded.endswith('"'):
+                        try:
+                            return json.loads(decoded)
+                        except json.JSONDecodeError:
+                            return decoded
+                    if isinstance(decoded, str):
+                        return decoded
+                except json.JSONDecodeError:
+                    continue
+            if line.startswith('<'):
+                return line
+        return None
+
+
+@contextmanager
+def lease_single_session(session_prefix: str = 'osint'):
+    """Yield a `_SingleSessionFetcher` backed by a single named agent-browser
+    session. Intended for sequential, non-parallel callers (OSINT SERP and
+    deep-site fetches) that want the same pool-naming convention without
+    spinning up a full `run_pool` thread pool.
+
+    The session name is deterministic (`<prefix>-0`) so the agent-browser
+    process is reused across calls within the same OS process.
+    """
+    session_name = f'{session_prefix}-0'
+    yield _SingleSessionFetcher(session_name)

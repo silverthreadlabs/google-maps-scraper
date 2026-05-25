@@ -142,5 +142,53 @@ class TestRetailRegression(unittest.TestCase):
         self.assertEqual(reason, 'template_phrase')
 
 
+class TestCosmeticSurgeonsDallasRegression(unittest.TestCase):
+    """POC patterns that leaked through on the cosmetic_surgeons_dallas run.
+    Headings of the form `<X> Dr` (Contact Dr, About Dr, Why Dr, Meet Dr) and
+    `<X> We` (What We) need to be caught — the heading extractor truncated
+    longer headings ('Meet Dr. Burns', 'What We Treat') to two tokens."""
+
+    def test_contact_dr_rejected(self):
+        valid, reason = validate_poc('Contact Dr')
+        self.assertFalse(valid)
+        self.assertEqual(reason, 'section_heading')
+
+    def test_about_dr_rejected(self):
+        valid, reason = validate_poc('About Dr')
+        self.assertFalse(valid)
+        self.assertEqual(reason, 'section_heading')
+
+    def test_meet_dr_rejected(self):
+        # "Meet Dr. Burns" → "Meet Dr" after first-2-tokens truncation.
+        valid, reason = validate_poc('Meet Dr')
+        self.assertFalse(valid)
+        self.assertEqual(reason, 'section_heading')
+
+    def test_why_dr_rejected(self):
+        # "Why Dr. Pin?" → "Why Dr" — not a real name.
+        valid, reason = validate_poc('Why Dr')
+        self.assertFalse(valid)
+        self.assertEqual(reason, 'section_heading')
+
+    def test_what_we_rejected(self):
+        # "What We Treat" / "What We Offer" → "What We" — not a real name.
+        valid, reason = validate_poc('What We')
+        self.assertFalse(valid)
+        self.assertEqual(reason, 'section_heading')
+
+    def test_in_the_rejected(self):
+        # "In The News" / "In The Press" → "In The" prepositional fragment.
+        valid, reason = validate_poc('In The')
+        self.assertFalse(valid)
+        self.assertEqual(reason, 'section_heading')
+
+    def test_real_name_with_dr_suffix_still_passes(self):
+        # We're permissive when "Dr" is the FIRST token (the prefix), so
+        # passing names like "Dr Burns" must still validate. The reject only
+        # fires when the heading-opener pattern matches.
+        valid, reason = validate_poc('Dr Burns')
+        self.assertTrue(valid, f'reason={reason!r}')
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

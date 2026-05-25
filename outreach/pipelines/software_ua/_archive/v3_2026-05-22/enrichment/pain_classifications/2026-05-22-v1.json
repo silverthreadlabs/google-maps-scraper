@@ -1,0 +1,1650 @@
+{
+  "ChIJuZr-XwrdOkcRsCcu1HSQnmA": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Не можу рекомендувати цю фірму. Дуже складна, довга комунікація. Якщо у вас виникає проблема в роботі ЦРМ, ви маєте лишити запит по методичці, написати по проблемі цілу дисертацію. Після чого вам повідомлять що запит передано спеціалісту, який може його вирішувати більше тижня!\n\nЯкщо у вас на балансі немає годин то живого людського спілкування ви не отримаєте. На всі питання у відповідь прилітатиме повідомлення про те що у вас закінчились години і ми рекомендуємо купити нові щоб ми почали вам відповідати...\n\nКоли у вас будуть претензії щодо роботи, зауваження або пропозиції на які працівники компанії вповноважені відповісти, до чату доєднається Власник і буде сперечатися до останнього.\n\nБажаю компанії поміняти підхід до роботи і нарешті стати клієнтоорієнтованими. Бо співпраця з вами - це біль і трата часу та грошей.",
+        "rating": 1,
+        "reviewer": "Andrew Demchenko",
+        "quote": "Дуже складна, довга комунікація",
+        "reasoning": "Customer says responses to support requests drag on for over a week; active requests not answered timely."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "Жахливий досвід впровадження CRM системи. Купили ліцензію, пройшли \"навчання\" онлайн. Тільки увесь офіс сміявся з того навчання, тому що нічого нового не показали, а на всі питання - ми уточнимо у тех. підтримки. Потім попросили налаштувати обмін з обліковою системою. Проек менеджер, дівчинка по шаблону налаштувала, показала на презентації самий простий варіант обміну. Вмовила поставити гарну оцінку і закрити проект. Коли перенесли на основну систему, почався жах. Номенклатура в обліковій системі почала дублюватися сама, документи (видаткові) змінюватися за невідомим алгоритмом. Дівчинка пішла у відпустку, потім захворіла, потім звільнилася. Ми зупинили проект і півроку намагалися добитися, щоб нам довели справу до кінця. Але власник, директор були дуже зайняті продажами ліцензій і проведенням конференцій. По факту керівниця відділу продажів відповіла - підписали, ваші справи...Те що нас годували багато місяців обіцянками нікого не турбувало. Тобто на імідж їм все одно. Ні в якому разі не працюйте з ними! Команда пережила стрес і зараз ми працюємо з українськими розробниками, а не з продавцями.",
+        "rating": 1,
+        "reviewer": "Oleksii Aleksieienko",
+        "quote": "півроку намагалися добитися, щоб нам довели справу до кінця",
+        "reasoning": "Customer actively chased the vendor for months to finish the project; vendor never followed through."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "Вели переговоры о покупке Битрикс24 порядка 4 месяцев, компания регулярно звонила и напоминала о сделке. В результате мы купили у них Битрикс24. После оплаты денег пришлось:\n1. Выбивать купленный товар пару дней, непосредственно у руководства;\n2. После того как нам таки  отгрузили нашу коробку, все менеджеры и интеграторы стали сильно заняты и у них больше не было времени заниматься нами и интеграцией коробки для нашей компании.\n3. В результате имеем коробку и полное отсутствие помощи в интеграции решения.\n\nКрайне не рекомендую данную компанию!",
+        "rating": 1,
+        "reviewer": "Volodymyr Glukhota",
+        "quote": "все менеджеры и интеграторы стали сильно заняты и у них больше не было времени заниматься нами",
+        "reasoning": "After paying, customer could not get post-sale support; managers stopped responding."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "snippet": "Дочекатись відповіді на звернення неможливо.... всі справи затягують на місяці, на запити не реагують...\n\nВідповідь на ваше \"не знайшли контакти\")))\n- запит в скайп до Сергія та Богдана - відповідь: Звертайтесь через сайт, телефонні дзвінки - просто ігнор (в формі \"Вам передзвонять\"), звернення до Андрія в ФБ - взагалі ніякої реакції... На сайті залишав заявку кілька разів - реакції \"0\". Залишив відгук на вашій сторінці - зреагували майже за 2 місяці))) ... та й тут така собі оперативність реакції)))",
+        "rating": 1,
+        "reviewer": "Oleh Yasynetskyi",
+        "quote": "Дочекатись відповіді на звернення неможливо.... всі справи затягують на місяці, на запити не реагують",
+        "reasoning": "Customer actively submitted multiple inquiries across channels and got no response."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Данную компанию категорически НЕ РЕКОМЕНДУЮ! В октябре 2018 обратились в данную компанию для перевода нашего сайта на платформу \"Битрикс управление сайтом\" (далее БУС).\nПромучались с этой компанией ПОЛГОДА! После чего вынуждены были сменить компанию внедренца. После этого потратили еще массу времени и  денег на исправление последствий того, что сделал в программном коде шаблона БУС этот Auspex.\nВсе попытки пожаловаться в головную команию в Bitrix.ua и вернуть деньги  закончились ничем - мол разбирайтесь сами, мы тут не при чём.\n\nКомпания Auspex проявила себя как в высшей степени безответственная и неквалифицированная компания. Сотрудники очень плохо знают программный продукт который продают, постоянно всё забывают, не в состоянии были даже создать гугл-таблицу с перечнем замечаний и отмечать закрытые вопросы по нашей просьбе. Мы им постоянно напоминали о наших  не решенных проблемах с БУС.\n\nВ общем не связывайтесь с ними ни за что на свете. Набрали какой-то плохо обученной молодежи, которой явно мало платят, а отдуваются за всё клиенты.\nЭто просто дискредитация Bitrix как компании и её продуктов, потому что этот Auspex даже не мог нормально показать шаблоны которые они же продают за деньги. Во время показа на 90% наших вопросов ответ был - мы не знаем, мы посмотрим и вам потом скажем. А потом они забывали и нам приходилось по много раз напоминать о наших вопросах.\n\nДоработки шаблона сделаны ужасно. Компания, к которой мы обратили сделал аудит сайта и всех доработок и там было очень много грубейших ошибок. Нам потом пришлось за наши же деньги всё это исправлять.",
+        "rating": 1,
+        "reviewer": "Вадим Матвеев",
+        "quote": "Мы им постоянно напоминали о наших  не решенных проблемах",
+        "reasoning": "Customer had to repeatedly chase the vendor about unresolved questions."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "Не можу рекомендувати цю фірму. Дуже складна, довга комунікація. Якщо у вас виникає проблема в роботі ЦРМ, ви маєте лишити запит по методичці, написати по проблемі цілу дисертацію. Після чого вам повідомлять що запит передано спеціалісту, який може його вирішувати більше тижня!\n\nЯкщо у вас на балансі немає годин то живого людського спілкування ви не отримаєте. На всі питання у відповідь прилітатиме повідомлення про те що у вас закінчились години і ми рекомендуємо купити нові щоб ми почали вам відповідати...\n\nКоли у вас будуть претензії щодо роботи, зауваження або пропозиції на які працівники компанії вповноважені відповісти, до чату доєднається Власник і буде сперечатися до останнього.\n\nБажаю компанії поміняти підхід до роботи і нарешті стати клієнтоорієнтованими. Бо співпраця з вами - це біль і трата часу та грошей.",
+        "rating": 1,
+        "reviewer": "Andrew Demchenko",
+        "quote": "Дуже складна, довга комунікація",
+        "reasoning": "Reviewer explicitly describes communication as difficult and prolonged."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "Данную компанию категорически НЕ РЕКОМЕНДУЮ! В октябре 2018 обратились в данную компанию для перевода нашего сайта на платформу \"Битрикс управление сайтом\" (далее БУС).\nПромучались с этой компанией ПОЛГОДА! После чего вынуждены были сменить компанию внедренца. После этого потратили еще массу времени и  денег на исправление последствий того, что сделал в программном коде шаблона БУС этот Auspex.\nВсе попытки пожаловаться в головную команию в Bitrix.ua и вернуть деньги  закончились ничем - мол разбирайтесь сами, мы тут не при чём.\n\nКомпания Auspex проявила себя как в высшей степени безответственная и неквалифицированная компания. Сотрудники очень плохо знают программный продукт который продают, постоянно всё забывают, не в состоянии были даже создать гугл-таблицу с перечнем замечаний и отмечать закрытые вопросы по нашей просьбе. Мы им постоянно напоминали о наших  не решенных проблемах с БУС.\n\nВ общем не связывайтесь с ними ни за что на свете. Набрали какой-то плохо обученной молодежи, которой явно мало платят, а отдуваются за всё клиенты.\nЭто просто дискредитация Bitrix как компании и её продуктов, потому что этот Auspex даже не мог нормально показать шаблоны которые они же продают за деньги. Во время показа на 90% наших вопросов ответ был - мы не знаем, мы посмотрим и вам потом скажем. А потом они забывали и нам приходилось по много раз напоминать о наших вопросах.\n\nДоработки шаблона сделаны ужасно. Компания, к которой мы обратили сделал аудит сайта и всех доработок и там было очень много грубейших ошибок. Нам потом пришлось за наши же деньги всё это исправлять.",
+        "rating": 1,
+        "reviewer": "Вадим Матвеев",
+        "quote": "на 90% наших вопросов ответ был - мы не знаем, мы посмотрим и вам потом скажем. А потом они забывали",
+        "reasoning": "Staff could not give clear answers and forgot follow-ups — unclear/missing information."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "snippet": "Мені здається позитивні відгуки тут залишили лише працівники цієї компанії. Не зв'язуйтесь з цією конторою! Це жах! Скачають гроші, а після оплати, нахомлять і зроблять усе, що б обслуговувати якнайдовше і дорожче. Побережіть свої нерви та пошукайте іншого постачальника послуг.",
+        "rating": 1,
+        "reviewer": "Yevhen Bond",
+        "quote": "Скачають гроші, а після оплати, нахомлять і зроблять усе, що б обслуговувати якнайдовше і дорожче",
+        "reasoning": "Customer alleges the company stretches out service to bill more after payment — undisclosed/inflated charges."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "snippet": "Дочекатись відповіді на звернення неможливо.... всі справи затягують на місяці, на запити не реагують...\n\nВідповідь на ваше \"не знайшли контакти\")))\n- запит в скайп до Сергія та Богдана - відповідь: Звертайтесь через сайт, телефонні дзвінки - просто ігнор (в формі \"Вам передзвонять\"), звернення до Андрія в ФБ - взагалі ніякої реакції... На сайті залишав заявку кілька разів - реакції \"0\". Залишив відгук на вашій сторінці - зреагували майже за 2 місяці))) ... та й тут така собі оперативність реакції)))",
+        "rating": 1,
+        "reviewer": "Oleh Yasynetskyi",
+        "quote": "телефонні дзвінки - просто ігнор (в формі \"Вам передзвонять\")",
+        "reasoning": "Customer left callback requests via phone form and was ignored."
+      }
+    ],
+    "booking_friction": [
+      {
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.4,
+        "snippet": "І так розкажу про цю компанію відправив їм на оцінку технічне завдання (до цього вже звертався до інших компаній) на відповідь очікував приблизно 5 днів ( за цей час вже реалізували\nнашу систему ) коли пришла відповідь я був   трішки шокований вони підрахували від 70 годин розробки це насправді   забагато!",
+        "rating": 3,
+        "reviewer": "James B",
+        "quote": "на відповідь очікував приблизно 5 днів",
+        "reasoning": "Customer waited 5 days for an estimate response; weak fit — more about response delay than scheduling."
+      }
+    ]
+  },
+  "ChIJg_rpJG-U3zgRtFW90DpQClw": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "snippet": "Yhe place was very hot, staff was bit cooperative entrance is on the back of plaza, the direction isn't marked at the front.",
+        "rating": 1,
+        "reviewer": "Kashif Khan",
+        "quote": "the direction isn't marked at the front",
+        "reasoning": "Reviewer notes the entrance/directions are unclear — missing information for visitors."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Worst experience , third class behaviour of staff , especially their office boy . Who don't have any manners how to talk to elders .",
+        "rating": 1,
+        "reviewer": "Abdul kareem",
+        "quote": "third class behaviour of staff , especially their office boy . Who don't have any manners how to talk to elders",
+        "reasoning": "Direct complaint about rude/unprofessional staff tone toward visitors."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "They have no manners to deal with new Applicant.",
+        "rating": 1,
+        "reviewer": "Mashood Kiyani",
+        "quote": "They have no manners to deal with new Applicant",
+        "reasoning": "Complaint about staff manners/tone when dealing with new applicants — matches rude front-of-house pattern."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "I started 2 months of Remote Internship and had a very bad experience, the Instructor(Sir Qamar) kind a have some kind of attitude issues and don't know how to talk proper while giving respect.",
+        "rating": 1,
+        "reviewer": "Saeed Hussain",
+        "quote": "the Instructor(Sir Qamar) kind a have some kind of attitude issues and don't know how to talk proper while giving respect",
+        "reasoning": "Direct complaint about staff tone/attitude and disrespectful manner of speaking — matches rude staff pattern (applies to any non-clinical staff)."
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.55,
+        "snippet": "Trainer are not available and u'r fee of four thousand is wasted😔",
+        "rating": 1,
+        "reviewer": "yasir mehmood",
+        "quote": "Trainer are not available",
+        "reasoning": "Reports trainers not available during a paid program, suggesting inattentive/absent service delivery."
+      },
+      {
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.5,
+        "snippet": "Bad software. They take money and give no guidance during internship.",
+        "rating": 1,
+        "reviewer": "Muhammad Bilal",
+        "quote": "They take money and give no guidance during internship",
+        "reasoning": "Describes inattentive service — paid for internship but received no guidance from staff."
+      }
+    ]
+  },
+  "ChIJb72ZU_OEXjkR46WqQ9ZvDSM": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.78,
+        "snippet": "I had a disappointing experience with Drashti Mistry from the HR department. She repeatedly asked the same questions without modification, even after I mentioned not understanding her. It felt like she was blaming me for the confusion, as if she didn't understand English herself. Additionally, her communication seemed limited to English, which could be challenging for non-English speakers.\n\nI hope the HR team improves their communication skills and professionalism, as this experience left a negative impression of the organization.",
+        "rating": 1,
+        "reviewer": "Priti Rajshakha",
+        "quote": "She repeatedly asked the same questions without modification, even after I mentioned not understanding her.",
+        "reasoning": "Reviewer describes unclear/contradictory communication from HR staff — repeated questions without clarification despite stated confusion."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "AVOID THIS BUSINESS. It seems Radixweb people want BIG CLIENTS ONLY. I went there for development of a mobile application. They kept me waiting in the loby and then sales representative denied attending me. Felt ignored. Highly disappointed.",
+        "rating": 1,
+        "reviewer": "Abhishek Dadhich",
+        "quote": "sales representative denied attending me. Felt ignored.",
+        "reasoning": "Customer raised an inquiry (mobile app development) and was dismissed/ignored by sales."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.82,
+        "snippet": "Pathetic service and sales staff. Nobody knows anything about tech or software. They keep redirecting inquiries to one another and wasting valuable time of others.",
+        "rating": 1,
+        "reviewer": "Chirag Dave",
+        "quote": "They keep redirecting inquiries to one another and wasting valuable time of others.",
+        "reasoning": "Sales staff give contradictory/unclear info, bouncing inquiries between people — classic poor communication."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "snippet": "Extremely toxic work environment, unrealistic workload, and zero respect for employees or their personal life. Management never listens to employee problems. Think twice before joining or doing business with this company.",
+        "rating": 1,
+        "reviewer": "Salman Pathan",
+        "quote": "Management never listens to employee problems.",
+        "reasoning": "Explicit complaint that concerns raised are ignored — fits not_listening sub, though context is employee not customer."
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "language_barrier",
+        "confidence": 0.7,
+        "snippet": "I had a disappointing experience with Drashti Mistry from the HR department. She repeatedly asked the same questions without modification, even after I mentioned not understanding her. It felt like she was blaming me for the confusion, as if she didn't understand English herself. Additionally, her communication seemed limited to English, which could be challenging for non-English speakers.\n\nI hope the HR team improves their communication skills and professionalism, as this experience left a negative impression of the organization.",
+        "rating": 1,
+        "reviewer": "Priti Rajshakha",
+        "quote": "her communication seemed limited to English, which could be challenging for non-English speakers",
+        "reasoning": "Explicit complaint that staff couldn't communicate with non-English speakers."
+      },
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "snippet": "AVOID THIS BUSINESS. It seems Radixweb people want BIG CLIENTS ONLY. I went there for development of a mobile application. They kept me waiting in the loby and then sales representative denied attending me. Felt ignored. Highly disappointed.",
+        "rating": 1,
+        "reviewer": "Abhishek Dadhich",
+        "quote": "They kept me waiting in the loby and then sales representative denied attending me.",
+        "reasoning": "Customer was kept waiting then not attended to — operational waiting/inattention signal."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.72,
+        "snippet": "this is how they bait people, firstly bluff how big the company they are, paid deposit of USD 2850 then they offered a student just graduated from school to serve, ridiculous, a senior developer severed finally afterward but whatever he did always giving an excuse as out of scope at the end by use this excuse to milk you, they talk more than walk, well, try them if you got the ball..",
+        "rating": 1,
+        "reviewer": "Lobin Lin",
+        "quote": "always giving an excuse as out of scope at the end by use this excuse to milk you",
+        "reasoning": "Describes bait-and-switch / hidden upcharges via 'out of scope' billing after deposit."
+      }
+    ]
+  },
+  "ChIJ3WzgdJ3P1EARSgMvAWssMRw": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Встановив застосунок. Ні сімейний лікар ні медична картка не підтягується. Служба техпідтримки тільки реєструє звернення і все, ні якого зворотного зв'язку. Навіть одна зірка дуже забагато. Повністю безкорисний додаток.",
+        "rating": 1,
+        "reviewer": "Игорь",
+        "quote": "Служба техпідтримки тільки реєструє звернення і все, ні якого зворотного зв'язку",
+        "reasoning": "User contacted support and never received a callback/response."
+      },
+      {
+        "sub": "no_show_reminder_missing",
+        "confidence": 0.55,
+        "snippet": "нет уведомлений об освободившемся месте у врача. не подтягивает все направления, идут не по порядку. как всегда все через ж с этой медициной. держава млть в смартфони",
+        "rating": 1,
+        "reviewer": "Обозреватель 9",
+        "quote": "нет уведомлений об освободившемся месте у врача",
+        "reasoning": "No notifications about available appointment slots — missing proactive reminder."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "Найгірше обслуговування в моєму житті, менеджер Каріна спочатку створила атмосферу не затишку і не комфорту потім сказала мені щоб я передзвонила а коли я передзвонила то мені передзвонили чере годину коли мені вже стало не потрібно . Однозначно не рекомендую .",
+        "rating": 1,
+        "reviewer": "Natalia Kirichenko",
+        "quote": "сказала мені щоб я передзвонила а коли я передзвонила то мені передзвонили чере годину коли мені вже стало не потрібно",
+        "reasoning": "Customer was told to call back, then callback came an hour late when no longer needed — dropped lead."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Мою декларацію з лікерам не затверджують у системі вже майже місяць. Технічна підтримка, будь-ласка звʼяжіться зі мною!",
+        "rating": 1,
+        "reviewer": "Vitalina Shyhova",
+        "quote": "Технічна підтримка, будь-ласка звʼяжіться зі мною",
+        "reasoning": "User pleading for support to contact them — request unanswered."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "snippet": "Жахливе обслуговування служби підтримки.\nПо-перше майже неможливо звʼязатись , а по-друге такого хамського відношення я ще не чула\nСьогодні спілкувалась з оператором (на жаль імʼя не знаю, тому що ніхто не представився) , просто тотальне небажання щось робити та допомагати.\nМаксимально хамське спілкування",
+        "rating": 1,
+        "reviewer": "Илона Сидоренко",
+        "quote": "майже неможливо звʼязатись",
+        "reasoning": "Customer says it's nearly impossible to reach support by phone."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "snippet": "Жахливе обслуговування служби підтримки.\nПо-перше майже неможливо звʼязатись , а по-друге такого хамського відношення я ще не чула\nСьогодні спілкувалась з оператором (на жаль імʼя не знаю, тому що ніхто не представився) , просто тотальне небажання щось робити та допомагати.\nМаксимально хамське спілкування",
+        "rating": 1,
+        "reviewer": "Илона Сидоренко",
+        "quote": "такого хамського відношення я ще не чула",
+        "reasoning": "Explicit complaint about rude tone from support operator."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Перейшли на цю систему 2 місяці тому. Двічі телефонувала на гарячу лінію для того,аби розібратись з незрозумілими моментами.Перший раз допомогли.Другий раз менеджер Альона відповідала на мої запитання зверхньо та непривітно.3 3ьох питань розібралась лише з 1.Продовжувати такий діалог не хотілось .",
+        "rating": 1,
+        "reviewer": "natalia tkhir",
+        "quote": "менеджер Альона відповідала на мої запитання зверхньо та непривітно",
+        "reasoning": "Manager spoke condescendingly and unfriendly — rude tone."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Найгірше обслуговування в моєму житті, менеджер Каріна спочатку створила атмосферу не затишку і не комфорту потім сказала мені щоб я передзвонила а коли я передзвонила то мені передзвонили чере годину коли мені вже стало не потрібно . Однозначно не рекомендую .",
+        "rating": 1,
+        "reviewer": "Natalia Kirichenko",
+        "quote": "менеджер Каріна спочатку створила атмосферу не затишку і не комфорту",
+        "reasoning": "Manager created uncomfortable atmosphere — rude/dismissive front-line behavior."
+      }
+    ],
+    "booking_friction": [
+      {
+        "sub": null,
+        "confidence": 0.7,
+        "snippet": "не  працююча программа. постійно якійсь баг, не можливо записатись на прийом. з якогось дива підтягує якійсь лівий номер до декларації!!! та ще не можливо його змінити. з теелфону взагалі не працює. В мед карті24 такого не було вгазалі!!!",
+        "rating": 1,
+        "reviewer": "Olga Komarova",
+        "quote": "не можливо записатись на прийом",
+        "reasoning": "Cannot book an appointment due to system bugs."
+      },
+      {
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "snippet": "Не рекомендую! Записався через даний сервіс до лікаря, прийшовши до лікаря з‘ясувалося що лікар не знає про прийом, так як з даного сервісу не передали про мій запис. Якщо і записуєтися через даний сервіс, то необхідно передзвонювати до лікаря і уточнювати чи вас точно записано.",
+        "rating": 1,
+        "reviewer": "Oleksandr Viktorovych",
+        "quote": "прийшовши до лікаря з‘ясувалося що лікар не знає про прийом, так як з даного сервісу не передали про мій запис",
+        "reasoning": "Booking made through service didn't reach the doctor — scheduling failure requiring user to call to confirm."
+      }
+    ]
+  },
+  "ChIJk1G1VInnOkcRXNdUd5Xk-00": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "snippet": "Коментар Kaazaam G2 збігається з нашим досвідом. Якщо ви думаєте над співпрацею з Фокусвеб, то почитайте коротеньке оповідання аби не обпектися. Якщо ж Фокусвеб має своє бачення конфлікту, то я навіть готова прикріпити скріни переписок, аби ви все побачили на власні очі.\n\nПравду кажучи, пройшло вже пів року. Але недавно довелось повністю переробити сайт, бо він був малопридатним для використання. Тому згадались всі витрачені нерви, час, і захотілось попередити інших, аби нхто не повторив наш сумний досвід.\n\nДизайн.\nДизайн у нас був свій, тим не менше нам у ввічливій формі, проте дуже нав'язливо постійно пропонували щось від себе. Хочеться зазначити, що дизайнер виконує свою роботу, а програміст свою. У Фокусвеб професійність дизайнерських здібностей дуже сумнівна, починаючи елементарно з правил композиції. Воно й не дивно -  програмісти не повинні займатися дизайном. Тим не менше програмісти постійно втручалися і наполягали, навіть коли ми разів 5 повторили, що хочемо залишити згідно макету.\n\nВідхилення від макету.\nВрешті, ми отримали безліч розбіжностей з макетом: то вирівнювання не по тій стороні, то розмір шрифтів. Аби виправити кожен такий нюанс, доводилось видзвонювати десятки разів. Ми замовили макет у професійного дизайнера, аби все виконали грамотно, а не на око. За це ми платили кошти. А Фокусвеб все спаплюжили, бо на їх суб'єктивну думку і так виглядає нормально.\n\nПравки.\nЕтап правок - дуже болюча частина. Боюсь збрехати скільки тривало це: пів року чи майже рік. Виглядає це так:\n- я роблю списки пунктів близько 10, з текстом про помилки і супроводжуючими скрінами\n- менеджер відписує переважно загальними фразами, про те що з'ясує скільки часу це займе і повідомить (щось в цьому дусі)\n- від п'ятниці до п'ятниці я видзвонюю менеджера, мені щоразу обіцяють \"до кінця наступного тижня\"\n- згодом я видзвонюю Кирила, як головного, прошу навести лад. На Кирила складно сердитись, на відміну від менеджера, яка не в найкращій манері розмовляє з клієнтом. Кирило маніпулює своєю любязністю, оскільки не виконує обіцянки вчасно, як і його менеджери.\n- коли нарешті через місяць-два усі правки готові, несправності виникають у іншому місці сайту. Це коло починається заново\n- окрім всього, мене ще регулярно намагаються переконати, що це не сайт барахлить, а в мене проблеми з браузером. Коли я чищу кеш, а також переглядаю сайт ще з 4 інших компютерів, врешті заставляю менеджера зайти на мій комп'ютер через TeamViewer. Отоді виявляється, що проблема вирішується за 20хв.\n\nМобільна версія.\nЗа домовленістю у ціну входила мобільна версія. Обіцяли підігнати макет під параметри гаджетів. По факту макет просто обрізали справа і зліва таким чином, що ми втрачаємо по 2/3 зображення. По решті пунктів мобільна весія також практично не придатна для використання. Шкода, в мене не збереглося скрінів, щоб ви на свої очі побачили цей цирк.\n\nДоплатити.\nЯк за мобільну версію, так і за безліч інших виправлень, з нас хотіли здерти ще грошей. Якщо за деякі моменти ще можна було посперечатись, то переважно йшлось про речі, за які домовлялись наперед. Крім цього, без багатьох правок сайт взагалі не функціонував як слід.\nВажливий момент, що доплатити просили такі суми, які очевидно жоден замовник не віддав би. Гадаю, це свідчить про те, що у компанії просто не було спеціаліста, який би подужав поставлені завдання. Тому Фокусвеб намагались поставити питання так, аби замовник сам відмовився.\n\nМенеджер Юлія.\nОкремо хочеться написати про Юлію - дівчину, яку уповноважили відповідати мені по всіх питаннях. У чому полягала робота Юлії, коли на кожен мій дзвінок відповідь починалась з того, що Юлія не займається цим питанням, їй потрбно уточнити ситуацію в того-то й того-то. Мені здавалось, завдання менеджера в тім і полягає, щоб зводити роботу всіх докупи і могти відзвітувати перед клієнтом. Вічно розгублена, налякана, нічогонерозуміюча Юлія не могла компетентно відповісти на жодне моє питання, наче секретарка, яку попросили припильнувати телефон менеджера під час обідньої перерви. Коли я нарешті домоглась зміни менеджера, справа трішки зрушила з місця.",
+        "rating": 1,
+        "reviewer": "Marta Buriak",
+        "quote": "менеджер відписує переважно загальними фразами",
+        "reasoning": "Manager replied with vague generic phrases — unclear communication."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Коментар Kaazaam G2 збігається з нашим досвідом. Якщо ви думаєте над співпрацею з Фокусвеб, то почитайте коротеньке оповідання аби не обпектися. Якщо ж Фокусвеб має своє бачення конфлікту, то я навіть готова прикріпити скріни переписок, аби ви все побачили на власні очі.\n\nПравду кажучи, пройшло вже пів року. Але недавно довелось повністю переробити сайт, бо він був малопридатним для використання. Тому згадались всі витрачені нерви, час, і захотілось попередити інших, аби нхто не повторив наш сумний досвід.\n\nДизайн.\nДизайн у нас був свій, тим не менше нам у ввічливій формі, проте дуже нав'язливо постійно пропонували щось від себе. Хочеться зазначити, що дизайнер виконує свою роботу, а програміст свою. У Фокусвеб професійність дизайнерських здібностей дуже сумнівна, починаючи елементарно з правил композиції. Воно й не дивно -  програмісти не повинні займатися дизайном. Тим не менше програмісти постійно втручалися і наполягали, навіть коли ми разів 5 повторили, що хочемо залишити згідно макету.\n\nВідхилення від макету.\nВрешті, ми отримали безліч розбіжностей з макетом: то вирівнювання не по тій стороні, то розмір шрифтів. Аби виправити кожен такий нюанс, доводилось видзвонювати десятки разів. Ми замовили макет у професійного дизайнера, аби все виконали грамотно, а не на око. За це ми платили кошти. А Фокусвеб все спаплюжили, бо на їх суб'єктивну думку і так виглядає нормально.\n\nПравки.\nЕтап правок - дуже болюча частина. Боюсь збрехати скільки тривало це: пів року чи майже рік. Виглядає це так:\n- я роблю списки пунктів близько 10, з текстом про помилки і супроводжуючими скрінами\n- менеджер відписує переважно загальними фразами, про те що з'ясує скільки часу це займе і повідомить (щось в цьому дусі)\n- від п'ятниці до п'ятниці я видзвонюю менеджера, мені щоразу обіцяють \"до кінця наступного тижня\"\n- згодом я видзвонюю Кирила, як головного, прошу навести лад. На Кирила складно сердитись, на відміну від менеджера, яка не в найкращій манері розмовляє з клієнтом. Кирило маніпулює своєю любязністю, оскільки не виконує обіцянки вчасно, як і його менеджери.\n- коли нарешті через місяць-два усі правки готові, несправності виникають у іншому місці сайту. Це коло починається заново\n- окрім всього, мене ще регулярно намагаються переконати, що це не сайт барахлить, а в мене проблеми з браузером. Коли я чищу кеш, а також переглядаю сайт ще з 4 інших компютерів, врешті заставляю менеджера зайти на мій комп'ютер через TeamViewer. Отоді виявляється, що проблема вирішується за 20хв.\n\nМобільна версія.\nЗа домовленістю у ціну входила мобільна версія. Обіцяли підігнати макет під параметри гаджетів. По факту макет просто обрізали справа і зліва таким чином, що ми втрачаємо по 2/3 зображення. По решті пунктів мобільна весія також практично не придатна для використання. Шкода, в мене не збереглося скрінів, щоб ви на свої очі побачили цей цирк.\n\nДоплатити.\nЯк за мобільну версію, так і за безліч інших виправлень, з нас хотіли здерти ще грошей. Якщо за деякі моменти ще можна було посперечатись, то переважно йшлось про речі, за які домовлялись наперед. Крім цього, без багатьох правок сайт взагалі не функціонував як слід.\nВажливий момент, що доплатити просили такі суми, які очевидно жоден замовник не віддав би. Гадаю, це свідчить про те, що у компанії просто не було спеціаліста, який би подужав поставлені завдання. Тому Фокусвеб намагались поставити питання так, аби замовник сам відмовився.\n\nМенеджер Юлія.\nОкремо хочеться написати про Юлію - дівчину, яку уповноважили відповідати мені по всіх питаннях. У чому полягала робота Юлії, коли на кожен мій дзвінок відповідь починалась з того, що Юлія не займається цим питанням, їй потрбно уточнити ситуацію в того-то й того-то. Мені здавалось, завдання менеджера в тім і полягає, щоб зводити роботу всіх докупи і могти відзвітувати перед клієнтом. Вічно розгублена, налякана, нічогонерозуміюча Юлія не могла компетентно відповісти на жодне моє питання, наче секретарка, яку попросили припильнувати телефон менеджера під час обідньої перерви. Коли я нарешті домоглась зміни менеджера, справа трішки зрушила з місця.",
+        "rating": 1,
+        "reviewer": "Marta Buriak",
+        "quote": "мені щоразу обіцяють \"до кінця наступного тижня\"",
+        "reasoning": "Repeated unfulfilled promises of callback/delivery — dropped follow-through."
+      }
+    ]
+  },
+  "ChIJgeRjvGyV3zgRYeqIyxdQ8pY": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "It is painful when one is not entertained on telephone with courtesy and interest.",
+        "rating": 1,
+        "reviewer": "Muhammad Asif Mughal (Bilal)",
+        "quote": "It is painful when one is not entertained on telephone with courtesy and interest",
+        "reasoning": "Lack of courtesy on the phone — discourteous front-line behavior."
+      }
+    ]
+  },
+  "ChIJD4PvrlnP1EARgnbJjaBlZT4": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Маю негативний досвід співпраці з компанією Altum Software. Після виконання домовленої роботи компанія не оплатила за надані послуги. Після неодноразових звернень представники компанії перестали відповідати на повідомлення.\n\nБудь-яких пояснень щодо затримки або невиплати коштів надано не було. Така поведінка виглядає непрофесійно та викликає недовіру до компанії як до роботодавця.\n\nРекомендую іншим кандидатам і спеціалістам уважно фіксувати всі домовленості письмово та з обережністю підходити до співпраці.",
+        "rating": 1,
+        "reviewer": "Yuliia Lytvynska",
+        "quote": "представники компанії перестали відповідати на повідомлення",
+        "reasoning": "Reviewer chased a specific matter (payment for services) and the company stopped responding."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "snippet": "Компанія не розраховується з фрілансерами.Перестають відповідати на повідомлення.",
+        "rating": 1,
+        "reviewer": "Христина Мендела",
+        "quote": "Перестають відповідати на повідомлення",
+        "reasoning": "Active outreach by freelancers receives no response."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "Компанія веде себе самим безвідповідальним чином.\nКомунікації жодної. Повна неповага збоку працівників та начальства.Подумайте двічі перед початком співпраці",
+        "rating": 1,
+        "reviewer": "Магазин Автозапчастин",
+        "quote": "Комунікації жодної",
+        "reasoning": "Reviewer explicitly cites lack of communication from the company."
+      }
+    ]
+  },
+  "ChIJGafGZh-V3zgRn_qMRURrVBc": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "They are unprofessional people. When I have asked for internship opportunity, they says that we are not hiring but internship form is available on their website completely",
+        "rating": 1,
+        "reviewer": "Muhammad Ibrahim",
+        "quote": "they says that we are not hiring but internship form is available on their website",
+        "reasoning": "Contradictory information given to the inquirer."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Very uncooperative. No manners to talk.",
+        "rating": 1,
+        "reviewer": "Rao Sultan",
+        "quote": "No manners to talk",
+        "reasoning": "Complaint about rude tone of staff."
+      }
+    ]
+  },
+  "ChIJfa-Y9yjdOkcRIzR0rnCpUHw": {
+    "service_quality_in_session": [
+      {
+        "sub": "language_barrier",
+        "confidence": 0.7,
+        "snippet": "Хотів скористатись послугою відкриття акаунту PayPal.На сайті не вказано ,що потрібно мати закордонний рахунок,а після відмови обслуговувати мене українською,а не російською я відмовився від послуг даної компанії.Кошти повернули.Електронну скаргу мовному омбудсмену написав.",
+        "rating": 1,
+        "reviewer": "Viktor Kocherev",
+        "quote": "після відмови обслуговувати мене українською,а не російською",
+        "reasoning": "Customer was refused service in their language (Ukrainian)."
+      }
+    ]
+  },
+  "ChIJj1N-f6Dt3zgRlFYHPfjD5GY": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.45,
+        "snippet": "They just call you for test, the test us basically there some client projects and you made it for free of cost and they called it test. Issue is after test they just reject you because the main motive is not hiring you its making client work free of cost",
+        "rating": 1,
+        "reviewer": "Sarim",
+        "quote": "after test they just reject you",
+        "reasoning": "Candidates given test work then dropped without follow-through; weak fit but closest."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "A very worst experience with this company! I have called multiple times for interviews and wasted my precious time. In the end, ignore me. Even I have given my best. Not recommended for anyone.",
+        "rating": 1,
+        "reviewer": "Muhammad Hamza",
+        "quote": "I have called multiple times for interviews and wasted my precious time. In the end, ignore me",
+        "reasoning": "Active engagement by candidate followed by being ignored."
+      }
+    ]
+  },
+  "ChIJ9dWF6CO-3zgRaHOM4Zr_Tj4": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "snippet": "I contact them they refuse to work for client but according to their environment they looks good developers but I can't find anyone to work for my game . I have many game ideas to build and they will be successful I am sure if developers develop according to my plan .",
+        "rating": 1,
+        "reviewer": "Basharat Hussain",
+        "quote": "I contact them they refuse to work for client",
+        "reasoning": "Customer reached out with project inquiry and was turned away without service."
+      }
+    ]
+  },
+  "ChIJaRoJcofL1EARsOdHYHTKPs8": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "Очень плохо! До сих пор нету возможности звонить операторам только через чат подчеркну ИЗ ГРУЗИИ НЕ ИЗ УКРАИНЫ . Перешли из старой версии на новую товары перенесли а себестоимость сбросилась и сами не могут починить. Столы не подсвечиваться , а только появляется рядом номерок, сегодня начали глючить заказы они закрыты и всеравно висят. Еще много чего  каждый день приходиться бороться. Может для маленького заведения до 10 позиций ок но когда у тебя кухня не подходит. Нету синхронизации между кассами",
+        "rating": 1,
+        "reviewer": "Tasha Riazantseva",
+        "quote": "сами не могут починить",
+        "reasoning": "Support unable to explain/fix; unclear resolution path indicated."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Кончена контора - не видали законні документи на безготівковий розрахунок, а коли звернулись, щоб вони видали ці документи, змушують чекати тижнями, комунікація з менеджментом ніяка. Категорично не рекомендую",
+        "rating": 1,
+        "reviewer": "Vlad Vlad",
+        "quote": "комунікація з менеджментом ніяка",
+        "reasoning": "Explicit complaint that communication with management is absent/poor."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "Програма підходить тільки для бізнесу в якому дуже мало позицій. В мене більше 4000 тисяч позицій і програма не може їх адекватно опрацювати. Тех. підтримка завжди робить мене винуватим у помилках з програмою. Мені потрібно було перенести товар якого не було в одній точці на іншу, програма не змогла опрацювати таку кількість позицій, а консультант запропонував все робити в ручну, а це більше 2000 позицій(((",
+        "rating": 1,
+        "reviewer": "Roman Yarick",
+        "quote": "Тех. підтримка завжди робить мене винуватим у помилках з програмою",
+        "reasoning": "Customer's concerns dismissed by support — issue blamed on user rather than addressed."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "snippet": "Користуємось програмою вже більше трьох років. Досить легко опанувати, працювати з нею також легко, є багато плюсів. Але! для мене є 2 мінуси.\n1)Залишки по складських товарах досить часто збиваються. Тут можна допустити, що продавці щось невірно вводять, по цьому питанні я і не зверталась.\n2) Коли у нас була менша кількість товарів-все було добре, але зараз (не сказала б теж, що дуже багато, більше 2,5 тис.) дуже часто зникають товари. Просто внікуди. Якщо створити заново з назвою 1 в 1 як була, то з'являється( без залишків). Тех підтримка скидає все на нас, один раз писала. Більше немає бажання звертатись в техпідтримку.\nНаразі шукаю нову програму, дуже шкода!",
+        "rating": 3,
+        "reviewer": "Влада Лебідь",
+        "quote": "Тех підтримка скидає все на нас",
+        "reasoning": "Support dismisses customer concerns, shifts blame — specific concern ignored."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "snippet": "Жахливе обслуговування , система дуже погано працює і ніколи не повідомляють про те що в них якісь оновлення і пів дня система може не працювати , постійні збої в тех картах. Техслжба грубить і не коректно пояснює. Буду переходити на іншу систему",
+        "rating": 1,
+        "reviewer": "Виктория Лисова",
+        "quote": "Техслжба грубить",
+        "reasoning": "Explicit complaint that tech support staff is rude in tone."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Жахливе обслуговування , система дуже погано працює і ніколи не повідомляють про те що в них якісь оновлення і пів дня система може не працювати , постійні збої в тех картах. Техслжба грубить і не коректно пояснює. Буду переходити на іншу систему",
+        "rating": 1,
+        "reviewer": "Виктория Лисова",
+        "quote": "ніколи не повідомляють про те що в них якісь оновлення",
+        "reasoning": "Information about updates/downtime not communicated to customers."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Не рекомендую работать с этим ПО, тех поддержка не квалифицирована и не может помочь в решении проблем, так же я попал на тестовый период в разработке новой админ панели и получилось так что часть функций работали в новой админ панели а часть в старой, но что , где и как должно работать никто не знал а тренировались на мне.\nОсобенно проблемная история с их артсофт драйвером и скайсервис боксом, это ненужный микрокомпьютер, который они продают за 4000 грн, хотя его уже никто не использует и из-за него все проблемы.\nНа рынке есть масса других ПО, которые превосходят их по всем показателям.",
+        "rating": 1,
+        "reviewer": "Владимир Яцюк",
+        "quote": "что , где и как должно работать никто не знал а тренировались на мне",
+        "reasoning": "Support gave unclear/contradictory information about how the product should work."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "snippet": "Просто жах. Було 3 торгові точки. Склалась така ситуація що потрібно було закривати 2 з них і потрібно було проводити оплату. А працювати потрібно було до закриття ще 2 дня. Мені було сказано, що якщо я поповню рахунок, то вирахуються тільки за 2 дня, а всі інші дні коли продаж не буде, то зніматись кошти не будуть. Пройшов місяць і мені виставити рахунок за 3 торгові точки. Я написав в підтримку. Мені сказали що видаліть 2 і тоді буде оплата тільки за одну. Це звісно добре, але де мої кошти за ті 2 торгові точки якими я не користувався майже місяць? Підтримка реагує неадекватно та говорить що ми не слідкуємо які точки активні, а які ні. Але ж якщо точка активна, то кошти ви знімаєте. А якщо ні, то також знімаєте))) Клієнтоорієнтованість на вищому рівні.",
+        "rating": 1,
+        "reviewer": "Volodymyr Vitvitskyi",
+        "quote": "Підтримка реагує неадекватно",
+        "reasoning": "Support dismissive of billing complaint."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "ужас, все постоянно лагает, расходы пропадают, куча проблем!!!! тех поддержка ничего не знает, помощи дождаться не возможно. нужно постоянно все бэкапить в ексель. Пожалели денег на 1с и теперь мучаемся, так как перевести все на 1с не так то просто + персонал переучить нужно! короче будем переходить потому что это ужасный сервис, не рекомендую ни кому!!!!!!",
+        "rating": 1,
+        "reviewer": "Сергій Чиж",
+        "quote": "тех поддержка ничего не знает, помощи дождаться не возможно",
+        "reasoning": "Support cannot provide clear answers/help."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Начитавшись отзывов и убедившись в том, что поддержка ужасно общается, мне хватило 5 минут, чтобы принять решение не работать с Вами и пользоваться сервисом в пять раз дороже 🙌🏻",
+        "rating": 2,
+        "reviewer": "Uliana Milodan (milodya)",
+        "quote": "поддержка ужасно общается",
+        "reasoning": "Cites support's rude/poor tone as reason to avoid the company."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "snippet": "Кончена контора - не видали законні документи на безготівковий розрахунок, а коли звернулись, щоб вони видали ці документи, змушують чекати тижнями, комунікація з менеджментом ніяка. Категорично не рекомендую",
+        "rating": 1,
+        "reviewer": "Vlad Vlad",
+        "quote": "коли звернулись, щоб вони видали ці документи, змушують чекати тижнями",
+        "reasoning": "Customer actively requested documents and is left waiting weeks — patient-chasing pattern."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "snippet": "Просто жах. Було 3 торгові точки. Склалась така ситуація що потрібно було закривати 2 з них і потрібно було проводити оплату. А працювати потрібно було до закриття ще 2 дня. Мені було сказано, що якщо я поповню рахунок, то вирахуються тільки за 2 дня, а всі інші дні коли продаж не буде, то зніматись кошти не будуть. Пройшов місяць і мені виставити рахунок за 3 торгові точки. Я написав в підтримку. Мені сказали що видаліть 2 і тоді буде оплата тільки за одну. Це звісно добре, але де мої кошти за ті 2 торгові точки якими я не користувався майже місяць? Підтримка реагує неадекватно та говорить що ми не слідкуємо які точки активні, а які ні. Але ж якщо точка активна, то кошти ви знімаєте. А якщо ні, то також знімаєте))) Клієнтоорієнтованість на вищому рівні.",
+        "rating": 1,
+        "reviewer": "Volodymyr Vitvitskyi",
+        "quote": "Пройшов місяць і мені виставити рахунок за 3 торгові точки",
+        "reasoning": "Quoted one price for closed locations, billed for all three — quoted X, billed Y pattern."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.78,
+        "snippet": "Гірше системи, ніж ця «лавочка» взагалі важко знайти. В один прекрасний момент повідомили, що стара версія вже працювати нормально не буде, а воно і вже видно, що частина функцій не працює, і потрібно перейти на нову версію. Але всі дані скопіювати зі старої в нову вони не можуть. Просто жах. Найгірша система обліку зі всіх, про які колись чув. Користувались нею близько 6 років, давно потрібно будо переходити. Не знаю звідки в них добрі відгуки, так як колеги теж користувались і плювались на це барахло. Техпідтримка взагалі не бере трубку і не відповідає в чаті",
+        "rating": 1,
+        "reviewer": "Юрий Д",
+        "quote": "Техпідтримка взагалі не бере трубку і не відповідає в чаті",
+        "reasoning": "Support phone line is not answered — direct missed-calls signal."
+      }
+    ]
+  },
+  "ChIJ69P6u6jF1EARHk2JyT6dJYY": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.82,
+        "snippet": "Працювала з RoApp близько пів року. За цей час ми зіткнулися з серйозними технічними проблемами, які напряму вплинули на роботу та фінанси компанії.\n\nІнтеграція з Viber регулярно відключалася сама по собі. Менеджери виявляли це випадково  - коли заходили написати клієнтам і бачили, що канал не працює. Повідомлення від клієнтів відповідно не надходили коли вайбер був від'єднаний. За пів року таких відключень було близько 8.\n\nЧерез це ми втрачали звернення, виникали конфліктні ситуації з батьками, страждала репутація та конверсія. Бізнес ніс прямі фінансові збитки.\n\nДруга проблема - відсутність звукових сповіщень. Менеджери не отримували звукові сповіщення про нові повідомлення, не могли оперативно реагувати на заявки. Для компанії, де швидкість відповіді критично важлива, це неприпустимо.\n\nЯ неодноразово зверталася до техпідтримки. Відповіді були однакові: “завтра”, “післязавтра”, “наступного тижня”. Проблеми не вирішувалися місяцями. При цьому нам повідомляли, що система працює коректно.\n\nМи були змушені перейти на іншу CRM-систему, і всі ці проблеми зникли.\n\nЯ не вимагала жодної компенсації фінансових збитків, яких компанія зазнала через збої. Я лише попросила повернути кошти за невикористаний, вже оплачений авансовий період. У поверненні грошей мені відмовили.\n\nВисновок простий: ніколи не співпрацювати із цією компанією та не чекати на вирішення проблем, одразу змінювати систему і все",
+        "rating": 1,
+        "reviewer": "Ирина",
+        "quote": "Відповіді були однакові: “завтра”, “післязавтра”, “наступного тижня”. Проблеми не вирішувалися місяцями",
+        "reasoning": "Customer repeatedly chased support; promised callbacks/resolutions never delivered."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "После продажи в первый же день оказалось, что система не определяет клиента, импортированного в базу. Тех поддержка приняла обращение и признала ошибку с их стороны. НО...ждите,  мы не знаем когда мы это исправим. сроков нет вообще\nТо есть основополагающая функция не работает со старта!!! Люди звонят, а система их считает как новых клиентов\nМенеджер, который продает и консультирует -  только до покупки. Как только купил - все! он ничем помочь не может. пишите в тех поддержку!\nСинхронизация с Бинотел работает криво и косо - СРМ НЕ  видит менеджеров и не определяет их.(не смотря на то, что ты вроде как настраиваешь это и каждому менгеджеру присваиваешь внутреннюю линию в CRM) То есть видеть вы будете только группу отдела, а кто именно взял трубку - НЕТ. Так же вы лишаетесь любых сценарием со стороны Бинотела, так как CRM это все НЕ понимает\nПока похоже на развод - впарили то, что не работает и все...",
+        "rating": 1,
+        "reviewer": "Дмитрий Костюк",
+        "quote": "Менеджер, который продает и консультирует -  только до покупки. Как только купил - все! он ничем помочь не может",
+        "reasoning": "Pre-sale manager goes silent after purchase; customer's follow-up questions go unanswered."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "snippet": "Такого Хамського відношення ще не зустрічав! Олексій з підтримки просто не там де має бути! Просив отримати підтримку і презентацію 2 рази ,не отримав її від слова зовсім ... тільки безтолкові дзвінки і з розмовою ні про що так як не в запланований час звонив.\nОплатив і зрозумів що цей тариф мені не підходить ... наступний тариф дорого в мому випадку.... Почитав хто і звідки Рем Онлайн ну Люди засновники наче всі адекватні а ось співробітник їхній дає інше бачення....",
+        "rating": 1,
+        "reviewer": "Електрик220В",
+        "quote": "Просив отримати підтримку і презентацію 2 рази ,не отримав її від слова зовсім",
+        "reasoning": "Customer twice requested a presentation/callback and never received it."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "snippet": "Вечно зависает, выбивает ошибки при оприходовании товара, при наличии реальной проблемы менеджеры морозятся и льют воду. Цена не соответствует качеству! Livesklad намного удобней и в разы дешевле. Если бы не блокировка русского софта, то в жизни эту шарагу не выбрали",
+        "rating": 1,
+        "reviewer": "Michael Dubchenko",
+        "quote": "при наличии реальной проблемы менеджеры морозятся и льют воду",
+        "reasoning": "Managers freeze out customers raising real problems — ignoring requests for help."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "пусті обіцянки, вже більше року обіцяють випустити оновлення, служба підтримки дуже довго відповідає",
+        "rating": 1,
+        "reviewer": "Александр Липчей",
+        "quote": "вже більше року обіцяють випустити оновлення",
+        "reasoning": "Repeated promises over a year never delivered — patient-chasing for promised deliverable."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "snippet": "Ця супер крута CRM система не працює з ПРРО. Підтримка вміє тягати за ніс дуже довго. Дизайн цінників налаштовував за 4500грн десь тиждень і це не просто я очікував а тиждень переписки з супер розумними консультантами які ще іноді хамовиті бо все знають. Чому пишу сюди, бо надіюсь що можливо хоть хтось із керівництва це помітить. Бо складається враження, що я спілкуюсь з одним і тим самим консультантом дуже довго а він нічого не робить.",
+        "rating": 1,
+        "reviewer": "Віталій Рудь",
+        "quote": "налаштовував за 4500грн десь тиждень і це не просто я очікував а тиждень переписки",
+        "reasoning": "Customer paid and chased for a week to get a deliverable that should have been prompt."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.5,
+        "snippet": "Вечно виснет! Ни кто , ни за, что не отвечает!!! Добиться каких либо решений менеджеров очень тяжело.",
+        "rating": 2,
+        "reviewer": "Эдуард",
+        "quote": "Добиться каких либо решений менеджеров очень тяжело",
+        "reasoning": "Customer cannot get responses/decisions from managers — actively chasing with no answer."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "snippet": "Программа вроде не плохая, но менеджер типа коллектора, который звонит, пишет, считает что имеет право подшучивать над клиентом, из-за того что что не внесли оплату! (был демо период, и очень нагнетали чтобы купил платную версию) менеджер Алексей Кузьменко!\n\nОчень хотелось отказаться от них, но как только найду альтернативу, сразу так и сделаю, и только из-за общения менежера!!! надеюсь руководство обратит внимание!!!!",
+        "rating": 2,
+        "reviewer": "Егор Кучерявенко",
+        "quote": "менеджер типа коллектора, который звонит, пишет, считает что имеет право подшучивать над клиентом",
+        "reasoning": "Sales manager unprofessional/mocking tone toward customer."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "После продажи в первый же день оказалось, что система не определяет клиента, импортированного в базу. Тех поддержка приняла обращение и признала ошибку с их стороны. НО...ждите,  мы не знаем когда мы это исправим. сроков нет вообще\nТо есть основополагающая функция не работает со старта!!! Люди звонят, а система их считает как новых клиентов\nМенеджер, который продает и консультирует -  только до покупки. Как только купил - все! он ничем помочь не может. пишите в тех поддержку!\nСинхронизация с Бинотел работает криво и косо - СРМ НЕ  видит менеджеров и не определяет их.(не смотря на то, что ты вроде как настраиваешь это и каждому менгеджеру присваиваешь внутреннюю линию в CRM) То есть видеть вы будете только группу отдела, а кто именно взял трубку - НЕТ. Так же вы лишаетесь любых сценарием со стороны Бинотела, так как CRM это все НЕ понимает\nПока похоже на развод - впарили то, что не работает и все...",
+        "rating": 1,
+        "reviewer": "Дмитрий Костюк",
+        "quote": "ждите,  мы не знаем когда мы это исправим. сроков нет вообще",
+        "reasoning": "Support gives no clear timeline/information about resolution."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "snippet": "Такого Хамського відношення ще не зустрічав! Олексій з підтримки просто не там де має бути! Просив отримати підтримку і презентацію 2 рази ,не отримав її від слова зовсім ... тільки безтолкові дзвінки і з розмовою ні про що так як не в запланований час звонив.\nОплатив і зрозумів що цей тариф мені не підходить ... наступний тариф дорого в мому випадку.... Почитав хто і звідки Рем Онлайн ну Люди засновники наче всі адекватні а ось співробітник їхній дає інше бачення....",
+        "rating": 1,
+        "reviewer": "Електрик220В",
+        "quote": "Такого Хамського відношення ще не зустрічав",
+        "reasoning": "Explicit rude treatment from staff member named in review."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Ця супер крута CRM система не працює з ПРРО. Підтримка вміє тягати за ніс дуже довго. Дизайн цінників налаштовував за 4500грн десь тиждень і це не просто я очікував а тиждень переписки з супер розумними консультантами які ще іноді хамовиті бо все знають. Чому пишу сюди, бо надіюсь що можливо хоть хтось із керівництва це помітить. Бо складається враження, що я спілкуюсь з одним і тим самим консультантом дуже довго а він нічого не робить.",
+        "rating": 1,
+        "reviewer": "Віталій Рудь",
+        "quote": "ще іноді хамовиті",
+        "reasoning": "Explicitly describes consultants as sometimes rude."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "snippet": "гірші,зацікавив продукт , інтеграція з чатами не працює, підтримка жахлива не зацікавлена",
+        "rating": 1,
+        "reviewer": "Виктория Григоращенко",
+        "quote": "підтримка жахлива не зацікавлена",
+        "reasoning": "Support described as awful and uninterested — dismissive non-clinical staff tone."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "В цілому програма не погана , але консультація служби підтримки у вигляді Артема дуже не компетентна та зухвала",
+        "rating": 2,
+        "reviewer": "иван Лысенко",
+        "quote": "консультація служби підтримки у вигляді Артема дуже не компетентна та зухвала",
+        "reasoning": "Support rep described as incompetent and impudent — rude tone from non-clinical staff."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Не робіть помилок, оминайте дану програму. Потім будите жалкувати, за потрачений час та спроби працювати в даній програмі належним чином. Я доволі довго з розумінням відносився до даної компанії. Молоді, перспективні, хороша ідея, стараються... але чим далі, замість покращення продукту, він ставав все менш приємнішим в користуванні. А обіцянки, що все поправлять, переросли у фрази в нас такий функціонал, все описано в базі знань (хоча там дуже багато суперечностей). Постійні зависання, недороблений функціонал, постійні збої в роботі стали просто нормою. А якщо виходило якесь оновлення, це всі розуміли, що на наступний день база не буде працювати і можна робити вихідний. Підтримка це окрема історія, взагалі невідомо для чого вони…) Продуктова група, як вони себе називають, це повний треш таке відчуття, що вони взагалі не знають, що пишуть. Те що ви прочитаєте на сайті, не відповідає дійсності, заявлений функціонал працює виключно на половину. Вибір за Вами.  Не робіть чужих помилок..",
+        "rating": 1,
+        "reviewer": "A.K",
+        "quote": "Те що ви прочитаєте на сайті, не відповідає дійсності",
+        "reasoning": "What's on the site doesn't match reality — contradictory/misleading information."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.4,
+        "snippet": "пусті обіцянки, вже більше року обіцяють випустити оновлення, служба підтримки дуже довго відповідає",
+        "rating": 1,
+        "reviewer": "Александр Липчей",
+        "quote": "служба підтримки дуже довго відповідає",
+        "reasoning": "Support takes very long to respond — borderline; weaker fit."
+      }
+    ]
+  },
+  "ChIJa4R96bWvD4gRJiUwhSveAD0": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "snippet": "I wish I had taken more time to read all the one-star reviews before deciding to work with this company. I hired them to design a website for my holistic acupuncture practice, expecting a truly custom design aligned with my brand and business model.\n\nThese guys are not web developers, and they do not know much about web development. The final product did not reflect what was promised. The term “custom design” was used in a way that did not match the actual deliverable. Beginning with a blank Wix template and applying minimal stylistic changes does not constitute custom web design. There also appeared to be a significant disconnect between holistic medicine branding and conventional biomedical or corporate aesthetics. The overall tone, imagery, and execution felt misaligned with the clearly stated focus of my practice.\n\nWhen I expressed concern that the design did not reflect my vision or business identity, the feedback I received framed the issue as a “creative shift” rather than acknowledging a potential misunderstanding of the brand direction. Additionally, certain requirements - such as the need for me to independently supply stock imagery - were not clearly disclosed prior to purchase.\n\nWhen concerns were raised, I expected collaborative problem-solving and professional dialogue. Instead, communication centered on contractual defenses and even threats rather than addressing the underlying design misalignment.\n\nThis review reflects my documented experience so that others can make informed decisions. Client retention is best achieved through transparency, alignment with client vision, and professional execution.\n\nIt's too bad you're going to lose clients after the way you treated me - they have every right to understand others’ experiences before investing their money.\n\n*** Responding to their comment down below that is not factual or true ***\n\nThe homepage was not delivered within the stated timeline (actually had I not fired you, it probably would have taken many more weeks to complete it), and when it was finally presented, it did not reflect the information or direction I had provided. I was genuinely surprised by the quality of what was delivered, especially given that it was presented as aligned with my business and vision.\n\nThere was no clear disclosure upfront that clients would be responsible for sourcing stock images and effectively designing the website themselves. That was the service I believe I was paying for.\n\nWhen I raised concerns about the misalignment in color palette, tone, and overall aesthetic, I expected collaborative problem-solving. Instead, the responsibility was shifted back onto me. At that point, I chose to end the working relationship, as it did not make sense to continue investing time and energy into a process that was not producing results. The delays and repeated revisions were costing me time and money.\n\nI ultimately initiated a formal dispute due to the poor quality of the work delivered and the denial of my refund request.\n\nThreatening with arbitration and defamation in response to legitimate client concerns was both delusional and toxic. When a client raises legitimate concerns, the focus should be on resolution - not intimidation. And honestly, why did you think that it would work? That's just disgusting attitude. I do not have the time or energy for business relationships that create unnecessary stress and drama.\n\nI'm not even surprised to read their generic response to my comment. I took the time to read through all their responses to 1 star reviews. Quite laughable honestly to continue to defend your lack of professionalism and poor quality of work.The overall experience was not professional - they think about only money and not the client.\n\nYou never want to be working with a company so out of touch with reality and so malignant. Literally just be normal, it's not necessary to be so hostile to someone whose money you're taking.\n\nLook elsewhere.",
+        "rating": 1,
+        "reviewer": "Aurora",
+        "quote": "When I expressed concern that the design did not reflect my vision or business identity, the feedback I received framed the issue as a “creative shift” rather than acknowledging a potential misunderstanding",
+        "reasoning": "Customer raised a specific concern about brand misalignment and it was dismissed/reframed instead of addressed."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "A terrible experience.  Completely Incompetent.  I am sure the owner will respond, as he does for the other negative reviews with an agenda to have the review removed.   For a project, I contacted 8 different firms, with many competitive and competent.  10com by far was the worst with unable to understand how to use their own booking system, followed by spamming and poor customer service.",
+        "rating": 1,
+        "reviewer": "Frederick F",
+        "quote": "followed by spamming and poor customer service",
+        "reasoning": "Poor customer service explicitly cited along with confusion over their own booking system."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "snippet": "Disappointing Experience and Lack of Service\n\nI had a very disappointing experience with 10com Web Development. I initially signed up for website development and SEO services, and after speaking with a representative named Mark, I made a full payment based on the promises made.\n\nUnfortunately, the process quickly turned frustrating. I received no clear updates or reports regarding SEO, and communication became inconsistent. After weeks of waiting, I was sent a homepage for approval, which required several corrections. Later, I received a five-page website draft—but it contained multiple errors and looked rushed. I had provided over 40 professional photos for the project, and only 4 were used, repeated across all pages.\n\nWhen I expressed my dissatisfaction and requested a refund due to the poor quality and lack of progress, the company refused. I feel that I received little to no value for the money I paid and cannot recommend this company based on my experience.",
+        "rating": 1,
+        "reviewer": "Tatiana Nuriev",
+        "quote": "communication became inconsistent",
+        "reasoning": "Inconsistent communication after payment; updates and reports were unclear or absent."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "snippet": "I am extremely disappointed with my experience so far. It’s been over 2 months and I still don’t have a website. Lots of back and forth. They don’t let me talk to anyone, everything is done via email. I feel like I could have done it better and faster with ChatGPT and a generic template.\n\nI want example of functionality and they don’t implement that. Just add visuals. Super frustrating and a waste of time and money.\n\nI want my site published and to be done with them. I DO NOT recommend.",
+        "rating": 1,
+        "reviewer": "Mercy Martinez",
+        "quote": "I want example of functionality and they don’t implement that",
+        "reasoning": "Customer's specific request for functionality is ignored — concerns not heeded."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "snippet": "I am surprised to see all the 4 and 5 star reviews for this company as this was not the experience I received. During the initial take on my project for a logo design, I specified what I wanted from the very beginning and they didn't provide it for me. With constant going back and forth, misspelling in the logo, and providing you with something you don't ask for this company is frustrating. They don't ask questions and when you tell them you're frustrated they say you have an underlying tone. They say they will be in contact with you for 3 to 5 days, that's not the case. I emailed Mark B who is a manager and it took him 7 days to respond to my email. I'm trying to start a business so a delay like this doesn't look good on their part. Look elsewhere for a company that actually listens to your initial concept. This company does not.\n\nUpdate: this company is still a joke. I got my refund. They claim that you're their top priority and this is not the case. I'm telling you right now, if you're thinking about booking with this company, do not book with them. They don't listen to anything that you want at the beginning stage of designing your logo and they send you stuff that doesn't even look good. Like I said before LOOK ELSEWHERE. This is not the company for you.",
+        "rating": 1,
+        "reviewer": "Zack Moon",
+        "quote": "Look elsewhere for a company that actually listens to your initial concept. This company does not",
+        "reasoning": "Explicit complaint that the company does not listen to the customer's stated requirements."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "This review is specifically for Mark B. Kattie was pretty easy to work with. Mark on the other hand, not so much. From taking his sweet time to not actually making the corrections as expressed the first time or at all. I eventually just wrote down what I would later correct after parting ways with them. He responded to me 8 days after I’d asked for assistance with my domain.   After expressing my confusion of dealing with my domain and reaching out for assistance I was met with adamant resistance. The directions he sent wasn’t working as he’d described and he wasn’t sending over the proper information to go through the two step authentication. The directions through email wasn’t working and Mark first expressed how he was so busy and so was his team when I’d asked for further clarity via phone. I dismissed him after this as this was the final step that I would clearly need to handle on my own. He then responds with an email stating how they were no longer working with me and he was ready to discuss working with me as if it is some type of threat. As a client I can express that I did not have the best of experiences. They’ll come here with some long story as to how they are the best and there’s another side. Umm no. You’re not that great. Take the criticism and move on.",
+        "rating": 1,
+        "reviewer": "Michelle Abii",
+        "quote": "The directions through email wasn’t working and Mark first expressed how he was so busy",
+        "reasoning": "Instructions provided didn't work and clarification was refused — unclear/inadequate explanation."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "snippet": "Worst service imaginable! They don’t appear to have the tools or development skills to perform even basic website development. Their business model is maddening. They assign a client rep to each account whose singular role is to transmit information between the customer and the developers. What’s worse is that they will not interact directly with customers as a matter of policy. They don’t do phone calls or zoom/teams even if requested. So all comments have to be conveyed by e-mail to the client rep, who simply forwards the e-mails to the developers, with whom the customer cannot interact at all! They don’t make you aware of this ‘no talking’ policy until they have your money. It took forever to turn around the most basic comments (sometimes as much as a week) and 30% of my changes were missed on each iteration, requiring me to make the same comments over and over again. The final product was an ‘F’. We canned it after more than a month of back and forth and had to start over from scratch. I would avoid this service at all costs.",
+        "rating": 1,
+        "reviewer": "Lackland Bloom",
+        "quote": "30% of my changes were missed on each iteration, requiring me to make the same comments over and over again",
+        "reasoning": "Information conveyed through the rep is consistently lost — broken/unclear communication channel."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "snippet": "If you want to lose business for months on end while this company slow walks creating a website for you, then this is the company for you! After waiting from February to June for a simple website that should have taken weeks, the manager Mark declared the website launched, but I was never able to access it when I put in my business name.  I kept sending screen shots to him to show that WIX said it wasn’t launched. They kept sending me the link by email.  What they didn’t bother to tell me is that the website was connected to a domain that was not the name of my business. I discovered that only 3 days ago on December 7!  They called my inquires “an ongoing series of unfounded allegations” and it was only when I had no recourse to threaten them with an outcome they would not like that they severed communication with me. How dare I complain that effectively this company cost me business because neither I nor my clients could access this website until two days ago when I purchased the correct domain name and connected it myself!  Therefore, they didn’t deliver the service that matched my business. I did!  How do you like that for customer service?!\n\nOn top of that it took them 9 months to deliver another website for which I delivered most of the copy. I got a once-a-week, terse email response when I was lucky. I was unable to get anyone on the phone. There is no system set up for that.  When you complain you get shamed and blamed.  Beware and steer clear.\n\nThe response from 10 com is defensive and untrue, as expected.  I was only able to connect to the website when they sent me a link to the incorrect domain name.  That was the ONLY time I was able access it.  If the name of my business is not the name of the domain name they connected the site to, you can hardly call that \"live.\"\n\nThey NEVER bothered to point out to me that the incorrect domain name was what they had connect the website to after months of sending them screen shots of the message I got saying it wasn't connected.  Is that an example of diligence on their part?! They just kept saying I should be careful that I was putting in the correct name of my own business.  Yes, the domain name was incorrect and that is an issue I have with that company.  But if I kept asking 10 com for 4 months to explain the discrepancy, one would think they would have bothered to tell me so.\n\nMark B only demonstrates disrespect for the customer and takes no responsibility for his lack of responsiveness.  And, in fact, I NEVER threatened him, unless you consider that I demand a response by a certain date or I would have no choice but to take action he wouldn't like only a week ago. I am well positioned to make promises.  I don't need to make threats.",
+        "rating": 1,
+        "reviewer": "Carol Williard",
+        "quote": "What they didn’t bother to tell me is that the website was connected to a domain that was not the name of my business",
+        "reasoning": "Critical information (wrong domain) never communicated to customer despite repeated screenshots."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "You get what you pay for... The quality of work was ok (they seem to outsource most work), but the communication, project management, and leadership were utterly horrible throughout the project. The final straw was when we ran into a problem; instead of offering any solutions, we received a string of excuses followed by being completely ghosted. Be careful what you use this company for and do not use them for anything complex.",
+        "rating": 2,
+        "reviewer": "David “JD” Sheard",
+        "quote": "the communication, project management, and leadership were utterly horrible throughout the project",
+        "reasoning": "Communication explicitly cited as horrible throughout the engagement."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "snippet": "This project isn't completed but I haven't  had a good experience so far.  The team I am working with Mark and Kattie, have not communicated clearly to be from the very beginning. One thing I found unacceptable is they claimed to have sent me content for my review, later I discovered they didn't actually send me the content but sent it to one another (addressed to me in the body of the email) and I only found this out after my own investigation.  Now since this discovery was pointed out to them, they have been lacking in communicating. I am displeased with this service so far and I paid in full to work with them.   I wouldn't recommend this service if you are on a timeline, as they don't communicate clearly and they will ignore any communication attempts you make with them. Just beware.",
+        "rating": 3,
+        "reviewer": "Nyo McGirt",
+        "quote": "they claimed to have sent me content for my review, later I discovered they didn't actually send me the content",
+        "reasoning": "False/contradictory claims about communication — information was not actually delivered."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "snippet": "Admittedly, I am a beginner! Im in the process of building a new website for an online business I’m launching at the end of the month. I asked this company to develop a logo with animation, which I clearly explained in my design requirements. I received a logo without animation. When I explained that I had asked for animation, I was told I’d need to purchase another package for $149.99. Realizing I would need a logo anyway, I purchased the animation package and received a proof that couldn’t have been any further from what I was expecting. When I explained the situation they told me I’d need to purchase ANOTHER package ranging in the thousands. When I said I was not prepared to spend that much and asked what refund options were available, since I would not be using the animation that’s made, they were unwilling to help. To be honest, I felt really dooped and taken advantage of. I realize I’m a beginner developing an online business, however, I’ve made a career in sales and recognize how damaging to a business relationship it can be when you don’t admit fault and explore how to make it right for your customer. The treatment, specifically by the Development Business manager, Mark, forced me to terminate the relationship. Not the kind of experience I was wanting or would have forced a client into in my line of work. My advice would be to explore other options.\n\n***In response to 10com comment***\n\nI received neither a usuable animated logo, nor the return for the money I paid for it, so to say that you want me to have the end result I was wanting couldn’t be further from reality. I hope your treatment of your future customers improves.\n\n***In response to 10coms AMENDED response. ***\n\nFor anyone reading this, 10 coms below description of events was made after they responded to my original google review highlighting their exploitative and abusive business practices. In that response, they publicly tried to gaslight me, saying that all they wanted was for me to happy with the end result of the process, which they then deleted and replaced with what is below. The response below is an attempt to discredit and devalue the experience I had instead of leaving an apology. I think it is worth noting that after I wrote this review, the company issued me a refund. Basically, this is an incredible and unnecessary amount of drama for what is supposed to be a transparent and transactional relationship. There are so many options for your web development needs and life is too short for this level of unprofessionalism.",
+        "rating": 1,
+        "reviewer": "Elise Vaux",
+        "quote": "I clearly explained in my design requirements. I received a logo without animation",
+        "reasoning": "Customer's specific stated requirement was ignored in delivery."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "snippet": "A good company to go with if you do not have a creative idea for your branding needs. They are not adaptive to an established vision and struggle to meet client needs. My project took an additional 3 months which was primarily due to the response time from Mark B and the constant revisions. After numerous failed attempts to get the project on track, we eventually had to get Wix involved in order to receive a response from Mark B. We then decided to pull the plug on the project. I was left with an incomplete website and a useless infographic. I reached out on multiple occasions in order to address my concerns directly. Our calls where not returned and virtual appointments where not accepted.You get what you pay for. My advice is to pay more and hire true professionals",
+        "rating": 1,
+        "reviewer": "Jason Cowan",
+        "quote": "They are not adaptive to an established vision and struggle to meet client needs",
+        "reasoning": "Customer's established vision/needs were not heeded by the team."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "snippet": "HORRIBLEEEEEEE. I was hopeful because of the reviews but they're either fake or bought. Very unprofessional. They are so cheap because you get what you pay for. All I wanted was a logo and they kept sending me the same free Wix logos you can make yourself and they were awful. Of course I am no longer working with them ut BEWARE! GO SOMEWHERE ELSE!!! I promise it's not worth it",
+        "rating": 1,
+        "reviewer": "Rebecca Kangwa",
+        "quote": "they kept sending me the same free Wix logos you can make yourself",
+        "reasoning": "Repeated delivery of same unwanted output suggests customer's specific input was not heeded."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "snippet": "I hired this company for website development including main page and 6 additional pages and am not satisfied with their services. Please note thier process even though they will tell you in the beginning is not a good one. There is no direct communication allowed between you and the designer. The middle man will type all your needs and then put in project pipleline. After that it will be cascade of emails to make any single change no phone calls.  It will take you many iterations to really get the idea produced and in raw form by that time you will run out of your 2 revised changes, they will simply rely on you to pretty much ask all changes. The level of design they will provide is very basic in my opinion. if they will disagree and bring legal team in every escalation to threaten you, my guess is even this post will be threatened very soon, however, this was my true experience with 10 com. I appreciate the help but extremely dissatisfied overall so sharing it with you all.",
+        "rating": 1,
+        "reviewer": "Gagan Goel",
+        "quote": "There is no direct communication allowed between you and the designer. The middle man will type all your needs",
+        "reasoning": "Communication routed through an intermediary causes loss/distortion of requirements — unclear info flow."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "snippet": "I felt like I had to walk them through the entire process. It took well over the time frame I felt was appropriate. I had to repeat many requests and fix numerous things myself. Not worth the time or money I spent.",
+        "rating": 1,
+        "reviewer": "Mindy Duncan",
+        "quote": "I had to repeat many requests and fix numerous things myself",
+        "reasoning": "Customer's repeated specific requests were not heeded, forcing self-fixing."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "I wish I had taken more time to read all the one-star reviews before deciding to work with this company. I hired them to design a website for my holistic acupuncture practice, expecting a truly custom design aligned with my brand and business model.\n\nThese guys are not web developers, and they do not know much about web development. The final product did not reflect what was promised. The term “custom design” was used in a way that did not match the actual deliverable. Beginning with a blank Wix template and applying minimal stylistic changes does not constitute custom web design. There also appeared to be a significant disconnect between holistic medicine branding and conventional biomedical or corporate aesthetics. The overall tone, imagery, and execution felt misaligned with the clearly stated focus of my practice.\n\nWhen I expressed concern that the design did not reflect my vision or business identity, the feedback I received framed the issue as a “creative shift” rather than acknowledging a potential misunderstanding of the brand direction. Additionally, certain requirements - such as the need for me to independently supply stock imagery - were not clearly disclosed prior to purchase.\n\nWhen concerns were raised, I expected collaborative problem-solving and professional dialogue. Instead, communication centered on contractual defenses and even threats rather than addressing the underlying design misalignment.\n\nThis review reflects my documented experience so that others can make informed decisions. Client retention is best achieved through transparency, alignment with client vision, and professional execution.\n\nIt's too bad you're going to lose clients after the way you treated me - they have every right to understand others’ experiences before investing their money.\n\n*** Responding to their comment down below that is not factual or true ***\n\nThe homepage was not delivered within the stated timeline (actually had I not fired you, it probably would have taken many more weeks to complete it), and when it was finally presented, it did not reflect the information or direction I had provided. I was genuinely surprised by the quality of what was delivered, especially given that it was presented as aligned with my business and vision.\n\nThere was no clear disclosure upfront that clients would be responsible for sourcing stock images and effectively designing the website themselves. That was the service I believe I was paying for.\n\nWhen I raised concerns about the misalignment in color palette, tone, and overall aesthetic, I expected collaborative problem-solving. Instead, the responsibility was shifted back onto me. At that point, I chose to end the working relationship, as it did not make sense to continue investing time and energy into a process that was not producing results. The delays and repeated revisions were costing me time and money.\n\nI ultimately initiated a formal dispute due to the poor quality of the work delivered and the denial of my refund request.\n\nThreatening with arbitration and defamation in response to legitimate client concerns was both delusional and toxic. When a client raises legitimate concerns, the focus should be on resolution - not intimidation. And honestly, why did you think that it would work? That's just disgusting attitude. I do not have the time or energy for business relationships that create unnecessary stress and drama.\n\nI'm not even surprised to read their generic response to my comment. I took the time to read through all their responses to 1 star reviews. Quite laughable honestly to continue to defend your lack of professionalism and poor quality of work.The overall experience was not professional - they think about only money and not the client.\n\nYou never want to be working with a company so out of touch with reality and so malignant. Literally just be normal, it's not necessary to be so hostile to someone whose money you're taking.\n\nLook elsewhere.",
+        "rating": 1,
+        "reviewer": "Aurora",
+        "quote": "certain requirements - such as the need for me to independently supply stock imagery - were not clearly disclosed prior to purchase",
+        "reasoning": "Undisclosed requirements/scope not revealed before purchase — bait-and-switch pattern."
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "snippet": "Admittedly, I am a beginner! Im in the process of building a new website for an online business I’m launching at the end of the month. I asked this company to develop a logo with animation, which I clearly explained in my design requirements. I received a logo without animation. When I explained that I had asked for animation, I was told I’d need to purchase another package for $149.99. Realizing I would need a logo anyway, I purchased the animation package and received a proof that couldn’t have been any further from what I was expecting. When I explained the situation they told me I’d need to purchase ANOTHER package ranging in the thousands. When I said I was not prepared to spend that much and asked what refund options were available, since I would not be using the animation that’s made, they were unwilling to help. To be honest, I felt really dooped and taken advantage of. I realize I’m a beginner developing an online business, however, I’ve made a career in sales and recognize how damaging to a business relationship it can be when you don’t admit fault and explore how to make it right for your customer. The treatment, specifically by the Development Business manager, Mark, forced me to terminate the relationship. Not the kind of experience I was wanting or would have forced a client into in my line of work. My advice would be to explore other options.\n\n***In response to 10com comment***\n\nI received neither a usuable animated logo, nor the return for the money I paid for it, so to say that you want me to have the end result I was wanting couldn’t be further from reality. I hope your treatment of your future customers improves.\n\n***In response to 10coms AMENDED response. ***\n\nFor anyone reading this, 10 coms below description of events was made after they responded to my original google review highlighting their exploitative and abusive business practices. In that response, they publicly tried to gaslight me, saying that all they wanted was for me to happy with the end result of the process, which they then deleted and replaced with what is below. The response below is an attempt to discredit and devalue the experience I had instead of leaving an apology. I think it is worth noting that after I wrote this review, the company issued me a refund. Basically, this is an incredible and unnecessary amount of drama for what is supposed to be a transparent and transactional relationship. There are so many options for your web development needs and life is too short for this level of unprofessionalism.",
+        "rating": 1,
+        "reviewer": "Elise Vaux",
+        "quote": "When I explained the situation they told me I’d need to purchase ANOTHER package ranging in the thousands",
+        "reasoning": "Customer was upsold/charged repeatedly for what they thought was included — bait-and-switch / hidden upcharges."
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "Don't waste your time or your money on this web designer.  They will try to nickel and dime you to death and never produce a website.  I fired them for lack of production and they still have the nerve to ask me for money.  You get fired, you don't get paid.  I finally found a better designer that did my site in 1 week.  Shop around and avoid these clowns.",
+        "rating": 1,
+        "reviewer": "clay harrison",
+        "quote": "They will try to nickel and dime you to death",
+        "reasoning": "Hidden/added charges piling on — classic bait-and-switch pricing pattern."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.55,
+        "snippet": "Disappointing Experience and Lack of Service\n\nI had a very disappointing experience with 10com Web Development. I initially signed up for website development and SEO services, and after speaking with a representative named Mark, I made a full payment based on the promises made.\n\nUnfortunately, the process quickly turned frustrating. I received no clear updates or reports regarding SEO, and communication became inconsistent. After weeks of waiting, I was sent a homepage for approval, which required several corrections. Later, I received a five-page website draft—but it contained multiple errors and looked rushed. I had provided over 40 professional photos for the project, and only 4 were used, repeated across all pages.\n\nWhen I expressed my dissatisfaction and requested a refund due to the poor quality and lack of progress, the company refused. I feel that I received little to no value for the money I paid and cannot recommend this company based on my experience.",
+        "rating": 1,
+        "reviewer": "Tatiana Nuriev",
+        "quote": "I received no clear updates or reports regarding SEO, and communication became inconsistent",
+        "reasoning": "After paying for ongoing service, no proactive updates or reports were delivered."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "snippet": "I am surprised to see all the 4 and 5 star reviews for this company as this was not the experience I received. During the initial take on my project for a logo design, I specified what I wanted from the very beginning and they didn't provide it for me. With constant going back and forth, misspelling in the logo, and providing you with something you don't ask for this company is frustrating. They don't ask questions and when you tell them you're frustrated they say you have an underlying tone. They say they will be in contact with you for 3 to 5 days, that's not the case. I emailed Mark B who is a manager and it took him 7 days to respond to my email. I'm trying to start a business so a delay like this doesn't look good on their part. Look elsewhere for a company that actually listens to your initial concept. This company does not.\n\nUpdate: this company is still a joke. I got my refund. They claim that you're their top priority and this is not the case. I'm telling you right now, if you're thinking about booking with this company, do not book with them. They don't listen to anything that you want at the beginning stage of designing your logo and they send you stuff that doesn't even look good. Like I said before LOOK ELSEWHERE. This is not the company for you.",
+        "rating": 1,
+        "reviewer": "Zack Moon",
+        "quote": "I emailed Mark B who is a manager and it took him 7 days to respond to my email",
+        "reasoning": "Customer actively reached out for a response and was effectively ignored for a week."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "This review is specifically for Mark B. Kattie was pretty easy to work with. Mark on the other hand, not so much. From taking his sweet time to not actually making the corrections as expressed the first time or at all. I eventually just wrote down what I would later correct after parting ways with them. He responded to me 8 days after I’d asked for assistance with my domain.   After expressing my confusion of dealing with my domain and reaching out for assistance I was met with adamant resistance. The directions he sent wasn’t working as he’d described and he wasn’t sending over the proper information to go through the two step authentication. The directions through email wasn’t working and Mark first expressed how he was so busy and so was his team when I’d asked for further clarity via phone. I dismissed him after this as this was the final step that I would clearly need to handle on my own. He then responds with an email stating how they were no longer working with me and he was ready to discuss working with me as if it is some type of threat. As a client I can express that I did not have the best of experiences. They’ll come here with some long story as to how they are the best and there’s another side. Umm no. You’re not that great. Take the criticism and move on.",
+        "rating": 1,
+        "reviewer": "Michelle Abii",
+        "quote": "He responded to me 8 days after I’d asked for assistance with my domain",
+        "reasoning": "Customer actively asked for help and waited 8 days for any response — dropped/delayed inquiry."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "snippet": "Worst service imaginable! They don’t appear to have the tools or development skills to perform even basic website development. Their business model is maddening. They assign a client rep to each account whose singular role is to transmit information between the customer and the developers. What’s worse is that they will not interact directly with customers as a matter of policy. They don’t do phone calls or zoom/teams even if requested. So all comments have to be conveyed by e-mail to the client rep, who simply forwards the e-mails to the developers, with whom the customer cannot interact at all! They don’t make you aware of this ‘no talking’ policy until they have your money. It took forever to turn around the most basic comments (sometimes as much as a week) and 30% of my changes were missed on each iteration, requiring me to make the same comments over and over again. The final product was an ‘F’. We canned it after more than a month of back and forth and had to start over from scratch. I would avoid this service at all costs.",
+        "rating": 1,
+        "reviewer": "Lackland Bloom",
+        "quote": "It took forever to turn around the most basic comments (sometimes as much as a week)",
+        "reasoning": "Customer's basic inquiries took up to a week to receive any response."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "If you want to lose business for months on end while this company slow walks creating a website for you, then this is the company for you! After waiting from February to June for a simple website that should have taken weeks, the manager Mark declared the website launched, but I was never able to access it when I put in my business name.  I kept sending screen shots to him to show that WIX said it wasn’t launched. They kept sending me the link by email.  What they didn’t bother to tell me is that the website was connected to a domain that was not the name of my business. I discovered that only 3 days ago on December 7!  They called my inquires “an ongoing series of unfounded allegations” and it was only when I had no recourse to threaten them with an outcome they would not like that they severed communication with me. How dare I complain that effectively this company cost me business because neither I nor my clients could access this website until two days ago when I purchased the correct domain name and connected it myself!  Therefore, they didn’t deliver the service that matched my business. I did!  How do you like that for customer service?!\n\nOn top of that it took them 9 months to deliver another website for which I delivered most of the copy. I got a once-a-week, terse email response when I was lucky. I was unable to get anyone on the phone. There is no system set up for that.  When you complain you get shamed and blamed.  Beware and steer clear.\n\nThe response from 10 com is defensive and untrue, as expected.  I was only able to connect to the website when they sent me a link to the incorrect domain name.  That was the ONLY time I was able access it.  If the name of my business is not the name of the domain name they connected the site to, you can hardly call that \"live.\"\n\nThey NEVER bothered to point out to me that the incorrect domain name was what they had connect the website to after months of sending them screen shots of the message I got saying it wasn't connected.  Is that an example of diligence on their part?! They just kept saying I should be careful that I was putting in the correct name of my own business.  Yes, the domain name was incorrect and that is an issue I have with that company.  But if I kept asking 10 com for 4 months to explain the discrepancy, one would think they would have bothered to tell me so.\n\nMark B only demonstrates disrespect for the customer and takes no responsibility for his lack of responsiveness.  And, in fact, I NEVER threatened him, unless you consider that I demand a response by a certain date or I would have no choice but to take action he wouldn't like only a week ago. I am well positioned to make promises.  I don't need to make threats.",
+        "rating": 1,
+        "reviewer": "Carol Williard",
+        "quote": "I got a once-a-week, terse email response when I was lucky. I was unable to get anyone on the phone",
+        "reasoning": "Customer actively trying to reach the company; responses delayed or unobtainable by phone."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "You get what you pay for... The quality of work was ok (they seem to outsource most work), but the communication, project management, and leadership were utterly horrible throughout the project. The final straw was when we ran into a problem; instead of offering any solutions, we received a string of excuses followed by being completely ghosted. Be careful what you use this company for and do not use them for anything complex.",
+        "rating": 2,
+        "reviewer": "David “JD” Sheard",
+        "quote": "we received a string of excuses followed by being completely ghosted",
+        "reasoning": "Customer raised an issue and was then ghosted — active inquiry never answered."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "This project isn't completed but I haven't  had a good experience so far.  The team I am working with Mark and Kattie, have not communicated clearly to be from the very beginning. One thing I found unacceptable is they claimed to have sent me content for my review, later I discovered they didn't actually send me the content but sent it to one another (addressed to me in the body of the email) and I only found this out after my own investigation.  Now since this discovery was pointed out to them, they have been lacking in communicating. I am displeased with this service so far and I paid in full to work with them.   I wouldn't recommend this service if you are on a timeline, as they don't communicate clearly and they will ignore any communication attempts you make with them. Just beware.",
+        "rating": 3,
+        "reviewer": "Nyo McGirt",
+        "quote": "they will ignore any communication attempts you make with them",
+        "reasoning": "Customer's outreach is ignored — actively chasing for responses with none received."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "snippet": "A good company to go with if you do not have a creative idea for your branding needs. They are not adaptive to an established vision and struggle to meet client needs. My project took an additional 3 months which was primarily due to the response time from Mark B and the constant revisions. After numerous failed attempts to get the project on track, we eventually had to get Wix involved in order to receive a response from Mark B. We then decided to pull the plug on the project. I was left with an incomplete website and a useless infographic. I reached out on multiple occasions in order to address my concerns directly. Our calls where not returned and virtual appointments where not accepted.You get what you pay for. My advice is to pay more and hire true professionals",
+        "rating": 1,
+        "reviewer": "Jason Cowan",
+        "quote": "I reached out on multiple occasions in order to address my concerns directly. Our calls where not returned and virtual appointments where not accepted",
+        "reasoning": "Customer actively reached out repeatedly; calls not returned and meetings refused."
+      }
+    ]
+  },
+  "ChIJbWD2teji20ARaZYWJxuAmvM": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "Настроенная реклама оказалась не эффективной. От слова вообще.\nОчень хорошо критиковали работу предыдущих специалистов, но сами сделали только хуже.\nНа письменную претензию не отвечают.\nДиректор на связь не выходит. менеджер который вел проект, состыковать с директором не смог.\nКрайне не рекомендую работать.",
+        "rating": 1,
+        "reviewer": "Петр Прыходько",
+        "quote": "На письменную претензию не отвечают.\nДиректор на связь не выходит",
+        "reasoning": "Customer's formal complaint went unanswered and director won't engage — active inquiry dropped."
+      }
+    ]
+  },
+  "ChIJ02Ft-2nP1EARSh3YJYpqcWo": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "snippet": "Заказывал у них разработку сайта по строительству и продвижение. Делали очень долго. Не слышат пожелания заказчика. Ушло много сил и нерв. В итоге домучил с ними сайт, а от продвижения отказался. Потом выяснилось, что он написан очень коряво, пришлось многое переделывать.\nМы много вложили своих идей. В результате эта непорядочная студия стала продавать наш сайт нашим конкурентам. Так что если не хотите долго разрабатывать сайт, потратить кучу нерв, переделок, а потом разработчик не продавал такой сайт  Вашим конкурентам, то лучше не связываться с этой студией.",
+        "rating": 1,
+        "reviewer": "Виктор Павлов",
+        "quote": "Не слышат пожелания заказчика",
+        "reasoning": "Explicit complaint that the studio doesn't hear/heed the customer's wishes."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "snippet": "Так долго и не профессионально, еще никто не делал продукт. Компания берет много заказов и не успевает с ними справляйся, по этому и нанимает сотрудников ниже среднего уровня. Из за этого и хромает качество.\n\nСделали таск - заплатил, тестировщик проверил - заплатил, мы проверяем видим ошибку. Делаем работу тестировщика и еще платим за это.\n\nЖдать ответа от менеджера, ТРИ ДНЯ, за которого Вы тоже платите.\n\nХозяин компании, действительно приятный человек. Но в его команде, он должен поменять руководителей, однозначно. Ибо компания так и не выйдет на необходимый, уважаемый уровень.",
+        "rating": 1,
+        "reviewer": "Anatolii",
+        "quote": "Ждать ответа от менеджера, ТРИ ДНЯ",
+        "reasoning": "Customer must wait three days for a manager response — active inquiries delayed/dropped."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "snippet": "Всё красивое в этой компании заканчивается на посредственно сделанной презентации. После того как вам пообещают ответить до конца дня или отправить коммерческое предложение, пройдёт дней 5-ть. Не про какие отстроенные процессы как в презентации и речь не идёт. Маркетинг этого агенства, теряет деньги в холостую.\n\nP.S.: чтобы не было отписок с смысловой нагрузкой \"это всё не правда\", мы взаимодействовали с вашим менеджером \"Журавлёв Андрей\".",
+        "rating": 1,
+        "reviewer": "Владислав Кайдан",
+        "quote": "После того как вам пообещают ответить до конца дня или отправить коммерческое предложение, пройдёт дней 5-ть",
+        "reasoning": "Customer was promised a commercial proposal/response by end of day and waited 5 days — classic dropped lead/quote."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Ужасно !\nВсе время проваливают сроки запуска рекламы,\nПросто сжигают рекламный бюджет и ваше время.\n\nПосле оплаты  2 дня ждал пока со мной связались и как то начали работать.\n\nЕсли хотите сжечь бюджет и время -все сюда",
+        "rating": 1,
+        "reviewer": "Михаило Костюкович",
+        "quote": "После оплаты  2 дня ждал пока со мной связались",
+        "reasoning": "After paying, customer waited 2 days for any contact — vendor failed to follow up on an active engagement."
+      }
+    ]
+  },
+  "ChIJrSRgwuTt3zgR3FISPJHt5d0": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "snippet": "Bilkul bhe sahe nahi ha koi reply nahi date kab sa tanga hua ha boht bad experience ha bus khte ha. Mere is chanal ko like kro ache comment likho boht bad experience",
+        "rating": 1,
+        "reviewer": "Muhammad Moiz",
+        "quote": "koi reply nahi date kab sa tanga hua ha",
+        "reasoning": "Customer reports no reply for a long time — appears to be a dropped inquiry/lead."
+      }
+    ]
+  },
+  "ChIJV1UV-bvnOkcR9pltZUnl2es": {
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "snippet": "Сучасне стильне місце.\nОбслуговують довго, замовлення переплутали. Не все з меню в наявності. Ціни припустимі, їжа досить смачна.",
+        "rating": 3,
+        "reviewer": "Lizosoma23 (Lizosoma)",
+        "quote": "Обслуговують довго, замовлення переплутали",
+        "reasoning": "Customer reports long service wait at the cafe."
+      },
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "snippet": "10 хвилин чекала щоб прийняли моє замовлення. На мене просто не звертали увагу!",
+        "rating": 1,
+        "reviewer": "Oksana Charka",
+        "quote": "10 хвилин чекала щоб прийняли моє замовлення. На мене просто не звертали увагу!",
+        "reasoning": "Waited 10 minutes to be served; staff ignored the customer."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.45,
+        "snippet": "Сучасне стильне місце.\nОбслуговують довго, замовлення переплутали. Не все з меню в наявності. Ціни припустимі, їжа досить смачна.",
+        "rating": 3,
+        "reviewer": "Lizosoma23 (Lizosoma)",
+        "quote": "замовлення переплутали",
+        "reasoning": "Order was mixed up — suggests communication/intake error, though weak signal."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "snippet": "Гарне кафе, але коли воно працює до 21:00, то і обслуговування повинно бути до цього часу, а не в 20:51 ви не обслуговуєте, бо у вас персмінка.\nІ наступного дня кава не потрібна. Бо хожу виключно її попити, а не прохожу поруч.",
+        "rating": 1,
+        "reviewer": "Sara",
+        "quote": "в 20:51 ви не обслуговуєте, бо у вас персмінка",
+        "reasoning": "Staff refused service before posted closing time — dismissive front-of-house behavior."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "Сьогодні зайшла до вас на лате і чізкейк, сума мого чеку складала 110 грн, а змушена була заплатити ще 250 грн за ненавмисно розбиту чашку. Спілкувалася з адміністратором по телефону, яка підтвердила що в меню цін на розбитий посуд у вас немає, але він дуже дорогий, 🤷а найголовніше я розраховувалася карткою, а в чеку позиції битий посуд немає, тільки сік, який я брала дитині. Чекаю від вас відповіді стосовно цієї ситуації. Вважаю що це шахрайство і ваші клієнти повинні про це знати. Фото чеків додаю.",
+        "rating": 1,
+        "reviewer": "Іванна Заяць",
+        "quote": "змушена була заплатити ще 250 грн за ненавмисно розбиту чашку",
+        "reasoning": "Unexpected 250 UAH charge for a broken cup not on the menu and not on the card receipt — surprise/hidden charge."
+      }
+    ]
+  },
+  "ChIJ-3V83ieV3zgRfK0p1LYlhMA": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "snippet": "Koi baat nahi suntay paisay puray laitay hain r kaam adha kar k daitay hain.",
+        "rating": 1,
+        "reviewer": "Atiqa Javed",
+        "quote": "Koi baat nahi suntay paisay puray laitay hain r kaam adha kar k daitay hain",
+        "reasoning": "Customer states the company doesn't listen, takes full payment but delivers half the work."
+      }
+    ]
+  },
+  "ChIJ23prlSnj20ARSM3GTK6qUvI": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Возможно фирма нормальная, но парковка не продумана. Сотрудники ставят свои авто под дворам на соседней улице, мешая проезду и парковке местных жителей. На просьбу не ставить авто, одна дама начала хамить. Такие работники портят репутацию предприятия.",
+        "rating": 1,
+        "reviewer": "О С",
+        "quote": "На просьбу не ставить авто, одна дама начала хамить",
+        "reasoning": "Employee responded rudely to a polite request — rude staff behavior."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "Самая отвратительная обратная связь которая может быть. Не работает аппарат, никто ничего не может сделать",
+        "rating": 1,
+        "reviewer": "Beshenaya TabureDka",
+        "quote": "Самая отвратительная обратная связь которая может быть. Не работает аппарат, никто ничего не может сделать",
+        "reasoning": "Customer reports terrible feedback/communication — nobody can resolve or explain the issue."
+      }
+    ]
+  },
+  "ChIJj2KnT9jI1EARJaaWnjzYyhM": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Постійний геморой для відвідувачів зі шлабаумом: не можна нормально ні виїхати, ні в'їхати, то талони не спрацювують, но кнопка визову тупо не працює, відчувешь на собі зовсім не дружнє ставлення, краще туди взагалі не суватись. ось так. Талони відмінили, але це не допомогло. Тупо не можеш виїхати. десь бігаешь, розбираешся... Відгук не ємоційний -  головнякі відбувалися багато разів. не можна так з людьми",
+        "rating": 2,
+        "reviewer": "Масалов Дмитрий",
+        "quote": "відчувешь на собі зовсім не дружнє ставлення",
+        "reasoning": "Visitor describes unfriendly/dismissive treatment from staff at the barrier."
+      }
+    ]
+  },
+  "ChIJIwWTbKnj20ARm1tQRucQvT4": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "snippet": "Цілком згодна з попередніми відгуками. Ця компанія — справжня лотерея. Обіцяна безоплатна реклама на місяць (чи хоча б тиждень) просування насправді часто не має нічого спільного з реальністю.\n\nСпочатку менеджер телефонує і підтверджує, що все добре, починаємо співпрацю. А згодом з'являється повідомлення, що ваша ніша їм «нецікава», і вам пропонують платні послуги, вартість яких вища за середню по ринку.\n\nНавіть якщо ви все оплатили, налаштування можуть бути видалені без попередження. Дізнаєтесь про це вже постфактум. Якщо вам не пощастить із таргетологом чи ПМ, заміну зробити можливо, але для цього доведеться витратити багато часу та нервів хоча б на те, щоб знайти людину, яка відповість на дзвінок або повідомлення.\n\nНавіть після обіцянок — заміна може відбутися нескоро. А якщо й відбудеться, ніхто не компенсує вам витрачений час чи бюджет на нульовий результат.\n\nБільше того, якщо після цього ви захочете звернутися знову — для компанії ви вже нецікавий клієнт. Жодні акції чи бонуси для вас більше не діятимуть. А якщо й діятимуть — то лише після нової оплати участі в «лотереї», яка, як пощастить, може дати результат, а може й ні.\n\nОкрема \"тема\" люди, котрі пишуть вам після закінчення співпраці із агенцією.\n\nНа мою думку, є чимало чесних і результативних агенцій, де можна отримати послугу без усіх цих маніпуляцій.",
+        "rating": 1,
+        "reviewer": "Ксенія Бойко",
+        "quote": "знайти людину, яка відповість на дзвінок або повідомлення",
+        "reasoning": "Client actively chasing the agency for callbacks/replies that never come."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "snippet": "Компанія жах. Не рекомендую тим хто не хоче злити свої кошти на послуги та на бюджет таргету. Дуже гарно про свої послуги розповідають, але по факту:\n1. Почнемо з початку, затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати - що і на якому етапі.\n2. Спілкування менеджера жахливе і це мʼяко кажучи, що сама їх керуюча була в шоці від спілкування такого зі сторони менеджера.\n3. У клієнта не уточнюють ніякої інформації по веденню сторінки та контенту - ні шрифтів, ні стиль, ні кольорів для дизайну, ні шаблонів, ні який асортимент, в загальному нічого. Роблять все аби як, тим що вони монтували з моїх відео просто уродували сторінку, запускали пости без узгодження та правок, які були надані.\n4. Таргет злили так що я в шоці була, продажі були по 65 доларів в перший тиждень, це при тому, що коли робили самі таргет продаж був максимум до 10 доларів і це при неефективній рекламі.\n5. Звіти не зрозуміли, для клієнта. Мені надсилали звіти слово с слово з тижня в тиждень, а на деяких наскільки я пам’ятаю навіть дати не змінювали. Яка реально робота була пророблена не зрозуміло - бачила тільки шаблон один зі змінами цифр.\nВсі компанії видалили, але і видалені можна подивитись, то авдиторія була та ж на яку ми і без них запускали. За що платили не зрозуміло.\n6. В загальному можна багато ще писати, але вони самі все зрозуміли наскільки все погано, що вкінці написали «Я так розумію ви з нами не будете продовжувати співпрацю, але я зобовʼязана це спитати».\nІ як Вишеньки на тортику кажуть - давайте ми вам заплануємо пости, щоб узгодили, щоб якось на гарній ноті розійтись. Ну думаю ладно, хоч це зробіть. І то ви думаєте? Запланували на так як узгодити, все переробляли після них.\nВ загальному обіцяють круто команду, реально роботу над сторінкою, рекомендації по веденню, ведення сторінки і тд. Отримали - мінус в грошах, часі та нервах, шаблоні рекомендації з тижня в тиждень без врахування сфери діяльності, хамовите відношення, тексти такі, що чат gpt краще напише, некомпетентних людей і ще розповіді типу, ну раз ви не розумієте, то я вам пояснюю що картинка рілс я можу обрати ту що ви хочете( і це мені кажуть люди, які займаються веденням сторінки) чи хто ті тексти читати буде( нащо їх тоді писати) ту стрічку рілс ніхто   на ваше превʼю не буде звертати уваги, яке вони зробили жахливе. Я не знаю як можна було з якісних фото та відео зробити нормально, але вони це змогли. Такий негативний досвід з ними вийшов.",
+        "rating": 1,
+        "reviewer": "Тетяна Журибіда",
+        "quote": "затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати",
+        "reasoning": "Client had to chase the agency for status updates that were never proactively sent."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "Цілком згодна з попередніми відгуками. Ця компанія — справжня лотерея. Обіцяна безоплатна реклама на місяць (чи хоча б тиждень) просування насправді часто не має нічого спільного з реальністю.\n\nСпочатку менеджер телефонує і підтверджує, що все добре, починаємо співпрацю. А згодом з'являється повідомлення, що ваша ніша їм «нецікава», і вам пропонують платні послуги, вартість яких вища за середню по ринку.\n\nНавіть якщо ви все оплатили, налаштування можуть бути видалені без попередження. Дізнаєтесь про це вже постфактум. Якщо вам не пощастить із таргетологом чи ПМ, заміну зробити можливо, але для цього доведеться витратити багато часу та нервів хоча б на те, щоб знайти людину, яка відповість на дзвінок або повідомлення.\n\nНавіть після обіцянок — заміна може відбутися нескоро. А якщо й відбудеться, ніхто не компенсує вам витрачений час чи бюджет на нульовий результат.\n\nБільше того, якщо після цього ви захочете звернутися знову — для компанії ви вже нецікавий клієнт. Жодні акції чи бонуси для вас більше не діятимуть. А якщо й діятимуть — то лише після нової оплати участі в «лотереї», яка, як пощастить, може дати результат, а може й ні.\n\nОкрема \"тема\" люди, котрі пишуть вам після закінчення співпраці із агенцією.\n\nНа мою думку, є чимало чесних і результативних агенцій, де можна отримати послугу без усіх цих маніпуляцій.",
+        "rating": 1,
+        "reviewer": "Ксенія Бойко",
+        "quote": "пропонують платні послуги, вартість яких вища за середню по ринку",
+        "reasoning": "Client says promised free promotion is swapped for unexpected paid services after initial agreement."
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "snippet": "Жахливо.\n\nВчора я натрапила на рекламу курсу від PR+ по таргетованій рекламі, де вони обіцяють навчити цитую «Як створювати рекламні кампанії в Facebook Ads за один день та продавати десятками ваші товари  чи послуги».\n\nПо їх твердженню курс підходить для власників магазинів,  які запускали рекламу, але пішли в мінус, для тих кому таргетолог не дав результат ( тобто передбачається що їх курс дозволить запустити рекламу без таргетолога, і що саме цікаве - це для тих хто вперся в стелю по трафікам, продажу та доходам.\n\nДалі. Що ви отримаєте на курсі:\n\nЩоденні 30 хвилинні уроки\nУпаковані готові рішення\nОнлайн зустріч та персонального куратора.\n\nДодатково\nІнструкція зі створення шаблонів чере AI\nШаблони готових аудиторій\nСервіс для монтажу рекламних креативів\nПідбірка з 500 продаючих креативів\n\n———\nЩо саме по факту вони дали\n\nЯкийсь міні- курс «Таргетована реклама» з уроками від 3 до 7 хвилин  з інформацією навіть не для початківців.\n\nПросто з такою елементарною інформацією, якої купа є в інтернеті по типу як підключити рекламний кабінет, як підключити сторінку інстаграм до фейсбук та іншу просто смішну загальнодоступну інформацію.\n\nНі 30 хвилинних щоденних уроків\nНі упакованих готових рішень\nНі інструкції зі створення шаблонів з Ai\nНі шаблонів готових аудиторій\nНі будь-чого іншого що ще вони обіцяли в цьому курсі немає.\n\nЗате є анкета, яку  обов’язково потрібно заповнити перед тим як тобі взагалі видадуть куплений тобою продукт.\n\nПо перше - чому я взагалі це маю робити?\nЯ хочу купити презентований вами продукт і просто його пройти.\n\nВас взагалі не має обходити ні скільки я заробляю, ні мої рекламні бюджети ні все інше.\n\nЯ купила курс щоб його пройти, а не щоб звітувати вам про те чим я займаюся і скільки заробляю.\n\nЦі питання доречні в тому випадку, якщо б я вас брала на роботу. Але я просто купила курс який хочу пройти і з якого дива я маю надавати вам особисту фінансову інформацію ?\n\nДруге. Я вчора першим натрапила на інший ваш курс який мене зацікавив.\n\nЯ його купила вночі. Не встигла навіть подивитися, як ваш менеджер зранку прилетів з питаннями які взагалі не відносяться до теми курсу.\n\nІ почав розпитувати про проекти, доходи і все інше.\n\nМенеджер, який надавав доступ до курсу по таргету також завів ту ж саму пластинку.\n\nПри тому, що ту ж саму інформацію він запитував в анкеті.\n\nЗвичайно, що в анкеті що вашим менеджерам я надала інформацію «з потолка», для того щоб подивитись що ж буде далі.\n\nІ виходить, що під  виглядом певного продукту ви впарюєте просто шокуюче відверту єрунду,  для того, щоб таким чином знаходити собі клієнтів скоріше всього для того, щоб навʼязувати їм ваші послуги.\n\nАбо можливо щоб далі продати щось інше.\n\nКоли я запитала мого куратора, чи хто вона там є, чому курс доступ до якого я отримала і те, що ви продаєте на вашому сайті  не відповідає дійсності - вона відповіла - тому що курс ще в розробці.\n\nСкажіть будь ласка - а з якого переляку ви продаєте людям курс який ще не існує?\n\nТобто ваш куратор не повідомив, що я придбала курс якого ще немає. І що по типу почекайте, доступ зʼявиться коли ми його допишемо.\n\nВона просто дала доступ до іншого продукту,  який не має нічого спільного з тим, що я купляла.\n\nЯ такого ще взагалі ніде не бачила.  Ви вважаєте ваших клієнтів настільки тупими?\n\nЯ нікому  не рекомендую ні курси ні співпрацю з PR+.\n\nВиглядає ніби офісники перебрались у сферу інфобізнесу.",
+        "rating": 1,
+        "reviewer": "Kolorovi Mrii",
+        "quote": "під  виглядом певного продукту ви впарюєте просто шокуюче відверту єрунду",
+        "reasoning": "Bait-and-switch — paid for one product, received something materially different."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Компанія жах. Не рекомендую тим хто не хоче злити свої кошти на послуги та на бюджет таргету. Дуже гарно про свої послуги розповідають, але по факту:\n1. Почнемо з початку, затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати - що і на якому етапі.\n2. Спілкування менеджера жахливе і це мʼяко кажучи, що сама їх керуюча була в шоці від спілкування такого зі сторони менеджера.\n3. У клієнта не уточнюють ніякої інформації по веденню сторінки та контенту - ні шрифтів, ні стиль, ні кольорів для дизайну, ні шаблонів, ні який асортимент, в загальному нічого. Роблять все аби як, тим що вони монтували з моїх відео просто уродували сторінку, запускали пости без узгодження та правок, які були надані.\n4. Таргет злили так що я в шоці була, продажі були по 65 доларів в перший тиждень, це при тому, що коли робили самі таргет продаж був максимум до 10 доларів і це при неефективній рекламі.\n5. Звіти не зрозуміли, для клієнта. Мені надсилали звіти слово с слово з тижня в тиждень, а на деяких наскільки я пам’ятаю навіть дати не змінювали. Яка реально робота була пророблена не зрозуміло - бачила тільки шаблон один зі змінами цифр.\nВсі компанії видалили, але і видалені можна подивитись, то авдиторія була та ж на яку ми і без них запускали. За що платили не зрозуміло.\n6. В загальному можна багато ще писати, але вони самі все зрозуміли наскільки все погано, що вкінці написали «Я так розумію ви з нами не будете продовжувати співпрацю, але я зобовʼязана це спитати».\nІ як Вишеньки на тортику кажуть - давайте ми вам заплануємо пости, щоб узгодили, щоб якось на гарній ноті розійтись. Ну думаю ладно, хоч це зробіть. І то ви думаєте? Запланували на так як узгодити, все переробляли після них.\nВ загальному обіцяють круто команду, реально роботу над сторінкою, рекомендації по веденню, ведення сторінки і тд. Отримали - мінус в грошах, часі та нервах, шаблоні рекомендації з тижня в тиждень без врахування сфери діяльності, хамовите відношення, тексти такі, що чат gpt краще напише, некомпетентних людей і ще розповіді типу, ну раз ви не розумієте, то я вам пояснюю що картинка рілс я можу обрати ту що ви хочете( і це мені кажуть люди, які займаються веденням сторінки) чи хто ті тексти читати буде( нащо їх тоді писати) ту стрічку рілс ніхто   на ваше превʼю не буде звертати уваги, яке вони зробили жахливе. Я не знаю як можна було з якісних фото та відео зробити нормально, але вони це змогли. Такий негативний досвід з ними вийшов.",
+        "rating": 1,
+        "reviewer": "Тетяна Журибіда",
+        "quote": "Спілкування менеджера жахливе",
+        "reasoning": "Direct complaint that the manager's communication tone was awful."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Компанія жах. Не рекомендую тим хто не хоче злити свої кошти на послуги та на бюджет таргету. Дуже гарно про свої послуги розповідають, але по факту:\n1. Почнемо з початку, затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати - що і на якому етапі.\n2. Спілкування менеджера жахливе і це мʼяко кажучи, що сама їх керуюча була в шоці від спілкування такого зі сторони менеджера.\n3. У клієнта не уточнюють ніякої інформації по веденню сторінки та контенту - ні шрифтів, ні стиль, ні кольорів для дизайну, ні шаблонів, ні який асортимент, в загальному нічого. Роблять все аби як, тим що вони монтували з моїх відео просто уродували сторінку, запускали пости без узгодження та правок, які були надані.\n4. Таргет злили так що я в шоці була, продажі були по 65 доларів в перший тиждень, це при тому, що коли робили самі таргет продаж був максимум до 10 доларів і це при неефективній рекламі.\n5. Звіти не зрозуміли, для клієнта. Мені надсилали звіти слово с слово з тижня в тиждень, а на деяких наскільки я пам’ятаю навіть дати не змінювали. Яка реально робота була пророблена не зрозуміло - бачила тільки шаблон один зі змінами цифр.\nВсі компанії видалили, але і видалені можна подивитись, то авдиторія була та ж на яку ми і без них запускали. За що платили не зрозуміло.\n6. В загальному можна багато ще писати, але вони самі все зрозуміли наскільки все погано, що вкінці написали «Я так розумію ви з нами не будете продовжувати співпрацю, але я зобовʼязана це спитати».\nІ як Вишеньки на тортику кажуть - давайте ми вам заплануємо пости, щоб узгодили, щоб якось на гарній ноті розійтись. Ну думаю ладно, хоч це зробіть. І то ви думаєте? Запланували на так як узгодити, все переробляли після них.\nВ загальному обіцяють круто команду, реально роботу над сторінкою, рекомендації по веденню, ведення сторінки і тд. Отримали - мінус в грошах, часі та нервах, шаблоні рекомендації з тижня в тиждень без врахування сфери діяльності, хамовите відношення, тексти такі, що чат gpt краще напише, некомпетентних людей і ще розповіді типу, ну раз ви не розумієте, то я вам пояснюю що картинка рілс я можу обрати ту що ви хочете( і це мені кажуть люди, які займаються веденням сторінки) чи хто ті тексти читати буде( нащо їх тоді писати) ту стрічку рілс ніхто   на ваше превʼю не буде звертати уваги, яке вони зробили жахливе. Я не знаю як можна було з якісних фото та відео зробити нормально, але вони це змогли. Такий негативний досвід з ними вийшов.",
+        "rating": 1,
+        "reviewer": "Тетяна Журибіда",
+        "quote": "Звіти не зрозуміли, для клієнта. Мені надсилали звіти слово с слово з тижня в тиждень",
+        "reasoning": "Reports were unclear and duplicated week-to-week, evidencing absent/unclear info."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "snippet": "Не рекомендую!\nPR+ лишає враження не серйозної, не чесної та навіть шахрайської компанії.\nЧому?\nПісля припинення співпраці - видаляють рекламні компанії які налаштовуються в ході роботи.\nМенеджер Анастасія пояснює це тим - що такі правила.\nПро ці \"правила\" ми дізнались тільки в кінці співпраці.\nМенеджер Анастасія стведжує, що нас повинен ознайомити з цим правилом менеджер, з яким ми спілкувались перед співпрацею.\nТе, що менеджер не доніс до нас це важливе правило - не змінило думку менеджера Анастасії видалити рекламні компанії - бо \"правила для всіх\" пише Анастасія.\n\nТаке",
+        "rating": 1,
+        "reviewer": "Роман Сагайдачний",
+        "quote": "Про ці \"правила\" ми дізнались тільки в кінці співпраці",
+        "reasoning": "Critical rule never communicated upfront — explicit unclear/absent information."
+      }
+    ]
+  },
+  "ChIJzYm02rqV3zgRCXeXCVsylNM": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "snippet": "Terrible experience. Zero discipline and  poor coordination. You have to ask again and again for even the simplest things And there are also many contradictions between what they initially say and what they actually do.\nThey simply do what they want and later try to justify it by telling you that you are wrong.  very unprofessional behaviour",
+        "rating": 1,
+        "reviewer": "Ash Co",
+        "quote": "there are also many contradictions between what they initially say and what they actually do",
+        "reasoning": "Explicit contradictory information from staff vs delivery."
+      }
+    ]
+  },
+  "ChIJ_d9JqWHdOkcRpU_bA_AYuS8": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Агенство, которые не ценят своего клиента. Хамское общение и игнорирование телефонных звонков - вот их девиз.\nПодумайте 10 раз, прежде, чем вообще обращаться к ним.",
+        "rating": 1,
+        "reviewer": "Эссино Эссино",
+        "quote": "Хамское общение",
+        "reasoning": "Explicit rude/boorish communication from staff."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Хамуватий персонал. непрофесійний колектив. просто жах",
+        "rating": 1,
+        "reviewer": "happy love",
+        "quote": "Хамуватий персонал",
+        "reasoning": "Direct statement that staff are rude/boorish."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.55,
+        "snippet": "Агенство, которые не ценят своего клиента. Хамское общение и игнорирование телефонных звонков - вот их девиз.\nПодумайте 10 раз, прежде, чем вообще обращаться к ним.",
+        "rating": 1,
+        "reviewer": "Эссино Эссино",
+        "quote": "игнорирование телефонных звонков",
+        "reasoning": "Phone calls being ignored — closest fit is unanswered/unreturned calls."
+      }
+    ]
+  },
+  "ChIJf0kpb3vdOkcROA0NQ3u78YU": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.72,
+        "snippet": "Хамство і шахрайство. Обіцяють якість, а насправді передають підряд школярам початківцям. Будьте обережні, не оплачуйте на карту.",
+        "rating": 1,
+        "reviewer": "Руслан Лозовой",
+        "quote": "Хамство і шахрайство",
+        "reasoning": "Reviewer calls out rude/dismissive staff behavior ('rudeness')."
+      }
+    ]
+  },
+  "ChIJKeWRykCW3zgRJTS1QI9wn5A": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "I worked with Codistan for a month to manage my social media pages, but the experience was far from what was promised. From the start, the consultant who onboarded me hyped up the company, claiming they had a team of 400 people. But if that’s true, I have no idea what they’re all doing because the work I received was extremely slow, and I had to constantly chase them just to get basic tasks done.\n\nThe proposal outlined a structured, professional approach, but what was actually delivered felt unorganized and nowhere near the quality I expected. Instead of streamlining my social media, I ended up babysitting the team, reminding them of what needed to be done. If you’re looking for an agency that takes initiative and delivers efficiently, this is not the one.\n\n0/5 stars",
+        "rating": 1,
+        "reviewer": "Tipu Butt",
+        "quote": "I had to constantly chase them just to get basic tasks done",
+        "reasoning": "Customer actively chasing the agency for deliverables — pattern of dropped follow-through on requested work."
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.78,
+        "snippet": "Very poor help desk waited for half an hour for a person yo come and take my cv. Wish they give chances to fresh graduates",
+        "rating": 1,
+        "reviewer": "Faheem Ahmad",
+        "quote": "waited for half an hour for a person yo come and take my cv",
+        "reasoning": "Customer waited far past expected service time at the help desk."
+      }
+    ]
+  },
+  "ChIJh-b2XNji20ARDZkQhgi8Ocg": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "snippet": "Вместо обещанного хорошего сайта получила гору негатива и подобие сайта по цене полноценного портала. Сначала завлекают всеми возможными средствами, а после получения денег морозятся и хамят. Никому не советую",
+        "rating": 1,
+        "reviewer": "Юлия Александрова",
+        "quote": "после получения денег морозятся и хамят",
+        "reasoning": "After payment, staff become rude and ignore the customer — rude tone from staff."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "snippet": "Вместо обещанного хорошего сайта получила гору негатива и подобие сайта по цене полноценного портала. Сначала завлекают всеми возможными средствами, а после получения денег морозятся и хамят. Никому не советую",
+        "rating": 1,
+        "reviewer": "Юлия Александрова",
+        "quote": "после получения денег морозятся",
+        "reasoning": "Customer reports being 'frozen out' (ignored) after paying — dropped responsiveness."
+      }
+    ]
+  },
+  "ChIJjfQm_n7nOkcRJnocd2IewwU": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "snippet": "Некомпетентність менеджера та хамське ставлення і грубість з боку Надії Вергелес.\nПерекреслює всі бажання співпрацювати з компанією. Оминайте десятою дорогою , збережети час і нерви.\nP.S. Так, звичайно Ви не будете говорити про свою некомпетентність. Це імідж Вашої компанії. Ви як гарна цукерка, маєте гарну оболонку але гнилі в середині.",
+        "rating": 1,
+        "reviewer": "Khrystyna Zhuk",
+        "quote": "хамське ставлення і грубість з боку Надії Вергелес",
+        "reasoning": "Explicit complaint about rude attitude and rudeness from a named staff member."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Жахлива комунікація! зверхність ледве не з порогу… думаю більшість коментарів виходить накручені… щось я сумніваюсь, стикнушись з працівниками, що з кимось знайшли спільну мову….бажаю кращого!",
+        "rating": 1,
+        "reviewer": "Ольга Малиновська",
+        "quote": "зверхність ледве не з порогу",
+        "reasoning": "Reviewer reports arrogant/dismissive tone from staff almost from the door."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.72,
+        "snippet": "ННепрофесійність\"футболили\" від одного до іншого так і не вирішивши питання,не прийнявши замовлення, не попереджаючи ні про час вихідних ні про терміни обробки запиту\nНе рекомендую,працівники байдужі та некомпетентні навіть в озвучення приблизної вартості мінімального замовлення",
+        "rating": 1,
+        "reviewer": "Леонід Ханко",
+        "quote": "\"футболили\" від одного до іншого так і не вирішивши питання",
+        "reasoning": "Customer shuffled between staff with no resolution — unclear/contradictory handling of the inquiry."
+      }
+    ],
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "snippet": "Комунікації з клієнтами немає взагалі. Вже декілька днів чекаємо відповіді! Ні на дзвінки, ні в пошту, ні в чат не відповідають! Дивна робота...",
+        "rating": 1,
+        "reviewer": "Yuliia",
+        "quote": "Ні на дзвінки, ні в пошту, ні в чат не відповідають",
+        "reasoning": "Multiple channels (calls, email, chat) unanswered for days."
+      },
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "snippet": "Не можливо зв'язатись з менеджером ні по телефону, ні залишивши заявку.\nПершим в черзі до оператора був більше 5 хв, в результаті оператор так і не відповів.",
+        "rating": 1,
+        "reviewer": "Володимир Гануляк",
+        "quote": "Не можливо зв'язатись з менеджером ні по телефону, ні залишивши заявку",
+        "reasoning": "Cannot reach manager by phone; operator never answered after 5+ min in queue."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "snippet": "Комунікації з клієнтами немає взагалі. Вже декілька днів чекаємо відповіді! Ні на дзвінки, ні в пошту, ні в чат не відповідають! Дивна робота...",
+        "rating": 1,
+        "reviewer": "Yuliia",
+        "quote": "Вже декілька днів чекаємо відповіді",
+        "reasoning": "Customer awaiting a response for days after reaching out — dropped inquiry."
+      },
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "ННепрофесійність\"футболили\" від одного до іншого так і не вирішивши питання,не прийнявши замовлення, не попереджаючи ні про час вихідних ні про терміни обробки запиту\nНе рекомендую,працівники байдужі та некомпетентні навіть в озвучення приблизної вартості мінімального замовлення",
+        "rating": 1,
+        "reviewer": "Леонід Ханко",
+        "quote": "не прийнявши замовлення",
+        "reasoning": "Customer's order/inquiry was never accepted or followed through."
+      }
+    ]
+  },
+  "ChIJAxN0d8O_3zgRCJ9cE867xxc": {
+    "frontline_communication": [
+      {
+        "sub": null,
+        "confidence": 0.55,
+        "snippet": "Good & huge software house located in Islamabad. They have many facilities apart from working area such as Gym, Cafe, Rest Room, Washroom, Table Tennis, Conference Hall, upgraded Computers & many more.\nThe only issues which I confronted here are that Chairs & tables quantity is less & most chairs & tables are broken here, which should be replaced ASAP. Most of their Sockets aren't working, Wifi isn't available in every room. Don't have staff to help anyone.\nThey should fix all.",
+        "rating": 3,
+        "reviewer": "RHK",
+        "quote": "Don't have staff to help anyone.",
+        "reasoning": "Indicates absent/unhelpful staff support, a frontline communication gap, though sub-category is ambiguous."
+      }
+    ]
+  },
+  "ChIJr-cZk4ZZwokRu-ftpVM5lVQ": {
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.9,
+        "snippet": "I’ve been trying to reach this agency for over two weeks! Multiple emails and phone calls, but no response at all. As a business actively seeking a marketing partner, I expected at least some acknowledgment or follow-up. Unfortunately, the lack of communication raises concerns about reliability and professionalism. I’m disappointed, especially considering the positive reviews that influenced my decision to contact them in the first place.\n\nMy response to their reply:\nThank you for your reply. I understand that you are a boutique agency, but that does not excuse two weeks of silence across multiple channels (contact forms, emails, and phone calls)\n\nAfter your reply to this review, I made another effort to reach out by both phone and email. Unfortunately, your phone system still says no one is available, and I have not received any reply to my follow up email, not even an automated acknowledgment.\n\nThe fact that I received a quick response here, but not through direct channels, suggests that monitoring Google reviews takes priority over actual client communication. That is concerning for any potential partner.\n\nLastly, accusing someone of leaving a fake review based solely on the name used on Google is unnecessary. Many people use partial names online for privacy. That kind of assumption came across as defensive and unprofessional, especially given that I was making a legitimate inquiry.\n\nI was genuinely interested in working with your agency, but the continued lack of response and the tone of your reply have only confirmed my concerns. I hope this feedback encourages improvements in how inquiries are handled moving forward.",
+        "rating": 1,
+        "reviewer": "Sez Solid",
+        "quote": "Multiple emails and phone calls, but no response at all.",
+        "reasoning": "Reviewer made repeated phone calls (and emails) and got no callback over two weeks."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.92,
+        "snippet": "I’ve been trying to reach this agency for over two weeks! Multiple emails and phone calls, but no response at all. As a business actively seeking a marketing partner, I expected at least some acknowledgment or follow-up. Unfortunately, the lack of communication raises concerns about reliability and professionalism. I’m disappointed, especially considering the positive reviews that influenced my decision to contact them in the first place.\n\nMy response to their reply:\nThank you for your reply. I understand that you are a boutique agency, but that does not excuse two weeks of silence across multiple channels (contact forms, emails, and phone calls)\n\nAfter your reply to this review, I made another effort to reach out by both phone and email. Unfortunately, your phone system still says no one is available, and I have not received any reply to my follow up email, not even an automated acknowledgment.\n\nThe fact that I received a quick response here, but not through direct channels, suggests that monitoring Google reviews takes priority over actual client communication. That is concerning for any potential partner.\n\nLastly, accusing someone of leaving a fake review based solely on the name used on Google is unnecessary. Many people use partial names online for privacy. That kind of assumption came across as defensive and unprofessional, especially given that I was making a legitimate inquiry.\n\nI was genuinely interested in working with your agency, but the continued lack of response and the tone of your reply have only confirmed my concerns. I hope this feedback encourages improvements in how inquiries are handled moving forward.",
+        "rating": 1,
+        "reviewer": "Sez Solid",
+        "quote": "As a business actively seeking a marketing partner, I expected at least some acknowledgment or follow-up.",
+        "reasoning": "Patient/prospect actively inquired and never received a callback — classic dropped lead."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "snippet": "I engaged Jives Media after a three-month search for a suitable Google Ads agency, initially attracted by their promises of expertise and a tailored approach. Unfortunately, our experience was extremely disappointing, and the results did not reflect the $4,700 per month we invested in their services.\n\nFrom the start, there were significant issues with their approach and recommendations. One of our key concerns was the suggestion to change our main campaign’s bid strategy from Target Impression Share to Maximise Conversions without conducting an A/B test. As someone experienced in Google Ads, I know that changing a bid strategy is one of the most significant shifts you can make within a campaign, and it should never be done without proper testing. Jay described this change as \"baby steps,\" but the suggestion revealed a clear disconnect in understanding and a concerning lack of expertise from the team.\n\nAdding to this, the team recommended pausing bids for the search term “eyelash extension course,” which is literally the core product we sell. This recommendation was not only baffling but showed an evident lack of understanding of our business and goals. We had expected a partner with a sound strategy aligned with our business needs, but these suggestions showed the opposite.\n\nOur concerns were repeatedly ignored or mishandled, leading to a further breakdown of trust. I specifically requested to speak directly with Jay, the CEO, to address these strategy concerns and discuss his team’s experience with accounts of our scale. Instead, Jay brought additional team members, preventing an open discussion about these issues. The lack of regard for our requests as a new client left us feeling undervalued and sidelined.\n\nFurther adding to the frustration, Jives Media regularly took days to respond to our emails, even as a new client. In an industry where timing and communication are critical, this lack of responsiveness only deepened our dissatisfaction.\n\nOn the technical side, Jives Media was contractually responsible for conducting market analysis and competitive research during their onboarding process. Instead, we were asked to provide our own list of competitors and revenue data, which they could have easily accessed within our Google Ads account. This failure to carry out basic responsibilities reinforced our view that they were not doing the necessary work to manage our account effectively.\n\nAdditionally, when it came to landing page optimisations, I had made it very clear that 90% of our traffic came from mobile users. Despite this, we received recommendations based solely on desktop performance. This oversight showed a clear lack of attention to detail and was another instance of them not fully comprehending or accommodating our business needs.\n\nAfter expressing our dissatisfaction and intent to part ways, we were met with legal involvement from their team. I had hoped for an open conversation directly with Jay, business owner to business owner, to resolve matters amicably, but instead, I received an email from their billing department with legal threats. This approach was both unexpected and disappointing, especially after I had clearly stated in writing that we did not intend to share our experience publicly.\n\nIn short, Jives Media’s strategy, responsiveness, and lack of attention to detail did not reflect the professional service they promoted during initial discussions. For $4,700 a month, we expected a knowledgeable, proactive partner, yet the reality fell far short of that standard. Businesses looking for a Google Ads partner should proceed with caution, as our experience highlighted serious issues with both their strategy and client service.",
+        "rating": 1,
+        "reviewer": "Ryan Clancy",
+        "quote": "Our concerns were repeatedly ignored or mishandled, leading to a further breakdown of trust.",
+        "reasoning": "Customer raised specific concerns that were dismissed/ignored."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "I engaged Jives Media after a three-month search for a suitable Google Ads agency, initially attracted by their promises of expertise and a tailored approach. Unfortunately, our experience was extremely disappointing, and the results did not reflect the $4,700 per month we invested in their services.\n\nFrom the start, there were significant issues with their approach and recommendations. One of our key concerns was the suggestion to change our main campaign’s bid strategy from Target Impression Share to Maximise Conversions without conducting an A/B test. As someone experienced in Google Ads, I know that changing a bid strategy is one of the most significant shifts you can make within a campaign, and it should never be done without proper testing. Jay described this change as \"baby steps,\" but the suggestion revealed a clear disconnect in understanding and a concerning lack of expertise from the team.\n\nAdding to this, the team recommended pausing bids for the search term “eyelash extension course,” which is literally the core product we sell. This recommendation was not only baffling but showed an evident lack of understanding of our business and goals. We had expected a partner with a sound strategy aligned with our business needs, but these suggestions showed the opposite.\n\nOur concerns were repeatedly ignored or mishandled, leading to a further breakdown of trust. I specifically requested to speak directly with Jay, the CEO, to address these strategy concerns and discuss his team’s experience with accounts of our scale. Instead, Jay brought additional team members, preventing an open discussion about these issues. The lack of regard for our requests as a new client left us feeling undervalued and sidelined.\n\nFurther adding to the frustration, Jives Media regularly took days to respond to our emails, even as a new client. In an industry where timing and communication are critical, this lack of responsiveness only deepened our dissatisfaction.\n\nOn the technical side, Jives Media was contractually responsible for conducting market analysis and competitive research during their onboarding process. Instead, we were asked to provide our own list of competitors and revenue data, which they could have easily accessed within our Google Ads account. This failure to carry out basic responsibilities reinforced our view that they were not doing the necessary work to manage our account effectively.\n\nAdditionally, when it came to landing page optimisations, I had made it very clear that 90% of our traffic came from mobile users. Despite this, we received recommendations based solely on desktop performance. This oversight showed a clear lack of attention to detail and was another instance of them not fully comprehending or accommodating our business needs.\n\nAfter expressing our dissatisfaction and intent to part ways, we were met with legal involvement from their team. I had hoped for an open conversation directly with Jay, business owner to business owner, to resolve matters amicably, but instead, I received an email from their billing department with legal threats. This approach was both unexpected and disappointing, especially after I had clearly stated in writing that we did not intend to share our experience publicly.\n\nIn short, Jives Media’s strategy, responsiveness, and lack of attention to detail did not reflect the professional service they promoted during initial discussions. For $4,700 a month, we expected a knowledgeable, proactive partner, yet the reality fell far short of that standard. Businesses looking for a Google Ads partner should proceed with caution, as our experience highlighted serious issues with both their strategy and client service.",
+        "rating": 1,
+        "reviewer": "Ryan Clancy",
+        "quote": "Jives Media regularly took days to respond to our emails, even as a new client.",
+        "reasoning": "Slow/poor communication responsiveness from staff."
+      }
+    ]
+  },
+  "ChIJIafWeyCV3zgR5HwKf1cjuNQ": {
+    "calls_unanswered": [
+      {
+        "sub": null,
+        "confidence": 0.55,
+        "snippet": "no response",
+        "rating": 1,
+        "reviewer": "Kashif official",
+        "quote": "no response",
+        "reasoning": "Brief but indicates no response to an inquiry; channel ambiguous."
+      }
+    ]
+  },
+  "ChIJ2ehz3kqV3zgRPVhRsphTIbE": {
+    "calls_unanswered": [
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "snippet": "They don't even text back.",
+        "rating": 1,
+        "reviewer": "wajahat Ali",
+        "quote": "They don't even text back.",
+        "reasoning": "Outreach (text) goes unanswered — closest fit is unanswered-callback pattern."
+      },
+      {
+        "sub": "voicemail_never_returned",
+        "confidence": 0.85,
+        "snippet": "kindly change the person which you have given the number i am trying to contact from 30 june but still no reply. Please place a suitable person for that",
+        "rating": 1,
+        "reviewer": "Mughees Kareem",
+        "quote": "i am trying to contact from 30 june but still no reply",
+        "reasoning": "Repeated contact attempts with no reply over an extended period."
+      }
+    ]
+  },
+  "ChIJv0MKmymV3zgRCwfCbkGy5dE": {
+    "calls_unanswered": [
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "snippet": "3 stars is based on the reviews already read...I got third CEO no with high words reference for making a website.. couldn't understand...CEO no is off...tried and kept dialing thier land line contact no to discuss further.. no one answering the phone...communication does matter....in an Office if no one answers and attends call...how the business can further flourish.. surprised...",
+        "rating": 3,
+        "reviewer": "M Kay",
+        "quote": "kept dialing thier land line contact no to discuss further.. no one answering the phone",
+        "reasoning": "Reviewer repeatedly called the business line during attempts to reach them and no one picked up."
+      }
+    ]
+  },
+  "ChIJhyig8JWV3zgRJ-VLkJHJK_k": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "snippet": "I have given interview in IKONIC, ghosted me and told me our interviews are in progress you will get the update soon but not updated me, just wastage of time, money and resources, don't visit ikonic for interview.",
+        "rating": 1,
+        "reviewer": "Hina Akhter",
+        "quote": "ghosted me and told me our interviews are in progress you will get the update soon but not updated me",
+        "reasoning": "Candidate was promised an update after engaging with the company and never received it — patient/customer-initiated request dropped."
+      }
+    ]
+  },
+  "ChIJYUhk9DWQ4EARmQ4BKZ8kbSQ": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.88,
+        "snippet": "Очень плохо 👎. Взяли в два с половиной раза дороже, чем в их же собственном прайсе, объяснив это тем, что я заказал брошюру в одном экземпляре, а не в пяти. Сказали, будет чуть дороже. Чуть оказалось в два с половиной раза больше. Купите на эти 90 гривен, что вы содрали с меня дополнительно, конфет своим детям. Пусть это будет подарок от моих внуков. \"Честные предприниматели\"...",
+        "rating": 1,
+        "reviewer": "Andy Pajarillo",
+        "quote": "Взяли в два с половиной раза дороже, чем в их же собственном прайсе",
+        "reasoning": "Customer was charged 2.5x the listed price; quoted X, billed Y — classic surprise billing."
+      }
+    ]
+  },
+  "ChIJAx2ZHN3i20ARzEq3yJnETN4": {
+    "booking_friction": [
+      {
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.4,
+        "snippet": "Очень туго шла работа. Когда получил сайт, то он мне и не нужен был - прошло 2 месяца, обещали за 1; это был лендинг, запускать нужно было 20 марта. Знакомый предложил своего программиста - тот за неделю и нарисовал, и поставил, и настроил -- вышла конфетка.\nЭта же студия [Феникс] проэтосамое мне мозги, задержали и испортили сезон, а сам продукт получился конкретно убогим.",
+        "rating": 1,
+        "reviewer": "Andrew Oliinyk",
+        "quote": "прошло 2 месяца, обещали за 1",
+        "reasoning": "Delivery took 2 months instead of promised 1 — closest taxonomy fit is delivery delay, though this is more project delay than booking; low confidence."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.35,
+        "snippet": "Заказывал себе сайт для туристической компании. В целом всем доволен, но очень долго делали, постоянно переносили сроки и последующее сопровождения при запуске тоже не понравилось.",
+        "rating": 3,
+        "reviewer": "Eddie Khach",
+        "quote": "постоянно переносили сроки и последующее сопровождения при запуске тоже не понравилось",
+        "reasoning": "Repeated deadline shifts and poor post-launch support hint at communication issues, but evidence is thin."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "snippet": "Не понимаю восторженности местных отзывов. Посредственная и самая стандартная аутсорс контора, которую необходимо постоянно подгонять, чтобы задачи были выполнены, а при этом получать игнор в свою сторону.",
+        "rating": 2,
+        "reviewer": "Владислав",
+        "quote": "получать игнор в свою сторону",
+        "reasoning": "Customer reports being ignored by the vendor when raising concerns."
+      }
+    ]
+  },
+  "ChIJSxbP2JWV3zgR-b4-JfKYe7Q": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Such a bad and unprofessional staff. Not even know how to respond a person.",
+        "rating": 1,
+        "reviewer": "Zeeshan Hassan",
+        "quote": "Such a bad and unprofessional staff. Not even know how to respond a person.",
+        "reasoning": "Complaint about unprofessional staff conduct/tone toward a person."
+      }
+    ]
+  },
+  "ChIJSVrxpB3P1EARNbfHYE_MaSM": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "snippet": "Користуємося уже пів року, все працює добре. Є багато інтеграцій з іншими сервісами, які спрощують і прискорюють роботу. Бувають нюанси, але розробники оперативно виправляють проблеми.\nА от підтримці величезний мінус, дуже тугі, повільно реагують, одні відписки.. можна днями чекати відповіді. Зараз сайт не працює уже 5 днів, після того як «виправили» попередній баг. Таке враження, що немає ніяких тестерів і як щось міняють то не перевіряють що робиться із рештою!\nЯкщо коротко підтримці всерівно працює чи ні.. а за той час ти втрачаєш кошти та клієнтів.",
+        "rating": 3,
+        "reviewer": "Славік Боринець",
+        "quote": "дуже тугі, повільно реагують, одні відписки.. можна днями чекати відповіді",
+        "reasoning": "Support gives unclear brush-off replies and slow/missing information."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "snippet": "Жахливий сервіс і ще гірше ставлення до клієнтів. Співробітники компанії абсолютно некомпетентні: на конкретні технічні питання відповідають годинами, а проблему із постійними підвисаннями платформи ігнорують. Складається враження, що після оплати тарифу ви стаєте їм нецікаві. Сервери нестабільні, сайт може \"лежати\" в самий пік замовлень. Обходьте стороною!",
+        "rating": 1,
+        "reviewer": "NØRE",
+        "quote": "на конкретні технічні питання відповідають годинами, а проблему із постійними підвисаннями платформи ігнорують",
+        "reasoning": "Customer raised specific technical concerns that were ignored/dismissed."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.4,
+        "snippet": "Жахливий сервіс і ще гірше ставлення до клієнтів. Співробітники компанії абсолютно некомпетентні: на конкретні технічні питання відповідають годинами, а проблему із постійними підвисаннями платформи ігнорують. Складається враження, що після оплати тарифу ви стаєте їм нецікаві. Сервери нестабільні, сайт може \"лежати\" в самий пік замовлень. Обходьте стороною!",
+        "rating": 1,
+        "reviewer": "NØRE",
+        "quote": "після оплати тарифу ви стаєте їм нецікаві",
+        "reasoning": "After paying, customer cannot get responses — active requests dropped."
+      }
+    ]
+  },
+  "ChIJS-KxJEvE1EARbtpj4eFLUHk": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Ìf i had the option to rate even lower i would have give them the min value of int . Very unprofiesional and really bad language abount my russian granparents.Shame on you trintetix.",
+        "rating": 1,
+        "reviewer": "Sha256",
+        "quote": "Very unprofiesional and really bad language abount my russian granparents",
+        "reasoning": "Staff used rude/abusive language toward the customer."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "snippet": "Very unprofessional and rude. Sent me ridiculously low rate to lowball me. Even their interview link didn't work.",
+        "rating": 1,
+        "reviewer": "J W",
+        "quote": "Very unprofessional and rude.",
+        "reasoning": "Explicit complaint about rude, unprofessional staff tone."
+      }
+    ]
+  },
+  "ChIJm01pVELO1EARW3XDyJLpBmo": {
+    "frontline_communication": [
+      {
+        "sub": null,
+        "confidence": 0.35,
+        "snippet": "технічна підтримка 👎👎",
+        "rating": 1,
+        "reviewer": "Valerie Samoilova",
+        "quote": "технічна підтримка 👎👎",
+        "reasoning": "Generic dissatisfaction with tech support communication; no specifics."
+      }
+    ]
+  }
+}

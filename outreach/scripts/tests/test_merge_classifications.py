@@ -129,6 +129,94 @@ class TestMerge(unittest.TestCase):
         self.assertEqual(master[0]['pain_breadth'], 0)
         self.assertEqual(master[0]['pain_categories'], [])
 
+    # ── quality_score / weighted_pain / tier recomputation ────────────────
+    # Without these, agent-only pipelines (analyze runs with empty pain →
+    # score = log10(reviews)*3 + rating_gap*4) silently keep the analyze-time
+    # quality_score after merge fills agent_pain_hits, because csv_builder's
+    # _backfill_quality_score early-returns when quality_score is set. Making
+    # merge the recompute point keeps master.json self-consistent post-merge.
+
+    def test_quality_score_recomputed_from_agent_hits_when_weights_given(self):
+        # weighted = 5 * 2 (two calls_unanswered hits at weight 5) = 10
+        # breadth  = 1
+        # size     = log10(100) = 2.0  →  weight_size 3 → 6
+        # rating_gap = max(0, 4.9 - 4.5) = 0.4  →  weight 4 → 1.6
+        # score    = 10 + 1*2 + 6 + 1.6 = 19.6  →  tier 'C'
+        master = [{
+            'place_id': 'p1',
+            'review_count': 100,
+            'review_rating': 4.5,
+            'quality_score': 7.6,        # stale analyze-time score (empty pain)
+            'weighted_pain': 0,
+            'tier': 'D',
+        }]
+        sidecar = {'p1': {'calls_unanswered': [HIT, HIT]}}
+        merge(master, sidecar, pain_weights={'calls_unanswered': 5})
+        self.assertAlmostEqual(master[0]['quality_score'], 19.6, places=2)
+        self.assertEqual(master[0]['weighted_pain'], 10)
+        self.assertEqual(master[0]['tier'], 'C')
+
+    def test_quality_score_left_alone_when_no_pain_weights_given(self):
+        # Backward compat: the old call shape stays no-op for score/tier.
+        master = [{
+            'place_id': 'p1',
+            'review_count': 100,
+            'review_rating': 4.5,
+            'quality_score': 7.6,
+            'weighted_pain': 0,
+            'tier': 'D',
+        }]
+        sidecar = {'p1': {'calls_unanswered': [HIT, HIT]}}
+        merge(master, sidecar)
+        self.assertEqual(master[0]['quality_score'], 7.6)
+        self.assertEqual(master[0]['weighted_pain'], 0)
+        self.assertEqual(master[0]['tier'], 'D')
+
+    def test_quality_score_recomputed_falls_back_to_legacy_pain_when_no_agent_hits(self):
+        # If a lead has no sidecar entry but legacy SBERT pain_hits exist,
+        # the recompute should use those (matching the breadth fallback).
+        master = [{
+            'place_id': 'p1',
+            'review_count': 100,
+            'review_rating': 4.5,
+            'pain_hits': {'calls_unanswered': [{'snippet': 'legacy'}]},
+            'quality_score': 99.0,       # stale; should be replaced
+        }]
+        merge(master, sidecar={}, pain_weights={'calls_unanswered': 5})
+        # weighted = 5*1 = 5; breadth=1; size=6; gap=1.6 → 5 + 2 + 6 + 1.6 = 14.6
+        self.assertAlmostEqual(master[0]['quality_score'], 14.6, places=2)
+        self.assertEqual(master[0]['weighted_pain'], 5)
+        self.assertEqual(master[0]['tier'], 'D')      # 14.6 < 15
+
+    def test_quality_score_recomputed_to_review_only_when_neither_source_has_hits(self):
+        # No agent hits, no legacy pain → score reflects only size + rating_gap.
+        master = [{
+            'place_id': 'p1',
+            'review_count': 100,
+            'review_rating': 4.5,
+            'quality_score': 88.0,       # whatever was there is replaced
+            'weighted_pain': 999,
+        }]
+        merge(master, sidecar={}, pain_weights={'calls_unanswered': 5})
+        # weighted=0, breadth=0, size=6, gap=1.6 → 7.6
+        self.assertAlmostEqual(master[0]['quality_score'], 7.6, places=2)
+        self.assertEqual(master[0]['weighted_pain'], 0)
+        self.assertEqual(master[0]['tier'], 'D')
+
+    def test_quality_score_reads_rating_alias(self):
+        # csv_builder reads `rating` (post-handoff alias). Master from analyze
+        # writes `review_rating`. Recompute should accept either.
+        master = [{
+            'place_id': 'p1',
+            'review_count': 100,
+            'rating': 4.5,                # alias used post-handoff
+            'quality_score': 0,
+        }]
+        sidecar = {'p1': {'calls_unanswered': [HIT]}}
+        merge(master, sidecar, pain_weights={'calls_unanswered': 5})
+        # weighted=5, breadth=1, size=6, gap=1.6 → 14.6
+        self.assertAlmostEqual(master[0]['quality_score'], 14.6, places=2)
+
 
 class TestWriteAtomic(unittest.TestCase):
     def test_writes_then_replaces_no_temp_left_behind(self):

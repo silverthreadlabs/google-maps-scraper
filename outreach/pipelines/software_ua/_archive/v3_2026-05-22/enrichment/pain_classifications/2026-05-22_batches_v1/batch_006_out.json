@@ -1,0 +1,73 @@
+[
+  {"id": 180, "categories": []},
+  {"id": 181, "categories": []},
+  {"id": 182, "categories": []},
+  {"id": 183, "categories": []},
+  {"id": 184, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "сами не могут починить", "reasoning": "Support unable to explain/fix; unclear resolution path indicated."}
+  ]},
+  {"id": 185, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.78, "quote": "коли звернулись, щоб вони видали ці документи, змушують чекати тижнями", "reasoning": "Customer actively requested documents and is left waiting weeks — patient-chasing pattern."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.7, "quote": "комунікація з менеджментом ніяка", "reasoning": "Explicit complaint that communication with management is absent/poor."}
+  ]},
+  {"id": 186, "categories": [
+    {"main": "frontline_communication", "sub": "not_listening_to_customer", "confidence": 0.7, "quote": "Тех. підтримка завжди робить мене винуватим у помилках з програмою", "reasoning": "Customer's concerns dismissed by support — issue blamed on user rather than addressed."}
+  ]},
+  {"id": 187, "categories": [
+    {"main": "frontline_communication", "sub": "not_listening_to_customer", "confidence": 0.7, "quote": "Тех підтримка скидає все на нас", "reasoning": "Support dismisses customer concerns, shifts blame — specific concern ignored."}
+  ]},
+  {"id": 188, "categories": []},
+  {"id": 189, "categories": []},
+  {"id": 190, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.78, "quote": "Техслжба грубить", "reasoning": "Explicit complaint that tech support staff is rude in tone."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.7, "quote": "ніколи не повідомляють про те що в них якісь оновлення", "reasoning": "Information about updates/downtime not communicated to customers."}
+  ]},
+  {"id": 191, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.7, "quote": "что , где и как должно работать никто не знал а тренировались на мне", "reasoning": "Support gave unclear/contradictory information about how the product should work."}
+  ]},
+  {"id": 192, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.82, "quote": "Пройшов місяць і мені виставити рахунок за 3 торгові точки", "reasoning": "Quoted one price for closed locations, billed for all three — quoted X, billed Y pattern."},
+    {"main": "frontline_communication", "sub": "not_listening_to_customer", "confidence": 0.6, "quote": "Підтримка реагує неадекватно", "reasoning": "Support dismissive of billing complaint."}
+  ]},
+  {"id": 193, "categories": []},
+  {"id": 194, "categories": []},
+  {"id": 195, "categories": []},
+  {"id": 196, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "тех поддержка ничего не знает, помощи дождаться не возможно", "reasoning": "Support cannot provide clear answers/help."}
+  ]},
+  {"id": 197, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.6, "quote": "поддержка ужасно общается", "reasoning": "Cites support's rude/poor tone as reason to avoid the company."}
+  ]},
+  {"id": 198, "categories": []},
+  {"id": 199, "categories": [
+    {"main": "calls_unanswered", "sub": "missed_calls_during_business_hours", "confidence": 0.78, "quote": "Техпідтримка взагалі не бере трубку і не відповідає в чаті", "reasoning": "Support phone line is not answered — direct missed-calls signal."}
+  ]},
+  {"id": 200, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.82, "quote": "Відповіді були однакові: “завтра”, “післязавтра”, “наступного тижня”. Проблеми не вирішувалися місяцями", "reasoning": "Customer repeatedly chased support; promised callbacks/resolutions never delivered."}
+  ]},
+  {"id": 201, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.82, "quote": "менеджер типа коллектора, который звонит, пишет, считает что имеет право подшучивать над клиентом", "reasoning": "Sales manager unprofessional/mocking tone toward customer."}
+  ]},
+  {"id": 202, "categories": []},
+  {"id": 203, "categories": []},
+  {"id": 204, "categories": []},
+  {"id": 205, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "Менеджер, который продает и консультирует -  только до покупки. Как только купил - все! он ничем помочь не может", "reasoning": "Pre-sale manager goes silent after purchase; customer's follow-up questions go unanswered."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "ждите,  мы не знаем когда мы это исправим. сроков нет вообще", "reasoning": "Support gives no clear timeline/information about resolution."}
+  ]},
+  {"id": 206, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.82, "quote": "Такого Хамського відношення ще не зустрічав", "reasoning": "Explicit rude treatment from staff member named in review."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.78, "quote": "Просив отримати підтримку і презентацію 2 рази ,не отримав її від слова зовсім", "reasoning": "Customer twice requested a presentation/callback and never received it."}
+  ]},
+  {"id": 207, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.65, "quote": "при наличии реальной проблемы менеджеры морозятся и льют воду", "reasoning": "Managers freeze out customers raising real problems — ignoring requests for help."}
+  ]},
+  {"id": 208, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "вже більше року обіцяють випустити оновлення", "reasoning": "Repeated promises over a year never delivered — patient-chasing for promised deliverable."},
+    {"main": "calls_unanswered", "sub": "voicemail_never_returned", "confidence": 0.4, "quote": "служба підтримки дуже довго відповідає", "reasoning": "Support takes very long to respond — borderline; weaker fit."}
+  ]},
+  {"id": 209, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "ще іноді хамовиті", "reasoning": "Explicitly describes consultants as sometimes rude."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.6, "quote": "налаштовував за 4500грн десь тиждень і це не просто я очікував а тиждень переписки", "reasoning": "Customer paid and chased for a week to get a deliverable that should have been prompt."}
+  ]}
+]

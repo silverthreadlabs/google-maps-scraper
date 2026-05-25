@@ -1,0 +1,50 @@
+[
+  {"id": 150, "categories": []},
+  {"id": 151, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "представники компанії перестали відповідати на повідомлення", "reasoning": "Reviewer chased a specific matter (payment for services) and the company stopped responding."}
+  ]},
+  {"id": 152, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.65, "quote": "Перестають відповідати на повідомлення", "reasoning": "Active outreach by freelancers receives no response."}
+  ]},
+  {"id": 153, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "Комунікації жодної", "reasoning": "Reviewer explicitly cites lack of communication from the company."}
+  ]},
+  {"id": 154, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "they says that we are not hiring but internship form is available on their website", "reasoning": "Contradictory information given to the inquirer."}
+  ]},
+  {"id": 155, "categories": []},
+  {"id": 156, "categories": []},
+  {"id": 157, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "No manners to talk", "reasoning": "Complaint about rude tone of staff."}
+  ]},
+  {"id": 158, "categories": []},
+  {"id": 159, "categories": []},
+  {"id": 160, "categories": []},
+  {"id": 161, "categories": []},
+  {"id": 162, "categories": []},
+  {"id": 163, "categories": []},
+  {"id": 164, "categories": []},
+  {"id": 165, "categories": []},
+  {"id": 166, "categories": []},
+  {"id": 167, "categories": []},
+  {"id": 168, "categories": []},
+  {"id": 169, "categories": []},
+  {"id": 170, "categories": []},
+  {"id": 171, "categories": [
+    {"main": "service_quality_in_session", "sub": "language_barrier", "confidence": 0.7, "quote": "після відмови обслуговувати мене українською,а не російською", "reasoning": "Customer was refused service in their language (Ukrainian)."}
+  ]},
+  {"id": 172, "categories": []},
+  {"id": 173, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.45, "quote": "after test they just reject you", "reasoning": "Candidates given test work then dropped without follow-through; weak fit but closest."}
+  ]},
+  {"id": 174, "categories": []},
+  {"id": 175, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "I have called multiple times for interviews and wasted my precious time. In the end, ignore me", "reasoning": "Active engagement by candidate followed by being ignored."}
+  ]},
+  {"id": 176, "categories": []},
+  {"id": 177, "categories": []},
+  {"id": 178, "categories": []},
+  {"id": 179, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.55, "quote": "I contact them they refuse to work for client", "reasoning": "Customer reached out with project inquiry and was turned away without service."}
+  ]}
+]

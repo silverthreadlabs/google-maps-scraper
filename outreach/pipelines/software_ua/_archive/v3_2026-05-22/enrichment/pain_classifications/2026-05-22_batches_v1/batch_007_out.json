@@ -1,0 +1,376 @@
+[
+  {
+    "id": 210,
+    "categories": []
+  },
+  {
+    "id": 211,
+    "categories": []
+  },
+  {
+    "id": 212,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "підтримка жахлива не зацікавлена",
+        "reasoning": "Support described as awful and uninterested — dismissive non-clinical staff tone."
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "консультація служби підтримки у вигляді Артема дуже не компетентна та зухвала",
+        "reasoning": "Support rep described as incompetent and impudent — rude tone from non-clinical staff."
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "categories": []
+  },
+  {
+    "id": 215,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.5,
+        "quote": "Добиться каких либо решений менеджеров очень тяжело",
+        "reasoning": "Customer cannot get responses/decisions from managers — actively chasing with no answer."
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Те що ви прочитаєте на сайті, не відповідає дійсності",
+        "reasoning": "What's on the site doesn't match reality — contradictory/misleading information."
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "When I expressed concern that the design did not reflect my vision or business identity, the feedback I received framed the issue as a “creative shift” rather than acknowledging a potential misunderstanding",
+        "reasoning": "Customer raised a specific concern about brand misalignment and it was dismissed/reframed instead of addressed."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "certain requirements - such as the need for me to independently supply stock imagery - were not clearly disclosed prior to purchase",
+        "reasoning": "Undisclosed requirements/scope not revealed before purchase — bait-and-switch pattern."
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "followed by spamming and poor customer service",
+        "reasoning": "Poor customer service explicitly cited along with confusion over their own booking system."
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.55,
+        "quote": "I received no clear updates or reports regarding SEO, and communication became inconsistent",
+        "reasoning": "After paying for ongoing service, no proactive updates or reports were delivered."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "communication became inconsistent",
+        "reasoning": "Inconsistent communication after payment; updates and reports were unclear or absent."
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "I want example of functionality and they don’t implement that",
+        "reasoning": "Customer's specific request for functionality is ignored — concerns not heeded."
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "Look elsewhere for a company that actually listens to your initial concept. This company does not",
+        "reasoning": "Explicit complaint that the company does not listen to the customer's stated requirements."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "quote": "I emailed Mark B who is a manager and it took him 7 days to respond to my email",
+        "reasoning": "Customer actively reached out for a response and was effectively ignored for a week."
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "He responded to me 8 days after I’d asked for assistance with my domain",
+        "reasoning": "Customer actively asked for help and waited 8 days for any response — dropped/delayed inquiry."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "The directions through email wasn’t working and Mark first expressed how he was so busy",
+        "reasoning": "Instructions provided didn't work and clarification was refused — unclear/inadequate explanation."
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "30% of my changes were missed on each iteration, requiring me to make the same comments over and over again",
+        "reasoning": "Information conveyed through the rep is consistently lost — broken/unclear communication channel."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "It took forever to turn around the most basic comments (sometimes as much as a week)",
+        "reasoning": "Customer's basic inquiries took up to a week to receive any response."
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "What they didn’t bother to tell me is that the website was connected to a domain that was not the name of my business",
+        "reasoning": "Critical information (wrong domain) never communicated to customer despite repeated screenshots."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "I got a once-a-week, terse email response when I was lucky. I was unable to get anyone on the phone",
+        "reasoning": "Customer actively trying to reach the company; responses delayed or unobtainable by phone."
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "we received a string of excuses followed by being completely ghosted",
+        "reasoning": "Customer raised an issue and was then ghosted — active inquiry never answered."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "the communication, project management, and leadership were utterly horrible throughout the project",
+        "reasoning": "Communication explicitly cited as horrible throughout the engagement."
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "they claimed to have sent me content for my review, later I discovered they didn't actually send me the content",
+        "reasoning": "False/contradictory claims about communication — information was not actually delivered."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "they will ignore any communication attempts you make with them",
+        "reasoning": "Customer's outreach is ignored — actively chasing for responses with none received."
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "When I explained the situation they told me I’d need to purchase ANOTHER package ranging in the thousands",
+        "reasoning": "Customer was upsold/charged repeatedly for what they thought was included — bait-and-switch / hidden upcharges."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "I clearly explained in my design requirements. I received a logo without animation",
+        "reasoning": "Customer's specific stated requirement was ignored in delivery."
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "I reached out on multiple occasions in order to address my concerns directly. Our calls where not returned and virtual appointments where not accepted",
+        "reasoning": "Customer actively reached out repeatedly; calls not returned and meetings refused."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "quote": "They are not adaptive to an established vision and struggle to meet client needs",
+        "reasoning": "Customer's established vision/needs were not heeded by the team."
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "quote": "they kept sending me the same free Wix logos you can make yourself",
+        "reasoning": "Repeated delivery of same unwanted output suggests customer's specific input was not heeded."
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "There is no direct communication allowed between you and the designer. The middle man will type all your needs",
+        "reasoning": "Communication routed through an intermediary causes loss/distortion of requirements — unclear info flow."
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "categories": []
+  },
+  {
+    "id": 232,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "I had to repeat many requests and fix numerous things myself",
+        "reasoning": "Customer's repeated specific requests were not heeded, forcing self-fixing."
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "categories": []
+  },
+  {
+    "id": 234,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "They will try to nickel and dime you to death",
+        "reasoning": "Hidden/added charges piling on — classic bait-and-switch pricing pattern."
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "На письменную претензию не отвечают.\nДиректор на связь не выходит",
+        "reasoning": "Customer's formal complaint went unanswered and director won't engage — active inquiry dropped."
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "categories": []
+  },
+  {
+    "id": 237,
+    "categories": []
+  },
+  {
+    "id": 238,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "Не слышат пожелания заказчика",
+        "reasoning": "Explicit complaint that the studio doesn't hear/heed the customer's wishes."
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "Ждать ответа от менеджера, ТРИ ДНЯ",
+        "reasoning": "Customer must wait three days for a manager response — active inquiries delayed/dropped."
+      }
+    ]
+  }
+]

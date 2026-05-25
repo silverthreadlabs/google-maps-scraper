@@ -1,0 +1,169 @@
+[
+  {"id": 0, "categories": []},
+  {"id": 1, "categories": []},
+  {"id": 2, "categories": []},
+  {"id": 3, "categories": []},
+  {"id": 4, "categories": []},
+  {"id": 5, "categories": []},
+  {
+    "id": 6,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.92,
+        "quote": "Нам сказали що наш сайт зроблений настільки криво і неграмотно, що дешевше буде зробити все спочатку",
+        "reasoning": "Client says delivered site was so poorly built another agency said it was cheaper to redo — clear bad deliverable."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Ми замовляли сайт на якому мало працювати декілька адмінів та модератори з різними правами доступу. А в результаті одержали адмінку з 1 доступом - адмін",
+        "reasoning": "Spec called for multi-role admin; delivered single-admin only — substantial divergence from agreed scope."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "Боюсь збрехати скільки тривало це: пів року чи майже рік",
+        "reasoning": "Revision phase dragged on for six months to a year with rolling weekly promises — repeated slipped deadlines."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.88,
+        "quote": "За домовленістю у ціну входила мобільна версія. Обіцяли підігнати макет під параметри гаджетів. По факту макет просто обрізали справа і зліва",
+        "reasoning": "Mobile version promised vs. delivered diverges substantially — agreed responsive adaptation, got crude cropping."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.82,
+        "quote": "Як за мобільну версію, так і за безліч інших виправлень, з нас хотіли здерти ще грошей",
+        "reasoning": "Agency demanded additional payment for items originally included in the agreed scope."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Вічно розгублена, налякана, нічогонерозуміюча Юлія не могла компетентно відповісти на жодне моє питання",
+        "reasoning": "Assigned manager unable to give clear/competent answers about project status — unclear/absent information."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "Роботу виконують дуууже довго",
+        "reasoning": "Work delivered very slowly — late delivery pain."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "не якісно. Професіоналізму - нуль. Елементарні завдання виконати не можуть",
+        "reasoning": "Direct complaint that delivered work was low quality and basic tasks not executed."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "постоянно сдвигали сроки, в итоге надобность в их работе просто отпала",
+        "reasoning": "Constantly shifted deadlines until the work was no longer needed — repeated delays."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.85,
+        "quote": "ждал 2 недели сделанной ими работы, ничего только кормят завтраками",
+        "reasoning": "Waited two weeks past expected delivery, kept being put off — late delivery."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "ничего только кормят завтраками, за что платил хз",
+        "reasoning": "Paid but received nothing — unfinished/abandoned work."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.8,
+        "quote": "заваливают сроки",
+        "reasoning": "Direct statement that deadlines are missed; sub unclear (single vs repeated)."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "делают не то что их просишь",
+        "reasoning": "Deliverable diverges from what was requested."
+      }
+    ]
+  },
+  {"id": 12, "categories": []},
+  {"id": 13, "categories": []},
+  {"id": 14, "categories": []},
+  {"id": 15, "categories": []},
+  {"id": 16, "categories": []},
+  {"id": 17, "categories": []},
+  {"id": 18, "categories": []},
+  {"id": 19, "categories": []},
+  {"id": 20, "categories": []},
+  {"id": 21, "categories": []},
+  {"id": 22, "categories": []},
+  {"id": 23, "categories": []},
+  {"id": 24, "categories": []},
+  {"id": 25, "categories": []},
+  {"id": 26, "categories": []},
+  {
+    "id": 27,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.85,
+        "quote": "після відмови обслуговувати мене українською,а не російською я відмовився від послуг даної компанії",
+        "reasoning": "Provider refused to serve the customer in their preferred language (Ukrainian) — language barrier."
+      }
+    ]
+  },
+  {"id": 28, "categories": []},
+  {
+    "id": 29,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Дуже багато помилок, не правильна конструкція додавання та звітності програми",
+        "reasoning": "Software product shipped with many bugs and incorrect reporting logic — bad deliverable."
+      }
+    ]
+  }
+]

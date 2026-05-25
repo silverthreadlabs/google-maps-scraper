@@ -105,5 +105,66 @@ class TestValidate(unittest.TestCase):
                 self.assertEqual(reason, 'invalid_area_code')
 
 
+UA_METRO_AREA_CODES = {
+    'kyiv':   {'44'},
+    'lviv':   {'32'},
+    'dnipro': {'56'},
+}
+
+
+class TestUkrainianNormalize(unittest.TestCase):
+    """Ukrainian E.164 numbers (`+380 XX XXX XXXX`) normalize to 9 national digits."""
+
+    def test_landline_e164(self):
+        cases = [
+            ('+380 44 492 9693', '444929693'),
+            ('+38 044 492 9693', '444929693'),
+            ('+380-44-492-9693', '444929693'),
+            ('380444929693',     '444929693'),
+        ]
+        for inp, exp in cases:
+            with self.subTest(inp=inp):
+                self.assertEqual(normalize(inp), exp)
+
+    def test_mobile_e164(self):
+        cases = [
+            ('+380 67 555 5515', '675555515'),
+            ('+380 50 546 9989', '505469989'),
+            ('+380 96 782 7477', '967827477'),
+        ]
+        for inp, exp in cases:
+            with self.subTest(inp=inp):
+                self.assertEqual(normalize(inp), exp)
+
+
+class TestUkrainianValidate(unittest.TestCase):
+    def test_valid_metro_match(self):
+        # Landline in matching metro
+        ok, reason = validate_phone('+380 44 492 9693', 'kyiv',
+                                    metro_area_codes=UA_METRO_AREA_CODES)
+        self.assertTrue(ok, f"expected valid, got {reason}")
+        self.assertIsNone(reason)
+
+    def test_metro_mismatch_landline(self):
+        # Kyiv landline (44) on a Lviv lead
+        ok, reason = validate_phone('+380 44 492 9693', 'lviv',
+                                    metro_area_codes=UA_METRO_AREA_CODES)
+        self.assertFalse(ok)
+        self.assertEqual(reason, 'metro_mismatch')
+
+    def test_no_metro_skips_metro_check(self):
+        ok, reason = validate_phone('+380 44 492 9693', metro=None,
+                                    metro_area_codes=UA_METRO_AREA_CODES)
+        self.assertTrue(ok)
+        self.assertIsNone(reason)
+
+    def test_nanp_still_works_alongside_ua(self):
+        # Mixed config: caller passes a multi-region map; NANP numbers still validate
+        # against NANP shape rules, UA numbers against UA rules.
+        ok, reason = validate_phone('+1 813-636-9400', 'tampa',
+                                    metro_area_codes=DENTAL_METRO_AREA_CODES)
+        self.assertTrue(ok)
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

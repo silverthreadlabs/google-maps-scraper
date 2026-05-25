@@ -1,0 +1,154 @@
+[
+  {
+    "id": 30,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.55,
+        "quote": "Trainer are not available",
+        "reasoning": "Reports trainers not available during a paid program, suggesting inattentive/absent service delivery."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "categories": []
+  },
+  {
+    "id": 32,
+    "categories": []
+  },
+  {
+    "id": 33,
+    "categories": []
+  },
+  {
+    "id": 34,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.5,
+        "quote": "They take money and give no guidance during internship",
+        "reasoning": "Describes inattentive service — paid for internship but received no guidance from staff."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "categories": []
+  },
+  {
+    "id": 36,
+    "categories": []
+  },
+  {
+    "id": 37,
+    "categories": []
+  },
+  {
+    "id": 38,
+    "categories": []
+  },
+  {
+    "id": 39,
+    "categories": []
+  },
+  {
+    "id": 40,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "They have no manners to deal with new Applicant",
+        "reasoning": "Complaint about staff manners/tone when dealing with new applicants — matches rude front-of-house pattern."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "categories": []
+  },
+  {
+    "id": 42,
+    "categories": []
+  },
+  {
+    "id": 43,
+    "categories": []
+  },
+  {
+    "id": 44,
+    "categories": []
+  },
+  {
+    "id": 45,
+    "categories": []
+  },
+  {
+    "id": 46,
+    "categories": []
+  },
+  {
+    "id": 47,
+    "categories": []
+  },
+  {
+    "id": 48,
+    "categories": []
+  },
+  {
+    "id": 49,
+    "categories": []
+  },
+  {
+    "id": 50,
+    "categories": []
+  },
+  {
+    "id": 51,
+    "categories": []
+  },
+  {
+    "id": 52,
+    "categories": []
+  },
+  {
+    "id": 53,
+    "categories": []
+  },
+  {
+    "id": 54,
+    "categories": []
+  },
+  {
+    "id": 55,
+    "categories": []
+  },
+  {
+    "id": 56,
+    "categories": []
+  },
+  {
+    "id": 57,
+    "categories": []
+  },
+  {
+    "id": 58,
+    "categories": []
+  },
+  {
+    "id": 59,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "the Instructor(Sir Qamar) kind a have some kind of attitude issues and don't know how to talk proper while giving respect",
+        "reasoning": "Direct complaint about staff tone/attitude and disrespectful manner of speaking — matches rude staff pattern (applies to any non-clinical staff)."
+      }
+    ]
+  }
+]

@@ -12,6 +12,7 @@ graphify-out/
 
 # Outreach pipeline (Python venv + caches)
 outreach/.venv/
+outreach/.env
 outreach/**/__pycache__/
 outreach/**/*.py[cod]
 outreach/pipelines/*/enrichment/*.json
@@ -27,3 +28,6 @@ gmapsdata/*.csv
 # Local browser/MCP caches
 .playwright-mcp/
 skills-lock.json
+
+# Nested repos (cloned here for convenience, pushed to their own remotes)
+stl-knights/

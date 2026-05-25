@@ -22,6 +22,8 @@ from pathlib import Path
 from types import ModuleType
 from typing import Any
 
+import yaml
+
 OUTREACH_ROOT = Path(__file__).resolve().parent.parent
 
 if str(OUTREACH_ROOT) not in sys.path:
@@ -69,6 +71,22 @@ class CampaignConfig:
     osint_serp_queries: dict[str, str] = field(default_factory=dict)
     osint_deep_crawl_paths: list[str] = field(default_factory=list)
     osint_industry_terms: list[str] = field(default_factory=list)
+
+
+_REQUIRED_CAMPAIGN_KEYS = ('vertical', 'location', 'slug')
+
+
+def _read_campaign_yaml(path: Path) -> dict:
+    """Read campaigns/<c>/campaign.yaml; validate required keys."""
+    if not path.exists():
+        raise FileNotFoundError(f'campaign.yaml not found: {path}')
+    data = yaml.safe_load(path.read_text()) or {}
+    missing = [k for k in _REQUIRED_CAMPAIGN_KEYS if k not in data]
+    if missing:
+        raise ValueError(
+            f'{path} missing required key(s): {", ".join(missing)}'
+        )
+    return data
 
 
 def load_campaign(campaign_slug: str) -> CampaignConfig:

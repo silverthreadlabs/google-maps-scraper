@@ -1,18 +1,17 @@
 ---
-description: Run an outreach pipeline stage for a vertical (analyze / classify / enrich / validate / handoff / owner-lookup). Dispatches the pain-classifier subagent for classify; delegates to outreach/scripts/* for every other stage.
+name: outreach
+description: Use when running a stage of the Silverthread Labs outreach pipeline under `outreach/` — analyze, classify, enrich, validate, handoff, owner-lookup, or osint-enrich. Triggers on "/outreach", "run outreach", "classify leads", "enrich crawl queue", "validate master", "build handoff CSV", "owner lookup", "OSINT enrich", or any request to advance an outreach campaign for a vertical under `outreach/pipelines/<pipeline>/`.
 ---
 
-The user invoked `/outreach $ARGUMENTS`.
-
-# /outreach — pipeline runbook
+# outreach — pipeline runbook
 
 ## Args
 
-`$ARGUMENTS` is `<pipeline> [stage]`.
+Invocation form: `outreach <pipeline> [stage]`.
 
 - **pipeline** (required) — directory under `outreach/pipelines/`, e.g. `dental_sunbelt`.
 - **stage** (optional) — one of:
-  `analyze | classify | enrich | validate | handoff | owner-lookup`.
+  `analyze | classify | enrich | validate | handoff | owner-lookup | osint-enrich`.
   If omitted, ask the user which stage to run; do not default.
 
 ## Standard pipeline order
@@ -27,7 +26,7 @@ scrape → analyze → enrich → merge-crawl → classify → validate → hand
                                                     re-run handoff
 ```
 
-`scrape` uses the `google-maps-scraper` skill (not a stage of /outreach).
+`scrape` uses the `google-maps-scraper` skill (not a stage of this skill).
 `merge-crawl` happens automatically after `enrich` runs successfully — it's
 not a separate user-facing stage.
 
@@ -38,7 +37,7 @@ not a separate user-facing stage.
 2. Verify the pipeline config imports cleanly:
    `python -c "import sys; sys.path.insert(0,'outreach'); from pipelines.<pipeline> import config"`
    If it errors, surface the import error and stop.
-3. Echo what you're about to do: `running /outreach <pipeline> <stage>`.
+3. Echo what you're about to do: `running outreach <pipeline> <stage>`.
 
 ## Hard rules (apply to every stage)
 
@@ -102,7 +101,7 @@ rule 1 preserved — nothing is dropped, just routed to the right field.
   flagging or quality_score baselines (use `--output-date` to write a
   new dated folder; the prior delivery is the audit record).
 
-**`next:`** `/outreach <pipeline> enrich` (or `classify` first if you
+**`next:`** `outreach <pipeline> enrich` (or `classify` first if you
 want pain-aware ranking before crawling).
 
 ---
@@ -368,7 +367,7 @@ python outreach/scripts/owner_lookup.py <pipeline> --apply \
 ```
 
 After `--apply`, **re-run handoff** so the CSV picks up the new owner
-columns: `/outreach <pipeline> handoff`.
+columns: `outreach <pipeline> handoff`.
 
 **Skip owner-lookup when:**
 - Handoff is tier-D-heavy (low conversion ceiling, not worth the lift)
@@ -381,9 +380,9 @@ the `--apply` interface stays unchanged.
 
 ---
 
-## OSINT enrich
+## Stage: osint-enrich
 
-`/outreach <pipeline> osint-enrich`
+`outreach <pipeline> osint-enrich`
 
 Runs after `merge_crawl_into_master` + `owner_lookup --apply`. Inspects each lead's gaps against `OSINT_FIELDS_DESIRED`, runs enrichers in two waves (whois + deep_site_crawl → serp), writes the unjudged sidecar to `enrichment/osint/<date>.json`. Resumable.
 
@@ -402,14 +401,13 @@ Steps:
 
 Per design: confident-or-skip — anything below `OSINT_CONFIDENCE_THRESHOLD` (default 0.85) is left in the sidecar but not grafted.
 
-next: `/outreach <pipeline> classify`
+next: `outreach <pipeline> classify`
 
 ---
 
 ## Stages not yet supported as scripts
 
-- **scrape** — use the `google-maps-scraper` skill
-  (`.claude/skills/google-maps-scraper/SKILL.md`). Output goes to
+- **scrape** — use the `google-maps-scraper` skill. Output goes to
   `outreach/pipelines/<pipeline>/raw/<query>.json`. Don't write to
   `/tmp` (CLAUDE.md rule 2). After scrape, run `analyze` to build the
   initial master.
@@ -432,7 +430,7 @@ so the prior delivery stays intact (CLAUDE.md rule 1). Sequence:
    Refuses to overwrite an existing dated folder unless you pass
    `--force`.
 
-1. `/outreach <pipeline> classify` against the new master — emits the
+1. `outreach <pipeline> classify` against the new master — emits the
    sidecar at `enrichment/pain_classifications/<new-date>.json`.
    `merge_classifications.py` joins on `place_id`, so the master fed to
    merge MUST carry it (analyze guarantees this).
@@ -450,15 +448,15 @@ so the prior delivery stays intact (CLAUDE.md rule 1). Sequence:
    Inspect the orphan-place_ids stat: nonzero usually means classify
    ran against a different master than this one.
 
-3. (If you want crawl data) `/outreach <pipeline> enrich` against the
+3. (If you want crawl data) `outreach <pipeline> enrich` against the
    new master, then `merge_crawl_into_master.py` to graft.
 
-4. `/outreach <pipeline> validate` — annotates the new master.
+4. `outreach <pipeline> validate` — annotates the new master.
 
-5. `/outreach <pipeline> handoff` (defaults to latest dated folder; pass
+5. `outreach <pipeline> handoff` (defaults to latest dated folder; pass
    `--master` / `--out` to be explicit).
 
-6. (Optional) `/outreach <pipeline> owner-lookup` for tier-A/B leads
+6. (Optional) `outreach <pipeline> owner-lookup` for tier-A/B leads
    with empty `owner_name`, then re-run handoff.
 
 7. Compare lead counts and tier distribution to the prior delivery

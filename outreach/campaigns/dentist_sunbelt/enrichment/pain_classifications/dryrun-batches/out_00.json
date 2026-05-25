@@ -1,0 +1,279 @@
+[
+  {
+    "id": 0,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "they said it would cost between $125 and $200 for an extraction",
+        "reasoning": "Patient was quoted a price on the phone, then charged a different amount on arrival — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Tristan told me that I can join my husband after the vitals, and that did not happen",
+        "reasoning": "Front desk gave information that contradicted what actually happened, and the medical assistant gave the same contradicted info."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "it took 1.5 hours after our appointment time to be seen",
+        "reasoning": "Patient waited 1.5 hours past scheduled appointment time."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.75,
+        "quote": "they dont accept ANY insurance",
+        "reasoning": "Patient was not informed before arrival that the practice doesn't accept insurance — a verification/communication failure at scheduling."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "categories": []
+  },
+  {
+    "id": 5,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "Front Desk is rude and has no clue",
+        "reasoning": "Explicit complaint about front-desk rudeness."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "intake_paperwork_duplication",
+        "confidence": 0.85,
+        "quote": "they make you sign the same form again when you show up",
+        "reasoning": "Patient required to fill the same paperwork twice."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "categories": []
+  },
+  {
+    "id": 7,
+    "categories": []
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Don't scream we have other patients.",
+        "reasoning": "Non-clinical staff (assistant) was dismissive/unprofessional in tone toward patient."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Bossy woman don't know how treat other people",
+        "reasoning": "Generic complaint about staff being rude/bossy in their treatment of people."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "categories": []
+  },
+  {
+    "id": 11,
+    "categories": []
+  },
+  {
+    "id": 12,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_after_hours_or_emergency",
+        "confidence": 0.65,
+        "quote": "I called in for an emergency no response",
+        "reasoning": "Patient called for an emergency and got no response."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "they open at 7 I waited there before 7 they opened 20 mins late",
+        "reasoning": "Practice opened 20 minutes late while patient waited."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "categories": []
+  },
+  {
+    "id": 14,
+    "categories": []
+  },
+  {
+    "id": 15,
+    "categories": []
+  },
+  {
+    "id": 16,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Made an appointment for a 4 year old over the phone. Gave them the birthday. He had a chipped tooth that was in pain. Made the drive and arriving they said they can look at it but cant treat him",
+        "reasoning": "Phone scheduler gave information inconsistent with what was delivered on-site — patient drove there based on misinformation."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "categories": []
+  },
+  {
+    "id": 18,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "Even with an appointment, you could wait for 60-90 minutes",
+        "reasoning": "Patients wait 60-90 minutes past scheduled appointment time."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.7,
+        "quote": "the second place I went to actually took photos",
+        "reasoning": "Implies the original exam was inattentive/incomplete (missed 3 cavities, didn't take photos), suggesting a rushed exam."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "I screamed in the chair and was given no mercy",
+        "reasoning": "Patient's specific concern (pain during procedure) was ignored/dismissed."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "$85 extraction quote on phone =  LIE. That's how they get you in the door.",
+        "reasoning": "Quoted one price on phone, charged much higher in person — classic quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "Attempted to call multiple times",
+        "reasoning": "Patient tried calling multiple times with no answer, then drove there."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Website states incorrect hours of operation",
+        "reasoning": "Practice's published information about hours was incorrect/misleading."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "without telling me my fee is suppose to be $125 instead of $65 that the girl on the p",
+        "reasoning": "Phone quote was $65, in-person fee was $125 — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "I made an appointment for 2:00. I was called back at 3:15.",
+        "reasoning": "Patient with 2:00 appointment was not seen until 3:15 — 75 minute wait past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "categories": []
+  },
+  {
+    "id": 26,
+    "categories": []
+  },
+  {
+    "id": 27,
+    "categories": []
+  },
+  {
+    "id": 28,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "you don’t get to take it out on the public like a child",
+        "reasoning": "Complaint about a staff member's rude/unprofessional tone toward customers."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "categories": []
+  }
+]

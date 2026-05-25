@@ -1,0 +1,405 @@
+[
+  {
+    "id": 90,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "The lady that was behind the desk was rude and wouldn't let me talk",
+        "reasoning": "Front desk staff described as rude and dismissive when asked a question."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "wouldn't let me talk when I asked a question about my daughters insurance because I was confused about what she was saying she acted like it was my issue",
+        "reasoning": "Patient's confusion/concern about insurance was dismissed rather than addressed."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.55,
+        "quote": "Overbooked",
+        "reasoning": "Mention of overbooking suggests scheduling/availability friction, though brief."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.95,
+        "quote": "This place will not answer my calls",
+        "reasoning": "Patient explicitly says calls are not being answered."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.75,
+        "quote": "they moved it to July 7th and then nobody told us that they canceled our appointment",
+        "reasoning": "Appointment was moved and then silently canceled without notification."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "They blamed miscommunication on their call center",
+        "reasoning": "Office acknowledged miscommunication between call center and clinic."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.95,
+        "quote": "no one ever answers the phone anymore",
+        "reasoning": "Phones go unanswered during business hours."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.95,
+        "quote": "They have you leave a message for a call back that you never receive",
+        "reasoning": "Voicemails left for callbacks are never returned."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "categories": []
+  },
+  {
+    "id": 96,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "If your child isn’t numb they won’t believe them, will proceed to do drill into your child’s mouth while they are screaming and shaking, and then tell you your child is lying",
+        "reasoning": "Patient's explicit complaint about pain/numbness was dismissed and disbelieved."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "Long wait times",
+        "reasoning": "Explicit mention of long wait times."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "Today we had a 3:00 appointment, arrived at 2:45 and left the office at 4:45 for a bi-annual cleaning",
+        "reasoning": "Two hours for a routine cleaning indicates excessive wait."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "Front desk staff totally skipped my child. Waited for 30 minutes",
+        "reasoning": "Patient was skipped and waited 30 minutes past appointment."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "The staff acted like nothing happened. Did not apologize for THEIR mistake",
+        "reasoning": "Front desk dismissive behavior after their own scheduling error."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.9,
+        "quote": "just days before the appointment front office called me and cancel my appointment, because they realized that a doctor need it to be present and they forgot about that small detail",
+        "reasoning": "Practice canceled appointment last-minute due to its own planning error."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "categories": []
+  },
+  {
+    "id": 102,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "VERIFY YOUR INSURANCE BENEFITS BEFORE PAYING FOR ANYTHING",
+        "reasoning": "Patient warns others to verify insurance because the practice failed to verify coverage correctly before charging."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I was quoted $695 for five composite fillings and a night guard and was told my insurance would not cover these items. I called my insurance after the visit and sure enough they do cover them. My copay should have been $340, not $695",
+        "reasoning": "Quoted amount diverged significantly from what insurance actually covered."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "they deduct and quoted me charges that should not been there",
+        "reasoning": "Patient charged for items that should not have applied; incorrect billing."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.6,
+        "quote": "Please do your research about your insurance coverage",
+        "reasoning": "Implies the practice did not properly verify/communicate insurance coverage."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "categories": []
+  },
+  {
+    "id": 105,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.95,
+        "quote": "cant even get a person on the line",
+        "reasoning": "Cannot reach a person on the phone."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.7,
+        "quote": "cant get insurance right",
+        "reasoning": "Practice fails at insurance handling."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "automatically adds cost even after you deny it they try to add it, double check your bill, be on a constant look out for added services during your operations",
+        "reasoning": "Hidden/added charges appearing on bills despite refusal."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "categories": []
+  },
+  {
+    "id": 107,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "Staff did not let me know when making the appointment that they do not work on cavaties for 5 year olds",
+        "reasoning": "Staff failed to communicate scope-of-service info during booking."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "categories": []
+  },
+  {
+    "id": 109,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "They charged me 2 flu tests without my knowledge",
+        "reasoning": "Patient was charged for additional tests they were not informed about."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "They came back with paperwork quoting almost $2,000 and $850 after insurance",
+        "reasoning": "Suggests pricing/quoting issues; partial evidence of unexpected pricing behavior."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.7,
+        "quote": "after he said they were excellent, I showed him my receding gum line. He was surprised and looked at it again",
+        "reasoning": "Dentist missed an obvious finding on initial exam, indicating inattention."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.9,
+        "quote": "they never answer the phone and returned my messages",
+        "reasoning": "Calls and messages go unanswered post-visit."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.65,
+        "quote": "After my visit they never answer the phone and returned my messages",
+        "reasoning": "After the visit, patient could not reach the office for follow-up."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "I had an absolutely awful experience with this dental office while trying to get a referral for specialty pediatric care—all in the span of one day. It began with me making multiple phone calls to get a referral form properly completed",
+        "reasoning": "Patient repeatedly chasing referral form they had requested."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.9,
+        "quote": "it takes months to get anything on the schedule",
+        "reasoning": "Months-long wait to schedule appointments."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "they cancel or let you know 2 days before an appointment you've been waiting weeks for that they no longer take your insurance",
+        "reasoning": "Last-minute cancellations and rescheduling friction."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "categories": []
+  },
+  {
+    "id": 116,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "I was also waiting in the lobby for 15 minutes until someone came around to see me",
+        "reasoning": "Patient waited 15 minutes in lobby before being acknowledged."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "I called and called to try to.make an appointment.  I could never get in",
+        "reasoning": "Repeated calls to book went unanswered/unsuccessful."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.7,
+        "quote": "when I finally did I could not get an appointment",
+        "reasoning": "Could not secure an appointment even after reaching them."
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Long wait times in the exam rooms",
+        "reasoning": "Explicit long wait times in exam rooms."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "additional fees for anything and everything",
+        "reasoning": "Pattern of unexpected/added fees."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.75,
+        "quote": "rescheduling an appointment is such a hassle",
+        "reasoning": "Rescheduling described as a recurring hassle."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "Appointment at 10:45am …. It’s 11:45 and I still haven’t been seen by the dentist",
+        "reasoning": "Patient waited an hour past scheduled appointment time."
+      }
+    ]
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": 120,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.8,
+        "quote": "I'm still waiting on them to fix a charge from 2022. Said it was fixed but still showing.",
+        "reasoning": "Unresolved erroneous charge that the office said was fixed but persists, indicating payment/billing resolution failure."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "Now they have sent an invoice for gluing in the bridge that fell out",
+        "reasoning": "Patient was billed for re-gluing a bridge that fell out shortly after implants, an unexpected charge for fixing the practice's own work."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "I was first quoted $1735 out of pocket after insurance, then after refusing I was re-quoted at $907 out of pocket",
+        "reasoning": "Quote shifted dramatically when refused, showing inconsistent/inflated pricing — bait-and-switch pattern."
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "I got there 5 minutes before my appointment time and waited 1whole hour in the lobby",
+        "reasoning": "Waited an hour past appointment time in the lobby."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "having your appointment cancelled after you confirmed it, multiple times",
+        "reasoning": "Repeated appointment cancellations after confirmations indicate scheduling instability."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "categories": []
+  },
+  {
+    "id": 126,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.95,
+        "quote": "Be ready to receive a surprise bill right after your appointment, stating that some services are not covered by insurance",
+        "reasoning": "Explicit surprise bill after appointment for services not covered by insurance."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.6,
+        "quote": "stating that some services are not covered by insurance and your responsibility to pay",
+        "reasoning": "Coverage of specific services was not communicated to patient before service, suggesting verification gap."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "He will never explain procedures that one should use to avoid problems",
+        "reasoning": "Doctor fails to explain procedures/oral health maintenance — missing/unclear information."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "categories": []
+  },
+  {
+    "id": 129,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "Don’t ignore the bad reviews about the desk ladies. They are very rude, very heinous people.",
+        "reasoning": "Explicit complaint about front desk staff being rude."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "The office staff was not very welcoming",
+        "reasoning": "Front office staff perceived as unwelcoming — tone/demeanor complaint."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.75,
+        "quote": "My husband had an extremely difficult time with scheduling a follow-up",
+        "reasoning": "Difficulty scheduling a follow-up appointment indicates scheduling friction."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "The person answering the phone didn't listen",
+        "reasoning": "Phone staff explicitly did not listen to the patient's concerns."
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "categories": []
+  },
+  {
+    "id": 133,
+    "categories": []
+  },
+  {
+    "id": 134,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.6,
+        "quote": "they marched our son out of the building and never let us speak to the doctor",
+        "reasoning": "After wisdom tooth procedure, family expected post-procedure conversation with doctor that never happened."
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "My information I'm given changes when I arrive at my appointments",
+        "reasoning": "Information patient is given is contradictory/changes between encounters."
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "I could be seated and wait to see if there was a cancellation, or maybe he could see me later, or reschedule",
+        "reasoning": "Patient arrived 4 minutes late and was offered reschedule/wait — scheduling rigidity and back-and-forth."
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "intake_paperwork_duplication",
+        "confidence": 0.6,
+        "quote": "A patient walked in a day early to fill out the paperwork and was refused (medical history form has to be done on the day of the appointment he was told...which is a lie)",
+        "reasoning": "Intake paperwork process was contradictory/inflexible, suggesting intake friction."
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "got the first molds done, I didn't hear back for months",
+        "reasoning": "Patient who had paid down payment heard nothing back for months after molds — practice failed to follow up on active treatment."
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "They had me wait in there office with my family in the car for 3 hours before telling me that they may have to reschedule",
+        "reasoning": "Waited 3 hours past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Just so un wiling to ask questions regarding conditions, etc to possibly 'gap in the est\"",
+        "reasoning": "Staff unwilling to ask clarifying questions to give a meaningful price estimate — unclear/insufficient information."
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "I called the office a week later, they said they haven't heard anything, then I called again, a few days lat",
+        "reasoning": "Patient repeatedly chasing the office for status on insurance authorization — they never proactively followed up."
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "categories": []
+  },
+  {
+    "id": 143,
+    "categories": []
+  },
+  {
+    "id": 144,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "I thought I was there to get my tooth pulled and it was another consultant",
+        "reasoning": "Patient was misinformed about what the appointment was for — unclear/contradictory information at booking."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "They scheduled me at the wrong office and w/ the wrong Dr",
+        "reasoning": "Scheduling errors — wrong office and wrong doctor booked."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "after waiting and calling them for 2 weeks they still haven't sent paperwork for approval to my primary or secondary insurance",
+        "reasoning": "Patient repeatedly chasing the office to send insurance paperwork; office never followed through."
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "categories": []
+  },
+  {
+    "id": 148,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.55,
+        "quote": "My treatment was delayed",
+        "reasoning": "Treatment delays in orthodontic care plus poor billing experience — likely scheduling delay though brief."
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Waited for 40 minutes to be told that my appointment had been mixed up",
+        "reasoning": "Waited 40 minutes past appointment time."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "the office manager to come talk to me to fix the appointments and she never did come nor call me",
+        "reasoning": "Patient was promised office manager would call to fix the appointments; never received the callback."
+      }
+    ]
+  }
+]

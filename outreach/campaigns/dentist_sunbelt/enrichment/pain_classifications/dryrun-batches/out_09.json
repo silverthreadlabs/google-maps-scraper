@@ -1,0 +1,301 @@
+[
+  {
+    "id": 270,
+    "categories": []
+  },
+  {
+    "id": 271,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "i needed $1000+ to fix an issue that they told to my face was a \"band aid",
+        "reasoning": "Reviewer cites contradictory information from the practice about treatment recommendations."
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "contradicts what other dentist have told me",
+        "reasoning": "Patient reports contradictory information about needed treatment."
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "your office said $500-1600. I get there pay $100 for x-rays and I get a price if $3900 for a root canal",
+        "reasoning": "Quoted one price over the phone, charged a much higher price in person — classic quoted X / billed Y."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "your office said $500-1600. I get there pay $100 for x-rays and I get a price if $3900 for a root canal",
+        "reasoning": "Phone-quote price contradicted by the in-office price, indicating inconsistent information from staff."
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "categories": []
+  },
+  {
+    "id": 275,
+    "categories": []
+  },
+  {
+    "id": 276,
+    "categories": []
+  },
+  {
+    "id": 277,
+    "categories": []
+  },
+  {
+    "id": 278,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "charges $100 above what insurance pays on the cleaning services alone",
+        "reasoning": "Patient reports an unexpected charge above what insurance covered."
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "categories": []
+  },
+  {
+    "id": 280,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Advertises a prosthodontist on their website... but when I called they said they had no such doctor",
+        "reasoning": "Contradictory information between website and phone staff about doctors on staff."
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.95,
+        "quote": "It has been 3 months already and they have not credit me back",
+        "reasoning": "Refund delay of 3 months despite multiple calls — clear payment/refund issue."
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "Whoever just answered the phone is unbelievably unprofessional, rude, and extremely unkind",
+        "reasoning": "Phone-answering staff was rude and unprofessional."
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "They made me wait for 2 hours",
+        "reasoning": "Patient waited 2 hours past their appointment."
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "categories": []
+  },
+  {
+    "id": 285,
+    "categories": []
+  },
+  {
+    "id": 286,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.8,
+        "quote": "I can't even get an appointment. Every time I call she puts me on hold",
+        "reasoning": "Patient cannot get an appointment booked; repeatedly placed on hold."
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "got frustrated and threw one of her tools on the floor. How unprofessional",
+        "reasoning": "Non-clinical/clinical staff acted unprofessionally and aggressively toward the patient."
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "Waited almost 2 hours before being called to the back",
+        "reasoning": "Patient waited nearly 2 hours past appointment time."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "Office staff didn't let me know they were not going to be able to do the procedure til 3 hours later",
+        "reasoning": "Staff failed to communicate procedure cancellation in a timely manner."
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "categories": []
+  },
+  {
+    "id": 290,
+    "categories": []
+  },
+  {
+    "id": 291,
+    "categories": []
+  },
+  {
+    "id": 292,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "Wasn't even addressed a price for the main reason I went there for",
+        "reasoning": "Patient's specific concern (the 2 teeth needing extraction) was not addressed."
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "I've made numerous phone calls and emails and promised return calls from management etc",
+        "reasoning": "Patient actively chasing the office for promised return calls that never came."
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "When I went to the appointment was told they did not accept my insurer, this despite the original contact stating that they did accept that insurer",
+        "reasoning": "Insurance acceptance was misstated at booking and not properly verified before the appointment."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "the original contact stating that they did accept that insurer",
+        "reasoning": "Contradictory insurance information given at booking vs. at appointment."
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "Was forgotten about and left waiting on the phone for 20 min",
+        "reasoning": "Caller was left on hold and forgotten about during business hours."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "left alone waiting in a room for almost an hour",
+        "reasoning": "Patient waited nearly an hour in the room after appointment time."
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.7,
+        "quote": "nobody in the office does insurance but one person",
+        "reasoning": "Insurance handling capacity issue caused the appointment to fail — verification not completed."
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "From the beginning of the call she sounded so money hungr",
+        "reasoning": "Front-office manager came across as rude/dismissive on a pricing inquiry call."
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "categories": []
+  },
+  {
+    "id": 299,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "I had to wait 42 mins for them to call me",
+        "reasoning": "Patient waited 42 minutes past appointment time."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.6,
+        "quote": "This practice has the horrible habit of scheduling many people for the same time and then it's first come first serve",
+        "reasoning": "Overbooking practice causes scheduling chaos for patients."
+      }
+    ]
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "id": 60,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "she has zero compassion and patience. Very rude",
+        "reasoning": "Phone staff explicitly described as rude with zero compassion."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.95,
+        "quote": "I leave messages but no one ever returns my calls",
+        "reasoning": "Patient leaves voicemails and never receives a callback."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "the office staff is difficult to reach",
+        "reasoning": "Staff hard to reach by phone."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "2 years of back office “ back and forth “",
+        "reasoning": "Two years of back-office back-and-forth indicates scheduling/coordination friction."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "categories": []
+  },
+  {
+    "id": 64,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "The front staff in the other had is just bad. I had an unprofessional experience with Holly",
+        "reasoning": "Front staff described as bad and unprofessional."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "categories": []
+  },
+  {
+    "id": 66,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.92,
+        "quote": "they tell her that they don't take her insurance ( even when they said they did over phone)",
+        "reasoning": "Insurance not properly verified before appointment; patient told otherwise on phone."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "doesn’t even want to listen to what you have to say without interrupting",
+        "reasoning": "Patient explicitly says finance staff interrupts and doesn't listen."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the finance lady , really rude",
+        "reasoning": "Non-clinical finance staff described as really rude."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.95,
+        "quote": "both times they only had openings exactly two months out—no sooner at all",
+        "reasoning": "Next available appointment was two months out on both attempts."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "categories": []
+  },
+  {
+    "id": 70,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "front desk staff \"Marty\" who hung up on me the day before while trying to make an emergency appointment",
+        "reasoning": "Front desk hung up on patient trying to book emergency appointment."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.95,
+        "quote": "I have left numerous phone calls attempting to schedule an appointment and address a dental concern, but not a single one has been returned",
+        "reasoning": "Numerous voicemails left over 2-3 months, none returned."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "categories": []
+  },
+  {
+    "id": 73,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "Front office was rude. Kept cutting me off",
+        "reasoning": "Front office explicitly described as rude and cutting patient off."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "Kept cutting me off as if I didn't know what I was talking about",
+        "reasoning": "Patient was cut off and dismissed by front office."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "categories": []
+  },
+  {
+    "id": 75,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "Waited probably 1.5 hrs total between check in and check out",
+        "reasoning": "1.5 hour total wait time noted as excessive."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.8,
+        "quote": "I felt like the doctor spent 2 mi",
+        "reasoning": "Patient noted doctor only spent ~2 minutes, indicating rushed visit."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Parents never have an opportunity to speak to a dentist-only the staff",
+        "reasoning": "Communication breakdown — parents can't speak with dentist directly."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "categories": []
+  },
+  {
+    "id": 79,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.95,
+        "quote": "put you in a schedule then will reschedule you 5 time in a week",
+        "reasoning": "Repeated rescheduling — five times in a week."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "categories": []
+  },
+  {
+    "id": 81,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.9,
+        "quote": "No returned calls, texts, or answered phones",
+        "reasoning": "No returned calls or texts when trying to transfer records."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "No returned calls, texts, or answered phones",
+        "reasoning": "Phones not being answered."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "they system was down and I had to reschedule. Apparently calls went out to tell people not to come in. I received no such call. Even after arrival they didn’t even have me on the schedule",
+        "reasoning": "Scheduling chaos — appointment lost, no notification, had to reschedule."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Apparently calls went out to tell people not to come in. I received no such call",
+        "reasoning": "Communication breakdown — outage notification didn't reach the patient."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "wait times and the amount of patients they are booking at the same time",
+        "reasoning": "Patient calls out wait times due to overbooking."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "We waited over 50 minutes to be seen",
+        "reasoning": "Waited 50+ minutes past appointment to be seen."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "The front desk staff was super rude",
+        "reasoning": "Front desk staff described as super rude."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "we waited almost an hour to be seen",
+        "reasoning": "Waited nearly an hour to be seen."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.75,
+        "quote": "They only have one general dentist and he only comes in two days a month. They couldn’t even schedule my son an app",
+        "reasoning": "Limited dentist availability prevents scheduling."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.95,
+        "quote": "We arrived on time but waited over 30 minutes, this is better than the previous visit when we had to wait nearly 2 hours",
+        "reasoning": "Patient waited 30 min and previously nearly 2 hours past appointment time."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "the overall visit fell short in terms of communication",
+        "reasoning": "Patient explicitly cites communication shortcomings."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "categories": []
+  },
+  {
+    "id": 89,
+    "categories": []
+  }
+]

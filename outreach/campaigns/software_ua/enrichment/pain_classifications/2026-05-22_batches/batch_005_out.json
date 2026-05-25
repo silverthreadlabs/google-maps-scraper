@@ -1,0 +1,290 @@
+[
+  {
+    "id": 150,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Посредственная и самая стандартная аутсорс контора, которую необходимо постоянно подгонять, чтобы задачи были выполнены",
+        "reasoning": "Mediocre outsourcing work; tasks need constant prodding to be completed."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "получать игнор в свою сторону",
+        "reasoning": "Client says they are ignored by the agency."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "работу выполняют на тяп-ляп, на каждый недочёт приходится тыкать пальцем",
+        "reasoning": "Sloppy work delivered; every flaw must be pointed out."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.8,
+        "quote": "Деньги берут, результат приходится ждать месяцами, подкармливаясь завтраками",
+        "reasoning": "Payment taken, results delayed for months with empty promises."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": null,
+        "confidence": 0.45,
+        "quote": "Отвратительная работа",
+        "reasoning": "Generic complaint of awful work quality."
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "categories": []
+  },
+  {
+    "id": 154,
+    "categories": []
+  },
+  {
+    "id": 155,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "сайт взагалі не сподобався, робота виконана не якісно",
+        "reasoning": "Website work delivered with poor quality."
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "categories": []
+  },
+  {
+    "id": 157,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "дуже тугі, повільно реагують, одні відписки.. можна днями чекати відповіді",
+        "reasoning": "Support is slow and gives only brush-off replies; clear communication failure."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Зараз сайт не працює уже 5 днів, після того як «виправили» попередній баг",
+        "reasoning": "Site has been broken for 5 days after a 'fix' — buggy deliverable."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "categories": []
+  },
+  {
+    "id": 159,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "на конкретні технічні питання відповідають годинами, а проблему із постійними підвисаннями платформи ігнорують",
+        "reasoning": "Slow responses and ignored issues from staff."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "Сервери нестабільні, сайт може \"лежати\" в самий пік замовлень",
+        "reasoning": "Unstable servers, site goes down at peak — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "categories": []
+  },
+  {
+    "id": 161,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "кампании не принесли какого-то результата",
+        "reasoning": "Paid agency proactively pitched and delivered no results."
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "categories": []
+  },
+  {
+    "id": 163,
+    "categories": []
+  },
+  {
+    "id": 164,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Продають браковані шаблонні сайти, а потім вимагають гроші за те, що вони виправлять недоробки",
+        "reasoning": "Defective template sites sold, then more money demanded to fix defects."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.7,
+        "quote": "вимагають гроші за те, що вони виправлять недоробки",
+        "reasoning": "Charges added for fixing flaws that should have been included."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.65,
+        "quote": "Вже скоро рік буде як не можемо довести роботу до кінця",
+        "reasoning": "Almost a year and project still not finished."
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Сайти глючені, дужее багато недоробок,\nа саме головне Wizor відмовляється виправляти свою халтуру",
+        "reasoning": "Buggy sites with many flaws; vendor refuses to fix."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "Тупо кинули",
+        "reasoning": "Project abandoned by vendor."
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Very unprofiesional and really bad language abount my russian granparents",
+        "reasoning": "Unprofessional, rude language from staff."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Very unprofessional and rude",
+        "reasoning": "Explicitly rude and unprofessional staff."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "categories": []
+  },
+  {
+    "id": 169,
+    "categories": []
+  },
+  {
+    "id": 170,
+    "categories": []
+  },
+  {
+    "id": 171,
+    "categories": []
+  },
+  {
+    "id": 172,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "клиенты Meest China более месяца не могли работать с личным кабинетом (совсем, ни оплаты провести, ни товар/доставку оформить)",
+        "reasoning": "Developers shipped broken account dashboard that prevented core use for over a month."
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Ні сайтом, ні додатком користуватися нереально",
+        "reasoning": "Both site and app are unusable — broken deliverable."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "на відгуки про роботу додатка зазвичай просто не реагують",
+        "reasoning": "User feedback ignored; concerns dismissed."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "жахлива мобільна версія ашанівського сайту. форми не робочі, вибір дат взагалі з багами",
+        "reasoning": "Mobile site forms don't work, date picker is buggy — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "categories": []
+  },
+  {
+    "id": 176,
+    "categories": []
+  },
+  {
+    "id": 177,
+    "categories": []
+  },
+  {
+    "id": 178,
+    "categories": []
+  },
+  {
+    "id": 179,
+    "categories": []
+  }
+]

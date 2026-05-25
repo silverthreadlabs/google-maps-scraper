@@ -1,0 +1,347 @@
+[
+  {
+    "id": 30,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "вони форсять інфу аля « це унікальна інформація»",
+        "reasoning": "Course content was sold as unique/valuable but delivered as superficial and not matching the promise."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "categories": []
+  },
+  {
+    "id": 32,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "В рекламі говорять що доводять до результату, але насправді ваш результат їм мало цікавий",
+        "reasoning": "Advertised outcome (taking students to results) did not match what was delivered."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "в кожному модулі на вас чекають додаткові витрати на купу інших додатків без яких ви далі рухатися не зможете",
+        "reasoning": "Hidden additional costs beyond the initial quoted course price surfaced module by module."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "Курс записаний к 2022 році повно старої інформації, яка не відповідає реаліям сьогодення",
+        "reasoning": "Delivered course content is outdated and diverges from what was sold as current/working."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "обіцянки офера не були виконані",
+        "reasoning": "Offer/promise (15k in sales) was not delivered."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Хоча на вебінарі, хлопці заявляли, як правило, всі хто доходять до кінця, мають добрі результати",
+        "reasoning": "Webinar promise of results for those completing the course did not match actual delivered outcomes."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "categories": []
+  },
+  {
+    "id": 37,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "Хоча вони кажуть що роблять все на власному прикладі. Хоча той приклад застарілий і не дієвий від слова зовсім!",
+        "reasoning": "What was promised (real working example) diverges from what was delivered (outdated, non-working)."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "categories": []
+  },
+  {
+    "id": 39,
+    "categories": []
+  },
+  {
+    "id": 40,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.85,
+        "quote": "після відмови обслуговувати мене українською,а не російською я відмовився від послуг даної компанії",
+        "reasoning": "Customer was refused service in their requested language (Ukrainian)."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "categories": []
+  },
+  {
+    "id": 42,
+    "categories": []
+  },
+  {
+    "id": 43,
+    "categories": []
+  },
+  {
+    "id": 44,
+    "categories": []
+  },
+  {
+    "id": 45,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.95,
+        "quote": "ended the contract and the project only half finished while consuming almost the complete budget",
+        "reasoning": "Project was abandoned half-finished after most of the budget was consumed."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Front-end work lacked basic UX skills. Even copying existing UI templates seemed too complicated for him. Simple buttons were a challenge.",
+        "reasoning": "Deliverable was broken / failed to meet basic spec quality."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "multiple deadlines were missed, without any notice or action to mitigate it",
+        "reasoning": "Multiple slipped deadlines on the same project with no warning."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "no_warning_of_delay",
+        "confidence": 0.85,
+        "quote": "multiple deadlines were missed, without any notice or action to mitigate it",
+        "reasoning": "Deadlines missed with no proactive notice to client."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Дуже багато помилок, не правильна конструкція додавання та звітності програми",
+        "reasoning": "Software product delivered with many bugs and incorrect logic."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "себестоимость сбросилась и сами не могут починить",
+        "reasoning": "Product is broken: data lost in migration and vendor cannot fix it."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "коли звернулись, щоб вони видали ці документи, змушують чекати тижнями",
+        "reasoning": "Customer actively requested documents and is left waiting weeks with no response."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "комунікація з менеджментом ніяка",
+        "reasoning": "Customer explicitly calls out poor/non-existent communication from management."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "програма не змогла опрацювати таку кількість позицій",
+        "reasoning": "Software fails to handle stated workload — broken product."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "дуже часто зникають товари. Просто внікуди",
+        "reasoning": "Product has a defect: items disappear from the database."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Помилки в сумах продажів, які ідуть на податкову",
+        "reasoning": "Software has bugs causing incorrect tax-reported sales totals."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "антивірус виявив троян",
+        "reasoning": "Official download flagged as a trojan — broken/unsafe delivery."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "система дуже погано працює",
+        "reasoning": "Product works poorly with constant failures in tech specs."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Техслжба грубить і не коректно пояснює",
+        "reasoning": "Support staff are rude to the customer."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "ніколи не повідомляють про те що в них якісь оновлення і пів дня система може не працювати",
+        "reasoning": "Vendor fails to inform customers about updates/downtime — missing communication."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "часть функций работали в новой админ панели а часть в старой, но что , где и как должно работать никто не знал",
+        "reasoning": "Delivered product was broken with functions split across versions; vendor itself didn't know how it worked."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Пройшов місяць і мені виставити рахунок за 3 торгові точки",
+        "reasoning": "Customer was billed for points of sale they were told would not be charged — unexpected charge contradicting prior verbal agreement."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "постійні помилки і звертання до тех підтримки",
+        "reasoning": "New version of product ships with constant errors."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Не  всегла сохраняет товар при приходе. Не всегда списывает товар при продаже",
+        "reasoning": "Product fails core functions: doesn't reliably save or deduct inventory."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Один товар вбивал полтора часа",
+        "reasoning": "Product UX is broken: simple data entry takes 1.5 hours."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "все постоянно лагает, расходы пропадают, куча проблем",
+        "reasoning": "Product is buggy: constant lag and data loss."
+      }
+    ]
+  }
+]

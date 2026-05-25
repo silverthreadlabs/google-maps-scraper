@@ -1,0 +1,4 @@
+cosmetic surgeon in {city} {state}
+plastic surgeon in {city} {state}
+medspa in {city} {state}
+aesthetic clinic in {city} {state}

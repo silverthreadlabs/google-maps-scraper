@@ -1,0 +1,326 @@
+[
+  {
+    "id": 180,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.6,
+        "quote": "they changed my provider without any prior notice",
+        "reasoning": "Provider/appointment changed without notice suggests scheduling friction."
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.9,
+        "quote": "Dentist changed his schedule without notifying me until 4pm the day before my appointment was scheduled. Then offered times that were very inconvenient",
+        "reasoning": "Last-minute reschedule of an emergent appointment with inconvenient alternatives."
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "The Dentist that did my root canal was so rude",
+        "reasoning": "Reports rude behavior from clinical staff."
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.85,
+        "quote": "They did some procedures mentioning that it is 100% covered by insurance. Later we found out that it was not",
+        "reasoning": "Coverage was misrepresented before service; verification failure."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "They did some procedures mentioning that it is 100% covered by insurance. Later we found out that it was not",
+        "reasoning": "Patient told it was covered, then billed; surprise bill after the fact."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.95,
+        "quote": "I was told I would receive a treatment plan with pricing so I could schedule the work I need done. Never did",
+        "reasoning": "Patient was promised a treatment plan/quote and never received it."
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "she came back just to tell me I had to pay the full amount at one time even though she already said I have to pay hal",
+        "reasoning": "Contradictory information from staff about payment terms."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "They are unprofessional",
+        "reasoning": "Generic unprofessional behavior from staff member Nelly."
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "These people don't know how  to verify insurance information",
+        "reasoning": "Direct complaint about staff failing to verify insurance."
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "categories": []
+  },
+  {
+    "id": 188,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "tried to quote my husband and I $700 for a cleaning WITH insurance",
+        "reasoning": "Inflated/unexpected pricing even with insurance suggests surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "When I showed up they have no record of who I was or any appointments ever made",
+        "reasoning": "Confirmed appointment lost from their system; scheduling failure."
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "So I called RR Modern Dentistry requesting my x-ray to be sent to an oral surgeon. A week past and they fai",
+        "reasoning": "Patient requested action (send x-ray); office failed to follow through."
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "categories": []
+  },
+  {
+    "id": 192,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "the Receptionist was totally rude",
+        "reasoning": "Direct rudeness from front-desk receptionist."
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "Services took way too long; in 1 hour little was done; overbooked",
+        "reasoning": "Long in-chair time with little progress; overbooking complaint."
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.9,
+        "quote": "They charged my son way more on both occasions of having dental work done and required the money up front. When I got my EOB from my insurance, it was clear we were owed money back",
+        "reasoning": "Overcharges and refund delays — payment issues."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "They charged my son way more on both occasions of having dental work done",
+        "reasoning": "Charged more than expected on both visits."
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "Staff was horrible will not be returning. Very condescending and rude",
+        "reasoning": "Explicit rude/condescending non-clinical staff and office manager."
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "A staff told me that i have to be there at 915, but the staff said i should be okay",
+        "reasoning": "Contradictory information from staff about arrival time."
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.9,
+        "quote": "they sat and waited over a week to tell me they could not verify my insurance",
+        "reasoning": "Insurance not verified before scheduled service; long delay."
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "categories": []
+  },
+  {
+    "id": 199,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "issues with 3 out of 3 appointments either with wrong price info and being over charged",
+        "reasoning": "Wrong price information and overcharging across multiple visits."
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "Llego 10 minutos antes de su cita espero x mas de una hora y lo la atendieron",
+        "reasoning": "Patient arrived early, waited over an hour and was not seen."
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "categories": []
+  },
+  {
+    "id": 202,
+    "categories": []
+  },
+  {
+    "id": 203,
+    "categories": []
+  },
+  {
+    "id": 204,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "girl on the phone says yes i make appointment i get there & get xrays done just for them to tell me no you cant do a payment plan",
+        "reasoning": "Contradictory information given on phone vs in-office about payment plans."
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.9,
+        "quote": "Hacen citas y cuando llega un día antes te dicen que te van reagendar por qué el dentista no va a estar",
+        "reasoning": "Repeated last-minute reschedules because the dentist will not be there."
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "Waiting 20min from my app. Reschedule",
+        "reasoning": "Waited 20 minutes past appointment then rescheduled."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "Reschedule. Changing dentist place. Thankyou for canceling my app",
+        "reasoning": "Appointment was cancelled/rescheduled by the office."
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "categories": []
+  },
+  {
+    "id": 208,
+    "categories": []
+  },
+  {
+    "id": 209,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.95,
+        "quote": "They took me in do xrays then when I came out they said they didn't except my insurance",
+        "reasoning": "Insurance not verified before service; rejected after x-rays already done."
+      }
+    ]
+  }
+]

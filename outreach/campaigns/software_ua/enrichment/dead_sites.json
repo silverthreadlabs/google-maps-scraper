@@ -1,0 +1,472 @@
+[
+  {
+    "lead_title": "TopSeoWebsite",
+    "website": "https://topseo.website/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "VG++",
+    "website": "http://www.vgplusplus.com/ru/contacts.php",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Syntagma Software",
+    "website": "https://www.syntagmasoft.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Krumkachov web development",
+    "website": "https://neomodern.site/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "[D]igitalizer - simplifying everything",
+    "website": "https://digitalizer.site/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "sceel.io GmbH",
+    "website": "http://www.sceel.io/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "GET-IT",
+    "website": "http://www.get-it.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "uStudio Company",
+    "website": "http://www.ustudio.company/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Neosoft-Tur",
+    "website": "http://www.tourismpro.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Craftera Digital",
+    "website": "https://craftera.agency/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ARGENT TEAM",
+    "website": "https://argent.team/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ASD LLC",
+    "website": "http://asd-geo.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Team Rainmakers",
+    "website": "https://trm.solutions/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Webunites – Website Solutions",
+    "website": "https://webunites.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Антвен Вебстер",
+    "website": "http://fogwebstudio.site/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Willmore Digital Advertising Agency",
+    "website": "https://www.willmore.agency/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Studio IDI",
+    "website": "http://designidi.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Daxx Dnipro",
+    "website": "http://www.daxx.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "SvitSoft | Світсофт - Digital Transformation",
+    "website": "https://www.svitsoft.com/?utm_source=google&utm_medium=business&utm_campaign=perehod_na_site",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_ABORTED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "EVNE Developers",
+    "website": "http://evnedev.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "HAPPY Design studio",
+    "website": "http://happydesign.pro/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "JANUARY UA",
+    "website": "http://www.january.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Django Stars LLC - Software Development Company",
+    "website": "http://djangostars.com/#hello-gmb",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Website development",
+    "website": "https://simplystudio.net/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ITernal Group",
+    "website": "https://iternal.group/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "DikArt Creative Marketing Company",
+    "website": "http://dikart.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Xpand Ukraine",
+    "website": "http://www.xpandsoftware.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "SysIQ Support and Development Center",
+    "website": "http://sysiq.com/careers",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Viral Boost Digital Marketing in Pakistan",
+    "website": "https://dogtrainingxyz.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "directa design bureau",
+    "website": "http://directa.cc/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "websoft створення сайтів у Львові",
+    "website": "https://www.websoft.biz.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Brainberry",
+    "website": "https://brainberry.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ABC Digital",
+    "website": "https://abc-digital.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CONNECTION_REFUSED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "TAK agency",
+    "website": "https://tak.global/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Profit Center FX",
+    "website": "http://profitcenterfx.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Digital Агентство Web Time-PRO",
+    "website": "http://webtime-pro.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ALTY INC.",
+    "website": "https://alty.co/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_HTTP_RESPONSE_CODE_FAILURE "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Unreal Solutions",
+    "website": "http://unrealrpsolutions.dev/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Adscope",
+    "website": "https://adscope.space/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "ZAPAKOVANO - Креативна агенція інтернет маркетингу",
+    "website": "https://zapakovano.agency/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "AdMix - интернет-маркетинг: Контекстная реклама, SEO, SMM, Создание сайтов Днепр, Киев Украина",
+    "website": "http://admix.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Software Development - Website Development and Mobile App Development",
+    "website": "https://alamondai.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Bypaul design studio | Брендинг, айдентика та графічний дизайн",
+    "website": "https://bypaul.design/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Веб розробка - Raccoon Webcode",
+    "website": "https://raccoon-web.io/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "АРКАДА, ПрАТ",
+    "website": "http://www.arcada.com.ua/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Develin Core",
+    "website": "https://develincore.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Kraft Web Agency",
+    "website": "https://kraftwebagency.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": null,
+    "metro": "kyiv"
+  }
+]

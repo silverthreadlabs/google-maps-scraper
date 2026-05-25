@@ -1,0 +1,55 @@
+[
+  {"id": 90, "categories": []},
+  {"id": 91, "categories": []},
+  {"id": 92, "categories": []},
+  {"id": 93, "categories": []},
+  {"id": 94, "categories": []},
+  {"id": 95, "categories": []},
+  {"id": 96, "categories": []},
+  {"id": 97, "categories": [
+    {"main": "delivery_quality", "sub": "does_not_match_promise", "confidence": 0.62, "quote": "ця компанія не виправдовує своїх обіцянок", "reasoning": "Reviewer warns the company fails to deliver on its promises."}
+  ]},
+  {"id": 98, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.55, "quote": "одна дама начала хамить", "reasoning": "Employee was rude when asked about parking."}
+  ]},
+  {"id": 99, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.55, "quote": "Самая отвратительная обратная связь которая может быть. Не работает аппарат, никто ничего не может сделать", "reasoning": "Customer reports terrible feedback/response — no one follows up on broken equipment."}
+  ]},
+  {"id": 100, "categories": []},
+  {"id": 101, "categories": []},
+  {"id": 102, "categories": []},
+  {"id": 103, "categories": []},
+  {"id": 104, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.6, "quote": "відчувешь на собі зовсім не дружнє ставлення", "reasoning": "Visitors complain of unfriendly treatment at the gate/front."}
+  ]},
+  {"id": 105, "categories": []},
+  {"id": 106, "categories": []},
+  {"id": 107, "categories": [
+    {"main": "delivery_quality", "sub": "does_not_match_promise", "confidence": 0.85, "quote": "Обіцяна безоплатна реклама на місяць (чи хоча б тиждень) просування насправді часто не має нічого спільного з реальністю", "reasoning": "Delivered service substantially diverges from what was promised in the sales pitch."},
+    {"main": "scope_drift", "sub": "unexpected_extra_charges", "confidence": 0.7, "quote": "пропонують платні послуги, вартість яких вища за середню по ринку", "reasoning": "After initial free promise, paid services with above-market pricing are pushed."},
+    {"main": "hidden_subcontracting", "sub": "unauthorized_team_change", "confidence": 0.55, "quote": "налаштування можуть бути видалені без попередження", "reasoning": "Team/configurations changed without notice during the engagement."}
+  ]},
+  {"id": 108, "categories": [
+    {"main": "deadline_missed", "sub": "repeated_delays", "confidence": 0.75, "quote": "затримки були згідно їх же плану, і нічого не відписують, самій треба випитувати", "reasoning": "Reviewer reports delays against the agency's own plan with no proactive communication."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.75, "quote": "Спілкування менеджера жахливе", "reasoning": "Manager communication described as awful; client had to chase for status."},
+    {"main": "delivery_quality", "sub": "does_not_match_promise", "confidence": 0.85, "quote": "обіцяють круто команду, реально роботу над сторінкою, рекомендації по веденню, ведення сторінки і тд. Отримали - мінус в грошах", "reasoning": "What was promised diverged sharply from what was delivered."},
+    {"main": "delivery_quality", "sub": "bad_deliverable", "confidence": 0.75, "quote": "тим що вони монтували з моїх відео просто уродували сторінку, запускали пости без узгодження", "reasoning": "Deliverables were of poor quality and posted without client approval."}
+  ]},
+  {"id": 109, "categories": [
+    {"main": "delivery_quality", "sub": "does_not_match_promise", "confidence": 0.9, "quote": "під  виглядом певного продукту ви впарюєте просто шокуюче відверту єрунду", "reasoning": "Course delivered diverges entirely from what was sold."},
+    {"main": "delivery_quality", "sub": "unfinished_work", "confidence": 0.8, "quote": "тому що курс ще в розробці", "reasoning": "Customer paid for a course that doesn't yet exist — unfinished product sold as complete."}
+  ]},
+  {"id": 110, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.7, "quote": "Про ці \"правила\" ми дізнались тільки в кінці співпраці", "reasoning": "Key rules about asset deletion were never communicated up front, only at end of engagement."},
+    {"main": "delivery_quality", "sub": "does_not_match_promise", "confidence": 0.55, "quote": "видаляють рекламні компанії які налаштовуються в ході роботи", "reasoning": "Ad campaigns built during the engagement are deleted afterwards — work vanishes."}
+  ]},
+  {"id": 111, "categories": []},
+  {"id": 112, "categories": []},
+  {"id": 113, "categories": []},
+  {"id": 114, "categories": []},
+  {"id": 115, "categories": []},
+  {"id": 116, "categories": []},
+  {"id": 117, "categories": []},
+  {"id": 118, "categories": []},
+  {"id": 119, "categories": []}
+]

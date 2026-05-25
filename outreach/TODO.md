@@ -13,7 +13,7 @@ Open work that doesn't belong in CLAUDE.md (auto-loaded) — read on demand.
 - **Pain quote ↔ category mismatch** — solved by the
   `.claude/agents/pain-classifier.md` subagent classifying reviews
   against `outreach/silverthread/pain_categories.md`. Eval harness:
-  `pipelines/dental_sunbelt/eval/eval_runner.py`. Latest baseline
+  `campaigns/dentist_sunbelt/eval/eval_runner.py`. Latest baseline
   (2026-04-29) on the 100-review gold set: main F1 0.784 / strict F1
   0.683 / strict exact-match 0.64 — vs prior SBERT baseline of ~0.43.
 - **Pipeline integration of the subagent** — the slash-command runbook
@@ -50,7 +50,7 @@ Open work that doesn't belong in CLAUDE.md (auto-loaded) — read on demand.
   unused by sales; column removed from `FIELDNAMES` and `_build_row`.
 - **`analyze.py` script** (2026-05-01) — chain detection + initial quality
   scoring + email-ingest validation now lives at
-  `outreach/scripts/analyze.py` (was three rounds of inline code across
+  `outreach/lib/cli/analyze.py` (was three rounds of inline code across
   dental, retail, cosmetic). Validates incoming gosom-side emails through
   `validate_email` at ingest, partitioning into `emails` /
   `emails_invalid` so the master never carries image-artifact / placeholder

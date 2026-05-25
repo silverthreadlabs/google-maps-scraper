@@ -295,5 +295,5 @@ def build_handoff(
     return len(rows)
 
 
-# Entry point: outreach/scripts/handoff.py — loads pipeline config and
+# Entry point: outreach/lib/cli/handoff.py — loads pipeline config and
 # resolves master.json under pipelines/<vertical>/outputs/<date>/.

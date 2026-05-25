@@ -1,0 +1,96 @@
+[
+  {
+    "lead_title": "North Texas Plastic Surgery",
+    "website": "https://www.northtexasplasticsurgery.com/plano-plastic-surgery/?utm_source=GBP&utm_medium=GBP&utm_campaign=GBP_Plano&utm_id=GBP_Plano",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 8.73,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Westlake Dermatology & Cosmetic Surgery - University Park",
+    "website": "https://www.westlakedermatology.com/dermatology-services-dallas/?utm_source=google&utm_medium=local&utm_campaign=wdwes",
+    "status": "crash",
+    "errors": [
+      "crash: AttributeError: 'list' object has no attribute 'strip'"
+    ],
+    "quality_score": 8.61,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Dr. Dallas Robert Najera- Najera Plastic Surgery",
+    "website": "https://najeraplasticsurgery.com/?utm_source=google&utm_medium=localsearch&utm_campaign=gmb",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 7.98,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Lone Star Plastic Surgery: Dr. Sean Hill",
+    "website": "https://www.lonestarplasticsurgery.com/?utm_source=google&utm_medium=local&utm_campaign=frisco-practice-website",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 7.59,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Bradley Hubbard, MD",
+    "website": "http://bradleyhubbardmd.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 7.08,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Dr. Yash Plastic Surgery",
+    "website": "https://www.dryashplasticsurgery.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 6.58,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Landon S. Perry, MD; Plastic Surgery Associates",
+    "website": "http://lsperry.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 4.7,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Kevin R. Hanz, MD. Aesthetic Plastic Surgery",
+    "website": "https://drkevinhanz.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 6.16,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "J. Michael Morrissey, MD Cosmetic Surgery",
+    "website": "http://www.drmorrissey.net/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 4.37,
+    "metro": "dallas"
+  },
+  {
+    "lead_title": "Baylor Scott & White Plastic and Reconstructive Surgery - Dallas",
+    "website": "https://www.bswhealth.com/locations/clinic/plastic-and-reconstructive-surgery-dallas?utm_content=main-website&utm_source=pg-google&utm_medium=organic&utm_campaign=29985-9717304",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ CDP command timed out: Page.navigate "
+    ],
+    "quality_score": 5.55,
+    "metro": "dallas"
+  }
+]

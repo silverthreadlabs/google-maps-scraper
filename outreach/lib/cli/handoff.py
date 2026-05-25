@@ -1,0 +1,107 @@
+"""
+Build the sales-handoff CSV for a pipeline.
+
+Reads master.json from the pipeline's latest dated outputs/ folder (or
+`--master`); writes handoff.csv next to it (or `--out`).
+
+Pipeline config requirements:
+  PAIN_WEIGHTS  — category → weight
+  SERVICE_MAP   — category → (service_name, service_url)
+
+Both currently use the legacy flat category keys; the pain-classifier
+subagent emits (main, sub) tuples. Re-keying both is the deferred work
+in TODO.md.
+
+Usage:
+  python outreach/lib/cli/handoff.py <pipeline> [--master PATH] [--out PATH]
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+
+from lib.handoff.csv_builder import build_handoff
+from lib.ranking import tier
+from lib.cli._common import (
+    add_pipeline_arg,
+    load_pipeline_config,
+    pipeline_dir,
+    pipeline_lock,
+    require_attr,
+)
+from lib.cli.validate import latest_master  # reuse the same convention
+
+
+def _owner_lookup_candidates(master_path: Path) -> int:
+    """Count tier-A/B leads with no `owner_name` populated.
+    These are the leads where the optional owner-lookup stage adds the
+    most value (named decision-maker for high-priority outreach)."""
+    try:
+        leads = json.loads(master_path.read_text())
+    except Exception:
+        return 0
+    n = 0
+    for l in leads:
+        if l.get('owner_name'):
+            continue
+        t = l.get('tier') or tier(l.get('quality_score'))
+        if t in {'A', 'B'}:
+            n += 1
+    return n
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description='Build the sales-handoff CSV for a pipeline.',
+    )
+    add_pipeline_arg(parser)
+    parser.add_argument(
+        '--master', type=Path, default=None,
+        help='input master JSON (default: outputs/<latest-date>/master.json)',
+    )
+    parser.add_argument(
+        '--out', type=Path, default=None,
+        help='output CSV (default: <master-dir>/handoff.csv)',
+    )
+    args = parser.parse_args(argv)
+
+    cfg = load_pipeline_config(args.pipeline)
+    pain_weights = require_attr(cfg, 'PAIN_WEIGHTS', args.pipeline)
+    service_map = require_attr(cfg, 'SERVICE_MAP', args.pipeline)
+
+    pdir = pipeline_dir(args.pipeline)
+    master_path = args.master or latest_master(pdir)
+    if master_path is None or not master_path.exists():
+        sys.stderr.write(
+            f"error: master not found "
+            f"(checked {args.master if args.master else f'{pdir}/outputs/<latest>/master.json'})\n"
+        )
+        return 2
+
+    out_path = args.out or (master_path.parent / 'handoff.csv')
+
+    with pipeline_lock(args.pipeline, 'handoff'):
+        build_handoff(
+            input_path=master_path,
+            output_path=out_path,
+            service_map=service_map,
+            pain_weights=pain_weights,
+        )
+    print(f"next: review {out_path} and ship to sales (last stage)", flush=True)
+    n_owner_gaps = _owner_lookup_candidates(master_path)
+    if n_owner_gaps > 0:
+        print(
+            f"  optional: {n_owner_gaps} tier-A/B leads have no owner_name — "
+            f"see /outreach {args.pipeline} owner-lookup (manual stage; "
+            f"runbook: .claude/commands/outreach.md)",
+            flush=True,
+        )
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

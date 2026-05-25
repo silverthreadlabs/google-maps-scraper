@@ -1,0 +1,337 @@
+[
+  {
+    "id": 360,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "insurance_verification_missing",
+        "confidence": 0.8,
+        "quote": "Charged and filed my treatment as out of network, when iam in network with them",
+        "reasoning": "Practice billed out-of-network despite patient being in-network — pre-service insurance verification failed."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "post_visit_followup_missing",
+        "confidence": 0.75,
+        "quote": "They dint have the courtesy to check in me for the pain I was going through",
+        "reasoning": "Patient explicitly says no post-visit check-in occurred after a procedure that left them in pain."
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.55,
+        "quote": "They canceled on me and gave me no explanation that made sense",
+        "reasoning": "Practice cancelled appointment after multiple planning visits — scheduling instability."
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "categories": []
+  },
+  {
+    "id": 363,
+    "categories": []
+  },
+  {
+    "id": 364,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "When Dr Chekowski left there wasn't any notification of his retirement / departure",
+        "reasoning": "Patient says practice failed to communicate the departure of their dentist — missing/unclear information."
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "she called three times before they sent me to collections",
+        "reasoning": "Patient sent to collections; practice was sending mail to wrong address — unexpected billing escalation."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "quote": "Mary never left a message sayi",
+        "reasoning": "Patient says calls were claimed but no voicemail was left — communication never reached patient."
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "categories": []
+  },
+  {
+    "id": 367,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "I was quoted one price for my aligner, then only two weeks later they increased it by $2,000",
+        "reasoning": "Quoted price diverged from billed price two weeks later — classic surprise billing."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.7,
+        "quote": "I also had to wait months to get my aligner",
+        "reasoning": "Patient waited months for the aligner — long wait for service."
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.9,
+        "quote": "being charged twice on services and having to ask to be refunded",
+        "reasoning": "Patient was double-charged and had to chase a refund — payment issue."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "getting the pictures taken and then nothing to no response as to what’s next",
+        "reasoning": "Patient inquired about Invisalign and got no response/follow-up."
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "categories": []
+  },
+  {
+    "id": 370,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.9,
+        "quote": "My Appointment started 25 mins later than scheduled time",
+        "reasoning": "Patient waited 25 minutes past scheduled appointment time."
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "categories": []
+  },
+  {
+    "id": 372,
+    "categories": []
+  },
+  {
+    "id": 373,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "they are happy to have you sit either in their waiting r",
+        "reasoning": "Review describes being made to sit/wait once appointment time arrives."
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "The owner Dr. Webb is rude",
+        "reasoning": "Owner described as rude — non-clinical behavior complaint about tone."
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "categories": []
+  },
+  {
+    "id": 376,
+    "categories": []
+  },
+  {
+    "id": 377,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "they messed up my appt time last week",
+        "reasoning": "Practice mishandled the appointment time — scheduling error."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "today I found out I had a payment due from 5 months ago! I have never received a statement by mail or email",
+        "reasoning": "Unexpected charge surfaced 5 months later with no prior statement — surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "There seems to be a lack of communication amongst the staff and between the staff and their vendors",
+        "reasoning": "Patient explicitly cites lack of communication among staff."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.6,
+        "quote": "Appointments are made without a real knowledge of what is needed or needs to happen",
+        "reasoning": "Appointments scheduled without clarity — friction in booking."
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "categories": []
+  },
+  {
+    "id": 380,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "they have been cancelling appointments and rescheduling",
+        "reasoning": "Practice repeatedly cancels and reschedules appointments."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "I have NEVER had to pay for a cleaning before and yesterday I was charged almost $140.00 dollars",
+        "reasoning": "Unexpected out-of-pocket charge for previously-covered cleaning — surprise billing."
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Dr. Connell was rude and condescending to my husband",
+        "reasoning": "Staff member described as rude and condescending — tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "No response to requests, then very slow response. Didn’t mail my retainer after they said they would",
+        "reasoning": "Patient requested retainer mailing; practice promised but never followed through."
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "Receptionist jay he said his name was was very rude and uptight cutting me off mid conversation responding in a negative tone",
+        "reasoning": "Receptionist explicitly described as rude with negative tone."
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "categories": []
+  },
+  {
+    "id": 385,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.6,
+        "quote": "they stop half way through to get my payment. I had to get up out the chair walk to my car to get them the money",
+        "reasoning": "Payment was demanded mid-procedure — payment-handling/intake issue."
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.9,
+        "quote": "I feel like they over booked as everything seemed rushed",
+        "reasoning": "Patient explicitly says visit was rushed due to overbooking."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "I don’t think my needs were being heard and easy answers were given instead",
+        "reasoning": "Patient says specific concerns weren't heard and were brushed off."
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.85,
+        "quote": "Guy looks at my mouth for a second says yep wisdom teeth gotta come out. Leaves",
+        "reasoning": "Dentist looked briefly and left — inattentive visit."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "When an abyss is what was bothering me. Doesn’t even tell me I have an abyss",
+        "reasoning": "Patient's actual concern (abscess) was ignored/missed."
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "I informed the surgeon that I was not completely numb yet, but h",
+        "reasoning": "Patient told surgeon they weren't numb; concern appears dismissed."
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "categories": []
+  }
+]

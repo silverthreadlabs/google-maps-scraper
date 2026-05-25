@@ -18,7 +18,7 @@ from lib.campaign_config import load_campaign
 
 MIGRATIONS = [
     # ('dentist_sunbelt', 'dental_sunbelt'),  # migrated in Phase B — old config.py removed
-    ('software_ua',               'software_ua'),
+    # ('software_ua', 'software_ua'),  # migrated in Phase C
     ('cosmetic_surgeons_dallas',  'cosmetic_surgeons_dallas'),
     ('retail_toronto',            'retail_toronto'),
 ]

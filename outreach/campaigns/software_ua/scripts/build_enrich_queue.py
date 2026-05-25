@@ -12,7 +12,7 @@ import sys
 import importlib.util
 from pathlib import Path
 
-ROOT = Path("outreach/pipelines/software_ua")
+ROOT = Path("outreach/campaigns/software_ua")
 
 spec = importlib.util.spec_from_file_location("bcb", ROOT / "build_classify_batches.py")
 bcb = importlib.util.module_from_spec(spec); spec.loader.exec_module(bcb)

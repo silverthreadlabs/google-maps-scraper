@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 from statistics import mean
 
-ROOT = Path("outreach/pipelines/software_ua")
+ROOT = Path("outreach/campaigns/software_ua")
 BATCH_DIR = ROOT / "enrichment/pain_classifications/2026-05-22_batches"
 INDEX = ROOT / "enrichment/pain_classifications/2026-05-22_review_index.json"
 SIDECAR = ROOT / "enrichment/pain_classifications/2026-05-22.json"

@@ -1,0 +1,369 @@
+[
+  {
+    "id": 0,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "взяли аванс 5 тыс грн и в итоге ничего не сделали",
+        "reasoning": "Took an advance payment and delivered nothing — paid for work that wasn't completed."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "сайт начал грузится в 2 раза дольше",
+        "reasoning": "Site got worse (loads twice as slowly) after their work — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "categories": []
+  },
+  {
+    "id": 2,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unauthorized_team_change",
+        "confidence": 0.85,
+        "quote": "помінялось три програміста, і кожен дуже повільно включався в роботу",
+        "reasoning": "Programmer assigned to the project changed three times without notice."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "Так і не закінчили до кінця. ВЖЕ ПРОЙШЛО БІЛЬШЕ РОКУ",
+        "reasoning": "Project still not finished more than a year later — chronic missed deadline."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "Так і не закінчили до кінця",
+        "reasoning": "Project never completed."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "Додзвонитись не можливо",
+        "reasoning": "Customer cannot get through on the phone for support."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "categories": []
+  },
+  {
+    "id": 4,
+    "categories": []
+  },
+  {
+    "id": 5,
+    "categories": []
+  },
+  {
+    "id": 6,
+    "categories": []
+  },
+  {
+    "id": 7,
+    "categories": []
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.75,
+        "quote": "обещанная оценка тестового задания должна была произойти за два дня, в итоге растянулась на более чем неделю",
+        "reasoning": "Promised 2-day turnaround on test-task evaluation stretched to over a week."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "наш сайт зроблений настільки криво і неграмотно, що дешевше буде зробити все спочатку",
+        "reasoning": "Delivered site was so badly built that another company recommended rebuilding from scratch."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "Ми замовляли сайт на якому мало працювати декілька адмінів та модератори з різними правами доступу. А в результаті одержали адмінку з 1 доступом",
+        "reasoning": "Delivered admin panel doesn't match what was ordered (multi-role access)."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "scope_silently_shrunk",
+        "confidence": 0.7,
+        "quote": "Функціонал настільки примітивний, що хочеться плакати. Це вони не можуть зробити, то вони не вміють треба залучати спеціалістів",
+        "reasoning": "Agreed functionality dropped — vendor claimed can't do it / needs outside specialists."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "недавно довелось повністю переробити сайт, бо він був малопридатним для використання",
+        "reasoning": "Final site was barely usable; had to be completely redone."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "Боюсь збрехати скільки тривало це: пів року чи майже рік",
+        "reasoning": "Revisions phase dragged on for half a year to nearly a year with repeated weekly promises slipped."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "Як за мобільну версію, так і за безліч інших виправлень, з нас хотіли здерти ще грошей",
+        "reasoning": "Vendor demanded extra money for items (mobile version, fixes) already in scope."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Обіцяли підігнати макет під параметри гаджетів. По факту макет просто обрізали справа і зліва",
+        "reasoning": "Mobile version delivered diverges from what was promised."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "на кожен мій дзвінок відповідь починалась з того, що Юлія не займається цим питанням",
+        "reasoning": "Account manager couldn't answer questions; communication was incompetent and unclear."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "Роботу виконують дуууже довго",
+        "reasoning": "Work takes very long — late delivery."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "не якісно. Професіоналізму - нуль. Елементарні завдання виконати не можуть",
+        "reasoning": "Low-quality output; can't complete elementary tasks."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.95,
+        "quote": "постоянно сдвигали сроки, в итоге надобность в их работе просто отпала",
+        "reasoning": "Repeatedly pushed back deadlines until the work was no longer needed."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.9,
+        "quote": "ждал 2 недели сделанной ими работы, ничего только кормят завтраками",
+        "reasoning": "Waited two weeks for promised work; kept being told 'tomorrow.'"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.85,
+        "quote": "заваливают сроки",
+        "reasoning": "Vendor blows through deadlines."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "делают не то что их просишь",
+        "reasoning": "They deliver something different from what was requested."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "categories": []
+  },
+  {
+    "id": 16,
+    "categories": []
+  },
+  {
+    "id": 17,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "деякі повне бидло, яке навіть не відповідає коли з ними вітаються",
+        "reasoning": "Some staff are rude and don't even respond to greetings."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "Обіцяють фідбек, а потім забивають на все що тебе стосується",
+        "reasoning": "Recruiters promise feedback then ghost the candidate — dropped follow-up on a promised callback."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "categories": []
+  },
+  {
+    "id": 19,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "Технічна підтримка не може справитися із багом через який не формується сертифікат вакцинації",
+        "reasoning": "Product has a bug (vaccination certificate not generated) that support cannot resolve."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Не ввічливість деяких  осіб  персоналу",
+        "reasoning": "Rudeness from some staff members, especially security."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "categories": []
+  },
+  {
+    "id": 22,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "представники компанії перестали відповідати на повідомлення",
+        "reasoning": "Company representatives stopped responding to messages with no explanation."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "Перестають відповідати на повідомлення",
+        "reasoning": "Company stops replying to messages."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Комунікації жодної",
+        "reasoning": "No communication from the company at all."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "categories": []
+  },
+  {
+    "id": 26,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "Заявлены были очные лекции и каждодневная поддержка со стороны преподавателя. Преподаватель не только не предоставил обещанной поддержки ни разу",
+        "reasoning": "Promised daily mentor support never materialized — delivered substantially less than sold."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.8,
+        "quote": "отменял обещанные встречи, назначал встречи, а потом просил подождать 40 минут за дверью, назначал встречи в другом месте и отменял день в день",
+        "reasoning": "Repeated cancellations and rescheduling of promised meetings."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "не брал трубку",
+        "reasoning": "Instructor didn't pick up the phone."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "call-центр во Львове частенько отвечал в грубой форме",
+        "reasoning": "Call center reps often answered rudely."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "со мной не выходили на связь 2 недели после записи на курс",
+        "reasoning": "After signing up, no one contacted her for two weeks."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "categories": []
+  },
+  {
+    "id": 28,
+    "categories": []
+  },
+  {
+    "id": 29,
+    "categories": []
+  }
+]

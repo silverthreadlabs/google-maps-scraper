@@ -1,0 +1,339 @@
+[
+  {
+    "lead_title": "OCStudio.pro",
+    "website": "https://ocstudio.pro/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "SMinion - продажа шаблонов сайтов",
+    "website": "https://sminion.com/ru",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Page Speed Web Development",
+    "website": "https://pagespeed.com.ua/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "2k design studio",
+    "website": "https://dp.vgorode.ua/reference/reklamnye_ahentstva/111652-2K-Design-Studio",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://dp.vgorode.ua/reference/reklamnye_ahentstva/111652-2K-Design-Studio"
+    ]
+  },
+  {
+    "lead_title": "Pentalog Kyiv - Software Development Company in Ukraine",
+    "website": "https://www.pentalog.com/?utm_source=Google&utm_medium=Organic&utm_campaign=P5MK_PPEN07-GP_AW_GE_GE_WW_EN_0028&utm_content=GMB_Kyiv",
+    "metro": "kyiv",
+    "status": "ok",
+    "emails": [
+      "hi@globant.com"
+    ],
+    "pages_visited": [
+      "https://www.pentalog.com/?utm_source=Google&utm_medium=Organic&utm_campaign=P5MK_PPEN07-GP_AW_GE_GE_WW_EN_0028&utm_content=GMB_Kyiv",
+      "https://www.pentalog.com/contact",
+      "https://www.linkedin.com/company/globant/"
+    ]
+  },
+  {
+    "lead_title": "Merge Development",
+    "website": "https://merge.rocks/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://merge.rocks/"
+    ]
+  },
+  {
+    "lead_title": "ISpro",
+    "website": "https://ispro.ua/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Credo Technologies 2008, LLC",
+    "website": "https://credotech.eu/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='credotech.eu', port=443): Max retries exceeded with url: / (Caused b"
+  },
+  {
+    "lead_title": "SITER - Створення сайтів, SEO просування, реклама в інтернеті",
+    "website": "https://siter.org/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_404"
+  },
+  {
+    "lead_title": "PG-Group - Digital Learning Development",
+    "website": "http://pg-group.online/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "http://pg-group.online/"
+    ]
+  },
+  {
+    "lead_title": "Seismic Point Group LLC",
+    "website": "https://seismicpoint.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='seismicpoint.com', port=443): Max retries exceeded with url: / (Caus"
+  },
+  {
+    "lead_title": "Workbeat",
+    "website": "https://workbeat.com.ua/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='workbeat.com.ua', port=443): Max retries exceeded with url: / (Cause"
+  },
+  {
+    "lead_title": "Deventor",
+    "website": "https://deventor.io/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='deventor.io', port=443): Max retries exceeded with url: / (Caused by"
+  },
+  {
+    "lead_title": "VILMATE LLC",
+    "website": "https://vilmate.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Tov Mkku-Merezhi",
+    "website": "https://uiccnet.com.ua/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='uiccnet.com.ua', port=443): Max retries exceeded with url: / (Caused"
+  },
+  {
+    "lead_title": "FutureOne Tech",
+    "website": "https://futureone.tech/",
+    "metro": "kyiv",
+    "status": "ok",
+    "emails": [
+      "info@futureone.tech"
+    ],
+    "pages_visited": [
+      "https://futureone.tech/",
+      "https://futureone.tech/about",
+      "https://futureone.tech/about#about-us-page",
+      "https://futureone.tech/about#engagement-models"
+    ]
+  },
+  {
+    "lead_title": "Jul&Vol",
+    "website": "https://messageapi.xn--o1a9b.xn--j1amh/",
+    "metro": "kyiv",
+    "status": "ok",
+    "emails": [
+      "volodia.pika@gmail.com"
+    ],
+    "pages_visited": [
+      "https://messageapi.xn--o1a9b.xn--j1amh/",
+      "http://contactmanager.іп.укр/admin/login"
+    ]
+  },
+  {
+    "lead_title": "Logic.digital",
+    "website": "https://logicdigital.agency/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://logicdigital.agency/"
+    ]
+  },
+  {
+    "lead_title": "EPAM Ukraine",
+    "website": "https://careers.epam.ua/company/contact",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Advanced Team",
+    "website": "https://advanced.team/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://advanced.team/"
+    ]
+  },
+  {
+    "lead_title": "Linkos Group",
+    "website": "https://www.linkos.ua/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Cprime Studios",
+    "website": "https://cprimestudios.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Eurosoftware UA Ltd.",
+    "website": "http://www.eurosoftware.com.ua/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "http://www.eurosoftware.com.ua/",
+      "http://www.eurosoftware.com.ua/index.php/contact",
+      "https://www.linkedin.com/company/eurosoftware-ua/"
+    ]
+  },
+  {
+    "lead_title": "Melexis Ukraine",
+    "website": "http://melexis.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Mobilunity",
+    "website": "https://mobilunity.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Empat",
+    "website": "https://empat.tech/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Binary Studio",
+    "website": "https://binary-studio.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "DeepInspire",
+    "website": "https://www.deepinspire.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Просування сайтів Львів — COMPAS Agency",
+    "website": "https://compas.agency/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://compas.agency/"
+    ]
+  },
+  {
+    "lead_title": "Brights",
+    "website": "http://brights.io/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "ELITEX",
+    "website": "http://elitex.systems/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Веб студія Львів - Створення та просування сайтів ⭐️ Розробка інтернет магазину 🍄 Rubik",
+    "website": "https://rubik.com.ua/lv/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "JWD СОЗДАНИЕ САЙТОВ. НАСТРОЙКА РЕКЛАМЫ.",
+    "website": "http://jwd.dp.ua/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "http://jwd.dp.ua/"
+    ]
+  },
+  {
+    "lead_title": "Cоздание интернет-магазина на OKAY CMS",
+    "website": "https://okay-cms.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Digital-маркетинговое агентство - PODA AGENCY",
+    "website": "https://poda.agency/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://poda.agency/"
+    ]
+  },
+  {
+    "lead_title": "Создание веб сайтов в Днепре",
+    "website": "https://xn----7sbbaqhlkm9ah9aiq.net/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='xn----7sbbaqhlkm9ah9aiq.net', port=443): Max retries exceeded with u"
+  },
+  {
+    "lead_title": "TenPixls - Unstoppable Business Growth With Your Own Tailor-Made, High-Performance Website",
+    "website": "https://tenpixls.com/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "http_403"
+  },
+  {
+    "lead_title": "Rarus",
+    "website": "https://rarus.ua/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "https://rarus.ua/"
+    ]
+  },
+  {
+    "lead_title": "Розробка сайтів Київ | WEBKITCHEN Вебкитчен",
+    "website": "https://webkitchen.kiev.ua/",
+    "metro": "kyiv",
+    "status": "still_failing",
+    "error": "conn: HTTPSConnectionPool(host='webkitchen.kiev.ua', port=443): Max retries exceeded with url: / (Ca"
+  },
+  {
+    "lead_title": "MobiMill",
+    "website": "http://mobimill.com/",
+    "metro": "kyiv",
+    "status": "no_email_found",
+    "emails": [],
+    "pages_visited": [
+      "http://mobimill.com/",
+      "http://mobimill.com/contacts"
+    ]
+  }
+]

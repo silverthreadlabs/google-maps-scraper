@@ -14,7 +14,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-ROOT = Path("outreach/pipelines/software_ua")
+ROOT = Path("outreach/campaigns/software_ua")
 MASTER = ROOT / "outputs/2026-05-22/master.json"
 RAW_DIR = ROOT / "raw"
 OUT_DIR = ROOT / "enrichment/pain_classifications/2026-05-22_batches"

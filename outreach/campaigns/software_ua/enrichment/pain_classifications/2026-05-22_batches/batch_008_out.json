@@ -1,0 +1,256 @@
+[
+  {
+    "id": 240,
+    "categories": []
+  },
+  {
+    "id": 241,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_juniors",
+        "confidence": 0.9,
+        "quote": "ваш заказ будет выполнять стажёр, проработавший от силы 2 недели",
+        "reasoning": "Reviewer warns work is actually done by a 2-week intern, classic unannounced handoff to juniors."
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "categories": []
+  },
+  {
+    "id": 243,
+    "categories": []
+  },
+  {
+    "id": 244,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "за великі гроші отримав безкорисний шматок 1С з непрацюючим механізмом і просто купою проблем",
+        "reasoning": "Client received a broken, useless 1C deliverable with many problems."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.75,
+        "quote": "Доробляти відмовляються, працювати неможливо",
+        "reasoning": "Vendor refuses to finish the work; project effectively abandoned."
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "За телефоном сидить неадекватна людина",
+        "reasoning": "Complaint about the person answering the phone being unreasonable/unprofessional in tone."
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "categories": []
+  },
+  {
+    "id": 247,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_juniors",
+        "confidence": 0.55,
+        "quote": "Злитий бюджет. новачки.",
+        "reasoning": "Budget wasted; work done by 'newbies' suggests unannounced juniors."
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "на мене ще і накричали",
+        "reasoning": "Reviewer was yelled at by staff — rude/unprofessional tone."
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "no in time manners",
+        "reasoning": "Vendor did not deliver on time."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "expensive for Very Low quality",
+        "reasoning": "Quality of delivered work was very low."
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "categories": []
+  },
+  {
+    "id": 251,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "Гроші сплачені, сайту немає",
+        "reasoning": "Money paid but no website delivered — project abandoned/unfinished."
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "categories": []
+  },
+  {
+    "id": 253,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "Never got \"ghosted\" in a business relationship while the project is unfinished",
+        "reasoning": "Project abandoned mid-flight with vendor going silent."
+      },
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unauthorized_team_change",
+        "confidence": 0.7,
+        "quote": "the developer who worked on the project resigned from his position",
+        "reasoning": "Promised developer left and no replacement provided — team change without continuity."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "Questions about if and when another dev may be reachable, unanswered",
+        "reasoning": "Client asked specific questions and never received a reply."
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "categories": []
+  },
+  {
+    "id": 255,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "Не виконують гарантійні обов'язки згідно договору",
+        "reasoning": "Vendor not honoring warranty obligations per contract."
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "categories": []
+  },
+  {
+    "id": 257,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "Створений лендінг не працює , кожні два дні виникає помилка та сайт стає недоступним",
+        "reasoning": "Delivered landing page is broken — repeated errors, site goes down."
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "We have been trying to get in touch for a week and the phone line does not work",
+        "reasoning": "Cannot reach company by phone for a week."
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "categories": []
+  },
+  {
+    "id": 260,
+    "categories": []
+  },
+  {
+    "id": 261,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "it turned into constant delays and excuses",
+        "reasoning": "Project plagued by ongoing repeated delays."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "we were given a certain budget and timeline (even after acknowledging we had made some changes along the way). But once the project began, it turned into constant delays and excuses",
+        "reasoning": "Costs grew well beyond original budget — billed for items 'irrelevant to actually getting the product live'."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.95,
+        "quote": "we STILL don’t have a usable product",
+        "reasoning": "After additional $8k, core functionality still not working — unfinished."
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.95,
+        "quote": "В результаті інформації я ніякої не отримав, а менеджер просто ігнорував мої повідомлення",
+        "reasoning": "Prospect asked for pricing info; manager ignored messages — dropped lead/quote."
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Куча багоа на мобильной версией сайта",
+        "reasoning": "Delivered site has many bugs on mobile version."
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "categories": []
+  }
+]

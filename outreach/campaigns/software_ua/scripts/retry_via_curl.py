@@ -27,7 +27,7 @@ from urllib3.util.retry import Retry
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-ROOT = Path("outreach/pipelines/software_ua")
+ROOT = Path("outreach/campaigns/software_ua")
 QUEUE = ROOT / "enrichment/playwright_retry_queue.json"
 OUT = ROOT / "enrichment/website_crawl_curl_retry.json"
 

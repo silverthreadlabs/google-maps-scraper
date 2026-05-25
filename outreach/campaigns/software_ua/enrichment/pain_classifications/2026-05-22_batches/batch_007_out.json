@@ -1,0 +1,335 @@
+[
+  {
+    "id": 210,
+    "categories": []
+  },
+  {
+    "id": 211,
+    "categories": []
+  },
+  {
+    "id": 212,
+    "categories": []
+  },
+  {
+    "id": 213,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "lose all deadline",
+        "reasoning": "Client states the provider lost/missed all deadlines on the project."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.55,
+        "quote": "who first show good price. tell good story about future of project for development. then charge money",
+        "reasoning": "Initial low quote followed by additional charges suggests cost growth beyond the original quote."
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "categories": []
+  },
+  {
+    "id": 215,
+    "categories": []
+  },
+  {
+    "id": 216,
+    "categories": []
+  },
+  {
+    "id": 217,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.75,
+        "quote": "коли купили та оплатили програму, виявилося, що заплатили лише за одне робоче місце, а за кожне наступне треба платити окремо",
+        "reasoning": "Customer paid for the software then discovered additional per-seat charges not disclosed upfront — cost growing beyond initial quote."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "рік після купівлі нам повідомили, що всі оновлення та тех підтримка вже не є безкоштовною, a вартує грошей",
+        "reasoning": "Unexpected charges introduced a year after purchase for what was previously free."
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "categories": []
+  },
+  {
+    "id": 219,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "communication is poor",
+        "reasoning": "Explicit complaint that communication was poor."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "project delivery often misses deadlines",
+        "reasoning": "Direct statement that the agency repeatedly misses delivery deadlines."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.6,
+        "quote": "Overhyped values don’t match the actual experience",
+        "reasoning": "What was sold/promised diverged from actual delivered experience."
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "categories": []
+  },
+  {
+    "id": 221,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.75,
+        "quote": "Компания, которая много обещает, но ничего не делает",
+        "reasoning": "Client says the agency promises but does nothing — paid for work but received no output."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.7,
+        "quote": "Большинство из их предложений выливаются в дополнительные работы",
+        "reasoning": "Most proposals turn into additional billable work beyond the original scope."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.55,
+        "quote": "Техзадание на текущий месяц начинают согласовывать только после 20 числа",
+        "reasoning": "Monthly scope of work approved only after the 20th — repeated delays starting work."
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "сайт имел массу недоработок, не был должным образом протестирован, база данных и запросы абсолютно не оптимизированы",
+        "reasoning": "Site shipped with many defects, not properly tested, unoptimized DB — broken deliverable."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.8,
+        "quote": "бюджет вырастет в 2-3 раза по сравнению с заранее заявленным",
+        "reasoning": "Budget grew 2-3x beyond what was initially quoted."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.6,
+        "quote": "базовые вещи, которые были на старом сайте не были реализованы",
+        "reasoning": "Basic features from the old site weren't implemented in the delivered new site."
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "categories": []
+  },
+  {
+    "id": 224,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "знаходила дуже багато помилок в роботі програми",
+        "reasoning": "Customer found many errors in the software product itself."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "отримувала пряме ігнорування моїх зауважень",
+        "reasoning": "Specific concerns about software errors were directly ignored by the engineer."
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.4,
+        "quote": "They don't respond",
+        "reasoning": "Business does not respond to customer contact attempts."
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "перейшла на \"ти\" і всіляко демонструвала свою зневагу",
+        "reasoning": "Project manager was disrespectful and demonstrated contempt in communication."
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "categories": []
+  },
+  {
+    "id": 228,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "непрофессионально рассказывают про вакансии",
+        "reasoning": "Recruiters communicated unprofessionally/unclearly about openings."
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.5,
+        "quote": "Щонайменше витрачається  лиш доба на те, щоб вам просто відповів менеджер",
+        "reasoning": "Takes at least a day before a manager responds to inquiries."
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "categories": []
+  },
+  {
+    "id": 231,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "Although they promised great results, they eventually ended up with nothing",
+        "reasoning": "Promised great results, delivered nothing — outcome diverged from promise."
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Зателефонували за телефоном на сайті, почули в свою адресу жахливі слова",
+        "reasoning": "Caller heard terrible words directed at them from staff when calling — rude tone from frontline staff."
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Неприйнятне спілкування від проджект-менеджеру",
+        "reasoning": "Unacceptable communication tone from a project manager toward potential clients."
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "categories": []
+  },
+  {
+    "id": 235,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "Сайт постійно глючить та довго грузиться",
+        "reasoning": "Delivered website is constantly buggy and slow to load."
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.55,
+        "quote": "Не сильно хорошо разбираются в тех задачах, за которые берутся",
+        "reasoning": "Provider doesn't understand the tasks they take on, implying weak deliverable quality."
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "пообещала сбросить предложение и информацию,  но,  увы,  ничего нет. Сообщения не просматривает",
+        "reasoning": "Customer requested a proposal/info, was promised it, never received — operator stopped reading messages."
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.8,
+        "quote": "Началось это все дело 5 месяцев назад, сначала 2 месяца их копирайтер никак не могла подобрать нам структуру сайта",
+        "reasoning": "Project dragged on 5 months with multiple slipped phases — copywriter took 2 months on structure alone."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "сам лендинг был сделан ужасно, такое ощущение, что люди не понимали, что за продукт и что делать",
+        "reasoning": "Landing page was made poorly; deliverable did not meet needs."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.6,
+        "quote": "Подкупили своим красивым профессиональным сайтом и красивыми обещаниями",
+        "reasoning": "Bought in on attractive promises; actual delivery diverged substantially from what was sold."
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "categories": []
+  }
+]

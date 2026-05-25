@@ -1,6 +1,26 @@
 country: US
 locale: en-US
 cities:
+  - name: phoenix
+    state: AZ
+    metro_area_codes: ['480', '602', '623', '928']
+    geographic_prefixes:
+      - chandler dental
+      - mesa dental
+      - gilbert dental
+      - tempe dental
+      - scottsdale dental
+      - glendale dental
+      - phoenix dental
+    neighborhoods:
+      - Downtown
+      - Chandler
+      - Mesa
+      - Gilbert
+      - Tempe
+      - Scottsdale
+      - Glendale
+
   - name: austin
     state: TX
     metro_area_codes: ['512', '737']
@@ -25,26 +45,6 @@ cities:
       - Cedar Park
       - Pflugerville
       - Lakeway
-
-  - name: phoenix
-    state: AZ
-    metro_area_codes: ['480', '602', '623', '928']
-    geographic_prefixes:
-      - chandler dental
-      - mesa dental
-      - gilbert dental
-      - tempe dental
-      - scottsdale dental
-      - glendale dental
-      - phoenix dental
-    neighborhoods:
-      - Downtown
-      - Chandler
-      - Mesa
-      - Gilbert
-      - Tempe
-      - Scottsdale
-      - Glendale
 
   - name: tampa
     state: FL

@@ -6,12 +6,12 @@ Companion to `architecture.excalidraw` (open in <https://excalidraw.com>). This 
 
 ## 1. Purpose
 
-The `outreach/` tree turns raw Google Maps scrapes into a sales-ready CSV (and optional CRM push) by passing leads through a **fixed sequence of pipeline stages**. Each stage is a Python script under `outreach/scripts/`, except `classify`, which is an LLM subagent invocation. The whole sequence is orchestrated by a single slash-command runbook: `.claude/commands/outreach.md`.
+The `outreach/` tree turns raw Google Maps scrapes into a sales-ready CSV (and optional CRM push) by passing leads through a **fixed sequence of pipeline stages**. Each stage is a Python script under `outreach/lib/cli/`, except `classify`, which is an LLM subagent invocation. The whole sequence is orchestrated by a single slash-command runbook: `.claude/commands/outreach.md`.
 
 Two design rules dominate everything below:
 
 1. **Never drop rows or replace field values** (CLAUDE.md rule 1). Bad values get sibling flags (`email_invalid`, `phone_invalid_reason`); they are never stripped. Every added field carries `<field>_source` + `<field>_added_at` provenance.
-2. **`lib/` is industry-agnostic**; all vertical-specific knobs live in `pipelines/<vertical>/config.py`. To add a vertical, copy `pipelines/dental_sunbelt/` and edit `config.py` — never fork `lib/`.
+2. **`lib/` is industry-agnostic**; all vertical-specific knobs live in `verticals/<v>/config.py (+ optional campaigns/<v>_<loc>/overrides.py)`. To add a vertical, copy `campaigns/dentist_sunbelt/` and edit `config.py` — never fork `lib/`.
 
 ---
 
@@ -25,7 +25,7 @@ Two design rules dominate everything below:
         │  dispatches
         ▼
 ┌──────────────────────────────────────────────────────────────────┐
-│  PIPELINE STAGES   outreach/scripts/*.py                         │
+│  PIPELINE STAGES   outreach/lib/cli/*.py                         │
 │  analyze → enrich → classify → osint-enrich → validate → handoff │
 └──────────────────────────────────────────────────────────────────┘
         │  reads / writes
@@ -77,7 +77,7 @@ outreach/
 │   └── _common.py
 ├── silverthread/
 │   └── pain_categories.md           # STL pain taxonomy (vertical-agnostic)
-└── pipelines/<vertical>/
+└── campaigns/<v>_<loc>/
     ├── config.py                    # PAIN_WEIGHTS, DSO regex, METROS, …
     ├── raw/                         # gosom NDJSON scrapes  (IMMUTABLE)
     ├── enrichment/                  # append-only sidecars
@@ -222,7 +222,7 @@ Each merge step is **resumable and idempotent**: scripts skip rows already carry
 
 ## 9. Per-vertical configuration
 
-`pipelines/<vertical>/config.py` is the only place vertical-specific knobs live:
+`verticals/<v>/config.py (+ optional campaigns/<v>_<loc>/overrides.py)` is the only place vertical-specific knobs live:
 
 | Key | Used by | Why per-vertical |
 |-----|---------|------------------|
@@ -235,7 +235,7 @@ Each merge step is **resumable and idempotent**: scripts skip rows already carry
 | `ENRICH_PROFILE` | enrich | Crawl behavior — selectors, max pages, allowlists. |
 | `OSINT_FIELDS_DESIRED`, `OSINT_CONFIDENCE_THRESHOLD` | osint-enrich | Which gaps to chase and how strict to be. |
 
-**To add a vertical:** copy `pipelines/dental_sunbelt/`, edit `config.py`, drop new query files in `queries/`, scrape into `raw/`, then run `/outreach <new-vertical> analyze`.
+**To add a vertical:** copy `campaigns/dentist_sunbelt/`, edit `config.py`, drop new query files in `queries/`, scrape into `raw/`, then run `/outreach <new-vertical> analyze`.
 
 ---
 
@@ -259,11 +259,11 @@ Each merge step is **resumable and idempotent**: scripts skip rows already carry
 | What does the classifier emit? | `.claude/agents/pain-classifier.md` |
 | What are the OSINT binding rules? | `.claude/agents/osint-binder.md` |
 | What pain categories exist? | `outreach/silverthread/pain_categories.md` |
-| What knobs does this vertical have? | `outreach/pipelines/<vertical>/config.py` |
+| What knobs does this vertical have? | `outreach/campaigns/<vertical>/config.py` |
 | How is `quality_score` computed? | `outreach/lib/ranking.py` + `merge_classifications.py` |
 | Why was a row dropped from the CSV? | It wasn't — check `emails_invalid`, `phone_invalid`, `tier` in master. |
 | Why is `crawled_emails` empty? | `merge_crawl_into_master.py` wasn't run after `enrich.py`. |
-| How to add a vertical? | Copy `pipelines/dental_sunbelt/`, edit `config.py`. Never fork `lib/`. |
+| How to add a vertical? | Copy `campaigns/dentist_sunbelt/`, edit `config.py`. Never fork `lib/`. |
 
 ---
 

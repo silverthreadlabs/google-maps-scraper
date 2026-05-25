@@ -163,5 +163,51 @@ class TestPythonModuleLoading(unittest.TestCase):
         self.assertEqual(mod.PAIN_WEIGHTS, {'calls_unanswered': 99})
 
 
+class TestMergePrimitives(unittest.TestCase):
+    def test_concat_regex_alternation(self):
+        import re
+        from lib.campaign_config import _concat_regex
+        a = re.compile(r'\b(Aspen Dental|Heartland)\b', re.I)
+        b = re.compile(r'\b(Coast Dental)\b', re.I)
+        merged = _concat_regex(a, b)
+        self.assertIsNotNone(merged.search('aspen dental'))
+        self.assertIsNotNone(merged.search('coast dental'))
+        self.assertIsNone(merged.search('mom & pop dentistry'))
+
+    def test_concat_regex_none_extra_returns_base(self):
+        import re
+        from lib.campaign_config import _concat_regex
+        a = re.compile(r'\bAspen Dental\b', re.I)
+        merged = _concat_regex(a, None)
+        self.assertIs(merged, a)
+
+    def test_concat_regex_none_base_returns_extra(self):
+        import re
+        from lib.campaign_config import _concat_regex
+        b = re.compile(r'\bCoast Dental\b', re.I)
+        merged = _concat_regex(None, b)
+        self.assertIs(merged, b)
+
+    def test_union_sets(self):
+        from lib.campaign_config import _union_sets
+        self.assertEqual(_union_sets({'a', 'b'}, {'b', 'c'}), {'a', 'b', 'c'})
+        self.assertEqual(_union_sets({'a'}, None), {'a'})
+        self.assertEqual(_union_sets(None, {'a'}), {'a'})
+        self.assertEqual(_union_sets(None, None), set())
+
+    def test_overlay_dict_replaces_when_present(self):
+        from lib.campaign_config import _overlay_dict
+        base = {'a': 1, 'b': 2}
+        overlay = {'b': 99, 'c': 3}
+        self.assertEqual(_overlay_dict(base, overlay), {'a': 1, 'b': 99, 'c': 3})
+
+    def test_overlay_dict_returns_base_when_overlay_none(self):
+        from lib.campaign_config import _overlay_dict
+        base = {'a': 1}
+        result = _overlay_dict(base, None)
+        self.assertEqual(result, {'a': 1})
+        self.assertIsNot(result, base)
+
+
 if __name__ == '__main__':
     unittest.main()

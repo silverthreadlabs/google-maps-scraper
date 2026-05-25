@@ -151,6 +151,50 @@ def _load_python_module_optional(path: Path, *, module_name: str) -> ModuleType 
     return _load_python_module(path, module_name=module_name)
 
 
+def _concat_regex(
+    base: re.Pattern[str] | None,
+    extra: re.Pattern[str] | None,
+) -> re.Pattern[str]:
+    """Concatenate two regexes with alternation.
+
+    Both patterns are expected to be anchored at word boundaries; the
+    result preserves the LH side's flags. Returns one of the inputs
+    unchanged when the other is None.
+    """
+    if base is None and extra is None:
+        return re.compile(r'(?!)')
+    if extra is None:
+        return base  # type: ignore[return-value]
+    if base is None:
+        return extra
+    return re.compile(
+        f'(?:{base.pattern})|(?:{extra.pattern})',
+        base.flags,
+    )
+
+
+def _union_sets(a: set | None, b: set | None) -> set:
+    """Return a ∪ b, treating None as empty. Always returns a new set."""
+    out: set = set()
+    if a:
+        out.update(a)
+    if b:
+        out.update(b)
+    return out
+
+
+def _overlay_dict(base: dict, overlay: dict | None) -> dict:
+    """Return a copy of `base` with `overlay` values merged on top.
+
+    Used for PAIN_WEIGHTS and SERVICE_MAP — campaign override completely
+    replaces vertical default per key.
+    """
+    out = dict(base)
+    if overlay:
+        out.update(overlay)
+    return out
+
+
 def load_campaign(campaign_slug: str) -> CampaignConfig:
     """Load + merge the three config sources for `campaign_slug`.
 

@@ -1,6 +1,6 @@
 ---
 name: outreach
-description: Use when running a stage of the Silverthread Labs outreach pipeline under `outreach/` — analyze, classify, enrich, validate, handoff, owner-lookup, or osint-enrich. Triggers on "/outreach", "run outreach", "classify leads", "enrich crawl queue", "validate master", "build handoff CSV", "owner lookup", "OSINT enrich", or any request to advance an outreach campaign for a vertical under `outreach/pipelines/<pipeline>/`.
+description: Use when running a stage of the Silverthread Labs outreach pipeline under `outreach/` — analyze, classify, enrich, validate, handoff, owner-lookup, or osint-enrich. Triggers on "/outreach", "run outreach", "classify leads", "enrich crawl queue", "validate master", "build handoff CSV", "owner lookup", "OSINT enrich", or any request to advance an outreach campaign for a vertical under `outreach/campaigns/<pipeline>/`.
 ---
 
 # outreach — pipeline runbook
@@ -9,7 +9,7 @@ description: Use when running a stage of the Silverthread Labs outreach pipeline
 
 Invocation form: `outreach <pipeline> [stage]`.
 
-- **pipeline** (required) — directory under `outreach/pipelines/`, e.g. `dental_sunbelt`.
+- **pipeline** (required) — directory under `outreach/campaigns/`, e.g. `dental_sunbelt`.
 - **stage** (optional) — one of:
   `analyze | classify | enrich | validate | handoff | owner-lookup | osint-enrich`.
   If omitted, ask the user which stage to run; do not default.
@@ -32,8 +32,8 @@ not a separate user-facing stage.
 
 ## Pre-flight (always do first)
 
-1. Verify `outreach/pipelines/<pipeline>/` exists. If not, error and stop:
-   `error: pipeline not found at outreach/pipelines/<pipeline>/`
+1. Verify `outreach/campaigns/<pipeline>/` exists. If not, error and stop:
+   `error: pipeline not found at outreach/campaigns/<pipeline>/`
 2. Verify the pipeline config imports cleanly:
    `python -c "import sys; sys.path.insert(0,'outreach'); from pipelines.<pipeline> import config"`
    If it errors, surface the import error and stop.
@@ -48,7 +48,7 @@ is invoked cold.
    `<field>_source` and `<field>_added_at`. Mark bad values invalid via
    sibling flags (`phone_invalid: true`, never strip the phone).
 2. **Output paths.** Inputs/outputs live under
-   `outreach/pipelines/<pipeline>/{raw,enrichment,outputs/<date>}/`.
+   `outreach/campaigns/<pipeline>/{raw,enrichment,outputs/<date>}/`.
    New deliveries go to a NEW ISO-dated folder under `outputs/`. Never
    overwrite an existing dated folder — if today's folder already exists
    from an earlier run, ask the user whether to use it or create a
@@ -69,7 +69,7 @@ is invoked cold.
 
 ## Stage: analyze
 
-Delegates to `outreach/scripts/analyze.py`. Builds the **initial**
+Delegates to `outreach/lib/cli/analyze.py`. Builds the **initial**
 `outputs/<date>/master.json` from raw scrape NDJSON(s) — dedupe by
 `place_id`, chain detection, ingest-time email validation, initial
 quality_score (pain-empty until classify runs).
@@ -79,10 +79,10 @@ quality_score (pain-empty until classify runs).
 `VENDOR_DOMAINS_EXTRA`, `METROS`.
 
 ```bash
-python outreach/scripts/analyze.py <pipeline> [--output-date YYYY-MM-DD] [--force]
+python outreach/lib/cli/analyze.py <pipeline> [--output-date YYYY-MM-DD] [--force]
 ```
 
-**Inputs:** every `*.json` NDJSON under `pipelines/<pipeline>/raw/`.
+**Inputs:** every `*.json` NDJSON under `campaigns/<pipeline>/raw/`.
 
 **Output:** `outputs/<today-UTC>/master.json` (refuses to overwrite
 without `--force`; pass `--output-date <date>` to write into a different
@@ -118,7 +118,7 @@ re-classifying an existing master after the taxonomy/agent changes.
 taxonomy from `outreach/silverthread/pain_categories.md` directly.
 
 **Output:** a sidecar at
-`outreach/pipelines/<pipeline>/enrichment/pain_classifications/<today>.json`,
+`outreach/campaigns/<pipeline>/enrichment/pain_classifications/<today>.json`,
 keyed by `place_id`, in the exact shape `merge_classifications.py`
 expects (see step 5 below).
 
@@ -130,7 +130,7 @@ expects (see step 5 below).
      like `quality_score`, `tier`). If no master exists yet, the raw
      NDJSONs become the selection source — dedupe by `place_id`.
    - **Reviews source** — ALWAYS the raw NDJSONs at
-     `pipelines/<pipeline>/raw/*.json`. Master is post-aggregation and
+     `campaigns/<pipeline>/raw/*.json`. Master is post-aggregation and
      may have dropped `user_reviews{,_extended}` already. Never read
      reviews from master. Index raw by `place_id`.
    - **Place_id backfill (degenerate-master fallback).** If the master
@@ -230,22 +230,22 @@ expects (see step 5 below).
    that, or with obvious category mismatches in the sample, is the
    failure mode the gate is meant to catch.
 7. **Echo summary:** `classified <n> leads (<m> hits across <k> mains) → <sidecar-path>`
-   plus `next: python outreach/scripts/merge_classifications.py --master <…> --sidecar <sidecar> --out <new-master>`.
+   plus `next: python outreach/lib/cli/merge_classifications.py --master <…> --sidecar <sidecar> --out <new-master>`.
 
 ---
 
 ## Stage: enrich
 
-Delegates to `outreach/scripts/enrich.py`.
+Delegates to `outreach/lib/cli/enrich.py`.
 
 **Required pipeline config:** `ENRICH_PROFILE` (the dataclass shape is
 documented in `outreach/lib/enrichers/website_crawl.py:EnrichProfile`).
 
 ```bash
-python outreach/scripts/enrich.py <pipeline> [--queue PATH] [--workers N]
+python outreach/lib/cli/enrich.py <pipeline> [--queue PATH] [--workers N]
 ```
 
-**Default queue:** `pipelines/<pipeline>/enrichment/crawl_queue.json`.
+**Default queue:** `campaigns/<pipeline>/enrichment/crawl_queue.json`.
 If the queue doesn't exist, ask the user which leads to enrich (likely
 top-N from the latest master) and write the queue file before invoking
 the script.
@@ -262,7 +262,7 @@ on each lead. Skipping this leaves `crawled_emails` empty in the master
 even though `website_crawl.json` is full of data.
 
 ```bash
-python outreach/scripts/merge_crawl_into_master.py <pipeline> \
+python outreach/lib/cli/merge_crawl_into_master.py <pipeline> \
   [--master PATH] [--crawl PATH]
 ```
 
@@ -286,14 +286,14 @@ that the crawl-time filter missed.
 
 ## Stage: validate
 
-Delegates to `outreach/scripts/validate.py`.
+Delegates to `outreach/lib/cli/validate.py`.
 
 **Required pipeline config:** `METRO_AREA_CODES` (for the metro-mismatch
 phone check). `VENDOR_DOMAINS_EXTRA` is optional — extends the lib's
 generic vendor reject set with vertical-specific marketing vendors.
 
 ```bash
-python outreach/scripts/validate.py <pipeline> [--master PATH]
+python outreach/lib/cli/validate.py <pipeline> [--master PATH]
 ```
 
 Defaults to the latest `outputs/<date>/master.json`. Appends sibling
@@ -313,7 +313,7 @@ in the `pocs` column.
 
 ## Stage: handoff
 
-Delegates to `outreach/scripts/handoff.py`.
+Delegates to `outreach/lib/cli/handoff.py`.
 
 **Required pipeline config:** `PAIN_WEIGHTS`, `SERVICE_MAP`. Both are
 keyed by the new STL hierarchy main names (`calls_unanswered`,
@@ -321,7 +321,7 @@ keyed by the new STL hierarchy main names (`calls_unanswered`,
 `csv_builder._pain_hits_field` use.
 
 ```bash
-python outreach/scripts/handoff.py <pipeline> [--master PATH] [--out PATH]
+python outreach/lib/cli/handoff.py <pipeline> [--master PATH] [--out PATH]
 ```
 
 Defaults: read latest `outputs/<date>/master.json`, write
@@ -331,9 +331,9 @@ Defaults: read latest `outputs/<date>/master.json`, write
 classifier output), use `--out` to write into a NEW dated folder so
 the prior delivery is preserved:
 ```bash
-python outreach/scripts/handoff.py <pipeline> \
-  --master outreach/pipelines/<pipeline>/outputs/<new-date>/master.json \
-  --out    outreach/pipelines/<pipeline>/outputs/<new-date>/handoff.csv
+python outreach/lib/cli/handoff.py <pipeline> \
+  --master outreach/campaigns/<pipeline>/outputs/<new-date>/master.json \
+  --out    outreach/campaigns/<pipeline>/outputs/<new-date>/handoff.csv
 ```
 
 ---
@@ -341,7 +341,7 @@ python outreach/scripts/handoff.py <pipeline> \
 ## Stage: owner-lookup (optional, post-handoff)
 
 Decision-maker enrichment for tier-A/B leads where `owner_name` is empty.
-Backed by `outreach/scripts/owner_lookup.py` — manual web-search provider
+Backed by `outreach/lib/cli/owner_lookup.py` — manual web-search provider
 behind a script-shaped interface so the flow is idempotent and
 provenance-clean.
 
@@ -351,7 +351,7 @@ provenance-clean.
 # 1. Print the queue — eligible leads (tier A/B, no owner yet, sorted
 #    by quality_score). Each entry shows a ready-to-paste search query
 #    and the place_id you'll need for the sidecar.
-python outreach/scripts/owner_lookup.py <pipeline> --print-queue \
+python outreach/lib/cli/owner_lookup.py <pipeline> --print-queue \
   [--limit N] [--tiers A,B] [--master PATH]
 
 # 2. Web-search each query (LinkedIn, practice "About" pages, RealSelf,
@@ -362,7 +362,7 @@ python outreach/scripts/owner_lookup.py <pipeline> --print-queue \
 # 3. Apply — patches master in place with owner_name / owner_title /
 #    owner_linkedin + provenance (`owner_source: 'web_search_linkedin'`,
 #    `owner_added_at`). Skips leads already carrying owner_name (idempotent).
-python outreach/scripts/owner_lookup.py <pipeline> --apply \
+python outreach/lib/cli/owner_lookup.py <pipeline> --apply \
   [--sidecar PATH] [--master PATH]
 ```
 
@@ -388,15 +388,15 @@ Runs after `merge_crawl_into_master` + `owner_lookup --apply`. Inspects each lea
 
 Steps:
 
-1. `python outreach/scripts/osint_enrich.py <pipeline>`
+1. `python outreach/lib/cli/osint_enrich.py <pipeline>`
    - This produces `enrichment/osint/<today>.json` with all candidates, no judgments yet.
 2. Dispatch the `osint-binder` subagent in batches (10–20 leads per batch) over the sidecar:
    - Tool: `Task` with `subagent_type: osint-binder`
    - Prompt: `"Read enrichment/osint/<today>.json and write judgments to enrichment/osint_judgments/<today>.json. Process records [start:end]."`
    - Wait for all batches to complete, then merge the per-batch judgments into a single `osint_judgments/<today>.json`.
-3. `python outreach/scripts/osint_enrich.py <pipeline> --apply-judgments enrichment/osint_judgments/<today>.json`
+3. `python outreach/lib/cli/osint_enrich.py <pipeline> --apply-judgments enrichment/osint_judgments/<today>.json`
    - Merges judgments into the main sidecar (`selected_index`, `selected_confidence` populated).
-4. `python outreach/scripts/merge_osint_into_master.py <pipeline>`
+4. `python outreach/lib/cli/merge_osint_into_master.py <pipeline>`
    - Grafts confident hits into master with provenance.
 
 Per design: confident-or-skip — anything below `OSINT_CONFIDENCE_THRESHOLD` (default 0.85) is left in the sidecar but not grafted.
@@ -408,7 +408,7 @@ next: `outreach <pipeline> classify`
 ## Stages not yet supported as scripts
 
 - **scrape** — use the `google-maps-scraper` skill. Output goes to
-  `outreach/pipelines/<pipeline>/raw/<query>.json`. Don't write to
+  `outreach/campaigns/<pipeline>/raw/<query>.json`. Don't write to
   `/tmp` (CLAUDE.md rule 2). After scrape, run `analyze` to build the
   initial master.
 
@@ -423,7 +423,7 @@ so the prior delivery stays intact (CLAUDE.md rule 1). Sequence:
 0. **Re-build the master from raw** (one-time when the existing master
    is degenerate, e.g. lacks `place_id`):
    ```bash
-   python outreach/scripts/analyze.py <pipeline> --output-date <new-date>
+   python outreach/lib/cli/analyze.py <pipeline> --output-date <new-date>
    ```
    This dedupes raw by `place_id`, runs chain detection, scores leads,
    and partitions gosom-side emails into `emails` vs `emails_invalid`.
@@ -437,10 +437,10 @@ so the prior delivery stays intact (CLAUDE.md rule 1). Sequence:
 
 2. **Merge sidecar (refreshes quality_score + tier alongside breadth):**
    ```bash
-   python outreach/scripts/merge_classifications.py \
-     --master  outreach/pipelines/<pipeline>/outputs/<new-date>/master.json \
-     --sidecar outreach/pipelines/<pipeline>/enrichment/pain_classifications/<new-date>.json \
-     --out     outreach/pipelines/<pipeline>/outputs/<new-date>/master.json
+   python outreach/lib/cli/merge_classifications.py \
+     --master  outreach/campaigns/<pipeline>/outputs/<new-date>/master.json \
+     --sidecar outreach/campaigns/<pipeline>/enrichment/pain_classifications/<new-date>.json \
+     --out     outreach/campaigns/<pipeline>/outputs/<new-date>/master.json
    ```
    The CLI auto-derives the pipeline name from the master path and
    pulls `PAIN_WEIGHTS` from `config.py` so `quality_score`,

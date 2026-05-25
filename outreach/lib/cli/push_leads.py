@@ -11,7 +11,7 @@ the campaign UUID, then pushes leads.
 Auth: reads OUTREACH_API_KEY from env (or --api-key). Exits 2 if unset.
 
 Usage:
-  python outreach/scripts/push_leads.py <pipeline> [--base-url URL] [--master PATH]
+  python outreach/lib/cli/push_leads.py <pipeline> [--base-url URL] [--master PATH]
 """
 from __future__ import annotations
 

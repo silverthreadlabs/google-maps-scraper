@@ -14,7 +14,7 @@ crawl row get `crawl_attempted: False` (so consumers can distinguish "we
 crawled and got nothing" from "we never crawled it").
 
 Usage:
-  python outreach/scripts/merge_crawl_into_master.py <pipeline> \\
+  python outreach/lib/cli/merge_crawl_into_master.py <pipeline> \\
     [--master PATH] [--crawl PATH]
 """
 from __future__ import annotations

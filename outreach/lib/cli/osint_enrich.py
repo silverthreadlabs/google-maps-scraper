@@ -323,7 +323,7 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"wrote {sidecar_path}", flush=True)
     print(f"next: dispatch osint-binder subagent on {sidecar_path}, "
-          f"then run python outreach/scripts/merge_osint_into_master.py {args.pipeline}",
+          f"then run python outreach/lib/cli/merge_osint_into_master.py {args.pipeline}",
           flush=True)
     return 0
 

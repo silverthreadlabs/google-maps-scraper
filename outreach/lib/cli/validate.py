@@ -19,7 +19,7 @@ Pipeline config:
 Defaults to the latest dated outputs/ folder. Override with --master.
 
 Usage:
-  python outreach/scripts/validate.py <pipeline> [--master PATH]
+  python outreach/lib/cli/validate.py <pipeline> [--master PATH]
 """
 from __future__ import annotations
 

@@ -22,7 +22,7 @@ Pipeline config requirements:
   Optional: VENDOR_DOMAINS_EXTRA (extends generic email-vendor blocklist).
 
 Usage:
-  python outreach/scripts/analyze.py <pipeline> [--output-date YYYY-MM-DD] [--force]
+  python outreach/lib/cli/analyze.py <pipeline> [--output-date YYYY-MM-DD] [--force]
 """
 from __future__ import annotations
 

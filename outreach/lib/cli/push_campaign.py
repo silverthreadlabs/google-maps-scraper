@@ -7,7 +7,7 @@ POSTs to the campaigns API. The pipeline directory name becomes the slug.
 Auth: reads OUTREACH_API_KEY from env (or --api-key). Exits 2 if unset.
 
 Usage:
-  python outreach/scripts/push_campaign.py <pipeline> [--base-url URL]
+  python outreach/lib/cli/push_campaign.py <pipeline> [--base-url URL]
 """
 from __future__ import annotations
 

@@ -12,7 +12,7 @@ Pipeline config requirements:
   ENRICH_PROFILE — see lib/enrichers/website_crawl.py:EnrichProfile.
 
 Usage:
-  python outreach/scripts/enrich.py <pipeline> [--queue PATH] [--workers N]
+  python outreach/lib/cli/enrich.py <pipeline> [--queue PATH] [--workers N]
 """
 from __future__ import annotations
 

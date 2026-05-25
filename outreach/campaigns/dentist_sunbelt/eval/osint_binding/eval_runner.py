@@ -12,7 +12,7 @@ Gold-set record shape:
 }
 
 Usage:
-  python outreach/pipelines/dental_sunbelt/eval/osint_binding/eval_runner.py
+  python outreach/campaigns/dentist_sunbelt/eval/osint_binding/eval_runner.py
 """
 from __future__ import annotations
 

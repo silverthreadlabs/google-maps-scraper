@@ -20,10 +20,10 @@ stays identical so handoff downstream doesn't notice.
 Idempotency: leads already carrying `owner_name` are skipped both ways.
 
 Usage:
-  python outreach/scripts/owner_lookup.py <pipeline> --print-queue \\
+  python outreach/lib/cli/owner_lookup.py <pipeline> --print-queue \\
       [--limit N] [--tiers A,B] [--master PATH]
 
-  python outreach/scripts/owner_lookup.py <pipeline> --apply \\
+  python outreach/lib/cli/owner_lookup.py <pipeline> --apply \\
       [--sidecar PATH] [--master PATH]
 """
 from __future__ import annotations

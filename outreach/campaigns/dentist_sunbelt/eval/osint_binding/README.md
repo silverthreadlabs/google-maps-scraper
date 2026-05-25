@@ -4,7 +4,7 @@ Hand-labeled set used to tune `OSINT_CONFIDENCE_THRESHOLD`.
 
 ## Bootstrap (first run)
 
-1. Run `python outreach/scripts/osint_enrich.py dental_sunbelt` on a known-good slice (50–100 leads).
+1. Run `python outreach/lib/cli/osint_enrich.py dentist_sunbelt` on a known-good slice (50–100 leads).
 2. Open the resulting `enrichment/osint/<date>.json` and copy 50–100 `(lead, field, candidates)` triples into `gold_set.json`, adding `correct_index` (the index of the correct candidate, or `null` if none is correct).
 3. Dispatch the `osint-binder` subagent on `gold_set.json` → write the result to `judgments.json` in the same shape the merge step consumes.
 4. Run `python eval_runner.py` — the threshold sweep tells you where precision drops off.

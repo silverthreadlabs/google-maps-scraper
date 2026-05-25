@@ -12,7 +12,7 @@ chain, or franchise) rather than an independent:
                           (auto-detect, with a geographic-prefix guard)
 
 Each signal is industry-agnostic. The lists/regexes themselves are vertical-
-specific and supplied by `outreach/pipelines/<vertical>/config.py`.
+specific and supplied by `outreach/campaigns/<vertical>/config.py`.
 """
 from __future__ import annotations
 

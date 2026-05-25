@@ -59,7 +59,7 @@ different master than the one given here — investigate before shipping.
 
 Usage
 -----
-    python outreach/scripts/merge_classifications.py \\
+    python outreach/lib/cli/merge_classifications.py \\
         --master   outreach/campaigns/dental_sunbelt/outputs/2026-04-25/master.json \\
         --sidecar  outreach/campaigns/dental_sunbelt/enrichment/pain_classifications/2026-04-30.json \\
         --out      outreach/campaigns/dental_sunbelt/outputs/2026-04-30/master.json

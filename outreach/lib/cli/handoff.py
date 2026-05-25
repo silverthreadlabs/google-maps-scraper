@@ -13,7 +13,7 @@ subagent emits (main, sub) tuples. Re-keying both is the deferred work
 in TODO.md.
 
 Usage:
-  python outreach/scripts/handoff.py <pipeline> [--master PATH] [--out PATH]
+  python outreach/lib/cli/handoff.py <pipeline> [--master PATH] [--out PATH]
 """
 from __future__ import annotations
 

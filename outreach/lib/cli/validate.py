@@ -32,7 +32,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from lib.validators.email import validate_email
 from lib.validators.phone import validate_phone
-from lib.validators.poc import validate_poc
+from lib.validators.poc import validate_poc, poc_confidence
 from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
@@ -86,17 +86,22 @@ def annotate_phone(lead: dict, *, metro_area_codes: dict | None) -> bool:
 
 def annotate_pocs(lead: dict) -> int:
     """Set `invalid` + `invalid_reason` on each POC dict whose name is a
-    section heading or role label. Mutates in-place. Returns count newly
-    flagged (skips POCs already marked invalid)."""
+    section heading or role label, and a 0..1 `confidence` on every POC so
+    downstream consumers can rank rather than read each row. Mutates
+    in-place. Returns count newly flagged (skips the invalid check for POCs
+    already marked invalid, but still (re)scores confidence on all)."""
     flagged = 0
     for poc in lead.get('pocs') or []:
-        if not isinstance(poc, dict) or poc.get('invalid'):
+        if not isinstance(poc, dict):
             continue
-        ok, reason = validate_poc(poc.get('name'))
-        if not ok:
-            poc['invalid'] = True
-            poc['invalid_reason'] = reason or ''
-            flagged += 1
+        if not poc.get('invalid'):
+            ok, reason = validate_poc(poc.get('name'))
+            if not ok:
+                poc['invalid'] = True
+                poc['invalid_reason'] = reason or ''
+                flagged += 1
+        poc['confidence'] = poc_confidence(poc)
+        poc['confidence_source'] = 'provenance_score_v1'
     return flagged
 
 

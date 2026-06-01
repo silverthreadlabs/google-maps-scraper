@@ -30,6 +30,55 @@ class TestCsvColumns(unittest.TestCase):
         self.assertNotIn('phone_normalized', row)
 
 
+class TestPocsColumnUsesConfidence(unittest.TestCase):
+    """The pocs column is what an SDR scans. Vendor/cert badges
+    ('Google Partner', 'Webby Awards') look like names and passed the
+    invalid-name check, so they leaked in. validate now scores each POC;
+    the column filters low-confidence and surfaces best contacts first —
+    mirroring how all_emails already drops emails_invalid."""
+
+    def _pocs(self, lead):
+        return _build_row(lead, service_map={}, pain_weights={})['pocs']
+
+    def test_badge_confidence_zero_dropped(self):
+        lead = {'pocs': [
+            {'name': 'Kyrylo Lazariev', 'confidence': 0.9},
+            {'name': 'Google Partner', 'confidence': 0.0},
+            {'name': 'Webby Awards', 'confidence': 0.0},
+        ]}
+        self.assertEqual(self._pocs(lead), 'Kyrylo Lazariev')
+
+    def test_sorted_by_confidence_descending(self):
+        lead = {'pocs': [
+            {'name': 'Low Trust', 'confidence': 0.45},
+            {'name': 'High Trust', 'confidence': 0.9},
+        ]}
+        self.assertEqual(self._pocs(lead), 'High Trust;Low Trust')
+
+    def test_invalid_still_excluded_regardless_of_confidence(self):
+        lead = {'pocs': [
+            {'name': 'Why San', 'invalid': True, 'confidence': 0.0},
+            {'name': 'Real Person', 'confidence': 0.7},
+        ]}
+        self.assertEqual(self._pocs(lead), 'Real Person')
+
+    def test_backward_compat_no_confidence_key_kept(self):
+        # A master validated before confidence existed must still surface
+        # its POCs (only the invalid filter applies).
+        lead = {'pocs': [
+            {'name': 'Jane Doe'},
+            {'name': 'John Roe'},
+        ]}
+        self.assertEqual(self._pocs(lead), 'Jane Doe;John Roe')
+
+    def test_low_confidence_nonbadge_dropped(self):
+        lead = {'pocs': [
+            {'name': 'Office Plant', 'confidence': 0.25},
+            {'name': 'Sara Kim', 'confidence': 0.7},
+        ]}
+        self.assertEqual(self._pocs(lead), 'Sara Kim')
+
+
 class TestAllEmailsExcludesInvalid(unittest.TestCase):
     # `best_email` already filters via `trustworthy_emails`; `all_emails` and
     # `email_sources` historically didn't, so flagged junk (e.g. image

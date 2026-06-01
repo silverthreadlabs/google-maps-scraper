@@ -1,0 +1,55 @@
+country: US
+locale: en-US
+cities:
+  - name: san francisco
+    state: CA
+    # SF proper (415/628) plus the wider Bay Area metro where "SF area"
+    # software shops list their numbers: peninsula (650), East Bay (510),
+    # South Bay / San Jose (408/669), tri-valley (925), north bay (707).
+    metro_area_codes: ['415', '628', '650', '510', '408', '669', '925', '707', '831']
+    geographic_prefixes:
+      - san francisco
+      - sf
+      - soma
+      - south of market
+      - financial district
+      - mission district
+      - mission
+      - the mission
+      - dogpatch
+      - potrero hill
+      - hayes valley
+      - nob hill
+      - russian hill
+      - north beach
+      - castro
+      - haight
+      - sunset
+      - richmond
+      - marina
+      - presidio
+      - bayview
+      - downtown san francisco
+      - bay area
+      - san francisco bay area
+      - silicon valley
+      - peninsula
+      - east bay
+      - south bay
+      - oakland
+      - berkeley
+      - emeryville
+      - alameda
+      - san mateo
+      - redwood city
+      - menlo park
+      - palo alto
+      - mountain view
+      - sunnyvale
+      - santa clara
+      - san jose
+      - cupertino
+      - daly city
+      - south san francisco
+      - california
+    neighborhoods: []

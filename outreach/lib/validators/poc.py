@@ -45,6 +45,19 @@ SECTION_HEADING_SECOND_TOKENS = frozenset({
     'dr',                                    # `Meet Dr`, `Contact Dr`, `About Dr` (truncated practice headers)
 })
 
+# Leading words that no real given name uses — determiners, pronouns,
+# question words, and marketing-copy openers. When one of these heads a
+# two-token capture it's a heading/marketing fragment the extractor
+# truncated, regardless of the (arbitrary) second token: `Your AI-Native`,
+# `Why San`, `The DJ`, `Our CEO's`, `App Like`. Matched on the exact first
+# token (lowercased), so real names like `Theodore`, `Owen`, `Apple` are
+# untouched. The TEMPLATE_PHRASES check runs first, so `Our Founder` /
+# `The Owner` keep their more-specific reason.
+NON_NAME_LEADING_WORDS = frozenset({
+    'your', 'our', 'the', 'app', 'we', 'let', 'this', 'that',
+    'why', 'what', 'who', 'how', 'when', 'where', 'whose', 'whom',
+})
+
 # Two-word role/section labels that look name-like. Lowercased exact match.
 TEMPLATE_PHRASES = frozenset({
     'our founder', 'our ceo', 'our doctor', 'our doctors',
@@ -89,9 +102,17 @@ def validate_poc(name) -> Tuple[bool, Optional[str]]:
         if first == 'our' and second in {'team', 'staff', 'story', 'mission', 'values'}:
             return False, 'section_heading'
 
-    # Template phrases — full lowercased match.
+    # Template phrases — full lowercased match. Runs BEFORE the broad
+    # leading-word rule so `Our Founder` / `The Owner` keep their
+    # more-specific 'template_phrase' reason.
     if lower in TEMPLATE_PHRASES:
         return False, 'template_phrase'
+
+    # Two-token captures led by a determiner / pronoun / question word that
+    # no real given name uses — heading/marketing fragments with arbitrary
+    # second tokens ('Your AI-Native', 'Why San', 'The DJ', 'App Like').
+    if len(tokens) == 2 and tokens[0] in NON_NAME_LEADING_WORDS:
+        return False, 'section_heading'
 
     # Standalone heading / role tokens with no actual name attached.
     if len(tokens) == 1 and tokens[0] in STANDALONE_HEADING_WORDS:

@@ -190,5 +190,54 @@ class TestCosmeticSurgeonsDallasRegression(unittest.TestCase):
         self.assertTrue(valid, f'reason={reason!r}')
 
 
+class TestSoftwareSanFranciscoRegression(unittest.TestCase):
+    """POC heading/marketing-copy fragments that leaked through on the
+    software_sanfrancisco run. The heading extractor truncated longer
+    marketing headings to two tokens, leaving a leading determiner /
+    pronoun / question word that no real given name uses:
+      'Why San Francisco Businesses…' → 'Why San'
+      'Your AI-Native Partner'        → 'Your AI-Native'
+      'Your Strategic Advantage'      → 'Your Strategic'
+      'Your Brand, Amplified'         → 'Your Brand'
+      'App Like Uber'                 → 'App Like'
+      'Why Partner With Us'           → 'Why Partner'
+      'The DJ Booth'                  → 'The DJ'
+      'Our CEO's Message'             → 'Our CEO's'
+    The existing opener+filler rule missed these because the SECOND token
+    is arbitrary copy, not a known filler word."""
+
+    LEAKED = [
+        'Why San',
+        'Your AI-Native',
+        'Your Strategic',
+        'Your Brand',
+        'App Like',
+        'Why Partner',
+        'The DJ',
+        "Our CEO's",
+    ]
+
+    def test_leaked_heading_fragments_rejected(self):
+        for name in self.LEAKED:
+            valid, reason = validate_poc(name)
+            self.assertFalse(valid, f'expected invalid: {name!r}')
+            self.assertEqual(reason, 'section_heading',
+                             f'{name!r} → reason={reason!r}')
+
+    def test_existing_template_phrases_still_win(self):
+        # 'Our Founder' / 'The Owner' start with the same leading words but
+        # must keep their MORE-specific 'template_phrase' reason — the broad
+        # leading-word rule must not shadow the template-phrase check.
+        self.assertEqual(validate_poc('Our Founder')[1], 'template_phrase')
+        self.assertEqual(validate_poc('The Owner')[1], 'template_phrase')
+
+    def test_real_two_word_names_with_ordinary_leads_still_pass(self):
+        # Guard against over-rejection: real names whose first token is a
+        # normal given name must still validate.
+        for name in ('Theodore Wu', 'Wendy Chen', 'Owen Park', 'Apple Zhang'):
+            valid, reason = validate_poc(name)
+            self.assertTrue(valid, f'expected valid: {name!r} (reason={reason!r})')
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

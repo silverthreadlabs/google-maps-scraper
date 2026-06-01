@@ -90,6 +90,33 @@ def trustworthy_emails(l):
     return out
 
 
+# POCs below this confidence are vendor/cert badges or section labels that
+# look name-like — kept on master.json for audit, dropped from the SDR-facing
+# column. Calibrated so json_ld people (~0.7) and img_alt headshots (~0.45)
+# survive while badges (~0.0) and bare heading labels (~0.25) fall out.
+POC_MIN_CONFIDENCE = 0.30
+
+
+def pocs_field(l):
+    """Names for the `pocs` column: drop invalid POCs and low-confidence
+    badges/labels, surface the most trustworthy contacts first. Mirrors how
+    `all_emails` drops `emails_invalid` — the full set stays on master.json.
+
+    `confidence` is optional: a POC with no score (older master, pre-scoring
+    validate) is kept, so this never silently empties a legacy column."""
+    pocs = [
+        p for p in (l.get('pocs') or [])
+        if isinstance(p, dict) and not p.get('invalid') and p.get('name')
+    ]
+    kept = [p for p in pocs
+            if p.get('confidence') is None or p.get('confidence') >= POC_MIN_CONFIDENCE]
+    kept.sort(
+        key=lambda p: p.get('confidence') if p.get('confidence') is not None else 0.0,
+        reverse=True,
+    )
+    return ';'.join(p['name'] for p in kept)
+
+
 def _invalid_email_set(l):
     return {
         e['email'].lower()
@@ -225,7 +252,7 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
         'owner_title': l.get('owner_title'),
         'owner_linkedin': l.get('owner_linkedin'),
         'additional_team': ';'.join(l.get('additional_team') or []),
-        'pocs': ';'.join(p['name'] for p in (l.get('pocs') or []) if not p.get('invalid')),
+        'pocs': pocs_field(l),
         'top_pain_category': top_cat or '',
         'pain_breadth_count': l.get('pain_breadth') or len(l.get('pain_categories') or []),
         'pain_quote_1': (q1 or {}).get('snippet', ''),

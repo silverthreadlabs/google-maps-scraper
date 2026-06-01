@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-from lib.validators.poc import validate_poc
+from lib.validators.poc import validate_poc, poc_confidence
 
 
 VALID_NAMES = [
@@ -237,6 +237,82 @@ class TestSoftwareSanFranciscoRegression(unittest.TestCase):
         for name in ('Theodore Wu', 'Wendy Chen', 'Owen Park', 'Apple Zhang'):
             valid, reason = validate_poc(name)
             self.assertTrue(valid, f'expected valid: {name!r} (reason={reason!r})')
+
+
+class TestPOCConfidence(unittest.TestCase):
+    """Deterministic 0..1 confidence so downstream consumers (SDR filters,
+    a future LLM QA pass) can RANK POCs instead of a human eyeballing each
+    row. Calibrated on the software_sanfrancisco crawl: json_ld Person
+    schema is the gold source, headings the noisiest, img_alt mixed
+    (real headshots AND vendor badges)."""
+
+    # Real people from the actual crawl.
+    JSONLD_WITH_ROLE = {'name': 'Kyrylo Lazariev', 'role': 'CEO', 'sources': ['json_ld']}
+    JSONLD_NO_ROLE = {'name': 'Laney Silverman', 'role': None, 'sources': ['json_ld']}
+    IMG_ALT_PERSON = {'name': 'Jason White', 'role': None, 'sources': ['img_alt']}
+    HEADING_PERSON = {'name': 'Michael Terndrup', 'role': None, 'sources': ['heading_h3']}
+
+    # Vendor / certification badges that leaked via img_alt — look exactly
+    # like a "Firstname Lastname" pair but are not people.
+    BADGE_GOOGLE = {'name': 'Google Partner', 'role': None, 'sources': ['img_alt']}
+    BADGE_PREMIER = {'name': 'Google Premier', 'role': None, 'sources': ['img_alt']}
+    BADGE_WEBBY = {'name': 'Webby Awards', 'role': None, 'sources': ['img_alt']}
+
+    # A heading fragment validate_poc already rejects.
+    INVALID_FRAGMENT = {'name': 'Why San', 'role': None, 'sources': ['heading_h2']}
+
+    def test_returns_float_in_unit_range(self):
+        for poc in (self.JSONLD_WITH_ROLE, self.BADGE_GOOGLE, self.INVALID_FRAGMENT,
+                    {'name': 'Jane Doe'}, {}):
+            c = poc_confidence(poc)
+            self.assertIsInstance(c, float)
+            self.assertGreaterEqual(c, 0.0)
+            self.assertLessEqual(c, 1.0)
+
+    def test_jsonld_person_with_role_is_high(self):
+        self.assertGreaterEqual(poc_confidence(self.JSONLD_WITH_ROLE), 0.85)
+
+    def test_jsonld_person_no_role_is_solid(self):
+        self.assertGreaterEqual(poc_confidence(self.JSONLD_NO_ROLE), 0.6)
+
+    def test_badges_are_low(self):
+        for poc in (self.BADGE_GOOGLE, self.BADGE_PREMIER, self.BADGE_WEBBY):
+            self.assertLessEqual(poc_confidence(poc), 0.15,
+                                 f'{poc["name"]!r} should be low-confidence')
+
+    def test_invalid_name_is_zero(self):
+        # Anything validate_poc rejects bottoms out — no point ranking junk.
+        self.assertEqual(poc_confidence(self.INVALID_FRAGMENT), 0.0)
+
+    def test_ranking_order(self):
+        # The whole point: a stable gradient downstream can sort on.
+        self.assertGreater(poc_confidence(self.JSONLD_WITH_ROLE),
+                           poc_confidence(self.JSONLD_NO_ROLE))
+        self.assertGreater(poc_confidence(self.JSONLD_NO_ROLE),
+                           poc_confidence(self.IMG_ALT_PERSON))
+        self.assertGreater(poc_confidence(self.IMG_ALT_PERSON),
+                           poc_confidence(self.BADGE_GOOGLE))
+
+    def test_role_boosts_score(self):
+        with_role = {'name': 'Sara Kim', 'role': 'Founder', 'sources': ['img_alt']}
+        without = {'name': 'Sara Kim', 'role': None, 'sources': ['img_alt']}
+        self.assertGreater(poc_confidence(with_role), poc_confidence(without))
+
+    def test_multi_source_corroboration_boosts(self):
+        one = {'name': 'Lee Park', 'role': None, 'sources': ['heading_h2']}
+        two = {'name': 'Lee Park', 'role': None, 'sources': ['heading_h2', 'json_ld']}
+        self.assertGreater(poc_confidence(two), poc_confidence(one))
+
+    def test_real_surname_not_in_badge_set_is_unpenalized(self):
+        # 'Gold' is a real surname — must NOT be treated as a badge word, or
+        # we'd silently sink real people. json_ld base should stand.
+        gold = {'name': 'Sarah Gold', 'role': None, 'sources': ['json_ld']}
+        self.assertGreaterEqual(poc_confidence(gold), 0.6)
+
+    def test_handles_missing_or_malformed_fields(self):
+        for poc in ({}, {'name': 'Jo'}, {'sources': None, 'role': None}, {'name': None}):
+            c = poc_confidence(poc)
+            self.assertIsInstance(c, float)
 
 
 if __name__ == '__main__':

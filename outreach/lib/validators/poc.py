@@ -73,6 +73,89 @@ _ALPHA_RE = re.compile(r'[A-Za-z]')
 MIN_NAME_LEN = 3
 
 
+# ── Confidence scoring ──────────────────────────────────────────────────
+# A 0..1 score so downstream consumers (SDR filters, a future LLM QA pass)
+# can RANK POCs instead of a human reading every row. Calibrated on real
+# crawl output. This ANNOTATES — it never drops a POC (CLAUDE.md rule 1):
+# even a badge scores low rather than being deleted, so a rare false
+# penalty only lowers rank.
+
+# Base trust by extraction source — best source wins (max over the set).
+# json_ld = schema-declared Person (gold); headings = noisiest (section
+# labels, marketing copy); img_alt = mixed (real headshots AND vendor
+# badges).
+SOURCE_WEIGHTS = {
+    'json_ld':    0.70,
+    'img_alt':    0.45,
+    'heading_h1': 0.25,
+    'heading_h2': 0.25,
+    'heading_h3': 0.25,
+    'heading_h4': 0.25,
+}
+DEFAULT_SOURCE_WEIGHT = 0.30
+ROLE_BOOST = 0.20            # a declared role ('CEO', 'Founder') signals personhood
+MULTI_SOURCE_BOOST = 0.10    # corroboration across ≥2 distinct sources
+BADGE_PENALTY = 0.45         # name reads as a vendor/certification badge
+
+# Tokens that mark a name as a vendor/certification badge rather than a
+# person. PLATFORM names and badge NOUNS that are not plausible surnames.
+# Deliberately EXCLUDES ambiguous real surnames (Gold, Top, Member, Stone)
+# — the penalty must not silently sink real people.
+_BADGE_TOKENS = frozenset({
+    # platforms / award bodies
+    'google', 'meta', 'facebook', 'microsoft', 'aws', 'amazon', 'shopify',
+    'hubspot', 'salesforce', 'adobe', 'clutch', 'webby', 'forbes', 'g2',
+    'yelp', 'bing', 'semrush', 'trustpilot',
+    # badge nouns (rare/implausible as surnames)
+    'partner', 'premier', 'certified', 'accredited', 'sponsor',
+    'award', 'awards', 'winning', 'verified',
+})
+
+
+def _looks_like_badge(name: str) -> bool:
+    toks = set(_tokenize(name.lower()))
+    return bool(toks & _BADGE_TOKENS)
+
+
+def poc_confidence(poc) -> float:
+    """Return a 0..1 confidence that this POC dict is a real, useful contact.
+
+    Signals (all from fields the crawler already captures):
+      • extraction source   — json_ld > img_alt > headings
+      • declared role        — present → boost
+      • corroboration        — ≥2 distinct sources → boost
+      • badge vocabulary     — 'Google Partner', 'Webby Awards' → penalty
+      • hard-invalid name    — anything validate_poc rejects → 0.0
+
+    Tolerant of missing/malformed fields (returns a low score, never raises).
+    """
+    if not isinstance(poc, dict):
+        return 0.0
+
+    name = poc.get('name')
+    # Names validate_poc already rejects aren't worth ranking.
+    ok, _ = validate_poc(name)
+    if not ok:
+        return 0.0
+
+    sources = [s for s in (poc.get('sources') or []) if isinstance(s, str)]
+    if sources:
+        base = max(SOURCE_WEIGHTS.get(s, DEFAULT_SOURCE_WEIGHT) for s in sources)
+    else:
+        base = DEFAULT_SOURCE_WEIGHT
+
+    score = base
+    if poc.get('role'):
+        score += ROLE_BOOST
+    if len(set(sources)) >= 2:
+        score += MULTI_SOURCE_BOOST
+    if _looks_like_badge(name):
+        score -= BADGE_PENALTY
+
+    score = max(0.0, min(1.0, score))
+    return round(score, 2)
+
+
 def _tokenize(s: str) -> list[str]:
     """Split on whitespace, keep tokens, drop empty."""
     return [t for t in s.split() if t]

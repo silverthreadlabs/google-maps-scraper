@@ -11,7 +11,7 @@ Invocation form: `outreach <pipeline> [stage]`.
 
 - **pipeline** (required) — directory under `outreach/campaigns/`, e.g. `dental_sunbelt`.
 - **stage** (optional) — one of:
-  `analyze | classify | enrich | validate | handoff | owner-lookup | osint-enrich`.
+  `analyze | classify | translate | enrich | validate | handoff | owner-lookup | osint-enrich`.
   If omitted, ask the user which stage to run; do not default.
 
 ## Standard pipeline order
@@ -19,7 +19,7 @@ Invocation form: `outreach <pipeline> [stage]`.
 For a fresh campaign:
 
 ```
-scrape → analyze → enrich → merge-crawl → classify → validate → handoff
+scrape → analyze → enrich → merge-crawl → classify → translate → validate → handoff
                                                          ↓
                                                     owner-lookup (optional)
                                                          ↓
@@ -231,6 +231,32 @@ expects (see step 5 below).
    failure mode the gate is meant to catch.
 7. **Echo summary:** `classified <n> leads (<m> hits across <k> mains) → <sidecar-path>`
    plus `next: python outreach/lib/cli/merge_classifications.py --master <…> --sidecar <sidecar> --out <new-master>`.
+
+---
+
+## Stage: translate
+
+`outreach <pipeline> translate`
+
+Locale-gated translation of the pain quotes that surface in the handoff. No-op
+for `en-*` campaigns. For non-English campaigns it sends only the non-English
+snippets (script-detected) to a translator subagent, then grafts English back.
+
+Steps:
+
+1. `python outreach/lib/cli/translate.py <pipeline> [--master PATH] [--output-date <date>]`
+   - Writes `enrichment/translations/<date>_request.json`:
+     `{ "<place_id>": { "<snippet_key>": "<original>" } }`.
+   - If the campaign locale is `en-*`, the request is empty — skip the rest.
+2. Dispatch the `translator` subagent (Silverthread `ai-translator-private`
+   `translator` skill rules: anti-fabrication; preserve numbers, currency,
+   person/company names, URLs, identifiers; English must read natively) over
+   the request sidecar in batches. The subagent writes
+   `enrichment/translations/<date>.json` with the SAME keys mapped to English.
+3. `python outreach/lib/cli/merge_translations.py --master <master> --sidecar enrichment/translations/<date>.json --out <master>`
+   - Grafts `snippet_en` onto each `agent_pain_hits[*]` with provenance.
+
+next: `outreach <pipeline> validate`
 
 ---
 

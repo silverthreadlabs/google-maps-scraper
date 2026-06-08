@@ -47,6 +47,7 @@ FIELDNAMES = [
     'owner_name', 'owner_title', 'owner_linkedin', 'additional_team', 'pocs',
     # pain
     'top_pain_category', 'pain_breadth_count', 'pain_quote_1', 'pain_quote_2',
+    'pain_quote_1_original', 'pain_quote_2_original',
     'pain_quote_1_rating', 'pain_quote_2_rating',
     'recommended_service', 'recommended_service_url',
     # context for sales
@@ -191,6 +192,7 @@ def top_pain_with_quotes(l, *, pain_weights: dict, n_quotes: int = 2):
                 'rating': hit.get('rating'),
                 'reviewer': hit.get('reviewer'),
                 'snippet': snippet,
+                'snippet_en': (hit.get('snippet_en') or '').strip(),
                 'matched': hit.get('matched'),
             })
             seen.add(snippet)
@@ -255,8 +257,10 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
         'pocs': pocs_field(l),
         'top_pain_category': top_cat or '',
         'pain_breadth_count': l.get('pain_breadth') or len(l.get('pain_categories') or []),
-        'pain_quote_1': (q1 or {}).get('snippet', ''),
-        'pain_quote_2': (q2 or {}).get('snippet', ''),
+        'pain_quote_1': (q1 or {}).get('snippet_en') or (q1 or {}).get('snippet', ''),
+        'pain_quote_2': (q2 or {}).get('snippet_en') or (q2 or {}).get('snippet', ''),
+        'pain_quote_1_original': (q1 or {}).get('snippet', '') if (q1 or {}).get('snippet_en') else '',
+        'pain_quote_2_original': (q2 or {}).get('snippet', '') if (q2 or {}).get('snippet_en') else '',
         'pain_quote_1_rating': (q1 or {}).get('rating', ''),
         'pain_quote_2_rating': (q2 or {}).get('rating', ''),
         'recommended_service': service_map.get(top_cat, ('', ''))[0] if top_cat else '',

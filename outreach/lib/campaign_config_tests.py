@@ -323,6 +323,16 @@ class TestLoadCampaignEndToEnd(unittest.TestCase):
         with self.assertRaises(FileNotFoundError):
             load_campaign('does_not_exist')
 
+    def test_locale_exposed_from_location_yaml(self):
+        # Runs against the temp fixture root built in setUp (locale: en-US),
+        # not the real campaigns/ dir — so this asserts the passthrough via the
+        # fixture. The code path is identical for any locale value, so this
+        # also covers the non-English (uk-UA) case the translate gate needs.
+        from lib.campaign_config import load_campaign
+        cfg = load_campaign('dentist_sunbelt')
+        self.assertEqual(cfg.locale, 'en-US')
+        self.assertEqual(cfg.country, 'US')
+
 
 if __name__ == '__main__':
     unittest.main()

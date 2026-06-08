@@ -45,6 +45,8 @@ class CampaignConfig:
     slug: str
     vertical: str
     location: str
+    locale: str = ''
+    country: str = ''
 
     # Pain ranking (vertical default, optionally overridden by campaign)
     pain_weights: dict[str, int] = field(default_factory=dict)
@@ -235,6 +237,8 @@ def _merge(
         slug=meta['slug'],
         vertical=meta['vertical'],
         location=meta['location'],
+        locale=location.get('locale', ''),
+        country=location.get('country', ''),
 
         pain_weights=_overlay_dict(
             getattr(vertical, 'PAIN_WEIGHTS', {}),

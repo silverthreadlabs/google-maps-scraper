@@ -333,6 +333,20 @@ class TestLoadCampaignEndToEnd(unittest.TestCase):
         self.assertEqual(cfg.locale, 'en-US')
         self.assertEqual(cfg.country, 'US')
 
+    def test_overrides_overlay_osint_serp_queries(self):
+        (self.root / 'campaigns' / 'dentist_sunbelt' / 'overrides.py').write_text(
+            "OSINT_SERP_QUERIES = {'poc_name': 'site:linkedin.com {city} OVERRIDE'}\n"
+            "OSINT_FIELDS_DESIRED = ['poc_role']\n"
+            "OSINT_INDUSTRY_TERMS = ['general dentist']\n"
+        )
+        from lib.campaign_config import load_campaign
+        cfg = load_campaign('dentist_sunbelt')
+        self.assertEqual(cfg.osint_serp_queries['poc_name'], 'site:linkedin.com {city} OVERRIDE')
+        self.assertIn('poc_name', cfg.osint_fields_desired)
+        self.assertIn('poc_role', cfg.osint_fields_desired)
+        self.assertIn('dentist', cfg.osint_industry_terms)
+        self.assertIn('general dentist', cfg.osint_industry_terms)
+
 
 if __name__ == '__main__':
     unittest.main()

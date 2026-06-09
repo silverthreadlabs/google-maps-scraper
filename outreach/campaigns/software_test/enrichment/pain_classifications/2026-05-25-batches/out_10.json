@@ -1,0 +1,156 @@
+[
+  {"id": 300, "categories": []},
+  {"id": 301, "categories": []},
+  {"id": 302, "categories": []},
+  {"id": 303, "categories": []},
+  {"id": 304, "categories": []},
+  {
+    "id": 305,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Completely messed up my site, took my money, and left me high and dry where I have a website that I cant use for my business",
+        "reasoning": "Client received a broken/unusable website — bad deliverable."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "took my money, and left me high and dry",
+        "reasoning": "Paid for project but was abandoned without a working result."
+      }
+    ]
+  },
+  {"id": 306, "categories": []},
+  {"id": 307, "categories": []},
+  {"id": 308, "categories": []},
+  {"id": 309, "categories": []},
+  {
+    "id": 310,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.85,
+        "quote": "wastes customer's money but don't provide final results",
+        "reasoning": "Customer paid but never received the final deliverable."
+      }
+    ]
+  },
+  {"id": 311, "categories": []},
+  {
+    "id": 312,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "Обслуговують довго, замовлення переплутали",
+        "reasoning": "Long wait for service at the cafe."
+      }
+    ]
+  },
+  {"id": 313, "categories": [
+    {
+      "main": "billing_or_intake_errors",
+      "sub": "surprise_billing",
+      "confidence": 0.85,
+      "quote": "змушена була заплатити ще 250 грн за ненавмисно розбиту чашку",
+      "reasoning": "Unexpected/undisclosed charge added; no posted price for the item."
+    }
+  ]},
+  {"id": 314, "categories": []},
+  {"id": 315, "categories": []},
+  {
+    "id": 316,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "10 хвилин чекала щоб прийняли моє замовлення. На мене просто не звертали увагу",
+        "reasoning": "Customer waited 10 minutes while being ignored — long wait / inattentive service."
+      }
+    ]
+  },
+  {"id": 317, "categories": []},
+  {
+    "id": 318,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "kept dialing thier land line contact no to discuss further.. no one answering the phone",
+        "reasoning": "Repeated calls to office landline went unanswered."
+      }
+    ]
+  },
+  {"id": 319, "categories": []},
+  {
+    "id": 320,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.85,
+        "quote": "Розробляти сайт роками",
+        "reasoning": "Website development dragged on for years — repeated delays."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Купляти шаблони на WP і видавати за ноухау",
+        "reasoning": "Sold custom 'know-how' but delivered repackaged WP templates — diverges from promise."
+      }
+    ]
+  },
+  {"id": 321, "categories": []},
+  {"id": 322, "categories": []},
+  {"id": 323, "categories": []},
+  {"id": 324, "categories": []},
+  {"id": 325, "categories": []},
+  {
+    "id": 326,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "They create constant mistakes and errors.  They have temporarily crashed my Zapier account",
+        "reasoning": "Work product was broken and caused damage that required another developer to fix."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "They also were extremely behind on previous important deadlines",
+        "reasoning": "Explicitly behind on important deadlines."
+      }
+    ]
+  },
+  {"id": 327, "categories": []},
+  {"id": 328, "categories": []},
+  {
+    "id": 329,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "there are also many contradictions between what they initially say and what they actually do",
+        "reasoning": "Contradictory information between what was said and what was done."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "They simply do what they want and later try to justify it by telling you that you are wrong",
+        "reasoning": "Delivered diverges from what was agreed; vendor reframes rather than meeting spec."
+      }
+    ]
+  }
+]

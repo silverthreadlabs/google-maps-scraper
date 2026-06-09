@@ -1,0 +1,189 @@
+{
+  "ChIJlWRW5nstGUcR2blmDFg3muE": {
+    "people": [
+      {
+        "name": "Michał Pierzchlewicz",
+        "role": "Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/michal-pierzchlewicz/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "Listed as Founder & CTO on teacode.io/about-us; LinkedIn confirmed via search result"
+      },
+      {
+        "name": "Urszula Wawrzeniuk",
+        "role": "Head of Delivery",
+        "linkedin": "https://www.linkedin.com/in/urszula-wawrzeniuk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Head of Delivery at TeaCode.io since February 2024; confirmed via The Org and LinkedIn search result"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/teacode.io",
+      "twitter": "https://x.com/teacode_io",
+      "instagram": "https://www.instagram.com/teacodeio/",
+      "facebook": "https://www.facebook.com/teacodeio",
+      "email": "inquiry@teacode.io"
+    }
+  },
+  "ChIJYUhk9DWQ4EARmQ4BKZ8kbSQ": {
+    "people": [
+      {
+        "name": "Anastasia Novoselova",
+        "role": "Manager",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "Listed as Manager on vectorstudio.com.ua team page; owner Artem Kretinin already captured in have_owner"
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/vectorstudio_com.ua/",
+      "facebook": "https://www.facebook.com/studiovectordp/",
+      "email": "vectorstudio.diz@yahoo.com"
+    }
+  },
+  "ChIJ2a0tZgQU94wRzKRDvfmfGys": {
+    "people": [
+      {
+        "name": "Mykhailo Diakovych",
+        "role": "CTO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/mykhailo-diakovych/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "CTO & Co-Founder at Hoverla Soft confirmed via hoverlasoft.com/meet-the-team and multiple LinkedIn search results"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/hoverla-soft",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/hoverlasoft/",
+      "facebook": "",
+      "email": "info@hoverlasoft.com"
+    }
+  },
+  "ChIJS-KxJEvE1EARbtpj4eFLUHk": {
+    "people": [
+      {
+        "name": "Sam Ferrise",
+        "role": "Chief Technology Officer",
+        "linkedin": "https://www.linkedin.com/in/sam-ferrise-996ba83/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "CTO at Trinetix confirmed via trinetix.com/our-team and LinkedIn search result"
+      },
+      {
+        "name": "Boris Bukengolts",
+        "role": "Chief Growth Officer, North America",
+        "linkedin": "https://www.linkedin.com/in/bukengolts/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Chief Growth Officer North America at Trinetix confirmed via trinetix.com/our-team"
+      },
+      {
+        "name": "Yuriy Kovalenko",
+        "role": "VP of Strategy and Corporate Development",
+        "linkedin": "https://www.linkedin.com/in/yuriy-kovalenko-1675865/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "VP of Strategy and CorpDev at Trinetix confirmed via LinkedIn search result"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/trinetix-inc/",
+      "twitter": "https://x.com/trinetix_inc",
+      "instagram": "https://www.instagram.com/trinetix_inc/",
+      "facebook": "https://www.facebook.com/trinetix",
+      "email": "hello@trinetix.com"
+    }
+  },
+  "ChIJ56zk_aTP1EARooLFP_C15jM": {
+    "people": [
+      {
+        "name": "Vladimir Chernysh",
+        "role": "CTO & R&D Director",
+        "linkedin": "https://www.linkedin.com/in/vladimir-chernysh-97ba5061",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "CTO - R&D Director at Skywell Software confirmed via LinkedIn search result (ua.linkedin.com/in/vladimir-chernysh-97ba5061)"
+      },
+      {
+        "name": "Max Onischuk",
+        "role": "Business Consultant / BD",
+        "linkedin": "https://www.linkedin.com/in/skywell/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.65,
+        "evidence": "International Business Consultant at Skywell LLC per LinkedIn search result; profile URL is linkedin.com/in/skywell suggesting close company association"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/skywell-software",
+      "twitter": "https://x.com/skywellsoftware",
+      "instagram": "https://www.instagram.com/skywell_software/",
+      "facebook": "https://www.facebook.com/skywell.software/",
+      "email": "info@skywell.software"
+    }
+  },
+  "ChIJz97lfZrdOkcRJUb0lcyzYZ8": {
+    "people": [
+      {
+        "name": "Nelia Morozyk",
+        "role": "Head of Sales Operations",
+        "linkedin": "https://www.linkedin.com/in/neliamorozyk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/nelia.morozyk",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Head of Sales Operations at Relevant Software confirmed via LinkedIn search and ZoomInfo; email domain n***@relevant.software per ZoomInfo"
+      },
+      {
+        "name": "Nataliia Dynka",
+        "role": "Client Partnership Director",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "Client Partnership Director at Relevant Software found via relevant.software/our-team/ page; LinkedIn URL not verified with confidence"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/relevant-software",
+      "twitter": "https://x.com/RelevantSoft",
+      "instagram": "https://www.instagram.com/relevant.software/",
+      "facebook": "https://www.facebook.com/relevant.software/",
+      "email": "info@relevant.software"
+    }
+  }
+}

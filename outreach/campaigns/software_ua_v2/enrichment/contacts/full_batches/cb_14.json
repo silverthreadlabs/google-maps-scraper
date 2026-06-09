@@ -1,0 +1,167 @@
+{
+  "ChIJhyTlMnu6X6YROfhTdPJjI7Y": {
+    "people": [
+      {
+        "name": "Bogdan Khalyapin",
+        "role": "Co-CEO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/khalyapin/",
+        "twitter": "https://twitter.com/ikhalyapin",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile confirms Co-CEO & Co-Founder at SPD Technology (spd.tech); Twitter @ikhalyapin confirmed via search; co-founded company in 2006 with Alex Sadovsky"
+      },
+      {
+        "name": "Victor Haydin",
+        "role": "VP, Business Development & Sales",
+        "linkedin": "https://www.linkedin.com/in/victorhaydin",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile confirmed at linkedin.com/in/victorhaydin; listed as VP Business Development & Sales on spd.tech/company/ leadership page; leads 21-person sales department per RocketReach"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/spdtechnology",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/spdtechnology/",
+      "facebook": "https://www.facebook.com/spdtechnology/",
+      "email": "info@spd.tech"
+    }
+  },
+  "ChIJnxH9FRrN1EARSLdyswjA42g": {
+    "people": [
+      {
+        "name": "Artem Bezruk",
+        "role": "CEO & Co-Founder",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "ZoomInfo and RocketReach both list Artem Bezruk as CEO at Jupser IT (jupser.com), Kyiv; previously Co-Founder; attended Donetsk State University of Management. LinkedIn directory shows 4 Artem Bezruk profiles but specific /in/ URL not confirmed."
+      },
+      {
+        "name": "Andrii Spivakov",
+        "role": "Tech Lead",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "RocketReach lists Andrii Spivakov as Tech Lead at Jupser IT (jupser.com); previously at Binary Studio and Jaybird Marketing Group; based in Warsaw per RocketReach. Specific LinkedIn /in/ URL not confirmed."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/jupser",
+      "twitter": "https://twitter.com/jupserlab",
+      "instagram": "https://www.instagram.com/jupserlab/",
+      "facebook": "https://www.facebook.com/jupserlab/",
+      "email": ""
+    }
+  },
+  "ChIJ77zQ93zdOkcR-P8Hc7JWOls": {
+    "people": [
+      {
+        "name": "Vasyl Komarnytskiy",
+        "role": "Co-Founder & Head of Business Development",
+        "linkedin": "https://www.linkedin.com/in/vasyl-komarnytskiy-158374a3/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile at vasyl-komarnytskiy-158374a3 confirmed; ZoomInfo lists him as Head of Business Development at Newsoft (newsoft-ns.com); RocketReach also lists him in Newsoft sales dept; co-founder per earlier sources; Master's from Lviv Polytechnic National University"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/newsoft-ns",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/newsoft_official/",
+      "facebook": "https://www.facebook.com/newsoftns/",
+      "email": "sales@newsoft-ns.com"
+    }
+  },
+  "ChIJn_XrWv7nOkcRNUF2j6-0w4A": {
+    "people": [
+      {
+        "name": "Yuriy Zahreva",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/zahreva/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "Crunchbase and multiple sources list Yuriy Zahreva as Co-Founder & CTO of Zade (zade.agency / zade.space); LinkedIn /in/zahreva/ confirmed via LinkedIn post activity linked to Zade/startup mentorship content; previously at Chatbots.Studio as Delivery Manager; Fractional CTO profile consistent with role"
+      },
+      {
+        "name": "Kate Martsiv",
+        "role": "Partnerships Manager",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "RocketReach management org chart for Zade Agency (zade.agency) lists Kate Martsiv as Partnerships Manager. Specific LinkedIn URL not found."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/zade",
+      "twitter": "https://twitter.com/zade_agency",
+      "instagram": "https://www.instagram.com/zade.agency/",
+      "facebook": "https://www.facebook.com/p/Zade-Agency-100069654282037/",
+      "email": "hello@zade.agency"
+    }
+  },
+  "ChIJVVXhtZXdOkcRRzi7_6kYCtc": {
+    "people": [
+      {
+        "name": "Yuriy Detsyk",
+        "role": "CTO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/yuriydetsyk",
+        "twitter": "https://twitter.com/yuriydetsyk",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/yuriydetsyk",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile at ua.linkedin.com/in/yuriydetsyk confirmed; ZoomInfo lists him as CTO at Chunkup (chunkup.com); Twitter @yuriydetsyk and Facebook confirmed via personal website yuriydetsyk.com; chunkup.com team page lists him as CTO, Full-stack Engineer"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/chunkup",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJI0JKYdvnOkcROyuHN25d-qI": {
+    "people": [
+      {
+        "name": "Dmytro Sennikov",
+        "role": "General Manager & Head of Ukraine",
+        "linkedin": "https://www.linkedin.com/in/dsennikov/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile at linkedin.com/in/dsennikov/ confirmed; RocketReach and multiple sources confirm General Manager, Head of Ukraine at ISsoft Ukraine (issoft.ua); 25+ years IT experience, ex-EPAM; Lviv Polytechnic National University graduate"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/issoft-ukraine",
+      "twitter": "https://x.com/issoftglobal",
+      "instagram": "https://www.instagram.com/issoftua/",
+      "facebook": "https://www.facebook.com/issoftua",
+      "email": ""
+    }
+  }
+}

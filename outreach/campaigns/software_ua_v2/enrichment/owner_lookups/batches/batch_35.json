@@ -1,0 +1,44 @@
+{
+  "ChIJg_gC467dOkcRFZ9B6CCkfYY": {
+    "name": "Pavlo Levchuk",
+    "title": "Founder / CEO",
+    "linkedin": "https://www.linkedin.com/in/pavlolevchuk",
+    "confidence": 0.92,
+    "evidence": "Named on pega.agency homepage as Founder/CEO with contact pavlo.levchuk@pega.agency; LinkedIn ua.linkedin.com/in/pavlolevchuk confirms 'Pega - CRO | Founder' at same domain"
+  },
+  "ChIJBRnHpsAINEcRtiCGL99uy_o": {
+    "name": "Taras Krasnov",
+    "title": "Owner",
+    "linkedin": "https://www.linkedin.com/in/taras-krasnov-978900a5",
+    "confidence": 0.88,
+    "evidence": "Company Google Maps name includes legal entity 'PE Krasnov Taras Oleksandrovych'; LinkedIn ua.linkedin.com/in/taras-krasnov-978900a5 title is 'PPC Agency Owner And Top Manager'"
+  },
+  "ChIJv6vQ5nfdOkcRhBG3PDOyXV8": {
+    "name": "Oleh Kukliak",
+    "title": "CEO / Founder",
+    "linkedin": "https://www.linkedin.com/in/oleh-kukliak-02772a174",
+    "confidence": 0.95,
+    "evidence": "LinkedIn ua.linkedin.com/in/oleh-kukliak-02772a174 title 'CEO and Founder of Kykil Agency'; confirmed by themanifest.com and multiple social profiles"
+  },
+  "ChIJBxm3LqrdOkcRjrqPSDfdDdo": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No named leadership found on bitimark.com or in any public source; ZoomInfo lists company but no executive names"
+  },
+  "ChIJOexW4HbdOkcRCbiEH_Ilotc": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ontop.agency domain currently shows 'for sale' page; no archived leadership data found; could not identify founder/owner"
+  },
+  "ChIJVxmQxGfdOkcR935zAwv_z_4": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No named leadership on apartner.pro; LinkedIn company page exists but no individual founder/owner identified in any public source"
+  }
+}

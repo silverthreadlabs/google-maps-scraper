@@ -1,0 +1,44 @@
+{
+  "ChIJhXzhb4LL1EARh9pBNuKLh-Q": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "DA-Studio about page (da-studio.com.ua/ru/o-kompanii/) lists no individual names; no founder/CEO found in web searches"
+  },
+  "ChIJWeCT_rLP1EAR7hjHXOeutZ8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "UkrWare about page (ukrware.com/about) lists no individual names; no founder/CEO identified in web searches or LinkedIn"
+  },
+  "ChIJUUFR6C7P1EARBve1HE6bLSk": {
+    "name": "Artur Shepel",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/artur-shepel/",
+    "confidence": 0.85,
+    "evidence": "Confirmed via Crunchbase, deventor.io/blog/author/a-shepel/, and LinkedIn profile listing Deventor; LinkedIn current company matches deventor.io"
+  },
+  "ChIJq30JYsrP1EARBElxQ27aWLA": {
+    "name": "Paul Mark Braem Vedel",
+    "title": "Founder & Partner",
+    "linkedin": "https://www.linkedin.com/in/mavedel/",
+    "confidence": 0.7,
+    "evidence": "TheOrg and LinkedIn confirm Paul Mark Braem Vedel as Founder & Partner of INSCALE (formerly Vedel IT); current CEO is Henrik Mou (dk.linkedin.com/in/henrikmou), but Vedel is the founding decision-maker"
+  },
+  "ChIJ189NjkDO1EARz9SlonAG7nY": {
+    "name": "Volodymyr Yatsevsky",
+    "title": "Chief Executive",
+    "linkedin": "https://www.linkedin.com/in/yatsevsky/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn title 'Chief Executive - LiveArt Online Product Designer'; ZoomInfo and RocketReach confirm CEO at liveartdesigner.com email domain; Kyiv-based"
+  },
+  "ChIJy-YRuFjP1EARbeqkoNTcMTQ": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Digitronics Solution appears to be India-based (est. 2018) with Ukraine as a service branch; no named founder/CEO found on website or web searches; SSL cert expired"
+  }
+}

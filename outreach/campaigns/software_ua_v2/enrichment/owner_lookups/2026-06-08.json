@@ -1,0 +1,93 @@
+{
+  "ChIJ69P6u6jF1EARHk2JyT6dJYY": {
+    "name": "Mykhaylo Khokhulya",
+    "title": "CEO & Co-founder",
+    "linkedin": "https://ua.linkedin.com/in/mykhaylo-khokhulya",
+    "confidence": 0.8,
+    "evidence": "RO App = Ukrainian-market brand of RemOnline/Orderry; Khokhulya confirmed co-founder (CEO label has one conflicting source)."
+  },
+  "ChIJaRoJcofL1EARsOdHYHTKPs8": {
+    "name": "Mykola Dubovyk",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://ua.linkedin.com/in/dubovykn",
+    "confidence": 0.9,
+    "evidence": "LinkedIn 'CEO & CO-Founder SkyService POS'; Crunchbase; email m@skyservice.pro matches site."
+  },
+  "ChIJjfQm_n7nOkcRJnocd2IewwU": {
+    "name": "Oleksandr Buryak (Буряк Олександр Федорович)",
+    "title": "Director / Owner (51%)",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "YouControl EDRPOU 39658848 (РА БРЕНДМІ, Lviv, address matches brandme.in.ua): director & 51% owner. No personal LinkedIn."
+  },
+  "ChIJ02Ft-2nP1EARSh3YJYpqcWo": {
+    "name": "Serge Guzenko (Sergey Guzenko)",
+    "title": "Owner & CEO, Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/sergey-guzenko-wezom/",
+    "confidence": 0.95,
+    "evidence": "WEZOM homepage names him Co-Founder/CEO; LinkedIn 'Owner, CEO at WEZOM'; Crunchbase/The Org corroborate."
+  },
+  "ChIJf-63ep_nOkcRUbh83XOutr4": {
+    "name": "Harry Propper",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/harry-propper-8515218/",
+    "confidence": 0.95,
+    "evidence": "Current SoftServe CEO (since late 2023) per softserveinc.com leadership + LinkedIn. NOTE: SoftServe is a ~13k-person outsourcer — outside ezly ICP."
+  },
+  "ChIJAx2ZHN3i20ARzEq3yJnETN4": {
+    "name": "Dmytro Khudolii",
+    "title": "Founder & CTO",
+    "linkedin": "",
+    "confidence": 0.85,
+    "evidence": "ZoomInfo Founder & CTO with @fnx.com.ua email (matches fnx.com.ua); site lists 'Технічний директор Худолій Дмитро'. No clean personal LinkedIn."
+  },
+  "ChIJDQh7_LvnOkcRNP0W6uO4Mws": {
+    "name": "Andriy Krupa",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/andriy-krupa-4b8b145/",
+    "confidence": 0.95,
+    "evidence": "Current ELEKS CEO per eleks.com leadership + LinkedIn. NOTE: ELEKS is a large engineering firm — outside ezly ICP."
+  },
+  "ChIJD4PvrlnP1EARgnbJjaBlZT4": {
+    "name": "Oleh Dumych",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/olehdumych/",
+    "confidence": 0.9,
+    "evidence": "altumsoftware.io About page 'Oleg Dumych - Founder & CEO'; LinkedIn /in/olehdumych/ current company Altum Software."
+  },
+  "ChIJO7WlkB3dOkcRsEiswKyjT8Q": {
+    "name": "Viktor Baran (Віктор Баран)",
+    "title": "General Director",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "leosvit.com/inf/team lists him 'Генеральний директор'. May be hired CEO vs owner. No personal LinkedIn."
+  },
+  "ChIJfa-Y9yjdOkcRIzR0rnCpUHw": {
+    "name": "Vladyslav Malchevskyi (Владислав Мальчевський)",
+    "title": "CEO & Co-founder",
+    "linkedin": "",
+    "confidence": 0.85,
+    "evidence": "voodooecom.com/about: CEO & co-founder (co-founder Dmytro Babich is CBDO). Instagram-only (@malchewzki_); no LinkedIn."
+  },
+  "ChIJSVrxpB3P1EARNbfHYE_MaSM": {
+    "name": "Oleksii Petrychenko",
+    "title": "Founder & CEO",
+    "linkedin": "https://ua.linkedin.com/in/alekseypetrychenko",
+    "confidence": 0.95,
+    "evidence": "shop-express.ua author page 'засновник і генеральний директор Shop-Express'; LinkedIn confirms."
+  },
+  "ChIJc9noLlPdOkcR4ZN_OA9C-k4": {
+    "name": "Yurii Pyrch (Юрій Пирч)",
+    "title": "Owner & CEO",
+    "linkedin": "https://www.linkedin.com/in/yurii-pyrch-07089b15/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn 'Owner & CEO' of K2 - реклама для інтернет-магазинів (Lviv) since 2019; founder interview corroborates."
+  },
+  "ChIJ23prlSnj20ARSM3GTK6qUvI": {
+    "name": "Roman Luchkov (Лучков Роман)",
+    "title": "General Director",
+    "linkedin": "",
+    "confidence": 0.85,
+    "evidence": "pc-service.ua leadership message + anniversary page name him Генеральний директор. No personal LinkedIn."
+  }
+}

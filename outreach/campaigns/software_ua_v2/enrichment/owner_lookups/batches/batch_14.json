@@ -1,0 +1,44 @@
+{
+  "ChIJ8yKOy4nP1EARtgAahPEHbt8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "syntagmasoft.com unreachable (ECONNREFUSED); no founder/CEO found in web search results"
+  },
+  "ChIJF9a8ATuO96URJf9HnulCs1Q": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "neomodern.site returned 403; no results for 'Krumkachov' or neomodern.site leadership in web searches"
+  },
+  "ChIJPe3eZybF1EAR7Umc9VZOYbM": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "credotech.eu SSL expired; LinkedIn company page lists no named individuals; Israel/Ukraine NopCommerce firm, owner not publicly identified"
+  },
+  "ChIJy1NB5g_F1EARxINPx3IX-T0": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "digitalizer.site unreachable (ECONNREFUSED); no founder/CEO identified in web searches"
+  },
+  "ChIJfUkDLTHP1EARzC6jGe6opHU": {
+    "name": "Jesper Lindholt",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/jesperlindholt/",
+    "confidence": 0.95,
+    "evidence": "Confirmed CEO/Founder of Livatek (livatek.com) via LinkedIn profile, Crunchbase, TheOrg, RocketReach, and Wharton DC article; Danish entrepreneur based in Kyiv, Ukraine"
+  },
+  "ChIJnyd1GM3P1EARbwwlhVTIOlY": {
+    "name": "Vitalii Artyukh",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/vitalii-artyukh",
+    "confidence": 0.75,
+    "evidence": "Listed as CEO on devsx.net/about page; LinkedIn profile uk.linkedin.com/in/vitalii-artyukh shows DevsX association; RocketReach also lists Artem Kozlovets as CEO (possibly former/alternate), but company website confirms Artyukh"
+  }
+}

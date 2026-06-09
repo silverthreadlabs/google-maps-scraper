@@ -1,0 +1,44 @@
+{
+  "ChIJTQqvWClTRKgR2GaL29SFnmg": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/owner/CEO name found on webui.com.ua about/contact pages or via web search; company does not publicly name leadership"
+  },
+  "ChIJPz9Dot3dOkcRNR6LOe4xlRo": {
+    "name": "Dmitrii Hruzdiev",
+    "title": "Co-Founder",
+    "linkedin": "",
+    "confidence": 0.6,
+    "evidence": "Listed as co-founder (Соучредитель) of KARAKUM Soft on RocketReach management page; no personal linkedin.com/in/ URL found"
+  },
+  "ChIJM8LK_NrnOkcRF-YmF2oF-1I": {
+    "name": "Andrii Sydoruk",
+    "title": "Co-Founder & CEO, Managing Partner",
+    "linkedin": "https://www.linkedin.com/in/andrii-sydoruk/",
+    "confidence": 0.85,
+    "evidence": "Confirmed Co-Founder, CEO & Managing Partner at SmartTek Solutions via theorg.com, ZoomInfo, and LinkedIn profile linkedin.com/in/andrii-sydoruk/; company domain smarttek.solutions matches"
+  },
+  "ChIJxyIoQ5vNx4oRvtn-ogwgm7M": {
+    "name": "Rudolf Zaidel",
+    "title": "Owner",
+    "linkedin": "https://www.linkedin.com/in/rudolf-zaidel/",
+    "confidence": 0.85,
+    "evidence": "LinkedIn title explicitly 'Owner - MetaArt' at ua.linkedin.com/in/rudolf-zaidel; company page linkedin.com/company/metaart-group matches metaart.com.ua IT internship firm"
+  },
+  "ChIJb3Dg-1HdOkcRVXTGyKOwPBs": {
+    "name": "Andrew Voznyy",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/voznyy/",
+    "confidence": 0.8,
+    "evidence": "Named 'ANDREW VOZNYY, CEO Luxnet' on luxnet.io/about-us contact section; LinkedIn profile linkedin.com/in/voznyy/ shows CTO/Tech Lead at luxnet.io — CEO confirmed by official website"
+  },
+  "ChIJ2VM-qnDdOkcRnKfKYtAgVm8": {
+    "name": "Yevhen Filyak",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/yevhenfilyak/",
+    "confidence": 0.8,
+    "evidence": "LinkedIn profile linkedin.com/in/yevhenfilyak/ lists CEO roles since 2009; Crunchbase/Clutch/TechBehemoths list him as founder of InSpirito (inspiri.to) Lviv-based software firm"
+  }
+}

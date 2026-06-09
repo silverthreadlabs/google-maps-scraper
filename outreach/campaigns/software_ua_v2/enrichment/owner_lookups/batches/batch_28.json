@@ -1,0 +1,44 @@
+{
+  "ChIJ6WVO0iOjliERPykqxKPaqOs": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Instagram handle jk__designer_ has no public bio; multiple unrelated JK design entities exist (NY interior design, Spain/Ukraine studio); cannot confidently attribute to a single named founder"
+  },
+  "ChIJ3be6k7PN1EARipRlGFK_uh4": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "itshot.eu.com unreachable (ECONNREFUSED); itshot.pl (Krakow, Poland) is a related entity but no founder name found on that site either; no LinkedIn match found"
+  },
+  "ChIJ4wxrKx41BEwRmGZC-hdUOu8": {
+    "name": "Chris Averyano",
+    "title": "Founder",
+    "linkedin": "",
+    "confidence": 0.8,
+    "evidence": "averyano.com FAQ states 'agency of one' and identifies founder as Chris Averyano; GitHub github.com/loudpose confirms the name; no linkedin.com/in/ URL found in search results"
+  },
+  "ChIJhyTlMnu6X6YROfhTdPJjI7Y": {
+    "name": "Alex Sadovsky",
+    "title": "Co-Founder, Co-CEO",
+    "linkedin": "https://www.linkedin.com/in/sadovsky",
+    "confidence": 0.95,
+    "evidence": "spd.tech/company/ lists Alex Sadovsky as Co-Founder & Co-CEO since 2006; confirmed on LinkedIn uk.linkedin.com/in/sadovsky, Crunchbase, and The Org"
+  },
+  "ChIJN3i83JLP1EARncBsFYOogjI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "standout.in.ua website lists only staff first names (Sergiy, Yulia, Mariia) with no founder or CEO identified; no LinkedIn match found"
+  },
+  "ChIJnxH9FRrN1EARSLdyswjA42g": {
+    "name": "Maksym",
+    "title": "Founder, CEO",
+    "linkedin": "",
+    "confidence": 0.55,
+    "evidence": "Clutch reviews for jupser.com reference 'their founder Maksym (CEO, Jupser)' multiple times; full last name not found; no LinkedIn profile identified"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ChIJl4yXkDDP1EARxpDLkforVps": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Dewzilla (dewzilla.com) — LinkedIn company page shows 7 employees but no named founder/CEO; only Alireza Aslani visible but role/title not confirmed; no public decision-maker found"
+  },
+  "ChIJ22RnhOC1WkQRNQTT4j4T7PE": {
+    "name": "Yaroslav Zіnych",
+    "title": "Technical Lead",
+    "linkedin": "",
+    "confidence": 0.5,
+    "evidence": "technerds.pro About Us page identifies Yaroslav Zіnych as Technical Lead and the person who introduces the team; no dedicated CEO/founder title listed, but appears to be the primary public-facing leader"
+  },
+  "ChIJ8WaklrrP1EARqaQ_hV18-jQ": {
+    "name": "Oleksandr Topachevskyi",
+    "title": "Co-Founder, CEO, Health Economist",
+    "linkedin": "https://www.linkedin.com/in/oleksandr-topachevskyi-355ab912/",
+    "confidence": 0.95,
+    "evidence": "digitalho.com About page and Crunchbase confirm Oleksandr Topachevskyi as Co-Founder & CEO; LinkedIn profile verified at linkedin.com/in/oleksandr-topachevskyi-355ab912/"
+  },
+  "ChIJF6o9GvDF1EARID5vA6af41o": {
+    "name": "Yurii Kravchenko",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/yurii-kravchenko-b89b52a7/",
+    "confidence": 0.9,
+    "evidence": "axon.dev About Us page lists Yurii Kravchenko as CEO; Crunchbase profile confirms CEO role; LinkedIn profile verified at linkedin.com/in/yurii-kravchenko-b89b52a7/"
+  },
+  "ChIJG3Nm41DP1EARIMa9wcwoXXA": {
+    "name": "Oleksii Kondratiuk",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/oleksii-kondratiuk",
+    "confidence": 0.9,
+    "evidence": "LinkedIn post by Oleksii Kondratiuk marks 5 years of baseblocks.tech (2019 founding), describes himself as founder; Djinni profile lists him as Owner at Base Blocks Tech; LinkedIn at ua.linkedin.com/in/oleksii-kondratiuk"
+  },
+  "ChIJ___7OFDO1EARSCmhIX8ozoU": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Smart Fusion Solutions (smartfusion.solutions) — LinkedIn company page lists only engineers/QA employees; website returned 403; no founder or CEO name found in public sources"
+  }
+}

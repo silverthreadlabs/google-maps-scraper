@@ -1,0 +1,44 @@
+{
+  "ChIJTUI2_DvP1EAR_LoCfgpMrEE": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No named founder/CEO found via adddev.co site, Clutch profile, ZoomInfo, or LinkedIn search; Clutch review mentions 'one of the owners' but leaves them unnamed"
+  },
+  "ChIJSZVBHPMi62ERLxdG7B2zSPA": {
+    "name": "Georgii Rudenko",
+    "title": "Co-Founder and Co-Owner",
+    "linkedin": "https://www.linkedin.com/in/georgii-rudenko-619b72b/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn profile title is 'Co-Founder and Co-Owner - UICCNet'; company page linkedin.com/company/uiccnet corroborates domain uiccnet.com.ua"
+  },
+  "ChIJVUOyWQzP1EARo3Hb0eQt4LQ": {
+    "name": "Igor Voitenko",
+    "title": "Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/igor-voitenko-624912145/",
+    "confidence": 0.8,
+    "evidence": "Apollo.io, ContactOut, and ZoomInfo all list Igor Voitenko as Co-Founder at Coidea Agency (coidea.agency); email igor@coidea.agency corroborates domain"
+  },
+  "ChIJGWMTlhjN1EARzp0_VGCWA5o": {
+    "name": "Dmytro Havrylov",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/dmytro-havrylov/",
+    "confidence": 0.85,
+    "evidence": "be-tech.pro/en/home-english/ explicitly names Dmytro Havrylov as 'CEO & Founder'; LinkedIn profile 'Be Tech - CRM projects studio' matches be-tech.pro domain"
+  },
+  "ChIJI8qROYvN1EARDuHE8XWGghk": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "delax.website homepage contains no leadership info; searches for 'Delax Ukraine founder' returned no matching LinkedIn or business directory profiles"
+  },
+  "ChIJpxJI_hPL1EARiTyT0sUR8Dw": {
+    "name": "Maksym Okhrimenko",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/objectivemax/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn search result title reads 'Maksym Okhrimenko - Founder & CEO at Etnocode'; profile matches etnocode.com.ua domain"
+  }
+}

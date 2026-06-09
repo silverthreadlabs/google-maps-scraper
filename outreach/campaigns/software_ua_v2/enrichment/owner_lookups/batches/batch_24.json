@@ -1,0 +1,44 @@
+{
+  "ChIJVVXBoVXJ1EAR_ih-3xWDqDI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No named individuals found on use-imagination.com contacts/about pages; no LinkedIn profile surfaced via multiple targeted searches"
+  },
+  "ChIJ1zCwaVfJ1EARAl8_9kYcTkA": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "freshlab.net about page shows no named leaders; described as subsidiary of IT INNOVATIONS group; no founder/CEO LinkedIn found"
+  },
+  "ChIJIZCEEoXP1EAR0JhOVE0e1ow": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "data-unity.com has no About/Team page; no named founder or CEO found via multiple searches; generic Telegram contact only"
+  },
+  "ChIJV2G41brP1EARzXbPSjhaLzY": {
+    "name": "Bohdan Yanko",
+    "title": "Founder, CEO",
+    "linkedin": "https://www.linkedin.com/in/bohdan-yanko-91a57515b/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn profile titled 'Founder, CEO - PoCLab' at poclab.tech; confirmed Kyiv address on ZoomInfo matching poclab.tech domain"
+  },
+  "ChIJtcRA0HHP1EAR-DrR5nkWePo": {
+    "name": "Victor Kmita",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/victor-kmita",
+    "confidence": 0.92,
+    "evidence": "SolutionSuggest brand story by Victor Kmita Founder & CEO of XME.digital; LinkedIn cy.linkedin.com/in/victor-kmita confirmed; xme.digital team page lists him"
+  },
+  "ChIJ__-jPWTO1EARjmCy5QphpV4": {
+    "name": "Dmytro Storozhuk",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/dima-storozhuk/",
+    "confidence": 0.88,
+    "evidence": "LinkedIn 'dima-storozhuk' lists Founder & CEO at iTech4Web; Intch profile dstorozhuk confirms CEO iTech4Web; itech4web.com About Us corroborates"
+  }
+}

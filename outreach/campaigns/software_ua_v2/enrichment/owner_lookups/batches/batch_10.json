@@ -1,0 +1,44 @@
+{
+  "ChIJKfDI-QXN1EARPw2f-mQ0mrQ": {
+    "name": "Aleksandr Hlukhenkyi",
+    "title": "Co-Founder & Managing Partner",
+    "linkedin": "https://www.linkedin.com/in/aleksandr-hlukhenkyi/",
+    "confidence": 0.85,
+    "evidence": "LinkedIn profile explicitly lists Co-Founder & Managing Partner at Thinksoft; email alex@thinksoft.net confirmed via prospeo.io and search results; thinksoft.net domain match confirmed"
+  },
+  "ChIJr3dXNvbF1EARSogHhqATeF8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "fncdev.com domain is parked/for-sale on GoDaddy; no founder or leadership information findable for this company"
+  },
+  "ChIJwY3B4krJ1EARlRKSPdBsg-Q": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "zebratech.top site only shows an Instagram handle (marina.bilodid) in footer with no title; no LinkedIn or founder info found via search"
+  },
+  "ChIJn64_FQHP1EARffsJdE2wdrA": {
+    "name": "Oleg Movlianov",
+    "title": "Founder and Software Developer",
+    "linkedin": "",
+    "confidence": 0.9,
+    "evidence": "Personal site oleg.movlianov.com explicitly states 'Founder and Software developer' of ScudCRM since 2008; FOP Movlianov O.M. confirmed in client docs; no LinkedIn profile found"
+  },
+  "ChIJq6rqA07I1EAR3Sicv-7mWRs": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "vgplusplus.com SSL certificate error prevents site access; no founder or director name found via web search for this specific company"
+  },
+  "ChIJa-a9iA7F1EARCT7HSh5xSM8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "SoftUUP CEO/co-founder first name only known as 'Oleg' from Clutch reviews; no verified full name or LinkedIn profile found; Oleg Danyliuk ruled out (he is CEO of Duanex)"
+  }
+}

@@ -148,6 +148,24 @@ class TestFlattenPainHits(unittest.TestCase):
         result = _flatten_pain_hits(lead)
         self.assertLessEqual(len(result), 200)
 
+    def test_prefers_snippet_en_when_translated(self):
+        # P2: a translated hit must push the English snippet, not the original.
+        pain = {'cat': [{
+            'snippet': 'Заказывал доработку сайта, взяли аванс.',
+            'snippet_en': 'I ordered website work; they took a deposit.',
+            'rating': 1,
+        }]}
+        lead = _make_lead(agent_pain_hits=pain)
+        result = _flatten_pain_hits(lead)
+        self.assertEqual(result[0]['snippet'],
+                         'I ordered website work; they took a deposit.')
+
+    def test_falls_back_to_original_snippet_when_no_translation(self):
+        pain = {'cat': [{'snippet': 'Called three times, no answer.', 'rating': 1}]}
+        lead = _make_lead(agent_pain_hits=pain)
+        result = _flatten_pain_hits(lead)
+        self.assertEqual(result[0]['snippet'], 'Called three times, no answer.')
+
 
 class TestBuildReviewsPayload(unittest.TestCase):
     def test_transforms_review_fields(self):
@@ -176,6 +194,18 @@ class TestBuildPocs(unittest.TestCase):
     def test_empty_pocs(self):
         lead = _make_lead(pocs=[])
         self.assertEqual(_build_pocs(lead), [])
+
+    def test_forwards_primary_flag(self):
+        # The CRM needs to know which POC is the primary decision-maker (the
+        # owner) so it can surface them distinctly without string-matching.
+        lead = _make_lead(pocs=[
+            {'name': 'Owner O', 'role': 'Founder', 'primary': True,
+             'socials': ['https://linkedin.com/in/o'], 'email': None, 'url': None},
+            {'name': 'Cto C', 'role': 'CTO', 'socials': None, 'email': None, 'url': None},
+        ])
+        result = _build_pocs(lead)
+        self.assertEqual(result[0]['primary'], True)
+        self.assertEqual(result[1]['primary'], False)
 
 
 class TestBuildSocials(unittest.TestCase):

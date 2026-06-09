@@ -1,0 +1,44 @@
+{
+  "ChIJZQGk3yrGvYsRION8qwdNHtQ": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website has no named founder/CEO; only 'Alex' mentioned as team member in chat widget; LinkedIn company page shows Dmytro Honcharov as associated employee but no title or founder confirmation found"
+  },
+  "ChIJ4aKjlOklggMRxl2hLk6yrCw": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "quackly.biz.ua self-describes as a one-man hosting operation; no name disclosed on website, LinkedIn company page, or any indexed source"
+  },
+  "ChIJ0cQrXjPj20ARWb-1ud_3-lo": {
+    "name": "Sergey Koznov",
+    "title": "Founder / Owner",
+    "linkedin": "https://www.linkedin.com/in/sergei-koznov-74837414b/",
+    "confidence": 0.85,
+    "evidence": "motionthesign.com contact page lists sergey.koznov@icloud.com and +380634112384 as sole contact; Coroflot and ArtStation profiles confirm 3D designer Sergey Koznov based in Dnipro, Ukraine running this studio; LinkedIn URL confirmed via search index"
+  },
+  "ChIJw4zwqFETOY8R0jEHBffplZc": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "slickdigitalagency.com website pages (home, about, team, contact, blog) contain no named founder or owner; LinkedIn company page shows recently acquired by Pivotly.com with no Ukrainian founder named"
+  },
+  "ChIJL-Osaf7F16UR2yyljouNam8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "mariadigital.org founder introduces herself only as 'Maria' with no surname disclosed; Ukrainian phone +380996761472 confirms Ukraine location but no last name or LinkedIn found"
+  },
+  "ChIJayqqoPGV3zgRmJAE7p8L_-w": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "elevatesol.com about page lists Muhammad Safiullah as Founder & CEO with Pakistani phone +92 314 5437843 and email safiullahofficial454@gmail.com; company location is Rawalpindi, Pakistan — not a Ukrainian firm"
+  }
+}

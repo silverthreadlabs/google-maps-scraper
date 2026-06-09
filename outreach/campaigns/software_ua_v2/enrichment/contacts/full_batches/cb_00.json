@@ -1,0 +1,109 @@
+{
+  "ChIJAQBQRd7i20ARCmSE72Ojjrk": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/weem-pro",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/weem.pro/",
+      "email": "info@weem.pro"
+    }
+  },
+  "ChIJuYOo1cTj20ARx9AtV5OlDJg": {
+    "people": [
+      {
+        "name": "Alexey (Oleksii) Tkachenko",
+        "role": "Technical Lead & Founder",
+        "linkedin": "https://www.linkedin.com/in/oleksii-tkachenko-vs/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile linkedin.com/in/oleksii-tkachenko-vs/ confirmed as Technical Lead & Founder at Visor Software (visor.software, Dnipro Ukraine). He is have_owner (Oleksii Tkachenko) but under a different URL slug. Confirmed this is the same person listed as founder on visor.software/about/."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/visor-software",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJu4CCKFji20ARpF1snpfPibM": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/zenetix-digital-production",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/zenetix.agency/",
+      "facebook": "https://www.facebook.com/Zenetix.com.ua/",
+      "email": "alex.zenetix@gmail.com"
+    }
+  },
+  "ChIJv1vHN6zj20ARVx64_1y8R8E": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/flexsolution",
+      "twitter": "https://twitter.com/FlexSolutionUA",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/FlexSolutionUA/",
+      "email": "info@flex-solution.com"
+    }
+  },
+  "ChIJqSwdLxHj20AR9zPv712l_WU": {
+    "people": [
+      {
+        "name": "Vera Taran",
+        "role": "Laravel / PHP Developer",
+        "linkedin": "https://www.linkedin.com/in/vera-taran/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "LinkedIn profile linkedin.com/in/vera-taran/ lists her as Laravel Developer at webgenerator.com.ua. Not a decision-maker role but one of the few publicly named staff. Not in have_owner or have_pocs."
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/WebGeneratorTech/",
+      "email": "web.generat@gmail.com"
+    }
+  },
+  "ChIJy2WoElbj20ARSh8wu-fpLjI": {
+    "people": [
+      {
+        "name": "Mykhailo Leliakov",
+        "role": "Technical Team Lead",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "RocketReach and search results confirm Mykhailo Leliakov as Technical Team Lead at Lytvynov Production (lytvynov-production.com). Currently based in Wroclaw, Poland. No public LinkedIn profile URL confirmed in search results."
+      },
+      {
+        "name": "Yaroslav Orlovskyi",
+        "role": "Project Delivery Manager",
+        "linkedin": "https://www.linkedin.com/in/yaroslav-orlovskyi-6965a746/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn profile linkedin.com/in/yaroslav-orlovskyi-6965a746/ confirmed as Project Delivery Manager at Lytvynov Production. The Org lists him in same role. Leads pre-sales activities according to LinkedIn search snippet."
+      }
+    ],
+    "company": {
+      "linkedin": "https://ua.linkedin.com/company/lytvynovproduction",
+      "twitter": "https://twitter.com/lyt_production",
+      "instagram": "https://www.instagram.com/lytvynov.production/",
+      "facebook": "https://www.facebook.com/lytvynov.production",
+      "email": ""
+    }
+  }
+}

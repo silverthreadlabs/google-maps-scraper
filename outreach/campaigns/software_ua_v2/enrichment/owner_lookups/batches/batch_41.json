@@ -1,0 +1,44 @@
+{
+  "ChIJq6oucAndOkcRrChJETdH78o": {
+    "name": "Ruslan Belziuk",
+    "title": "CEO & Founder",
+    "linkedin": "",
+    "confidence": 0.85,
+    "evidence": "ZoomInfo lists him as Chief Executive Officer at Dumka (dumka.pro email domain); belziuk.com personal site states he founded Dumka; no linkedin.com/in/ URL surfaced publicly"
+  },
+  "ChIJeQAZHiDdOkcRpbirGtgvrAQ": {
+    "name": "Oleksandr Topolnytskyy",
+    "title": "Co-Owner / Founder",
+    "linkedin": "https://www.linkedin.com/in/oleksandr-topolnytskyy-4069a939/",
+    "confidence": 0.8,
+    "evidence": "LinkedIn profile lists him as Co-Owner of Gram; gram.family About page names him Chief Strategy Officer with topolnytskyy@gram.family email; multiple sources confirm co-founder role"
+  },
+  "ChIJ3e1p6ChIGWwRw3LAQbYjbwM": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website dzhdev.rf.gd returned 403 Forbidden; no results for Filer/dzhdev Ukraine founder in web searches"
+  },
+  "ChIJwUqOfxPdOkcRmP73HmU0DhM": {
+    "name": "Rustem Davlietshyn",
+    "title": "Art Director & Founder",
+    "linkedin": "https://ua.linkedin.com/in/rustem-davlietshyn",
+    "confidence": 0.9,
+    "evidence": "ZoomInfo lists him as Art Director & Founder at Sinspired with sinspiredstudio.com email domain; LinkedIn profile confirmed at ua.linkedin.com/in/rustem-davlietshyn"
+  },
+  "ChIJc9wUH6facYcRF5Ot_gM3z_g": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "weweb.com.ua website returned no names; web searches for weweb.com.ua owner/founder returned no results (distinct from French weweb.io)"
+  },
+  "ChIJp0BP8QVBECYRqymXdF3XGIQ": {
+    "name": "Volodymyr Kalistratov",
+    "title": "Owner / CEO",
+    "linkedin": "https://www.linkedin.com/in/volodymyr-kalistratov-911914a3/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn search result directly titled 'Volodymyr Kalistratov - Owner / CEO Will Design Creative Agency' with willdesign.agency domain confirmed"
+  }
+}

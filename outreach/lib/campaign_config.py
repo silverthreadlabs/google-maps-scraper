@@ -45,6 +45,8 @@ class CampaignConfig:
     slug: str
     vertical: str
     location: str
+    locale: str = ''
+    country: str = ''
 
     # Pain ranking (vertical default, optionally overridden by campaign)
     pain_weights: dict[str, int] = field(default_factory=dict)
@@ -235,6 +237,8 @@ def _merge(
         slug=meta['slug'],
         vertical=meta['vertical'],
         location=meta['location'],
+        locale=location.get('locale', ''),
+        country=location.get('country', ''),
 
         pain_weights=_overlay_dict(
             getattr(vertical, 'PAIN_WEIGHTS', {}),
@@ -276,14 +280,23 @@ def _merge(
 
         osint_enabled=getattr(vertical, 'OSINT_ENABLED', False),
         osint_sources=list(getattr(vertical, 'OSINT_SOURCES', [])),
-        osint_fields_desired=list(getattr(vertical, 'OSINT_FIELDS_DESIRED', [])),
+        osint_fields_desired=list(dict.fromkeys(
+            list(getattr(vertical, 'OSINT_FIELDS_DESIRED', []))
+            + (list(getattr(o, 'OSINT_FIELDS_DESIRED', []) or []) if o else [])
+        )),
         osint_confidence_threshold=float(
             getattr(vertical, 'OSINT_CONFIDENCE_THRESHOLD', 0.85)
         ),
         osint_handoff_fields=list(getattr(vertical, 'OSINT_HANDOFF_FIELDS', [])),
-        osint_serp_queries=dict(getattr(vertical, 'OSINT_SERP_QUERIES', {})),
+        osint_serp_queries=_overlay_dict(
+            getattr(vertical, 'OSINT_SERP_QUERIES', {}),
+            getattr(o, 'OSINT_SERP_QUERIES', None) if o else None,
+        ),
         osint_deep_crawl_paths=list(
             getattr(vertical, 'OSINT_DEEP_CRAWL_PATHS', [])
         ),
-        osint_industry_terms=list(getattr(vertical, 'OSINT_INDUSTRY_TERMS', [])),
+        osint_industry_terms=list(dict.fromkeys(
+            list(getattr(vertical, 'OSINT_INDUSTRY_TERMS', []))
+            + (list(getattr(o, 'OSINT_INDUSTRY_TERMS', []) or []) if o else [])
+        )),
     )

@@ -1,0 +1,434 @@
+[
+  {
+    "id": 60,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_juniors",
+        "confidence": 0.6,
+        "quote": "logo ko internship pr bola",
+        "reasoning": "Reviewer indicates logo work was given to interns."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "categories": []
+  },
+  {
+    "id": 62,
+    "categories": []
+  },
+  {
+    "id": 63,
+    "categories": []
+  },
+  {
+    "id": 64,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.95,
+        "quote": "The final product did not reflect what was promised. The term “custom design” was used in a way that did not match the actual deliverable.",
+        "reasoning": "Final deliverable substantially diverged from what was sold as custom design."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "The homepage was not delivered within the stated timeline",
+        "reasoning": "Explicit statement that delivery was past timeline."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "When concerns were raised, I expected collaborative problem-solving and professional dialogue. Instead, communication centered on contractual defenses",
+        "reasoning": "Client raised specific concerns and was dismissed."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "unable to understand how to use their own booking system",
+        "reasoning": "Indicates incompetence in delivery of their core product."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "I received a five-page website draft—but it contained multiple errors and looked rushed",
+        "reasoning": "Deliverable had multiple errors and was poor quality."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "I had provided over 40 professional photos for the project, and only 4 were used, repeated across all pages",
+        "reasoning": "Work delivered did not match what was requested/promised."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "I received no clear updates or reports regarding SEO, and communication became inconsistent",
+        "reasoning": "Explicit complaint about unclear/inconsistent communication."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.9,
+        "quote": "It’s been over 2 months and I still don’t have a website",
+        "reasoning": "Project significantly past expected delivery."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.5,
+        "quote": "Lots of back and forth",
+        "reasoning": "Repeated back-and-forth on the project."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "I want example of functionality and they don’t implement that. Just add visuals",
+        "reasoning": "Requested functionality not delivered."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "I specified what I wanted from the very beginning and they didn't provide it for me",
+        "reasoning": "Deliverable did not match initial specifications."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "Look elsewhere for a company that actually listens to your initial concept. This company does not.",
+        "reasoning": "Customer's initial concept ignored."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.75,
+        "quote": "They say they will be in contact with you for 3 to 5 days, that's not the case. I emailed Mark B who is a manager and it took him 7 days to respond",
+        "reasoning": "Response times exceeded stated commitments."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.85,
+        "quote": "He responded to me 8 days after I’d asked for assistance with my domain",
+        "reasoning": "Significant delay in responding to client request."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "not actually making the corrections as expressed the first time or at all",
+        "reasoning": "Requested corrections not made."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "The directions he sent wasn’t working as he’d described and he wasn’t sending over the proper information",
+        "reasoning": "Instructions provided were unclear/incorrect."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.95,
+        "quote": "The final product was an ‘F’. We canned it after more than a month of back and forth and had to start over from scratch",
+        "reasoning": "Final deliverable was unusable."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.9,
+        "quote": "They don’t do phone calls or zoom/teams even if requested. So all comments have to be conveyed by e-mail to the client rep",
+        "reasoning": "Communication channel restrictions caused unclear/slow info flow."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "It took forever to turn around the most basic comments (sometimes as much as a week)",
+        "reasoning": "Excessive turnaround times."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.95,
+        "quote": "After waiting from February to June for a simple website that should have taken weeks",
+        "reasoning": "Project went months past reasonable timeline."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "the website was connected to a domain that was not the name of my business",
+        "reasoning": "Delivered work did not match what client needed/business."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "I got a once-a-week, terse email response when I was lucky. I was unable to get anyone on the phone",
+        "reasoning": "Poor, infrequent, unclear communication channels."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_third_party",
+        "confidence": 0.75,
+        "quote": "they seem to outsource most work",
+        "reasoning": "Client perceived work was outsourced."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "the communication, project management, and leadership were utterly horrible throughout the project",
+        "reasoning": "Communication explicitly cited as poor."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "we received a string of excuses followed by being completely ghosted",
+        "reasoning": "Client was ghosted after raising a problem."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.9,
+        "quote": "they claimed to have sent me content for my review, later I discovered they didn't actually send me the content but sent it to one another",
+        "reasoning": "Misleading/unclear communication about deliverables."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "quote": "they have been lacking in communicating",
+        "reasoning": "Client attempts being ignored."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "received a proof that couldn’t have been any further from what I was expecting",
+        "reasoning": "Deliverable far from what was specified."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "I was told I’d need to purchase another package for $149.99",
+        "reasoning": "Charges grew beyond initial quote for promised feature."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.95,
+        "quote": "My project took an additional 3 months which was primarily due to the response time from Mark B",
+        "reasoning": "Project delivered 3 months late."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.85,
+        "quote": "I was left with an incomplete website and a useless infographic",
+        "reasoning": "Project ended with unfinished deliverable."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "Our calls where not returned and virtual appointments where not accepted",
+        "reasoning": "Communication channels unresponsive."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "they kept sending me the same free Wix logos you can make yourself and they were awful",
+        "reasoning": "Deliverable was generic templates, not promised custom work."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.9,
+        "quote": "There is no direct communication allowed between you and the designer. The middle man will type all your needs",
+        "reasoning": "Communication structure causes unclear info flow."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "The level of design they will provide is very basic in my opinion",
+        "reasoning": "Quality of deliverable was poor."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.9,
+        "quote": "It took more than 3 months to get a 3-page web site",
+        "reasoning": "Excessive delivery time for a small project."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "nothing was what I asked for",
+        "reasoning": "Final work did not match request."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.8,
+        "quote": "It took well over the time frame I felt was appropriate",
+        "reasoning": "Delivery exceeded expected timeframe."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "I had to repeat many requests and fix numerous things myself",
+        "reasoning": "Deliverable required client to fix it themselves."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "categories": []
+  },
+  {
+    "id": 81,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.8,
+        "quote": "They will try to nickel and dime you to death",
+        "reasoning": "Costs grew beyond initial expectations."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.85,
+        "quote": "never produce a website",
+        "reasoning": "Never delivered the promised website."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "categories": []
+  },
+  {
+    "id": 83,
+    "categories": []
+  },
+  {
+    "id": 84,
+    "categories": []
+  },
+  {
+    "id": 85,
+    "categories": []
+  },
+  {
+    "id": 86,
+    "categories": []
+  },
+  {
+    "id": 87,
+    "categories": []
+  },
+  {
+    "id": 88,
+    "categories": []
+  },
+  {
+    "id": 89,
+    "categories": []
+  }
+]

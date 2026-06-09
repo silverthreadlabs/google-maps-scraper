@@ -1,0 +1,142 @@
+{
+  "ChIJb4lqjEy6ZEQRdcR8gawzxRU": {
+    "people": [
+      {
+        "name": "Ana Nazarova",
+        "role": "Sales & Marketing",
+        "linkedin": "https://ua.linkedin.com/in/ana-nazarova-aa1554197",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "ZoomInfo and LinkedIn both confirm Ana Nazarova as 'Sales and Marketing at Hulo.dev'. LinkedIn profile at ua.linkedin.com/in/ana-nazarova-aa1554197 shows she helps founders build sales/marketing processes and posts about hulo.dev Shopify audits. Not in have_owner or have_pocs."
+      },
+      {
+        "name": "Serhii Roik",
+        "role": "Lead Squarespace Developer",
+        "linkedin": "https://ua.linkedin.com/in/serhii-roik-a83958163",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "ZoomInfo lists Serhii Roik as Lead Squarespace Developer at Hulo.dev (hulo.dev domain email). LinkedIn company page confirms him as employee. Not in have_owner or have_pocs."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/hulodev",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/hulo.dev/",
+      "facebook": "https://www.facebook.com/hulo.dev.agency/",
+      "email": "hello@hulo.dev"
+    }
+  },
+  "ChIJ9547CoHdOkcRslWnSTcEf0k": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/heads.company/",
+      "facebook": "",
+      "email": "hello@heads.company"
+    }
+  },
+  "ChIJP6f1OSQLLGARmLffdN4C5gM": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/abra-agency",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/abra.agency/",
+      "facebook": "https://www.facebook.com/abra.agency/",
+      "email": "abra.agency@gmail.com"
+    }
+  },
+  "ChIJq5sueJ_dOkcRdgcGjlVrGJw": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/trofymuk",
+      "facebook": "https://www.facebook.com/zemla.studio/",
+      "email": "zemlastudio@gmail.com"
+    }
+  },
+  "ChIJiVax7pxTgCcRV0-05T06ayo": {
+    "people": [
+      {
+        "name": "Jane Kholmetska",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/jane-kholmetska/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "URich website (urich.org) explicitly lists Jane Kholmetska as CTO with LinkedIn link. ZoomInfo confirms her as Chief Technology Officer at URich with urich.org domain email. Not in have_owner or have_pocs."
+      },
+      {
+        "name": "Dmytro Protsenko",
+        "role": "Business Development Manager",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "ZoomInfo confirms Dmytro Protsenko as Business Development Manager at URich with urich.org domain email. Multiple Dmytro Protsenko profiles on LinkedIn but no single URL confirmed as the URich BDM specifically. Not in have_owner or have_pocs."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/urichorg",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/urich.agency/",
+      "facebook": "https://www.facebook.com/urichorg/",
+      "email": "info@urich.org"
+    }
+  },
+  "ChIJrZOXQKzdOkcRVOAPBz1YzFI": {
+    "people": [
+      {
+        "name": "Alex Chornyy",
+        "role": "Co-Founder & CCO (Chief Commercial Officer)",
+        "linkedin": "https://www.linkedin.com/in/chornyy/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Multiple sources (RocketReach, Crunchbase, LinkedIn) confirm Alex Chornyy (Oleksandr Chornyy) as Co-Founder and CCO at uSoftware (usoftware.co). LinkedIn profile linkedin.com/in/chornyy/ confirmed. Not in have_owner or have_pocs."
+      },
+      {
+        "name": "Maksym Pavlyuk",
+        "role": "Co-Founder & VP of Operations",
+        "linkedin": "https://ua.linkedin.com/in/maksym-pavlyuk-188508222",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile ua.linkedin.com/in/maksym-pavlyuk-188508222 confirms Maksym Pavlyuk as Co-Founder & VP at uSoftware. RocketReach also confirms with usoftware.co email domain. Not in have_owner or have_pocs."
+      },
+      {
+        "name": "Andrii Vandakurov",
+        "role": "Co-Founder & Fractional CTO",
+        "linkedin": "https://www.linkedin.com/in/andriy-vandakurov/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn profile linkedin.com/in/andriy-vandakurov/ confirmed as Co-Founder and Fractional CTO at uSoftware (usoftware.co). Previous experience at Printify, ELEKS. Not in have_owner or have_pocs."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/usoftware",
+      "twitter": "https://twitter.com/usoftware",
+      "instagram": "https://www.instagram.com/united_software/",
+      "facebook": "https://www.facebook.com/uSoftwareCo/",
+      "email": "info@usoftware.co"
+    }
+  }
+}

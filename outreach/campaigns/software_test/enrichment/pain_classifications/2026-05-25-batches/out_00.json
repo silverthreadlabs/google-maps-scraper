@@ -1,0 +1,209 @@
+[
+  {
+    "id": 0,
+    "categories": []
+  },
+  {
+    "id": 1,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "вони форсять інфу аля « це унікальна інформація», що всі просять окремо продати частину курсу про рекламу , а по факту нічого корисного , та дуже поверхнево",
+        "reasoning": "Delivered content substantially diverged from what was promised (unique info vs. shallow content)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "categories": []
+  },
+  {
+    "id": 3,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "В рекламі говорять що доводять до результату, але насправді ваш результат їм мало цікавий",
+        "reasoning": "Advertised outcome (delivering to result) diverges substantially from what was actually delivered."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "Курс записаний к 2022 році повно старої інформації, яка не відповідає реаліям сьогодення",
+        "reasoning": "Delivered course content (outdated 2022 material) diverges from what was sold as current."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.8,
+        "quote": "На курсі в кожному модулі на вас чекають додаткові витрати на купу інших додатків без яких ви далі рухатися не зможете",
+        "reasoning": "Unexpected extra costs surfaced in every module beyond the quoted price."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Пусті обіцянки про 15к доларів у продажах",
+        "reasoning": "Promised outcome ($15k sales) was not delivered; explicit empty-promises framing."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.75,
+        "quote": "на вебінарі, хлопці заявляли, як правило, всі хто доходять до кінця, мають добрі результати",
+        "reasoning": "Promised that finishers get good results; reviewer reports no result despite completing — promise not met."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "categories": []
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "Хоча вони кажуть що роблять все на власному прикладі. Хоча той приклад застарілий і не дієвий від слова зовсім",
+        "reasoning": "Claimed real-example basis but delivered example is outdated and non-functional — diverges from promise."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "categories": []
+  },
+  {
+    "id": 10,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "І зрозумів що ця вся інфа застаріла й ні про що",
+        "reasoning": "Delivered course content was outdated and useless versus what was sold."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.85,
+        "quote": "після відмови обслуговувати мене українською,а не російською я відмовився від послуг даної компанії",
+        "reasoning": "Customer was refused service in their language (Ukrainian) — language barrier complaint."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "categories": []
+  },
+  {
+    "id": 13,
+    "categories": []
+  },
+  {
+    "id": 14,
+    "categories": []
+  },
+  {
+    "id": 15,
+    "categories": []
+  },
+  {
+    "id": 16,
+    "categories": []
+  },
+  {
+    "id": 17,
+    "categories": []
+  },
+  {
+    "id": 18,
+    "categories": []
+  },
+  {
+    "id": 19,
+    "categories": []
+  },
+  {
+    "id": 20,
+    "categories": []
+  },
+  {
+    "id": 21,
+    "categories": []
+  },
+  {
+    "id": 22,
+    "categories": []
+  },
+  {
+    "id": 23,
+    "categories": []
+  },
+  {
+    "id": 24,
+    "categories": []
+  },
+  {
+    "id": 25,
+    "categories": []
+  },
+  {
+    "id": 26,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.45,
+        "quote": "No professionalism",
+        "reasoning": "Generic unprofessional-behavior complaint; weak signal."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "categories": []
+  },
+  {
+    "id": 28,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "third class behaviour of staff , especially their office boy . Who don't have any manners how to talk to elders",
+        "reasoning": "Complaint about rude/disrespectful tone from non-clinical staff."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "categories": []
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "ChIJRe6oIDX-JiMRwUzHHvywKcg": {
+    "people": [],
+    "company": {
+      "linkedin": "https://ua.linkedin.com/company/shum-agency",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/shumagency/",
+      "facebook": "https://www.facebook.com/shummarketing/",
+      "email": "shuuum.agency@gmail.com"
+    }
+  },
+  "ChIJ7ZJKXozdOkcRJOE49WMCL_w": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/geniusmarketingofficial",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/geniusmarketingofficial/",
+      "facebook": "https://www.facebook.com/GeniusMarketing.me/",
+      "email": ""
+    }
+  },
+  "ChIJT2NNBADdOkcRRxXFZ-JTKFE": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/atlant-digital",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/atlant.digital/",
+      "email": "alex@atlant.digital"
+    }
+  },
+  "ChIJQft8Sl_dOkcRWp1BZByKESs": {
+    "people": [
+      {
+        "name": "Alex König",
+        "role": "Global Business Development Manager",
+        "linkedin": "https://www.linkedin.com/in/alex-konig-rioks",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "RocketReach org chart for rioks.com lists Alex König as Global Business Development Manager; LinkedIn URL contains 'rioks' slug confirming current company"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/rioks",
+      "twitter": "https://x.com/rioksmarketing",
+      "instagram": "",
+      "facebook": "",
+      "email": "hello@rioks.com"
+    }
+  },
+  "ChIJLxago8JzdmUR77zkLQybyV4": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/logic-digital-agency",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/logic.digital/",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJg-vLJDbdOkcRMDEsbXyqwAs": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/plannads",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/plannads/",
+      "facebook": "https://www.facebook.com/plannads/",
+      "email": ""
+    }
+  }
+}

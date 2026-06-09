@@ -1,0 +1,75 @@
+{
+  "ChIJ69P6u6jF1EARHk2JyT6dJYY": [],
+  "ChIJaRoJcofL1EARsOdHYHTKPs8": [],
+  "ChIJjfQm_n7nOkcRJnocd2IewwU": [],
+  "ChIJ02Ft-2nP1EARSh3YJYpqcWo": [
+    {
+      "name": "Yevhenii Pataliak",
+      "role": "Managing Partner",
+      "linkedin": "https://www.linkedin.com/in/eugene-pataliak",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "LinkedIn profile confirms Managing Partner at WEZOM; co-represents company with CEO Serge Guzenko at industry events"
+    },
+    {
+      "name": "Vasiliy Izdebskiy",
+      "role": "Head of Sales",
+      "linkedin": "https://ua.linkedin.com/in/izdebskiy",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "LinkedIn and ZoomInfo both confirm Head of Sales at Wezom; 9+ years at the company"
+    },
+    {
+      "name": "Helen Guzenko",
+      "role": "Business Development Manager / Co-Founder WEZOM USA",
+      "linkedin": "https://www.linkedin.com/in/helen-guzenko-1a3ab066/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn and urclife.org profile confirm Business Development Manager and co-founder WEZOM USA, active in B2B partnerships"
+    }
+  ],
+  "ChIJf-63ep_nOkcRUbh83XOutr4": [
+    {
+      "name": "Alex Chubay",
+      "role": "Chief Delivery Officer & Global CTO",
+      "linkedin": "https://www.linkedin.com/in/alexchubay/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "SoftServe official leadership page and LinkedIn confirm Alex Chubay as Chief Delivery Officer and Global CTO at softserveinc.com"
+    },
+    {
+      "name": "Anastasiya Frolova",
+      "role": "VP & Ukraine Country Manager",
+      "linkedin": "https://www.linkedin.com/in/anastasiyafrolova/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "SoftServe official leadership page and LinkedIn confirm VP Ukraine Country Manager; based in Ukraine, manages P&L for the Ukrainian entity"
+    },
+    {
+      "name": "Volodymyr Semenyshyn",
+      "role": "President & Chief Revenue Officer",
+      "linkedin": "https://www.linkedin.com/in/volodymyrsemenyshyn/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "SoftServe official leadership page and ZoomInfo confirm President & CRO; leads EMEA sales/delivery, joined 2005"
+    }
+  ]
+}

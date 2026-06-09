@@ -1,0 +1,44 @@
+{
+  "ChIJFcUl8Mjj20ARo3rLHPGNN3g": {
+    "name": "Yevhen Humeniuk",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/yevhen-humeniuk/",
+    "confidence": 0.95,
+    "evidence": "NML about-us page lists Yevhen Humeniuk as Founder & CEO of NML Group; LinkedIn profile confirmed at linkedin.com/in/yevhen-humeniuk/"
+  },
+  "ChIJl27TOPTP1EAR5TepnTmXUQs": {
+    "name": "Vlad Medvedovsky",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/vlad-medvedovsky/",
+    "confidence": 0.9,
+    "evidence": "Multiple sources (LinkedIn, Crunchbase, TheOrg) confirm Vlad Medvedovsky as Founder & CEO of Proxet; PROXET UKRAINE LLC registered in Kyiv Dec 2017"
+  },
+  "ChIJDQ2-VEHN1EARCW4miuON8oo": {
+    "name": "Bogdan Tymoshenko",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/bogdan-tymoshenko-65661527/",
+    "confidence": 0.92,
+    "evidence": "LinkedIn search directly returned 'Bogdan Tymoshenko - CEO & Co-Founder @ AmiFactory Team | LinkedIn'; company located in Kyiv, Ukraine"
+  },
+  "ChIJ5VNHCq_P1EARTeZcIloJBJg": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Pentalog is a large French company (founded by Frédéric Lasnier, acquired by Globant 2023); the Kyiv listing is a satellite office with no identifiable local decision-maker found"
+  },
+  "ChIJ_9lsxcQY9AcR6AuG4IYfXeA": {
+    "name": "Igor Osetsimskiy",
+    "title": "Co-Founder & CMO",
+    "linkedin": "https://www.linkedin.com/in/igor-osetsimskiy",
+    "confidence": 0.7,
+    "evidence": "ZoomInfo and LinkedIn confirm Igor Osetsimskiy as Co-Founder & CMO at Yieldy (yieldy.co); Dmytro Gavryliuk listed as CEO/COO but co-founder role belongs to Osetsimskiy"
+  },
+  "ChIJTy-vEL3P1EARleSbwhuyHDI": {
+    "name": "Dmytro Vlasenko",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/dimavlasenko/",
+    "confidence": 0.8,
+    "evidence": "RocketReach and search results list Dmytro Vlasenko as CEO of Suto Games Studio (sutogames.com); LinkedIn profile at linkedin.com/in/dimavlasenko/ confirmed"
+  }
+}

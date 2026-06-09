@@ -1,0 +1,44 @@
+{
+  "ChIJx3f-KJvN1EARrZ4vBt7cM6c": {
+    "name": "Ilya Dmitruk",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/dmitruk",
+    "confidence": 0.9,
+    "evidence": "The Org, ZoomInfo, Crunchbase, RocketReach, and Eleken about-us page all confirm Ilya Dmitruk as Founder & CEO of Eleken (eleken.co) since 2015; LinkedIn profile at ca.linkedin.com/in/dmitruk verified via multiple search results."
+  },
+  "ChIJm4-uMumCrKsRmlorFScVJA8": {
+    "name": "Dmytro Maslov",
+    "title": "Founder",
+    "linkedin": "",
+    "confidence": 0.6,
+    "evidence": "heatup.com.ua homepage names 'Маслов Дмитро' as the founder who personally handles digital system development with '16 years in marketing & digital'; no personal linkedin.com/in/ URL confirmed for this specific individual at HeatUp — multiple Dmytro Maslov profiles in Ukraine exist but none tied to heatup.com.ua."
+  },
+  "ChIJmU1Uqdjj20ARLvZPFlzxwZY": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Digiterra Agency's only listed website is Instagram (@digiterra_); no about page, no named founder/CEO found via web search; multiple unrelated companies named Digiterra exist globally; insufficient signal to attribute a name to this specific Dnipro agency."
+  },
+  "ChIJAQBQckvj20ARefl9Iy1ZSWg": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ankiri.com/digital-marketing fetched but contains no named founder, CEO, or owner — only office locations (Dnipro + Paris) and service descriptions; web searches for 'Ankiri ankiri.com Ukraine founder' returned no attributed individual."
+  },
+  "ChIJw4vx6xD920ARFd-SLTj3VSY": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Red Moon Creative Agency's only listed website is Instagram (@red_moon__studio); no separate domain, no named founder found via web searches; Instagram not crawlable; multiple unrelated Red Moon entities exist globally."
+  },
+  "ChIJBawUZFvj20ARN38AIT15txE": {
+    "name": "Andrew K. Arden",
+    "title": "Founder",
+    "linkedin": "https://www.linkedin.com/in/andrew-k-arden/",
+    "confidence": 0.75,
+    "evidence": "LinkedIn profile at linkedin.com/in/andrew-k-arden/ shows title 'Founder - 2Me Agency' with Ukraine/Kyiv location and activity since September 2015; confirmed by multiple search results referencing the same LinkedIn URL and founder role at 2me.agency."
+  }
+}

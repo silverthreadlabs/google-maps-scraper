@@ -323,6 +323,30 @@ class TestLoadCampaignEndToEnd(unittest.TestCase):
         with self.assertRaises(FileNotFoundError):
             load_campaign('does_not_exist')
 
+    def test_locale_exposed_from_location_yaml(self):
+        # Runs against the temp fixture root built in setUp (locale: en-US),
+        # not the real campaigns/ dir — so this asserts the passthrough via the
+        # fixture. The code path is identical for any locale value, so this
+        # also covers the non-English (uk-UA) case the translate gate needs.
+        from lib.campaign_config import load_campaign
+        cfg = load_campaign('dentist_sunbelt')
+        self.assertEqual(cfg.locale, 'en-US')
+        self.assertEqual(cfg.country, 'US')
+
+    def test_overrides_overlay_osint_serp_queries(self):
+        (self.root / 'campaigns' / 'dentist_sunbelt' / 'overrides.py').write_text(
+            "OSINT_SERP_QUERIES = {'poc_name': 'site:linkedin.com {city} OVERRIDE'}\n"
+            "OSINT_FIELDS_DESIRED = ['poc_role']\n"
+            "OSINT_INDUSTRY_TERMS = ['general dentist']\n"
+        )
+        from lib.campaign_config import load_campaign
+        cfg = load_campaign('dentist_sunbelt')
+        self.assertEqual(cfg.osint_serp_queries['poc_name'], 'site:linkedin.com {city} OVERRIDE')
+        self.assertIn('poc_name', cfg.osint_fields_desired)
+        self.assertIn('poc_role', cfg.osint_fields_desired)
+        self.assertIn('dentist', cfg.osint_industry_terms)
+        self.assertIn('general dentist', cfg.osint_industry_terms)
+
 
 if __name__ == '__main__':
     unittest.main()

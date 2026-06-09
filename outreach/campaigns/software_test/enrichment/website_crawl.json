@@ -1,0 +1,5467 @@
+[
+  {
+    "lead_title": "AmiFactory LLC - Software Development Company",
+    "website": "https://amifactory.team/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_DATE_INVALID "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 93 699 8472"
+  },
+  {
+    "lead_title": "Pentalog Kyiv - Software Development Company in Ukraine",
+    "website": "https://www.pentalog.com/?utm_source=Google&utm_medium=Organic&utm_campaign=P5MK_PPEN07-GP_AW_GE_GE_WW_EN_0028&utm_content=GMB_Kyiv",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_COMMON_NAME_INVALID "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 44 207 7076"
+  },
+  {
+    "lead_title": "Yieldy | Custom software development company",
+    "website": "https://yieldy.co/",
+    "pages": [
+      {
+        "url": "https://www.yieldy.co/",
+        "title": "AI-Powered Software Development & IT Outsourcing | YIELDY"
+      }
+    ],
+    "emails": [
+      "contact@yieldy.co"
+    ],
+    "socials": [
+      "https://www.facebook.com/profile.php?id=61567615620713",
+      "https://www.instagram.com/yieldy.co/",
+      "https://www.linkedin.com/company/yieldyco/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 73 911 1337"
+  },
+  {
+    "lead_title": "Proxet - Software Development Company",
+    "website": "https://proxet.com/",
+    "pages": [
+      {
+        "url": "https://www.proxet.com/",
+        "title": "Proxet | #1 Software Development Company"
+      },
+      {
+        "url": "https://www.proxet.com/contact-us",
+        "title": "Contact Us | Proxet"
+      },
+      {
+        "url": "https://www.proxet.com/services/teams",
+        "title": "Managed Teams"
+      }
+    ],
+    "emails": [
+      "info@proxet.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/Proxet.Custom.Software.Solutions",
+      "https://www.facebook.com/proxet.nation/",
+      "https://www.linkedin.com/company/proxet/",
+      "https://x.com/proxet"
+    ],
+    "pocs": [
+      {
+        "name": "Microsoft Gold",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Joe Chang",
+        "sources": [
+          "json_ld"
+        ],
+        "role": "Executive Director",
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "ZebraTech - створення сайтів / просування у АІ пошуку",
+    "website": "https://zebratech.top/",
+    "pages": [
+      {
+        "url": "https://zebratech.top/",
+        "title": "ZebraTech — Разработка сайтов под ключ и AI чат-боты."
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.instagram.com/marina.bilodid/",
+      "https://www.youtube.com/@zebra_tech"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 63 141 6447"
+  },
+  {
+    "lead_title": "VG++",
+    "website": "http://www.vgplusplus.com/ru/contacts.php",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 44 526 2569"
+  },
+  {
+    "lead_title": "Suto Games - Game Development Company",
+    "website": "https://sutogames.com/",
+    "pages": [
+      {
+        "url": "https://sutogames.com/",
+        "title": "Suto Games ᐉ Game Development Studio"
+      },
+      {
+        "url": "https://sutogames.com/contact-us/",
+        "title": "Contact us - Suto Games"
+      },
+      {
+        "url": "https://sutogames.com/about-us/",
+        "title": "About us - Suto Games"
+      }
+    ],
+    "emails": [
+      "hello@sutogames.com"
+    ],
+    "socials": [
+      "https://twitter.com/SutoGames",
+      "https://www.facebook.com/profile.php?id=100087136905340",
+      "https://www.instagram.com/sutogames/",
+      "https://www.linkedin.com/company/suto-games-studio/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 50 965 4271"
+  },
+  {
+    "lead_title": "Thinksoft software development partner",
+    "website": "http://thinksoft.net/",
+    "pages": [
+      {
+        "url": "https://thinksoft.net/",
+        "title": "European custom software development partner Thinksoft LLC"
+      },
+      {
+        "url": "https://thinksoft.net/contact/",
+        "title": "Contact us to get a free consultation"
+      },
+      {
+        "url": "https://thinksoft.net/about/",
+        "title": "About Thinksoft LLC (European software development partner)"
+      }
+    ],
+    "emails": [
+      "business@thinksoft.net",
+      "hello@thinksoft.net",
+      "poland@thinksoft.net"
+    ],
+    "socials": [
+      "https://www.facebook.com/thinksoft.net",
+      "https://www.linkedin.com/company/thinksoft-company"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 99 207 2655"
+  },
+  {
+    "lead_title": "Scud CRM & ERP",
+    "website": "https://scudcrm.ua/",
+    "pages": [
+      {
+        "url": "https://scudcrm.ua/ua/home/",
+        "title": "CRM & ERP для будь-якого бізнесу - ScudCRM 5.0 👈"
+      },
+      {
+        "url": "https://scudcrm.ua/ua/about/",
+        "title": "Про CRM систему - ScudCRM 5.0 👈"
+      }
+    ],
+    "emails": [
+      "office@scudcrm.com",
+      "support@scudcrm.com"
+    ],
+    "socials": [
+      "https://twitter.com/ajlkn"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 67 405 9011"
+  },
+  {
+    "lead_title": "Edgeware Global",
+    "website": "https://edgeware.global/",
+    "pages": [
+      {
+        "url": "https://edgeware.global/",
+        "title": "Software Development Outsourcing & AI Services — Edgeware Global"
+      },
+      {
+        "url": "https://edgeware.global/contact-us/",
+        "title": "Contact Edgeware Global — Start Your Project"
+      },
+      {
+        "url": "https://edgeware.global/about/",
+        "title": "About Edgeware Global — Software Engineers for Hire Since 2017"
+      }
+    ],
+    "emails": [
+      "careers@edgeware.global",
+      "info@edgeware.global"
+    ],
+    "socials": [
+      "https://twitter.com/edgeware_global"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "АППЛІК | APPLIC - Веб-студія в Києві. Розробка сайтів та мобільних додатків.",
+    "website": "https://applic.com.ua/",
+    "pages": [
+      {
+        "url": "https://applic.com.ua/",
+        "title": "IT-компанія з розробки та впровадження WEB та AI рішень - Applic"
+      },
+      {
+        "url": "https://applic.com.ua/contacts/",
+        "title": "Контакти Applic - розробка цифрові рішеннь для бізнесу"
+      },
+      {
+        "url": "https://applic.com.ua/about/",
+        "title": "Про компанію Applic: експерти з розробки ПЗ та AI-рішень"
+      }
+    ],
+    "emails": [
+      "sale@applic.com.ua"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 73 880 7078"
+  },
+  {
+    "lead_title": "Prestashop Service",
+    "website": "https://prestaservice.org/",
+    "pages": [
+      {
+        "url": "https://prestaservice.org/",
+        "title": "PrestaShop Support & Maintenance – Expert Assistance for Your Online Store"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 50 302 2695"
+  },
+  {
+    "lead_title": "SoftUUP - Web & Mobile App Development Company",
+    "website": "https://www.softuup.com/",
+    "pages": [
+      {
+        "url": "https://softuup.com/",
+        "title": "Web & Mobile App Development Company | SoftUUP"
+      },
+      {
+        "url": "https://softuup.com/contact-us/",
+        "title": "Contact us - Softuup"
+      },
+      {
+        "url": "https://softuup.com/about-us/",
+        "title": "About us - Softuup 🗺️"
+      }
+    ],
+    "emails": [
+      "office@softuup.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/softuup",
+      "https://www.instagram.com/llc_softuup/",
+      "https://www.youtube.com/channel/UCu1geLXj6Sy5CPSXNVaeswg"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 67 155 4044"
+  },
+  {
+    "lead_title": "BrownFy - створення інтернет-магазинів",
+    "website": "https://brownfy.com/",
+    "pages": [
+      {
+        "url": "https://brownfy.com/",
+        "title": "404 Not Found"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 93 771 6880"
+  },
+  {
+    "lead_title": "DevAtlant",
+    "website": "https://devatlant.com/",
+    "pages": [
+      {
+        "url": "https://devatlant.com/",
+        "title": "DevAtlant | Software company"
+      }
+    ],
+    "emails": [
+      "contact@devatlant.com"
+    ],
+    "socials": [
+      "https://twitter.com/devatlant",
+      "https://www.facebook.com/devatlant/",
+      "https://www.facebook.com/events/805844359553855",
+      "https://www.linkedin.com/company-beta/17929644/",
+      "https://www.linkedin.com/in/voronetskyy/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "Confidence Technology",
+    "website": "https://confidence-tech.com/",
+    "pages": [
+      {
+        "url": "https://confidence-tech.com/",
+        "title": "Turnkey Web Development and SEO from Confidence Technology"
+      }
+    ],
+    "emails": [
+      "crmerp.confidence@gmail.com",
+      "crmerp.confidencete@gmail.com",
+      "info@confidence-tech.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/profile.php?id=100091683864681",
+      "https://www.instagram.com/confidence_technology/",
+      "https://www.linkedin.com/company/confidence-technology-ua"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 63 878 2011"
+  },
+  {
+    "lead_title": "LLC NewGen",
+    "website": "https://newgen.company/",
+    "pages": [
+      {
+        "url": "https://newgen.market/",
+        "title": "B2B AI Agent Marketplace"
+      },
+      {
+        "url": "https://newgen.market/contact",
+        "title": "Contact"
+      },
+      {
+        "url": "https://newgen.market/company",
+        "title": "About Product"
+      }
+    ],
+    "emails": [
+      "office@newgen.market"
+    ],
+    "socials": [
+      "https://www.facebook.com/newgen.company/",
+      "https://www.linkedin.com/company/107417349"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 93 047 7496"
+  },
+  {
+    "lead_title": "Vortex",
+    "website": "http://vortex.com.ua/",
+    "pages": [
+      {
+        "url": "https://vortex.com.ua/",
+        "title": "Интернет маркетинговое агентство Vortex - комплексное продвижение бизнеса в Интернете"
+      },
+      {
+        "url": "https://vortex.com.ua/contacts",
+        "title": "Контакты"
+      },
+      {
+        "url": "https://vortex.com.ua/about-us",
+        "title": "| Интернет маркетинговое агентство Vortex"
+      }
+    ],
+    "emails": [
+      "abc-kiev@ukr.net",
+      "kc@vortexinter.com",
+      "sales@vortexinter.com",
+      "support@vortexinter.com",
+      "support@vortexinter.com.ua"
+    ],
+    "socials": [
+      "http://vortex.com.ua/content/mediynaya-reklama",
+      "http://vortex.com.ua/content/vnedrenie-veb-analitiki",
+      "http://www.vortex.com.ua/about-us",
+      "http://www.vortex.com.ua/content/prodvizhenie-sayta",
+      "http://www.vortex.com.ua/content/prodvizhenie-v-soc-setyah-smm",
+      "http://www.vortex.com.ua/content/reklama-v-internete",
+      "http://www.vortex.com.ua/content/semka-i-prodvizhen",
+      "http://www.vortex.com.ua/kontekstnaya_reklama",
+      "http://www.vortex.com.ua/logo",
+      "http://www.vortex.com.ua/sites/default/files/vortex_presentation.pdf",
+      "http://www.vortex.com.ua/sozdanie_saitov",
+      "http://www.vortex.com.ua/support",
+      "https://vortex.com.ua/",
+      "https://vortex.com.ua/#main",
+      "https://vortex.com.ua/about-us",
+      "https://vortex.com.ua/about-us#main",
+      "https://vortex.com.ua/contacts",
+      "https://vortex.com.ua/contacts#main",
+      "https://vortex.com.ua/content/avtomatiza",
+      "https://vortex.com.ua/content/centr-po-predostavleniyu-pro-motors",
+      "https://vortex.com.ua/content/detskiy-semeynyy",
+      "https://vortex.com.ua/content/francuzskitres-francais",
+      "https://vortex.com.ua/content/institut-nalo",
+      "https://vortex.com.ua/content/klinika-lecheniya-zavisim",
+      "https://vortex.com.ua/content/kompani",
+      "https://vortex.com.ua/content/kompaniya-g",
+      "https://vortex.com.ua/content/kompaniya-ooo",
+      "https://vortex.com.ua/content/kompaniya-po-stroitelstvu-basseynov-moemore",
+      "https://vortex.com.ua/content/kompanorvin",
+      "https://vortex.com.ua/content/kompaprk-print",
+      "https://vortex.com.ua/content/kompcorp-card",
+      "https://vortex.com.ua/content/medicinskiy-ce",
+      "https://vortex.com.ua/content/nike-roshe-run",
+      "https://vortex.com.ua/content/nochnoy",
+      "https://vortex.com.ua/content/otdelenie",
+      "https://vortex.com.ua/content/profstroy",
+      "https://vortex.com.ua/content/sayt-doktor-zhuravel",
+      "https://vortex.com.ua/content/semka-i-prodvizhen",
+      "https://vortex.com.ua/content/tmm-express",
+      "https://vortex.com.ua/content/torgovaya-marka",
+      "https://vortex.com.ua/detoksil",
+      "https://vortex.com.ua/kon-rodyna",
+      "https://vortex.com.ua/kon_Arthuss",
+      "https://vortex.com.ua/kontekstnaya_reklama",
+      "https://vortex.com.ua/leomed",
+      "https://vortex.com.ua/library",
+      "https://vortex.com.ua/logo",
+      "https://vortex.com.ua/menopeys",
+      "https://vortex.com.ua/na-diete",
+      "https://vortex.com.ua/pavlo",
+      "https://vortex.com.ua/portfolio",
+      "https://vortex.com.ua/prodvigenie_saita",
+      "https://vortex.com.ua/provizorro",
+      "https://vortex.com.ua/reviews",
+      "https://vortex.com.ua/seo_TianDe",
+      "https://vortex.com.ua/seo_fanlab",
+      "https://vortex.com.ua/seo_genetatori",
+      "https://vortex.com.ua/seo_kremona",
+      "https://vortex.com.ua/seo_tort",
+      "https://vortex.com.ua/sites/default/files/certificat/001.jpg",
+      "https://vortex.com.ua/sites/default/files/certificat/002.jpg",
+      "https://vortex.com.ua/sites/default/files/certificat/diplom.jpg",
+      "https://vortex.com.ua/sites/default/files/certificat/google_cert.jpg",
+      "https://vortex.com.ua/sites/default/files/certificat/google_cert_2.jpg",
+      "https://vortex.com.ua/sites/default/files/certificat/google_cert_3.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/moe-more.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/parthuss_0.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pcordkard.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pdetoksil.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pfarmagro.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pfranchelli.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pgrinkoagro.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pipr.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pkremona.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/plabfun.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pleomed.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/plizard.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pmedlux.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pmenopeys.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pmozaika.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pnadiete.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pnochnoy.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pnorvin.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pokclinic.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ppandastil.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ppavlovich.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pprk.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pprofstroy.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ppromotors.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pprovizorro.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/prosherun.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/psurgery.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ptiande.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ptmm.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ptortua.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ptrezfrance.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/ptrush.png",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pufb.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/punitedu.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/pzdorovierodini.jpg",
+      "https://vortex.com.ua/sites/default/files/portfolio_preview/screenshot_4.png",
+      "https://vortex.com.ua/smm",
+      "https://vortex.com.ua/sozd_Francelli",
+      "https://vortex.com.ua/sozdanie_saitov",
+      "https://vortex.com.ua/ufsb",
+      "https://vortex.com.ua/uslugi",
+      "https://vortex.com.ua/uworld-popup/nojs/webform/214",
+      "https://vortex.com.ua/viktor-trush",
+      "https://www.facebook.com/vortexinter",
+      "https://www.textback.ru/?utm_source=TextBack_tool&utm_medium=widget-chat&utm_campaign=https://vortex.com.ua/",
+      "https://www.textback.ru/?utm_source=TextBack_tool&utm_medium=widget-chat&utm_campaign=https://vortex.com.ua/about-us",
+      "https://www.textback.ru/?utm_source=TextBack_tool&utm_medium=widget-chat&utm_campaign=https://vortex.com.ua/contacts"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 44 362 8911"
+  },
+  {
+    "lead_title": "Evolve Ukraine",
+    "website": "https://www.evolve-consultants.co.uk/",
+    "pages": [
+      {
+        "url": "https://www.evolved-ideas.com/",
+        "title": "Evolved Ideas | Tech partners for start-ups, scale-ups & enterprise"
+      },
+      {
+        "url": "https://www.evolved-ideas.com/contact-us",
+        "title": "Contact Us | Evolved Ideas"
+      },
+      {
+        "url": "https://www.evolved-ideas.com/about-us",
+        "title": "About Us | Evolved Ideas"
+      }
+    ],
+    "emails": [
+      "info@evolved-ideas.com",
+      "info@evolved-teams.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/profile.php?id=61556376993345",
+      "https://www.instagram.com/evolvedideas/",
+      "https://www.linkedin.com/company/evolved-ideas",
+      "https://x.com/evolvedideas1?fbclid=IwY2xjawGF5bRleHRuA2FlbQIxMAABHYQTA4rfqb-PAZ7TzCobuyL_xHsCUGvZ1pNchTLsqCCSd2nxOrb-XsKWaA_aem_aoE6NxrJR0Hml_0CMIxlZQ"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 97 908 2296"
+  },
+  {
+    "lead_title": "Papaya IT Company",
+    "website": "https://papaya-it.com/",
+    "pages": [
+      {
+        "url": "https://papaya-it.com/",
+        "title": "Papaya Web Agency - Software Development | Mobile Applications"
+      },
+      {
+        "url": "https://papaya-it.com/contact",
+        "title": "Contact us"
+      },
+      {
+        "url": "https://papaya-it.com/about",
+        "title": "About us"
+      }
+    ],
+    "emails": [
+      "info@papaya-it.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/papayaitcom",
+      "https://www.instagram.com/papaya_web_agency/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 97 243 5252"
+  },
+  {
+    "lead_title": "Voicer Software",
+    "website": "https://admin.voicer.software/",
+    "pages": [
+      {
+        "url": "https://admin.voicer.software/auth/login",
+        "title": "Authorization Voicer"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 50 208 2128"
+  },
+  {
+    "lead_title": "web uslugi",
+    "website": "https://websitewp.org/",
+    "pages": [
+      {
+        "url": "https://websitewp.org/",
+        "title": "Website Development, SEO, and Maintenance for WordPress"
+      },
+      {
+        "url": "https://websitewp.org/contact/",
+        "title": "Contact - WebSiteWP"
+      }
+    ],
+    "emails": [
+      "contact@websitewp.org"
+    ],
+    "socials": [
+      "https://glassinox.com.ua/",
+      "https://www.linkedin.com/in/ss1919/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 93 105 5305"
+  },
+  {
+    "lead_title": "SDD Technology",
+    "website": "https://www.sdd-technology.com/",
+    "pages": [
+      {
+        "url": "https://www.sdd-technology.com/",
+        "title": "Software Development Company | SDD Technology"
+      },
+      {
+        "url": "https://www.sdd-technology.com/contacts",
+        "title": "Contact Us | SDD Technology"
+      },
+      {
+        "url": "https://www.sdd-technology.com/about",
+        "title": "About SDD Technology Software Development Company"
+      }
+    ],
+    "emails": [
+      "info@sdd-technology.com"
+    ],
+    "socials": [
+      "https://twitter.com/SddTechnology",
+      "https://www.facebook.com/SDDTechnology",
+      "https://www.facebook.com/SDDTechnology/",
+      "https://www.instagram.com/sdd.technology/",
+      "https://www.linkedin.com/company/sdd-technology/",
+      "https://www.youtube.com/channel/UCF2n8qrZVoTnr_Mvd01tmvQ"
+    ],
+    "pocs": [
+      {
+        "name": "Aizhamal Zhumalieva",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Dietmar Topp",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Cholpan Omurzakova",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Vladimir Nuzhdin",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Vitalii Kovalenko",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Philip Gyrma",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 93 090 4328"
+  },
+  {
+    "lead_title": "Massive Kinetic",
+    "website": "https://massivekinetic.com/",
+    "pages": [
+      {
+        "url": "https://massivekinetic.com/",
+        "title": "Massive, Rock, Solid •"
+      },
+      {
+        "url": "https://massivekinetic.com/contact-us",
+        "title": "Contact us •"
+      },
+      {
+        "url": "https://massivekinetic.com/about-us",
+        "title": "About us •"
+      }
+    ],
+    "emails": [
+      "info@massivekinetic.com"
+    ],
+    "socials": [
+      "https://twitter.com/massivekinetic",
+      "https://www.facebook.com/massivekinetic",
+      "https://www.instagram.com/massivekinetic",
+      "https://www.linkedin.com/company/massive-kinetic"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "xPOS Ho.Re.Ca SYSTEM",
+    "website": "http://xpos.ua/",
+    "pages": [
+      {
+        "url": "https://xpos.ua/ua/",
+        "title": "Автоматизація готелю, ресторану, кафе | xPOS Ho.Re.Ca. SYSTEM ®"
+      },
+      {
+        "url": "https://xpos.ua/ua/about-company",
+        "title": "Про компанію | xPOS Ho.Re.Ca. SYSTEM ®"
+      }
+    ],
+    "emails": [
+      "info@xpos.ua",
+      "sales@xpos.ua",
+      "support@xpos.ua"
+    ],
+    "socials": [
+      "http://www.linkedin.com/shareArticle?mini=true&url=https://xpos.ua/ua/",
+      "http://www.linkedin.com/shareArticle?mini=true&url=https://xpos.ua/ua/about-company",
+      "https://www.facebook.com/xPOSHoReCa/",
+      "https://www.linkedin.com/company/development-center-xpos-ukraine/about/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 44 599 7898"
+  },
+  {
+    "lead_title": "Syntagma Software",
+    "website": "https://www.syntagmasoft.com/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 68 965 9839"
+  },
+  {
+    "lead_title": "Krumkachov web development",
+    "website": "https://neomodern.site/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 95 458 0218"
+  },
+  {
+    "lead_title": "[D]igitalizer - simplifying everything",
+    "website": "https://digitalizer.site/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 97 684 4728"
+  },
+  {
+    "lead_title": "Livatek",
+    "website": "http://www.livatek.com/",
+    "pages": [
+      {
+        "url": "https://www.livatek.com/",
+        "title": "Livatek - Your partner for tech talent and digital transformation"
+      },
+      {
+        "url": "https://www.livatek.com/contact",
+        "title": "Contact - Livatek - Your partner for tech talent and digital transformation"
+      },
+      {
+        "url": "https://www.livatek.com/about",
+        "title": "About - Livatek - Your partner for tech talent and digital transformation"
+      }
+    ],
+    "emails": [
+      "05c60655d14c4f3ca91014d0b04119b2@livatek.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/livatekUA",
+      "https://www.linkedin.com/company/3181546"
+    ],
+    "pocs": [
+      {
+        "name": "Central Europe",
+        "sources": [
+          "heading_h1",
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 44 359 0249"
+  },
+  {
+    "lead_title": "DevsX",
+    "website": "https://devsx.net/",
+    "pages": [
+      {
+        "url": "https://devsx.net/",
+        "title": "Innovative Software Development & Tech Solutions | DevsX"
+      },
+      {
+        "url": "https://devsx.net/contact/",
+        "title": "Contact DevsX | DevsX"
+      },
+      {
+        "url": "https://devsx.net/about-us/",
+        "title": "About DevsX: Your Trusted Software Development Partner | DevsX"
+      }
+    ],
+    "emails": [
+      "app@devsx.net"
+    ],
+    "socials": [
+      "https://www.facebook.com/p/DevsX-61558569337311/",
+      "https://www.instagram.com/devsx_it_company/",
+      "https://www.linkedin.com/company/devsx"
+    ],
+    "pocs": [
+      {
+        "name": "Ronny Vandermeeren",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "John Barber",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Tyler Duke",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Jonathan Corbett",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Christian Fenner",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Tanya Mulesa",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Zohar Bali",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Frank Wiebeler",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Vince Scafaria",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "David Cole",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "John Kanalakis",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+1 347-957-8943"
+  },
+  {
+    "lead_title": "KeyUA",
+    "website": "http://keyua.org/",
+    "pages": [
+      {
+        "url": "https://keyua.org/",
+        "title": "Custom Software Development Company | KeyUA"
+      },
+      {
+        "url": "https://keyua.org/contacts/",
+        "title": "Contact Us | KeyUA"
+      },
+      {
+        "url": "https://keyua.org/company/",
+        "title": "About Us | KeyUA"
+      }
+    ],
+    "emails": [
+      "contact@keyua.org",
+      "hiring@keyua.org",
+      "yana@keyua.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/keyuasoftware",
+      "https://www.linkedin.com/company/keyua-limited/",
+      "https://www.linkedin.com/in/andriy-onoprienko-bb095261/",
+      "https://www.linkedin.com/in/daria-maltseva-a3412b21a/",
+      "https://www.linkedin.com/in/denis-kotenko-1755201aa/",
+      "https://www.linkedin.com/in/ilchmann/",
+      "https://www.linkedin.com/in/michael-nulman-9672b025/",
+      "https://www.linkedin.com/in/olga-voronkova/",
+      "https://www.linkedin.com/in/sergio-yefremenko/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "Vantino R&D",
+    "website": "https://vantino.com/",
+    "pages": [
+      {
+        "url": "https://vantino.com/",
+        "title": "Agile Software Development & Consulting | Vantino"
+      },
+      {
+        "url": "https://vantino.com/company/about",
+        "title": "About Us | Vantino — Swiss Software Since 2004"
+      }
+    ],
+    "emails": [
+      "denis.stahovsky@vantino.ch",
+      "jimmy@vantino.com",
+      "sales@vantino.ch",
+      "sales@vantino.com",
+      "sofiia.zabiiaka@vantino.ch"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 19.6,
+    "metro": "kyiv",
+    "phone": "+380 50 168 8377"
+  },
+  {
+    "lead_title": "Voodoo Ecom | Технологічна освітня компанія",
+    "website": "https://voodooecom.com/",
+    "pages": [
+      {
+        "url": "https://voodooecom.com/",
+        "title": "Навчання Дропшипінгу | Онлайн-курс по дропшипінгу – Voodoo Ecom"
+      },
+      {
+        "url": "https://voodooecom.com/about/",
+        "title": "Про нас | Voodoo Ecom"
+      }
+    ],
+    "emails": [
+      "customer@voodooecom.com"
+    ],
+    "socials": [
+      "https://instagram.com/dima.babich",
+      "https://instagram.com/malchewzki_",
+      "https://instagram.com/voodooecom?igshid=YmMyMTA2M2Y=",
+      "https://www.youtube.com/@voodooecom",
+      "https://www.youtube.com/channel/UCi-xGI6YcI18nXPwV4oz2Kw?sub_confirmation=1&feature=subscribe-embed",
+      "https://www.youtube.com/watch?v=hADUQHVDq9U"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.68,
+    "metro": "kyiv",
+    "phone": "+380 67 420 1909"
+  },
+  {
+    "lead_title": "Parity Zone",
+    "website": "http://www.parityzone.com/",
+    "pages": [
+      {
+        "url": "https://parityzone.com/",
+        "title": "Parity Zone – Empowering Digital Eco-System"
+      },
+      {
+        "url": "https://parityzone.com/contact-us/",
+        "title": "Contact Us – Parity Zone"
+      },
+      {
+        "url": "https://parityzone.com/about-us/",
+        "title": "About Us – Parity Zone"
+      }
+    ],
+    "emails": [
+      "info@parityzone.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/ParityZone"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 10.49,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "10com Web Development",
+    "website": "https://www.10comwebdevelopment.com/",
+    "pages": [
+      {
+        "url": "https://www.10comwebdevelopment.com/",
+        "title": "Chicago Web Design, SEO & Digital Marketing Agency | 10com"
+      },
+      {
+        "url": "https://www.10comwebdevelopment.com/contact-web-development-firm",
+        "title": "Contact Our Custom Web Design & Development Team | 10com"
+      },
+      {
+        "url": "https://www.10comwebdevelopment.com/about",
+        "title": "Learn More About Our Team & Company Story | 10com"
+      }
+    ],
+    "emails": [
+      "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+      "271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com",
+      "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+      "79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com",
+      "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com",
+      "9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com",
+      "billing.payments@10comwebdevelopment.com",
+      "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+      "info@10comwebdevelopment.com",
+      "partners@10comwebdevelopment.com",
+      "sales@10comwebdevelopment.com"
+    ],
+    "socials": [
+      "https://smb.gatescountyindex.com/article/10com-Launches-Premier-Web-Design-and-SEO-Services-in-Green-Bay?storyId=68681b3afd5101000241f672",
+      "https://www.wix.com/marketplace/wix-partner/10com-webdevelopment#projects",
+      "https://www.wix.com/partners/post/7-proven-upselling-techniques-to-generate-bigger-projects"
+    ],
+    "pocs": [
+      {
+        "name": "COM IS",
+        "sources": [
+          "heading_h4"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.36,
+    "metro": "kyiv",
+    "phone": "+1 312-321-7496"
+  },
+  {
+    "lead_title": "Operations PRO Digital Marketing Agency",
+    "website": "https://operationspro.pk/",
+    "pages": [
+      {
+        "url": "https://operationspro.pk/",
+        "title": "Top Rated Digital Marketing Agency in Islamabad Pakistan"
+      },
+      {
+        "url": "https://operationspro.pk/contact-us/",
+        "title": "Contact Us - Operations PRO Digital Marketing Agency"
+      },
+      {
+        "url": "https://operationspro.pk/about-us/",
+        "title": "About Us - Operations PRO Digital Marketing Agency"
+      }
+    ],
+    "emails": [
+      "info@operationspro.pk"
+    ],
+    "socials": [
+      "https://pk.linkedin.com/company/operations-pro",
+      "https://www.facebook.com/operationspro.pk",
+      "https://www.facebook.com/operationspro.pk/reviews",
+      "https://www.instagram.com/operationspro.pk",
+      "https://www.tiktok.com/@operations.pro",
+      "https://www.youtube.com/@operationspro4034"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.84,
+    "metro": "kyiv",
+    "phone": "+92 336 7227227"
+  },
+  {
+    "lead_title": "Swiftwave Digital - Digital Marketing Agency in Bahria Town, Phase 4, Rawalpindi",
+    "website": "https://swiftwavedigital.com/",
+    "pages": [
+      {
+        "url": "https://swiftwavedigital.com/",
+        "title": "Swiftwave Digital | Best Digital Marketing Agency in Islamabad"
+      },
+      {
+        "url": "https://swiftwavedigital.com/contact-us/",
+        "title": "Contact Us - Swiftwave Digital"
+      },
+      {
+        "url": "https://swiftwavedigital.com/about-us/",
+        "title": "About Us - Swiftwave Digital"
+      }
+    ],
+    "emails": [
+      "info@swiftwavedigital.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/share/18oFkeTSfb/",
+      "https://www.instagram.com/swiftwavedigital?igsh=eDhpdGI2dWd1OG0w",
+      "https://www.linkedin.com/company/swiftwavedigital/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.93,
+    "metro": "kyiv",
+    "phone": "+92 336 6666788"
+  },
+  {
+    "lead_title": "AKSA-SDS",
+    "website": "https://www.aksa-sds.com/",
+    "pages": [
+      {
+        "url": "https://www.aksa-sds.com/",
+        "title": "AKSA Solutions Development Services"
+      },
+      {
+        "url": "https://www.aksa-sds.com/contact-us",
+        "title": "AKSA Solutions Development Services"
+      },
+      {
+        "url": "https://www.aksa-sds.com/about-us",
+        "title": "AKSA Solutions Development Services"
+      }
+    ],
+    "emails": [
+      "contact@aksa-sds.com",
+      "info@aksa-sds.com",
+      "jobs@aksa-sds.com"
+    ],
+    "socials": [
+      "https://pk.linkedin.com/company/aksa-sds",
+      "https://www.facebook.com/aksasolutions/",
+      "https://www.instagram.com/aksasds/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.99,
+    "metro": "kyiv",
+    "phone": "+92 51 2827582"
+  },
+  {
+    "lead_title": "SEO просування, Розробка і створення сайтів у Львові - 9 Dots Studio Lviv",
+    "website": "https://9.lviv.ua/",
+    "pages": [
+      {
+        "url": "https://9.lviv.ua/",
+        "title": "Створення сайтів в Україні - ТОП компанія 9 Dots Studio"
+      }
+    ],
+    "emails": [
+      "info@9.lviv.ua",
+      "netexpo@yahoo.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/9.lviv.ua",
+      "https://www.instagram.com/9.lviv.ua/",
+      "https://www.youtube.com/channel/UCZtTTb-f25sXCG1kMQ34U-Q"
+    ],
+    "pocs": [
+      {
+        "name": "Лозицький Олександр Анатолійович",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Максим Клочко",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Ярослав Коваль",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "nazar2188 Мельниченко",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Володимир Смеянов",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.18,
+    "metro": "kyiv",
+    "phone": "+380 97 549 9998"
+  },
+  {
+    "lead_title": "Radixweb",
+    "website": "https://radixweb.com/",
+    "pages": [
+      {
+        "url": "https://radixweb.com/",
+        "title": "Custom Software Engineering Company | Radixweb"
+      },
+      {
+        "url": "https://radixweb.com/contact-us",
+        "title": "Radixweb Contact Information - Build Great Software - Radixweb"
+      },
+      {
+        "url": "https://radixweb.com/company-news/radixweb-wins-platinum-2026-titan-business-awards",
+        "title": "Radixweb Wins Platinum for IT Software at 2026 TITAN Awards"
+      }
+    ],
+    "emails": [
+      "biz@radixweb.in",
+      "pratikm@radixweb.com"
+    ],
+    "socials": [
+      "https://www.linkedin.com/shareArticle?mini=true&url=https://radixweb.com/company-news/radixweb-wins-platinum-2026-titan-business-awards"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 10.54,
+    "metro": "kyiv",
+    "phone": "+91 79 3520 0685"
+  },
+  {
+    "lead_title": "Zina Design Studio",
+    "website": "https://zina.design/",
+    "pages": [
+      {
+        "url": "https://zina.design/uk/",
+        "title": "Веб-Студія «Зіна дизайн» — створення сайтів у Дніпрі"
+      },
+      {
+        "url": "https://zina.design/uk/contacts/",
+        "title": "Контакти веб-студії «Зіна дизайн» у Дніпрі"
+      },
+      {
+        "url": "https://zina.design/uk/about/",
+        "title": "Про студію «Зіна дизайн»"
+      }
+    ],
+    "emails": [
+      "info@zina.design",
+      "roman@zina.design"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.1,
+    "metro": "kyiv",
+    "phone": "+380 50 348 1711"
+  },
+  {
+    "lead_title": "Viremp Technologies International Pvt. Ltd.",
+    "website": "https://www.viremp.com/",
+    "pages": [
+      {
+        "url": "https://viremp.com/",
+        "title": "Home - VirEmp Technologies International Pvt. Ltd."
+      },
+      {
+        "url": "https://viremp.com/contact/",
+        "title": "Contact - VirEmp Technologies International Pvt. Ltd."
+      },
+      {
+        "url": "https://viremp.com/about-us/",
+        "title": "About Us - VirEmp Technologies International Pvt. Ltd."
+      }
+    ],
+    "emails": [
+      "info@viremp.com",
+      "johndoe@company.com",
+      "logo@2x-1-200x47.png",
+      "logo@2x-1.png",
+      "support@viremp.com"
+    ],
+    "socials": [
+      "https://twitter.com/viremptech",
+      "https://www.facebook.com/viremp",
+      "https://www.instagram.com/viremptech/",
+      "https://www.linkedin.com/company/viremptechnologiesinternational",
+      "https://www.linkedin.com/company/viremptechnologiesinternational/",
+      "https://www.youtube.com/channel/UCBkG8NkJu39p42z1YafOD1Q"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.7,
+    "metro": "kyiv",
+    "phone": "+92 345 5050100"
+  },
+  {
+    "lead_title": "SignUp Solution",
+    "website": "https://signupsolution.com/",
+    "pages": [
+      {
+        "url": "https://signupsolution.com/",
+        "title": "Best Software House in Rawalpindi/Islamabad, Pakistan | SignUp Solution"
+      },
+      {
+        "url": "https://signupsolution.com/contact/",
+        "title": "Contact Us | SignUp Solution - Your Partner in Digital Innovation"
+      },
+      {
+        "url": "https://signupsolution.com/company-profile/",
+        "title": "SignUp Solution - Empowering Businesses with Innovative Software Solutions"
+      }
+    ],
+    "emails": [
+      "marketing@signupsolution.com"
+    ],
+    "socials": [],
+    "pocs": [
+      {
+        "name": "Your Partner",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.87,
+    "metro": "kyiv",
+    "phone": "+92 51 2716572"
+  },
+  {
+    "lead_title": "Eziline Software House Pvt Ltd",
+    "website": "https://eziline.com/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: timeout "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "timeout",
+    "quality_score": 10.67,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "Webigency | Website Development Agency Islamabad",
+    "website": "https://webigency.com/",
+    "pages": [
+      {
+        "url": "https://webigency.com/",
+        "title": "Webigency | Web Development Agency Islamabad"
+      },
+      {
+        "url": "https://webigency.com/contact-webigency/",
+        "title": "Contact Webigency | Web Development & SEO Experts"
+      },
+      {
+        "url": "https://webigency.com/about-us/",
+        "title": "About Us"
+      }
+    ],
+    "emails": [
+      "info@webigency.com"
+    ],
+    "socials": [
+      "https://twitter.com/",
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://youtube.com/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.77,
+    "metro": "kyiv",
+    "phone": "+92 335 5375738"
+  },
+  {
+    "lead_title": "Star",
+    "website": "https://star.global/",
+    "pages": [
+      {
+        "url": "https://star.global/",
+        "title": "Star | Global technology consultancy"
+      },
+      {
+        "url": "https://star.global/contact/",
+        "title": "Contact us | Star"
+      }
+    ],
+    "emails": [
+      "hello@star.global",
+      "hellochina@star.global",
+      "helloclient@star.global",
+      "hellocopenhagen@star.global",
+      "hellofrankfurt@star.global",
+      "hellojapan@star.global",
+      "hellokyiv@star.global",
+      "hellolondon@star.global",
+      "hellomunich@star.global",
+      "hellonewyork@star.global",
+      "hellosanfrancisco@star.global",
+      "hellosunnyvale@star.global",
+      "hellovietnam@star.global",
+      "hellowroclaw@star.global",
+      "u003ehelloclient@star.global"
+    ],
+    "socials": [
+      "https://www.facebook.com/starglobally",
+      "https://www.instagram.com/star.product.creators/",
+      "https://www.instagram.com/star.tech.consultancy/",
+      "https://www.linkedin.com/company/starglobal",
+      "https://www.tiktok.com/@star.product.creators",
+      "https://www.youtube.com/@star-consultancy",
+      "https://www.youtube.com/watch?v=1wnGHB7V0WM",
+      "https://www.youtube.com/watch?v=9_spYUNLi5w",
+      "https://www.youtube.com/watch?v=aCpsMDeZP6Y"
+    ],
+    "pocs": [
+      {
+        "name": "Juha Christensen",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [
+          "https://www.linkedin.com/in/juhachristensen/"
+        ],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.81,
+    "metro": "kyiv",
+    "phone": "+380 44 594 7450"
+  },
+  {
+    "lead_title": "Студія дизайну та реклами «BRANDME»",
+    "website": "https://brandme.in.ua/",
+    "pages": [
+      {
+        "url": "https://brandme.in.ua/",
+        "title": "Рекламна агенція повного циклу | Корпоративний мерч | BRANDME"
+      }
+    ],
+    "emails": [
+      "hello@brandme.in.ua"
+    ],
+    "socials": [
+      "https://instagram.com/brandme.ad.agency/",
+      "https://www.facebook.com/brandmeinua",
+      "https://www.instagram.com/brandme.ad.agency/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.04,
+    "metro": "kyiv",
+    "phone": "+380 93 370 5050"
+  },
+  {
+    "lead_title": "Jives Media",
+    "website": "https://www.jivesmedia.com/digital-marketing-agency-in-manhattan-ny/",
+    "pages": [
+      {
+        "url": "https://www.jivesmedia.com/digital-marketing-agency-in-manhattan-ny/",
+        "title": "Digital Marketing Agency In Manhattan, NY | Jives Media"
+      },
+      {
+        "url": "https://www.jivesmedia.com/contact-us/",
+        "title": "Contact Jives Media | Digital Marketing Experts"
+      },
+      {
+        "url": "https://www.jivesmedia.com/about-us/",
+        "title": "Best Digital Marketing Company | Jives Media"
+      }
+    ],
+    "emails": [
+      "brian@brianwhitney.com",
+      "info@jivesmedia.com"
+    ],
+    "socials": [
+      "https://twitter.com/jivesmedia",
+      "https://www.facebook.com/JIVESMEDIA",
+      "https://www.instagram.com/jivesmedia/",
+      "https://www.linkedin.com/company/jivesmedia/",
+      "https://www.yelp.com/biz/jives-media-san-francisco",
+      "https://www.youtube.com/channel/UCxGUZw6Li6nNqgmNgy3nE4w"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.9,
+    "metro": "kyiv",
+    "phone": "+1 929-265-5595"
+  },
+  {
+    "lead_title": "SeoSite",
+    "website": "https://alexsmokinof.lviv.ua/",
+    "pages": [
+      {
+        "url": "https://alexsmokinof.lviv.ua/",
+        "title": "SEO просування сайтів Львів :: Розробка якісних сайтів"
+      }
+    ],
+    "emails": [
+      "infa.seosite@gmail.com"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.48,
+    "metro": "kyiv",
+    "phone": "+380 50 162 1790"
+  },
+  {
+    "lead_title": "Creaxe Branding and Digital Solutions",
+    "website": "https://creaxe.com/",
+    "pages": [
+      {
+        "url": "https://creaxe.com/",
+        "title": "Creaxe — Free Online Design Tool | Create Posts, Posters & Graphics with AI"
+      },
+      {
+        "url": "https://creaxe.com/contact",
+        "title": "Contact Us — Creaxe Design Platform Support"
+      },
+      {
+        "url": "https://creaxe.com/about",
+        "title": "About Creaxe — Online Design Platform for RTL & Multilingual Design"
+      }
+    ],
+    "emails": [
+      "hello@creaxe.com",
+      "support@creaxe.com"
+    ],
+    "socials": [
+      "https://facebook.com/urdudesigner",
+      "https://instagram.com/creaxePvtLtd"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.48,
+    "metro": "kyiv",
+    "phone": "+92 300 9712255"
+  },
+  {
+    "lead_title": "CodesVista",
+    "website": "https://codesvista.com/",
+    "pages": [
+      {
+        "url": "https://codesvista.com/",
+        "title": "Home - CodesVista"
+      },
+      {
+        "url": "https://codesvista.com/contact-us/",
+        "title": "Contact Us - CodesVista"
+      },
+      {
+        "url": "https://codesvista.com/about-us/",
+        "title": "About US - CodesVista"
+      }
+    ],
+    "emails": [
+      "contact@mysite.com",
+      "info@codesvista.com"
+    ],
+    "socials": [
+      "https://web.facebook.com/profile.php?id=61554340860410",
+      "https://www.instagram.com/codes_vista?igsh=MWRveGt0d2NsZjlnNQ==",
+      "https://www.linkedin.com/company/103014215/admin/dashboard/",
+      "https://www.tiktok.com/@codesvista5052?_t=ZS-8tpNHMYTnKp&_r=1",
+      "https://www.youtube.com/@CodesVista"
+    ],
+    "pocs": [
+      {
+        "name": "CodesVista IT",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Hassan CH",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [
+          "https://codesvista.com/"
+        ],
+        "url": "https://codesvista.com/author/hassan123/"
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.93,
+    "metro": "kyiv",
+    "phone": "+92 346 5987369"
+  },
+  {
+    "lead_title": "Shop-Express — Ecommerce Platform",
+    "website": "https://shop-express.ua/",
+    "pages": [
+      {
+        "url": "https://shop-express.ua/",
+        "title": "Создать интернет магазин ᐅ Конструктор интернет-магазина | Shop-Express"
+      },
+      {
+        "url": "https://shop-express.ua/about/",
+        "title": "О компании Shop-Express"
+      }
+    ],
+    "emails": [
+      "i@shop-express.ua"
+    ],
+    "socials": [
+      "https://www.facebook.com/permalink.php?story_fbid=122174016200105482&id=61553164485815",
+      "https://www.facebook.com/shopexpressukraine/",
+      "https://www.instagram.com/shopexpressukraine/",
+      "https://www.youtube.com/@shop-express-ua/",
+      "https://www.youtube.com/channel/UCN0v1NwcfVeNAALlk-3GYVw"
+    ],
+    "pocs": [
+      {
+        "name": "Юлия Голубинская",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.42,
+    "metro": "kyiv",
+    "phone": "+380 44 333 9800"
+  },
+  {
+    "lead_title": "M5HOST WEB DEVELOPMENT COMPANY ISLAMABAD",
+    "website": "https://m5host.com/",
+    "pages": [
+      {
+        "url": "https://m5host.com/",
+        "title": "Home - M5Host"
+      },
+      {
+        "url": "https://m5host.com/contact-us/",
+        "title": "Contact Us - M5Host"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/M5Host/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.62,
+    "metro": "kyiv",
+    "phone": "+92 331 6640400"
+  },
+  {
+    "lead_title": "Crawlbytes Pvt Ltd.Website Development Designing Services - SEO Company & Digital Marketing Agency in Islamabad",
+    "website": "https://crawlbytes.com/",
+    "pages": [
+      {
+        "url": "https://crawlbytes.com/",
+        "title": "Digital Marketing & Web Development Agency in Islamabad"
+      },
+      {
+        "url": "https://crawlbytes.com/contact-us/",
+        "title": "Contact Us"
+      },
+      {
+        "url": "https://crawlbytes.com/about-us/",
+        "title": "About Us"
+      }
+    ],
+    "emails": [
+      "crawlbytes@gmail.com",
+      "info@crawlbytes.com"
+    ],
+    "socials": [
+      "https://pk.linkedin.com/company/crawlbytes",
+      "https://www.facebook.com/Thecrawlbytes/",
+      "https://www.instagram.com/crawlbytes/",
+      "https://www.youtube.com/c/crawlbytes",
+      "https://www.youtube.com/embed/06DJaQLfmfk?feature=oembed?playlist=06DJaQLfmfk&mute=0&autoplay=0&loop=no&controls=0&start=0&end="
+    ],
+    "pocs": [
+      {
+        "name": "We’re Partner",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.68,
+    "metro": "kyiv",
+    "phone": "+92 333 5842137"
+  },
+  {
+    "lead_title": "Diyar Digital Marketing Pvt Ltd",
+    "website": "http://www.diyardigitalmarketing.com/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 6.38,
+    "metro": "kyiv",
+    "phone": "+92 312 8855724"
+  },
+  {
+    "lead_title": "99 Marketing Studio",
+    "website": "http://www.99marketingstudio.com/",
+    "pages": [
+      {
+        "url": "https://99marketingstudio.com/",
+        "title": "99 Marketing Studio - Your Local Creative Partner in Pakistan"
+      },
+      {
+        "url": "https://99marketingstudio.com/contact/",
+        "title": "Contact - 99 Marketing Studio"
+      }
+    ],
+    "emails": [
+      "info@99marketingstudio.com"
+    ],
+    "socials": [
+      "http://linkedin.com/in/marciedterman/",
+      "https://pk.linkedin.com/company/99marketingstudio",
+      "https://www.facebook.com/99marketingstudio",
+      "https://www.instagram.com/99marketingstudio/",
+      "https://www.linkedin.com/in/muhammad-iftikhar-aa6a28194/",
+      "https://www.linkedin.com/in/steven-van-cohen-ms-351582a/",
+      "https://www.youtube.com/@99marketingstudio"
+    ],
+    "pocs": [
+      {
+        "name": "Choose Best",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.25,
+    "metro": "kyiv",
+    "phone": "+92 300 0055409"
+  },
+  {
+    "lead_title": "Visualwebz - Seattle SEO & Web Design",
+    "website": "https://visualwebz.com/",
+    "pages": [
+      {
+        "url": "https://www.google.com/sorry/index?continue=https://www.google.com.pk/search%3Fq%3DVisualwebz%2B-%2BSeattle%2BSEO%2B%2526%2BWeb%2BDesign%26ludocid%3D8568305686603618629%26lpsid%3DCIHM0ogKEKKz36yM-ML-Cw%26source%3Dsh/x/loc/post/m1/1%26lsig%3DAB86z5Xp7VnE2v5hE1QPhE_vhu8y%26kgs%3Dc149a2f138b6a9c6%26shem%3Dshrtsdl%26utm_source%3Dshrtsdl,sh/x/loc/post/m1/1%26sei%3DXigUarhEguCnzg_70IeABw&q=EhAkB9AAABE-DvJo4__-Ar9AGN7Q0NAGIjC7x_HiKBe6ckiUh90JhEz7puiav40Q0J9mPRT2sgq7OP8krAcXkK0MdG5AQdehuacyAVJaAUM",
+        "title": "https://www.google.com.pk/search?q=Visualwebz+-+Seattle+SEO+%26+Web+Design&ludocid=8568305686603618629&lpsid=CIHM0ogKEKKz36yM-ML-Cw&source=sh/x/loc/post/m1/1&lsig=AB86z5Xp7VnE2v5hE1QPhE_vhu8y&kgs=c149a2f138b6a9c6&shem=shrtsdl&utm_source=shrtsdl,sh/x/loc/post/m1/1&sei=XigUarhEguCnzg_70IeABw"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.18,
+    "metro": "kyiv",
+    "phone": "+1 425-336-0069"
+  },
+  {
+    "lead_title": "GoDesign Technologies",
+    "website": "https://www.godesign.pk/",
+    "pages": [
+      {
+        "url": "https://godesign.pk/",
+        "title": "#1 web developer & graphic designer in Islamabad - GoDesign"
+      },
+      {
+        "url": "https://godesign.pk/contact/",
+        "title": "Start your project - GoDesign Technologies LLP"
+      },
+      {
+        "url": "https://godesign.pk/company/",
+        "title": "Best digital agency - GoDesign Technologies LLP"
+      }
+    ],
+    "emails": [
+      "ilyas@godesign.pk",
+      "sales@godesign.pk",
+      "usman@godesign.pk",
+      "waqas@godesign.pk"
+    ],
+    "socials": [
+      "https://www.instagram.com/godesign.pk/",
+      "https://www.linkedin.com/company/godesignpk"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.45,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "Codistan Ventures - Digital Marketing Agency in Pakistan",
+    "website": "https://codistan.org/",
+    "pages": [
+      {
+        "url": "https://codistan.org/",
+        "title": "Codistan | Software Development & Digital Marketing Company"
+      },
+      {
+        "url": "https://codistan.org/contact-us/",
+        "title": "Contact Us - Codistan"
+      },
+      {
+        "url": "https://codistan.org/about-us/",
+        "title": "About Codistan | Our Company, Team & Digital Expertise"
+      }
+    ],
+    "emails": [
+      "admin@codistan.org",
+      "sales@codistan.org"
+    ],
+    "socials": [
+      "https://www.facebook.com/share/1AdvYDoGTz/?mibextid=wwXIfr",
+      "https://www.instagram.com/codistanventures?igsh=MWIzZmhveDdnbGIwZw==",
+      "https://www.linkedin.com/company/codistan/",
+      "https://www.linkedin.com/in/afnan-sharief-a2990399?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "https://www.linkedin.com/in/mwaseemk?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "https://www.linkedin.com/in/sehrish-raza-bizb?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.13,
+    "metro": "kyiv",
+    "phone": "+92 300 1581510"
+  },
+  {
+    "lead_title": "Humayoun Mussawar- Digital Marketing Consultant",
+    "website": "https://humayounmussawar.com/",
+    "pages": [
+      {
+        "url": "https://humayounmussawar.com/",
+        "title": "403 Forbidden"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.17,
+    "metro": "kyiv",
+    "phone": "+92 331 9976106"
+  },
+  {
+    "lead_title": "Immentia SMC Private Ltd",
+    "website": "https://www.immentia.com/",
+    "pages": [
+      {
+        "url": "https://www.immentia.com/",
+        "title": "Immentia | Hub of Inventive Digital Marketing Services"
+      },
+      {
+        "url": "https://www.immentia.com/contact-us.php",
+        "title": "Contact Us | Immentia"
+      },
+      {
+        "url": "https://www.immentia.com/about-us.php",
+        "title": "About Us | Immentia"
+      }
+    ],
+    "emails": [
+      "care@immentia.com",
+      "hr@immentia.com"
+    ],
+    "socials": [
+      "https://twitter.com/Immentia_",
+      "https://twitter.com/immentia_",
+      "https://www.facebook.com/Immentia",
+      "https://www.linkedin.com/company/immentia/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": true,
+    "status": "ok",
+    "quality_score": 8.64,
+    "metro": "kyiv",
+    "phone": "+92 51 5170729"
+  },
+  {
+    "lead_title": "DatumSquare IT Services Pvt. Ltd.",
+    "website": "http://datumsquare.com/",
+    "pages": [
+      {
+        "url": "https://www.datumsquare.com/",
+        "title": "DatumSquare IT Services"
+      },
+      {
+        "url": "https://www.datumsquare.com/contact-us/",
+        "title": "Contact Us – DatumSquare IT Services"
+      }
+    ],
+    "emails": [
+      "info@datumsquare.com"
+    ],
+    "socials": [
+      "https://twitter.com/datumsquare",
+      "https://www.facebook.com/DatumSquareIT",
+      "https://www.linkedin.com/company/datumsquare-it-services"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.91,
+    "metro": "kyiv",
+    "phone": "+92 51 8319127"
+  },
+  {
+    "lead_title": "Coding Souls | Software Company In Pakistan",
+    "website": "https://codingsouls.com/",
+    "pages": [
+      {
+        "url": "https://codingsouls.com/",
+        "title": "Home - Coding Souls"
+      },
+      {
+        "url": "https://codingsouls.com/contact-us/",
+        "title": "Contact Us - Coding Souls"
+      },
+      {
+        "url": "https://codingsouls.com/about-us/",
+        "title": "About Us - Coding Souls"
+      }
+    ],
+    "emails": [
+      "info@codingsouls.com",
+      "murrahman2020@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/codingsouls/",
+      "https://www.instagram.com/coding_souls",
+      "https://www.linkedin.com/company/105438944/",
+      "https://www.youtube.com/channel/UCsN4I23a45w2fUAUfM6orHg",
+      "https://www.youtube.com/playlist?list=PLhaS6XLqhrTZALLsIhW1NKXBaf8c2S8kP"
+    ],
+    "pocs": [
+      {
+        "name": "CEO's Message",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.11,
+    "metro": "kyiv",
+    "phone": "+92 347 9899980"
+  },
+  {
+    "lead_title": "SkyService POS - автоматизація бізнесу",
+    "website": "https://skyservice.pro/",
+    "pages": [
+      {
+        "url": "https://skyservice.pro/en/main/",
+        "title": "Skyservice POS Cloud Cash Register — Online Business Automation"
+      },
+      {
+        "url": "https://skyservice.pro/en/contacts/",
+        "title": "Contact Skyservice POS — Get in Touch"
+      },
+      {
+        "url": "https://skyservice.pro/en/about/",
+        "title": "About Skyservice POS — Cloud Cash Register Features"
+      }
+    ],
+    "emails": [
+      "m@skyservice.pro"
+    ],
+    "socials": [
+      "https://www.facebook.com/SkyServicePOS/",
+      "https://www.instagram.com/skyservice_pos/",
+      "https://www.youtube.com/channel/UCN-ykuvVE7swm1UBhq9fHdQ"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.45,
+    "metro": "kyiv",
+    "phone": "+380 63 047 6445"
+  },
+  {
+    "lead_title": "Digital Web Shark",
+    "website": "http://www.digitalwebshark.com/",
+    "pages": [
+      {
+        "url": "https://digitalwebshark.com/",
+        "title": "DWS|Best Digital Marketing Agency in Islamabad|Rawapindi"
+      },
+      {
+        "url": "https://digitalwebshark.com/contact-us/",
+        "title": "Contact us - Best Digital Agency"
+      },
+      {
+        "url": "https://digitalwebshark.com/about-us/",
+        "title": "About Us | DWS is the Best Digital Agency in Islamabad-Rawalpindi"
+      }
+    ],
+    "emails": [
+      "mamoor.khan@digitalwebshark.com"
+    ],
+    "socials": [
+      "https://twitter.com/digitalwebshark?lang=en",
+      "https://www.facebook.com/DigitalWebShark/",
+      "https://www.facebook.com/noheed.alam",
+      "https://www.instagram.com/noheed12/",
+      "https://www.linkedin.com/company/digitalwebshark",
+      "https://www.linkedin.com/in/noheed-alam/",
+      "https://www.youtube.com/results?search_query=digitalwebshark"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.88,
+    "metro": "kyiv",
+    "phone": "+92 336 9750038"
+  },
+  {
+    "lead_title": "Sparking Asia",
+    "website": "http://sparkingasia.com/",
+    "pages": [
+      {
+        "url": "https://sparkingasia.com/",
+        "title": "Sparking Asia"
+      },
+      {
+        "url": "https://sparkingasia.com/Contact",
+        "title": "This Page Does Not Exist"
+      },
+      {
+        "url": "https://sparkingasia.com/About",
+        "title": "This Page Does Not Exist"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://twitter.com/sparkingasia",
+      "https://www.facebook.com/sparkingasia",
+      "https://www.instagram.com/sparkingasia/",
+      "https://www.linkedin.com/company/sparkingasia/",
+      "https://www.tiktok.com/@sparkingasia"
+    ],
+    "pocs": [
+      {
+        "name": "Junaid Islam",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.44,
+    "metro": "kyiv",
+    "phone": "+92 342 4394074"
+  },
+  {
+    "lead_title": "DesignRush",
+    "website": "https://www.designrush.com/",
+    "pages": [
+      {
+        "url": "https://www.designrush.com/",
+        "title": "DesignRush | Brand Discovery Platform & Agency Directory"
+      },
+      {
+        "url": "https://www.designrush.com/contact-us",
+        "title": "Contact Us"
+      },
+      {
+        "url": "https://www.designrush.com/about-us",
+        "title": "About Us | DesignRush"
+      }
+    ],
+    "emails": [
+      "info@designrush.com",
+      "jobs@designrush.com"
+    ],
+    "socials": [
+      "https://twitter.com/designrushmag",
+      "https://www.facebook.com/designrush/",
+      "https://www.instagram.com/designrushmag",
+      "https://www.instagram.com/designrushmag/",
+      "https://www.instagram.com/p/DW1imCVmcWw/?img_index=1",
+      "https://www.instagram.com/p/DW8-xXumb0s/?img_index=1",
+      "https://www.instagram.com/p/DXE-6wYmaAw/?img_index=1",
+      "https://www.instagram.com/p/DXEp35TGUZL/?img_index=1",
+      "https://www.instagram.com/p/DXJ7GMJmXqK/?img_index=1",
+      "https://www.linkedin.com/company/designrush",
+      "https://www.linkedin.com/company/designrush/",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7401615211386052608",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7404564550336921600",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7427397375360479232",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7427994090308280321",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7438262389281660929",
+      "https://www.youtube.com/@designrush",
+      "https://www.youtube.com/watch?v=JckHY2oB9Bg",
+      "https://www.youtube.com/watch?v=zUo8FEGStk0"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.44,
+    "metro": "kyiv",
+    "phone": "+1 305-370-1017"
+  },
+  {
+    "lead_title": "Reklamna Kompaniya Art Bro : Vyvisky, Reklama, Marketynh",
+    "website": "https://www.artbro.com.ua/",
+    "pages": [
+      {
+        "url": "https://www.artbro.com.ua/",
+        "title": "▷ Рекламно-виробнича компанія Арт_Бро | Рекламні послуги у Львові"
+      }
+    ],
+    "emails": [
+      "superartbro@gmail.com"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.43,
+    "metro": "kyiv",
+    "phone": "+380 98 590 2616"
+  },
+  {
+    "lead_title": "Yalantis",
+    "website": "https://yalantis.com/",
+    "pages": [
+      {
+        "url": "https://yalantis.com/",
+        "title": "403 Forbidden"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.41,
+    "metro": "kyiv",
+    "phone": "+1 213-401-9311"
+  },
+  {
+    "lead_title": "WDI - Web Design & Development Company in Pakistan | Software Development | App Developmet",
+    "website": "https://webdevelopmentislamabad.pk/",
+    "pages": [
+      {
+        "url": "https://webdevelopmentislamabad.pk/",
+        "title": "Web Design & Development Company in Islamabad, Pakistan"
+      },
+      {
+        "url": "https://webdevelopmentislamabad.pk/contact/",
+        "title": "Contact us - WDI"
+      },
+      {
+        "url": "https://webdevelopmentislamabad.pk/about/",
+        "title": "About Us - WDI"
+      }
+    ],
+    "emails": [
+      "contact@bittechnologies.co",
+      "info@webdevelopmentislamabad.pk"
+    ],
+    "socials": [
+      "http://linkedin.com/",
+      "https://facebook.com/",
+      "https://instagram.com/",
+      "https://www.facebook.com/wdiwebdevelopmentcompanyinislamabad",
+      "https://www.linkedin.com/company/wdi-web-development-company-in-islamabad"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.0,
+    "metro": "kyiv",
+    "phone": "+92 309 5245704"
+  },
+  {
+    "lead_title": "Web Technologies Pakistan | Digital Marketing & SEO Expert Services Agency Rawalpindi, Islamabad",
+    "website": "https://webtechnologiespak.com/",
+    "pages": [
+      {
+        "url": "https://webtechnologiespak.com/",
+        "title": "Leading Digital Marketing, SEO Agency in Rawalpindi Pakistan"
+      },
+      {
+        "url": "https://webtechnologiespak.com/contact-us/",
+        "title": "Contact Us - Web Technologies Pakistan | Digital Marketing & SEO Agency Rawalpindi, Islamabad"
+      },
+      {
+        "url": "https://webtechnologiespak.com/about-us/",
+        "title": "About Us - Web Technologies Pakistan | Digital Marketing & SEO Agency Rawalpindi, Islamabad"
+      }
+    ],
+    "emails": [
+      "info@webtechnologiespak.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/WebTechnologiesPakistan/",
+      "https://www.instagram.com/webtechnologiespakistan/",
+      "https://www.linkedin.com/in/webtechnologiespakistan/"
+    ],
+    "pocs": [
+      {
+        "name": "Co Founder",
+        "sources": [
+          "heading_h2",
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.17,
+    "metro": "kyiv",
+    "phone": "+92 313 5060717"
+  },
+  {
+    "lead_title": "United of Web | Design & Develop NYC",
+    "website": "https://unitedofweb.com/",
+    "pages": [
+      {
+        "url": "https://unitedofweb.com/",
+        "title": "High-Performance Web Design & Development NYC · United Of Web"
+      },
+      {
+        "url": "https://unitedofweb.com/contact-us",
+        "title": "Contact Us · United Of Web"
+      },
+      {
+        "url": "https://unitedofweb.com/about-us",
+        "title": "About Us · United Of Web"
+      }
+    ],
+    "emails": [
+      "hello@unitedofweb.com"
+    ],
+    "socials": [
+      "https://twitter.com/unitedofweb",
+      "https://www.facebook.com/people/United-of-Web-Design-Develop-NYC/100093277830696/",
+      "https://www.instagram.com/unitedofweb/",
+      "https://www.linkedin.com/company/united-of-web-design-develop-nyc/",
+      "https://www.youtube.com/channel/UCpGPbB8iQhgFtnsnWOJ-PWQ"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.0,
+    "metro": "kyiv",
+    "phone": "+1 718-550-2787"
+  },
+  {
+    "lead_title": "K2 - Reklama Dlya Internet-Mahazyniv",
+    "website": "https://k2-promo.company/",
+    "pages": [
+      {
+        "url": "https://k2-promo.company/",
+        "title": "Реклама інтернет-магазинів від К2 | Реклама товарів з гарантією"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/K2.promo.company",
+      "https://www.instagram.com/k2.promo/",
+      "https://www.linkedin.com/company/k2-company/",
+      "https://www.tiktok.com/@k2_promo?_t=8oGXh84uKWr&_r=1",
+      "https://www.youtube.com/@k2-promo"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.0,
+    "metro": "kyiv",
+    "phone": "+380 93 170 7926"
+  },
+  {
+    "lead_title": "QuellxCode (Pvt) Ltd | Marketing Agency",
+    "website": "https://quellxcode.com/",
+    "pages": [
+      {
+        "url": "https://quellxcode.com/",
+        "title": "Best digital marketing agency in Islamabad,Pakistan | Quellxcode"
+      },
+      {
+        "url": "https://quellxcode.com/contact-us",
+        "title": "Contact Us | QuellxCode"
+      },
+      {
+        "url": "https://quellxcode.com/about",
+        "title": "About | QuellxCode"
+      }
+    ],
+    "emails": [
+      "hello@quellxcode.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/quellxcode",
+      "https://www.instagram.com/quellxcode",
+      "https://www.linkedin.com/company/quellxcode"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.8,
+    "metro": "kyiv",
+    "phone": "+92 345 5625602"
+  },
+  {
+    "lead_title": "Creative SMM - курси інтернет-маркетингу у Львові",
+    "website": "https://creativesmm.com.ua/",
+    "pages": [
+      {
+        "url": "https://creativesmm.com.ua/",
+        "title": "Курси (SMM, СММ, SEO) інтернет-маркетингу у Львові"
+      },
+      {
+        "url": "https://creativesmm.com.ua/contact/",
+        "title": "Контакти агенції Creative SMM/КреативСММ у Львові"
+      },
+      {
+        "url": "https://creativesmm.com.ua/about/",
+        "title": "Creative SMM: школа СММ & агентство інтернет-маркетингу"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/PasternakMarta",
+      "https://www.facebook.com/creativesmmseo",
+      "https://www.facebook.com/creativesmmseo/",
+      "https://www.facebook.com/galja.gal",
+      "https://www.facebook.com/julia.demkiv.7",
+      "https://www.facebook.com/mariia.kuzmynykh",
+      "https://www.facebook.com/solodovchenko.prod",
+      "https://www.instagram.com/creativesmmua/",
+      "https://www.instagram.com/galja.gal/",
+      "https://www.instagram.com/juliademkiv/",
+      "https://www.instagram.com/kuzichka_/",
+      "https://www.instagram.com/marta.pasternak/",
+      "https://www.instagram.com/solodovchenko_maryana/",
+      "https://www.linkedin.com/company/creativesmm-ua",
+      "https://www.linkedin.com/in/mariia-kuzmynykh-281549b0/",
+      "https://www.linkedin.com/in/martapasternakseo/",
+      "https://www.tiktok.com/@creativesmm.com.ua",
+      "https://www.youtube.com/channel/UCkvae-mm01xurb4pagO9kzw",
+      "https://www.youtube.com/watch?v=IoIgZ1rrtcU",
+      "https://www.youtube.com/watch?v=ljjd3EzFQLI",
+      "https://www.youtube.com/watch?v=rJ5G9Wh6_io"
+    ],
+    "pocs": [
+      {
+        "name": "Mariia Kuzmynykh",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [
+          "https://www.facebook.com/mariia.kuzmynykh",
+          "https://www.instagram.com/kuzichka_/",
+          "https://www.linkedin.com/in/mariia-kuzmynykh-281549b0/"
+        ],
+        "url": "https://creativesmm.com.ua/author/adminsmm/"
+      },
+      {
+        "name": "Марта Пастернак",
+        "sources": [
+          "json_ld"
+        ],
+        "role": "SEO/SMM спеціаліст, засновниця Creative SMM",
+        "email": null,
+        "socials": [
+          "https://www.facebook.com/PasternakMarta",
+          "https://www.instagram.com/marta.pasternak",
+          "https://www.linkedin.com/in/martapasternakseo"
+        ],
+        "url": "https://creativesmm.com.ua/marta-pasternak"
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.0,
+    "metro": "kyiv",
+    "phone": "+380 97 164 0500"
+  },
+  {
+    "lead_title": "SMR",
+    "website": "https://smr.com.ua/",
+    "pages": [
+      {
+        "url": "https://smr.com.ua/",
+        "title": "Реалізуємо можливості спільно"
+      },
+      {
+        "url": "https://smr.com.ua/about/",
+        "title": "Про нас - SMR"
+      }
+    ],
+    "emails": [
+      "info@smr.com.ua"
+    ],
+    "socials": [
+      "http://facebook.com/akrosUa",
+      "http://twitter.com/shlyocuk",
+      "https://www.youtube.com/c/RmsNetUa",
+      "https://www.youtube.com/channel/UCwj8AQtM8TDwK3IkFpkLn2g"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.95,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "Arte Analytics |AI & Data Science | IT Services |Digital Marketing services in Rawalpindi |Web & Software Development",
+    "website": "https://arteanalytics.com/",
+    "pages": [
+      {
+        "url": "https://arteanalytics.com/",
+        "title": "Arteanalytics - Expert IT Services and Skill Development"
+      },
+      {
+        "url": "https://arteanalytics.com/contact_us",
+        "title": "Arteanalytics - Expert IT Services and Skill Development"
+      },
+      {
+        "url": "https://arteanalytics.com/about",
+        "title": "Arteanalytics - Expert IT Services and Skill Development"
+      }
+    ],
+    "emails": [
+      "sales@arteanalytics.com",
+      "sales@digitalinsides.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/profile.php?id=61558698398315",
+      "https://www.instagram.com/arteanalytics/?fbclid=IwZXh0bgNhZW0CMTAAAR2olHJ6al8xWkKB5HuH_0_MoxnH8NMS0_XycMzCCn0C5ckr1dK1_IKv-Po_aem_mcYIHNzVYoBiRjDfl4PMvg",
+      "https://www.linkedin.com/company/arte-analytics-solutions/",
+      "https://www.tiktok.com/@arteanalytics?lang=en",
+      "https://www.youtube.com/channel/UCdCi9Glin_sSBNrWUPyvT8A"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": true,
+    "status": "ok",
+    "quality_score": 6.56,
+    "metro": "kyiv",
+    "phone": "+92 336 0000283"
+  },
+  {
+    "lead_title": "Abto Software",
+    "website": "http://www.abtosoftware.com/",
+    "pages": [
+      {
+        "url": "https://www.abtosoftware.com/",
+        "title": "Abto Software: AI development services"
+      },
+      {
+        "url": "https://www.abtosoftware.com/company",
+        "title": "Company - Abto Software"
+      }
+    ],
+    "emails": [
+      "office@abtosoftware.com"
+    ],
+    "socials": [
+      "https://twitter.com/abtosoftware",
+      "https://www.facebook.com/abto.software",
+      "https://www.linkedin.com/company/abto-software",
+      "https://www.linkedin.com/in/alexmuzychuk/",
+      "https://www.linkedin.com/in/artemshynkarenko/",
+      "https://www.linkedin.com/in/iryna-cherkas-87a763105/",
+      "https://www.linkedin.com/in/mykola-hnid-4b45775/",
+      "https://www.linkedin.com/in/pavlo-serdyuk/",
+      "https://www.linkedin.com/in/petro-dubyk-0015b84a/",
+      "https://www.linkedin.com/in/roman-shpakovych-415a695/",
+      "https://www.linkedin.com/in/svyatoslavlitynskyy/",
+      "https://www.linkedin.com/in/vi%D1%81toria-filtseva-54591972/?locale=en",
+      "https://www.linkedin.com/in/yuriy-kapkovskyy-a678783/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.68,
+    "metro": "kyiv",
+    "phone": "+380 68 537 5212"
+  },
+  {
+    "lead_title": "RO App Україна",
+    "website": "https://roapp.com.ua/",
+    "pages": [
+      {
+        "url": "https://roapp.com.ua/",
+        "title": "RO App — Більше ніж CRM для вашого бізнесу"
+      }
+    ],
+    "emails": [
+      "support@remonline.app"
+    ],
+    "socials": [
+      "https://www.facebook.com/roapp.ukraine",
+      "https://www.instagram.com/roapp.ukraine/",
+      "https://www.tiktok.com/@roapp.ua",
+      "https://www.youtube.com/@ROAppUA"
+    ],
+    "pocs": [],
+    "errors": [
+      "open_fail_subpage: https://roapp.com.ua/management-accounting/"
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 8.37,
+    "metro": "kyiv",
+    "phone": "+380 44 334 4041"
+  },
+  {
+    "lead_title": "Work N Solution - Best Digital Marketing Company",
+    "website": "https://worknsolution.com/",
+    "pages": [
+      {
+        "url": "https://worknsolution.com/",
+        "title": "Best Digital Marketing Agency in Islamabad | Work N Solution"
+      },
+      {
+        "url": "https://worknsolution.com/contact-us/",
+        "title": "Contact us - Best Digital Marketing Agency in Islamabad | Work N Solution"
+      },
+      {
+        "url": "https://worknsolution.com/about-us/",
+        "title": "About Us - Best Digital Marketing Agency in Islamabad | Work N Solution"
+      }
+    ],
+    "emails": [
+      "admin@worknsolution.com",
+      "alliances@worknsolution.com",
+      "itsme.omar513@gmail.com"
+    ],
+    "socials": [
+      "http://tiktok.com/@worknsolution1",
+      "http://www.youtube.com/@businesswithworknsolution",
+      "https://www.facebook.com/bilal.suleman.481311",
+      "https://www.facebook.com/profile.php?id=100086294271121",
+      "https://www.facebook.com/share/1BrvS8FUZ1/",
+      "https://www.facebook.com/warda.ahmad.954843",
+      "https://www.instagram.com/bilal_suleman_wns/",
+      "https://www.instagram.com/muhammadumarfarooqofficial?igsh=MWY0cWc0eDd4eHJzNQ==",
+      "https://www.instagram.com/wardaahmed584/",
+      "https://www.instagram.com/worknsolution/",
+      "https://www.linkedin.com/company/work-n-solution01/?viewAsMember=true",
+      "https://www.linkedin.com/in/bilal-suleman-298822284/",
+      "https://www.linkedin.com/in/muhammadumarfarooqofficial?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/warda-ahmad/"
+    ],
+    "pocs": [
+      {
+        "name": "Meet The",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Your Trusted",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.32,
+    "metro": "kyiv",
+    "phone": "+92 326 0047576"
+  },
+  {
+    "lead_title": "DEVELOPEX ️: Custom & Outsourcing Software Development Services",
+    "website": "https://developex.com/",
+    "pages": [
+      {
+        "url": "https://developex.com/",
+        "title": "Custom Software Development Company – Developex"
+      },
+      {
+        "url": "https://developex.com/contact-us/",
+        "title": "Contact Developex - Start Your Software Project Today"
+      },
+      {
+        "url": "https://developex.com/team-augmentation/",
+        "title": "Team Augmentation Services - Developex"
+      }
+    ],
+    "emails": [
+      "contact@developex.com"
+    ],
+    "socials": [
+      "https://developex.com/",
+      "https://developex.com/#",
+      "https://developex.com/artificial-intelligence-development-services/",
+      "https://developex.com/artificial-intelligence-development-services/#generative-ai",
+      "https://developex.com/artificial-intelligence-development-services/#nlp",
+      "https://developex.com/audio-software-firmware-development-services/",
+      "https://developex.com/audio-video-software-development/",
+      "https://developex.com/blog/",
+      "https://developex.com/blog/ai-driven-coding-vs-traditional-coding/",
+      "https://developex.com/blog/ai-features-for-audio-devices/",
+      "https://developex.com/blog/ai-powered-saas-features/",
+      "https://developex.com/blog/aws-gcp-azure-overview/",
+      "https://developex.com/blog/building-high-roi-communities-for-consumer-electronics/",
+      "https://developex.com/blog/building-scalable-white-label-saas/",
+      "https://developex.com/blog/custom-audio-driver-development-premium-brands/",
+      "https://developex.com/blog/gaming-chipset-selection-guide/",
+      "https://developex.com/blog/gaming-peripherals-cross-platform-sdks-for-hid-devices/",
+      "https://developex.com/blog/optimize-development-costs/",
+      "https://developex.com/blog/optimize-firmware-power-consumption/",
+      "https://developex.com/blog/software-development-stack-trends-2026/",
+      "https://developex.com/blog/what-is-a-product-requirements-document/",
+      "https://developex.com/blog/when-to-use-ai-in-home-appliances/",
+      "https://developex.com/blog/why-software-projects-fail/",
+      "https://developex.com/business-app-software-development/",
+      "https://developex.com/career/",
+      "https://developex.com/case-study/",
+      "https://developex.com/clients-testimonials/",
+      "https://developex.com/cloud-solutions/",
+      "https://developex.com/contact-us/",
+      "https://developex.com/contact-us/#",
+      "https://developex.com/cross-platform-app-development-services/",
+      "https://developex.com/custom-software-development-services/",
+      "https://developex.com/desktop-applications-development/",
+      "https://developex.com/devices-configuration-software-development/",
+      "https://developex.com/electronics-software-development-services/",
+      "https://developex.com/embedded-software-development/",
+      "https://developex.com/firmware-development-services/",
+      "https://developex.com/firmware-roadmap-template/",
+      "https://developex.com/gaming-configuration-utility-software/",
+      "https://developex.com/healthcare-software-development/",
+      "https://developex.com/industrial-software-development-services/",
+      "https://developex.com/integration-services/",
+      "https://developex.com/iot-software-development/",
+      "https://developex.com/legacy-project-support/",
+      "https://developex.com/mcu-database/",
+      "https://developex.com/mobile-development-services/",
+      "https://developex.com/our-company/",
+      "https://developex.com/our-company/#our-values",
+      "https://developex.com/our-team/",
+      "https://developex.com/portfolio/advanced-craft-keyboard/",
+      "https://developex.com/portfolio/amplifiers-control-software-and-firmware/",
+      "https://developex.com/portfolio/browser-based-hid-usb-gaming-peripherals-configurator/",
+      "https://developex.com/portfolio/firmware-development-for-gaming-keyboards/",
+      "https://developex.com/portfolio/firmware-for-smart-kitchen-appliances/",
+      "https://developex.com/portfolio/gaming-peripherals-configuration-software/",
+      "https://developex.com/portfolio/next-gen-platform-for-recruiters-candidates-and-employers/",
+      "https://developex.com/portfolio/qa-testing-for-gaming-platform/",
+      "https://developex.com/portfolio/system-monitor-software/",
+      "https://developex.com/portfolio/team-staffing-for-semiconductor-company/",
+      "https://developex.com/portfolio/test-automation-implementation-for-bi-platform/",
+      "https://developex.com/portfolio/web-platform-development-and-scaling/",
+      "https://developex.com/product-design-services/",
+      "https://developex.com/product-design-services/#architecture-design",
+      "https://developex.com/product-design-services/#business-analysis",
+      "https://developex.com/product-design-services/#poc",
+      "https://developex.com/qa-testing-services/",
+      "https://developex.com/qa-testing-services/#automated-qa",
+      "https://developex.com/qa-testing-services/#manual-qa",
+      "https://developex.com/renewable-energy-software-development/",
+      "https://developex.com/resources/",
+      "https://developex.com/saas-development-services/",
+      "https://developex.com/software-audit-services/",
+      "https://developex.com/software-development-electronics-industry/",
+      "https://developex.com/software-development-for-egaming/",
+      "https://developex.com/software-development-for-marine-automotive/",
+      "https://developex.com/system-software-middleware-development/",
+      "https://developex.com/team-augmentation/",
+      "https://developex.com/team-augmentation/#",
+      "https://developex.com/team-augmentation/#outstaffing",
+      "https://developex.com/team-augmentation/#remote-development-center",
+      "https://developex.com/technical-support-services/",
+      "https://developex.com/ui-ux-design-services/",
+      "https://developex.com/wearables-software-development/",
+      "https://developex.com/web-cloud-development/",
+      "https://developex.com/working-models/",
+      "https://developex.com/working-models/#custom-approach",
+      "https://developex.com/working-models/#outstaffing",
+      "https://developex.com/working-models/#time-and-material",
+      "https://twitter.com/Developexcom",
+      "https://www.facebook.com/Developex/",
+      "https://www.instagram.com/developexcom/",
+      "https://www.linkedin.com/company/62967",
+      "https://www.linkedin.com/company/62967/",
+      "https://x.com/Developexcom",
+      "mailto:contact@developex.com"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.6,
+    "metro": "kyiv",
+    "phone": "+1 604-757-9834"
+  },
+  {
+    "lead_title": "DD.NYC®",
+    "website": "https://dd.nyc/?utm_source=gmb&utm_medium=google&utm_campaign=gmb-oo",
+    "pages": [
+      {
+        "url": "https://dd.nyc/?utm_source=gmb&utm_medium=google&utm_campaign=gmb-oo",
+        "title": "Award-Winning Digital Design Agency in New York | DD.NYC®"
+      },
+      {
+        "url": "https://dd.nyc/contact/",
+        "title": "Contact for Branding, Web Design, UI/UX in New York | DD.NYC®"
+      }
+    ],
+    "emails": [
+      "hello@dd.nyc"
+    ],
+    "socials": [
+      "https://www.instagram.com/digitaldesign.nyc/"
+    ],
+    "pocs": [
+      {
+        "name": "Anjelika Kour",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.77,
+    "metro": "kyiv",
+    "phone": "+1 212-380-1761"
+  },
+  {
+    "lead_title": "Feniks Indastri",
+    "website": "https://fnx.com.ua/",
+    "pages": [
+      {
+        "url": "https://fnx.com.ua/",
+        "title": "Fenix Industry ✔️ Разработка и продвижение сайтов под ключ"
+      },
+      {
+        "url": "https://fnx.com.ua/contacts",
+        "title": "Контакты ✔️ Fenix Industry"
+      }
+    ],
+    "emails": [
+      "a@fnx.com.ua",
+      "discocsid@gmail.com"
+    ],
+    "socials": [
+      "https://fnx.com.ua/",
+      "https://fnx.com.ua/#modal-callback",
+      "https://fnx.com.ua/clients",
+      "https://fnx.com.ua/contacts",
+      "https://fnx.com.ua/corp-website-devel",
+      "https://fnx.com.ua/ecommerce-development",
+      "https://fnx.com.ua/portfolio",
+      "https://fnx.com.ua/portfolio/220",
+      "https://fnx.com.ua/portfolio/biosphere",
+      "https://fnx.com.ua/portfolio/taskombank",
+      "https://fnx.com.ua/portfolio/wall31",
+      "https://fnx.com.ua/portfolio/zdravica",
+      "https://fnx.com.ua/services",
+      "https://fnx.com.ua/services/context",
+      "https://fnx.com.ua/services/google-shopping",
+      "https://fnx.com.ua/services/googleads-youtube",
+      "https://fnx.com.ua/services/seo",
+      "https://fnx.com.ua/services/seo/geo",
+      "https://fnx.com.ua/services/seo/seo-audit",
+      "https://fnx.com.ua/services/smm-target",
+      "https://fnx.com.ua/services/support-seo",
+      "https://fnx.com.ua/ua",
+      "https://fnx.com.ua/ua/contacts",
+      "https://fnx.com.ua/ua/ecommerce-development/laravel-website",
+      "mailto:a@fnx.com.ua"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.54,
+    "metro": "kyiv",
+    "phone": "+380 67 243 7688"
+  },
+  {
+    "lead_title": "IKONIC DEV PVT LTD",
+    "website": "https://ikonicsolution.com/",
+    "pages": [
+      {
+        "url": "https://ikonicsolution.com/",
+        "title": "Ikonic Solution - Web Development - Laravel Development - Web Application Development - SaaS - Software Developers - Best Web Developers in USA - Best Website Development"
+      },
+      {
+        "url": "https://ikonicsolution.com/contact-us",
+        "title": "Ikonic Solution - Web Development - Laravel Development - Web Application Development - SaaS - Software Developers - Best Web Developers in USA - Best Website Development"
+      },
+      {
+        "url": "https://ikonicsolution.com/about-us",
+        "title": "Ikonic Solution - Web Development - Laravel Development - Web Application Development - SaaS - Software Developers - Best Web Developers in USA - Best Website Development"
+      }
+    ],
+    "emails": [
+      "info@ikonicsolution.com"
+    ],
+    "socials": [
+      "https://www.youtube.com/watch?v=hAP2QF--2Dg"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.65,
+    "metro": "kyiv",
+    "phone": "+92 51 4800841"
+  },
+  {
+    "lead_title": "Panem Agency - Просування сайтів Львів",
+    "website": "https://panem.ua/?utm_source=google&utm_medium=organic&utm_campaign=gmb-local",
+    "pages": [
+      {
+        "url": "https://panem.ua/?utm_source=google&utm_medium=organic&utm_campaign=gmb-local",
+        "title": "Просування сайтів Львів. Розкрутка та SEO оптимізація сайтів у Львові"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/lvivseo/",
+      "https://www.linkedin.com/company/panem/",
+      "https://www.linkedin.com/in/%D0%BC%D0%B0%D1%80%D1%82%D0%B0-%D0%BC%D0%B8%D1%80%D0%BE%D0%BD%D0%B5%D1%86%D1%8C-645956197/",
+      "https://www.linkedin.com/in/%D0%BC%D0%B0%D1%80%D1%96%D1%8F-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%B0-b5860b263/",
+      "https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%B1%D0%BB%D0%B5%D1%8F%D0%BD%D1%8E%D0%BA-5bb936208/",
+      "https://www.linkedin.com/in/dmytro-lysyy-87451b42/",
+      "https://www.linkedin.com/in/lyubov-romanyuk-39117423a/",
+      "https://www.linkedin.com/in/nataliia-shulyk-6356b1161/",
+      "https://www.linkedin.com/in/olha-kuliievych-2a86962b4/",
+      "https://www.linkedin.com/in/olya-lytvyn-94608846/",
+      "https://www.linkedin.com/in/pavlo-lysyy/",
+      "https://www.linkedin.com/in/rita-kasian/",
+      "https://www.linkedin.com/in/solomiia-shumska-b4a696279/",
+      "https://www.linkedin.com/in/tvasylyshyn/"
+    ],
+    "pocs": [
+      {
+        "name": "Google Partner",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 5.74,
+    "metro": "kyiv",
+    "phone": "+380 67 670 1232"
+  },
+  {
+    "lead_title": "WebZ Digital Marketing Agency",
+    "website": "https://webzdigitalmarketing.pk/",
+    "pages": [
+      {
+        "url": "https://webzdigitalmarketing.pk/",
+        "title": "WebZ Digital Marketing Agency | Best Digital Marketing Services in Pakistan"
+      },
+      {
+        "url": "https://webzdigitalmarketing.pk/contact-us/",
+        "title": "Contact us - WebZ Digital Marketing Agency"
+      },
+      {
+        "url": "https://webzdigitalmarketing.pk/about-us/",
+        "title": "About us - WebZ Digital Marketing Agency"
+      }
+    ],
+    "emails": [
+      "info@webzdigitalmarketing.pk"
+    ],
+    "socials": [
+      "https://www.facebook.com/WebZDigitalMarketingAgency/",
+      "https://www.linkedin.com/in/webz-digital-marketing-agency/",
+      "https://www.youtube.com/@WebZDigitalMarketingAgency"
+    ],
+    "pocs": [
+      {
+        "name": "Your Trusted",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.76,
+    "metro": "kyiv",
+    "phone": "+92 318 5182365"
+  },
+  {
+    "lead_title": "PlayTech",
+    "website": "http://www.playtech.com/",
+    "pages": [
+      {
+        "url": "https://www.playtech.com/",
+        "title": "Playtech"
+      },
+      {
+        "url": "https://www.playtech.com/contact/",
+        "title": "Contact - Playtech"
+      },
+      {
+        "url": "https://www.playtech.com/about-us/",
+        "title": "About Us - Playtech"
+      }
+    ],
+    "emails": [
+      "info@playtech.com",
+      "player.enquiry@playtech.com",
+      "sales@playtech.com",
+      "security.corp@playtech.com"
+    ],
+    "socials": [
+      "https://www.linkedin.com/company/18717",
+      "https://www.youtube.com/user/PlaytechChannel"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.13,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "МІС Health24",
+    "website": "https://h24.ua/",
+    "pages": [
+      {
+        "url": "https://h24.ua/",
+        "title": "Медичний сервіс для пошуку лікарів та клінік | МІС Health24"
+      },
+      {
+        "url": "https://h24.ua/contacts",
+        "title": "Контакти підтримки лікарів і пацієнтів Health24: медичної інформаційної системи (МІС) та сервісу запису пацієнтів в державні і приватні клініки"
+      }
+    ],
+    "emails": [
+      "support@health24.ua"
+    ],
+    "socials": [
+      "https://www.facebook.com/HEALTH24TM/",
+      "https://www.instagram.com/health24ua/",
+      "https://www.youtube.com/channel/UCVXF9WB_l449MyddXYCxBXQ",
+      "https://www.youtube.com/playlist?list=PLXn96CGnVQBcUDdWqt7dcYI9CRJFH75QH",
+      "https://www.youtube.com/playlist?list=PLXn96CGnVQBcXfLC45Q3dW5YWZBV1tXhk",
+      "https://www.youtube.com/watch?v=HVH8pXqgY70&list=PLXn96CGnVQBcfFYo7ELtZx_fEZiJ5ZJpk"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 10.26,
+    "metro": "kyiv",
+    "phone": "+380 800 756 856"
+  },
+  {
+    "lead_title": "Hukumat Networks",
+    "website": "https://hukumat.com/?utm_source=gmb&utm_medium=referral",
+    "pages": [
+      {
+        "url": "https://hukumat.com/?utm_source=gmb&utm_medium=referral",
+        "title": "Top Digital Marketing Agency - Best SEO Services - Hukumat Networks"
+      },
+      {
+        "url": "https://hukumat.com/contact/",
+        "title": "Contact Us - Hukumat Networks"
+      },
+      {
+        "url": "https://hukumat.com/about/",
+        "title": "About Us - Hukumat Networks"
+      }
+    ],
+    "emails": [
+      "google_adwords_badge@3x-min-p52w0okg2b4iy2gqmnw26g2r8s86jjlpjcywtew84a-1-p8zbnm2lqff0gx1xcfjion2p7qy4sumdy88k2hc2ze.png",
+      "hr.hukumat@gmail.com",
+      "info@hukumat.com",
+      "sales@hukumat.com",
+      "support@hukumat.com"
+    ],
+    "socials": [
+      "https://twitter.com/hukumat",
+      "https://web.facebook.com/hukumatnetwork/?_rdc=1&_rdr",
+      "https://www.facebook.com/hukumatnetwork/?_rdc=2&_rdr",
+      "https://www.instagram.com/hukumat.networks/",
+      "https://www.linkedin.com/company/hukumat/?originalSubdomain=pk",
+      "https://www.youtube.com/channel/UC1UAHuownL5x9uYhOIFtdrQ"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.91,
+    "metro": "kyiv",
+    "phone": "+92 341 8899440"
+  },
+  {
+    "lead_title": "TechMagic",
+    "website": "https://www.techmagic.co/",
+    "pages": [
+      {
+        "url": "https://www.techmagic.co/",
+        "title": "TechMagic: Software Product Development Company"
+      },
+      {
+        "url": "https://www.techmagic.co/about-us",
+        "title": "About Us - TechMagic"
+      }
+    ],
+    "emails": [
+      "career@techmagic.co",
+      "hello@techmagic.co"
+    ],
+    "socials": [
+      "https://linkedin.com/in/sengtoh",
+      "https://www.facebook.com/TechMagic.co",
+      "https://www.instagram.com/techmagic/",
+      "https://www.linkedin.com/company/5276965",
+      "https://www.linkedin.com/in/akuzmych",
+      "https://www.linkedin.com/in/aryn-barreiro/",
+      "https://www.linkedin.com/in/damianwilliams-lw/",
+      "https://www.linkedin.com/in/gian-marc-visintin/?locale=de_DE",
+      "https://www.linkedin.com/in/ldats/",
+      "https://www.linkedin.com/in/michaelnolan/?originalSubdomain=ie",
+      "https://www.linkedin.com/in/odats/",
+      "https://www.linkedin.com/in/patricksavstrom/?originalSubdomain=se",
+      "https://www.linkedin.com/in/robboerman/?originalSubdomain=nl",
+      "https://www.linkedin.com/in/ross-kurhanskyi",
+      "https://www.linkedin.com/in/valeriefraysse/",
+      "https://www.youtube.com/@Techmagic"
+    ],
+    "pocs": [
+      {
+        "name": "Oleg Dats",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Lidiya Dats",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Andrew Kuzmych",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "AWS Partner",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Salesforce CREST",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.49,
+    "metro": "kyiv",
+    "phone": "+380 68 348 6420"
+  },
+  {
+    "lead_title": "Маркетингове агентство Dash Digital Agency",
+    "website": "https://dash-agency.com.ua/",
+    "pages": [
+      {
+        "url": "https://dash-agency.com.ua/",
+        "title": "Маркетинговое агентство Dash — Digital Marketing Agency"
+      },
+      {
+        "url": "https://dash-agency.com.ua/contact/",
+        "title": "Контакты и схема проезда | ➤Компания Dash"
+      },
+      {
+        "url": "https://dash-agency.com.ua/about/",
+        "title": "О нас ➤ Миссия и ценности компании Digital Marketing"
+      }
+    ],
+    "emails": [
+      "info@dash-agency.com.ua"
+    ],
+    "socials": [
+      "https://www.facebook.com/Bananaclubdnepr/",
+      "https://www.facebook.com/Dash-Digital-Agency-109051724060105/",
+      "https://www.facebook.com/business/partner-directory/search?solution_type=campaign_management&id=2686329248278549&section=overview",
+      "https://www.instagram.com/dash_digital_agency/",
+      "https://www.instagram.com/miss_tic_lingerie_ua/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.73,
+    "metro": "kyiv",
+    "phone": "+380 63 250 7743"
+  },
+  {
+    "lead_title": "Vakoms, Lviv Office",
+    "website": "https://www.vakoms.com/",
+    "pages": [
+      {
+        "url": "https://indeema.com/",
+        "title": "AI-Powered IoT Systems | Indeema Software"
+      },
+      {
+        "url": "https://indeema.com/contact-us",
+        "title": "Contact Us | Indeema Software"
+      },
+      {
+        "url": "https://indeema.com/company",
+        "title": "About our company | Indeema Software"
+      }
+    ],
+    "emails": [
+      "ask@indeema.com",
+      "sales@indeema.com",
+      "team.recruitment@indeema.co",
+      "team.recruitment@indeema.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/indeema/",
+      "https://www.instagram.com/indeema_global/",
+      "https://www.linkedin.com/company/indeema-software",
+      "https://www.youtube.com/channel/UCehsygt-eTU_-1YNKkq4ZGg"
+    ],
+    "pocs": [
+      {
+        "name": "Why Choose",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Microchip Design",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Avnet IoT",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "AWS Partner",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "JOINED AVNET",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Next-Gen Solution",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.61,
+    "metro": "kyiv",
+    "phone": "+1 929-999-5755"
+  },
+  {
+    "lead_title": "Linkos Group",
+    "website": "https://www.linkos.ua/",
+    "pages": [
+      {
+        "url": "https://www.linkos.ua/",
+        "title": "Attention Required! | Cloudflare"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": true,
+    "status": "cloudflare_blocked",
+    "quality_score": 7.17,
+    "metro": "kyiv",
+    "phone": "+380 44 206 7210"
+  },
+  {
+    "lead_title": "Swismax Solutions - Website Designing & Development, SEO & Graphic Expert Company",
+    "website": "http://www.swismax.com/",
+    "pages": [
+      {
+        "url": "https://swismax.com/",
+        "title": "Digital Agency Islamabad | Web Development, SEO & Branding — Swismax"
+      },
+      {
+        "url": "https://swismax.com/contact-us",
+        "title": "Contact Us — Swismax Solutions | Digital Agency Islamabad Pakistan"
+      },
+      {
+        "url": "https://swismax.com/about-us",
+        "title": "About Swismax Solutions | Digital Agency Islamabad Since 2006"
+      }
+    ],
+    "emails": [
+      "info@swismax.com"
+    ],
+    "socials": [
+      "https://swismax.com/",
+      "https://swismax.com/#",
+      "https://swismax.com/#contact",
+      "https://swismax.com/#services",
+      "https://swismax.com/about-us",
+      "https://swismax.com/about-us#",
+      "https://swismax.com/about-us#contact",
+      "https://swismax.com/about-us#our-story",
+      "https://swismax.com/ai-website-development-services",
+      "https://swismax.com/balloting-software-for-housing-societies",
+      "https://swismax.com/blog.php",
+      "https://swismax.com/blogs",
+      "https://swismax.com/business-email-hosting",
+      "https://swismax.com/candidate-management-software",
+      "https://swismax.com/careers",
+      "https://swismax.com/construction-project-management-software",
+      "https://swismax.com/contact-us",
+      "https://swismax.com/contact-us#",
+      "https://swismax.com/contact-us#contact-form",
+      "https://swismax.com/contact.php",
+      "https://swismax.com/content-writing-services",
+      "https://swismax.com/designing-digital-partner-package",
+      "https://swismax.com/digital-marketing-services",
+      "https://swismax.com/domain-registration",
+      "https://swismax.com/drone-shooting-and-editing",
+      "https://swismax.com/ecommerce-brand-building",
+      "https://swismax.com/ecommerce-shop-development",
+      "https://swismax.com/ecommerce-shop-development-portfolio",
+      "https://swismax.com/google-ads-management",
+      "https://swismax.com/graphic-design-service",
+      "https://swismax.com/mlm-multilevel-marketing-script",
+      "https://swismax.com/our-product",
+      "https://swismax.com/privacy-policy",
+      "https://swismax.com/product-designing-service",
+      "https://swismax.com/product-packaging-portfolio",
+      "https://swismax.com/real-estate-website-development",
+      "https://swismax.com/seo-services-islamabad",
+      "https://swismax.com/shopify-store-development",
+      "https://swismax.com/social-media-design-services",
+      "https://swismax.com/swise-shop-ecommerce-platform",
+      "https://swismax.com/swismax-contact.html",
+      "https://swismax.com/terms-and-conditions",
+      "https://swismax.com/video-and-photography-solutions",
+      "https://swismax.com/virtual-tour-services",
+      "https://swismax.com/web-designing-development-portfolio",
+      "https://swismax.com/web-hosting-services",
+      "https://swismax.com/website-development-company",
+      "https://swismax.com/website-maintenance-package",
+      "https://swismax.com/wordpress-website-development",
+      "https://www.facebook.com/swismaxsolutions",
+      "https://www.instagram.com/swismaxsolutions",
+      "https://www.linkedin.com/company/swismax-solutions",
+      "https://www.raitex.com.pk/",
+      "mailto:info@swismax.com"
+    ],
+    "pocs": [
+      {
+        "name": "Pakistan's Most",
+        "sources": [
+          "heading_h1"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.35,
+    "metro": "kyiv",
+    "phone": "+92 312 5190928"
+  },
+  {
+    "lead_title": "PanaceaLogics - AI-Enabled Software Services Company",
+    "website": "https://www.panacealogics.com/",
+    "pages": [
+      {
+        "url": "https://panacealogics.com/",
+        "title": "PanaceaLogics | AI Development & Solutions Company"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://instagram.com/panacea_logics?igshid=MzRlODBiNWFlZA==",
+      "https://pk.linkedin.com/company/panacea-logics",
+      "https://twitter.com/PanaceaLogics1",
+      "https://www.facebook.com/profile.php?id=100063830810715"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 5.95,
+    "metro": "kyiv",
+    "phone": "+92 51 8890602"
+  },
+  {
+    "lead_title": "Glaxit Software Company",
+    "website": "http://www.glaxit.com/",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 5.54,
+    "metro": "kyiv",
+    "phone": "+92 343 5698913"
+  },
+  {
+    "lead_title": "SEVEN",
+    "website": "https://sevencollab.com/",
+    "pages": [
+      {
+        "url": "https://sevencollab.com/",
+        "title": "Engineering Software Solutions since 2007 | SEVEN"
+      },
+      {
+        "url": "https://sevencollab.com/contact-us/",
+        "title": "Contact Us | New York, Lviv | SEVEN"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://twitter.com/sevencollab",
+      "https://www.facebook.com/sevencollab/",
+      "https://www.linkedin.com/company/sevencollab/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 7.92,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "Команда Експертів з Digital-Маркетингу - Osadchiy Team | Контекстна Реклама | Таргетована Реклама | Розробка Сайтів",
+    "website": "https://osadchiy.org/?utm_source=gbp",
+    "pages": [
+      {
+        "url": "https://osadchiy.org/?utm_source=gbp",
+        "title": "Osadchiy Team | Комплексний інтернет маркетинг"
+      }
+    ],
+    "emails": [
+      "evgeniy.osadchiy.eo@gmail.com",
+      "osadchiyagencyua@gmail.com"
+    ],
+    "socials": [
+      "https://facebook.com/osadchiy.team.ua",
+      "https://www.facebook.com/business/partner-directory/search?solution_type=campaign_management&ref=fmp_about_solution_card&countries=UA",
+      "https://www.instagram.com/osadchiy.team/",
+      "https://www.instagram.com/osadchiy.team/?igshid=MzRlODBiNWFlZA%3D%3D",
+      "https://www.linkedin.com/company/osadchiy-team/",
+      "https://www.linkedin.com/in/%D0%BC%D0%B0%D1%80%D0%B8%D0%BD%D0%B0-%D0%B2%D1%96%D0%BD%D1%86%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B0-8462253ab/",
+      "https://www.linkedin.com/in/danylo-donnik-0a39a4286/",
+      "https://www.linkedin.com/in/eugene-osadchiy-9159bb23a/",
+      "https://www.linkedin.com/in/olga-vasilyeva-1483323ab",
+      "https://www.linkedin.com/in/roman-obikhodenko-9692ab364/",
+      "https://www.tiktok.com/@osadchiyteam",
+      "https://www.youtube.com/@Osadchiy_Team"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.64,
+    "metro": "kyiv",
+    "phone": "+380 98 155 0865"
+  },
+  {
+    "lead_title": "UnitedSol",
+    "website": "https://www.unitedsol.net/",
+    "pages": [
+      {
+        "url": "https://www.unitedsol.net/",
+        "title": "Web Design & Development Company in Islamabad - United Sol"
+      },
+      {
+        "url": "https://www.unitedsol.net/contact",
+        "title": "Contact Us - United Sol"
+      },
+      {
+        "url": "https://www.unitedsol.net/about-us/",
+        "title": "About Us - United Sol"
+      }
+    ],
+    "emails": [
+      "info@unitedsol.net"
+    ],
+    "socials": [
+      "https://pk.linkedin.com/company/unitedsol-pvt-ltd",
+      "https://twitter.com/unitedsol?lang=en",
+      "https://web.facebook.com/unitedsol.net/?_rdc=1&_rdr",
+      "https://www.facebook.com/unitedsol.net/?_rdc=2&_rdr",
+      "https://www.instagram.com/united.sol/",
+      "https://www.instagram.com/united.sol/?hl=en",
+      "https://www.linkedin.com/company/unitedsol-pvt-ltd/",
+      "https://www.tiktok.com/@united.sol",
+      "https://www.youtube.com/@united_sol"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.72,
+    "metro": "kyiv",
+    "phone": "+92 51 8442246"
+  },
+  {
+    "lead_title": "AdZen Tech Solutions – SEO, Digital Marketing & Web Development",
+    "website": "https://adzentechsolutions.com/",
+    "pages": [
+      {
+        "url": "https://adzentechsolutions.com/",
+        "title": "AdZen Tech Solutions - Modern Web Development & SEO Marketing Agency"
+      },
+      {
+        "url": "https://adzentechsolutions.com/contact/",
+        "title": "Contact AdZen Tech Solutions - Web Design & SEO Experts Agency"
+      },
+      {
+        "url": "https://adzentechsolutions.com/who-we-are/",
+        "title": "Who We Are - AdZen Tech Solutions, Web Design & Digital Marketing Agency"
+      }
+    ],
+    "emails": [
+      "accounts@adzentechsolutions.com",
+      "adzentechsolutions@gmail.com",
+      "info@adzentechsolutions.com",
+      "sales@adzentechsolutions.com",
+      "support@adzentechsolutions.com"
+    ],
+    "socials": [
+      "https://pk.linkedin.com/company/adzentechsolutions",
+      "https://www.facebook.com/adzentechsolutions",
+      "https://www.instagram.com/adzentechsolutions/",
+      "https://www.linkedin.com/company/adzentechsolutions/",
+      "https://www.tiktok.com/@adzentechsolutions",
+      "https://www.youtube.com/@AdZenTechSolutions",
+      "https://x.com/adzen_tech"
+    ],
+    "pocs": [
+      {
+        "name": "Abubakar Saddiq",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.52,
+    "metro": "kyiv",
+    "phone": "+92 306 4126667"
+  },
+  {
+    "lead_title": "ALLSTARSIT",
+    "website": "https://allstarsit.com/",
+    "pages": [
+      {
+        "url": "https://www.allstarsit.com/",
+        "title": "ALLSTARSIT: Your Tech Talents Provider since 2004"
+      },
+      {
+        "url": "https://www.allstarsit.com/contact",
+        "title": "Contact ALLSTARSIT"
+      },
+      {
+        "url": "https://www.allstarsit.com/about",
+        "title": "About ALLSTARSIT"
+      }
+    ],
+    "emails": [
+      "star.team@allstarsit.com"
+    ],
+    "socials": [
+      "https://twitter.com/allstarsitcom",
+      "https://www.facebook.com/allstarsitcom",
+      "https://www.instagram.com/allstarsitcom/",
+      "https://www.linkedin.com/company/allstarsitcom/mycompany/",
+      "https://www.linkedin.com/in/alex-amster-82808827/",
+      "https://www.linkedin.com/in/anastasiia-chernenka-6b3921187/",
+      "https://www.linkedin.com/in/iryna-krychun-67769344/",
+      "https://www.linkedin.com/in/maryana-kucher/",
+      "https://www.linkedin.com/in/olha-pidpaliuk/",
+      "https://www.linkedin.com/in/solomonamar/",
+      "https://www.linkedin.com/in/tetiana-kashyna-29746a43/",
+      "https://www.youtube.com/channel/UCDy8_6Z0qY8RxDVrxTXGazA"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.5,
+    "metro": "kyiv",
+    "phone": "+972 3-374-1373"
+  },
+  {
+    "lead_title": "REDSTONE | Digital Agency - розробка та створення сайтів Львів",
+    "website": "https://redstone.agency/",
+    "pages": [
+      {
+        "url": "https://redstone.agency/",
+        "title": "REDSTONE ᐉ Розробка сайтів, Створення сайтів, APP, CRM, SaaS"
+      },
+      {
+        "url": "https://redstone.agency/contacts/",
+        "title": "Redstone :: Контакти"
+      },
+      {
+        "url": "https://redstone.agency/about/",
+        "title": "Redstone :: Про нас"
+      }
+    ],
+    "emails": [
+      "office@redstone.agency",
+      "siriusblack@mail.com",
+      "support@redstone.agency"
+    ],
+    "socials": [
+      "https://m.facebook.com/REDSTONEAGENCY",
+      "https://www.instagram.com/redstone.agency/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.52,
+    "metro": "kyiv",
+    "phone": "+380 67 607 5784"
+  },
+  {
+    "lead_title": "Codify (Pvt) Limited",
+    "website": "https://codify.pk/",
+    "pages": [
+      {
+        "url": "https://codify.pk/",
+        "title": "Codify"
+      }
+    ],
+    "emails": [
+      "info@codify.pk"
+    ],
+    "socials": [
+      "https://www.facebook.com/codify.pk",
+      "https://www.instagram.com/codify.pk/",
+      "https://www.linkedin.com/company/codify-pk"
+    ],
+    "pocs": [
+      {
+        "name": "Senior Developer",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Project Manager",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Senior Full-Stack",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.68,
+    "metro": "kyiv",
+    "phone": "+92 309 9696666"
+  },
+  {
+    "lead_title": "Software Pro",
+    "website": "https://softwareprodigital.com/",
+    "pages": [
+      {
+        "url": "https://softwareprodigital.com/",
+        "title": "Award Winning Digital Marketing Agency NYC | Software Pro Digital"
+      },
+      {
+        "url": "https://softwareprodigital.com/contact/",
+        "title": "Contact for SEO & Ads Growth, NY | Software Pro Digital"
+      },
+      {
+        "url": "https://softwareprodigital.com/about-us/",
+        "title": "Top Digital Marketing in NYC | Software Pro Digital"
+      }
+    ],
+    "emails": [
+      "dev@softwarepro.nyc",
+      "sales@softwarepro.nyc",
+      "sales@softwareprodigital.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/softwareprodigital",
+      "https://www.instagram.com/softwareprodigitalnyc/",
+      "https://www.linkedin.com/company/software-pro-digital/",
+      "https://www.youtube.com/@softwareprodigital/"
+    ],
+    "pocs": [
+      {
+        "name": "Serving NY",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Success Your",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.5,
+    "metro": "kyiv",
+    "phone": "+1 347-719-4581"
+  },
+  {
+    "lead_title": "SvitSoft | Світсофт - Digital Transformation",
+    "website": "https://www.svitsoft.com/?utm_source=google&utm_medium=business&utm_campaign=perehod_na_site",
+    "pages": [],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_ABORTED "
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "open_error",
+    "quality_score": 5.76,
+    "metro": "kyiv",
+    "phone": "+380 63 169 5580"
+  },
+  {
+    "lead_title": "M TECHUB LLc",
+    "website": "https://mtechub.com/",
+    "pages": [
+      {
+        "url": "https://mtechub.com/",
+        "title": "M TECHUB"
+      },
+      {
+        "url": "https://mtechub.com/contact/",
+        "title": "Contact – M TECHUB"
+      },
+      {
+        "url": "https://mtechub.com/about/",
+        "title": "About – M TECHUB"
+      }
+    ],
+    "emails": [
+      "info@mtechub.com",
+      "mtechub.info@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/Mtechub.official",
+      "https://www.instagram.com/mtechubllc/",
+      "https://www.linkedin.com/company/mexatechub",
+      "https://www.linkedin.com/company/mexatechub/posts/?feedView=all",
+      "https://www.youtube.com/@mtechubllc",
+      "https://www.youtube.com/watch?v=MLpWrANjFbI"
+    ],
+    "pocs": [
+      {
+        "name": "Borzo Delivery",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.44,
+    "metro": "kyiv",
+    "phone": "+1 650-567-5089"
+  },
+  {
+    "lead_title": "CodesOrbit",
+    "website": "https://codesorbit.com/",
+    "pages": [
+      {
+        "url": "https://codesorbit.com/",
+        "title": "CodesOrbit: Top-Notch Mobile App Development Company"
+      },
+      {
+        "url": "https://codesorbit.com/contact/",
+        "title": "Contact Us - CodesOrbit"
+      },
+      {
+        "url": "https://codesorbit.com/about/",
+        "title": "Mobile App Developers & Designers | CodesOrbit"
+      }
+    ],
+    "emails": [
+      "info@codesorbit.com",
+      "sales@codesorbit.com"
+    ],
+    "socials": [
+      "https://twitter.com/codes_orbit",
+      "https://www.facebook.com/Codes-Orbit-275676653121603",
+      "https://www.instagram.com/codes_orbit/",
+      "https://www.linkedin.com/company/codesorbit"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.4,
+    "metro": "kyiv",
+    "phone": "+92 51 8356104"
+  },
+  {
+    "lead_title": "YouthTech Enablers",
+    "website": "https://youthtechenablers.com/",
+    "pages": [
+      {
+        "url": "https://youthtechenablers.com/",
+        "title": "Best Software House in Rawalpindi | Youth Tech Enablers"
+      },
+      {
+        "url": "https://youthtechenablers.com/contact-us/",
+        "title": "Contact Us -"
+      },
+      {
+        "url": "https://youthtechenablers.com/about-us/",
+        "title": "about-us"
+      }
+    ],
+    "emails": [
+      "admin@youthtechenabler.com",
+      "info@youthtechenabler.com",
+      "info@youthtechenablers.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/profile.php?id=61574080477465",
+      "https://www.instagram.com/youthtechenablers?igsh=bmU5d2RmdmZqOGJk",
+      "https://www.linkedin.com/company/99139744/admin/dashboard/"
+    ],
+    "pocs": [
+      {
+        "name": "CEO WEB",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.55,
+    "metro": "kyiv",
+    "phone": "+92 328 5701800"
+  },
+  {
+    "lead_title": "Luxury Site",
+    "website": "https://luxsite.agency/uk/",
+    "pages": [
+      {
+        "url": "https://luxsite.agency/uk/",
+        "title": "Діджитал агенція Люкс Сайт (Київ,Україна) - Реклама в Інтернеті"
+      },
+      {
+        "url": "https://luxsite.agency/uk/contacts/",
+        "title": "Контакти - Digital Agency LuxSite"
+      },
+      {
+        "url": "https://luxsite.agency/uk/about-us/",
+        "title": "Про компанію - Digital Agency LuxSite"
+      }
+    ],
+    "emails": [
+      "office@luxsite.agency"
+    ],
+    "socials": [
+      "https://www.facebook.com/luxsite",
+      "https://www.facebook.com/luxsite/",
+      "https://www.instagram.com/luxsite.agency/",
+      "https://www.linkedin.com/company/luxsite/",
+      "https://www.tiktok.com/@luxsite_agency",
+      "https://www.tiktok.com/@luxsite_agency?_t=ZM-8t1jNNMvRJ8&_r=1"
+    ],
+    "pocs": [
+      {
+        "name": "Олександр Ляховець",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": "https://luxsite.agency/uk/member/alex/"
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.31,
+    "metro": "kyiv",
+    "phone": "+380 93 500 2211"
+  },
+  {
+    "lead_title": "Netguru",
+    "website": "https://www.netguru.com/",
+    "pages": [
+      {
+        "url": "https://www.netguru.com/",
+        "title": "Software Development Company | Netguru"
+      },
+      {
+        "url": "https://www.netguru.com/about-us",
+        "title": "About Us – Our Values and Approach | Netguru"
+      }
+    ],
+    "emails": [
+      "hello@netguru.com"
+    ],
+    "socials": [
+      "https://twitter.com/kubafilipowski",
+      "https://twitter.com/wiktorschmidt",
+      "https://www.linkedin.com/company/netguru",
+      "https://www.linkedin.com/in/katarzynaroj/",
+      "https://www.linkedin.com/in/kubafilipowski/",
+      "https://www.linkedin.com/in/malgorzata-madali%C5%84ska-pi%C4%99tka-acca-9a753bb/",
+      "https://www.linkedin.com/in/r-scholz/",
+      "https://www.linkedin.com/in/tomasz-grynkiewicz/",
+      "https://www.linkedin.com/in/wiktorschmidt/"
+    ],
+    "pocs": [
+      {
+        "name": "Kuba Filipowski",
+        "sources": [
+          "json_ld"
+        ],
+        "role": "CEO",
+        "email": null,
+        "socials": [],
+        "url": "https://www.linkedin.com/in/kubafilipowski/"
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.69,
+    "metro": "kyiv",
+    "phone": ""
+  },
+  {
+    "lead_title": "World Web Link | Web Development Islamabad",
+    "website": "https://worldweblink.com/",
+    "pages": [
+      {
+        "url": "https://worldweblink.com/",
+        "title": "Site is undergoing maintenance"
+      }
+    ],
+    "emails": [],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 5.29,
+    "metro": "kyiv",
+    "phone": "+92 300 3505000"
+  },
+  {
+    "lead_title": "Bit Technologies | Web development Company Pakistan",
+    "website": "https://bittechnologies.co/",
+    "pages": [
+      {
+        "url": "https://bittechnologies.co/",
+        "title": "Web and Mobile App development company in Pakistan"
+      },
+      {
+        "url": "https://bittechnologies.co/contact/",
+        "title": "Contact Bit Technologies | Get in Touch for Web & Digital Services"
+      },
+      {
+        "url": "https://bittechnologies.co/about-us/",
+        "title": "About Bit Technologies | Web, App & Digital Marketing Experts"
+      }
+    ],
+    "emails": [
+      "abdurrehman@bittechnologies.co",
+      "contact@bittechnologies.co",
+      "khubaib@bittechnologies.co"
+    ],
+    "socials": [
+      "https://instagram.com/bit.technologies?igshid=YmMyMTA2M2Y=",
+      "https://twitter.com/BitTechnoIogies?t=THy9qLfgJXjS9WGHxmFLZA&s=09",
+      "https://www.facebook.com/bit.technoIogies?mibextid=ZbWKwL",
+      "https://www.linkedin.com/company/bit-technologies-org/",
+      "https://www.linkedin.com/in/muhammad-khubaib-754743235/",
+      "https://www.linkedin.com/in/sheikh-abdur-rehman-202b96220/",
+      "https://www.linkedin.com/in/talal-zaman-abbasi/"
+    ],
+    "pocs": [
+      {
+        "name": "About Bit",
+        "sources": [
+          "heading_h1"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.33,
+    "metro": "kyiv",
+    "phone": "+92 309 5245704"
+  },
+  {
+    "lead_title": "Trion Digital Pvt Ltd ( Marketing Agency )",
+    "website": "https://triondigital.pk/",
+    "pages": [
+      {
+        "url": "https://triondigital.pk/",
+        "title": "Trion Digital"
+      },
+      {
+        "url": "https://triondigital.pk/contact/",
+        "title": "Contact – Trion Digital"
+      },
+      {
+        "url": "https://triondigital.pk/about-us/",
+        "title": "About us – Trion Digital"
+      }
+    ],
+    "emails": [
+      "info@triondigital.pk"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.69,
+    "metro": "kyiv",
+    "phone": "+92 339 8886690"
+  },
+  {
+    "lead_title": "RubyGarage - Ruby on Rails development company",
+    "website": "http://rubygarage.org/",
+    "pages": [
+      {
+        "url": "https://rubygarage.org/",
+        "title": "Custom Software Development and Consulting Company | RubyGarage"
+      }
+    ],
+    "emails": [
+      "info@rubygarage.org",
+      "recruiting@rubygarage.org"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.67,
+    "metro": "kyiv",
+    "phone": "+380 95 333 0275"
+  },
+  {
+    "lead_title": "studio ArtWeb",
+    "website": "http://artweb.ua/",
+    "pages": [
+      {
+        "url": "https://artweb.ua/ru/",
+        "title": "Создание сайтов в Киеве, Украине | Заказать разработку веб сайта - Веб студия Artweb"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://twitter.com/ArtWeb_ua?ref_src=twsrc%5Etfw",
+      "https://www.facebook.com/ArtWeb.ua/",
+      "https://www.instagram.com/artweb.ua/",
+      "https://www.linkedin.com/company/artweb-studio/about/"
+    ],
+    "pocs": [],
+    "errors": [
+      "open_fail_subpage: https://artweb.ua/contacts/artweb.vcf"
+    ],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 5.22,
+    "metro": "kyiv",
+    "phone": "+380 98 468 0764"
+  },
+  {
+    "lead_title": "New Vision Technologies | Web Design and Development Company in Rawalpindi",
+    "website": "http://www.newvisiontech.net/",
+    "pages": [
+      {
+        "url": "https://newvisiontech.net/",
+        "title": "Web Development Company"
+      },
+      {
+        "url": "https://newvisiontech.net/contact-us/",
+        "title": "Contact Us - New Vision Technologies"
+      }
+    ],
+    "emails": [
+      "info@mail.com",
+      "sales@newvisiontech.net"
+    ],
+    "socials": [],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 7.22,
+    "metro": "kyiv",
+    "phone": "+92 334 5614920"
+  },
+  {
+    "lead_title": "Starosta Agency",
+    "website": "https://starosta-agency.com/",
+    "pages": [
+      {
+        "url": "https://starosta-agency.com/",
+        "title": "Starosta Agency — сайти, SEO та digital для бізнесу"
+      },
+      {
+        "url": "https://starosta-agency.com/contact/",
+        "title": "Контакти Starosta Agency — зв’яжіться з нами"
+      },
+      {
+        "url": "https://starosta-agency.com/about-us/",
+        "title": "Про Starosta Agency — digital-агенція для бізнесу"
+      }
+    ],
+    "emails": [
+      "ceo@starosta-agency.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/starostaagency/",
+      "https://www.instagram.com/starosta_agency",
+      "https://www.linkedin.com/company/starostaagency/"
+    ],
+    "pocs": [
+      {
+        "name": "Юрій Староста",
+        "sources": [
+          "json_ld"
+        ],
+        "role": "CEO, засновник",
+        "email": null,
+        "socials": [
+          "https://www.instagram.com/starosta_yura",
+          "https://www.linkedin.com/in/yurii-starosta-854572150/"
+        ],
+        "url": "https://starosta-agency.com/about-us/"
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.22,
+    "metro": "kyiv",
+    "phone": "+380 93 931 1143"
+  },
+  {
+    "lead_title": "Customertimes Ukraine",
+    "website": "https://customertimes.com/",
+    "pages": [
+      {
+        "url": "https://www.customertimes.com/",
+        "title": "Innovation Driven by Passion"
+      },
+      {
+        "url": "https://www.customertimes.com/contact-us",
+        "title": "Contact Us | Customertimes"
+      },
+      {
+        "url": "https://www.customertimes.com/about",
+        "title": "About | Customertimes"
+      }
+    ],
+    "emails": [
+      "info@customertimes.com"
+    ],
+    "socials": [
+      "https://fr.linkedin.com/in/patsko",
+      "https://linkedin.com/in/max-votek",
+      "https://me.linkedin.com/in/dennis-khramov",
+      "https://tr.linkedin.com/in/alesya-zelenskaya-93624948",
+      "https://ua.linkedin.com/in/akolyshkin",
+      "https://www.facebook.com/Customertimes/",
+      "https://www.instagram.com/customertimes.people/",
+      "https://www.linkedin.com/company/customertimes/",
+      "https://www.linkedin.com/in/anna-fedorova-b1318014",
+      "https://www.linkedin.com/in/anton-miliaiev-phd-b309221/",
+      "https://www.linkedin.com/in/dimitri-sidney-3598a81a9",
+      "https://www.linkedin.com/in/jim-goldfinger/",
+      "https://www.linkedin.com/in/maksym-soloviov-3888372",
+      "https://www.linkedin.com/in/rafaelmoiseev",
+      "https://www.youtube.com/Customertimes"
+    ],
+    "pocs": [
+      {
+        "name": "Experienced Salesforce",
+        "sources": [
+          "heading_h3"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Our CEO",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Ask Your",
+        "sources": [
+          "heading_h3",
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.29,
+    "metro": "kyiv",
+    "phone": "+380 44 593 7049"
+  },
+  {
+    "lead_title": "SUFIX",
+    "website": "https://websufix.com/",
+    "pages": [
+      {
+        "url": "https://websufix.com/",
+        "title": "Створення сайтів Львів | Просування (SEO, PPC, SMM) | Веб-студія"
+      }
+    ],
+    "emails": [
+      "admin@codeigniter.com",
+      "websufix@ukr.net"
+    ],
+    "socials": [
+      "https://websufix.com/",
+      "https://websufix.com/#",
+      "https://websufix.com/bilshe/",
+      "https://websufix.com/branding/",
+      "https://websufix.com/bryf/",
+      "https://websufix.com/e-commerce/",
+      "https://websufix.com/en/",
+      "https://websufix.com/google-ads/",
+      "https://websufix.com/kontakty/",
+      "https://websufix.com/landing-page/",
+      "https://websufix.com/mobile-design/",
+      "https://websufix.com/portal/",
+      "https://websufix.com/portfolio/",
+      "https://websufix.com/pro-nas/",
+      "https://websufix.com/promotion/",
+      "https://websufix.com/publichna-oferta/",
+      "https://websufix.com/redesign/",
+      "https://websufix.com/reviews/",
+      "https://websufix.com/rozrobka-i-rozvytok-internet-mahazynu-dlia-nasha-ialynka/",
+      "https://websufix.com/rozrobka-internet-mahazynu-z-indyvidualnym-dyzainom-dlia-stepankiv/",
+      "https://websufix.com/rozrobka-novoho-internet-mahazynu-ta-zapusk-reklamy-dlia-timotheus/",
+      "https://websufix.com/rozrobka-ta-seo-optymizatsiia-korporatyvnoho-saitu-dlia-kawmet-ukrana/",
+      "https://websufix.com/seo/",
+      "https://websufix.com/services/",
+      "https://websufix.com/shvydkyi-zapusk-internet-mahazynu-ta-reklamy-dlia-avto-kompleks/",
+      "https://websufix.com/smm/",
+      "https://websufix.com/social-ads/",
+      "https://websufix.com/we/",
+      "https://websufix.com/web-design/",
+      "https://websufix.com/website-administration/",
+      "https://websufix.com/website/"
+    ],
+    "pocs": [
+      {
+        "name": "Марта Ступницька",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Маркіян Гульоватий",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Олег Поліщук",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Руслана Боднар",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Зеновій Дуда",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Тарас Овчар",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Сергій Лук'яненко",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Роман Дух",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Ольга Киян",
+        "sources": [
+          "json_ld"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.27,
+    "metro": "kyiv",
+    "phone": "+380 97 701 5159"
+  },
+  {
+    "lead_title": "GH Solutions",
+    "website": "https://ghsolutions.pk/",
+    "pages": [
+      {
+        "url": "https://ghsolutions.pk/",
+        "title": "Website Development & Digital Marketing Agency | GH Solutions"
+      },
+      {
+        "url": "https://ghsolutions.pk/contact.html",
+        "title": "Best Web Design & Digital Marketing Agencies in Islamabad || GH Solutions"
+      },
+      {
+        "url": "https://ghsolutions.pk/about.html",
+        "title": "About GH Solutions | Website Design and Digital Marketing Company"
+      }
+    ],
+    "emails": [
+      "info@ghsolutions.pk"
+    ],
+    "socials": [
+      "https://www.facebook.com/ghsolution.pk/",
+      "https://www.instagram.com/ghsolutions.pk/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.22,
+    "metro": "kyiv",
+    "phone": "+92 336 5272527"
+  },
+  {
+    "lead_title": "EurosHub",
+    "website": "https://www.euroshub.com/",
+    "pages": [
+      {
+        "url": "https://www.euroshub.com/",
+        "title": "EurosHub | Empowering Global Innovation with Tailored Tech Solutions"
+      },
+      {
+        "url": "https://www.euroshub.com/contact-us",
+        "title": "Contact Us - Get in Touch with Our Team Today"
+      },
+      {
+        "url": "https://www.euroshub.com/about-us",
+        "title": "About Us - Learn More About Our Company and Mission"
+      }
+    ],
+    "emails": [
+      "hello@euroshub.com",
+      "hello@sheikhnabeel.com",
+      "muhammad.awais.euroshub@gmail.com",
+      "sheikh1saira@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/official.euroshub/",
+      "https://www.instagram.com/euroshub.official?igsh=bmc2a3N0cnoyMGtk",
+      "https://www.linkedin.com/company/euroshub/?originalSubdomain=pk",
+      "https://x.com/euroshub"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.22,
+    "metro": "kyiv",
+    "phone": "+92 300 0369622"
+  },
+  {
+    "lead_title": "Devsinc (Islamabad)",
+    "website": "https://www.devsinc.com/",
+    "pages": [
+      {
+        "url": "https://www.devsinc.com/",
+        "title": "Devsinc | Leading Software & Product Development Agency In USA"
+      },
+      {
+        "url": "https://www.devsinc.com/contact",
+        "title": "Contact"
+      },
+      {
+        "url": "https://www.devsinc.com/about-us",
+        "title": "One Of The Fastest Growing Tech Company | Devsinc"
+      }
+    ],
+    "emails": [
+      "global.business@devsinc.com",
+      "sales@devsinc.com"
+    ],
+    "socials": [
+      "https://twitter.com/devsinc",
+      "https://www.facebook.com/developers.incorporated",
+      "https://www.facebook.com/devsinc.official/",
+      "https://www.instagram.com/devsinc.official/",
+      "https://www.linkedin.com/company/developers-inc",
+      "https://www.linkedin.com/in/ahmed-waqas-akhtar-60694215/",
+      "https://www.linkedin.com/in/arm47/",
+      "https://www.linkedin.com/in/badarshafiq/",
+      "https://www.linkedin.com/in/maria-sadaf-399a14107/",
+      "https://www.linkedin.com/in/moizsaleemvarind/",
+      "https://www.linkedin.com/in/qamar-abbas-sipra-01b78316/",
+      "https://www.linkedin.com/in/therealusman/",
+      "https://www.linkedin.com/in/umar77/",
+      "https://www.linkedin.com/in/yasir-barkat-a9226716?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAM9004BtrtIOjR7-tEOcChSffbMuTSZ090&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BU54jEaJiSqKnStfsMhxPnw%3D%3D",
+      "https://x.com/devsinc"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.8,
+    "metro": "kyiv",
+    "phone": "+92 306 0074645"
+  },
+  {
+    "lead_title": "Circular Byte Private Limited",
+    "website": "https://circularbyte.com/",
+    "pages": [
+      {
+        "url": "https://circularbyte.com/",
+        "title": "Circular Byte Private Limited - Converting Vision Into Reality"
+      },
+      {
+        "url": "https://circularbyte.com/contact-circular-byte-private-limited/",
+        "title": "Contact - Circular Byte Private Limited"
+      },
+      {
+        "url": "https://circularbyte.com/about-circular-byte/",
+        "title": "About - Circular Byte Private Limited"
+      }
+    ],
+    "emails": [
+      "info.circularbyte@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/CircularByte",
+      "https://www.instagram.com/circularbyte/",
+      "https://www.linkedin.com/company/circularbyte/",
+      "https://www.linkedin.com/in/the-ahsanpasha/",
+      "https://www.youtube.com/@MrAhsanPasha",
+      "https://www.youtube.com/watch?v=AIimP3m4zH8"
+    ],
+    "pocs": [
+      {
+        "name": "Your Trusted",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.22,
+    "metro": "kyiv",
+    "phone": "+92 51 2716458"
+  },
+  {
+    "lead_title": "CyberX Studio | Digital Marketing Agency | SEO | PPC | Website Development",
+    "website": "https://cyberxstudio.com/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile",
+    "pages": [
+      {
+        "url": "https://cyberxstudio.com/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile",
+        "title": "Digital Marketing Agency in Islamabad Pakistan - CyberX Studio"
+      },
+      {
+        "url": "https://cyberxstudio.com/contact/",
+        "title": "Contact Us - Get In Touch - CyberX Studio"
+      },
+      {
+        "url": "https://cyberxstudio.com/about/",
+        "title": "About - Web Development & Digital Marketing Agency in Islamabad"
+      }
+    ],
+    "emails": [
+      "asset-3@3x-2.webp",
+      "company@mail.com",
+      "info@cyberxstudio.com",
+      "sanchezrobert@gmail.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/CyberXstudio",
+      "https://www.instagram.com/cyberxstudio.official/",
+      "https://www.linkedin.com/company/cyberxstudio/",
+      "https://www.youtube.com/@cyberxstudio"
+    ],
+    "pocs": [
+      {
+        "name": "Our Company",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      },
+      {
+        "name": "Syed Zia",
+        "sources": [
+          "img_alt"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.4,
+    "metro": "kyiv",
+    "phone": "+92 312 9786297"
+  },
+  {
+    "lead_title": "Prime Media Marketing",
+    "website": "https://primemediamarketing.com.pk/",
+    "pages": [
+      {
+        "url": "https://primemediamarketing.com.pk/",
+        "title": "Best Digital Marketing Agency in Rawalpindi - Prime Media Marketing"
+      },
+      {
+        "url": "https://primemediamarketing.com.pk/contact-us/",
+        "title": "Contact us - Prime Media Marketing"
+      },
+      {
+        "url": "https://primemediamarketing.com.pk/about-us/",
+        "title": "Error"
+      }
+    ],
+    "emails": [
+      "info@domainname.com",
+      "primemediamarketing009@gmail.com"
+    ],
+    "socials": [
+      "https://www.youtube.com/embed/Y-x0efG1seA?feature=oembed?playlist=Y-x0efG1seA&mute=0&autoplay=0&loop=no&controls=0&start=0&end="
+    ],
+    "pocs": [
+      {
+        "name": "Your Growth",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.0,
+    "metro": "kyiv",
+    "phone": "+92 332 5999296"
+  },
+  {
+    "lead_title": "Kindgeek",
+    "website": "http://kindgeek.com/",
+    "pages": [
+      {
+        "url": "https://www.kindgeek.com/",
+        "title": "Fintech Software Development Company | Kindgeek"
+      },
+      {
+        "url": "https://www.kindgeek.com/contact-us",
+        "title": "Contact Us Page | Kindgeek"
+      },
+      {
+        "url": "https://www.kindgeek.com/team-augmentation-services",
+        "title": "Team Augmentation | Kindgeek"
+      }
+    ],
+    "emails": [
+      "info@kindgeek.com",
+      "sales@kindgeek.com"
+    ],
+    "socials": [
+      "https://twitter.com/kindgeeks",
+      "https://www.facebook.com/kindgeek",
+      "https://www.instagram.com/kindgeeks",
+      "https://www.linkedin.com/company/kindgeek",
+      "https://www.youtube.com/@kindgeek2737",
+      "https://www.youtube.com/watch?v=VbPGeFcP4bo"
+    ],
+    "pocs": [
+      {
+        "name": "Why Choose",
+        "sources": [
+          "heading_h2"
+        ],
+        "role": null,
+        "email": null,
+        "socials": [],
+        "url": null
+      }
+    ],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 6.75,
+    "metro": "kyiv",
+    "phone": "+380 97 465 2244"
+  },
+  {
+    "lead_title": "MSYSTEM AGENCY",
+    "website": "https://msystem.ua/",
+    "pages": [
+      {
+        "url": "https://msystem.ua/",
+        "title": "Агентство цифрового маркетингу M.System"
+      },
+      {
+        "url": "https://msystem.ua/contacts/",
+        "title": "Контакти та адреси офісів | digital-агентство M. System"
+      }
+    ],
+    "emails": [],
+    "socials": [
+      "https://www.facebook.com/msystem.agency",
+      "https://www.instagram.com/msystem.agency/",
+      "https://www.linkedin.com/company/msystem-agency/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "no_email_found",
+    "quality_score": 6.35,
+    "metro": "kyiv",
+    "phone": "+380 67 622 6070"
+  },
+  {
+    "lead_title": "Jantrah Tech (Pvt) Ltd. - Software House in Islamabad",
+    "website": "https://jantrah.com/",
+    "pages": [
+      {
+        "url": "https://jantrah.com/",
+        "title": "Software House in Islamabad | Custom ERP, CRM & Mobile App Development – Jantrah Tech - Jantrah Tech"
+      },
+      {
+        "url": "https://jantrah.com/contact/",
+        "title": "Contact Jantrah Tech - Software House in Islamabad"
+      },
+      {
+        "url": "https://jantrah.com/about/",
+        "title": "About Jantrah Tech - Software House in Islamabad for ERP, CRM & Custom Software - Jantrah Tech"
+      }
+    ],
+    "emails": [
+      "info@jantrah.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/jantrahtech",
+      "https://www.instagram.com/jantrahtech/",
+      "https://www.linkedin.com/company/jantrahtechpk",
+      "https://www.tiktok.com/@jantrahtech"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.95,
+    "metro": "kyiv",
+    "phone": "+92 311 5254544"
+  },
+  {
+    "lead_title": "МЕГАЗИН | Створення інтернет-магазину",
+    "website": "https://mehazyn.com.ua/",
+    "pages": [
+      {
+        "url": "https://mehazyn.com.ua/",
+        "title": "МЕГАЗИН | Інтернет-магазин під ключ, який вже продає | Запуск за 7–14 днів"
+      }
+    ],
+    "emails": [
+      "mehazyn.com@gmail.com"
+    ],
+    "socials": [
+      "http://websufix.com/",
+      "https://helenatex.com.ua/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.12,
+    "metro": "kyiv",
+    "phone": "+380 97 701 5159"
+  },
+  {
+    "lead_title": "Livepage",
+    "website": "https://livepage.ua/",
+    "pages": [
+      {
+        "url": "https://livepage.ua/",
+        "title": "Livepage - агентство інтернет-маркетингу: SEO, PPC, Email-маркетинг для зростання бізнесу"
+      },
+      {
+        "url": "https://livepage.ua/contacts/",
+        "title": "Контакти - Livepage"
+      },
+      {
+        "url": "https://livepage.ua/about-us/",
+        "title": "Про нас - Livepage"
+      }
+    ],
+    "emails": [
+      "contact@livepage.pro",
+      "hr@livepage.pro",
+      "partner@livepage.pro"
+    ],
+    "socials": [
+      "https://linkedin.com/in/vladimir-aksenov-570750190/",
+      "https://twitter.com/Livepage_net",
+      "https://www.facebook.com/igor.rozumnyuk",
+      "https://www.facebook.com/katya.volovych.1",
+      "https://www.facebook.com/livepage",
+      "https://www.facebook.com/livepage/",
+      "https://www.facebook.com/profile.php?id=100009693524113",
+      "https://www.facebook.com/profile.php?id=100011590268357",
+      "https://www.facebook.com/pu.zla.5",
+      "https://www.facebook.com/serbacev",
+      "https://www.instagram.com/livepage.ua/",
+      "https://www.linkedin.com/company/12601476",
+      "https://www.linkedin.com/company/livepage/",
+      "https://www.linkedin.com/in/maria-sokolova-27a996297/",
+      "https://www.linkedin.com/in/mark-teplov-5aa945a8/",
+      "https://www.linkedin.com/in/natallia-kovalchyn-67946529b/",
+      "https://www.linkedin.com/in/uljana-shangina-827a99209/",
+      "https://www.linkedin.com/in/valeria-krasavina-5b503619b/",
+      "https://www.youtube.com/c/livepage",
+      "https://x.com/Livepage_net"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.12,
+    "metro": "kyiv",
+    "phone": "+1 646-844-8075"
+  },
+  {
+    "lead_title": "Binariks",
+    "website": "https://binariks.com/",
+    "pages": [
+      {
+        "url": "https://binariks.com/",
+        "title": "Binariks: Outsourcing Custom Software Development company"
+      },
+      {
+        "url": "https://binariks.com/contacts/",
+        "title": "Contact Binariks - IT Outsourcing Company"
+      },
+      {
+        "url": "https://binariks.com/company/",
+        "title": "About Us | Binariks"
+      }
+    ],
+    "emails": [
+      "info@binariks.com"
+    ],
+    "socials": [
+      "https://www.facebook.com/binariks/",
+      "https://www.instagram.com/binariks.inc/",
+      "https://www.linkedin.com/company/binariks/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.12,
+    "metro": "kyiv",
+    "phone": "+380 63 717 2053"
+  },
+  {
+    "lead_title": "TKnack",
+    "website": "https://www.tknack.com/",
+    "pages": [
+      {
+        "url": "https://tknack.com/",
+        "title": "TKnack Digital Marketing Agency Islamabad - Pakistan"
+      },
+      {
+        "url": "https://tknack.com/contact-us-now/",
+        "title": "Contact Us - Tknack Digital Marketing Agency"
+      },
+      {
+        "url": "https://tknack.com/about-us/",
+        "title": "About Us - Tknack Digital Marketing Agency"
+      }
+    ],
+    "emails": [
+      "contact@tknack.com",
+      "info@tknack.com",
+      "info@tknack.comwhatsapp"
+    ],
+    "socials": [
+      "https://instagram.com/tknack_?utm_medium=copy_link%20%20",
+      "https://twitter.com/tknack_?s=09%20",
+      "https://www.facebook.com/Tknack/",
+      "https://www.instagram.com/tknack_/",
+      "https://www.linkedin.com/company/tknack/"
+    ],
+    "pocs": [],
+    "errors": [],
+    "hit403": false,
+    "cloudflare_blocked": false,
+    "status": "ok",
+    "quality_score": 5.2,
+    "metro": "kyiv",
+    "phone": "+92 335 5099101"
+  }
+]

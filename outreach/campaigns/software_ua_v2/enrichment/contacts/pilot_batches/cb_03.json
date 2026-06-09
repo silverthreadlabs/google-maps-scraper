@@ -1,0 +1,65 @@
+{
+  "ChIJ_RDoVasnImsRhIWdzsJ3PJI": [
+    {
+      "name": "Oleksii Bulavka",
+      "role": "CTO & Co-Founder",
+      "linkedin": "https://www.linkedin.com/in/bulavka-aleksey/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "ZoomInfo + LinkedIn confirm Alex/Oleksii Bulavka as CTO at stormotion.io; Stormotion blog author page corroborates title"
+    }
+  ],
+  "ChIJZz43Mv7i20ARlTDB6Vhr7WI": [],
+  "ChIJtbCvL2NY2UARWYnGV1mO9Hg": [
+    {
+      "name": "Eugene Karlov",
+      "role": "Co-Founder",
+      "linkedin": "https://www.linkedin.com/in/eugene-karlov-48a56577/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "CBInsights + Crunchbase + Salesgear list Eugene Karlov as Co-Founder at Labs Neural (labsneural.com); LinkedIn profile matches Dnipro/Ukraine education"
+    }
+  ],
+  "ChIJc6_HBftYSoYRxlaDOfDqSzk": [],
+  "ChIJOwqmnbrj20ARtgJh0zNaAkY": [
+    {
+      "name": "Taras Tsilinskyy",
+      "role": "CEO",
+      "linkedin": "https://www.linkedin.com/in/taras-t-22191221a/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "UTOR team page (u-tor.com/our-team) lists Taras Tsilinskyy as CEO with this LinkedIn URL"
+    },
+    {
+      "name": "Roman Yakymchuk",
+      "role": "CTO",
+      "linkedin": "https://www.linkedin.com/in/romanyakimchuk/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/roman_yakymchuk_/",
+      "facebook": "https://www.facebook.com/YakimchukRV/",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "UTOR team page (u-tor.com/our-team) + LinkedIn + RocketReach confirm Roman Yakymchuk as CTO at u-tor.com; Instagram @roman_yakymchuk_ confirmed as QA speaker/trainer at UTOR"
+    },
+    {
+      "name": "Anastasiia Rozhdestvenska",
+      "role": "Account Manager",
+      "linkedin": "https://www.linkedin.com/in/a-rozhdestvenska/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "anastasiia.ro@u-tor.com",
+      "confidence": 0.9,
+      "evidence": "UTOR team page (u-tor.com/our-team) lists Anastasiia Rozhdestvenska as Account Manager with email anastasiia.ro@u-tor.com; LinkedIn profile corroborates role"
+    }
+  ]
+}

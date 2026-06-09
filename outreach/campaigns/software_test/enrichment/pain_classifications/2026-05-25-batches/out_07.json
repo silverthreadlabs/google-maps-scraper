@@ -1,0 +1,293 @@
+[
+  {
+    "id": 210,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "no response",
+        "reasoning": "Brief snippet indicating an inquiry received no response."
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Дуже багато помилок, не правильна конструкція додавання та звітності програми",
+        "reasoning": "Product (software) shipped with many bugs and incorrect functionality."
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Перешли из старой версии на новую товары перенесли а себестоимость сбросилась и сами не могут починить",
+        "reasoning": "Software product is broken; vendor cannot fix it."
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "комунікація з менеджментом ніяка",
+        "reasoning": "Explicitly calls out poor communication with management."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "quote": "змушують чекати тижнями",
+        "reasoning": "Customer requested documents and waits weeks without response."
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "програма не змогла опрацювати таку кількість позицій",
+        "reasoning": "Product fails to handle promised scale; support blames the user."
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "дуже часто зникають товари. Просто внікуди",
+        "reasoning": "Product loses data — defective behavior."
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Помилки в сумах продажів, які ідуть на податкову",
+        "reasoning": "Software produces incorrect sales totals — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "антивірус виявив троян",
+        "reasoning": "Official demo flagged as containing trojan — defective/unsafe deliverable."
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "система дуже погано працює",
+        "reasoning": "System works badly with constant glitches."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Техслжба грубить і не коректно пояснює",
+        "reasoning": "Tech support is rude — rude tone from staff."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "ніколи не повідомляють про те що в них якісь оновлення",
+        "reasoning": "No communication about updates/outages."
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "часть функций работали в новой админ панели а часть в старой",
+        "reasoning": "Buggy/incomplete product where features were split unfinished across versions."
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "мені виставити рахунок за 3 торгові точки",
+        "reasoning": "Was told would only be charged for 2 days/one location but billed for all three."
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "постійні помилки і звертання до тех підтримки",
+        "reasoning": "New version has constant errors."
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Программа работает очень не стабильно",
+        "reasoning": "Product unstable, fails to save/find items."
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "categories": []
+  },
+  {
+    "id": 224,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "все постоянно лагает, расходы пропадают, куча проблем",
+        "reasoning": "Product constantly lags and loses data."
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "categories": []
+  },
+  {
+    "id": 226,
+    "categories": []
+  },
+  {
+    "id": 227,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "частина функцій не працює",
+        "reasoning": "Part of the system's functions don't work."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "Техпідтримка взагалі не бере трубку і не відповідає в чаті",
+        "reasoning": "Support does not pick up phone or reply in chat — customer chasing, no response."
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "categories": []
+  },
+  {
+    "id": 229,
+    "categories": []
+  },
+  {
+    "id": 230,
+    "categories": []
+  },
+  {
+    "id": 231,
+    "categories": []
+  },
+  {
+    "id": 232,
+    "categories": []
+  },
+  {
+    "id": 233,
+    "categories": []
+  },
+  {
+    "id": 234,
+    "categories": []
+  },
+  {
+    "id": 235,
+    "categories": []
+  },
+  {
+    "id": 236,
+    "categories": []
+  },
+  {
+    "id": 237,
+    "categories": []
+  },
+  {
+    "id": 238,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.92,
+        "quote": "after I did that I never heard from him again",
+        "reasoning": "Customer sent requested info for a quote and never heard back."
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "Показали результати в 8 раз гірші ніж обіцяли",
+        "reasoning": "Delivered results substantially diverge from what was promised."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "якщо треба буде вирішити якусь проблему після оплати будете чекати тижнями на відповідь",
+        "reasoning": "After payment, customer waits weeks for a response to issues."
+      }
+    ]
+  }
+]

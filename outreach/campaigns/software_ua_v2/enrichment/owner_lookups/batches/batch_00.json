@@ -1,0 +1,44 @@
+{
+  "ChIJWwu3dTjnOkcRhqwmG3vVz3c": {
+    "name": "Taras Kytsmey",
+    "title": "Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/taras-kytsmey-1443064/",
+    "confidence": 0.85,
+    "evidence": "SoftServe official site and Wikipedia confirm Taras Kytsmey as co-founder (1993); LinkedIn profile at linkedin.com/in/taras-kytsmey-1443064/ verified via search. Note: large company (12,000+ employees) with current CEO Harry Propper; Kytsmey is board-level co-founder."
+  },
+  "ChIJDYJx5LPj20AR2sasji7B3vY": {
+    "name": "Daniel Aizenberh",
+    "title": "CEO & Co-Founder",
+    "linkedin": "",
+    "confidence": 0.75,
+    "evidence": "Multiple sources (makeanapplike.com, Crunchbase, clutch.co) consistently name Daniel Aizenberh as CEO & Co-Founder of broscorp.net since 2016; no verified personal linkedin.com/in/ URL found — candidate /in/daniel-eisenberg links to a different employer (Too Good To Go)."
+  },
+  "ChIJ_RDoVasnImsRhIWdzsJ3PJI": {
+    "name": "Roman Bord",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/roman-bord",
+    "confidence": 0.9,
+    "evidence": "LinkedIn search, RocketReach, and stormotion.io/blog/authors/roman-bord/ all confirm Roman Bord as Co-Founder & CEO of Stormotion; LinkedIn URL pl.linkedin.com/in/roman-bord matches Stormotion current company."
+  },
+  "ChIJj7C-_wrj20ARucM2TFZdKDs": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Multiple web searches and direct site fetch attempts for ocstudio.pro returned no named founder, owner, or CEO; site returned 403 errors; no LinkedIn personal profile found linking to this domain."
+  },
+  "ChIJZz43Mv7i20ARlTDB6Vhr7WI": {
+    "name": "Oleksandr Sendziuk",
+    "title": "Creative Director & Founder",
+    "linkedin": "https://www.linkedin.com/in/asendziuk",
+    "confidence": 0.75,
+    "evidence": "ZoomInfo confirms Oleksandr Sendziuk as Creative Director & Founder at creayou.com (Dnipro, Ukraine); site:linkedin.com search returned ua.linkedin.com/in/asendziuk for Creayou context; CREAYOU LTD UK registry lists him as major shareholder."
+  },
+  "ChIJV3cz0GPqiw8Rg9a69aLrUzI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "aura-webagency.com site shows no named founder or owner; search results only surface testimonials from clients; Telegram handle @pumking211 found but not attributed to a named individual; no LinkedIn personal profile found."
+  }
+}

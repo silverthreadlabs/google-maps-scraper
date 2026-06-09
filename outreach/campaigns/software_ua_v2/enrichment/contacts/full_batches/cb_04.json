@@ -1,0 +1,98 @@
+{
+  "ChIJ_9lsxcQY9AcR6AuG4IYfXeA": {
+    "people": [
+      {
+        "name": "Valerii Zarubin",
+        "role": "Business Developer & Co-Owner",
+        "linkedin": "https://www.linkedin.com/in/valerii-zarubin-827349160",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "RocketReach org chart lists him as Business Developer and Co-Owner at Yieldy; LinkedIn profile in Los Angeles matches company location"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/yieldyco",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/yieldy.co/",
+      "facebook": "https://www.facebook.com/Yieldy.co/",
+      "email": ""
+    }
+  },
+  "ChIJTy-vEL3P1EARleSbwhuyHDI": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/suto-games-studio",
+      "twitter": "https://x.com/sutogames",
+      "instagram": "https://www.instagram.com/sutogames/",
+      "facebook": "https://www.facebook.com/profile.php?id=100087136905340",
+      "email": "hello@sutogames.com"
+    }
+  },
+  "ChIJKfDI-QXN1EARPw2f-mQ0mrQ": {
+    "people": [
+      {
+        "name": "Sergii Trizna",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://pl.linkedin.com/in/sergii-trizna",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "strizna@thinksoft.net",
+        "confidence": 0.9,
+        "evidence": "Multiple sources confirm: thinksoft.net/team/ lists him, Crunchbase profile shows Co-Founder & CTO at Thinksoft, LinkedIn profile at pl.linkedin.com/in/sergii-trizna"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/thinksoft-company",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/thinksoft.net/",
+      "email": "business@thinksoft.net"
+    }
+  },
+  "ChIJn64_FQHP1EARffsJdE2wdrA": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/ScudCRM/",
+      "email": "office@scudcrm.ua"
+    }
+  },
+  "ChIJT7iHbm_L1EARzHKZXEEswoM": {
+    "people": [
+      {
+        "name": "Maxim Lukianov",
+        "role": "CCO & Co-Founder",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "ZoomInfo confirms CCO/Co-Founder at Spectrsystems with @spectrsystems.com email domain; career includes Shell Director B2B and Jooble BizDev Director; LinkedIn handle not confirmed with certainty"
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJMck-AEvJ1EARWnSPutxNjjE": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/newgen-ukraine",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "serhii.voronovych@newgen.company"
+    }
+  }
+}

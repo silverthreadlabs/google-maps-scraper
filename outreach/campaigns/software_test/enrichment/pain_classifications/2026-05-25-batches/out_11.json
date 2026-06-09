@@ -1,0 +1,188 @@
+[
+  {
+    "id": 330,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "delivering nothing but useless half finished products",
+        "reasoning": "Explicitly describes half-finished deliverables after taking payment."
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "categories": []
+  },
+  {
+    "id": 332,
+    "categories": []
+  },
+  {
+    "id": 333,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "За два месяца контекстной рекламы - 0 заказов",
+        "reasoning": "Paid SEO/ads work failed to produce results — deliverable did not meet expected outcome."
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.8,
+        "quote": "возьмут деньги, ничего не сделают толком",
+        "reasoning": "Took payment and did not actually complete the work."
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "I faced minor bugs after launch",
+        "reasoning": "Deliverable shipped with bugs requiring post-launch fixes."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.6,
+        "quote": "it took a few extra days",
+        "reasoning": "Bug fixes pushed timeline past expected."
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "categories": []
+  },
+  {
+    "id": 337,
+    "categories": []
+  },
+  {
+    "id": 338,
+    "categories": []
+  },
+  {
+    "id": 339,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "they failed to fix the old system and we also paid them to create a new one but also failed",
+        "reasoning": "Paid for two engagements; both failed to deliver."
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "categories": []
+  },
+  {
+    "id": 341,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "My website don't work from many days",
+        "reasoning": "Delivered website is non-functional."
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "categories": []
+  },
+  {
+    "id": 343,
+    "categories": []
+  },
+  {
+    "id": 344,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "They don't even text back",
+        "reasoning": "Customer reached out and got no response."
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "quote": "i am trying to contact from 30 june but still no reply",
+        "reasoning": "Repeated attempts to reach the assigned contact with no response."
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "categories": []
+  },
+  {
+    "id": 347,
+    "categories": []
+  },
+  {
+    "id": 348,
+    "categories": []
+  },
+  {
+    "id": 349,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "кампании не принесли какого-то результата",
+        "reasoning": "Paid campaigns produced no results."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "Менеджер, который вел кампанию, сказал, что не знает, в чем причина",
+        "reasoning": "Account manager could not explain why work failed."
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "categories": []
+  },
+  {
+    "id": 351,
+    "categories": []
+  },
+  {
+    "id": 352,
+    "categories": []
+  },
+  {
+    "id": 353,
+    "categories": []
+  },
+  {
+    "id": 354,
+    "categories": []
+  }
+]

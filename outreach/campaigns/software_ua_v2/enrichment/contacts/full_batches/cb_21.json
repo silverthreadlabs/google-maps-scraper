@@ -1,0 +1,97 @@
+{
+  "ChIJS8IukF7nOkcRxJabrM2Bp8o": {
+    "people": [
+      {
+        "name": "Liliia Seletska",
+        "role": "Team Lead, Sales",
+        "linkedin": "https://www.linkedin.com/in/liliia-seletska/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "ZoomInfo lists Liliia Seletska as Team Lead, Sales at Volpis (l***@volpis.com); previously Business Development Manager at Volpis and lead gen manager at Clover Dynamics"
+      },
+      {
+        "name": "Olena Panychok",
+        "role": "Manager, Lead Generation",
+        "linkedin": "https://www.linkedin.com/in/olena-panychok-5b53031aa/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/olena.panychok",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "ZoomInfo and LinkedIn both confirm Olena Panychok as Manager, Lead Generation at Volpis (o***@volpis.com); profile URL confirmed in search results"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/volpis",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/volpisdev/",
+      "facebook": "https://www.facebook.com/volpis/",
+      "email": "sales@volpis.com"
+    }
+  },
+  "ChIJ9yWlJ7aHLYwRYO5Eu_QorGM": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "https://twitter.com/BogdanDyuk",
+      "instagram": "https://www.instagram.com/Bogdan.Dyuk",
+      "facebook": "https://www.facebook.com/Bogdan.Dyuk",
+      "email": "bogdan.dyuk@gmail.com"
+    }
+  },
+  "ChIJuyMsWcccu6YRJUZwdFCFz7s": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/live2sport/",
+      "twitter": "https://x.com/Live2Sport_com",
+      "instagram": "https://www.instagram.com/live2sport/",
+      "facebook": "https://www.facebook.com/live2sport/",
+      "email": "info@live2sport.com"
+    }
+  },
+  "ChIJm7xcG1PnOkcRhLtI98eEQCY": {
+    "people": [
+      {
+        "name": "Serhii Shchotchuk",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "ZoomInfo and Djinni both confirm Serhii Shchotchuk as Co-Founder, CTO at Rocket Harbor (s***@rocketharbor.com); GitHub profile: shchotchuk"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/rocketharbor",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/rocketharbor/",
+      "email": "hello@rocketharbor.com"
+    }
+  },
+  "ChIJq6oucAndOkcRrChJETdH78o": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/dumka",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJeQAZHiDdOkcRpbirGtgvrAQ": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/gram-agency",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/gram.branding/",
+      "facebook": "https://www.facebook.com/GRAMbranding/",
+      "email": "welcome@gram.family"
+    }
+  }
+}

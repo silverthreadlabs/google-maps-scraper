@@ -1,0 +1,44 @@
+{
+  "ChIJ63XQosLN1EARZjrXb7jOoOo": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Only COO Vadim Artyukh found on LinkedIn; no founder or CEO identified across website, Crunchbase, LinkedIn company page, and multiple search queries"
+  },
+  "ChIJ7VvaaQF4_YER6f2Ik69REYU": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder, CEO, or owner identified; website (adavay.agency) returned no leadership info; Facebook page and multiple search queries yielded no named decision-maker"
+  },
+  "ChIJ0YEYIHLN1EAR8L30_pQlo18": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website (soft.taxi) shows only generic contact email; no founder or CEO found across website, LinkedIn, and multiple search queries"
+  },
+  "ChIJg_pcItjN1EARUOgP4B6zV-A": {
+    "name": "Ivan Sierov",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/ivan-sierov-5343b198/",
+    "confidence": 0.7,
+    "evidence": "Multiple sources (ZoomInfo, The Org, Djinni, Bold.pro) confirm Ivan Sierov as Co-Founder/CEO of AutoBI (auto-bi.io); note domain is currently parked for sale, reducing confidence slightly"
+  },
+  "ChIJVVUl4UDO1EARUX7SA9X5kv8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Taras Fihurniak found as only named employee on Bluefield Technologies LinkedIn but no founder/CEO title confirmed; multiple unrelated Bluefield companies complicate disambiguation"
+  },
+  "ChIJU-wFCj3N1EARS5ddk8Ay95A": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "supersoft-tech.com resolves to a Pakistani company (Karachi, founded 2007); not a Ukrainian entity; no Ukrainian owner/founder identifiable"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "ChIJXSwTqArnOkcR5epz5IjrOME": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/solidsoftware",
+      "twitter": "https://twitter.com/SolidSoftwareHQ",
+      "instagram": "https://www.instagram.com/solidsoftwarehq/",
+      "facebook": "https://www.facebook.com/SolidSoftwareHQ",
+      "email": "hello@solid.software"
+    }
+  },
+  "ChIJ35CjuwznOkcRXv-uO1l8vYs": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/theuppercode",
+      "twitter": "https://twitter.com/uppercode",
+      "instagram": "https://www.instagram.com/the_uppercode/",
+      "facebook": "https://www.facebook.com/theuppercode/",
+      "email": "office@theuppercode.com"
+    }
+  },
+  "ChIJLbHW-bvnOkcRwgpm7snykz4": {
+    "people": [
+      {
+        "name": "Mykola Dovhal",
+        "role": "Technical PM",
+        "linkedin": "https://www.linkedin.com/in/mykola-dovhal/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "Listed on solidbrain.net/team and solidbrain.net/contact-us as Technical PM with LinkedIn link; confirmed active SolidBrain posts on LinkedIn"
+      },
+      {
+        "name": "Vasyl Kuzyk",
+        "role": "Head of BDM",
+        "linkedin": "https://www.linkedin.com/in/vasyl-kuzyk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "vasyl.kuzyk@solidbrain.net",
+        "confidence": 0.75,
+        "evidence": "Listed on solidbrain.net/team as Head of BDM; authored blog posts on solidbrain.net as late as 2024; email pattern confirmed via search"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/solidbrain-ukraine",
+      "twitter": "https://twitter.com/SolidBrain_UA",
+      "instagram": "https://www.instagram.com/solid_brain_ua/",
+      "facebook": "https://www.facebook.com/solidbrainua/",
+      "email": "info@solidbrain.net"
+    }
+  },
+  "ChIJYf8zSO_nOkcR5SJj8eGwhBQ": {
+    "people": [
+      {
+        "name": "Volodymyr Karpliuk",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/volodya-karpliuk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Listed on jetsoftpro.com/jetsoftpro-team/ as CTO; LinkedIn profile title confirms CTO at JetSoftPro"
+      },
+      {
+        "name": "Olesia Prytulka",
+        "role": "Head of Business Development",
+        "linkedin": "https://www.linkedin.com/in/olesia-prytulka/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Listed on jetsoftpro.com/jetsoftpro-team/ as Head of Business Development; LinkedIn profile confirms role at JetSoftPro"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/jetsoftpro",
+      "twitter": "https://twitter.com/JetSoftPro",
+      "instagram": "https://www.instagram.com/jetsoftpro/",
+      "facebook": "https://www.facebook.com/jetsoftpro",
+      "email": "contactus@jetsoftpro.com"
+    }
+  },
+  "ChIJz1XOin7nOkcRwkq9PIRKCAE": {
+    "people": [
+      {
+        "name": "Roman Labish",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/romanlabish",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "Listed on codegeeks.solutions website as CTO with Calendly link; confirmed via LinkedIn posts slug 'romanlabish' and ZoomInfo/RocketReach records showing CTO at CodeGeeks Solutions"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/codegeeks-solutions",
+      "twitter": "https://x.com/CodeGeeksss",
+      "instagram": "https://www.instagram.com/codegeeks.solutions/",
+      "facebook": "https://www.facebook.com/codegeeks.solutions",
+      "email": "info@codegeeks.solutions"
+    }
+  },
+  "ChIJ7eeAFtnnOkcRULhfikPYAQc": {
+    "people": [
+      {
+        "name": "Daria Levchuk",
+        "role": "Senior Project Manager",
+        "linkedin": "https://www.linkedin.com/in/daria-levchuk-b5a306128/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "LinkedIn profile lists Flexum as employer; described as Senior Project Manager at Flexum; company domain flexum.io confirmed"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/flexum",
+      "twitter": "https://twitter.com/flexumio",
+      "instagram": "https://www.instagram.com/flexum.io/",
+      "facebook": "https://www.facebook.com/flexum.io/",
+      "email": "hi@flexum.io"
+    }
+  }
+}

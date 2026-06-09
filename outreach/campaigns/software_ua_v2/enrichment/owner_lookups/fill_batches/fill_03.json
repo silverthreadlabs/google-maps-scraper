@@ -1,0 +1,37 @@
+{
+  "ChIJ9yWlJ7aHLYwRYO5Eu_QorGM": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ua.linkedin.com/in/dyukr appeared in search but could not confirm slug belongs to Bogdan Dyuk specifically"
+  },
+  "ChIJq6oucAndOkcRrChJETdH78o": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Ruslan Belziuk CEO Dumka confirmed on ZoomInfo/RocketReach but no personal linkedin.com/in/ URL found"
+  },
+  "ChIJRe6oIDX-JiMRwUzHHvywKcg": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No LinkedIn profile found for Oleksii Petelko owner of SHUM agency"
+  },
+  "ChIJ7ZJKXozdOkcRJOE49WMCL_w": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Oles Timofeev co-founder GeniusMarketing confirmed but only company page found, no personal linkedin.com/in/ URL"
+  },
+  "ChIJfa-Y9yjdOkcRIzR0rnCpUHw": {
+    "linkedin": "https://www.linkedin.com/in/malchevskyivlad",
+    "confidence": 0.9,
+    "evidence": "ZoomInfo confirms Vladyslav Malchevskyi Co-Founder/CMO at Voodoo Ecom School with email @voodooecom.com; profile slug malchevskyivlad appeared twice in site:linkedin.com searches"
+  },
+  "ChIJ23prlSnj20ARSM3GTK6qUvI": {
+    "linkedin": "https://www.linkedin.com/in/roman-luchkov-6a286b110",
+    "confidence": 0.8,
+    "evidence": "RocketReach lists roman-luchkov-6a286b110 as CEO at НПП ПК-Сервис with Dnipro background matching pc-service.ua"
+  },
+  "ChIJjfQm_n7nOkcRJnocd2IewwU": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No LinkedIn profile found for Oleksandr Buryak director of BRANDME design studio"
+  }
+}

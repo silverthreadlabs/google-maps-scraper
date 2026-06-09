@@ -1,0 +1,44 @@
+{
+  "ChIJPYdJBxpJOkcRlVRJhhVvz90": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/CEO name found on profit.in.ua site or search results; site shows only phone/email contact in Truskavets"
+  },
+  "ChIJlWRW5nstGUcR2blmDFg3muE": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "TeaCode.io is a Polish company based in Warsaw, Poland — not a Ukrainian firm; cannot confirm Ukrainian decision-maker for this listing"
+  },
+  "ChIJYUhk9DWQ4EARmQ4BKZ8kbSQ": {
+    "name": "Artem Kretinin",
+    "title": "Founder & Director",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "Confirmed as 'Руководитель і основатель' on vectorstudio.com.ua about page and in ipress.ua article about ATO veteran who founded the Dnipro design studio"
+  },
+  "ChIJ2a0tZgQU94wRzKRDvfmfGys": {
+    "name": "Liliia Kruchkova",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/liliya-kruchkova/",
+    "confidence": 0.9,
+    "evidence": "Listed as CEO & Co-Founder on hoverlasoft.com/meet-the-team; LinkedIn ua.linkedin.com/in/liliya-kruchkova confirms current company Hoverla Soft"
+  },
+  "ChIJS-KxJEvE1EARbtpj4eFLUHk": {
+    "name": "Oleksandr (Sasha) Strozhemin",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/sashastrozhemin/",
+    "confidence": 0.95,
+    "evidence": "Confirmed Co-Founder & CEO of Trinetix on LinkedIn (linkedin.com/in/sashastrozhemin/), trinetix.com/our-team, and unite.ai interview; company founded 2011"
+  },
+  "ChIJh-b2XNji20ARDZkQhgi8Ocg": {
+    "name": "Andrey Zhidilin",
+    "title": "General Director",
+    "linkedin": "",
+    "confidence": 0.4,
+    "evidence": "Listed as Generalny Director on ratingruneta.ru profile for webstudio.biz (Pervaya Ukrainskaya Studiya); no LinkedIn found; could be employee not founder — low confidence"
+  }
+}

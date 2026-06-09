@@ -1,0 +1,44 @@
+{
+  "ChIJ3SAdoGJQhoERE3AHFBGDHfI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Edgeware Global (edgeware.global, Kharkiv, founded 2021) - no named founder/CEO found on website, about page, LinkedIn company page, DesignRush, or ZoomInfo; company keeps leadership anonymous"
+  },
+  "ChIJT7iHbm_L1EARzHKZXEEswoM": {
+    "name": "Vitalii Romanenko",
+    "title": "CEO",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "ZoomInfo lists Vitalii Romanenko as CEO at spectrsystems.com (Kyiv); Maxim Lukianov confirmed CCO/Co-Founder at ua.linkedin.com/in/maxim-lukianov-39288240 but Romanenko holds top executive role; no personal LinkedIn URL confirmed for Romanenko"
+  },
+  "ChIJMck-AEvJ1EARWnSPutxNjjE": {
+    "name": "Serhii Voronovych",
+    "title": "CEO / Founder",
+    "linkedin": "https://www.linkedin.com/in/serhii-voronovych/",
+    "confidence": 0.85,
+    "evidence": "LinkedIn profile 'Serhii Voronovych - Chief Executive Officer - Newgen Ukraine' found; RocketReach and ContactOut confirm CEO at Newgen Ukraine (newgen.company); he also founded and scaled the core engineering hub of NewGen holding"
+  },
+  "ChIJE60GorHF1EARr_-5UUbxA6c": {
+    "name": "Oleksiy Bardakov",
+    "title": "Founder / Director",
+    "linkedin": "",
+    "confidence": 0.65,
+    "evidence": "Applic is a product division of IT Artel Group (itartel.com); Ukrainian business registry (youcontrol.com.ua code 41605928) confirms Bardakov Oleksiy Volodymyrovych as 100% owner and director of IT Artel LLC (founded 2017); no personal LinkedIn URL found"
+  },
+  "ChIJtw7ONfTFeWERjO7A_u4nDs8": {
+    "name": "Oleksandr Nechyporenko",
+    "title": "Founder / CEO",
+    "linkedin": "https://www.linkedin.com/in/oleksandrnechyporenko/",
+    "confidence": 0.8,
+    "evidence": "prestaservice.org About page states 'Founder and leading specialist of webPCstudio Oleksandr Nechyporenko'; prestaservice.org is operated by webPCstudio; LinkedIn profile confirmed at linkedin.com/in/oleksandrnechyporenko/ as CEO at webPC web-development company"
+  },
+  "ChIJSQIErtTJ1EARqVR8Zkskk2c": {
+    "name": "Yevgen Voronetski",
+    "title": "Founder / CTO",
+    "linkedin": "https://www.linkedin.com/in/voronetskyy",
+    "confidence": 0.9,
+    "evidence": "devatlant.com About section: 'Yevgen Voronetski originated the company in 2016, software engineer with 20+ years experience'; RocketReach confirms 'DevAtlant Founder and CTO'; LinkedIn fr.linkedin.com/in/voronetskyy verified as 'Pragmatic CTO, Architect' at DevAtlant"
+  }
+}

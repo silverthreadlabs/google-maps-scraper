@@ -1,0 +1,44 @@
+{
+  "ChIJgZFchOfi20AR8sx-0s7m_7A": {
+    "name": "Oleksii Holushko",
+    "title": "Co-founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/alexproject/",
+    "confidence": 0.9,
+    "evidence": "webland.uk/about-us lists Oleksii Holushko (Alex Golushko) as Co-founder & CEO; Yaroslav Lavrynenko is Co-founder & Art Director; company has offices in Dnipro, Ukraine"
+  },
+  "ChIJ5yBOLXpY2UARPBc2bDeuH0w": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "prestige.dp.ua appears to be a web/IT services company in Dnipro; no named founder or owner found on site or in search results; only generic 'admin' author on posts"
+  },
+  "ChIJI2A9yfni20ARuG1u-22iy_A": {
+    "name": "Dmitriy Zaporozhets",
+    "title": "CEO / Founder",
+    "linkedin": "https://www.linkedin.com/in/dmitriy-zaporozhets-83b15375/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn profile ua.linkedin.com/in/dmitriy-zaporozhets-83b15375 explicitly titled 'CEO – Zapleo'; Facebook account zapleo.ceo; zapleo.com homepage credits him as founder; agency is Ukrainian (Dnipro)"
+  },
+  "ChIJKxNwxWbj20ARLk2wTM3juhI": {
+    "name": "Ivan Hrebinchenko",
+    "title": "CMO",
+    "linkedin": "https://pl.linkedin.com/in/ivan-hrebinchenko-51b97b129",
+    "confidence": 0.4,
+    "evidence": "RocketReach lists Ivan Hrebinchenko as CMO at PT78 Marketing (2-person company); PT78 Marketing LinkedIn company page lists him as employee; role is CMO not founder/CEO — confidence capped at 0.4; no confirmed founder/owner identified"
+  },
+  "ChIJu-oLM8OV3zgRex7y8kFeKuE": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Byteglowz is a software house in Rawalpindi, Pakistan; no founder or CEO name found on website or in web searches; company has minimal online presence beyond basic directory listings"
+  },
+  "ChIJGU7_nIMtVkkRMFwwVF9khd8": {
+    "name": "M. Hamza Awan",
+    "title": "Android Developer / Portfolio Owner",
+    "linkedin": "https://www.linkedin.com/in/itsmhamza/",
+    "confidence": 0.8,
+    "evidence": "itsmhamza.github.io/Portfolio/ is a personal portfolio site; the site owner is M. Hamza Awan, Android Developer; LinkedIn profile linkedin.com/in/itsmhamza/ confirmed on page; this is a sole individual, not a company"
+  }
+}

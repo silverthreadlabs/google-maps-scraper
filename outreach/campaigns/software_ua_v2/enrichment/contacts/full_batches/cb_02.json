@@ -1,0 +1,121 @@
+{
+  "ChIJF32fka3920ARGKuXJYamiEw": {
+    "people": [
+      {
+        "name": "Sergey Kyrychenko",
+        "role": "Co-founder & Senior 3D Artist / Principal CEO",
+        "linkedin": "https://ua.linkedin.com/in/sergeykyrychenko",
+        "twitter": "",
+        "instagram": "https://www.instagram.com/sergkyrychenko/",
+        "facebook": "https://www.facebook.com/sergey.kyrychenko.7/",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Apollo.io and RocketReach list Sergey Kyrychenko as Co-founder and Principal CEO at ARTMOUNT (artmount.net), based in Dnipro UA. LinkedIn profile ua.linkedin.com/in/sergeykyrychenko confirmed. Instagram @sergkyrychenko found via public search."
+      },
+      {
+        "name": "Gennadiy Nikolayev",
+        "role": "Project Manager",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "SignalHire lists Gennadiy Nikolayev as Project Manager at ARTMOUNT with artmount.net email domain. No public LinkedIn profile URL confirmed. Noted as additional colleague by RocketReach alongside founders."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/artmountvisual",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/artmountvisual/",
+      "facebook": "https://www.facebook.com/artmountvisual/",
+      "email": "info@artmount.net"
+    }
+  },
+  "ChIJgZFchOfi20AR8sx-0s7m_7A": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/webland-uk",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@webland.uk"
+    }
+  },
+  "ChIJI2A9yfni20ARuG1u-22iy_A": {
+    "people": [
+      {
+        "name": "Konstantin Grigurko",
+        "role": "Web Software Developer",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.6,
+        "evidence": "ZoomInfo lists Konstantin Grigurko as Web Software Developer at Zapleo with k***@zapleo.com email. No confirmed public LinkedIn URL found — ZoomInfo profile exists but URL not surfaced in search results."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/zapleo",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/zapleosoft/",
+      "facebook": "https://www.facebook.com/zapleosoftua/",
+      "email": "zapleosoft@gmail.com"
+    }
+  },
+  "ChIJGU7_nOMtVkkRMFwwVF9khd8": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJZQGk3yrGvYsRION8qwdNHtQ": {
+    "people": [
+      {
+        "name": "Kibby Pollak",
+        "role": "Co-Founder / CEO (client-side, associated with Cinnaboner)",
+        "linkedin": "https://www.linkedin.com/in/kibby-pollak/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.6,
+        "evidence": "Apollo.io lists Kibby Pollak as Co-Founder, CEO at Enurgen and associated with Cinnaboner as a decision-maker/testimonial figure. The Cinnaboner website lists Kibby Pollak among named POCs in the input data. LinkedIn confirmed at linkedin.com/in/kibby-pollak/."
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJ0cQrXjPj20ARWb-1ud_3-lo": {
+    "people": [
+      {
+        "name": "Sergei Koznov",
+        "role": "Founder / Director / Animator",
+        "linkedin": "https://nl.linkedin.com/in/sergei-koznov-74837414b",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "koznov.sergey@gmail.com",
+        "confidence": 0.8,
+        "evidence": "LinkedIn profile nl.linkedin.com/in/sergei-koznov-74837414b listed as Self Employed / motionthesign. Vimeo profile vimeo.com/motionthesign, ArtStation, Fiverr (sergeykoznov) all confirm same individual as founder of møtiønthesign studio at motionthesign.com. Email koznov.sergey@gmail.com found on motionthesign studio pages."
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "koznov.sergey@gmail.com"
+    }
+  }
+}

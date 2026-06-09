@@ -1,0 +1,37 @@
+{
+  "ChIJnxH9FRrN1EARSLdyswjA42g": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Jupser founder referred to only as 'Maksym' in Clutch reviews; ZoomInfo/RocketReach list CEO as Artem Bezruk (co-founder) — different name, cannot confidently resolve a personal linkedin.com/in/ URL for 'Maksym'."
+  },
+  "ChIJVVXhtZXdOkcRRzi7_6kYCtc": {
+    "linkedin": "https://www.linkedin.com/in/taras-gudz/",
+    "confidence": 0.65,
+    "evidence": "Chunkup website confirms Taras Gudz as CEO/Delivery Manager; linkedin.com/in/taras-gudz/ is the best-matching profile (Backend Team Lead, co-founder history) of three Taras Gudz profiles found — cannot fully verify without authenticated access."
+  },
+  "ChIJ2emoQtvnOkcRHKvQsISw0Do": {
+    "linkedin": "https://www.linkedin.com/in/kostiantyn-berehovyi-67a31623b/",
+    "confidence": 0.75,
+    "evidence": "berko.tech website confirms Kostiantyn Berehovyi as founder; linkedin.com/in/kostiantyn-berehovyi-67a31623b/ matches name exactly (Lead Developer / Joggle AI, education Lviv Polytechnic) — current title differs but past founder role at berko.tech is consistent."
+  },
+  "ChIJPz9Dot3dOkcRNR6LOe4xlRo": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "RocketReach confirms Dmitrii Hruzdiev as co-founder at KARAKUM Soft; no personal linkedin.com/in/ URL surfaced in any search result."
+  },
+  "ChIJbWGuiIfdOkcR5RvJAjVInqg": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ZoomInfo confirms Roman Hladun as business owner of Intelligent System Design (intelsd.com); the only Roman Hladun linkedin.com/in/ URL found (roman-hladun-b39909275) belongs to a dental clinic in Poland — different person."
+  },
+  "ChIJH4MXgefnOkcRU1URmze8S8M": {
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ZoomInfo confirms Yaro Mamchuk as CEO at Ternala (ternala.com); no personal linkedin.com/in/ URL found across multiple searches."
+  },
+  "ChIJA6djeW7dOkcR2M-mbLCIbeQ": {
+    "linkedin": "https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%BC%D0%B0%D1%86%D0%B5%D1%85-56a22459/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn profile title 'Олексій Мацех — CEO at Webbook LLC' matched directly in search results; name, company (Webbook LLC), and website (webbookstudio.com) all confirmed."
+  }
+}

@@ -29,5 +29,8 @@ gmapsdata/*.csv
 .playwright-mcp/
 skills-lock.json
 
+# Editor-local settings
+.vscode/
+
 # Nested repos (cloned here for convenience, pushed to their own remotes)
 stl-knights/

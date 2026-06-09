@@ -1,0 +1,97 @@
+{
+  "ChIJUUFR6C7P1EARBve1HE6bLSk": {
+    "people": [
+      {
+        "name": "Kseniia Nohovitsyna",
+        "role": "Co-Founder & HRD",
+        "linkedin": "https://www.linkedin.com/in/kseniia-vasianovych-85129240",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "Co-Founder and HRD at Deventor per Crunchbase and Djinni; LinkedIn slug found via pub/dir search"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/deventoragency",
+      "twitter": "https://twitter.com/deventerd",
+      "instagram": "https://www.instagram.com/_deventor_/",
+      "facebook": "https://www.facebook.com/deventoragency/",
+      "email": "info@deventor.io"
+    }
+  },
+  "ChIJq30JYsrP1EARBElxQ27aWLA": {
+    "people": [
+      {
+        "name": "Henrik Mou",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/henrikmou",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "CEO of INSCALE per LinkedIn, The Org, Crunchbase; domain inscale.net confirmed"
+      },
+      {
+        "name": "Per Brogaard",
+        "role": "Chief Commercial Officer",
+        "linkedin": "https://www.linkedin.com/in/brogaardper/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "CCO at INSCALE per LinkedIn and ContactOut; confirmed same inscale.net entity"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/inscale-global",
+      "twitter": "https://twitter.com/inscaleglobal",
+      "instagram": "https://www.instagram.com/inscaleglobal/",
+      "facebook": "https://www.facebook.com/inscale/",
+      "email": ""
+    }
+  },
+  "ChIJ189NjkDO1EARz9SlonAG7nY": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/liveart-online-product-designer",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/LiveArt/",
+      "email": "liveart@liveartdesigner.com"
+    }
+  },
+  "ChIJp4NDhuDP1EAR4JDJIlJ5gz8": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJgSSZyfLP1EARQAxDEyjVZxs": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJV2G41brP1EARzXbPSjhaLzY": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/poclab",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  }
+}

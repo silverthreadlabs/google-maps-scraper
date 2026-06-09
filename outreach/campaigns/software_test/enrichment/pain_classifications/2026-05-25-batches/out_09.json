@@ -1,0 +1,322 @@
+[
+  {
+    "id": 270,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "не подтягивает все направления, идут не по порядку",
+        "reasoning": "App product is buggy/broken — doesn't pull all referrals correctly, out of order."
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "не  працююча программа. постійно якійсь баг, не можливо записатись на прийом",
+        "reasoning": "Software is broken with constant bugs preventing booking."
+      },
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "не можливо записатись на прийом",
+        "reasoning": "Cannot book appointment due to app failure."
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "categories": []
+  },
+  {
+    "id": 273,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Не працює, висить. Після кожного оновлення по тижню система просто не працює",
+        "reasoning": "System repeatedly broken after each update."
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "лікар не знає про прийом, так як з даного сервісу не передали про мій запис",
+        "reasoning": "Booking system fails to transmit appointment to provider — broken core function."
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Видалити існуючий акаунт або відвязати емейл неможливо",
+        "reasoning": "Software lacks ability to manage account/email — broken UX blocking user."
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "categories": []
+  },
+  {
+    "id": 277,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "менеджер Каріна спочатку створила атмосферу не затишку і не комфорту",
+        "reasoning": "Manager created uncomfortable, unwelcoming atmosphere."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "сказала мені щоб я передзвонила а коли я передзвонила то мені передзвонили чере годину коли мені вже стало не потрібно",
+        "reasoning": "Customer was told to call back, callback came an hour late after no longer needed."
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.65,
+        "quote": "Мою декларацію з лікерам не затверджують у системі вже майже місяць",
+        "reasoning": "System fails to approve declaration for nearly a month — broken workflow."
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Нестабільна система в часи пік навантаження сильно гальмує",
+        "reasoning": "System unstable and lags heavily under peak load."
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Баг на багові",
+        "reasoning": "Bug on top of bug — software quality complaint."
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "categories": []
+  },
+  {
+    "id": 282,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "ghosted me and told me our interviews are in progress you will get the update soon but not updated me",
+        "reasoning": "Promised follow-up after interview, never received update — ghosted."
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "categories": []
+  },
+  {
+    "id": 284,
+    "categories": []
+  },
+  {
+    "id": 285,
+    "categories": []
+  },
+  {
+    "id": 286,
+    "categories": []
+  },
+  {
+    "id": 287,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "Over two months passed. Never received proposal as planned after consultation.",
+        "reasoning": "Promised proposal after consultation never delivered — dropped quote/lead."
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "they ignored my request",
+        "reasoning": "Customer's request was ignored."
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "The website project has experienced significant delays, unresolved functionality, and ongoing execution issues",
+        "reasoning": "Significant repeated delays on website project."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Core features have not functioned as intended, and the site continues to require fixes",
+        "reasoning": "Core deliverable broken, requires fixes from new team."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.8,
+        "quote": "the site continues to require fixes that are now attempted to be addressed by a new development team willing to step in and stabilize the platform",
+        "reasoning": "Project effectively abandoned in unstable state."
+      },
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "DDNYC later attempted to retroactively re-characterize more than a year of prior work as billable, including referencing an older branding scope that had already been completed and paid for in 2024",
+        "reasoning": "Agency attempted to retroactively add charges beyond original scope."
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.95,
+        "quote": "прошло 2 месяца, обещали за 1",
+        "reasoning": "Promised in 1 month, took 2 — late delivery."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "сам продукт получился конкретно убогим",
+        "reasoning": "Final product was poor quality."
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.9,
+        "quote": "очень долго делали, постоянно переносили сроки",
+        "reasoning": "Took very long, constantly pushed back deadlines."
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "получать игнор в свою сторону",
+        "reasoning": "Client felt ignored by the agency."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "необходимо постоянно подгонять, чтобы задачи были выполнены",
+        "reasoning": "Have to constantly push for tasks to be completed."
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "работу выполняют на тяп-ляп, на каждый недочёт приходится тыкать пальцем",
+        "reasoning": "Sloppy work, every flaw must be pointed out."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.8,
+        "quote": "результат приходится ждать месяцами, подкармливаясь завтраками",
+        "reasoning": "Results take months with empty promises."
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "Отвратительная работа",
+        "reasoning": "Generic complaint of awful work quality."
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "categories": []
+  },
+  {
+    "id": 296,
+    "categories": []
+  },
+  {
+    "id": 297,
+    "categories": []
+  },
+  {
+    "id": 298,
+    "categories": []
+  },
+  {
+    "id": 299,
+    "categories": []
+  }
+]

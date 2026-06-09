@@ -1,0 +1,44 @@
+{
+  "ChIJvxmazlNqWCURGBxf1fW2xHg": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "sminion.com returns 403; no founder/owner name surfaced via web search or social profiles"
+  },
+  "ChIJSWBlsgXh20ARuEKRSTjZ9kY": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "sistel.dp.ua contact page shows first name 'Vladimir' only, no surname or title confirmed; no LinkedIn found"
+  },
+  "ChIJy2WoElbj20ARSh8wu-fpLjI": {
+    "name": "Anton Lytvynov",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/anton-lytvynov/",
+    "confidence": 0.9,
+    "evidence": "Confirmed as CEO at Lytvynov Production via Djinni (djinni.co/r/138390), The Org org chart, and Medium profile; LinkedIn URL returned in search snippet tied to company name"
+  },
+  "ChIJN59_dko-uwQROtgWcFNhmls": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "pagespeed.com.ua returns 403; name 'Oleh Diakuk' appeared in one low-quality search result but could not be verified as founder/owner via any authoritative source"
+  },
+  "ChIJ11Aa6bJZ2UAR0ZPXcSS7KSM": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "topseo.website unreachable (ECONNREFUSED); no founder/owner name found in any web or LinkedIn search"
+  },
+  "ChIJ7c2XojaZ3zgR6ihAURJ8H9Y": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "enhancemodern.com appears to be a non-Ukrainian affiliate/marketing site (US phone, no UA indicators); 'Joe Morgan' listed as CEO of 'LinkNova' in testimonial — not a verifiable founder of this entity"
+  }
+}

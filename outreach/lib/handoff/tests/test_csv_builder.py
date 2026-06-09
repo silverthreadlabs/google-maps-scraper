@@ -10,6 +10,7 @@ from lib.handoff.csv_builder import (
     FIELDNAMES,
     top_pain_with_quotes,
     _build_row,
+    primary_contact,
 )
 
 
@@ -290,6 +291,68 @@ class TestTopPainWithQuotes(unittest.TestCase):
         }
         top, _ = top_pain_with_quotes(lead, pain_weights=PAIN_WEIGHTS, n_quotes=1)
         self.assertIn(top, {'unknown_category', 'low_value_pain'})
+
+
+class TestPainQuoteEnglishPreference(unittest.TestCase):
+    def test_pain_quote_prefers_english_keeps_original(self):
+        lead = {
+            'agent_pain_hits': {
+                'frontline_communication': [{
+                    'snippet': 'Заказывал доработку сайта',
+                    'snippet_en': 'Ordered a website revision',
+                    'rating': 1, 'reviewer': 'X',
+                }]
+            },
+        }
+        row = _build_row(lead, service_map={},
+                         pain_weights={'frontline_communication': 5})
+        self.assertEqual(row['pain_quote_1'], 'Ordered a website revision')
+        self.assertEqual(row['pain_quote_1_original'], 'Заказывал доработку сайта')
+
+    def test_pain_quote_english_source_has_empty_original(self):
+        lead = {
+            'agent_pain_hits': {
+                'frontline_communication': [{
+                    'snippet': 'The manager never replied', 'rating': 1, 'reviewer': 'X',
+                }]
+            },
+        }
+        row = _build_row(lead, service_map={},
+                         pain_weights={'frontline_communication': 5})
+        self.assertEqual(row['pain_quote_1'], 'The manager never replied')
+        self.assertEqual(row['pain_quote_1_original'], '')
+
+    def test_original_columns_in_fieldnames(self):
+        self.assertIn('pain_quote_1_original', FIELDNAMES)
+        self.assertIn('pain_quote_2_original', FIELDNAMES)
+
+
+class TestPrimaryContact(unittest.TestCase):
+    def test_primary_contact_prefers_owner_linkedin(self):
+        lead = {
+            'owner_name': 'Olena K', 'owner_linkedin': 'https://linkedin.com/in/olenak',
+            'poc_name': 'Ignored', 'linkedin_url_poc': 'https://linkedin.com/in/ignored',
+        }
+        name, channel = primary_contact(lead)
+        self.assertEqual(name, 'Olena K')
+        self.assertEqual(channel, 'https://linkedin.com/in/olenak')
+
+    def test_primary_contact_falls_back_to_osint_poc(self):
+        lead = {
+            'poc_name': 'Dmytro H', 'poc_email': 'dmytro@firm.com',
+        }
+        name, channel = primary_contact(lead)
+        self.assertEqual(name, 'Dmytro H')
+        self.assertEqual(channel, 'dmytro@firm.com')
+
+    def test_primary_contact_empty_when_nothing_reachable(self):
+        name, channel = primary_contact({})
+        self.assertEqual(name, '')
+        self.assertEqual(channel, '')
+
+    def test_primary_contact_in_fieldnames(self):
+        self.assertIn('primary_contact', FIELDNAMES)
+        self.assertIn('primary_contact_channel', FIELDNAMES)
 
 
 if __name__ == '__main__':

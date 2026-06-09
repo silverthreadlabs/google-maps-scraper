@@ -1,0 +1,200 @@
+{
+  "ChIJtcRA0HHP1EAR-DrR5nkWePo": {
+    "people": [
+      {
+        "name": "Anatoliy Medvedchuk",
+        "role": "Chief Technology Officer",
+        "linkedin": "https://www.linkedin.com/in/anatoliy-medvedchuk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile shows CTO at XME.digital solutions; confirmed via multiple search results"
+      },
+      {
+        "name": "Iryna Manukovska",
+        "role": "Chief Sales and Marketing Officer",
+        "linkedin": "https://www.linkedin.com/in/manukovska/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile shows CSMO at XME.digital solutions; confirmed via multiple LinkedIn search results"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/xmedigital",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@xm-online.com"
+    }
+  },
+  "ChIJ__-jPWTO1EARjmCy5QphpV4": {
+    "people": [
+      {
+        "name": "Maria Chernenko",
+        "role": "Business Development Manager",
+        "linkedin": "https://www.linkedin.com/in/mashanche/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile confirms Business Development Manager at iTech4Web"
+      },
+      {
+        "name": "Inna Bondarenko",
+        "role": "Head of Business Development",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "Multiple sources (RocketReach, ZoomInfo) confirm Head of Business Development at iTech4Web; LinkedIn profile URL not confirmed with certainty"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/itech4web",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "hello@itech4web.com"
+    }
+  },
+  "ChIJ3cEKvSjP1EAR3mC8-QRx_rc": {
+    "people": [
+      {
+        "name": "Igor Bagayev",
+        "role": "Chief Technology Officer",
+        "linkedin": "https://www.linkedin.com/in/ibagayev",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile at pl.linkedin.com/in/ibagayev confirms CTO at Vilmate; corroborated by RocketReach and getprog.ai"
+      },
+      {
+        "name": "Dmitry Hanzera",
+        "role": "Director of Business Development",
+        "linkedin": "https://www.linkedin.com/in/dmitry-hanzera-849922a6/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile confirms Director of Business Development at Vilmate LLC; corroborated by TheOrg and RocketReach"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/vilmate",
+      "twitter": "https://x.com/vilmateofficial",
+      "instagram": "https://www.instagram.com/vilmate.official/",
+      "facebook": "",
+      "email": "info@vilmate.com"
+    }
+  },
+  "ChIJg5hYgfrP1EARLSZUjSKNb9w": {
+    "people": [
+      {
+        "name": "Victor Ivanovskyi",
+        "role": "Vice President, Business Development",
+        "linkedin": "https://www.linkedin.com/in/victor-ivanovskyi-0177b351/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn profile and Intch profile confirm VP Business Development at GeeksForLess; also at UMCA.tech more recently but still listed at GFL"
+      },
+      {
+        "name": "Andrii Parkhomenko",
+        "role": "Vice President, ServiceNow Solutions Delivery",
+        "linkedin": "https://www.linkedin.com/in/andrii-parkhomenko",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile and ZoomInfo confirm VP ServiceNow Solutions Delivery at GeeksForLess Inc."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/geeksforless",
+      "twitter": "https://x.com/GeeksForLess",
+      "instagram": "https://www.instagram.com/geeksforless/",
+      "facebook": "https://www.facebook.com/GeeksForLess",
+      "email": "info@geeksforless.com"
+    }
+  },
+  "ChIJm2XW_RTP1EARa1jZl8PIxMU": {
+    "people": [
+      {
+        "name": "Skylar Roebuck",
+        "role": "Chief Technology Officer",
+        "linkedin": "https://www.linkedin.com/in/skylarroebuck/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile and PR Newswire announcement confirm CTO at Solvd, Inc.; appointed October 2024"
+      },
+      {
+        "name": "Alex Shcherba",
+        "role": "Senior Vice President / Chief Business Development Officer",
+        "linkedin": "https://www.linkedin.com/in/alexshcherba",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile confirms SVP/CBDO role at Solvd, Inc.; corroborated by RocketReach"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/solvdinc",
+      "twitter": "https://x.com/solvd_inc",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/solvdinc/",
+      "email": "info@solvd.com"
+    }
+  },
+  "ChIJAcwzK_nSG44RpC6rL5IAl1g": {
+    "people": [
+      {
+        "name": "Max Denevich",
+        "role": "Co-founder and Chief Revenue Officer",
+        "linkedin": "https://www.linkedin.com/in/denevich/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile, TheOrg, ZoomInfo, and Crunchbase all confirm Co-founder and CRO at LoyaltyPlant"
+      },
+      {
+        "name": "Alexandra Ermachkova",
+        "role": "Co-founder and Chief Operating Officer",
+        "linkedin": "https://www.linkedin.com/in/ermachkova/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile confirms Co-founder and COO at LoyaltyPlant; previously VP Sales; corroborated by TheOrg, ZoomInfo, Crunchbase"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/loyaltyplant",
+      "twitter": "https://x.com/loyaltyplant",
+      "instagram": "https://www.instagram.com/loyaltyplant/",
+      "facebook": "https://www.facebook.com/LoyaltyPlant/",
+      "email": "sales@loyaltyplant.com"
+    }
+  }
+}

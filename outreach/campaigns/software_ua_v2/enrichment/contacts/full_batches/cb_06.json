@@ -1,0 +1,132 @@
+{
+  "ChIJ-ZaNF0rP1EARzxDtT6Pgql8": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/development-center-xpos-ukraine",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/xPOSHoReCa/",
+      "email": "info@xpos.ua"
+    }
+  },
+  "ChIJ6bXuw9jE1EARh1OjGFwv7kA": {
+    "people": [
+      {
+        "name": "Artem Beseda",
+        "role": "Customer Service Manager",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "ZoomInfo lists Artem Beseda as Customer Service Manager at Vortex InterCom with @vortex.com.ua email domain; role is client-facing decision-maker"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/vortex-intercom",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/vortexinter/",
+      "email": "kc@vortexinter.com"
+    }
+  },
+  "ChIJd0oFqIFbjmkRQFp44perqpg": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/voicer.suite/",
+      "email": ""
+    }
+  },
+  "ChIJpwmZ_oXdLScRsIROIDsTcaU": {
+    "people": [
+      {
+        "name": "Anton Parkhomenko",
+        "role": "AI Solutions Consultant",
+        "linkedin": "https://www.linkedin.com/in/gunnzolder/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn profile confirmed as Anton Parkhomenko at Merge Rocks with AI Solutions Consultant role; profile URL and company name verified via multiple search results"
+      },
+      {
+        "name": "Oleksandr Merkulov",
+        "role": "Account Manager",
+        "linkedin": "https://www.linkedin.com/in/osmerkulov/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile directly confirmed as Account Manager at Merge Rocks in Kyiv Metropolitan Area; profile URL verified via multiple search results referencing merge.rocks domain"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/mergerocks",
+      "twitter": "https://twitter.com/Merge_Dev",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/mergedevt/",
+      "email": "hello@merge.rocks"
+    }
+  },
+  "ChIJfUkDLTHP1EARzC6jGe6opHU": {
+    "people": [
+      {
+        "name": "Anastasia Frolova",
+        "role": "Chief Client & People Officer",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "Multiple sources (RocketReach, The Org, Kyiv International Economic Forum) confirm Anastasia Frolova as Chief Client Officer at Livatek; no personal LinkedIn URL confirmed with sufficient confidence"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/livatek",
+      "twitter": "https://twitter.com/livatek",
+      "instagram": "https://www.instagram.com/livatek/",
+      "facebook": "https://www.facebook.com/livatekUA/",
+      "email": ""
+    }
+  },
+  "ChIJnyd1GM3P1EARbwwlhVTIOlY": {
+    "people": [
+      {
+        "name": "Artem Kozlovets",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/artemkozlovets",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "RocketReach and ZoomInfo both confirm Artem Kozlovets as Chief Executive Officer at DevsX; LinkedIn profile URL linkedin.com/in/artemkozlovets returned by search results referencing DevsX posts"
+      },
+      {
+        "name": "Vitalii Artyukh",
+        "role": "Technical Lead / Senior Developer",
+        "linkedin": "https://www.linkedin.com/in/vitalii-artyukh/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "LinkedIn profile linkedin.com/in/vitalii-artyukh confirmed as associated with DevsX; client testimonials reference 'Vitalii and his team' at DevsX indicating senior technical role; exact title not confirmed"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/devsx",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  }
+}

@@ -45,8 +45,10 @@ FIELDNAMES = [
     'socials_yelp', 'socials_tiktok', 'socials_youtube',
     # decision-maker
     'owner_name', 'owner_title', 'owner_linkedin', 'additional_team', 'pocs',
+    'primary_contact', 'primary_contact_channel',
     # pain
     'top_pain_category', 'pain_breadth_count', 'pain_quote_1', 'pain_quote_2',
+    'pain_quote_1_original', 'pain_quote_2_original',
     'pain_quote_1_rating', 'pain_quote_2_rating',
     'recommended_service', 'recommended_service_url',
     # context for sales
@@ -115,6 +117,60 @@ def pocs_field(l):
         reverse=True,
     )
     return ';'.join(p['name'] for p in kept)
+
+
+def _best_kept_poc(l):
+    """Highest-confidence non-invalid crawled POC dict, or None."""
+    pocs = [
+        p for p in (l.get('pocs') or [])
+        if isinstance(p, dict) and not p.get('invalid') and p.get('name')
+        and (p.get('confidence') is None or p.get('confidence') >= POC_MIN_CONFIDENCE)
+    ]
+    if not pocs:
+        return None
+    return max(pocs, key=lambda p: p.get('confidence') if p.get('confidence') is not None else 0.0)
+
+
+def _first_social(l, needle):
+    for s in (l.get('socials') or []) + (l.get('crawled_socials') or []):
+        if needle in s.lower():
+            return s
+    return ''
+
+
+def primary_contact(l):
+    """Return (name, channel) for the single best reachable contact.
+
+    Preference order for the person: owner-lookup → osint poc → crawled POC.
+    Channel preference: LinkedIn → personal email → other social → company
+    LinkedIn. Returns ('', '') when nothing reachable is known."""
+    # 1. owner-lookup decision-maker (ICP-targeted)
+    if l.get('owner_name'):
+        channel = (
+            l.get('owner_linkedin')
+            or l.get('poc_email') or ''
+        )
+        return l['owner_name'], channel
+    # 2. osint-discovered person
+    if l.get('poc_name'):
+        channel = (
+            l.get('linkedin_url_poc')
+            or l.get('poc_email') or ''
+        )
+        return l['poc_name'], channel
+    # 3. highest-confidence crawled POC
+    poc = _best_kept_poc(l)
+    if poc:
+        channel = (
+            next((s for s in (poc.get('socials') or []) if 'linkedin' in s.lower()), '')
+            or poc.get('email') or ''
+            or (poc.get('socials') or [''])[0]
+        )
+        if not channel:
+            channel = l.get('linkedin_url_company') or _first_social(l, 'linkedin.com')
+        return poc['name'], channel
+    # 4. no person — company-level channel only is not a "contact"
+    return '', ''
 
 
 def _invalid_email_set(l):
@@ -191,6 +247,7 @@ def top_pain_with_quotes(l, *, pain_weights: dict, n_quotes: int = 2):
                 'rating': hit.get('rating'),
                 'reviewer': hit.get('reviewer'),
                 'snippet': snippet,
+                'snippet_en': (hit.get('snippet_en') or '').strip(),
                 'matched': hit.get('matched'),
             })
             seen.add(snippet)
@@ -236,6 +293,7 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
     q2 = quotes[1] if len(quotes) > 1 else None
     socials = split_socials((l.get('socials') or []) + (l.get('crawled_socials') or []))
     trust_em = trustworthy_emails(l)
+    pc_name, pc_channel = primary_contact(l)
     row = {
         'tier': tier(l.get('quality_score')),
         'quality_score': l.get('quality_score'),
@@ -253,10 +311,14 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
         'owner_linkedin': l.get('owner_linkedin'),
         'additional_team': ';'.join(l.get('additional_team') or []),
         'pocs': pocs_field(l),
+        'primary_contact': pc_name,
+        'primary_contact_channel': pc_channel,
         'top_pain_category': top_cat or '',
         'pain_breadth_count': l.get('pain_breadth') or len(l.get('pain_categories') or []),
-        'pain_quote_1': (q1 or {}).get('snippet', ''),
-        'pain_quote_2': (q2 or {}).get('snippet', ''),
+        'pain_quote_1': (q1 or {}).get('snippet_en') or (q1 or {}).get('snippet', ''),
+        'pain_quote_2': (q2 or {}).get('snippet_en') or (q2 or {}).get('snippet', ''),
+        'pain_quote_1_original': (q1 or {}).get('snippet', '') if (q1 or {}).get('snippet_en') else '',
+        'pain_quote_2_original': (q2 or {}).get('snippet', '') if (q2 or {}).get('snippet_en') else '',
         'pain_quote_1_rating': (q1 or {}).get('rating', ''),
         'pain_quote_2_rating': (q2 or {}).get('rating', ''),
         'recommended_service': service_map.get(top_cat, ('', ''))[0] if top_cat else '',

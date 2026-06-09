@@ -1,0 +1,44 @@
+{
+  "ChIJGQyg0HLN1EARt2VDOPllWSA": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Webion Agency (webion.agency) website and social media show no named leadership; multiple unrelated Webion entities exist globally, none confirmed as Ukrainian"
+  },
+  "ChIJW5Gb9HjP1EARt3rlrDDhHhQ": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Telestat (telestat.biz) website lists only contact phone/email, no named leadership found in website, LinkedIn company page, or web searches"
+  },
+  "ChIJA87PL9TP1EARBY9WiEdGFM0": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ASD LLC (asd-geo.com.ua) site returned SSL error; no named founder/CEO found in web searches — common name collides with many unrelated ASD entities"
+  },
+  "ChIJ77zQ93zdOkcR-P8Hc7JWOls": {
+    "name": "Volodymyr Tkach",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/vova-tkach/",
+    "confidence": 0.95,
+    "evidence": "Confirmed via TheOrg org chart (theorg.com/org/newsoft), LinkedIn post from Newsoft company page naming him CEO, ZoomInfo listing v***@newsoft-ns.com email, multiple consistent sources"
+  },
+  "ChIJn_XrWv7nOkcRNUF2j6-0w4A": {
+    "name": "Ivan Denysyuk",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/ivan-denysyuk-171585148/",
+    "confidence": 0.9,
+    "evidence": "Confirmed via ZoomInfo (i***@zade.agency email, CEO title), LinkedIn profile posts referencing Zade, Crunchbase listing — disambiguated by zade.agency email domain"
+  },
+  "ChIJVVXhtZXdOkcRRzi7_6kYCtc": {
+    "name": "Taras Gudz",
+    "title": "CEO",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "Named as CEO/Delivery Manager on chunkup.com team page; multiple LinkedIn profiles for 'Taras Gudz' exist and none could be confidently linked to Chunkup without authentication"
+  }
+}

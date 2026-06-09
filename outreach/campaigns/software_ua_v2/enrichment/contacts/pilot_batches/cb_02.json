@@ -1,0 +1,99 @@
+{
+  "ChIJSVrxpB3P1EARNbfHYE_MaSM": [
+    {
+      "name": "Alla Petrychenko",
+      "role": "Co-Founder",
+      "linkedin": "https://www.linkedin.com/in/petrychenko-alla-6800a81a/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "LinkedIn profile explicitly lists 'Co-Founder - Shop-Express'; confirmed via multiple sources including interview on solve-marketing.agency referencing shop-express.ua"
+    }
+  ],
+  "ChIJc9noLlPdOkcR4ZN_OA9C-k4": [],
+  "ChIJ23prlSnj20ARSM3GTK6qUvI": [
+    {
+      "name": "Oleksii Suprun",
+      "role": "Chief Marketing Officer",
+      "linkedin": "https://www.linkedin.com/in/osprn/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn profile title 'Chief Marketing Officer'; RocketReach lists him as CMO at TOV NVP PK-Servis (pc-service.ua), Dnipro area"
+    },
+    {
+      "name": "Mykhailo Skrynnyk",
+      "role": "Head of PMO",
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "RocketReach lists Mykhailo Skrynnyk as Head of PMO at NPP PK-Servis (pc-service.ua), prior roles also at same company"
+    }
+  ],
+  "ChIJWwu3dTjnOkcRhqwmG3vVz3c": [
+    {
+      "name": "Alex Chubay",
+      "role": "Chief Delivery Officer & Global CTO",
+      "linkedin": "https://www.linkedin.com/in/alexchubay/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.98,
+      "evidence": "Official SoftServe leadership page (softserveinc.com) and press release confirm Alex Chubay as CTO; LinkedIn profile confirmed"
+    },
+    {
+      "name": "Volodymyr Semenyshyn",
+      "role": "President & Chief Revenue Officer",
+      "linkedin": "https://www.linkedin.com/in/volodymyrsemenyshyn/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.98,
+      "evidence": "Official SoftServe leadership page and ZoomInfo confirm Volodymyr Semenyshyn as President & CRO; LinkedIn profile confirmed"
+    },
+    {
+      "name": "Darrin Griggy",
+      "role": "SVP Head of Partnerships and Alliances",
+      "linkedin": "https://www.linkedin.com/in/darrin-l-griggy-7047035/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "Official SoftServe leadership page lists Darrin Griggy as Head of Partnerships and Alliances; LinkedIn profile confirmed via search"
+    }
+  ],
+  "ChIJDYJx5LPj20AR2sasji7B3vY": [
+    {
+      "name": "Anton Chernetskiy",
+      "role": "CEO & Co-Founder",
+      "linkedin": "https://www.linkedin.com/in/antonchernetskiy/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "LinkedIn profile confirms 'CEO of Broscorp | AI Assistants for Businesses'; ZoomInfo lists email pattern a***@broscorp.net (obfuscated); Crunchbase confirms co-founder role"
+    },
+    {
+      "name": "Mykhail Martsyniuk",
+      "role": "CTO & Co-Founder",
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "ZoomInfo confirms 'Chief Technology Officer & Data Solutions Architect at Broscorp' with email pattern m***@broscorp.net (obfuscated); Medium author profile under Broscorp publication confirms identity"
+    }
+  ]
+}

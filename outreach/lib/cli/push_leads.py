@@ -85,7 +85,11 @@ def _flatten_pain_hits(lead: dict) -> list[dict]:
         for hit in entries:
             hits.append({
                 'category': category,
-                'snippet': hit.get('snippet') or hit.get('quote') or '',
+                # P2: prefer the translated English snippet so non-English
+                # campaigns deliver English pain quotes to the CRM. The
+                # original-language text is preserved in master + the full
+                # reviews payload.
+                'snippet': hit.get('snippet_en') or hit.get('snippet') or hit.get('quote') or '',
                 'rating': hit.get('rating') or 1,
                 'reviewer': hit.get('reviewer'),
                 'matched_keyword': hit.get('matched') or hit.get('sub'),
@@ -144,6 +148,9 @@ def _build_pocs(lead: dict) -> list[dict]:
             'email': poc.get('email'),
             'socials': poc.get('socials'),
             'url': poc.get('url'),
+            # Tell the CRM which POC is the primary decision-maker (owner) so it
+            # can surface them distinctly without re-matching owner_name.
+            'primary': bool(poc.get('primary')),
         })
     return result
 

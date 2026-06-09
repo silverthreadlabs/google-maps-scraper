@@ -1,0 +1,133 @@
+{
+  "ChIJ51DDhaLN1EAR2fJ9H7lD8_o": {
+    "people": [
+      {
+        "name": "Igor Kurkov",
+        "role": "CTO / Technical Lead",
+        "linkedin": "https://www.linkedin.com/in/igor-kurkov/",
+        "twitter": "https://twitter.com/igor_kurkov",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "LinkedIn profile shows Igor Kurkov at DB2 Limited; client testimonials on db2.io describe 'Dennis's & Igor's CTO team'; GitHub profile IgorKurkov corroborates identity"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/db2-limited",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/db2limited/",
+      "facebook": "https://www.facebook.com/db2limited/",
+      "email": "contact@db2.io"
+    }
+  },
+  "ChIJ49ekmX7N1EAR2KwC0QM4L78": {
+    "people": [
+      {
+        "name": "Roman Buchuk",
+        "role": "Senior JS Developer",
+        "linkedin": "https://www.linkedin.com/in/roman-buchuk-62baa6b4/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "r.buchuk@sceel.io",
+        "confidence": 0.6,
+        "evidence": "LinkedIn profile explicitly shows Roman Buchuk at sceel.io GmbH; ZoomInfo confirms email pattern r***@sceel.io; role is senior individual contributor, not decision-maker, but only non-owner/non-POC person surfaced"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/sceel-io",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/sceel.io_/",
+      "facebook": "https://www.facebook.com/sceel/",
+      "email": "info@sceel.io"
+    }
+  },
+  "ChIJMSIkd6DO1EARBlYY06pxFpg": {
+    "people": [
+      {
+        "name": "Iryna Zelinska",
+        "role": "Product Manager",
+        "linkedin": "https://www.linkedin.com/in/iryna-zelinska-547662122",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.6,
+        "evidence": "ZoomInfo and LinkedIn both list Iryna Zelinska as Product Manager at Geeoz; geeoz.com is a Ukrainian software company; role is a decision-influencer"
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "sales@geeoz.com"
+    }
+  },
+  "ChIJA_aPEbKZrKER0r_J8PyHiPs": {
+    "people": [
+      {
+        "name": "Roman Burdiuzha",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/roman-burdiuzha/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "Multiple sources (Crunchbase, Startup Weekly interview, Qwoted, LinkedIn) confirm Roman Burdiuzha as Co-Founder & CTO of Gart Solutions at gartsolutions.com"
+      },
+      {
+        "name": "Natali Trubnikova",
+        "role": "Chief Marketing Officer",
+        "linkedin": "https://www.linkedin.com/in/natali-trubnikova/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn and The Org both confirm Natali Trubnikova as CMO at Gart Solutions; active in company events and thought leadership content"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/gart-solutions",
+      "twitter": "https://twitter.com/Gartsolutions",
+      "instagram": "https://www.instagram.com/gart_solutions/",
+      "facebook": "",
+      "email": "info@gartsolutions.com"
+    }
+  },
+  "ChIJl5facYDP1EARZl5H0mH2tSg": {
+    "people": [
+      {
+        "name": "Oleksandr Kulinchenko",
+        "role": "Commercial Director, Digitally Inspired (now Director, Growth Enablement at Intellias)",
+        "linkedin": "https://www.linkedin.com/in/alex-kulinchenko-89628a47",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "ZoomInfo and RocketReach confirm Oleksandr (Alex) Kulinchenko as Commercial Director at Digitally Inspired Ltd, now at Intellias after acquisition; The Org lists him as Director, Growth Enablement at Intellias"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/digitally-inspired-ltd",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "sales@digitallyinspired.com"
+    }
+  },
+  "ChIJAQBA35DM1EARgD13dKyQd6U": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/kdeu",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@kde.agency"
+    }
+  }
+}

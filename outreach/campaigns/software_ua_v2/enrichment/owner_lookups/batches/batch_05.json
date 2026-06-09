@@ -1,0 +1,44 @@
+{
+  "ChIJAVKYHAjj20AR564uHZaI70w": {
+    "name": "Dmytro Shukhrov",
+    "title": "CEO",
+    "linkedin": "",
+    "confidence": 0.75,
+    "evidence": "itipteam.com website lists Dmytro Shukhrov as CEO; confirmed by ZoomInfo and RocketReach entries for ITIP/itipteam.com. No personal linkedin.com/in/ URL found (only company page)."
+  },
+  "ChIJ84LHYxbj20ARONduy5bFf94": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "weblove.me about/team pages show no personal names; web searches and LinkedIn search returned no identifiable founder or owner for this specific Ukrainian agency."
+  },
+  "ChIJn5pJ3-Pi20ARFP78im8Rq34": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "taplink.cc/marketing.nn page shows no personal names; vesnabrand.ua has TLS issues; web search found Nadezhda Demchenko associated with marketing events at VESNABRAND but insufficient evidence to confirm founder/owner role."
+  },
+  "ChIJ742RruDi20ARJKv2z5msETk": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website points to vgorode.ua directory listing for 2K Design Studio Dnipro; no direct company site; searches returned no founder/owner information for this specific firm."
+  },
+  "ChIJocZgbM7j20ARFYPCFCW-YvM": {
+    "name": "Denis Petrulevcih",
+    "title": "Designer & Architect",
+    "linkedin": "",
+    "confidence": 0.55,
+    "evidence": "dealinteriordes.wixsite.com/website lists Denis Petrulevcih as Designer-Architect and Alona Petrulevcih as Designer — appear to be owners/founders of this two-person studio; no LinkedIn found."
+  },
+  "ChIJF32fka3920ARGKuXJYamiEw": {
+    "name": "Dmytro Shchelkunov",
+    "title": "Founder & Senior 3D Artist",
+    "linkedin": "https://www.linkedin.com/in/dmytroshchelkunov",
+    "confidence": 0.9,
+    "evidence": "artmount.net/about-us lists Dmytro Shchelkunov as co-founder; LinkedIn ua.linkedin.com/in/dmytroshchelkunov headline confirmed as 'Founder ArtMount | Senior 3D artist' via search snippet."
+  }
+}

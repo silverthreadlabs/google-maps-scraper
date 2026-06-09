@@ -1,0 +1,71 @@
+[
+  {"id": 150, "categories": []},
+  {"id": 151, "categories": []},
+  {"id": 152, "categories": []},
+  {"id": 153, "categories": []},
+  {"id": 154, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.55, "quote": "They are unprofessional people.", "reasoning": "Generic unprofessional/rude staff complaint; closest fit is rude front-line staff."}
+  ]},
+  {"id": 155, "categories": []},
+  {"id": 156, "categories": []},
+  {"id": 157, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "Very uncooperative. No manners to talk.", "reasoning": "Complaint about rude/dismissive tone from staff."}
+  ]},
+  {"id": 158, "categories": []},
+  {"id": 159, "categories": []},
+  {"id": 160, "categories": []},
+  {"id": 161, "categories": []},
+  {"id": 162, "categories": []},
+  {"id": 163, "categories": [
+    {"main": "frontline_communication", "sub": "not_listening_to_customer", "confidence": 0.7, "quote": "Koi baat nahi suntay", "reasoning": "Customer says nobody listens to them."},
+    {"main": "delivery_quality", "sub": "unfinished_work", "confidence": 0.75, "quote": "paisay puray laitay hain r kaam adha kar k daitay hain", "reasoning": "Take full payment but deliver only half the work — unfinished work."}
+  ]},
+  {"id": 164, "categories": [
+    {"main": "calls_unanswered", "sub": "voicemail_never_returned", "confidence": 0.85, "quote": "Multiple emails and phone calls, but no response at all.", "reasoning": "Repeated calls and emails over weeks with no response."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.9, "quote": "As a business actively seeking a marketing partner, I expected at least some acknowledgment or follow-up.", "reasoning": "Active prospect inquiry that received no follow-up — dropped lead."}
+  ]},
+  {"id": 165, "categories": [
+    {"main": "frontline_communication", "sub": "not_listening_to_customer", "confidence": 0.8, "quote": "Our concerns were repeatedly ignored or mishandled", "reasoning": "Specific concerns raised by client were ignored."},
+    {"main": "hidden_subcontracting", "sub": "unauthorized_team_change", "confidence": 0.55, "quote": "Instead, Jay brought additional team members, preventing an open discussion", "reasoning": "Team composition changed/added without client's consent for the meeting."},
+    {"main": "delivery_quality", "sub": "does_not_match_promise", "confidence": 0.8, "quote": "Jives Media's strategy, responsiveness, and lack of attention to detail did not reflect the professional service they promoted during initial discussions.", "reasoning": "Delivered service substantially diverges from what was sold."}
+  ]},
+  {"id": 166, "categories": []},
+  {"id": 167, "categories": []},
+  {"id": 168, "categories": []},
+  {"id": 169, "categories": []},
+  {"id": 170, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "хамське ставлення і грубість з боку Надії Вергелес", "reasoning": "Rude and boorish attitude from a named staff member."}
+  ]},
+  {"id": 171, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "Жахлива комунікація! зверхність ледве не з порогу", "reasoning": "Arrogant/dismissive tone from staff from the start."}
+  ]},
+  {"id": 172, "categories": [
+    {"main": "calls_unanswered", "sub": "voicemail_never_returned", "confidence": 0.85, "quote": "Ні на дзвінки, ні в пошту, ні в чат не відповідають!", "reasoning": "No response by phone, email, or chat for several days."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "Вже декілька днів чекаємо відповіді!", "reasoning": "Customer waiting days for a response to their inquiry."}
+  ]},
+  {"id": 173, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.75, "quote": "\"футболили\" від одного до іншого так і не вирішивши питання", "reasoning": "Bounced between staff with no resolution — unclear/uncoordinated communication."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "навіть в озвучення приблизної вартості мінімального замовлення", "reasoning": "Customer requested a basic quote and never got one."}
+  ]},
+  {"id": 174, "categories": [
+    {"main": "calls_unanswered", "sub": "missed_calls_during_business_hours", "confidence": 0.85, "quote": "Не можливо зв'язатись з менеджером ні по телефону, ні залишивши заявку.", "reasoning": "Cannot reach manager by phone or via submitted request; waited 5+ min on hold with no answer."}
+  ]},
+  {"id": 175, "categories": [
+    {"main": "deadline_missed", "sub": "late_delivery", "confidence": 0.6, "quote": "Дорого довго і неякісно!", "reasoning": "'Long' (довго) indicates delivery took too long."},
+    {"main": "delivery_quality", "sub": "bad_deliverable", "confidence": 0.65, "quote": "неякісно", "reasoning": "Work was low quality."}
+  ]},
+  {"id": 176, "categories": [
+    {"main": "delivery_quality", "sub": "bad_deliverable", "confidence": 0.8, "quote": "Дуже НЕякісно вишили логотип.", "reasoning": "Logo embroidery delivered with poor quality — bad deliverable."}
+  ]},
+  {"id": 177, "categories": []},
+  {"id": 178, "categories": [
+    {"main": "hidden_subcontracting", "sub": "unannounced_handoff_to_juniors", "confidence": 0.55, "quote": "there appeared to be no permanent team in place, leading to inconsistent quality", "reasoning": "No permanent team — work handed off across rotating/temporary staff."},
+    {"main": "deadline_missed", "sub": "late_delivery", "confidence": 0.85, "quote": "Adherence to deadlines was a major issue, as they failed to meet agreed time limits.", "reasoning": "Failed to meet agreed deadlines."},
+    {"main": "delivery_quality", "sub": "bad_deliverable", "confidence": 0.8, "quote": "their ability to create and implement a website effectively was lacking", "reasoning": "Final website was poorly built."}
+  ]},
+  {"id": 179, "categories": [
+    {"main": "deadline_missed", "sub": "repeated_delays", "confidence": 0.85, "quote": "The project timelines were consistently missed", "reasoning": "Multiple missed timelines on the project."},
+    {"main": "hidden_subcontracting", "sub": "unannounced_handoff_to_juniors", "confidence": 0.6, "quote": "The company appears to rely on temporary staff, who do not have the necessary skills", "reasoning": "Reliance on undisclosed temporary/unskilled staff."},
+    {"main": "delivery_quality", "sub": "bad_deliverable", "confidence": 0.8, "quote": "we did not receive a satisfactory product", "reasoning": "Final product unsatisfactory despite significant investment."}
+  ]}
+]

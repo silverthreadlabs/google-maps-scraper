@@ -1,6 +1,6 @@
 ---
 name: outreach
-description: Use when running a stage of the Silverthread Labs outreach pipeline under `outreach/` — analyze, classify, enrich, validate, handoff, owner-lookup, or osint-enrich. Triggers on "/outreach", "run outreach", "classify leads", "enrich crawl queue", "validate master", "build handoff CSV", "owner lookup", "OSINT enrich", or any request to advance an outreach campaign for a vertical under `outreach/campaigns/<pipeline>/`.
+description: Use when running a stage of the Silverthread Labs outreach pipeline under `outreach/` — analyze, classify, enrich, validate, handoff, decision-makers, or osint-enrich. Triggers on "/outreach", "run outreach", "classify leads", "enrich crawl queue", "validate master", "build handoff CSV", "owner lookup", "find contacts", "decision makers", "multi POC enrichment", "OSINT enrich", or any request to advance an outreach campaign for a vertical under `outreach/campaigns/<pipeline>/`. ("owner-lookup" and "contacts" are deprecated aliases of "decision-makers".)
 ---
 
 # outreach — pipeline runbook
@@ -11,7 +11,9 @@ Invocation form: `outreach <pipeline> [stage]`.
 
 - **pipeline** (required) — directory under `outreach/campaigns/`, e.g. `dental_sunbelt`.
 - **stage** (optional) — one of:
-  `analyze | classify | enrich | validate | handoff | owner-lookup | osint-enrich`.
+  `analyze | classify | translate | enrich | validate | handoff | decision-makers | osint-enrich`.
+  (`owner-lookup` and `contacts` are accepted as deprecated aliases of
+  `decision-makers` — they forward to the same script with a warning.)
   If omitted, ask the user which stage to run; do not default.
 
 ## Standard pipeline order
@@ -19,12 +21,30 @@ Invocation form: `outreach <pipeline> [stage]`.
 For a fresh campaign:
 
 ```
-scrape → analyze → enrich → merge-crawl → classify → validate → handoff
+scrape → analyze → enrich → merge-crawl → classify → translate → validate → handoff
                                                          ↓
-                                                    owner-lookup (optional)
+                                       deep-enrich (any chosen lead set):
+                                       decision-makers → osint-enrich
                                                          ↓
-                                                    re-run handoff
+                                                  re-run handoff / push
 ```
+
+**Deep-enrichment stack (run on whatever lead set you choose to enrich, for
+maximum reachable-contact coverage):**
+- `decision-makers` — ONE research pass per company captures the owner AND the
+  rest of the reachable team (CTO, sales/BizDev, …), each as a `pocs[]` entry
+  with every channel found (LinkedIn/X/Instagram/Facebook/email). Exactly one
+  person is the **primary** (the ICP buyer); the `owner_*` scalars are a
+  derived projection of that primary POC. *(Replaces the old `owner-lookup` +
+  `contacts` stages, which are now deprecated aliases that forward here.)*
+- `osint-enrich` — company-level channels + emails (`linkedin_url_company`,
+  `social_urls`, whois/crawl emails) that don't need a person's name.
+
+These compose and are idempotent: `decision-makers` preserves existing POCs and
+merges re-found people's channels rather than duplicating; idempotency is keyed
+on whether an owner POC exists (not on whether `owner_name` is set), and an
+existing owner_name is never clobbered. `osint-enrich` skips fields already
+populated.
 
 `scrape` uses the `google-maps-scraper` skill (not a stage of this skill).
 `merge-crawl` happens automatically after `enrich` runs successfully — it's
@@ -234,6 +254,32 @@ expects (see step 5 below).
 
 ---
 
+## Stage: translate
+
+`outreach <pipeline> translate`
+
+Locale-gated translation of the pain quotes that surface in the handoff. No-op
+for `en-*` campaigns. For non-English campaigns it sends only the non-English
+snippets (script-detected) to a translator subagent, then grafts English back.
+
+Steps:
+
+1. `python outreach/lib/cli/translate.py <pipeline> [--master PATH] [--output-date <date>]`
+   - Writes `enrichment/translations/<date>_request.json`:
+     `{ "<place_id>": { "<snippet_key>": "<original>" } }`.
+   - If the campaign locale is `en-*`, the request is empty — skip the rest.
+2. Dispatch the `translator` subagent (Silverthread `ai-translator-private`
+   `translator` skill rules: anti-fabrication; preserve numbers, currency,
+   person/company names, URLs, identifiers; English must read natively) over
+   the request sidecar in batches. The subagent writes
+   `enrichment/translations/<date>.json` with the SAME keys mapped to English.
+3. `python outreach/lib/cli/merge_translations.py --master <master> --sidecar enrichment/translations/<date>.json --out <master>`
+   - Grafts `snippet_en` onto each `agent_pain_hits[*]` with provenance.
+
+next: `outreach <pipeline> validate`
+
+---
+
 ## Stage: enrich
 
 Delegates to `outreach/lib/cli/enrich.py`.
@@ -338,45 +384,71 @@ python outreach/lib/cli/handoff.py <pipeline> \
 
 ---
 
-## Stage: owner-lookup (optional, post-handoff)
+## Stage: decision-makers (optional, post-handoff)
 
-Decision-maker enrichment for tier-A/B leads where `owner_name` is empty.
-Backed by `outreach/lib/cli/owner_lookup.py` — manual web-search provider
-behind a script-shaped interface so the flow is idempotent and
-provenance-clean.
+`outreach <pipeline> decision-makers`
+
+Unified people enrichment — **one research pass per company** captures the
+owner AND the rest of the reachable team (CTO / tech lead, sales /
+business-development / partnerships), each as a `pocs[]` entry with **every
+channel found** (LinkedIn / X / Instagram / Facebook / personal email). Exactly
+one person is the **primary** decision-maker (the ICP buyer); the `owner_*`
+scalars are a derived projection of that primary POC. The CRM push forwards
+both the scalars and `pocs[].socials`, so every channel rides along. Backed by
+`outreach/lib/cli/decision_makers.py` — manual / subagent-research provider
+behind a print-queue → sidecar → `--apply` bracket.
+
+*(This replaces the old `owner-lookup` + `contacts` stages.
+`outreach/lib/cli/owner_lookup.py` and `contacts.py` remain as deprecated
+shims that forward here with a warning.)*
+
+**Primary designation:** explicit `"primary": true` on a sidecar person →
+else a role-keyword match (founder / co-founder / owner / CEO / managing /
+principal) → else the first person. An existing `owner_name` set by hand or an
+old run is **never clobbered**; empty `owner_title` / `owner_linkedin` siblings
+are filled from the primary.
 
 **Two-step flow:**
 
 ```bash
-# 1. Print the queue — eligible leads (tier A/B, no owner yet, sorted
-#    by quality_score). Each entry shows a ready-to-paste search query
-#    and the place_id you'll need for the sidecar.
-python outreach/lib/cli/owner_lookup.py <pipeline> --print-queue \
-  [--limit N] [--tiers A,B] [--master PATH]
+# 1. Print the queue — eligible leads (tier A/B/C with a website, sorted by
+#    quality_score). Each brief shows the owner + existing pocs already known and
+#    the roles to chase (incl. marking the primary buyer).
+python outreach/lib/cli/decision_makers.py <pipeline> --print-queue \
+  [--limit N] [--tiers A,B,C] [--no-require-website] [--master PATH]
 
-# 2. Web-search each query (LinkedIn, practice "About" pages, RealSelf,
-#    state board listings). Write the sidecar by hand at
-#    `enrichment/owner_lookups/<today-UTC>.json`:
-#    {"<place_id>": {"name": "...", "title": "...", "linkedin": "..."}}
+# 2. Dispatch a research subagent per batch (5–6 leads) over the queue. Each
+#    finds the owner + 1–3 more people/company with all channels and writes a
+#    per-batch file; merge them into enrichment/decision_makers/<today>.json:
+#    {"<place_id>": [{"name","role","primary","linkedin","twitter","instagram",
+#                     "facebook","email","confidence","evidence"}, ...]}
+#    (a bare {name,title,linkedin} dict is accepted as a single primary, for
+#     owner-lookup back-compat.)
 
-# 3. Apply — patches master in place with owner_name / owner_title /
-#    owner_linkedin + provenance (`owner_source: 'web_search_linkedin'`,
-#    `owner_added_at`). Skips leads already carrying owner_name (idempotent).
-python outreach/lib/cli/owner_lookup.py <pipeline> --apply \
-  [--sidecar PATH] [--master PATH]
+# 3. Apply — append/MERGE people into pocs[] with provenance
+#    (source='decision_maker_research', added_at), designate the primary, and
+#    project owner_* scalars off it. Re-found people augment the existing POC's
+#    channels (never duplicated); dedupe is by normalized name + LinkedIn URL.
+#    Drops below --min-confidence (default 0.5) and nameless entries. Atomic write.
+python outreach/lib/cli/decision_makers.py <pipeline> --apply \
+  [--sidecar PATH] [--master PATH] [--min-confidence 0.5]
+
+# Migration: materialize an owner POC from existing owner_* scalars on leads
+# enriched before this stage existed (no new research; idempotent).
+python outreach/lib/cli/decision_makers.py <pipeline> --backfill-owner-pocs \
+  [--master PATH]
 ```
 
-After `--apply`, **re-run handoff** so the CSV picks up the new owner
-columns: `outreach <pipeline> handoff`.
+After `--apply`, **re-run handoff / push** so the new POCs + owner surface.
 
-**Skip owner-lookup when:**
-- Handoff is tier-D-heavy (low conversion ceiling, not worth the lift)
-- The vertical's pitch works without a named POC (mass `info@` outreach)
-- You're testing the pipeline, not shipping to sales
+**Skip when:** handoff is tier-D-heavy (low conversion ceiling); the vertical's
+pitch works without a named POC (mass `info@` outreach); or you're testing the
+pipeline, not shipping to sales.
 
-**When an automated provider lands** (LinkedIn API, paid people-search),
-slot it behind `--print-queue` writing the sidecar from search results;
-the `--apply` interface stays unchanged.
+**Channel reality:** for B2B software/engineering execs, LinkedIn is usually the
+only public channel; X/Instagram/personal email are common for solo founders &
+small agencies but rare for larger firms. The sweep still collects whatever
+exists — don't treat empty X/IG as a miss.
 
 ---
 
@@ -384,7 +456,7 @@ the `--apply` interface stays unchanged.
 
 `outreach <pipeline> osint-enrich`
 
-Runs after `merge_crawl_into_master` + `owner_lookup --apply`. Inspects each lead's gaps against `OSINT_FIELDS_DESIRED`, runs enrichers in two waves (whois + deep_site_crawl → serp), writes the unjudged sidecar to `enrichment/osint/<date>.json`. Resumable.
+Runs after `merge_crawl_into_master` + `decision_makers --apply`. Inspects each lead's gaps against `OSINT_FIELDS_DESIRED`, runs enrichers in two waves (whois + deep_site_crawl → serp), writes the unjudged sidecar to `enrichment/osint/<date>.json`. Resumable.
 
 Steps:
 
@@ -456,8 +528,9 @@ so the prior delivery stays intact (CLAUDE.md rule 1). Sequence:
 5. `outreach <pipeline> handoff` (defaults to latest dated folder; pass
    `--master` / `--out` to be explicit).
 
-6. (Optional) `outreach <pipeline> owner-lookup` for tier-A/B leads
-   with empty `owner_name`, then re-run handoff.
+6. (Optional) `outreach <pipeline> decision-makers` to capture the owner
+   + reachable team (with all channels) on the chosen lead set, then re-run
+   handoff / push.
 
 7. Compare lead counts and tier distribution to the prior delivery
    before declaring done. Big shifts in tier mix usually mean the

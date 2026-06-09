@@ -29,32 +29,39 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 from lib.cli._common import (
     add_pipeline_arg, load_pipeline_config, pipeline_dir, pipeline_lock,
 )
-from lib.handoff.csv_builder import top_pain_with_quotes
+from lib.handoff.csv_builder import _pain_hits_field
 from lib.lang_detect import needs_translation
-
-N_QUOTES = 2
 
 
 def snippet_key(snippet: str) -> str:
     return hashlib.sha1((snippet or '').strip().encode('utf-8')).hexdigest()[:12]
 
 
-def select_for_translation(master, *, locale, pain_weights):
-    """Return {place_id: {snippet_key: original_snippet}} for the handoff-
-    surfaced pain quotes that need translation. Pure; no I/O."""
+def select_for_translation(master, *, locale, pain_weights=None):
+    """Return {place_id: {snippet_key: original_snippet}} for EVERY pain-hit
+    snippet that needs translation and isn't already translated. Pure; no I/O.
+
+    Covers all pain hits, not just the top-2 the handoff CSV surfaces: the CRM
+    push (push_leads) delivers the full pain-hits array, so every hit must be
+    translated for the delivered leads to read in English. Hits already
+    carrying `snippet_en` are skipped, so re-runs are idempotent. `pain_weights`
+    is accepted for backward compatibility but no longer used (no ranking)."""
     out: dict[str, dict[str, str]] = {}
     for lead in master:
         pid = lead.get('place_id')
         if not pid:
             continue
-        _top, quotes = top_pain_with_quotes(
-            lead, pain_weights=pain_weights, n_quotes=N_QUOTES
-        )
-        for q in quotes:
-            snippet = (q.get('snippet') or '').strip()
-            if not needs_translation(snippet, locale):
-                continue
-            out.setdefault(pid, {})[snippet_key(snippet)] = snippet
+        pain = _pain_hits_field(lead) or {}
+        for _category, hits in pain.items():
+            for hit in hits:
+                snippet = (hit.get('snippet') or hit.get('quote') or '').strip()
+                if not snippet:
+                    continue
+                if (hit.get('snippet_en') or '').strip():
+                    continue  # already translated — idempotent re-run
+                if not needs_translation(snippet, locale):
+                    continue
+                out.setdefault(pid, {})[snippet_key(snippet)] = snippet
     return out
 
 

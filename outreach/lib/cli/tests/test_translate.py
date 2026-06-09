@@ -43,6 +43,43 @@ class TestSelectForTranslation(unittest.TestCase):
                                      pain_weights={'frontline_communication': 5})
         self.assertEqual(out, {})
 
+    def test_selects_all_pain_hits_not_just_top_two(self):
+        # The CRM push delivers every pain hit, so translation must cover
+        # all of them — not only the top-2 the handoff CSV surfaces.
+        lead = {
+            'place_id': 'p1',
+            'agent_pain_hits': {
+                'frontline_communication': [
+                    {'snippet': 'Перший відгук про дзвінки', 'rating': 1},
+                    {'snippet': 'Другий відгук про сайт', 'rating': 2},
+                    {'snippet': 'Третій відгук про підтримку', 'rating': 1},
+                ],
+                'booking_friction': [
+                    {'snippet': 'Четвертий відгук про бронювання', 'rating': 1},
+                ],
+            },
+        }
+        out = select_for_translation([lead], locale='uk-UA',
+                                     pain_weights={'frontline_communication': 5})
+        self.assertEqual(len(out['p1']), 4)
+
+    def test_skips_already_translated_hits(self):
+        lead = {
+            'place_id': 'p1',
+            'agent_pain_hits': {
+                'frontline_communication': [
+                    {'snippet': 'Вже перекладено', 'snippet_en': 'Already translated',
+                     'rating': 1},
+                    {'snippet': 'Ще не перекладено', 'rating': 1},
+                ]
+            },
+        }
+        out = select_for_translation([lead], locale='uk-UA',
+                                     pain_weights={'frontline_communication': 5})
+        self.assertEqual(len(out['p1']), 1)
+        ((_k, v),) = out['p1'].items()
+        self.assertEqual(v, 'Ще не перекладено')
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

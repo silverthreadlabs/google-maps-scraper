@@ -1,0 +1,44 @@
+{
+  "ChIJuYOo1cTj20ARx9AtV5OlDJg": {
+    "name": "Oleksii Tkachenko",
+    "title": "Technical Lead, Founder",
+    "linkedin": "https://www.linkedin.com/in/oleksii-tkachenko-vs/",
+    "confidence": 0.85,
+    "evidence": "visor.software/about/ identifies Oleksii as Tech Lead/Founder; LinkedIn search 'Alexey Tkachenko Visor Software founder' returned linkedin.com/in/oleksii-tkachenko-vs/ titled 'Technical Lead, Founder - Visor Software' — matches domain."
+  },
+  "ChIJu4CCKFji20ARpF1snpfPibM": {
+    "name": "Alex Popov",
+    "title": "Chief Executive Officer",
+    "linkedin": "https://www.linkedin.com/in/alex-popov/",
+    "confidence": 0.85,
+    "evidence": "Multiple sources (LinkedIn search, Crunchbase, TechBehemoths) consistently identify Alex Popov as CEO/founder of Zenetix digital production at zenetix.com.ua; LinkedIn title explicitly states 'Chief Executive Officer – Zenetix digital production'."
+  },
+  "ChIJv1vHN6zj20ARVx64_1y8R8E": {
+    "name": "Serhii Paliukh",
+    "title": "CEO, Founder",
+    "linkedin": "https://www.linkedin.com/in/sergey-palyukh/",
+    "confidence": 0.8,
+    "evidence": "MGRank, CBInsights, and Djinni all list Serhii Paliukh as CEO and founder of FlexSolution (flexsolution.com, Kharkiv, Ukraine); LinkedIn slug sergey-palyukh confirmed via multiple search results; place_id maps to TOV Dniprosoft which operates under flexsolution.com."
+  },
+  "ChIJqSwdLxHj20AR9zPv712l_WU": {
+    "name": "Igor Zhyvodvorov",
+    "title": "Owner",
+    "linkedin": "",
+    "confidence": 0.55,
+    "evidence": "FreelancerMap profile and search results consistently identify Igor Zhyvodvorov as owner/developer of WebGenerator dev studio (webgenerator.com.ua, Dnipro, Ukraine); no personal LinkedIn profile URL found in any source."
+  },
+  "ChIJVSo4c9Xi20ARJ5qgVoIFueI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "synergize.digital website returns only tagline with no team or contact info; LinkedIn company page (snrgz) lists only employee Yegor Shustyk with no title; multiple searches yielded no named founder or CEO for this Dnipro-based company."
+  },
+  "ChIJgZFchOfi20ARyRRRdam7r3I": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "elabor8.com resolves to the Australian consulting firm Cprime/Elabor8 (founded by Paul Velonis, now Nam Huynh as CEO); no Ukrainian decision-maker identified; Google Maps entry appears to be a Ukrainian branch or redirect, not an independent Ukrainian company."
+  }
+}

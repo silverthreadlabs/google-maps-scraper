@@ -1,0 +1,44 @@
+{
+  "ChIJFZosZoLN1EARd7MdnGq5keI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "siter.org has SSL cert issues preventing fetch; no public founder/owner info found via web search for this specific Ukrainian web studio"
+  },
+  "ChIJA_aPEbKZrKER0r_J8PyHiPs": {
+    "name": "Fedir Kompaniiets",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/fedir-kompaniiets-2aa22125/",
+    "confidence": 0.95,
+    "evidence": "gartsolutions.com About page lists Fedir Kompaniiets as Co-founder & CEO; confirmed by Startup Weekly interview and LinkedIn profile matching gartsolutions.com domain"
+  },
+  "ChIJl5facYDP1EARZl5H0mH2tSg": {
+    "name": "Alexander Goncharuk",
+    "title": "Co-Founder & Managing Director",
+    "linkedin": "https://uk.linkedin.com/in/agoncharuk",
+    "confidence": 0.75,
+    "evidence": "Crunchbase and CBInsights list Alexander Goncharuk as Co-Founder & Managing Director of Digitally Inspired Ltd; company was acquired by Intellias in Oct 2022; Kyiv Google Maps listing is the same entity per digitallyinspired.com domain"
+  },
+  "ChIJ-Sq2oJ3N1EARDPJiXkBSXsI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "ma-ko.dev website and About page list no named leadership; no founder/CEO found in LinkedIn, web search, or company directories for this specific domain"
+  },
+  "ChIJAQBA35DM1EARgD13dKyQd6U": {
+    "name": "Dmytro Kostyria",
+    "title": "CEO",
+    "linkedin": "https://ua.linkedin.com/in/dmytro-kostyria-aaa22928",
+    "confidence": 0.7,
+    "evidence": "kde.agency About page explicitly names Dmytro Kostyria as CEO; LinkedIn profile found at ua.linkedin.com/in/dmytro-kostyria-aaa22928 via search; ZoomInfo confirms Dmytro Kostyria at KDE; not confirmed as founder"
+  },
+  "ChIJMwoiY_fP1EARES9HXGgy7c4": {
+    "name": "Yurii Drozd",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/yurii-drozd-4274804a/",
+    "confidence": 0.85,
+    "evidence": "TheOrg and RocketReach list Yurii Drozd as CEO of Blackbird Lab (blackbird-lab.com); LinkedIn profile confirmed at linkedin.com/in/yurii-drozd-4274804a; company calendly ydrozd@ corroborates; UK company filing lists Drozd Yurii as officer of Blackbird Lab Ltd"
+  }
+}

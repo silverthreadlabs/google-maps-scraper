@@ -1,0 +1,44 @@
+{
+  "ChIJxab00QWZ8I8R-PAU3TRpSjg": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "repliqua.studio is Instagram-only (@repliqua.studio, 'Visual retreat'); no website, no named owner found in any search or profile"
+  },
+  "ChIJCxLCP67nOkcRAJJo6NpfwTA": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "webbees.com.ua appears to be a VPS/hosting provider with minimal web presence; no named founder or CEO found"
+  },
+  "ChIJU4rgAhiMwkwRnvdKK8e5Kxo": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "webunites.com site returned ECONNREFUSED; no LinkedIn company page or named founder traceable via search"
+  },
+  "ChIJbWGuiIfdOkcR5RvJAjVInqg": {
+    "name": "Roman Hladun",
+    "title": "Business Owner",
+    "linkedin": "",
+    "confidence": 0.6,
+    "evidence": "ZoomInfo lists Roman Hladun as Business Owner of Intelligent System Design (intelsd.com, Lviv, UA); LinkedIn company page confirms 2-employee firm but personal /in/ URL not verified as matching this person"
+  },
+  "ChIJH4MXgefnOkcRU1URmze8S8M": {
+    "name": "Yaro Mamchuk",
+    "title": "CEO",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "ZoomInfo lists Yaro Mamchuk (y***@ternala.com) as CEO of Ternala LLC (ternala.com, Lviv, UA); personal linkedin.com/in/ URL not surfaced in searches"
+  },
+  "ChIJ-3z17rUEBWARF9o41nF4QGk": {
+    "name": "Nazariy Kusyy",
+    "title": "Director / Co-owner",
+    "linkedin": "https://www.linkedin.com/in/nazarii-kusyi/",
+    "confidence": 0.75,
+    "evidence": "YouControl.com.ua confirms Nazariy Lvovych Kusyy as director and 40% owner of LLC LIVE2SPORT (Tax ID 39905421, Lviv) which operates donnael.com (Live2Sport); LinkedIn profile linkedin.com/in/nazarii-kusyi confirms Live2Sport affiliation"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "ChIJz5ATfWvN1EARxp0laI4GRGg": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/edgica",
+      "twitter": "https://twitter.com/edgicasocial",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/edgicasocial/",
+      "email": "info@edgica.com"
+    }
+  },
+  "ChIJd0OC7xHP1EARLfT4PZqjZAM": {
+    "people": [
+      {
+        "name": "Taras Panchenko",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/taras-panchenko/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn profile confirms Co-Founder & CTO at Infosoft Global Ltd. (infosoft.ua); leads cross-functional teams in data science, BI, system integration, mobile development"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/infosoft-global",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/infosoft.ua/",
+      "email": "ip@infosoft.ua"
+    }
+  },
+  "ChIJSZVBHPMi62ERLxdG7B2zSPA": {
+    "people": [],
+    "company": {
+      "linkedin": "https://in.linkedin.com/company/uiccnet",
+      "twitter": "https://twitter.com/uiccnet",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJVUOyWQzP1EARo3Hb0eQt4LQ": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/coidea-agency",
+      "twitter": "https://twitter.com/coideaw",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/coidea.agency/",
+      "email": "contactus@coidea.agency"
+    }
+  },
+  "ChIJpxJI_hPL1EARiTyT0sUR8Dw": {
+    "people": [],
+    "company": {
+      "linkedin": "https://ua.linkedin.com/company/etnocode",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/etno.code/",
+      "facebook": "",
+      "email": "support@etnocode.com.ua"
+    }
+  },
+  "ChIJ4wxrKx41BEwRmGZC-hdUOu8": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/chris.averyano/",
+      "facebook": "",
+      "email": ""
+    }
+  }
+}

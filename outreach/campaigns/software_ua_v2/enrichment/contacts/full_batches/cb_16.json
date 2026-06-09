@@ -1,0 +1,165 @@
+{
+  "ChIJ2emoQtvnOkcRHKvQsISw0Do": {
+    "people": [
+      {
+        "name": "Yurii Ihnatchuk",
+        "role": "Developer / Team Member",
+        "linkedin": "https://ua.linkedin.com/in/yurii-ihnatchuk-625bb4215",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.6,
+        "evidence": "Listed on berko.tech LinkedIn company page as one of 9 employees"
+      },
+      {
+        "name": "Yura Flysnyk",
+        "role": "Developer / Team Member",
+        "linkedin": "https://ua.linkedin.com/in/flysnyk",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.6,
+        "evidence": "Listed on berko.tech LinkedIn company page as one of 9 employees"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/berko-tech/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/berk0.tech/",
+      "facebook": "https://www.facebook.com/share/178UMvGE2y/",
+      "email": "berko.tech.ua@gmail.com"
+    }
+  },
+  "ChIJYYo0Q__pOkcRisrlTtbQW6w": {
+    "people": [
+      {
+        "name": "Andy Lurs",
+        "role": "Co-Founder, Head of Design",
+        "linkedin": "https://www.linkedin.com/in/andylurs",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile shows Co-Founder, Head of Design at Selecto; confirmed via ZoomInfo email domain @selectoglobal.com; Djinni profile as Design Director at Selecto"
+      },
+      {
+        "name": "Ruslana Tytechko",
+        "role": "Director of Strategic Partnerships",
+        "linkedin": "https://ae.linkedin.com/in/ruslana-tytechko",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.92,
+        "evidence": "LinkedIn profile Director of Strategic Partnerships at Selecto, Dubai; ZoomInfo confirms email domain @selectoglobal.com; Adapt.io and RocketReach list her at Selecto"
+      },
+      {
+        "name": "Olha Polishchuk",
+        "role": "Partnerships Manager",
+        "linkedin": "https://www.linkedin.com/in/olapolishchuk",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile explicitly titles Partnerships Manager at Selecto; based in Riyadh; RocketReach confirms @selectoglobal.com email domain"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/selecto/",
+      "twitter": "https://twitter.com/selectoglobal",
+      "instagram": "https://www.instagram.com/selectoglobal/",
+      "facebook": "https://www.facebook.com/selectoglobal",
+      "email": "info@selectoglobal.com"
+    }
+  },
+  "ChIJ7dOsd8rnOkcR9IHHkwHDmPQ": {
+    "people": [
+      {
+        "name": "Christina Yarmolenko",
+        "role": "Lead Generation Specialist",
+        "linkedin": "https://ua.linkedin.com/in/christina-yarmolenko-7b1906230",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "ZoomInfo confirms Lead Generation Specialist at FutureOne Tech with @futureone.tech email domain; LinkedIn profile linked from company page"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/futureone-tech/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@futureone.tech"
+    }
+  },
+  "ChIJPz9Dot3dOkcRNR6LOe4xlRo": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/karakum-soft/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/karakum_soft/",
+      "facebook": "https://www.facebook.com/karakum.soft",
+      "email": "user@klenopys.online"
+    }
+  },
+  "ChIJM8LK_NrnOkcRF-YmF2oF-1I": {
+    "people": [
+      {
+        "name": "Yuriy Nayda",
+        "role": "CTO & Managing Partner",
+        "linkedin": "https://www.linkedin.com/in/yuriynayda/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.97,
+        "evidence": "LinkedIn profile explicitly titles CTO & Managing Partner at SmartTek Solutions; listed in have_pocs but NOT as owner; confirmed across RocketReach, ZoomInfo, TheOrg"
+      },
+      {
+        "name": "Andrew Linskyi",
+        "role": "Co-founder, Managing Partner (COO)",
+        "linkedin": "https://www.linkedin.com/in/andrew-linskyi-932a27141/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.97,
+        "evidence": "LinkedIn, Crunchbase, RocketReach all confirm Co-founder & Managing Partner at SmartTek Solutions; listed in have_pocs"
+      },
+      {
+        "name": "Alex Dove",
+        "role": "Director, Business Development",
+        "linkedin": "https://www.linkedin.com/in/alexdovework/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.88,
+        "evidence": "ZoomInfo confirms Director Business Development at SmartTek Solutions with @smarttek.solutions email domain; LinkedIn profile alexdovework current company SmartTek"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/smarttek-solutions/",
+      "twitter": "https://twitter.com/smarttek_llc",
+      "instagram": "https://www.instagram.com/smarttek_llc/",
+      "facebook": "https://www.facebook.com/smarttek.solutions.llc",
+      "email": "info@smarttek.solutions"
+    }
+  },
+  "ChIJxyIoQ5vNx4oRvtn-ogwgm7M": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/metaart-group",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/metaart.engineering/",
+      "facebook": "https://www.facebook.com/meta.art.5/",
+      "email": ""
+    }
+  }
+}

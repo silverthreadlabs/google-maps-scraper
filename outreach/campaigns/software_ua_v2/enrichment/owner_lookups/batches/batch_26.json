@@ -1,0 +1,44 @@
+{
+  "ChIJg5hYgfrP1EARLSZUjSKNb9w": {
+    "name": "Igor Nikolaichuk",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/igor-nikolaichuk-b8808a3",
+    "confidence": 0.9,
+    "evidence": "Confirmed as Director of the Board and CEO on geeksforless.com/about/ and ZoomInfo; LinkedIn profile bs.linkedin.com/in/igor-nikolaichuk-b8808a3 matches GeeksForLess Inc."
+  },
+  "ChIJm2XW_RTP1EARa1jZl8PIxMU": {
+    "name": "Alexey Khursevich",
+    "title": "Co-Founder / CEO (now Chief Digital Transformation Officer)",
+    "linkedin": "https://www.linkedin.com/in/akhursevich",
+    "confidence": 0.8,
+    "evidence": "Crunchbase and multiple sources confirm Khursevich as co-founder and former CEO of Solvd; LinkedIn profile linkedin.com/in/akhursevich confirmed at solvd.com; note: Solvd is US-founded with Ukrainian R&D offices"
+  },
+  "ChIJAcwzK_nSG44RpC6rL5IAl1g": {
+    "name": "Vas Diachenko",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/vasdiachenko",
+    "confidence": 0.95,
+    "evidence": "LinkedIn profile linkedin.com/in/vasdiachenko explicitly titles Founder & CEO at LoyaltyPlant; confirmed on Crunchbase and RocketReach tied to loyaltyplant.com"
+  },
+  "ChIJz5ATfWvN1EARxp0laI4GRGg": {
+    "name": "Ruslan Olkhovsky",
+    "title": "Founder",
+    "linkedin": "https://www.linkedin.com/in/olkhovsky",
+    "confidence": 0.85,
+    "evidence": "ZoomInfo lists Ruslan Olkhovsky as Founder at Edgica with email @edgica.com; edgica.com/author/ruslan-olkhovsky/ confirms authorship; LinkedIn profile linkedin.com/in/olkhovsky is Ukraine-based"
+  },
+  "ChIJw9g9GUbP1EARH6PEOTpnnqc": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website it-transformation.com.ua lists no named leadership; no public LinkedIn profile or registry record linking a named founder/CEO to this specific domain found"
+  },
+  "ChIJd0OC7xHP1EARLfT4PZqjZAM": {
+    "name": "Ivan Panchenko",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/ivan-v-panchenko",
+    "confidence": 0.85,
+    "evidence": "LinkedIn profile ua.linkedin.com/in/ivan-v-panchenko confirmed as Co-Founder and CEO at Infosoft Global Ltd.; RocketReach and infosoft.ua Facebook page corroborate domain match"
+  }
+}

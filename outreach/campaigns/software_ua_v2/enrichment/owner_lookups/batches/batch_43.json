@@ -1,0 +1,44 @@
+{
+  "ChIJHetdk3TnOkcR6vzTWsY1q1A": {
+    "name": "Oleksandr Sukach",
+    "title": "Founder",
+    "linkedin": "https://ua.linkedin.com/in/olexandr-sukach",
+    "confidence": 0.85,
+    "evidence": "LinkedIn profile ua.linkedin.com/in/olexandr-sukach lists Insight Marketing Agency; RocketReach and search confirm Oleksandr Sukach as Founder at digitalinsight.com.ua"
+  },
+  "ChIJaxwnUwDdOkcRisznfsVDJww": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "BRO creative agency (brocreative.agency, Kyiv): company LinkedIn page found but no founder/CEO/owner name discoverable; About page returned 404; no personal profile identified"
+  },
+  "ChIJAfWmfv_FjKMRh0iVew5XujY": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "WE.DESIGN studio (wedesign-studio.com, Lviv): website and Facebook page found but no founder/owner name exposed publicly; only collective 'WE' branding visible"
+  },
+  "ChIJZZp8-XPdOkcROZACK34_rU4": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Studio IDI (designidi.com): site has TLS issues and no Ukrainian owner identified; search results conflate with India/Italy companies of same name; no disambiguated owner found"
+  },
+  "ChIJbTE3gGpeTYcRvRW4CgtiWN0": {
+    "name": "Nazar Dziadyk",
+    "title": "CEO / Co-founder",
+    "linkedin": "https://www.linkedin.com/in/nazardzia/",
+    "confidence": 0.8,
+    "evidence": "growthkitchen.agency website names Nazar Dziadyk as CEO with linkedin.com/in/nazardzia/; Clutch profile confirms Lviv-based agency; LinkedIn search corroborates co-founder role"
+  },
+  "ChIJRe6oIDX-JiMRwUzHHvywKcg": {
+    "name": "Oleksii Petelko",
+    "title": "Owner / Individual Entrepreneur",
+    "linkedin": "",
+    "confidence": 0.9,
+    "evidence": "shumagency.com website explicitly lists 'INDIVIDUAL ENTERPRENEUR OLEKSII SERHIIOVYCH PETELKO' as the business owner; no personal LinkedIn profile found"
+  }
+}

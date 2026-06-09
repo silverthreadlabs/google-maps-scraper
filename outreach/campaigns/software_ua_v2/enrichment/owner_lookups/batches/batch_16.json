@@ -1,0 +1,44 @@
+{
+  "ChIJLUaF9hjM1EARotHXzA087WU": {
+    "name": "Andrii Shut",
+    "title": "CEO",
+    "linkedin": "https://ua.linkedin.com/in/andrii-shut",
+    "confidence": 0.85,
+    "evidence": "LinkedIn profile title 'CEO at Seismic Point Group' confirmed via RocketReach org chart + LinkedIn search snippet"
+  },
+  "ChIJCblphy_M1EARcBr2NEtt3Qw": {
+    "name": "Oleksii Khrenov",
+    "title": "Co-founder",
+    "linkedin": "https://www.linkedin.com/in/alexey-khrenov/",
+    "confidence": 0.5,
+    "evidence": "Clutch review cites 'Alexey [Co-founder, Dev-Better]'; Facebook + Djinni link Alexey Khrenov to Dev-Better; current LinkedIn shows Tailored Industry Inc. — possible past role"
+  },
+  "ChIJ51DDhaLN1EAR2fJ9H7lD8_o": {
+    "name": "Dennis Babych",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/denis-babych-1410a112/",
+    "confidence": 0.9,
+    "evidence": "Multiple sources (ContactOut, qualified.one, datanyze) confirm Dennis/Denys Babych as CEO of DB2 Limited, Kyiv; LinkedIn profile 'Denis Babych - Ukraine' found"
+  },
+  "ChIJ49ekmX7N1EAR2KwC0QM4L78": {
+    "name": "Rene Weigand",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/rene-weigand-2689b87/",
+    "confidence": 0.85,
+    "evidence": "LinkedIn profile title 'CEO at sceel.io GmbH - Part of Sigma Technology Group' confirmed via LinkedIn search results and CBInsights company page"
+  },
+  "ChIJMSIkd6DO1EARBlYY06pxFpg": {
+    "name": "Alexander Voloshyn",
+    "title": "Director General and Co-founder",
+    "linkedin": "https://ua.linkedin.com/in/voloshynalex",
+    "confidence": 0.85,
+    "evidence": "ZoomInfo lists 'Alexander Voloshyn - Director General and Co-founder at Geeoz'; LinkedIn profile ua.linkedin.com/in/voloshynalex confirmed matching"
+  },
+  "ChIJwaoIetLN1EARR7mkqcyRc98": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No named founder/CEO found for GET-IT (get-it.com.ua); LinkedIn company page exists but lists no named leadership; website certificate expired"
+  }
+}

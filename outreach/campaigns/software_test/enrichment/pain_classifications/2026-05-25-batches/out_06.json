@@ -1,0 +1,197 @@
+[
+  {
+    "id": 180,
+    "categories": [
+      {
+        "main": "hidden_subcontracting",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "it was clear that they don’t have a permanent team in place",
+        "reasoning": "Client suspects team is not stable/permanent, suggesting undisclosed handoffs, though no specific sub matches precisely."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.85,
+        "quote": "Deadlines meant nothing to them, and they failed to deliver on time",
+        "reasoning": "Explicit complaint about failing to deliver on time."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "we were left with subpar results",
+        "reasoning": "Work product was substandard."
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "categories": []
+  },
+  {
+    "id": 182,
+    "categories": []
+  },
+  {
+    "id": 183,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "робота виконана не якісно",
+        "reasoning": "Reviewer says the work was done poorly/not quality."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "categories": []
+  },
+  {
+    "id": 185,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "дуже тугі, повільно реагують, одні відписки.. можна днями чекати відповіді",
+        "reasoning": "Support gives slow, dismissive, non-substantive replies — poor information from staff."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Зараз сайт не працює уже 5 днів, після того як «виправили» попередній баг",
+        "reasoning": "Fix introduced a new outage — buggy deliverable."
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "categories": []
+  },
+  {
+    "id": 187,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "проблему із постійними підвисаннями платформи ігнорують",
+        "reasoning": "Specific technical concern is being ignored by the company."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Сервери нестабільні, сайт може \"лежати\" в самий пік замовлень",
+        "reasoning": "Platform/servers unstable — broken delivery."
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "categories": []
+  },
+  {
+    "id": 189,
+    "categories": []
+  },
+  {
+    "id": 190,
+    "categories": []
+  },
+  {
+    "id": 191,
+    "categories": []
+  },
+  {
+    "id": 192,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "The proposal outlined a structured, professional approach, but what was actually delivered felt unorganized and nowhere near the quality I expected",
+        "reasoning": "Delivered work diverged substantially from what was sold."
+      },
+      {
+        "main": "hidden_subcontracting",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "claiming they had a team of 400 people. But if that’s true, I have no idea what they’re all doing",
+        "reasoning": "Suggests promised team was not the team actually doing work, but no specific handoff disclosed."
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "categories": []
+  },
+  {
+    "id": 194,
+    "categories": []
+  },
+  {
+    "id": 195,
+    "categories": []
+  },
+  {
+    "id": 196,
+    "categories": []
+  },
+  {
+    "id": 197,
+    "categories": []
+  },
+  {
+    "id": 198,
+    "categories": []
+  },
+  {
+    "id": 199,
+    "categories": []
+  },
+  {
+    "id": 200,
+    "categories": []
+  },
+  {
+    "id": 201,
+    "categories": []
+  },
+  {
+    "id": 202,
+    "categories": []
+  },
+  {
+    "id": 203,
+    "categories": []
+  },
+  {
+    "id": 204,
+    "categories": []
+  },
+  {
+    "id": 205,
+    "categories": []
+  },
+  {
+    "id": 206,
+    "categories": []
+  },
+  {
+    "id": 207,
+    "categories": []
+  },
+  {
+    "id": 208,
+    "categories": []
+  },
+  {
+    "id": 209,
+    "categories": []
+  }
+]

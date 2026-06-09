@@ -1,0 +1,97 @@
+{
+  "ChIJE60GorHF1EARr_-5UUbxA6c": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@applic.com.ua"
+    }
+  },
+  "ChIJtw7ONfTFeWERjO7A_u4nDs8": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "office@webpcstudio.com"
+    }
+  },
+  "ChIJSQIErtTJ1EARqVR8Zkskk2c": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/devatlant-software",
+      "twitter": "https://twitter.com/devatlant",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/devatlant/",
+      "email": "contact@devatlant.com"
+    }
+  },
+  "ChIJyRWtk2DP1EARqb5emIs9214": {
+    "people": [
+      {
+        "name": "Vitalii Gorobets",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/vitalii-gorobets/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile title 'Chief Technology Officer at Evolved Ideas', confirmed via RocketReach and LinkedIn search"
+      },
+      {
+        "name": "Richard Clarke",
+        "role": "Head of Partnerships",
+        "linkedin": "https://www.linkedin.com/in/richardmclarke/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn title 'Head of Partnerships at Evolved Ideas', confirmed via RocketReach and LinkedIn search"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/evolved-ideas",
+      "twitter": "https://x.com/evolvedideas1",
+      "instagram": "https://www.instagram.com/evolvedideas/",
+      "facebook": "https://www.facebook.com/profile.php?id=61556376993345",
+      "email": ""
+    }
+  },
+  "ChIJaS5MIraHNQYRTNF5LDN1uss": {
+    "people": [
+      {
+        "name": "Valentyna Klymenko",
+        "role": "Co-Founder / Manager",
+        "linkedin": "https://www.linkedin.com/in/valentyna-klymenko-5449b61a4",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "Listed as employee on Confidence Technology LinkedIn company page; described as Co-Founder & Manager in a LinkedIn post; surname matches CEO Artur Klymenko"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/confidence-technology-ua",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/confidence_technology/",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJFyQ0-yLN1EARDCjAUp-c7CE": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/sdd-technology",
+      "twitter": "https://twitter.com/SddTechnology",
+      "instagram": "https://www.instagram.com/sdd.technology/",
+      "facebook": "https://www.facebook.com/SDDTechnology/",
+      "email": "info@sdd-technology.com"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ChIJO8vevJTj20ARW_zX7AidaNI": {
+    "name": "Ilya Markin",
+    "title": "Co-Founder",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "ZoomInfo lists Ilya Markin with gapsystudio.com email as Co-Founder; personal linkedin.com/in URL not confirmed (name collision with unrelated person)"
+  },
+  "ChIJUTB9K0Hj20ARB0h3khp8qQ8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "aora-agency.com appears Istanbul-based (Ugur Basar as co-founder per RocketReach/LinkedIn), not a Ukrainian-owned entity; cannot attribute to this Google Maps listing with confidence"
+  },
+  "ChIJcQBsm2rj20ARMXZlm1GZXD4": {
+    "name": "Andriy Beregulya",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/beregulya/",
+    "confidence": 0.8,
+    "evidence": "pima.com.ua 301-redirects to odesseo.com.ua; OdesSeo/PIMA page and LinkedIn confirm Andriy Beregulya as CEO & Founder since 2013"
+  },
+  "ChIJMR4XdmxZ2UARlCBKEhrP5lk": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "seo-idea.com.ua team page lists first names only; 'Artur' is Team Lead but no surname or LinkedIn found"
+  },
+  "ChIJe4R_fv7i20ARg_4eZPvm4vg": {
+    "name": "Michael Drejer",
+    "title": "Global CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/drejer/",
+    "confidence": 0.5,
+    "evidence": "ffwagency.com is a global agency (now JAKALA); Michael Drejer is confirmed founder/Global CEO via ffwagency.com/about-ffw/leadership and Crunchbase; Dnipropetrovsk is a satellite office, not a locally-owned entity"
+  },
+  "ChIJYZEhhvnj20ARdctJcsp6Jr4": {
+    "name": "Dmitry Vishnyov",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/dmitriy-vishnyov/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn title 'CEO & Co-Founder - IT Outposts' confirmed via search snippet and itoutposts.com blog byline 'Dmytro Vyshnov | CEO'"
+  }
+}

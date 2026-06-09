@@ -1,0 +1,132 @@
+{
+  "ChIJMwoiY_fP1EARES9HXGgy7c4": {
+    "people": [
+      {
+        "name": "Vadym Klymenko",
+        "role": "Co-founder, TPM",
+        "linkedin": "https://www.linkedin.com/in/vadym-klymenko/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "Listed as Co-founder, TPM at Blackbird Lab on LinkedIn and theorg.com/org/blackbird-lab"
+      },
+      {
+        "name": "Dmytro Stepanenko",
+        "role": "Co-founder, Tech PM",
+        "linkedin": "https://www.linkedin.com/in/dmytro-stepanenko/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "Listed as Tech PM, Co-founder at Blackbird Lab on theorg.com/org/blackbird-lab"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/blackbird-lab",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/blackbird.lab/",
+      "facebook": "https://www.facebook.com/blackbirdlabcompany/",
+      "email": "info@blackbird-lab.com"
+    }
+  },
+  "ChIJg_pcItjN1EARUOgP4B6zV-A": {
+    "people": [
+      {
+        "name": "Svitlana Yurkevych",
+        "role": "CCO (Chief Commercial Officer)",
+        "linkedin": "https://www.linkedin.com/in/svitlana-yurkevych-90a574171",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "Identified as CCO at AutoBI on LinkedIn; represented AutoBI at EXPO 2020 Dubai as one of 15 Ukrainian startup winners"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/auto-bi",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/autobi.ukraine/",
+      "facebook": "https://www.facebook.com/autobi.ukraine/",
+      "email": "pr@auto-bi.io"
+    }
+  },
+  "ChIJTUZevKPN1EARWEJLkjVH__Y": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJwS9DoMvP1EARma0szz5T8Yc": {
+    "people": [
+      {
+        "name": "Oleg Gerasimenko",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/olegyera/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile explicitly lists Chief Technology Officer at VYMEX; confirmed via theorg.com Vymex org chart"
+      },
+      {
+        "name": "Volodymyr Yukhymenko",
+        "role": "Co-owner, CMO",
+        "linkedin": "https://www.linkedin.com/in/volodymyr-yukhymenko-5b43b023/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "Listed as Co-owner & Chief Marketing Officer at Vymex on theorg.com; LinkedIn profile confirms Head of Marketing at VYMEX since July 2021"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/vymex",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/VYMEX.UA/",
+      "email": "info@vymex.com"
+    }
+  },
+  "ChIJveOjzaXP1EAR47A11DmYCbw": {
+    "people": [
+      {
+        "name": "Mykola Danylov",
+        "role": "System Architect, former CTO",
+        "linkedin": "https://www.linkedin.com/in/danylov",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "LinkedIn profile (ua.linkedin.com/in/danylov) confirmed at uStudio Company as System Architect and AI researcher; previously served as CTO at uStudio per RocketReach"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/ustudio-company",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "ToBeRead@uStudio.Company"
+    }
+  },
+  "ChIJ22RnhOC1WkQRNQTT4j4T7PE": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ChIJ7ZJKXozdOkcRJOE49WMCL_w": {
+    "name": "Oles Timofeev",
+    "title": "Co-founder",
+    "linkedin": "",
+    "confidence": 0.8,
+    "evidence": "Co-founder of GeniusMarketing (geniusmarketing.me / edu.geniusmarketing.me), confirmed via LinkedIn company page 'geniusmarketingofficial', ZoomInfo, SignalHire, and multiple press sources; personal /in/ URL not publicly surfaced"
+  },
+  "ChIJT2NNBADdOkcRRxXFZ-JTKFE": {
+    "name": "Alex Hristich",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/alex-hristich/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn profile title '💼CEO of Atlant.Digital agency' — confirmed match to atlant.digital domain; also listed as employee on company LinkedIn page"
+  },
+  "ChIJQft8Sl_dOkcRWp1BZByKESs": {
+    "name": "Oleksiy Kuryliak",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/kuryliak",
+    "confidence": 0.9,
+    "evidence": "The Org and Crunchbase list him as CEO/Founder of Rioks (rioks.com); LinkedIn pulse articles under his name reference Rioks; personal site oleksiy.co confirms LinkedIn slug /in/kuryliak"
+  },
+  "ChIJBVMpnu7dOkcR1uyDJe8UGyE": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Skyline Creative website is a private Google Sites page (requires auth); no public leadership info found via web search"
+  },
+  "ChIJLxago8JzdmUR77zkLQybyV4": {
+    "name": "Mykhailo Khytriak",
+    "title": "CEO and Owner",
+    "linkedin": "https://www.linkedin.com/in/hytriak",
+    "confidence": 0.85,
+    "evidence": "Website logicdigital.agency lists him as 'CEO and Owner of Logic Agency'; LinkedIn profile ua.linkedin.com/in/hytriak shows Logic Digital Agency affiliation"
+  },
+  "ChIJg-vLJDbdOkcRMDEsbXyqwAs": {
+    "name": "Viktor Surkov",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/viktor-surkov/",
+    "confidence": 0.85,
+    "evidence": "Intch profile 'Viktor Surkov – CEO, Plann Ads'; LinkedIn profile linkedin.com/in/viktor-surkov/ shows buzzabout/Plann Ads; ZoomInfo and plannads.com address (Lviv) corroborate"
+  }
+}

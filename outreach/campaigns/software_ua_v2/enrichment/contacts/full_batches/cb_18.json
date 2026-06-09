@@ -1,0 +1,142 @@
+{
+  "ChIJe51yFO3dOkcR4QUtJux8PLM": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/tsukat",
+      "twitter": "https://twitter.com/TSUKATstudio",
+      "instagram": "https://www.instagram.com/tsukatstudio/",
+      "facebook": "https://www.facebook.com/tsukatstudio/",
+      "email": "hello@tsukat.com"
+    }
+  },
+  "ChIJXwVKESfdOkcRwzsLo9tJYXE": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/inforce-digital",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/inforce_ua/",
+      "facebook": "https://www.facebook.com/inforcedigital/",
+      "email": ""
+    }
+  },
+  "ChIJcUHsfordOkcROvgQTfyMIO4": {
+    "people": [
+      {
+        "name": "Nazar Zastavnyy",
+        "role": "COO & Co-founder",
+        "linkedin": "https://www.linkedin.com/in/nazar-zastavnyy/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile explicitly lists COO/Co-founder at AppRecode; confirmed via Crunchbase and ZoomInfo"
+      },
+      {
+        "name": "Anatolii Poliukhovych",
+        "role": "Partnerships Manager",
+        "linkedin": "https://www.linkedin.com/in/anatolii-poliukhovych-bb06572bb",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile lists Partnerships Manager at AppRecode; confirmed via ZoomInfo and ua.linkedin.com URL"
+      },
+      {
+        "name": "Yelyzaveta Gonta",
+        "role": "Technical Sales Representative",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "ZoomInfo lists Yelyzaveta Gonta as Technical Sales Representative at AppRecode with @apprecode.com email domain"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/apprecode",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/apprecode/",
+      "email": "customer@apprecode.com"
+    }
+  },
+  "ChIJ_3DND37nOkcRa3eYmzaO-zI": {
+    "people": [
+      {
+        "name": "Volodymyr Klymenko",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/volodymyr-klymenko75/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn profile explicitly lists CEO & QA at Luxe Quality; confirmed via The Org org chart"
+      },
+      {
+        "name": "Mariia Morozova",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/mmssuccess/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "RocketReach and LinkedIn list Mariia Morozova as Co-Founder at Luxe Quality"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/luxequality",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/luxequality_/",
+      "facebook": "https://www.facebook.com/p/Luxe-Quality-100093211400603/",
+      "email": "info@luxequality.com"
+    }
+  },
+  "ChIJm0AeuYrnOkcRhDkS1XnrgDE": {
+    "people": [
+      {
+        "name": "Anna Tsybko",
+        "role": "COO & Co-founder",
+        "linkedin": "https://www.linkedin.com/in/annatsybko/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.95,
+        "evidence": "LinkedIn and ZoomInfo confirm Anna Tsybko as COO & Founder at SOLEAD Software; email domain solead.software confirmed"
+      },
+      {
+        "name": "Roman Patsyukov",
+        "role": "Chief Marketing Officer",
+        "linkedin": "https://www.linkedin.com/in/roman-patsyukov/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile explicitly lists CMO at SOLEAD Software; ua.linkedin.com URL confirms Ukraine location"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/soleadsoftware",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/solead.official/",
+      "facebook": "",
+      "email": "info@solead.software"
+    }
+  },
+  "ChIJg_gC467dOkcRFZ9B6CCkfYY": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/pega-agency",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  }
+}

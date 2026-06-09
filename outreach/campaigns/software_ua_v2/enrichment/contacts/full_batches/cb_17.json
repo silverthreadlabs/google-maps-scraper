@@ -1,0 +1,133 @@
+{
+  "ChIJb3Dg-1HdOkcRVXTGyKOwPBs": {
+    "people": [
+      {
+        "name": "Olena Berezyuk",
+        "role": "HR Director",
+        "linkedin": "https://www.linkedin.com/in/olena-berezyuk-b9a3a7b1/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn search result confirms Olena Berezyuk as HR Director at luxnet.io. Domain-verified via LinkedIn snippet 'HR Director - luxnet.io'. Not in have_owner or have_pocs list."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/luxnet-io",
+      "twitter": "https://x.com/luxneti",
+      "instagram": "https://www.instagram.com/luxnet.io/",
+      "facebook": "https://www.facebook.com/luxnet.io/",
+      "email": "contactus@luxnet.io"
+    }
+  },
+  "ChIJ2VM-qnDdOkcRnKfKYtAgVm8": {
+    "people": [
+      {
+        "name": "Roman Kuzyk",
+        "role": "Director of Business Development (EU)",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "Multiple sources (TechBehemoths, ZoomInfo, Clutch) identify Roman Kuzyk as Director of Business Development in EU at InSpirito (inspiri.to, Lviv Ukraine) with 10+ years of international sales experience. No confirmed personal LinkedIn URL found in search results."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/inspirito",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@inspiri.to"
+    }
+  },
+  "ChIJMyEua4DdOkcRnSsY1Q2MOXA": {
+    "people": [
+      {
+        "name": "Yuriy Gnatyuk",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/yuriygnatyuk",
+        "twitter": "https://x.com/yuragnatyuk",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/gnatyuk.yuriy",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "Tracxn and TechUkraine article confirm Yuriy Gnatyuk and Anton Skrypnyk co-founded SignSpot (sign-spot.com, Lviv) in 2020. LinkedIn linkedin.com/in/yuriygnatyuk confirmed via multiple search results. Note: Gnatyuk is currently primarily at Kindgeek; confidence 0.8 since he may be less active at SignSpot now. Anton Skrypnyk is already in have_owner, so not re-listed here."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/signsp0t",
+      "twitter": "https://twitter.com/signspot_",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/SignSp0t/",
+      "email": ""
+    }
+  },
+  "ChIJ01tcJd7dOkcRauFRVUxsWwk": {
+    "people": [
+      {
+        "name": "Max Poida",
+        "role": "Senior SDR (Sales Development Representative)",
+        "linkedin": "https://www.linkedin.com/in/maxpoida/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "ZoomInfo and The Org both confirm Max Poida as Senior SDR at GreenM (greenm.io). LinkedIn URL linkedin.com/in/maxpoida/ confirmed from search results. Not in have_pocs list."
+      },
+      {
+        "name": "Sergiy Oliynyk",
+        "role": "Technical Lead",
+        "linkedin": "https://www.linkedin.com/in/sergiy-oliynyk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "LinkedIn search result confirms Sergiy Oliynyk at GreenM (greenm.io). Profile shows C#/F#/JavaScript skills consistent with technical role. Exact title not confirmed from snippet; confidence adjusted to 0.75. Not in have_pocs list."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/greenm",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/greenm.rocks/",
+      "facebook": "https://www.facebook.com/greenmrocks/",
+      "email": "hello@greenm.io"
+    }
+  },
+  "ChIJg9R0n8LdOkcRNBRL-aignLk": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/teamrainmakers",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/teamrainmakerssolutions/",
+      "email": ""
+    }
+  },
+  "ChIJISeGUF_dOkcRwSV3W07gItk": {
+    "people": [
+      {
+        "name": "Roman Bayik",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.8,
+        "evidence": "RocketReach entry confirms Roman Bayik as Co-Founder and CTO at Define Solutions (definesolutions.co, Ukraine). Prior roles at ArtfulBits and SoftServe ITAcademy. No confirmed personal LinkedIn URL found in search results. Roman Kravets (CEO) is already in have_owner."
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/definesolutions",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  }
+}

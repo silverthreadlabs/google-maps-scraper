@@ -1,0 +1,44 @@
+{
+  "ChIJiVax7pxTgCcRV0-05T06ayo": {
+    "name": "Sergii Anufriiev",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/sergii-anufriiev/",
+    "confidence": 0.85,
+    "evidence": "URich website lists Sergii Anufriiev as Founder and CEO; LinkedIn profile linkedin.com/in/sergii-anufriiev/ confirmed via urich.org company page and LinkedIn company page linkedin.com/company/urichorg"
+  },
+  "ChIJe2JBzPLpOkcRQpBGCAgohyA": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "nerd-stud.io website and About/Contact pages list no founder or leadership names; LinkedIn company page exists but no individual identified"
+  },
+  "ChIJrZOXQKzdOkcRVOAPBz1YzFI": {
+    "name": "Victor Pryshlyak",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://ua.linkedin.com/in/victor-pryshlyak-9699a513",
+    "confidence": 0.9,
+    "evidence": "usoftware.co quotes Victor Pryshlyak as CEO; LinkedIn profile ua.linkedin.com/in/victor-pryshlyak-9699a513 explicitly shows 'CEO & Co-Founder - United Software'"
+  },
+  "ChIJ6cbPiPvdOkcR0QiDYI12X4M": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "noborder.dev is an anonymous Ukrainian car import calculator tool; no founder, CEO or owner disclosed on website or in web searches"
+  },
+  "ChIJS8IukF7nOkcRxJabrM2Bp8o": {
+    "name": "Kostya Khuta",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/kostya-khuta/",
+    "confidence": 0.9,
+    "evidence": "volpis.com About page and LinkedIn profile linkedin.com/in/kostya-khuta/ confirmed as Co-Founder & CEO of Volpis Mobile and Web Development; corroborated by ContactOut and RocketReach"
+  },
+  "ChIJ92-2krHhOkcRYv18oXfzQ2A": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "docode.dev About page has a Meet the Team section but no names listed; web searches for DOCODE DEVELOPMENT OÜ (Estonia reg 16529961) returned no founder/CEO identity"
+  }
+}

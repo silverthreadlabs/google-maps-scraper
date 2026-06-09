@@ -1,0 +1,79 @@
+{
+  "ChIJq6p6GLbF1EARoGIwrVHYSrA": {
+    "people": [
+      {
+        "name": "Andrii Shchukin",
+        "role": "Head of Development / CTO",
+        "linkedin": "https://ua.linkedin.com/in/andriishchukin",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.65,
+        "evidence": "ZoomInfo lists Andrii Shchukin as Department Head of Development at Abweb (abweb.com.ua); abweb.com.ua website lists 'Andriy Shchukin – CTO' on team page; LinkedIn profile at ua.linkedin.com/in/andriishchukin matches name and Ukrainian domain"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/abweb",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/abweb_studio",
+      "facebook": "https://www.facebook.com/abweb.digital.agency",
+      "email": "info@abweb.com.ua"
+    }
+  },
+  "ChIJ8WTRi-3P1EAR6Tgfjvis0s8": {
+    "people": [
+      {
+        "name": "Olesya Bikova",
+        "role": "Sales Director",
+        "linkedin": "https://www.linkedin.com/in/olesya-bikova-a0849843",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile explicitly shows 'Sales Director – Brander'; confirmed on ua.linkedin.com/in/olesya-bikova-a0849843 with Kharkiv location matching Brander HQ; multiple search results corroborate"
+      },
+      {
+        "name": "Andrii Dolzhykov",
+        "role": "Technical Lead",
+        "linkedin": "https://ua.linkedin.com/in/adolzhykov",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn search result title 'Andrii Dolzhykov – Technical Lead – Brander' with profile at ua.linkedin.com/in/adolzhykov; confirmed by multiple search result snippets"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/brander-ua",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/brander.ua",
+      "facebook": "https://www.facebook.com/brander.ua",
+      "email": "hello@branderstudio.com"
+    }
+  },
+  "ChIJjV0p2-fi20ARfr5tqfEskjg": {
+    "people": [
+      {
+        "name": "Anna Denisenko",
+        "role": "Senior Executive",
+        "linkedin": "https://ua.linkedin.com/in/anna-denisenko-057262b4",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.6,
+        "evidence": "RocketReach lists Anna Denisenko as Senior Executive at WebPR Ukraine; LinkedIn profile at ua.linkedin.com/in/anna-denisenko-057262b4 associated with WebPR Ukraine on ua.linkedin.com; WebPR is a small 6-11 person company"
+      }
+    ],
+    "company": {
+      "linkedin": "https://ua.linkedin.com/company/ecoms-ecommerce-solutions",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/web_pr",
+      "facebook": "https://www.facebook.com/webprua",
+      "email": "webprdnepr@gmail.com"
+    }
+  }
+}

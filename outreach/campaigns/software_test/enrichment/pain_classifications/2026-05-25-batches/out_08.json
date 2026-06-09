@@ -1,0 +1,473 @@
+[
+  {
+    "id": 240,
+    "categories": [
+      {
+        "main": "scope_drift",
+        "sub": "unexpected_extra_charges",
+        "confidence": 0.85,
+        "quote": "отримав збільшення ДРВ (доля рекламних витрат) в перший місяць на 30%, другий - 30-40%, третій - 50%",
+        "reasoning": "Ad spend share grew substantially beyond initial expectations, costs ballooning beyond the original engagement terms."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.7,
+        "quote": "Компенсацію коштів за неякісно надані послуги не отримав",
+        "reasoning": "Customer characterizes the service as poorly delivered and not matching what was promised in the brief."
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "методи та звіти шаблонні, результат роботи компаній посередній",
+        "reasoning": "Templated methods/reports and mediocre campaign results — work product did not meet expectations."
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "Інтеграція з Viber регулярно відключалася сама по собі",
+        "reasoning": "Core product feature (Viber integration) repeatedly broke, causing direct business harm — bad/broken deliverable."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "Відповіді були однакові: “завтра”, “післязавтра”, “наступного тижня”. Проблеми не вирішувалися місяцями",
+        "reasoning": "Customer repeatedly requested support; issues went unresolved for months — support stringing customer along."
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "менеджер типа коллектора, который звонит, пишет, считает что имеет право подшучивать над клиентом",
+        "reasoning": "Sales/account manager behaved unprofessionally, mocking and pressuring the customer — rude staff tone."
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Часті баги в вильоти системи, через збої на серверах партнерів, що власне ускладн.є або унемовжливлює роботу",
+        "reasoning": "Frequent bugs and crashes make the product unusable — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "меня их менеджер уверял, что всё работать будет отлично, что телефония будет работать напрямую с сайта без сторонних приложений, что цены не будут повышаться",
+        "reasoning": "Salesperson made specific promises (telephony works, prices stable) that diverged from delivered reality."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "минимум раз в неделю у них вылазит очередной глюк и мы не можем распечатать приёмную квитанцию, не работает поиск заказов и клиентов, не работает телефония",
+        "reasoning": "Core product features regularly broken — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.85,
+        "quote": "попри запевнення менеджерів з продажу, що це найкраща CRM",
+        "reasoning": "Product diverged substantially from salespeople's promises — raw/unfinished state contradicts what was sold."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "програма на дуже сирому рівні",
+        "reasoning": "Customer describes the product as 'raw'/unfinished."
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "впарили то, что не работает",
+        "reasoning": "Customer was sold something that doesn't work — sold product diverges from reality."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.9,
+        "quote": "система не определяет клиента, импортированного в базу",
+        "reasoning": "Core function broken from day one — bad deliverable."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "quote": "Менеджер, который продает и консультирует -  только до покупки. Как только купил - все! он ничем помочь не может",
+        "reasoning": "After purchase, sales manager disengaged and customer couldn't get help — post-sale follow-through dropped."
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "Такого Хамського відношення ще не зустрічав!",
+        "reasoning": "Customer explicitly calls support behavior rude/insolent."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "Просив отримати підтримку і презентацію 2 рази ,не отримав її від слова зовсім",
+        "reasoning": "Customer actively requested a demo/support twice and never received it — dropped lead/quote scenario."
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Вечно зависает, выбивает ошибки при оприходовании товара",
+        "reasoning": "Product freezes and errors out on basic operations — broken deliverable."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "при наличии реальной проблемы менеджеры морозятся и льют воду",
+        "reasoning": "When customers raise real problems, managers freeze them out and give meaningless answers — poor/evasive communication."
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.7,
+        "quote": "пусті обіцянки, вже більше року обіцяють випустити оновлення",
+        "reasoning": "Promised updates not delivered for over a year — unfinished/promised work not shipping."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "quote": "служба підтримки дуже довго відповідає",
+        "reasoning": "Support takes very long to respond — slow callbacks to customer inquiries."
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.8,
+        "quote": "Ця супер крута CRM система не працює з ПРРО",
+        "reasoning": "Marketed as comprehensive CRM but doesn't work with required local fiscal system — diverges from promise."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "late_delivery",
+        "confidence": 0.7,
+        "quote": "Дизайн цінників налаштовував за 4500грн десь тиждень",
+        "reasoning": "A small configuration task (price tag design) took a week — delayed delivery on paid work."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "ще іноді хамовиті",
+        "reasoning": "Consultants described as sometimes rude/insolent."
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.6,
+        "quote": "база зручна, але підглючує",
+        "reasoning": "Product glitches during the workday — bugs in the delivered product."
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Зависає, написав щось, перезавантажується, склад по запчастинам перемішується",
+        "reasoning": "Product freezes, restarts, and scrambles inventory data — broken deliverable behaviors."
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "інтеграція з чатами не працює",
+        "reasoning": "Advertised chat integration doesn't work — broken core feature."
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "консультація служби підтримки у вигляді Артема дуже не компетентна та зухвала",
+        "reasoning": "Support consultant described as incompetent and insolent — rude staff."
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.55,
+        "quote": "тех підтримка довго відновлює роботу",
+        "reasoning": "Service outages take long to restore — implied repeated breakage of the product."
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Вечно виснет!",
+        "reasoning": "Product constantly hangs — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "does_not_match_promise",
+        "confidence": 0.9,
+        "quote": "Те що ви прочитаєте на сайті, не відповідає дійсності, заявлений функціонал працює виключно на половину",
+        "reasoning": "Advertised functionality only half works — delivered product diverges from what was sold."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "Постійні зависання, недороблений функціонал, постійні збої в роботі стали просто нормою",
+        "reasoning": "Constant freezes, half-baked functionality, persistent failures — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.9,
+        "quote": "Turned into a complete scam and they never produced anything",
+        "reasoning": "Customer paid but nothing was ever produced — abandoned project."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.85,
+        "quote": "Won’t return my money and won’t provide the service they signed me up for",
+        "reasoning": "Refund refused despite no service rendered — refund/payment issue."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "I had harassed and degraded",
+        "reasoning": "Customer reports being harassed and degraded by staff — rude/unprofessional treatment."
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "categories": []
+  },
+  {
+    "id": 261,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "результатів пошуку 0, Нуль!!, В Києві нуль результатів по послузі",
+        "reasoning": "Core search functionality returns zero usable results even when content exists — broken product."
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.6,
+        "quote": "При реєстрації в переліку  не знайшла м Кагарлик, Київська область",
+        "reasoning": "Registration directory missing a real city it should contain — incomplete/broken data in product."
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.85,
+        "quote": "у поліклініці виясняється що лікар у відпустці. Повідомлення про скасування не приходило ні у Вайбер, ні смс. У додатку досі статус Підтвердженно!",
+        "reasoning": "App shows false confirmation status, fails to notify of cancellation — broken/misleading product."
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.65,
+        "quote": "Самая нелогичная, неудрбная система электронного документооборота медучреждений",
+        "reasoning": "Product described as illogical and unusable — poor deliverable."
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "Після реєстрації не підтягується ні декларація, ні сімейний лікар",
+        "reasoning": "Core feature (declaration/family doctor lookup) does not work after registration — broken deliverable."
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "Ні сімейний лікар ні медична картка не підтягується",
+        "reasoning": "Critical app data doesn't load — broken core function."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "Служба техпідтримки тільки реєструє звернення і все, ні якого зворотного зв'язку",
+        "reasoning": "Customer raised support ticket and got no follow-up response — dropped customer inquiry."
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.8,
+        "quote": "Неможливо записатись і отримати хоч якісь послуги",
+        "reasoning": "Impossible to book or get any services — core functionality broken."
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.95,
+        "quote": "такого хамського відношення я ще не чула",
+        "reasoning": "Customer explicitly cites extreme rudeness from support staff."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.5,
+        "quote": "майже неможливо звʼязатись",
+        "reasoning": "Almost impossible to reach support — implies unanswered contact attempts."
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "менеджер Альона відповідала на мої запитання зверхньо та непривітно",
+        "reasoning": "Hotline manager responded condescendingly and unfriendly — rude staff tone."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "3 3ьох питань розібралась лише з 1",
+        "reasoning": "Customer raised three questions and only one was addressed — concerns largely ignored."
+      }
+    ]
+  }
+]

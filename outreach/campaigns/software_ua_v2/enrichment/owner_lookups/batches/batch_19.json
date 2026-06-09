@@ -1,0 +1,44 @@
+{
+  "ChIJTUZevKPN1EARWEJLkjVH__Y": {
+    "name": "Serg Chaika",
+    "title": "Founder",
+    "linkedin": "https://www.linkedin.com/in/sergchaika/",
+    "confidence": 0.6,
+    "evidence": "Named on gestli.com team/blog page as author and team member; LinkedIn shows Co-Founder/CEO at GetOrder.Biz (Gestli pivot), same person confirmed via ZoomInfo and website"
+  },
+  "ChIJB74VowHP1EARV4-5eWatZys": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/CEO found on skydigitallab.com, Tracxn, ZoomInfo, or LinkedIn searches"
+  },
+  "ChIJK_JtqWbO1EAR7Cr6odhyQ_4": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/owner found on webtraktor.net website or any external source; site has no team page"
+  },
+  "ChIJwS9DoMvP1EARma0szz5T8Yc": {
+    "name": "Ruslan Yumagulov",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/ruslan-yumagulov-1732a4180/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn title 'Founder & CEO at VYMEX'; confirmed by TheOrg, RocketReach, and kooperativ.cc article; Vymex HQ listed in Kyiv"
+  },
+  "ChIJveOjzaXP1EAR47A11DmYCbw": {
+    "name": "Paul Boroday",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/paulboroday/",
+    "confidence": 0.85,
+    "evidence": "LinkedIn title 'CEO at uStudio Company'; confirmed by RocketReach, Djinni profile, and GitHub; ustudio.company domain matches"
+  },
+  "ChIJHf9mVrDP1EARQxJpHmrhcbc": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No named founder/CEO on viinars.com (404) or in search results; Veniamin Vynohradov appeared in searches but no confirmed VIINARS connection"
+  }
+}

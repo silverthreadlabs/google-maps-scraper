@@ -1,0 +1,133 @@
+{
+  "ChIJq6oar_zO1EARa6jc8DZXLgg": {
+    "people": [
+      {
+        "name": "Oksana Rabotai",
+        "role": "Business Development",
+        "linkedin": "https://www.linkedin.com/in/oksana-rabotai-81009a48/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile explicitly lists 'Business Development at Vantino' with @vantino.com email domain confirmed via ZoomInfo; multiple sources corroborate her role and company association"
+      },
+      {
+        "name": "Yehor Podkuiko",
+        "role": "Head of Ukrainian Branch / Business Development Manager",
+        "linkedin": "https://www.linkedin.com/in/yegor-podkuiko/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "yehor.podkuiko@vantino.ch",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile explicitly names 'Head of Ukrainian Branch - Vantino'; ZoomInfo confirms Business Development Manager role with @vantino.com email; email format yehor.podkuiko@vantino.ch surfaced in search results"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/vantino",
+      "twitter": "https://twitter.com/Vantino_Soft",
+      "instagram": "https://www.instagram.com/vantino.rd/",
+      "facebook": "https://www.facebook.com/Vantinosoft",
+      "email": "sales@vantino.com"
+    }
+  },
+  "ChIJmZf5SmbN1EARELPRIGU861g": {
+    "people": [
+      {
+        "name": "Andrii Droniv",
+        "role": "Manager, Delivery",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "ZoomInfo lists Andrey Droniv as Manager, Delivery at Intellect-Service (ispro.ua developer) based in Kyiv; partial email d***@intelserv.com matches company domain; no confirmed LinkedIn URL found"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/isproerp",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/ISproUA/",
+      "email": "sale@ispro.ua"
+    }
+  },
+  "ChIJv9bEK6XF1EARKnfUo16Vgig": {
+    "people": [
+      {
+        "name": "Oksana S",
+        "role": "UX Lead",
+        "linkedin": "https://www.linkedin.com/in/oksana-s-paradigma-st/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "LinkedIn profile 'Oksana S - Paradigma Development' confirmed via multiple sources (RocketReach, search results) as UX Lead at Paradigma Development (paradigma.dev / paradigma-st); current employer verified"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/paradigma-st",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "m@paradigma.dev"
+    }
+  },
+  "ChIJAQAQGDzM1EARAkjewuX7i1U": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/CleverForms",
+      "email": "cleverforms@a-express.com.ua"
+    }
+  },
+  "ChIJLUaF9hjM1EARotHXzA087WU": {
+    "people": [
+      {
+        "name": "Andriy Didyk",
+        "role": "Marketing Manager",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.7,
+        "evidence": "ZoomInfo and RocketReach management org-chart for Seismic Point Group LLC both list Andriy Didyk as Marketing Manager (Менеджер по маркетингу) at Seismic Point, Kyiv; no personal LinkedIn URL confirmed with sufficient confidence"
+      }
+    ],
+    "company": {
+      "linkedin": "",
+      "twitter": "https://twitter.com/seismicpoint",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJCblphy_M1EARcBr2NEtt3Qw": {
+    "people": [
+      {
+        "name": "Andrii Lasinskiy",
+        "role": "Flutter Developer and Team Lead",
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.75,
+        "evidence": "ZoomInfo confirms Andrii Lasinskiy as Flutter Developer and Team Lead at Dev-Better with @dev-better.com email domain; dev-better.com domain identity verified; no personal LinkedIn URL confirmed"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/dev-better-inc",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@dev-better.com"
+    }
+  }
+}

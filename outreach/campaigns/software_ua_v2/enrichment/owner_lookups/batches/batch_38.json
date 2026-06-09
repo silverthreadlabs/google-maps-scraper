@@ -1,0 +1,44 @@
+{
+  "ChIJ9547CoHdOkcRslWnSTcEf0k": {
+    "name": "Olexandr Komarnitskyi",
+    "title": "CEO",
+    "linkedin": "https://ua.linkedin.com/in/alexandr-komarnitskyi-46195382",
+    "confidence": 0.75,
+    "evidence": "RocketReach lists Olexandr Komarnitskyi as CEO at Heads.company (heads.company); LinkedIn company page also lists him as an employee; consistent across multiple sources"
+  },
+  "ChIJP6f1OSQLLGARmLffdN4C5gM": {
+    "name": "Yuriy Hvozdovych",
+    "title": "",
+    "linkedin": "https://ua.linkedin.com/in/yuriy-hvozdovych",
+    "confidence": 0.5,
+    "evidence": "LinkedIn company page for Abra Agency (abra.agency, founded 2019, Partnership, 2-10 employees) lists Yuriy Hvozdovych as the sole discoverable employee; likely founder/owner but title unconfirmed"
+  },
+  "ChIJwU-WqqHdOkcRezuObrnoTS8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "fogwebstudio.site unreachable (ECONNREFUSED); no owner/founder found via web search for Антвен Вебстер or fogwebstudio"
+  },
+  "ChIJq5sueJ_dOkcRdgcGjlVrGJw": {
+    "name": "Myroslav Trofymuk",
+    "title": "",
+    "linkedin": "https://www.linkedin.com/in/myroslav-trofymuk-829355177/",
+    "confidence": 0.5,
+    "evidence": "Issuu uploads under myroslawtrofymuk linked to zemla.studio projects; Bandcamp and YouTube connect him to Zemla Studio; LinkedIn shows Art Director at Lviv Symphony Orchestra — role at Zemla Studio unconfirmed as founder/owner"
+  },
+  "ChIJNRvr5lXdOkcR3Rx7enYXvpM": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/owner found for Bearcka (bearcka.com); website lists contact email say@bearcka.com but no individual name disclosed; multiple searches returned no matching person"
+  },
+  "ChIJCULk8ODcOkcRlZQbeoLG_-o": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/owner found for веб студия Jupiter Design (jupiter-design.net); LinkedIn company page lists Juliana Ristova (MK profile, unrelated); website mentions 'Serhiy' in testimonials but no title or last name confirmed"
+  }
+}

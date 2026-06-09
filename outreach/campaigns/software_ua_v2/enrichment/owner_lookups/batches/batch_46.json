@@ -1,0 +1,44 @@
+{
+  "ChIJ56zk_aTP1EARooLFP_C15jM": {
+    "name": "Sergii Bondarenko",
+    "title": "Founder & Head/CEO",
+    "linkedin": "https://ua.linkedin.com/in/sergii-bondarenko-b3254150",
+    "confidence": 0.85,
+    "evidence": "LinkedIn title 'Founder Skywell | IT entrepreneur'; Skywell blog post names him 'Head of Skywell Software LLC' / 'CEO of Skywell Software LLC'"
+  },
+  "ChIJz97lfZrdOkcRJUb0lcyzYZ8": {
+    "name": "Andrew Burak",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/andrew-burak/",
+    "confidence": 0.95,
+    "evidence": "relevant.software/author/andrewburak lists him as CEO & Founder; confirmed by The Org, RocketReach, and Facebook post from Relevant Software page"
+  },
+  "ChIJA-LQju3M1EARYlsb6jfe9HQ": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Multiple searches on ipland.com.ua, LinkedIn, Crunchbase, ZoomInfo, RocketReach, and IT Ukraine Association returned no founder/CEO name; only CTO Serhii Boiko found"
+  },
+  "ChIJq6p6GLbF1EARoGIwrVHYSrA": {
+    "name": "Andrey Budnik",
+    "title": "Founder and CEO",
+    "linkedin": "https://ua.linkedin.com/in/andrey-budnik",
+    "confidence": 0.9,
+    "evidence": "LinkedIn profile ua.linkedin.com/in/andrey-budnik lists 'Founder - Abweb'; confirmed by ContactOut and abweb.com.ua website team page"
+  },
+  "ChIJHRegVjil3zgRWVcgg4eNZF0": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "genetechagency.com domain is for sale (no active site); LinkedIn 'Genetech Agency' at pk.linkedin.com is a Pakistani company unrelated to this listing; no Ukrainian founder found"
+  },
+  "ChIJ8WTRi-3P1EAR6Tgfjvis0s8": {
+    "name": "Igor Zagorulko",
+    "title": "Founder & CEO",
+    "linkedin": "https://ua.linkedin.com/in/igor-zagorulko-001370148",
+    "confidence": 0.9,
+    "evidence": "LinkedIn ua.linkedin.com/in/igor-zagorulko-001370148 title 'Founder & CEO – Branderstudio.com'; confirmed by The Org (brander.ua), RocketReach, and first-person LinkedIn posts"
+  }
+}

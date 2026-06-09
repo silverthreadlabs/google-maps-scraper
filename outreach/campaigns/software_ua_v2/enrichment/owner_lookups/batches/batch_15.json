@@ -1,0 +1,44 @@
+{
+  "ChIJq6oar_zO1EARa6jc8DZXLgg": {
+    "name": "Jimmy Dubuisson",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/jimmydubuisson/",
+    "confidence": 0.92,
+    "evidence": "Confirmed via RocketReach, Djinni profile (djinni.co/r/14676-ceo-at-vantino/), and LinkedIn listing as Chief Executive Officer at Vantino; CERN colleague who co-founded Vantino in 2004; Geneva-based."
+  },
+  "ChIJC5LLfqDL1EARaJLRg9IdjIo": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website about page lists no individual names; LinkedIn and web search returned no identifiable founder/CEO specific to simplicity.com.ua."
+  },
+  "ChIJmZf5SmbN1EARELPRIGU861g": {
+    "name": "Sviatoslav Kryzhevych",
+    "title": "CEO",
+    "linkedin": "",
+    "confidence": 0.75,
+    "evidence": "Named as CEO of Intellekt-Servis (developer of ISpro ERP) in ispro.ua news interview and corroborated as managing partner of Linkos Group; no personal linkedin.com/in/ URL found in search."
+  },
+  "ChIJjUc_zZ7M1EARC3Nt7nIlehw": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "pg-group.online about page lists only first names without titles; no founder/CEO name identifiable in web or LinkedIn search."
+  },
+  "ChIJv9bEK6XF1EARKnfUo16Vgig": {
+    "name": "Mykhailo Smorodin",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/mikhail-smorodin",
+    "confidence": 0.9,
+    "evidence": "Named as CEO and Founder of Paradigma.ST on paradigma.dev author page and RocketReach; LinkedIn profile cy.linkedin.com/in/mikhail-smorodin confirmed via multiple LinkedIn posts attributed to this profile."
+  },
+  "ChIJAQAQGDzM1EARAkjewuX7i1U": {
+    "name": "Irina Mozgova",
+    "title": "Director",
+    "linkedin": "",
+    "confidence": 0.6,
+    "evidence": "youcontrol.com.ua lists Mozgova Irina Anatoliyivna as authorized director of TOV Advertaizing Express (USREOU 33301038), parent company of clever-forms.com; founders/shareholders are Titarchuk Sergii, Motruk Nazarii, Butov Andrii but no personal LinkedIn found for any."
+  }
+}

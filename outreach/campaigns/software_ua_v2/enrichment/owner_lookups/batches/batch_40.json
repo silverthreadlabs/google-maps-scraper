@@ -1,0 +1,44 @@
+{
+  "ChIJl1obhzx8pKIRxlO-ffF7Wb0": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Jul&Vol messageapi.укр — multiple searches returned no founder/CEO/owner; domain uses Cyrillic IDN, no indexed leadership info found"
+  },
+  "ChIJ9yWlJ7aHLYwRYO5Eu_QorGM": {
+    "name": "Bogdan Dyuk",
+    "title": "Internet Marketing Specialist",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "Company name IS the person; Google Site at sites.google.com/view/bogdandyuk is his personal portfolio listing 10+ years digital marketing experience, Lviv Ukraine; Twitter @BogdanDyuk confirmed; no linkedin.com/in URL verified"
+  },
+  "ChIJq1cwlGzoOkcReoG-_On89CA": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "pustovit.com is parked/for sale on GoDaddy; no active website content to identify founder/owner of Perfect City design studio"
+  },
+  "ChIJuyMsWcccu6YRJUZwdFCFz7s": {
+    "name": "Nazarii Kusyi",
+    "title": "",
+    "linkedin": "https://www.linkedin.com/in/nazarii-kusyi/",
+    "confidence": 0.6,
+    "evidence": "Sole contact listed on live2sport.com/contacts.php with company email info@live2sport.com; LinkedIn profile confirms Live2Sport affiliation; specific title (founder/CEO/owner) not stated"
+  },
+  "ChIJm7xcG1PnOkcRhLtI98eEQCY": {
+    "name": "Serhii Khoma",
+    "title": "CEO / Owner",
+    "linkedin": "https://www.linkedin.com/in/srghma/",
+    "confidence": 0.85,
+    "evidence": "ZoomInfo lists Serhii Khoma as Chief Executive Officer at Rocket Harbor (s***@rocketharbor.com); Djinni profile confirms 'Owner at Rocket Harbor'; LinkedIn handle srghma confirmed via multiple sources"
+  },
+  "ChIJ2Y41lxC51mURIubGnrtNK4M": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "enkoss.com returned 404; no founder/CEO found via search; RocketReach lists only engineers/managers, no C-level identified"
+  }
+}

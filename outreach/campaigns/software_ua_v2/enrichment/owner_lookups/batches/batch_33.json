@@ -1,0 +1,44 @@
+{
+  "ChIJMyEua4DdOkcRnSsY1Q2MOXA": {
+    "name": "Anton Skrypnyk",
+    "title": "Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/antonskrypnyk/",
+    "confidence": 0.75,
+    "evidence": "TechUkraine article and Tracxn confirm Anton Skrypnyk & Yuriy Gnatyuk co-founded sign-spot.com SignSpot in Lviv 2020; Anton is primary CEO/board figure (also CEO at KindGeek); LinkedIn linkedin.com/in/antonskrypnyk verified"
+  },
+  "ChIJ01tcJd7dOkcRauFRVUxsWwk": {
+    "name": "Alexey Litvin",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/alexeylitvin/",
+    "confidence": 0.95,
+    "evidence": "Multiple sources (The Org, RocketReach, GreenM blog) confirm Alexey Litvin is CEO & Founder of GreenM (greenm.io); LinkedIn profile linkedin.com/in/alexeylitvin confirmed"
+  },
+  "ChIJg9R0n8LdOkcRNBRL-aignLk": {
+    "name": "Mykhaylo Katruk",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/mykhaylokatruk/",
+    "confidence": 0.8,
+    "evidence": "Djinni profile lists 'Mykhaylo Katruk, CEO at Team Rainmakers'; LinkedIn ua.linkedin.com/in/mykhaylokatruk found; TRM Solutions / Team Rainmakers is Lviv-based .NET shop at trm.solutions"
+  },
+  "ChIJsZirVWjdOkcR5Hno49C8EX4": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "skynex.tv company page and multiple searches returned no leadership names; brand noise from Rheinmetall Skynex air-defense system dominates all results"
+  },
+  "ChIJISeGUF_dOkcRwSV3W07gItk": {
+    "name": "Roman Kravets",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/rvkravets/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn search directly returned 'Roman Kravets - Co-Founder | CEO - Define Solutions' at linkedin.com/in/rvkravets/; ZoomInfo corroborates Define Solutions Ukraine entity"
+  },
+  "ChIJe51yFO3dOkcR4QUtJux8PLM": {
+    "name": "Taras Onyskiv",
+    "title": "Creative Director & Founder",
+    "linkedin": "https://www.linkedin.com/in/tarasonyskiv/",
+    "confidence": 0.9,
+    "evidence": "ZoomInfo and RocketReach list Taras Onyskiv as Creative Director & Founder at tsukat.com; LinkedIn linkedin.com/in/tarasonyskiv/ confirmed; Lviv, Ukraine location matches"
+  }
+}

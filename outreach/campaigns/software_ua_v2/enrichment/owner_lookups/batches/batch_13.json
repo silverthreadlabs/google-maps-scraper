@@ -1,0 +1,44 @@
+{
+  "ChIJQW9YAmzF1EARsJQaayfhe2U": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "massivekinetic.com about-us page describes 8-person anonymous team with no named leaders; no founder/CEO found in web or LinkedIn searches"
+  },
+  "ChIJx-Ea5nZbjocRcvF0Kcalmmk": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "papaya-it.com about page returned minimal content with no named leaders; all Papaya search results lead to unrelated Papaya Global (Israeli fintech)"
+  },
+  "ChIJd0oFqIFbjmkRQFp44perqpg": {
+    "name": "Serhii Pashkovskyi",
+    "title": "Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/serhii-pashkovskyi-341904b7/",
+    "confidence": 0.75,
+    "evidence": "LinkedIn title explicitly 'co-founder VoicerHub'; voicer.software redirects to voicerhub.com; VoicerHub is the parent company of Voicer feedback product; Kyiv-based confirmed"
+  },
+  "ChIJHRh3YXfF1EARrD4DlOCXAxk": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "websitewp.org links to GitHub/LinkedIn handle 'ss1919' but full name not publicly discoverable; no search results connecting the handle to a named individual"
+  },
+  "ChIJpwmZ_oXdLScRsIROIDsTcaU": {
+    "name": "Pavel Tseluyko",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/pavel-tseluyko-1534a2204",
+    "confidence": 0.95,
+    "evidence": "LinkedIn profile title 'Pavel Tseluyko - Merge Rocks' / 'CEO & Founder Merge'; Behance confirms 'CEO in Kyiv, Ukraine'; YouTube interview titled 'CEO & Founder Merge'; multiple corroborating sources"
+  },
+  "ChIJWxt4AlHO1EARCsbXYwfTR2c": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "keyua.org about page lists CTO Andrey Onopriyenko and other staff but no founder/CEO named; Clutch, Tracxn, ZoomInfo profiles all lack founder identity; company founded 2008 but ownership undisclosed"
+  }
+}

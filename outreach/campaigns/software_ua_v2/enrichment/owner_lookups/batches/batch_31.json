@@ -1,0 +1,44 @@
+{
+  "ChIJYf8zSO_nOkcR5SJj8eGwhBQ": {
+    "name": "Serhiy Kharytonov",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/serhiykharytonov/",
+    "confidence": 0.95,
+    "evidence": "jetsoftpro.com/about-us confirms Kharytonov as Founder and CEO; LinkedIn post 'my company JetSoftPro' corroborates; Salesgear/Crunchbase list him as Chief Executive Officer and Founder"
+  },
+  "ChIJz1XOin7nOkcRwkq9PIRKCAE": {
+    "name": "Oleh Tarasiuk",
+    "title": "Co-Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/oleh-tarasiuk-2400273b",
+    "confidence": 0.9,
+    "evidence": "codegeeks.solutions lists Oleg Tarasiuk as CEO & Strategist; RocketReach and ZoomInfo confirm 'Co-Founder and CEO at CodeGeeks Solutions'; LinkedIn slug oleh-tarasiuk-2400273b verified via LinkedIn post tagged #codegeeks"
+  },
+  "ChIJ7eeAFtnnOkcRULhfikPYAQc": {
+    "name": "Myron Mavko",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/myron-mavko",
+    "confidence": 0.85,
+    "evidence": "TheOrg lists Myron Mavko as CEO at Flexum; flexum.io names 'Myron' as co-founder/software veteran; ua.linkedin.com/in/myron-mavko found via search; CBInsights and DesignRush corroborate"
+  },
+  "ChIJ2emoQtvnOkcRHKvQsISw0Do": {
+    "name": "Kostiantyn Berehovyi",
+    "title": "Founder",
+    "linkedin": "",
+    "confidence": 0.75,
+    "evidence": "berko.tech About section explicitly states 'led by founder Kostiantyn Berehovyi'; no matching personal linkedin.com/in/ profile confirmed for berko.tech (found profile is Lead Developer at Joggle AI, different role)"
+  },
+  "ChIJYYo0Q__pOkcRisrlTtbQW6w": {
+    "name": "Yurii Mamonchuk",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/ymamonchuk/",
+    "confidence": 0.9,
+    "evidence": "RocketReach lists 'Yurii Mamonchuk, CEO and Founder at Selecto'; LinkedIn profile linkedin.com/in/ymamonchuk/ confirmed via search result title 'Yurii Mamonchuk - Selecto | LinkedIn'; selectoglobal.com is company domain"
+  },
+  "ChIJ7dOsd8rnOkcR9IHHkwHDmPQ": {
+    "name": "Vasyl Kulak",
+    "title": "Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/vasyl-kulak-5aa304202",
+    "confidence": 0.8,
+    "evidence": "ZoomInfo and LinkedIn confirm Vasyl Kulak as Co-Founder at FutureOne Tech (futureone.tech domain); Yuriy Shtybel is CEO but Kulak is the named co-founder with verified linkedin.com/in/ profile"
+  }
+}

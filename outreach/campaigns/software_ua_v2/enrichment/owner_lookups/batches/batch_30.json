@@ -1,0 +1,44 @@
+{
+  "ChIJA7XlIJskkEARtkm2EPUxCS4": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/CEO name found via website (justify.agency serves only generic content, no team/about page with names), LinkedIn, Clutch, or web search; no personal profile linkable to this specific company"
+  },
+  "ChIJI0JKYdvnOkcROyuHN25d-qI": {
+    "name": "Dmytro Sennikov",
+    "title": "General Manager / Head of Ukraine",
+    "linkedin": "https://www.linkedin.com/in/dsennikov/",
+    "confidence": 0.8,
+    "evidence": "RocketReach and LinkedIn both list Dmytro Sennikov as General Manager & Head of Ukraine at ISsoft Ukraine (issoft.ua redirects to coherentsolutions.com/offices/ukraine); ISoft Ukraine is a subsidiary, not independently owned, so this is the senior local decision-maker rather than a founder/owner"
+  },
+  "ChIJXSwTqArnOkcR5epz5IjrOME": {
+    "name": "Illia Romanenko",
+    "title": "CEO & CTO",
+    "linkedin": "https://www.linkedin.com/in/illiaromanenko/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn profile title 'Worklog.ai | Solid Software | CEO & CTO', confirmed by TheOrg, Tracxn, and Wiza as CEO & CTO of Solid Software (solid.software) since March 2018, Kharkiv, Ukraine"
+  },
+  "ChIJ35CjuwznOkcRXv-uO1l8vYs": {
+    "name": "Roman Koshynskyi",
+    "title": "Owner & CEO",
+    "linkedin": "https://www.linkedin.com/in/roman-koshynskyi-57a748118/",
+    "confidence": 0.9,
+    "evidence": "LinkedIn title explicitly 'Owner & CEO - The UpperCode', confirmed by TheUpperCode about page and CBInsights; company is Lviv-based matching Google Maps listing for theuppercode.com"
+  },
+  "ChIJ9wSGfePnOkcRq6QZ8EgXTN8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "GTM Plus (gtm-plus.com / Great Technical Minds LLC, Lviv) CEO is female per a Clutch review mentioning WebSummit 2019, but no name found in any public source; Crunchbase/ZoomInfo/RocketReach all blocked; company page only lists mid-level staff (Jasmin Baro, Viktoriia Tsalko, Istvan Feny)"
+  },
+  "ChIJLbHW-bvnOkcRwgpm7snykz4": {
+    "name": "Andriy Nytrebych",
+    "title": "Founder, Owner & CEO",
+    "linkedin": "https://ua.linkedin.com/in/andriy-nytrebych-14b616b1",
+    "confidence": 0.95,
+    "evidence": "LinkedIn title explicitly 'Founder, Owner, CEO - SolidBrain'; confirmed by ZoomInfo contact record, solidbrain.net/about-us naming him as Founder, and multiple LinkedIn posts under his profile promoting solidbrain.net content"
+  }
+}

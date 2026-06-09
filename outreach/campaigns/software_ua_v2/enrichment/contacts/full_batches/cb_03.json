@@ -1,0 +1,142 @@
+{
+  "ChIJx3f-KJvN1EARrZ4vBt7cM6c": {
+    "people": [
+      {
+        "name": "Anna Khomaziuk",
+        "role": "Business Development Representative",
+        "linkedin": "https://www.linkedin.com/in/annakhomaziuk/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile confirms current role as Business Development Representative at Eleken; ZoomInfo and The Org corroborate"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/eleken",
+      "twitter": "https://x.com/elekenagency",
+      "instagram": "https://www.instagram.com/elekenagency/",
+      "facebook": "https://www.facebook.com/eleken.agency/",
+      "email": "hello@eleken.co"
+    }
+  },
+  "ChIJm4-uMumCrKsRmlorFScVJA8": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/heatup.ua/",
+      "facebook": "https://www.facebook.com/heatup.dp",
+      "email": "info@heatup.com.ua"
+    }
+  },
+  "ChIJBawUZFvj20ARN38AIT15txE": {
+    "people": [],
+    "company": {
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": ""
+    }
+  },
+  "ChIJFcUl8Mjj20ARo3rLHPGNN3g": {
+    "people": [
+      {
+        "name": "Mykyta Zakharchenko",
+        "role": "Co-Founder & CPO",
+        "linkedin": "https://www.linkedin.com/in/nikita-zakharchenko/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "NML Digital about-us page lists him as Co-Founder & CPO of NML Group with LinkedIn URL"
+      },
+      {
+        "name": "Anton Ksenita",
+        "role": "Co-Founder & COO",
+        "linkedin": "https://www.linkedin.com/in/anton-ksenita-862294236/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "NML Digital about-us page lists him as Co-Founder & COO of NML Group with LinkedIn URL"
+      },
+      {
+        "name": "Ruslan Hurbanov",
+        "role": "Head of Development",
+        "linkedin": "https://www.linkedin.com/in/ruslan-hurbanov-55b573180/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "NML Digital about-us page lists him as Head of Development with LinkedIn URL"
+      }
+    ],
+    "company": {
+      "linkedin": "https://ua.linkedin.com/company/nml-digital",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/nml.ua/",
+      "facebook": "https://www.facebook.com/nmlmarketingagency/",
+      "email": "nmldigital.ukraine@gmail.com"
+    }
+  },
+  "ChIJl27TOPTP1EAR5TepnTmXUQs": {
+    "people": [
+      {
+        "name": "Dmitry Orlovsky",
+        "role": "Managing Director - Digital Engineering/GTM",
+        "linkedin": "https://www.linkedin.com/in/dmitryorlovsky/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "The Org and LinkedIn confirm current role as Managing Director at Proxet"
+      },
+      {
+        "name": "Ruslan Rymar",
+        "role": "Chief Architect",
+        "linkedin": "https://www.linkedin.com/in/ruslan-rymar-6b662046/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.9,
+        "evidence": "LinkedIn profile confirms Chief Architect at Proxet; The Org corroborates"
+      },
+      {
+        "name": "Pat Burke",
+        "role": "Head of Sales",
+        "linkedin": "https://www.linkedin.com/in/pat-burke-3632ba393",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": 0.85,
+        "evidence": "PR Newswire announcement and LinkedIn post confirm Pat Burke as Head of Sales at Proxet"
+      }
+    ],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/proxet",
+      "twitter": "https://x.com/proxet_com",
+      "instagram": "https://www.instagram.com/proxet.nation/",
+      "facebook": "https://www.facebook.com/proxet.nation/",
+      "email": "info@proxet.com"
+    }
+  },
+  "ChIJDQ2-VEHN1EARCW4miuON8oo": {
+    "people": [],
+    "company": {
+      "linkedin": "https://www.linkedin.com/company/amifactory",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/amifactory/",
+      "email": "hello@amifactory.team"
+    }
+  }
+}

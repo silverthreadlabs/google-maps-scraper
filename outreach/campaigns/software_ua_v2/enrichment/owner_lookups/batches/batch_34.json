@@ -1,0 +1,44 @@
+{
+  "ChIJXwVKESfdOkcRwzsLo9tJYXE": {
+    "name": "Illia Kovtun",
+    "title": "Founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/illia-kovtun-inforce/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn title 'Founder @Inforce' confirmed via RocketReach and ContactOut listing him as Founder/CEO at inforce.digital (Lviv, Ukraine)"
+  },
+  "ChIJ7XDQQ_3dOkcRbCeGlF8AYBE": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "nicshop.com.ua website lists Danilo Kachmarskyi as Executive Director but no founder/owner identified; no LinkedIn found linking this person to ownership"
+  },
+  "ChIJcUHsfordOkcROvgQTfyMIO4": {
+    "name": "Volodymyr Shynkar",
+    "title": "CEO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/vshynkar/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn profile linkedin.com/in/vshynkar confirmed CEO & Co-Founder at AppRecode (apprecode.com); also confirmed on RocketReach, Crunchbase, and TheOrg"
+  },
+  "ChIJJWg9HvTnOkcRNQ3Tjg_eBR8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "emex.com is an Irish EHS/ESG software company (Dublin) founded by Richard Wall & Simon Kelly — not a Ukrainian company; Google Maps listing appears to be a Ukrainian office, not a Ukrainian-founded firm; not within scope"
+  },
+  "ChIJ_3DND37nOkcRa3eYmzaO-zI": {
+    "name": "Vadym Morozov",
+    "title": "Founder",
+    "linkedin": "https://www.linkedin.com/in/vadym-morozov-5b973396/",
+    "confidence": 0.85,
+    "evidence": "luxequality.com/our-team lists Vadym Morozov as 'Founder, Senior AQA'; LinkedIn profile linkedin.com/in/vadym-morozov-5b973396 confirmed via search; Crunchbase also shows him as founder of Luxe Quality"
+  },
+  "ChIJm0AeuYrnOkcRhDkS1XnrgDE": {
+    "name": "Dmytro Petrov",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/dmytro-petrov/",
+    "confidence": 0.9,
+    "evidence": "solead.software/about lists Dmytro Petrov as CEO & Founder with LinkedIn linkedin.com/in/dmytro-petrov/; confirmed by RocketReach and SOLEAD Software LinkedIn company page"
+  }
+}

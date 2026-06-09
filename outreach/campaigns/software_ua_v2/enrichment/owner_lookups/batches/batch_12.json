@@ -1,0 +1,44 @@
+{
+  "ChIJtbVRG4DJ1EARgjCBHjREo60": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "BrownFy (brownfy.com) — website returns 404; brownfy.com.ua refused connection; no founder/CEO name found in any public source after multiple searches"
+  },
+  "ChIJyRWtk2DP1EARqb5emIs9214": {
+    "name": "Colette Wyatt",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/colettewyatt/",
+    "confidence": 0.6,
+    "evidence": "Evolve Ukraine / evolve-consultants.co.uk redirects to evolved-ideas.com (Evolve IT Consulting Ltd, Leicester UK with Kyiv dev hub); Colette Wyatt did MBO in 2020 and is confirmed CEO at Crunchbase and LinkedIn"
+  },
+  "ChIJaS5MIraHNQYRTNF5LDN1uss": {
+    "name": "Artur Klymenko",
+    "title": "CEO",
+    "linkedin": "https://ua.linkedin.com/in/artur-klymenko-ceo",
+    "confidence": 0.7,
+    "evidence": "LinkedIn title is 'CEO - confidence technology'; company (confidence-tech.com) is a Ukrainian web studio founded 2023; profile URL slug includes '-ceo' matching the company name"
+  },
+  "ChIJFyQ0-yLN1EARDCjAUp-c7CE": {
+    "name": "Hossein Fakhr",
+    "title": "Founder & CEO",
+    "linkedin": "https://ua.linkedin.com/in/hossein-fakhr",
+    "confidence": 0.9,
+    "evidence": "Confirmed Founder & CEO at SDD Technology (sdd-technology.com) across Crunchbase, ZoomInfo, RocketReach, and LinkedIn; studied at Odesa Mechnikov National University; company phone +380"
+  },
+  "ChIJ-ZaNF0rP1EARzxDtT6Pgql8": {
+    "name": "N.M. Polanska",
+    "title": "Owner / Developer",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "xpos.ua about-company page states 'ФОП Полонська Н.М. є розробником та власником лінійки продуктів xPOS Ho.Re.Ca. SYSTEM'; no LinkedIn profile found for this individual"
+  },
+  "ChIJ6bXuw9jE1EARh1OjGFwv7kA": {
+    "name": "Alexander Vlasov",
+    "title": "Owner / Founder",
+    "linkedin": "https://www.linkedin.com/in/alexander-vlasov-81090835/",
+    "confidence": 0.75,
+    "evidence": "Confirmed owner and founder of Vortex InterCom (vortex.com.ua, Kyiv); moved to Ukraine in 2005 and founded company in 2008; LinkedIn shows Vortex InterCom affiliation; confirmed via Baltic Times article and ZoomInfo"
+  }
+}

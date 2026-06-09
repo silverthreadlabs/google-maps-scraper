@@ -1,0 +1,88 @@
+{
+  "ChIJAx2ZHN3i20ARzEq3yJnETN4": [],
+  "ChIJDQh7_LvnOkcRNP0W6uO4Mws": [
+    {
+      "name": "Alex Shegda",
+      "role": "Chief Technology Officer",
+      "linkedin": "https://www.linkedin.com/in/sashegda",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "Listed as CTO on eleks.com/about-eleks/leadership-team/; LinkedIn slug confirmed via multiple sources including rocketreach and lead411"
+    },
+    {
+      "name": "Ruslan Seredyuk",
+      "role": "Chief Engineering Officer",
+      "linkedin": "https://www.linkedin.com/in/rseredyuk",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/ruslan.seredyuk.3",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "Listed as Chief Engineering Officer on eleks.com leadership page; LinkedIn at ua.linkedin.com/in/rseredyuk confirmed via ZoomInfo and RocketReach"
+    },
+    {
+      "name": "Iryna Bilinska",
+      "role": "Executive Vice President of Sales Operations",
+      "linkedin": "https://www.linkedin.com/in/iryna-bilinska-886365a",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "Listed as EVP Sales Operations on eleks.com leadership page; LinkedIn confirmed via theorg.com and direct search result"
+    }
+  ],
+  "ChIJD4PvrlnP1EARgnbJjaBlZT4": [
+    {
+      "name": "Oksana Maznyk",
+      "role": "COO / Business Development",
+      "linkedin": "https://www.linkedin.com/in/oksanamaznyk",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "Listed as COO at Altum Software on djinni.co and LinkedIn posts; profile slug oksanamaznyk confirmed from LinkedIn post URLs"
+    },
+    {
+      "name": "Alex Mykhailov",
+      "role": "Sales Leader",
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Listed as Sales Leader on altumsoftware.io/about-us/ page alongside other confirmed team members; LinkedIn profile not uniquely identified"
+    }
+  ],
+  "ChIJO7WlkB3dOkcRsEiswKyjT8Q": [
+    {
+      "name": "Andriy Palagnyuk",
+      "role": "Chief Commercial Officer",
+      "linkedin": "https://www.linkedin.com/in/andriy-palagnyuk-191a02179",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "Confirmed as CCO at Leosvit Marketing via ZoomInfo; LinkedIn profile listed on Leosvit company page with email domain @leosvit.com"
+    }
+  ],
+  "ChIJfa-Y9yjdOkcRIzR0rnCpUHw": [
+    {
+      "name": "Dima Babich",
+      "role": "Co-Founder / COO",
+      "linkedin": "https://ua.linkedin.com/in/dima-babich-044a02255",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.88,
+      "evidence": "Confirmed Co-Founder & COO at Voodoo Ecom Agency via ZoomInfo and RocketReach; LinkedIn slug dima-babich-044a02255 confirmed"
+    }
+  ]
+}

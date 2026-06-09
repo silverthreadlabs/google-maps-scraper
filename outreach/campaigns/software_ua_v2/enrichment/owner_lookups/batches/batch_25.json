@@ -1,0 +1,44 @@
+{
+  "ChIJAQDMukLP1EARe-qn8m7Xcy0": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "No founder/CEO identified on finporttechnologies.com, hi-tech.org.ua profile, Crunchbase, or LinkedIn company page; Denis Zernyshkin was Commercial Director 2005-2010 but departed long ago"
+  },
+  "ChIJL-S3-b4vIGsRHzK0E9ft804": {
+    "name": "Viktoriya",
+    "title": "Studio Manager / Owner",
+    "linkedin": "",
+    "confidence": 0.4,
+    "evidence": "web-designing.top/contacts lists 'Viktoriya, studio manager' as the single named contact; studio named after her, consistent with sole owner, but no surname or LinkedIn found"
+  },
+  "ChIJVVWVku_O1EARDWd2iX7N5W8": {
+    "name": "George Kyzymenko",
+    "title": "Co-founder",
+    "linkedin": "https://www.linkedin.com/in/george-kyzymenko-a94141150/",
+    "confidence": 0.45,
+    "evidence": "Topline profile confirms Co-founder at Allatrack May 2019 – Nov 2020; departed company, current leadership unclear — confidence capped below 0.5"
+  },
+  "ChIJ3cEKvSjP1EAR3mC8-QRx_rc": {
+    "name": "Anton Reznikov",
+    "title": "CEO",
+    "linkedin": "https://www.linkedin.com/in/reznikov/",
+    "confidence": 0.95,
+    "evidence": "LinkedIn profile 'Anton Reznikov - CEO - Vilmate LLC', confirmed on The Org (theorg.com/org/vilmate-llc/org-chart/anton-reznikov) and RocketReach; founder since 2012"
+  },
+  "ChIJyV53eTzP1EARyx9dugm79-M": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "artit.com.ua About page describes founding group anonymously ('group of like-minded people'); no individual names found on site or via web search"
+  },
+  "ChIJxxm7kgjP1EARLSlhN85qJpI": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "anvicom.com.ua contact page lists no names; ZoomInfo, The Org, and web search returned no verified founder/CEO for АНВИ-КОМ (anvicom.com.ua) specifically"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ChIJ73ipB-HP1EARIT3tAqqhzlw": {
+    "name": "Dmytro Suslov",
+    "title": "Co-founder & CEO",
+    "linkedin": "https://www.linkedin.com/in/suslovcomua/",
+    "confidence": 0.98,
+    "evidence": "LinkedIn title explicitly 'Co-founder & CEO of Uspacy'; multiple press sources (dev.ua, ain.ua, inventure.com.ua) confirm him as co-founder and CEO of uspacy.ua"
+  },
+  "ChIJQcN4nBXP1EARH4WWsYhgqgE": {
+    "name": "Pavlo Nosok",
+    "title": "Founder / Owner",
+    "linkedin": "https://www.linkedin.com/in/pavelnosok/",
+    "confidence": 0.9,
+    "evidence": "nosok.ua homepage reads 'Привіт, я Павло Носок' (Hello, I'm Pavlo Nosok); nosok.name personal site links to linkedin.com/in/pavelnosok/; sole proprietor of NOSOK.UA web dev studio"
+  },
+  "ChIJn8PKXdvP1EARoWKW_-aV0I8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "tourismpro.com.ua website has no named individuals; no founder/CEO found in search results or Facebook page for Neosoft-Tur / TourismPro"
+  },
+  "ChIJOeVeGN3P1EARAjdXoe5x2to": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "workbeat.com.ua site timed out; no founder or CEO identified via LinkedIn company page, ZoomInfo, or web search; only employee Natali Tarasenko (Manager) found"
+  },
+  "ChIJAQCw92fO1EAR7N7YWMm3h9s": {
+    "name": "Anton Trubnikov",
+    "title": "CEO & Founder",
+    "linkedin": "https://www.linkedin.com/in/anton-trubnikov-121526a6/",
+    "confidence": 0.85,
+    "evidence": "logic-it-solutions.com redirects 301 to litslink.com; RocketReach and LinkedIn both list Anton Trubnikov as CEO of Logic-IT-Solutions; LinkedIn post confirms 'Litslink's CEO and founder'"
+  },
+  "ChIJcdEDtYDL1EARRMhDb9SwPlc": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "sunny-mobile.com website lists no named leadership; no founder/CEO found via web search, LinkedIn, Crunchbase, or RocketReach for this specific Kyiv-based mobile dev company"
+  }
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "id": 30,
+    "categories": []
+  },
+  {
+    "id": 31,
+    "categories": []
+  },
+  {
+    "id": 32,
+    "categories": []
+  },
+  {
+    "id": 33,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "They dont follow any timeline",
+        "reasoning": "Explicit complaint that the agency does not adhere to timelines, indicating missed deadlines."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.6,
+        "quote": "their work is so immature",
+        "reasoning": "Complaint about quality of delivered work being immature/substandard."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "categories": []
+  },
+  {
+    "id": 35,
+    "categories": []
+  },
+  {
+    "id": 36,
+    "categories": []
+  },
+  {
+    "id": 37,
+    "categories": []
+  },
+  {
+    "id": 38,
+    "categories": []
+  },
+  {
+    "id": 39,
+    "categories": []
+  },
+  {
+    "id": 40,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "They have no manners to deal with new Applicant.",
+        "reasoning": "Complaint about rude/unprofessional manner of staff dealing with applicants."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "categories": []
+  },
+  {
+    "id": 42,
+    "categories": []
+  },
+  {
+    "id": 43,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.55,
+        "quote": "have some bugs",
+        "reasoning": "Mentions deliverable shipped with bugs."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "categories": []
+  },
+  {
+    "id": 45,
+    "categories": []
+  },
+  {
+    "id": 46,
+    "categories": []
+  },
+  {
+    "id": 47,
+    "categories": []
+  },
+  {
+    "id": 48,
+    "categories": []
+  },
+  {
+    "id": 49,
+    "categories": []
+  },
+  {
+    "id": 50,
+    "categories": []
+  },
+  {
+    "id": 51,
+    "categories": []
+  },
+  {
+    "id": 52,
+    "categories": []
+  },
+  {
+    "id": 53,
+    "categories": []
+  },
+  {
+    "id": 54,
+    "categories": []
+  },
+  {
+    "id": 55,
+    "categories": []
+  },
+  {
+    "id": 56,
+    "categories": []
+  },
+  {
+    "id": 57,
+    "categories": []
+  },
+  {
+    "id": 58,
+    "categories": []
+  },
+  {
+    "id": 59,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "the Instructor(Sir Qamar) kind a have some kind of attitude issues and don't know how to talk proper while giving respect",
+        "reasoning": "Reviewer describes instructor's attitude/tone as disrespectful — rudeness from staff."
+      }
+    ]
+  }
+]

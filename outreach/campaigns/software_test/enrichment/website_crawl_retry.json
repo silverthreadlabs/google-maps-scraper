@@ -1,0 +1,110 @@
+[
+  {
+    "lead_title": "AmiFactory LLC - Software Development Company",
+    "website": "https://amifactory.team/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_DATE_INVALID "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Pentalog Kyiv - Software Development Company in Ukraine",
+    "website": "https://www.pentalog.com/?utm_source=Google&utm_medium=Organic&utm_campaign=P5MK_PPEN07-GP_AW_GE_GE_WW_EN_0028&utm_content=GMB_Kyiv",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_CERT_COMMON_NAME_INVALID "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "VG++",
+    "website": "http://www.vgplusplus.com/ru/contacts.php",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Syntagma Software",
+    "website": "https://www.syntagmasoft.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Krumkachov web development",
+    "website": "https://neomodern.site/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "[D]igitalizer - simplifying everything",
+    "website": "https://digitalizer.site/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_NAME_NOT_RESOLVED "
+    ],
+    "quality_score": 19.6,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Eziline Software House Pvt Ltd",
+    "website": "https://eziline.com/",
+    "status": "timeout",
+    "errors": [
+      "open_fail: timeout "
+    ],
+    "quality_score": 10.67,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Diyar Digital Marketing Pvt Ltd",
+    "website": "http://www.diyardigitalmarketing.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 6.38,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Linkos Group",
+    "website": "https://www.linkos.ua/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 7.17,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "Glaxit Software Company",
+    "website": "http://www.glaxit.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 5.54,
+    "metro": "kyiv"
+  },
+  {
+    "lead_title": "SvitSoft | Світсофт - Digital Transformation",
+    "website": "https://www.svitsoft.com/?utm_source=google&utm_medium=business&utm_campaign=perehod_na_site",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_ABORTED "
+    ],
+    "quality_score": 5.76,
+    "metro": "kyiv"
+  }
+]

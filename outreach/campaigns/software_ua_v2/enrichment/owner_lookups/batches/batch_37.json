@@ -1,0 +1,44 @@
+{
+  "ChIJA6djeW7dOkcR2M-mbLCIbeQ": {
+    "name": "Oleksii Matsekh",
+    "title": "CEO",
+    "linkedin": "",
+    "confidence": 0.7,
+    "evidence": "LinkedIn search returned 'Олексій Мацех - CEO at Webbook LLC' (linkedin.com/in/олексій-мацех-56a22459/); LinkedIn blocked direct fetch but title/company confirmed in search snippet"
+  },
+  "ChIJdTUAgZHdOkcRYqZhXLeCog0": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "Website shuandr.lviv.ua shows template placeholders with no named individuals; no LinkedIn or other source found for studio owner"
+  },
+  "ChIJVd6lH2PDOkcRg4QNG8-42nE": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "digitelia.co/about-us describes 'a team of digital-marketing veterans' but lists no individual names; multiple LinkedIn and directory searches returned no named founder or CEO"
+  },
+  "ChIJbR443-zDOkcRwNwqaVYUsb8": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "LinkedIn handle /in/arquentum/ belongs to Tetiana Benkaliakivna-Kramarska (UI/UX designer), appears to be a freelancer using studio branding — cannot confirm as owner/founder of arquentum.com with sufficient confidence; website returned 403"
+  },
+  "ChIJlS9CGh_pOkcRl4B8umvSNcA": {
+    "name": "",
+    "title": "",
+    "linkedin": "",
+    "confidence": 0.0,
+    "evidence": "direkt.com.ua confirmed as 'Рекламно-Інформаційне Агентство Дієві Рекламні Технології' in Lviv; website and Facebook page list no individual leadership; no LinkedIn profile found for founder/CEO"
+  },
+  "ChIJb4lqjEy6ZEQRdcR8gawzxRU": {
+    "name": "Pavlo Humeniuk",
+    "title": "Founder",
+    "linkedin": "https://www.linkedin.com/in/p-humeniuk/",
+    "confidence": 0.95,
+    "evidence": "ZoomInfo lists 'Founder at Hulo.dev' with email @hulo.dev; LinkedIn ua.linkedin.com/in/p-humeniuk confirmed; UCU Business School profile names him as diploma student optimising hulo.dev business processes"
+  }
+}

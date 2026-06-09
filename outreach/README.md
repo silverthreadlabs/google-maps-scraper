@@ -5,7 +5,164 @@ via the gosom Docker scraper (parent repo), mines pain points from review
 language, detects chains/DSOs, enriches contacts via website crawl, and
 produces sales-ready CSV handoffs.
 
-## Layout
+**New here?** Read [Prerequisites](#prerequisites) → [Quickstart](#quickstart)
+→ [Pipeline stages](#pipeline-stages). The architecture and conventions are
+further down.
+
+---
+
+## Prerequisites
+
+Everything you need installed before running any stage. Most stages are pure
+Python; two stages reach outside (scrape needs Docker, classify needs Claude
+Code), and enrichment drives a headless browser.
+
+| Dependency | Needed for | Notes |
+|---|---|---|
+| **Python 3.11+** + the `outreach/.venv` | every Python stage (analyze, enrich, validate, handoff, merges, owner-lookup) | `pip install -r outreach/requirements.txt` — pulls `python-whois`, `beautifulsoup4`, `PyYAML` |
+| **agent-browser** (Node CLI on `PATH`) | `enrich` stage — website crawl, SERP, deep-site crawl | Installed via npm; invoked as a subprocess (`agent-browser eval --stdin --session …`) from `lib/enrichers/website_crawl.py` |
+| **Playwright** (browser binaries) | backs agent-browser | agent-browser drives Playwright; the browser binaries must be installed (`playwright install`). This is the engine behind every crawl. |
+| **Docker** | `scrape` stage | Runs the gosom Google Maps scraper from the parent repo. See the `google-maps-scraper` skill (`.claude/skills/google-maps-scraper/SKILL.md`). |
+| **Claude Code** + Anthropic API access | `classify` stage (LLM-only) | The `pain-classifier` subagent (`.claude/agents/pain-classifier.md`) runs inside a Claude Code session. No standalone script exists for this stage. |
+| **`/outreach` slash command** | orchestrating stages | `.claude/commands/outreach.md` — the runbook that chains stages and dispatches the LLM subagents. |
+
+**Dependency chain to remember:** `enrich` → agent-browser → Playwright
+browser binaries. If a crawl returns nothing, check all three before
+debugging the pipeline.
+
+By stage, at a glance:
+
+| Stage | Tooling |
+|---|---|
+| scrape | Docker + gosom scraper |
+| analyze | Python + venv |
+| enrich | agent-browser + Playwright |
+| classify | Claude Code + pain-classifier subagent |
+| validate / handoff | Python + venv |
+| owner_lookup (optional) | Python (`python-whois`) + manual web search |
+
+---
+
+## Quickstart
+
+One-time setup, then run an existing campaign end to end.
+
+```bash
+# One-time: create + populate the venv
+python3 -m venv outreach/.venv
+source outreach/.venv/bin/activate
+pip install -r outreach/requirements.txt
+
+# Verify the external tools are reachable
+command -v agent-browser   # Node CLI must be on PATH
+command -v docker          # for the scrape stage
+```
+
+Run a campaign (see [Pipeline stages](#pipeline-stages) for what each does):
+
+```bash
+source outreach/.venv/bin/activate
+# scrape is slash-command-only:  /outreach <pipeline> scrape
+python outreach/lib/cli/analyze.py                 <pipeline>
+# enrich is slash-command-driven: /outreach <pipeline> enrich
+python outreach/lib/cli/merge_crawl_into_master.py <pipeline>
+# classify is slash-command-only: /outreach <pipeline> classify
+#   then merge_classifications.py (see stage 6 below)
+python outreach/lib/cli/validate.py                <pipeline>
+python outreach/lib/cli/handoff.py                 <pipeline>
+```
+
+---
+
+## Pipeline stages
+
+The full lead-gen sequence for a fresh campaign — new vertical, new geo, or a
+fresh rescrape of an existing vertical. The `/outreach` slash command
+(`.claude/commands/outreach.md`) is the orchestrator; it knows the per-stage
+details, the hard rules (never drop rows, etc.), and the pain-classifier
+subagent dispatch shape. Each stage prints its own `next:` hint so you can
+chain by reading the previous output.
+
+1. **Pick / create the pipeline.** Use an existing vertical
+   (`campaigns/<name>/`), or copy `dental_sunbelt` and edit `config.py`
+   per [Adding a new vertical](#adding-a-new-vertical).
+2. **Scrape.** `/outreach <pipeline> scrape` — uses the `google-maps-scraper`
+   skill (`.claude/skills/google-maps-scraper/SKILL.md`), a Docker-based gosom
+   wrapper. Tell Claude *"scrape \<vertical\> in \<city\> for outreach pipeline
+   \<pipeline\>"*. Output lands in `campaigns/<pipeline>/raw/<query>.json`
+   (NDJSON; CLAUDE.md rule 2 — never `/tmp`).
+3. **Analyze.** `python outreach/lib/cli/analyze.py <pipeline>` — dedupe raw by
+   `place_id`, run chain detection (`lib/chain_detection.ChainDetector`),
+   partition gosom-side emails through `validate_email` (image artifacts →
+   `emails_invalid` at ingest), compute initial `quality_score` →
+   `outputs/<today>/master.json`.
+4. **Enrich contacts.** `/outreach <pipeline> enrich` — agent-browser crawls
+   websites for emails + POCs. Resumable; writes
+   `enrichment/website_crawl.json`. **Then run `merge_crawl_into_master.py`**
+   so the next stages see crawled emails / POCs on each master lead:
+   ```bash
+   python outreach/lib/cli/merge_crawl_into_master.py <pipeline>
+   ```
+5. **Classify pain.** `/outreach <pipeline> classify` — dispatches the
+   `pain-classifier` subagent against ≤3★ reviews from raw. Emits a sidecar at
+   `enrichment/pain_classifications/<today>.json`.
+6. **Merge sidecar into master.**
+   ```bash
+   python outreach/lib/cli/merge_classifications.py \
+     --master  outreach/campaigns/<pipeline>/outputs/<today>/master.json \
+     --sidecar outreach/campaigns/<pipeline>/enrichment/pain_classifications/<today>.json \
+     --out     outreach/campaigns/<pipeline>/outputs/<today>/master.json
+   ```
+   Adds `agent_pain_hits` + recomputes `quality_score` / `weighted_pain` /
+   `tier` from the new pain. `--master` and `--out` can be the same path
+   (atomic write).
+7. **Validate.** `/outreach <pipeline> validate` — annotates email/phone
+   invalids via sibling flags. Required before handoff.
+8. **Handoff.** `/outreach <pipeline> handoff` — produces
+   `outputs/<today>/handoff.csv` for sales.
+9. **(Optional) Owner lookup** for tier-A/B leads with empty `owner_name`:
+   ```bash
+   python outreach/lib/cli/owner_lookup.py <pipeline> --print-queue
+   # fill enrichment/owner_lookups/<today>.json by hand from the printed queries
+   python outreach/lib/cli/owner_lookup.py <pipeline> --apply
+   ```
+   Re-run handoff to pick up the owner columns.
+
+**Re-delivery against an existing master?** See the "Re-delivery flow" section
+in `.claude/commands/outreach.md`. Re-run `analyze.py --output-date <new-date>`
+to write into a new dated folder; the prior delivery stays as audit record.
+
+### Command reference
+
+Each stage is a standalone CLI. Run them individually, or chain them from a
+slash command / shell script.
+
+```bash
+source outreach/.venv/bin/activate
+
+# Stages shipped as scripts (run in order for a fresh campaign):
+python outreach/lib/cli/analyze.py               <pipeline> [--output-date YYYY-MM-DD] [--force]
+python outreach/lib/cli/enrich.py                <pipeline> [--queue PATH] [--workers N]
+python outreach/lib/cli/merge_crawl_into_master.py <pipeline> [--master PATH] [--crawl PATH]
+# (classify is the only LLM stage — dispatched via /outreach <pipeline> classify)
+python outreach/lib/cli/merge_classifications.py \
+    --master  campaigns/<pipeline>/outputs/<today>/master.json \
+    --sidecar campaigns/<pipeline>/enrichment/pain_classifications/<today>.json \
+    --out     campaigns/<pipeline>/outputs/<today>/master.json
+python outreach/lib/cli/validate.py              <pipeline> [--master PATH]
+python outreach/lib/cli/handoff.py               <pipeline> [--master PATH] [--out PATH]
+# Optional, post-handoff for tier-A/B leads:
+python outreach/lib/cli/owner_lookup.py          <pipeline> --print-queue [--limit N] [--tiers A,B]
+python outreach/lib/cli/owner_lookup.py          <pipeline> --apply
+
+# Slash-command-only stages (no standalone script):
+#   scrape    — wraps the gosom Docker scraper (.claude/skills/google-maps-scraper/SKILL.md)
+#   classify  — dispatches the pain-classifier subagent (.claude/agents/pain-classifier.md)
+```
+
+---
+
+## Architecture
 
 ```
 outreach/
@@ -37,20 +194,20 @@ outreach/
 └── README.md                    # this file
 ```
 
-## Principle
+**Separation of concerns:**
 
 - `lib/` is industry-agnostic. Every module here works for any vertical.
-- `verticals/<v>/config.py` holds vertical-wide knobs: pain weights, DSO
-  regex for chains that apply everywhere the vertical runs, enrich profile.
+- `verticals/<v>/config.py` holds vertical-wide knobs: pain weights, DSO regex
+  for chains that apply everywhere the vertical runs, enrich profile.
 - `locations/<loc>.yaml` holds pure location data: cities, area codes,
   neighborhood / geographic prefixes — re-usable across verticals.
-- `campaigns/<v>_<loc>/overrides.py` (optional) holds region-specific
-  chain lists and any per-campaign tuning.
+- `campaigns/<v>_<loc>/overrides.py` (optional) holds region-specific chain
+  lists and any per-campaign tuning.
 - The pain taxonomy is vertical-agnostic and lives in
   `silverthread/pain_categories.md`. Classification is done by the
   `pain-classifier` Claude Code subagent.
-- To start a new campaign: pick or author a location, pick a vertical,
-  write `campaigns/<v>_<loc>/campaign.yaml`. See "Adding a campaign" below.
+
+---
 
 ## Data lifecycle
 
@@ -67,138 +224,11 @@ outreach/
 - Mark bad values invalid via sibling flags (`email_invalid: true`); do not delete.
 - See `feedback_lead_data_never_drop_rows.md` in `~/.claude/projects/.../memory/`.
 
-## Starting a new campaign (cold start)
+The full set of agent-facing conventions (chain-detection split, validator
+boundaries, session-pool parallelism, the never-drop rule) lives in
+`outreach/CLAUDE.md`.
 
-The full lead-gen sequence for a fresh campaign — new vertical, new geo,
-or fresh rescrape of an existing vertical. The `/outreach` slash command
-(`.claude/commands/outreach.md`) is the orchestrator; it knows the
-per-stage details, hard rules (never drop rows, etc.), and the
-pain-classifier subagent dispatch shape. Each stage prints its own
-`next:` hint so you can chain by reading the previous output.
-
-1. **Pick / create the pipeline.** Use an existing vertical
-   (`campaigns/<name>/`), or copy `dental_sunbelt` and edit `config.py`
-   per "Adding a new vertical" below.
-2. **Scrape.** Use the `google-maps-scraper` skill
-   (`.claude/skills/google-maps-scraper/SKILL.md`) — Docker-based gosom
-   wrapper. Tell Claude *"scrape <vertical> in <city> for outreach
-   pipeline <pipeline>"*. Output lands in
-   `campaigns/<pipeline>/raw/<query>.json` (NDJSON; CLAUDE.md rule 2 —
-   never `/tmp`).
-3. **Analyze.** `python outreach/lib/cli/analyze.py <pipeline>` — dedupe
-   raw by `place_id`, run chain detection
-   (`lib/chain_detection.ChainDetector`), partition gosom-side emails
-   through `validate_email` (image artifacts → `emails_invalid` at
-   ingest), compute initial `quality_score` →
-   `outputs/<today>/master.json`.
-4. **Enrich contacts.** `/outreach <pipeline> enrich` — agent-browser
-   crawls websites for emails + POCs. Resumable; writes
-   `enrichment/website_crawl.json`. **Then run `merge_crawl_into_master.py`**
-   so the next stages see crawled emails / POCs on each master lead:
-   ```bash
-   python outreach/lib/cli/merge_crawl_into_master.py <pipeline>
-   ```
-5. **Classify pain.** `/outreach <pipeline> classify` — dispatches the
-   `pain-classifier` subagent against ≤3★ reviews from raw. Emits a
-   sidecar at `enrichment/pain_classifications/<today>.json`.
-6. **Merge sidecar into master.**
-   ```bash
-   python outreach/lib/cli/merge_classifications.py \
-     --master  outreach/campaigns/<pipeline>/outputs/<today>/master.json \
-     --sidecar outreach/campaigns/<pipeline>/enrichment/pain_classifications/<today>.json \
-     --out     outreach/campaigns/<pipeline>/outputs/<today>/master.json
-   ```
-   Adds `agent_pain_hits` + recomputes `quality_score` / `weighted_pain`
-   / `tier` from the new pain. `--master` and `--out` can be the same
-   path (atomic write).
-7. **Validate.** `/outreach <pipeline> validate` — annotates email/phone
-   invalids via sibling flags. Required before handoff.
-8. **Handoff.** `/outreach <pipeline> handoff` — produces
-   `outputs/<today>/handoff.csv` for sales.
-9. **(Optional) Owner lookup** for tier-A/B leads with empty `owner_name`:
-   ```bash
-   python outreach/lib/cli/owner_lookup.py <pipeline> --print-queue
-   # fill enrichment/owner_lookups/<today>.json by hand from the printed queries
-   python outreach/lib/cli/owner_lookup.py <pipeline> --apply
-   ```
-   Re-run handoff to pick up the owner columns.
-
-**Re-delivery against an existing master?** See the "Re-delivery flow"
-section in `.claude/commands/outreach.md`. Re-run `analyze.py
---output-date <new-date>` to write into a new dated folder; the prior
-delivery stays as audit record.
-
-## Daily driver
-
-Each stage is a standalone CLI. Run them individually, or chain them
-from a slash command / shell script. The slash-command runbook
-(`.claude/commands/outreach.md`) is the planned orchestrator — it also
-dispatches the `pain-classifier` subagent for the LLM-only stages.
-
-```bash
-source outreach/.venv/bin/activate
-
-# Stages shipped as scripts (run in order for a fresh campaign):
-python outreach/lib/cli/analyze.py               <pipeline> [--output-date YYYY-MM-DD] [--force]
-python outreach/lib/cli/enrich.py                <pipeline> [--queue PATH] [--workers N]
-python outreach/lib/cli/merge_crawl_into_master.py <pipeline> [--master PATH] [--crawl PATH]
-# (classify is the only LLM stage — dispatched via /outreach <pipeline> classify)
-python outreach/lib/cli/merge_classifications.py \
-    --master  campaigns/<pipeline>/outputs/<today>/master.json \
-    --sidecar campaigns/<pipeline>/enrichment/pain_classifications/<today>.json \
-    --out     campaigns/<pipeline>/outputs/<today>/master.json
-python outreach/lib/cli/validate.py              <pipeline> [--master PATH]
-python outreach/lib/cli/handoff.py               <pipeline> [--master PATH] [--out PATH]
-# Optional, post-handoff for tier-A/B leads:
-python outreach/lib/cli/owner_lookup.py          <pipeline> --print-queue [--limit N] [--tiers A,B]
-python outreach/lib/cli/owner_lookup.py          <pipeline> --apply
-
-# Only stage still slash-command-only:
-#   scrape   — wraps the gosom Docker scraper (skill at
-#              .claude/skills/google-maps-scraper/SKILL.md)
-
-# Run all unit tests
-for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
-    python "$t"
-done
-
-# Score the pain-classifier subagent against the gold set
-# (1) Dispatch the `pain-classifier` subagent on
-#     campaigns/dentist_sunbelt/eval/sample_unlabeled.json from your Claude
-#     Code session and save its JSON output as predictions.json.
-# (2) Run the metric script on the saved predictions:
-python outreach/campaigns/dental_sunbelt/eval/eval_runner.py predictions.json
-```
-
-## Current state (2026-04-29)
-
-- Dental campaign delivered (2026-04-25): 75 verified-email Tier A+B leads,
-  173 independents in master, see
-  `campaigns/dentist_sunbelt/outputs/2026-04-25/handoff.csv`.
-- Sales feedback flagged two bugs:
-  1. Pain quote ↔ category mismatch — solved by the `pain-classifier`
-     Claude Code subagent (`.claude/agents/pain-classifier.md`) classifying
-     reviews against the STL hierarchy in `silverthread/pain_categories.md`.
-     Latest baseline on the 100-review gold set: main F1 0.784, strict
-     (main, sub) F1 0.683, strict exact-match 0.64 — vs prior SBERT
-     baseline of ~0.43. Eval harness: `campaigns/dentist_sunbelt/eval/eval_runner.py`.
-  2. URLs had tracking-param noise.
-     Fixed: `lib/url_normalize.py` + tests, wired through
-     `lib/handoff/csv_builder.py` at output time. Cleaned URL replaces
-     the raw value; the original is preserved in
-     `<field>_raw` audit columns when normalization changed it.
-
-## Tests
-
-Unit tests live alongside their modules. Run all:
-
-```bash
-for t in $(find outreach/lib outreach/tests -name 'test_*.py' 2>/dev/null); do
-    python "$t" 2>&1 | tail -2
-done
-```
-
-Tests live alongside their modules under `outreach/lib/`.
+---
 
 ## Adding a campaign
 
@@ -232,12 +262,53 @@ python outreach/lib/cli/analyze.py dentist_myloc
 
 1. Create `outreach/verticals/<v>/`:
    - `config.py` — pain weights, service map, enrich profile, vertical-wide
-     `DSO_TITLE_REGEX` (`GEOGRAPHIC_PREFIXES_GENERIC` for category words
-     like "family dental"), OSINT templates.
-   - `query_templates.txt` — placeholder lines (`{vertical_keyword}`,
-     `{city}`, `{state}`, `{neighborhood}`).
+     `DSO_TITLE_REGEX` (`GEOGRAPHIC_PREFIXES_GENERIC` for category words like
+     "family dental"), OSINT templates.
+   - `query_templates.txt` — placeholder lines (`{vertical_keyword}`, `{city}`,
+     `{state}`, `{neighborhood}`).
    - `README.md` — fit notes.
-2. The pain taxonomy in `silverthread/pain_categories.md` is vertical-
-   agnostic; only re-derive it when STL's service catalog changes.
-3. Region-specific chain lists go in `campaigns/<v>_<loc>/overrides.py`
-   as `DSO_TITLE_REGEX_EXTRA` / `DSO_EMAIL_DOMAINS_EXTRA`.
+2. The pain taxonomy in `silverthread/pain_categories.md` is vertical-agnostic;
+   only re-derive it when STL's service catalog changes.
+3. Region-specific chain lists go in `campaigns/<v>_<loc>/overrides.py` as
+   `DSO_TITLE_REGEX_EXTRA` / `DSO_EMAIL_DOMAINS_EXTRA`.
+
+---
+
+## Tests
+
+Unit tests live alongside their modules under `outreach/lib/`. Run all:
+
+```bash
+for t in $(find outreach/lib outreach/tests -name 'test_*.py' -o -name '*_tests.py' 2>/dev/null); do
+    python "$t" 2>&1 | tail -2
+done
+```
+
+**Score the pain-classifier subagent against the gold set:**
+
+```bash
+# (1) Dispatch the `pain-classifier` subagent on
+#     campaigns/dentist_sunbelt/eval/sample_unlabeled.json from your Claude
+#     Code session and save its JSON output as predictions.json.
+# (2) Run the metric script on the saved predictions:
+python outreach/campaigns/dental_sunbelt/eval/eval_runner.py predictions.json
+```
+
+---
+
+## Current state (2026-04-29)
+
+- Dental campaign delivered (2026-04-25): 75 verified-email Tier A+B leads, 173
+  independents in master, see
+  `campaigns/dentist_sunbelt/outputs/2026-04-25/handoff.csv`.
+- Sales feedback flagged two bugs:
+  1. Pain quote ↔ category mismatch — solved by the `pain-classifier` Claude
+     Code subagent (`.claude/agents/pain-classifier.md`) classifying reviews
+     against the STL hierarchy in `silverthread/pain_categories.md`. Latest
+     baseline on the 100-review gold set: main F1 0.784, strict (main, sub) F1
+     0.683, strict exact-match 0.64 — vs prior SBERT baseline of ~0.43. Eval
+     harness: `campaigns/dentist_sunbelt/eval/eval_runner.py`.
+  2. URLs had tracking-param noise. Fixed: `lib/url_normalize.py` + tests,
+     wired through `lib/handoff/csv_builder.py` at output time. Cleaned URL
+     replaces the raw value; the original is preserved in `<field>_raw` audit
+     columns when normalization changed it.

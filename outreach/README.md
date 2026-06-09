@@ -48,14 +48,28 @@ By stage, at a glance:
 One-time setup, then run an existing campaign end to end.
 
 ```bash
-# One-time: create + populate the venv
+# One-time: bootstrap + verify every prerequisite (idempotent, re-runnable)
+outreach/scripts/setup.sh           # install what's safe, verify the rest
+outreach/scripts/setup.sh --check   # verify only, install nothing
+```
+
+`setup.sh` creates `outreach/.venv` + installs `requirements.txt`, installs
+the `agent-browser` CLI (via npm) and its Playwright browser binaries, and
+verifies Docker / Node / Claude Code — printing actionable guidance for
+anything it can't safely auto-install. Or do it by hand:
+
+```bash
 python3 -m venv outreach/.venv
 source outreach/.venv/bin/activate
 pip install -r outreach/requirements.txt
-
-# Verify the external tools are reachable
-command -v agent-browser   # Node CLI must be on PATH
-command -v docker          # for the scrape stage
+npm install -g agent-browser
+agent-browser install --with-deps    # Debian/RHEL: installs browser + system libs
+# On Arch (or any non-apt/dnf/yum distro), --with-deps fails — do this instead:
+#   agent-browser install
+#   sudo pacman -S --needed nss nspr atk at-spi2-core at-spi2-atk cups libdrm \
+#     dbus libxcb libxkbcommon libx11 libxcomposite libxdamage libxext \
+#     libxfixes libxrandr mesa expat alsa-lib pango cairo
+command -v docker            # for the scrape stage (install separately)
 ```
 
 Run a campaign (see [Pipeline stages](#pipeline-stages) for what each does):

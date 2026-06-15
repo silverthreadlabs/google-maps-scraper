@@ -28,6 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from lib.chain_detection import extract_hostname
+from lib.enrichers.poc_filters import flag_review_author_pocs
 from lib.cli._common import (
     add_pipeline_arg,
     pipeline_dir,
@@ -78,7 +79,10 @@ def graft(
         matched += 1
         emails  = list(row.get('emails')  or [])
         socials = list(row.get('socials') or [])
-        pocs    = list(row.get('pocs')    or [])
+        # Guard the boundary (CLAUDE.md rule 5): flag review-author / reviews-
+        # widget noise the crawler harvested from JSON-LD as invalid before it
+        # lands on master. Append-only — names stay, handoff drops invalids.
+        pocs    = flag_review_author_pocs(row.get('pocs') or [])
         lead['crawled_emails']            = emails
         lead['crawled_emails_source']     = [CRAWLED_EMAIL_SOURCE] * len(emails)
         lead['crawled_emails_added_at']   = now_iso

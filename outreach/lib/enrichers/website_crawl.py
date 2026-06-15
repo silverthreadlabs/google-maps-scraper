@@ -101,10 +101,16 @@ EXTRACT_JS_TEMPLATE = r"""
     try {
       const data = JSON.parse(s.textContent);
       const items = Array.isArray(data) ? data : [data];
-      const visit = (n) => {
+      // `inReview` tracks whether we are inside a Review/Rating node or
+      // reached this node via an author/reviewer/creator edge. A Person in
+      // that position is the review's AUTHOR (a customer), not a decision-
+      // maker — embedded review schema would otherwise dump every reviewer
+      // (e.g. "Padra M - Los Angeles, CA") into ldPersons.
+      const visit = (n, inReview) => {
         if (!n || typeof n !== 'object') return;
         const type = (n['@type'] || '').toString().toLowerCase();
-        if (PERSON_TYPES.some(t => type.includes(t))) {
+        const nowInReview = inReview || /review|rating|comment/.test(type);
+        if (!nowInReview && PERSON_TYPES.some(t => type.includes(t))) {
           ldPersons.push({
             name: n.name || null,
             jobTitle: n.jobTitle || n.honorificPrefix || null,
@@ -113,12 +119,15 @@ EXTRACT_JS_TEMPLATE = r"""
             url: n.url || null,
           });
         }
-        if (n['@graph']) n['@graph'].forEach(visit);
+        if (n['@graph']) n['@graph'].forEach(g => visit(g, nowInReview));
         for (const k of Object.keys(n)) {
-          if (typeof n[k] === 'object') visit(n[k]);
+          if (typeof n[k] === 'object') {
+            const kl = k.toLowerCase();
+            visit(n[k], nowInReview || kl === 'author' || kl === 'reviewer' || kl === 'creator');
+          }
         }
       };
-      items.forEach(visit);
+      items.forEach(it => visit(it, false));
     } catch (e) {}
   });
 

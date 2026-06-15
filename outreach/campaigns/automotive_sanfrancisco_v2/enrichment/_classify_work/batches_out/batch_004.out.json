@@ -1,0 +1,51 @@
+[
+  {"id": 160, "categories": []},
+  {"id": 161, "categories": []},
+  {"id": 162, "categories": []},
+  {"id": 163, "categories": []},
+  {"id": 164, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.7, "quote": "Waited over an hour to get a car that we had a reservation for.", "reasoning": "Waited over an hour past a reserved pickup time because walk-ins were prioritized."}
+  ]},
+  {"id": 165, "categories": []},
+  {"id": 166, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.75, "quote": "employee forgot  to articulate that if we return the car without full tank we will be charged $9.95 per gallon", "reasoning": "An expensive per-gallon fuel charge was not disclosed up front."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "customer service representative should verbalize it in front of us as well", "reasoning": "Key contract term was not verbally disclosed by staff."}
+  ]},
+  {"id": 167, "categories": []},
+  {"id": 168, "categories": []},
+  {"id": 169, "categories": []},
+  {"id": 170, "categories": []},
+  {"id": 171, "categories": []},
+  {"id": 172, "categories": []},
+  {"id": 173, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "drop off person was rude", "reasoning": "Drop-off staff member described as rude."}
+  ]},
+  {"id": 174, "categories": []},
+  {"id": 175, "categories": []},
+  {"id": 176, "categories": []},
+  {"id": 177, "categories": []},
+  {"id": 178, "categories": []},
+  {"id": 179, "categories": []},
+  {"id": 180, "categories": []},
+  {"id": 181, "categories": []},
+  {"id": 182, "categories": []},
+  {"id": 183, "categories": []},
+  {"id": 184, "categories": []},
+  {"id": 185, "categories": []},
+  {"id": 186, "categories": []},
+  {"id": 187, "categories": []},
+  {"id": 188, "categories": []},
+  {"id": 189, "categories": []},
+  {"id": 190, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "does not specify that they do not take debit cards. They tell me only when I reach the rental place", "reasoning": "Payment-method policy not disclosed until arrival, derailing the customer's plan."}
+  ]},
+  {"id": 191, "categories": []},
+  {"id": 192, "categories": []},
+  {"id": 193, "categories": []},
+  {"id": 194, "categories": []},
+  {"id": 195, "categories": []},
+  {"id": 196, "categories": []},
+  {"id": 197, "categories": []},
+  {"id": 198, "categories": []},
+  {"id": 199, "categories": []}
+]

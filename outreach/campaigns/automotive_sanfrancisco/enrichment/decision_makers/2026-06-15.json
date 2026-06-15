@@ -1,0 +1,378 @@
+{
+  "ChIJldRdiR9-hYAR837u0woEGVI": [
+    {
+      "name": "Henry Levan",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@oaklandautoparts.com",
+      "confidence": 0.8,
+      "evidence": "BBB profile for Levan Group, Inc. (1911 Union St, Oakland) lists Mr. Henry Levan as Owner; email is the generic company address (not personal)."
+    },
+    {
+      "name": "Tommy Tran",
+      "role": "President",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.78,
+      "evidence": "BBB profile for Levan Group, Inc. (operator of Oakland Auto Parts / oaklandbodyparts.com) lists Mr. Tommy Tran as President."
+    }
+  ],
+  "ChIJjzHL_pSAhYAR3WVaYM-MeAM": [
+    {
+      "name": "Randy W.",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://instagram.com/Cityrentacar",
+      "facebook": "https://www.facebook.com/cityrentacar/",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Yelp 'Meet the Owner' names Randy and Jennifer W. as owners of City Rent-A-Car (family-run since ~1980); full last name not confirmed via SOS (OpenCorporates CAPTCHA-walled). Social handles are company-owned."
+    },
+    {
+      "name": "Jennifer W.",
+      "role": "Co-Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Yelp owner section lists Jennifer W. as co-owner of City Rent-A-Car; women-owned, family-run business; full last name unconfirmed."
+    }
+  ],
+  "ChIJbUK39DF-j4ARXSG5bZqbNlk": [
+    {
+      "name": "Ben Sanchez",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "All Tire About-Us / BBB describe owner Ben Sanchez, SF Bay Area native with 25+ years in automotive; family owned and operated since 1983."
+    }
+  ],
+  "ChIJoRwSsdaAhYAR-6kB91ajsTw": [
+    {
+      "name": "Loren",
+      "role": "Shop Manager (local GM, Lombard St)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/ToscalitoTireSanFrancisco",
+      "email": "",
+      "confidence": 0.3,
+      "evidence": "Multiple Yelp reviews name 'Loren' as the SF (2342 Lombard St) shop manager; first name only. Location owned by Sun Auto Tire & Service; FB is the SF-specific page."
+    },
+    {
+      "name": "Tony Puckett",
+      "role": "CEO, Sun Auto Tire & Service (parent company)",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/tony-puckett-187aa762/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Toscalito was acquired by Sun Auto Tire & Service (2022); Tony Puckett is Sun Auto CEO per Modern Tire Dealer and his LinkedIn."
+    },
+    {
+      "name": "George",
+      "role": "Assistant Manager (Lombard St)",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.25,
+      "evidence": "Yelp reviews mention 'George' as assistant manager at the SF Lombard St location; first name only."
+    }
+  ],
+  "ChIJV5OAg8iAhYARInxphnLkavs": [
+    {
+      "name": "David Bargen",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/pacificheightschevron/",
+      "email": "",
+      "confidence": 0.78,
+      "evidence": "BBB profile for Pacific Heights Chevron Auto Repair (a/k/a Sahagun And BeeBee, LLC) lists Mr. David Bargen as Owner; FB is the company page."
+    },
+    {
+      "name": "Janet Sahagun",
+      "role": "Managing Partner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.78,
+      "evidence": "BBB profile lists Mrs. Janet Sahagun as Managing Partner of Pacific Heights Chevron Auto Repair (2500 California St)."
+    }
+  ],
+  "ChIJjYE-_D2HhYAR_DEUGrUhrek": [
+    {
+      "name": "John Rinaldi",
+      "role": "Owner / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Yelp review (Mar 2026) refers to John Rinaldi as owner/manager of Paul's Battery & Tire; family-owned since 1943. Single-source, no channels found."
+    }
+  ],
+  "ChIJSXJupTmHhYARt_z9CkDWCUA": [
+    {
+      "name": "Tommy Yu",
+      "role": "Director of Fixed Operations (oversees Parts & Service)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "tommy_yu@sftoyota.com",
+      "confidence": 0.9,
+      "evidence": "Listed as Director of Fixed Operations with direct email on sftoyota.com official staff page; senior decision-maker over parts/service department."
+    },
+    {
+      "name": "Thomas Duncan",
+      "role": "Parts Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "thomas_duncan@sftoyota.com",
+      "confidence": 0.9,
+      "evidence": "Listed as Parts Manager with direct email on sftoyota.com official staff page (most direct contact for the Parts Department place)."
+    },
+    {
+      "name": "Doug Donnellan",
+      "role": "President / Dealer Principal",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/doug-donnellan-639768/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "dougd@sftoyota.com",
+      "confidence": 0.85,
+      "evidence": "Listed as President on sftoyota.com staff page with direct email; multiple sources name him co-owner/dealer principal of SF Toyota; LinkedIn matched via search."
+    }
+  ],
+  "ChIJWQJBEIGAhYARyXCTyN-S_DI": [
+    {
+      "name": "Carolyn Coquillette",
+      "role": "Co-Founder & CEO",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/carolyn-coquillette/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "Named Co-Founder & CEO on Earthling official staff page; founded predecessor Luscious Garage (2007) and Shop-Ware; personal LinkedIn confirmed via search. Personal email not public (company: greetings@earthlingauto.com)."
+    },
+    {
+      "name": "Michael Huynh",
+      "role": "Service Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "Listed as Service Manager on Earthling official staff page; no personal channels published."
+    },
+    {
+      "name": "Marisa de la Cruz",
+      "role": "Operations Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "Listed as Operations Manager on Earthling official staff page; no personal channels published."
+    }
+  ],
+  "ChIJA_Tyeyh-j4AROJ6_PjFu9NY": [
+    {
+      "name": "Danny Chan",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/TheGarageSF",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "BBB business profile lists Mr. Danny Chan as Owner / principal customer contact for The Garage, LLC. Facebook is the business page (TheGarageSF), not personal."
+    },
+    {
+      "name": "Alice Luu",
+      "role": "Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB business profile lists Ms. Alice Luu as Manager of The Garage, LLC; no personal channels found."
+    }
+  ],
+  "ChIJ______5-j4ARVMLZGhIXHPk": [
+    {
+      "name": "Mario",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/mario-francisco-0173ba150",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/tmt_ads",
+      "facebook": "",
+      "email": "mario@ads-sf.com",
+      "confidence": 0.7,
+      "evidence": "Mario named as hands-on owner on ADS website + Yelp 'About the Business'; email mario@ads-sf.com confirmed on contact page; IG @tmt_ads is the business handle. LinkedIn (mario-francisco, 'Owner-operator / Auto detailing') is a probable but unverified match (page blocked HTTP 999); last name not reliably confirmed."
+    }
+  ],
+  "ChIJP-C4rE54j4ARLdbEDbKgzAk": [
+    {
+      "name": "Shao Dyi",
+      "role": "General Manager, California operations",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/cityautosupply/",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Per NexaMotion Group 2024 acquisition announcements, CA operations of City Auto Supply remain under current GM Shao Dyi; he is the active operational buyer at the South SF HQ. FB link is the business page, not personal."
+    },
+    {
+      "name": "Larry Chew",
+      "role": "Founder / CEO (retired)",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.3,
+      "evidence": "Founder/CEO who retired after the 2024 NexaMotion Group acquisition; no longer the active buyer (procurement now under NexaMotion). Multiple distinct 'Larry Chew' LinkedIn profiles exist, so none attributed."
+    }
+  ],
+  "ChIJ_ZuvKpeAhYAR8AsVbL70xZc": [
+    {
+      "name": "Kirill Shabelsky",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/kirill-shabelsky-9ba3533a/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/kirill.shabelsky/",
+      "email": "kshautomotive@gmail.com",
+      "confidence": 0.85,
+      "evidence": "Named Owner on kshautomotive.com About page and BBB; personal LinkedIn ('Owner, KSH Automotive') and personal Facebook profile both match. Email is the business inbox he operates."
+    }
+  ],
+  "ChIJdwEVAp6AhYARUXTwVWaVwmU": [
+    {
+      "name": "Igor Paskhover",
+      "role": "Owner / Member, Vladigor Investments, Inc. (dba Tower Car Wash)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/towercarwash/",
+      "facebook": "https://www.facebook.com/towercarwashSF",
+      "email": "info@towercarwash.com",
+      "confidence": 0.4,
+      "evidence": "Named owner/member of Vladigor Investments dba Tower Car Wash per SF City Attorney case and CorporationWiki; he is Beverly Hills-based (absentee owner) and the data is from 2011-2015 litigation, hence lower confidence. IG/FB are business channels."
+    },
+    {
+      "name": "Delavon Phommahaxay",
+      "role": "Store Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@towercarwash.com",
+      "confidence": 0.4,
+      "evidence": "Listed as store manager on the BBB business profile; more reachable on-site contact than the absentee Beverly Hills owners. Email is the general business inbox."
+    },
+    {
+      "name": "Vladimir Syelsky",
+      "role": "Co-owner, Vladigor Investments, Inc.",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.35,
+      "evidence": "Co-owner of Vladigor Investments dba Tower Car Wash per SF City Attorney case (with Lisa Syelsky, Steve Matijevich); absentee Beverly Hills-based owner, data from 2011-2015 litigation."
+    }
+  ],
+  "ChIJCVP380B-j4ARkAg2kABz-H4": [
+    {
+      "name": "Rand Hoffman",
+      "role": "Founder / CEO / Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/advancedautowerks/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Named as founder (2002) and CEO/owner of Advanced Autowerks in multiple business directories and trade press; Mackenzie Hoffman is VP. FB link is the business page."
+    },
+    {
+      "name": "Zachary Mason",
+      "role": "Service Manager",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/zachary-mason-5a0036bb/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "zach@advancedautowerks.com",
+      "confidence": 0.8,
+      "evidence": "Listed as Service Manager on advancedautowerks.com/team with bio; personal LinkedIn ('Advanced Autowerks, Inc') matches; direct email zach@advancedautowerks.com matches first name."
+    },
+    {
+      "name": "Shane Kilmer",
+      "role": "Shop Foreman",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "shane@advancedautowerks.com",
+      "confidence": 0.75,
+      "evidence": "Listed as Shop Foreman (ASE Master Tech) on advancedautowerks.com/team with bio; direct email shane@advancedautowerks.com matches first name."
+    }
+  ]
+}

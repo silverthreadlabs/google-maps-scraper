@@ -1,0 +1,49 @@
+[
+  {"id": 40, "categories": []},
+  {"id": 41, "categories": []},
+  {"id": 42, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "I called and told me they had what I needed and when I got there that wasn't the case", "reasoning": "Told on the phone the item was available, but it was not when arriving."}
+  ]},
+  {"id": 43, "categories": []},
+  {"id": 44, "categories": []},
+  {"id": 45, "categories": []},
+  {"id": 46, "categories": []},
+  {"id": 47, "categories": []},
+  {"id": 48, "categories": [
+    {"main": "service_quality_in_session", "sub": "language_barrier", "confidence": 0.7, "quote": "they couldn't speak English very well", "reasoning": "Customer reports staff could not communicate in English."},
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.65, "quote": "and was rude", "reasoning": "Staff described as rude."}
+  ]},
+  {"id": 49, "categories": []},
+  {"id": 50, "categories": []},
+  {"id": 51, "categories": []},
+  {"id": 52, "categories": []},
+  {"id": 53, "categories": []},
+  {"id": 54, "categories": []},
+  {"id": 55, "categories": []},
+  {"id": 56, "categories": []},
+  {"id": 57, "categories": []},
+  {"id": 58, "categories": []},
+  {"id": 59, "categories": []},
+  {"id": 60, "categories": []},
+  {"id": 61, "categories": []},
+  {"id": 62, "categories": []},
+  {"id": 63, "categories": []},
+  {"id": 64, "categories": []},
+  {"id": 65, "categories": []},
+  {"id": 66, "categories": []},
+  {"id": 67, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "The employee at the front desk is rude and disrespectful", "reasoning": "Front-desk employee described as rude and disrespectful."}
+  ]},
+  {"id": 68, "categories": []},
+  {"id": 69, "categories": []},
+  {"id": 70, "categories": []},
+  {"id": 71, "categories": []},
+  {"id": 72, "categories": []},
+  {"id": 73, "categories": []},
+  {"id": 74, "categories": []},
+  {"id": 75, "categories": []},
+  {"id": 76, "categories": []},
+  {"id": 77, "categories": []},
+  {"id": 78, "categories": []},
+  {"id": 79, "categories": []}
+]

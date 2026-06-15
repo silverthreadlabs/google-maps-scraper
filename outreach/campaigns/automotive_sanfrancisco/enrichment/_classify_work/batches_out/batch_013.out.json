@@ -1,0 +1,52 @@
+[
+  {"id": 520, "categories": []},
+  {"id": 521, "categories": []},
+  {"id": 522, "categories": []},
+  {"id": 523, "categories": []},
+  {"id": 524, "categories": []},
+  {"id": 525, "categories": []},
+  {"id": 526, "categories": []},
+  {"id": 527, "categories": []},
+  {"id": 528, "categories": []},
+  {"id": 529, "categories": []},
+  {"id": 530, "categories": []},
+  {"id": 531, "categories": []},
+  {"id": 532, "categories": []},
+  {"id": 533, "categories": []},
+  {"id": 534, "categories": []},
+  {"id": 535, "categories": []},
+  {"id": 536, "categories": []},
+  {"id": 537, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.45, "quote": "Not good  sales  person  not interest  for you  or you name", "reasoning": "Salesperson described as uninterested and dismissive toward the customer."}
+  ]},
+  {"id": 538, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.9, "quote": "In fact he's rude so often that I started laughing to myself recently at how tone deaf he seems.", "reasoning": "Manager repeatedly described as rude and gruff in tone toward a paying customer."}
+  ]},
+  {"id": 539, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "Man who answered was very dismissive and upset", "reasoning": "Phone-answering staff was dismissive and took offense, a tone complaint."}
+  ]},
+  {"id": 540, "categories": []},
+  {"id": 541, "categories": []},
+  {"id": 542, "categories": []},
+  {"id": 543, "categories": []},
+  {"id": 544, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.8, "quote": "plus the rude attitude from a little guy who I think was the business owner", "reasoning": "Customer reports a rude attitude from the owner, a tone complaint distinct from the pricing gripe."}
+  ]},
+  {"id": 545, "categories": []},
+  {"id": 546, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.7, "quote": "classic BAIT AND SWITCH tactics at play", "reasoning": "Bait-and-switch is an explicit surprise_billing trigger."}
+  ]},
+  {"id": 547, "categories": []},
+  {"id": 548, "categories": []},
+  {"id": 549, "categories": []},
+  {"id": 550, "categories": []},
+  {"id": 551, "categories": []},
+  {"id": 552, "categories": []},
+  {"id": 553, "categories": []},
+  {"id": 554, "categories": []},
+  {"id": 555, "categories": []},
+  {"id": 556, "categories": []},
+  {"id": 557, "categories": []},
+  {"id": 558, "categories": []},
+  {"id": 559, "categories": []}
+]

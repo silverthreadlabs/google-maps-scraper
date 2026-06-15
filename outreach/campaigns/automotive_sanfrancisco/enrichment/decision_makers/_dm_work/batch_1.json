@@ -1,0 +1,132 @@
+{
+  "ChIJjYE-_D2HhYAR_DEUGrUhrek": [
+    {
+      "name": "John Rinaldi",
+      "role": "Owner / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Yelp review (Mar 2026) refers to John Rinaldi as owner/manager of Paul's Battery & Tire; family-owned since 1943. Single-source, no channels found."
+    }
+  ],
+  "ChIJSXJupTmHhYARt_z9CkDWCUA": [
+    {
+      "name": "Tommy Yu",
+      "role": "Director of Fixed Operations (oversees Parts & Service)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "tommy_yu@sftoyota.com",
+      "confidence": 0.9,
+      "evidence": "Listed as Director of Fixed Operations with direct email on sftoyota.com official staff page; senior decision-maker over parts/service department."
+    },
+    {
+      "name": "Thomas Duncan",
+      "role": "Parts Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "thomas_duncan@sftoyota.com",
+      "confidence": 0.9,
+      "evidence": "Listed as Parts Manager with direct email on sftoyota.com official staff page (most direct contact for the Parts Department place)."
+    },
+    {
+      "name": "Doug Donnellan",
+      "role": "President / Dealer Principal",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/doug-donnellan-639768/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "dougd@sftoyota.com",
+      "confidence": 0.85,
+      "evidence": "Listed as President on sftoyota.com staff page with direct email; multiple sources name him co-owner/dealer principal of SF Toyota; LinkedIn matched via search."
+    }
+  ],
+  "ChIJWQJBEIGAhYARyXCTyN-S_DI": [
+    {
+      "name": "Carolyn Coquillette",
+      "role": "Co-Founder & CEO",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/carolyn-coquillette/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.95,
+      "evidence": "Named Co-Founder & CEO on Earthling official staff page; founded predecessor Luscious Garage (2007) and Shop-Ware; personal LinkedIn confirmed via search. Personal email not public (company: greetings@earthlingauto.com)."
+    },
+    {
+      "name": "Michael Huynh",
+      "role": "Service Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "Listed as Service Manager on Earthling official staff page; no personal channels published."
+    },
+    {
+      "name": "Marisa de la Cruz",
+      "role": "Operations Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "Listed as Operations Manager on Earthling official staff page; no personal channels published."
+    }
+  ],
+  "ChIJA_Tyeyh-j4AROJ6_PjFu9NY": [
+    {
+      "name": "Danny Chan",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/TheGarageSF",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "BBB business profile lists Mr. Danny Chan as Owner / principal customer contact for The Garage, LLC. Facebook is the business page (TheGarageSF), not personal."
+    },
+    {
+      "name": "Alice Luu",
+      "role": "Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB business profile lists Ms. Alice Luu as Manager of The Garage, LLC; no personal channels found."
+    }
+  ],
+  "ChIJ______5-j4ARVMLZGhIXHPk": [
+    {
+      "name": "Mario",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/mario-francisco-0173ba150",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/tmt_ads",
+      "facebook": "",
+      "email": "mario@ads-sf.com",
+      "confidence": 0.7,
+      "evidence": "Mario named as hands-on owner on ADS website + Yelp 'About the Business'; email mario@ads-sf.com confirmed on contact page; IG @tmt_ads is the business handle. LinkedIn (mario-francisco, 'Owner-operator / Auto detailing') is a probable but unverified match (page blocked HTTP 999); last name not reliably confirmed."
+    }
+  ]
+}

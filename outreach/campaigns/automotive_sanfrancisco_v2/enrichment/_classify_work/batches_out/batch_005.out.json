@@ -1,0 +1,56 @@
+[
+  {"id": 200, "categories": []},
+  {"id": 201, "categories": []},
+  {"id": 202, "categories": []},
+  {"id": 203, "categories": []},
+  {"id": 204, "categories": []},
+  {"id": 205, "categories": []},
+  {"id": 206, "categories": []},
+  {"id": 207, "categories": []},
+  {"id": 208, "categories": []},
+  {"id": 209, "categories": []},
+  {"id": 210, "categories": []},
+  {"id": 211, "categories": []},
+  {"id": 212, "categories": []},
+  {"id": 213, "categories": []},
+  {"id": 214, "categories": []},
+  {"id": 215, "categories": []},
+  {"id": 216, "categories": []},
+  {"id": 217, "categories": []},
+  {"id": 218, "categories": []},
+  {"id": 219, "categories": []},
+  {"id": 220, "categories": []},
+  {"id": 221, "categories": []},
+  {"id": 222, "categories": []},
+  {"id": 223, "categories": []},
+  {"id": 224, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "rude, condescending, unapologetic", "reasoning": "Staff described as rude and condescending when the customer clarified pickup time."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "was told to pick up “a little over twelve”. Called at 12:30, was told to “pick up at 3pm”", "reasoning": "Conflicting, shifting pickup times communicated to the customer."}
+  ]},
+  {"id": 225, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "Owner is very rude", "reasoning": "Owner described as very rude during a retest dispute."}
+  ]},
+  {"id": 226, "categories": []},
+  {"id": 227, "categories": []},
+  {"id": 228, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.6, "quote": "dud work that I did not agree to and tried to force me to pay", "reasoning": "Charged for work the customer never authorized."}
+  ]},
+  {"id": 229, "categories": []},
+  {"id": 230, "categories": []},
+  {"id": 231, "categories": []},
+  {"id": 232, "categories": []},
+  {"id": 233, "categories": [
+    {"main": "booking_friction", "sub": "scheduling_back_and_forth", "confidence": 0.7, "quote": "3 separate times I made appointments and showed up to be told they do not have my appointment on record", "reasoning": "Appointments repeatedly not on record, making them hard to confirm."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "they emailed me about it then called directly after saying my car was ready with no mention of the air filter", "reasoning": "Contradictory communication about the air filter and car-ready status."}
+  ]},
+  {"id": 234, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.55, "quote": "answering questions without even looking at the customer", "reasoning": "Staff dismissive toward customers, not engaging when answering."}
+  ]},
+  {"id": 235, "categories": []},
+  {"id": 236, "categories": []},
+  {"id": 237, "categories": []},
+  {"id": 238, "categories": []},
+  {"id": 239, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "Overall communcaiton left much to be desired", "reasoning": "Repeated delays and conflicting timelines on the quote; poor communication throughout."}
+  ]}
+]

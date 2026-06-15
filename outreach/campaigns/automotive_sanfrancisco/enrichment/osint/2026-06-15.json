@@ -1,0 +1,1333 @@
+[
+  {
+    "place_id": "ChIJ2VEBGQB_j4ARQiN4Qt87GeM",
+    "domain": null,
+    "enriched_at": "2026-06-15T08:53:38+00:00",
+    "lead": {
+      "business_name": "Liam Donald Original parts store supply",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": null,
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": ""
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJDYrnr4-AhYARVwv8miR2coQ",
+    "domain": "www.thrifty.com",
+    "enriched_at": "2026-06-15T08:53:52+00:00",
+    "lead": {
+      "business_name": "Thrifty Car Rental - San Francisco - O'farrell Street Ca Tle",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.thrifty.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-771-5332"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJT63NB4-AhYAR0biB9nbc6BA",
+    "domain": "www.hertz.com",
+    "enriched_at": "2026-06-15T08:55:00+00:00",
+    "lead": {
+      "business_name": "Hertz Car Rental - San Francisco - Mason Street",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.hertz.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-771-2200"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJby2RXSt4j4ARE7x2abFvdDw",
+    "domain": "www.hertz.com",
+    "enriched_at": "2026-06-15T08:56:04+00:00",
+    "lead": {
+      "business_name": "Hertz Car Rental - San Francisco - San Francisco International Airport (SFO)",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.hertz.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 650-624-6600"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ4XytPoeAhYARocdC3xD-HDI",
+    "domain": "www.avis.com",
+    "enriched_at": "2026-06-15T08:57:05+00:00",
+    "lead": {
+      "business_name": "Avis Car Rental",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.avis.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 650-877-6780"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Avis",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domainabuse@cscglobal.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJh8vx5-OAhYAR7rmBrc0SKOs",
+    "domain": "www.avis.com",
+    "enriched_at": "2026-06-15T08:59:11+00:00",
+    "lead": {
+      "business_name": "Avis Car Rental",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.avis.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-441-4141"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Avis",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domainabuse@cscglobal.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJKWE8YJaAhYAR6LcNes1aG2k",
+    "domain": "www.hertz.com",
+    "enriched_at": "2026-06-15T09:01:20+00:00",
+    "lead": {
+      "business_name": "Hertz Car Rental - San Francisco - Ellis Street",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.hertz.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-923-1119"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJFRCFHY6AhYARpBn0Nz1OtXw",
+    "domain": "www.budget.com",
+    "enriched_at": "2026-06-15T09:02:23+00:00",
+    "lead": {
+      "business_name": "Budget Car Rental",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.budget.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-674-1917"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domainabuse@cscglobal.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ9S8bxMp5j4AR-jg22a1E1Dk",
+    "domain": "www.sixt.com",
+    "enriched_at": "2026-06-15T09:04:10+00:00",
+    "lead": {
+      "business_name": "SIXT Car Rental - San Francisco International Airport (SFO)",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.sixt.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 888-749-8227"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJdwEVAp6AhYARUXTwVWaVwmU",
+    "domain": "www.towercarwash.com",
+    "enriched_at": "2026-06-15T09:05:10+00:00",
+    "lead": {
+      "business_name": "Tower Car Wash",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.towercarwash.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-558-9274"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJkfQ1y0V-j4ARbgdfHYsKOGw",
+    "domain": "www.autozone.com",
+    "enriched_at": "2026-06-15T09:06:19+00:00",
+    "lead": {
+      "business_name": "AutoZone Auto Parts",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.autozone.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-550-8630"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJM7ZEZJWAhYARR0-XLsL_uYs",
+    "domain": "www.wheelworks.net",
+    "enriched_at": "2026-06-15T09:07:36+00:00",
+    "lead": {
+      "business_name": "Wheel Works",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.wheelworks.net",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-906-3476"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "the Tires and",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJSQ3gYuGAhYARMjJX13tRQ30",
+    "domain": "www.sixt.com",
+    "enriched_at": "2026-06-15T09:10:47+00:00",
+    "lead": {
+      "business_name": "SIXT Rent a Car San Francisco Fishermans Wharf",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.sixt.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 888-749-8227"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ9a3hyi9-j4ARvCJv_bhxxDw",
+    "domain": "locations.oreillyauto.com",
+    "enriched_at": "2026-06-15T09:11:46+00:00",
+    "lead": {
+      "business_name": "O'Reilly Auto Parts",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "locations.oreillyauto.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-431-3386"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Your Local Store",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [
+          {
+            "value": "Click here to find astore.",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJm-v_4zWHhYAR2RUwYZgLhiI",
+    "domain": "www.bigotires.com",
+    "enriched_at": "2026-06-15T09:13:03+00:00",
+    "lead": {
+      "business_name": "Big O Tires",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.bigotires.com",
+      "poc_name_known": "Charlie Liu",
+      "poc_role_known": null,
+      "phone": "+1 415-689-6763"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domain.operations@web.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJQ8oDL0J_j4ARG3DCs3NpBGQ",
+    "domain": "www.sixt.com",
+    "enriched_at": "2026-06-15T09:17:43+00:00",
+    "lead": {
+      "business_name": "SIXT Rent a Car San Francisco Mission District",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.sixt.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 888-749-8227"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ_b5gFFR-j4ARekylTwTwH5Q",
+    "domain": "locations.oreillyauto.com",
+    "enriched_at": "2026-06-15T09:18:42+00:00",
+    "lead": {
+      "business_name": "O'Reilly Auto Parts",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "locations.oreillyauto.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-695-0882"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Your Local Store",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [
+          {
+            "value": "Click here to find astore.",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJT1TDwZ2AhYARRhR6t0Zj4I0",
+    "domain": "www.firestonecompleteautocare.com",
+    "enriched_at": "2026-06-15T09:19:49+00:00",
+    "lead": {
+      "business_name": "Firestone Complete Auto Care",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.firestonecompleteautocare.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-906-2561"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJn89r9qd_j4ARDbRroJRCzYo",
+    "domain": "www.napaonline.com",
+    "enriched_at": "2026-06-15T09:21:20+00:00",
+    "lead": {
+      "business_name": "NAPA Auto Parts",
+      "city": "San Francisco",
+      "industry": "auto repair",
+      "domain": "www.napaonline.com",
+      "poc_name_known": null,
+      "poc_role_known": null,
+      "phone": "+1 415-826-7400"
+    },
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domain.operations@web.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  }
+]

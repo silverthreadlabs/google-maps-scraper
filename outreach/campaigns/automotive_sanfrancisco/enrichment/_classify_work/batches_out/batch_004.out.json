@@ -1,0 +1,53 @@
+[
+  {"id": 160, "categories": []},
+  {"id": 161, "categories": []},
+  {"id": 162, "categories": []},
+  {"id": 163, "categories": []},
+  {"id": 164, "categories": [
+    {"main": "service_quality_in_session", "sub": null, "confidence": 0.55, "quote": "Waited over an hour to get a car that we had a reservation for.", "reasoning": "Customer waited far past their reservation time to receive the car; operational delay but no dental/medical sub fits."}
+  ]},
+  {"id": 165, "categories": [
+    {"main": "booking_friction", "sub": null, "confidence": 0.4, "quote": "our reservation was cancelled the day of the booking due to ‘unforeseen staffing emergency’", "reasoning": "Confirmed reservation cancelled day-of; booking disruption but no listed sub precisely fits a one-time cancellation."}
+  ]},
+  {"id": 166, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.85, "quote": "employee forgot  to articulate that if we return the car without full tank we will be charged $9.95 per gallon", "reasoning": "Undisclosed per-gallon fuel charge surfaced only after the fact — a hidden upcharge."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "customer service representative should verbalize it in front of us as well", "reasoning": "Material fee policy was never explained verbally, leaving the customer uninformed."}
+  ]},
+  {"id": 167, "categories": []},
+  {"id": 168, "categories": []},
+  {"id": 169, "categories": []},
+  {"id": 170, "categories": []},
+  {"id": 171, "categories": []},
+  {"id": 172, "categories": []},
+  {"id": 173, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.75, "quote": "drop off person was rude", "reasoning": "Customer reports the drop-off staffer was rude — front-of-house rudeness."}
+  ]},
+  {"id": 174, "categories": []},
+  {"id": 175, "categories": []},
+  {"id": 176, "categories": []},
+  {"id": 177, "categories": []},
+  {"id": 178, "categories": []},
+  {"id": 179, "categories": []},
+  {"id": 180, "categories": []},
+  {"id": 181, "categories": []},
+  {"id": 182, "categories": []},
+  {"id": 183, "categories": []},
+  {"id": 184, "categories": []},
+  {"id": 185, "categories": []},
+  {"id": 186, "categories": []},
+  {"id": 187, "categories": []},
+  {"id": 188, "categories": []},
+  {"id": 189, "categories": []},
+  {"id": 190, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.75, "quote": "does not specify that they do not take debit cards. They tell me only when I reach the rental place", "reasoning": "Critical payment-method policy was not disclosed until arrival, derailing the customer's plan."}
+  ]},
+  {"id": 191, "categories": []},
+  {"id": 192, "categories": []},
+  {"id": 193, "categories": []},
+  {"id": 194, "categories": []},
+  {"id": 195, "categories": []},
+  {"id": 196, "categories": []},
+  {"id": 197, "categories": []},
+  {"id": 198, "categories": []},
+  {"id": 199, "categories": []}
+]

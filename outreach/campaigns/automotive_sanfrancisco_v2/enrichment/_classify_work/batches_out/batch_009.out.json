@@ -1,0 +1,170 @@
+[
+  {
+    "id": 360,
+    "categories": []
+  },
+  {
+    "id": 361,
+    "categories": []
+  },
+  {
+    "id": 362,
+    "categories": []
+  },
+  {
+    "id": 363,
+    "categories": []
+  },
+  {
+    "id": 364,
+    "categories": []
+  },
+  {
+    "id": 365,
+    "categories": []
+  },
+  {
+    "id": 366,
+    "categories": []
+  },
+  {
+    "id": 367,
+    "categories": []
+  },
+  {
+    "id": 368,
+    "categories": []
+  },
+  {
+    "id": 369,
+    "categories": []
+  },
+  {
+    "id": 370,
+    "categories": []
+  },
+  {
+    "id": 371,
+    "categories": []
+  },
+  {
+    "id": 372,
+    "categories": []
+  },
+  {
+    "id": 373,
+    "categories": []
+  },
+  {
+    "id": 374,
+    "categories": []
+  },
+  {
+    "id": 375,
+    "categories": []
+  },
+  {
+    "id": 376,
+    "categories": []
+  },
+  {
+    "id": 377,
+    "categories": []
+  },
+  {
+    "id": 378,
+    "categories": []
+  },
+  {
+    "id": 379,
+    "categories": []
+  },
+  {
+    "id": 380,
+    "categories": []
+  },
+  {
+    "id": 381,
+    "categories": []
+  },
+  {
+    "id": 382,
+    "categories": []
+  },
+  {
+    "id": 383,
+    "categories": []
+  },
+  {
+    "id": 384,
+    "categories": []
+  },
+  {
+    "id": 385,
+    "categories": []
+  },
+  {
+    "id": 386,
+    "categories": []
+  },
+  {
+    "id": 387,
+    "categories": []
+  },
+  {
+    "id": 388,
+    "categories": []
+  },
+  {
+    "id": 389,
+    "categories": []
+  },
+  {
+    "id": 390,
+    "categories": []
+  },
+  {
+    "id": 391,
+    "categories": []
+  },
+  {
+    "id": 392,
+    "categories": []
+  },
+  {
+    "id": 393,
+    "categories": []
+  },
+  {
+    "id": 394,
+    "categories": []
+  },
+  {
+    "id": 395,
+    "categories": []
+  },
+  {
+    "id": 396,
+    "categories": []
+  },
+  {
+    "id": 397,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.7,
+        "quote": "I was surprised by how hasty he was",
+        "reasoning": "Mechanic rushed the diagnosis instead of examining the issue thoroughly."
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "categories": []
+  },
+  {
+    "id": 399,
+    "categories": []
+  }
+]

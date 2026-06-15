@@ -1,0 +1,49 @@
+[
+  {"id": 1000, "categories": []},
+  {"id": 1001, "categories": []},
+  {"id": 1002, "categories": []},
+  {"id": 1003, "categories": []},
+  {"id": 1004, "categories": []},
+  {"id": 1005, "categories": []},
+  {"id": 1006, "categories": []},
+  {"id": 1007, "categories": []},
+  {"id": 1008, "categories": [
+    {"main": "frontline_communication", "sub": null, "confidence": 0.55, "quote": "receptionist fielding calls is ignorant and causes their business to lose money", "reasoning": "Complaint about front-desk receptionist handling calls poorly, but 'ignorant' is a competence judgment that fits no specific sub (not clearly tone or unclear-info)."}
+  ]},
+  {"id": 1009, "categories": []},
+  {"id": 1010, "categories": []},
+  {"id": 1011, "categories": []},
+  {"id": 1012, "categories": []},
+  {"id": 1013, "categories": []},
+  {"id": 1014, "categories": []},
+  {"id": 1015, "categories": []},
+  {"id": 1016, "categories": []},
+  {"id": 1017, "categories": []},
+  {"id": 1018, "categories": []},
+  {"id": 1019, "categories": []},
+  {"id": 1020, "categories": []},
+  {"id": 1021, "categories": []},
+  {"id": 1022, "categories": []},
+  {"id": 1023, "categories": []},
+  {"id": 1024, "categories": []},
+  {"id": 1025, "categories": []},
+  {"id": 1026, "categories": []},
+  {"id": 1027, "categories": []},
+  {"id": 1028, "categories": []},
+  {"id": 1029, "categories": []},
+  {"id": 1030, "categories": []},
+  {"id": 1031, "categories": []},
+  {"id": 1032, "categories": []},
+  {"id": 1033, "categories": []},
+  {"id": 1034, "categories": []},
+  {"id": 1035, "categories": []},
+  {"id": 1036, "categories": []},
+  {"id": 1037, "categories": []},
+  {"id": 1038, "categories": [
+    {"main": "calls_unanswered", "sub": null, "confidence": 0.7, "quote": "I tried calling, leaving voicemails, and texting in order to make an appointment and it took a week for them to get back to me via text", "reasoning": "Repeated calls/voicemails to book went unanswered for a week; not 'never returned' (they replied eventually) so no sub fits precisely."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.6, "quote": "When I asked what had changed they did not respond", "reasoning": "Customer actively asked a specific question and never received a response."}
+  ]},
+  {"id": 1039, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.6, "quote": "Rude jerks", "reasoning": "Generic rudeness from staff with no detail on clarity or being ignored; defaults to staff_rude_front_desk per disambiguation rule."}
+  ]}
+]

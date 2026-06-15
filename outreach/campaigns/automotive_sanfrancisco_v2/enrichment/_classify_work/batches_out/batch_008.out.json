@@ -1,0 +1,170 @@
+[
+  {
+    "id": 320,
+    "categories": []
+  },
+  {
+    "id": 321,
+    "categories": []
+  },
+  {
+    "id": 322,
+    "categories": []
+  },
+  {
+    "id": 323,
+    "categories": []
+  },
+  {
+    "id": 324,
+    "categories": []
+  },
+  {
+    "id": 325,
+    "categories": []
+  },
+  {
+    "id": 326,
+    "categories": []
+  },
+  {
+    "id": 327,
+    "categories": []
+  },
+  {
+    "id": 328,
+    "categories": []
+  },
+  {
+    "id": 329,
+    "categories": []
+  },
+  {
+    "id": 330,
+    "categories": []
+  },
+  {
+    "id": 331,
+    "categories": []
+  },
+  {
+    "id": 332,
+    "categories": []
+  },
+  {
+    "id": 333,
+    "categories": []
+  },
+  {
+    "id": 334,
+    "categories": []
+  },
+  {
+    "id": 335,
+    "categories": []
+  },
+  {
+    "id": 336,
+    "categories": []
+  },
+  {
+    "id": 337,
+    "categories": []
+  },
+  {
+    "id": 338,
+    "categories": []
+  },
+  {
+    "id": 339,
+    "categories": []
+  },
+  {
+    "id": 340,
+    "categories": []
+  },
+  {
+    "id": 341,
+    "categories": []
+  },
+  {
+    "id": 342,
+    "categories": []
+  },
+  {
+    "id": 343,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "this fee isn’t applied toward the repair if you choose to move forward",
+        "reasoning": "Diagnostic fee structure was an undisclosed cost the customer found surprising."
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "categories": []
+  },
+  {
+    "id": 345,
+    "categories": []
+  },
+  {
+    "id": 346,
+    "categories": []
+  },
+  {
+    "id": 347,
+    "categories": []
+  },
+  {
+    "id": 348,
+    "categories": []
+  },
+  {
+    "id": 349,
+    "categories": []
+  },
+  {
+    "id": 350,
+    "categories": []
+  },
+  {
+    "id": 351,
+    "categories": []
+  },
+  {
+    "id": 352,
+    "categories": []
+  },
+  {
+    "id": 353,
+    "categories": []
+  },
+  {
+    "id": 354,
+    "categories": []
+  },
+  {
+    "id": 355,
+    "categories": []
+  },
+  {
+    "id": 356,
+    "categories": []
+  },
+  {
+    "id": 357,
+    "categories": []
+  },
+  {
+    "id": 358,
+    "categories": []
+  },
+  {
+    "id": 359,
+    "categories": []
+  }
+]

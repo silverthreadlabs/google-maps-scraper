@@ -1,0 +1,58 @@
+[
+  {"id": 0, "categories": []},
+  {"id": 1, "categories": []},
+  {"id": 2, "categories": []},
+  {"id": 3, "categories": []},
+  {"id": 4, "categories": []},
+  {"id": 5, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.7, "quote": "You will wait for over an hour to get the basic $40 service", "reasoning": "Customer reports waiting over an hour for basic service due to understaffing."}
+  ]},
+  {"id": 6, "categories": []},
+  {"id": 7, "categories": []},
+  {"id": 8, "categories": []},
+  {"id": 9, "categories": []},
+  {"id": 10, "categories": []},
+  {"id": 11, "categories": []},
+  {"id": 12, "categories": []},
+  {"id": 13, "categories": []},
+  {"id": 14, "categories": []},
+  {"id": 15, "categories": []},
+  {"id": 16, "categories": []},
+  {"id": 17, "categories": [
+    {"main": "calls_unanswered", "sub": "missed_calls_during_business_hours", "confidence": 0.7, "quote": "Tried to call to get update, call and text was ignored.", "reasoning": "Customer tried to reach the business for an update and the call was ignored."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "Received two different delivery dates, parts never arrived.", "reasoning": "Conflicting delivery dates given and no follow-through communication."}
+  ]},
+  {"id": 18, "categories": []},
+  {"id": 19, "categories": []},
+  {"id": 20, "categories": []},
+  {"id": 21, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.6, "quote": "they told me my part will be ready at 11:00 am", "reasoning": "Repeatedly pushed past the promised ready time, kept waiting well beyond estimate."}
+  ]},
+  {"id": 22, "categories": []},
+  {"id": 23, "categories": []},
+  {"id": 24, "categories": []},
+  {"id": 25, "categories": []},
+  {"id": 26, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "Rudest front office cashier.", "reasoning": "Front-desk cashier described as rude and combative."}
+  ]},
+  {"id": 27, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "they told me they have my part and they never have it", "reasoning": "Told the part was in stock when it was not, contradictory information."}
+  ]},
+  {"id": 28, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "Offered delivery, then 3 hours later said they would not deliver.", "reasoning": "Contradictory commitment on delivery after agreeing to it."}
+  ]},
+  {"id": 29, "categories": []},
+  {"id": 30, "categories": [
+    {"main": "calls_unanswered", "sub": "missed_calls_during_business_hours", "confidence": 0.8, "quote": "They never pick up the call", "reasoning": "Business does not answer phone calls."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "their  website says they got the part don’t believe them", "reasoning": "Website stock info is contradicted in practice."}
+  ]},
+  {"id": 31, "categories": []},
+  {"id": 32, "categories": []},
+  {"id": 33, "categories": []},
+  {"id": 34, "categories": []},
+  {"id": 35, "categories": []},
+  {"id": 36, "categories": []},
+  {"id": 37, "categories": []},
+  {"id": 38, "categories": []},
+  {"id": 39, "categories": []}
+]

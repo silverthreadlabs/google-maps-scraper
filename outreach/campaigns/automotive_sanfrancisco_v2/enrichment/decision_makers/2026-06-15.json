@@ -1,0 +1,300 @@
+{
+  "ChIJldRdiR9-hYAR837u0woEGVI": [
+    {
+      "name": "Henry Levan",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Owner of Levan Group, Inc. (operates oaklandautoparts.com / Oakland Body Parts at 1911 Union St). Corroborated by BBB 'Business Management' field (Mr. Henry Levan, Owner) and the company about-us context. NO qualifying personal channel found: no confirmed personal LinkedIn, no personal email on the site, and the 'tommy@bodykits.com' address seen in search summaries is unverified/likely fabricated (bodykits.com is an unrelated Huntington Beach company). Name is well-corroborated but I could not find a reachable non-phone personal channel, so channels left empty per honesty rules."
+    },
+    {
+      "name": "Tommy Tran",
+      "role": "President",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.4,
+      "evidence": "President of Levan Group, Inc. per BBB 'Business Management' field (Mr. Tommy Tran, President), corroborated by about-us context. A LinkedIn result (tommy-tran-46990b223) surfaced but could not be confirmed as this person (LinkedIn blocks automated fetch). The 'tommy@bodykits.com' email from search summaries is NOT recorded: bodykits.com verified as an unrelated Huntington Beach, CA company. No verified personal channel found."
+    }
+  ],
+  "ChIJjzHL_pSAhYAR3WVaYM-MeAM": [
+    {
+      "name": "Jennifer W.",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/cityrentacar/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "City Rent-A-Car is a locally owned, family-run, WOMEN-OWNED business at its original 321 Mason St location since 1980, per Yelp 'About the Business' / 'Meet the Business Owner', which names the owners as Randy and Jennifer W. The women-owned designation points to Jennifer as a principal owner. Last name only given as initial 'W.' on Yelp; full surname not available from free public sources (CA SOS bizfile entity not located via search). Channel is the owner-run Facebook page (facebook.com/cityrentacar, ~710 likes) -- for an independent family shop a page DM reaches the owners (acceptable channel #3). Could not verify the page's recent posting activity (login-gated)."
+    },
+    {
+      "name": "Randy W.",
+      "role": "Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/cityrentacar/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Co-owner of City Rent-A-Car (family-run, since 1980) named alongside Jennifer W. in Yelp 'About the Business' / 'Meet the Business Owner'. Also mentioned by customers as a helpful on-site team member. Last name only available as initial 'W.'; full surname not findable from free sources. Channel is the owner-run Facebook page (facebook.com/cityrentacar) -- acceptable channel #3 for an independent shop."
+    }
+  ],
+  "ChIJSXJupTmHhYARt_z9CkDWCUA": [
+    {
+      "name": "Edwin Tan",
+      "role": "Vice President & General Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "edwint@sftoyota.com",
+      "confidence": 0.75,
+      "evidence": "DEALERSHIP PARTS DEPARTMENT, not an independent business. San Francisco Toyota is a franchised but independently/family-owned dealer (since 1966; President Doug Donnellan), so a real local decision-maker is reachable. Edwin Tan is VP & General Manager -- the owner-level/GM decision-maker over the Parts Department -- listed with named individual email edwint@sftoyota.com on the dealer's primary staff page (sftoyota.com/staff.aspx). Email double-confirmed (appeared in search results and on the staff page). Named individual email, not a generic info@/sales@."
+    },
+    {
+      "name": "Doug Donnellan",
+      "role": "President / Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "dougd@sftoyota.com",
+      "confidence": 0.7,
+      "evidence": "President and owner of San Francisco Toyota (family-owned dealership since 1966; co-owner John Horton started 1971). Named individual email dougd@sftoyota.com listed on the dealer's primary staff page (sftoyota.com/staff.aspx). Highest-level owner but less directly tied to the Parts Department day-to-day. Email is single-source (staff-page extraction)."
+    },
+    {
+      "name": "Thomas Duncan",
+      "role": "Parts Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "thomas_duncan@sftoyota.com",
+      "confidence": 0.65,
+      "evidence": "Parts Manager at San Francisco Toyota -- runs the Parts Department day-to-day but is not an owner/president/GM. Included as the most directly relevant operational contact. Named individual email thomas_duncan@sftoyota.com on the dealer's primary staff page (sftoyota.com/staff.aspx); single-source (staff-page extraction). Named individual email, not generic."
+    }
+  ],
+  "ChIJbUK39DF-j4ARXSG5bZqbNlk": [
+    {
+      "name": "Ben Sanchez",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/alltiresfc/",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Owner of All Tire (359 Potrero Ave), confirmed by BBB 'Business Management' field (Mr. Ben Sanchez, Owner) and the All Tire site/about content (SF Bay Area native, 25+ yrs in the industry; family owned since 1983). No personal LinkedIn found that matches him (searched; the Ben Sanchez profiles found are unrelated professionals). No personal email found. Channel given is the shop's Instagram (@alltiresfc) -- for an independent family-run shop, the owner typically runs this, so a DM reaches him (acceptable channel #3). Owner-run status of the IG not independently confirmed."
+    }
+  ],
+  "ChIJoRwSsdaAhYAR-6kB91ajsTw": [],
+  "ChIJ______5-j4ARVMLZGhIXHPk": [
+    {
+      "name": "Mario",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/tmt_ads/",
+      "facebook": "",
+      "email": "mario@ads-sf.com",
+      "confidence": 0.7,
+      "evidence": "Mario is the owner/founder of Autobody Detail Specialist (ADS); Yelp/About context: he and his partner were born and raised in SF, opened a dealership (Trustworthy Motors) in 2008, then founded ADS. His named personal email mario@ads-sf.com appears on the business's primary 'Get In Touch' contact page (autobodydetailspecialist.com/get-in-touch) -- a named individual address, not a generic info@/sales@, so it qualifies as channel #2. Backup channel: owner-run Instagram @tmt_ads (also linked on the contact page). Last name not found (Yelp 'Meet the Business Owner' only shows the entity 'Ads Inc.')."
+    }
+  ],
+  "ChIJV5OAg8iAhYARInxphnLkavs": [
+    {
+      "name": "Janet Sahagun",
+      "role": "Managing Partner / Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/pacificheightschevron/",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Family-owned Sahagun-run Chevron station (entity 'David Sahagun Enterprises, Inc.' per Buzzfile/YellowPages). Founder/owner David 'Dave' Sahagun was photographed as owner in 2021 (Getty Images news photos) but passed away Feb 2025 (SF Chronicle/Legacy obituary). ZoomInfo and a search snippet list Janet Sahagun as Managing Partner, so she is the current primary decision-maker. No personal email/LinkedIn found for Janet; reachable channel is the owner-run shop Facebook page (facebook.com/pacificheightschevron). Corroboration: ZoomInfo + obituary + Buzzfile entity name. ZoomInfo also floated 'David Bargen' as owner but this is uncorroborated and contradicted by the Sahagun-family entity name, so not used."
+    },
+    {
+      "name": "Pat Sahagun",
+      "role": "Family member / Pacific Heights Chevron",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/pat-sahagun-52644776/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "LinkedIn profile titled 'Pat Sahagun - Pacific Heights Chevron' (located San Rafael, 68 connections). Patrick Sahagun is identified as a sibling of late founder David Sahagun. A reachable named individual tied to the family business via personal LinkedIn (channel #1), though exact current role at the shop is unconfirmed."
+    }
+  ],
+  "ChIJ_ZuvKpeAhYAR8AsVbL70xZc": [
+    {
+      "name": "Kirill Shabelsky",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/kirill-shabelsky-9ba3533a/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/kirill.shabelsky/",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "KSH Automotive 'About' page names Kirill Shabelsky as owner (KSH = his initials). Personal LinkedIn titled 'Kirill Shabelsky - Owner, KSH Automotive' (linkedin.com/in/kirill-shabelsky-9ba3533a) corroborates. Distinctive personal Facebook (facebook.com/kirill.shabelsky) surfaced in the same search. Three sources agree: company About page + LinkedIn + business filing data showing him as owner. Note: kshautomotive@gmail.com exists but is a business inbox, not a personal email, so deliberately not recorded."
+    }
+  ],
+  "ChIJjYE-_D2HhYAR_DEUGrUhrek": [
+    {
+      "name": "John Rinaldi",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/john-rinaldi-5ba18941/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "Personal LinkedIn titled 'john rinaldi - owner - pauls battery & tire service' (linkedin.com/in/john-rinaldi-5ba18941). Corroborated by numerous Yelp/Birdeye reviews referencing owner 'John' at the shop. Family-owned since 1943; underlying entity appears to be 'R.P.R.T Inc' per Pirelli dealer listing. Two+ sources (LinkedIn title + customer reviews naming John) agree."
+    }
+  ],
+  "ChIJdwEVAp6AhYARUXTwVWaVwmU": [
+    {
+      "name": "Igor Paskhover",
+      "role": "Owner / CEO",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/towercarwash/",
+      "facebook": "https://www.facebook.com/towercarwashSF/",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Tower Car Wash is operated by 'Vladigor Investments, Inc. dba Tower Car Wash'. Igor Paskhover is Director/Secretary/CEO and identified as owner (D&B, Buzzfile, ZoomInfo, and the 2011 SF City Attorney lawsuit caption 'Vladigor Investments Inc. ... Igor Paskhover; Vladimir Syelsky'). Owner name well-corroborated. No reliable personal channel: a LinkedIn 'Igor Paskhover - Owner, New Millennium Management, Beverly Hills' appears to be a different person (wrong city/industry), so NOT recorded. Reachable channel is the owner-run shop social (Facebook towercarwashSF / Instagram @towercarwash). Confidence reflects strong owner ID but channel is shop-level rather than personal."
+    }
+  ],
+  "ChIJL_ahAyOahYARs4MsYx7egBk": [
+    {
+      "name": "Victor Amaya",
+      "role": "Co-Owner / Founder (head mechanic & manager)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/amayasautorepair/",
+      "facebook": "https://www.facebook.com/amayasauto/",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "Company website states 'Victor and Carlos Amaya founded Amaya's Auto Repair & Towing in 2011'; search corroboration names co-founder as Victor Amaya and (Juan)Carlos Amaya, with Victor as head mechanic and manager. Family-owned independent shop, so the owner-run Instagram (@amayasautorepair, ~1k followers) and Facebook (facebook.com/amayasauto) reach the owners directly (channel #3). No personal LinkedIn/email found. amayastowing@gmail.com exists but is a business inbox, not personal, so not recorded."
+    },
+    {
+      "name": "Carlos (JuanCarlos) Amaya",
+      "role": "Co-Owner / Founder",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/amayasautorepair/",
+      "facebook": "https://www.facebook.com/amayasauto/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Named as co-founder alongside brother Victor on the company website and corroborating sources (2011 founding). Reachable via the same owner-run shop Instagram/Facebook (channel #3)."
+    }
+  ],
+  "ChIJh6IKhg18j4ARZtS-fx3BrOE": [
+    {
+      "name": "Victor Lieuw",
+      "role": "Manager / decision-maker",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/autosoundperformance/",
+      "facebook": "https://www.facebook.com/p/AUTO-SOUND-PERFORMANCE-100052568832775/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Google name 'Automotive Specialty Products' at 7338 Mission St maps to the same site/address as 'Auto Sound Performance' (aspperformance.com) - confirmed same business (founded ~1996-2001, later run by two former employees). Owner/decision-maker identity is conflicting across sources: BBB Principal Contact lists 'Mr. Victor Lieuw, Manager'; D&B/superpages tie the business to 'Anthony Shek' (phone-only, not recorded). Independent shop, so the owner-run Instagram (@autosoundperformance) and Facebook page are the reachable channels (channel #3). Low confidence on the specific person due to the name conflict; channel is shop-level."
+    }
+  ],
+  "ChIJP-C4rE54j4ARLdbEDbKgzAk": [],
+  "ChIJA_Tyeyh-j4AROJ6_PjFu9NY": [
+    {
+      "name": "Danny Chan",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/TheGarageSF",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "BBB profile for 'The Garage, LLC' (San Francisco) lists principal contact 'Mr. Danny Chan, Owner' and 'Ms. Alice Luu, Manager', business start 4/1/1993, LLC formed 2004 (bbb.org/us/ca/san-francisco/profile/auto-repair/the-garage-llc-1116-30325). Independent shop. No personal LinkedIn/email found; the owner-run shop Facebook page (facebook.com/TheGarageSF, linked from thegarageautorepair.com SF location page) is the reachable owner DM channel. Moderate confidence: owner name corroborated by BBB only; could not confirm a personal individual social profile."
+    }
+  ],
+  "ChIJSwCl5OqAhYARxVwogtBO4eE": [
+    {
+      "name": "Greg Arkus",
+      "role": "President / Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/greg-arkus-0924182",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "petesinc.com identifies Greg as 'Manager / Owner' ('The owner, Greg, has a couple of BMWs himself'). LinkedIn profile linkedin.com/in/greg-arkus-0924182 lists him as President at 'Pete's Independent Mercedes and BMW Service' (Tiburon, CA), corroborated by RocketReach. Two+ independent sources agree on name+role+personal LinkedIn."
+    }
+  ],
+  "ChIJ89mQjj5-j4ARttGv5rppAug": [
+    {
+      "name": "Kimberly Sawyers",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/sf_autoworks_/",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "sfautoworks.com 'About Us' names Kimberly Sawyers as 3rd-generation owner (took over from Kevin Hrebich & Joe Pramana in 2018; founded 1974 by Dale Newhouse). Corroborated by Mission Local profile (missionlocal.org/2023/12/people-we-meet-kimberly-sawyers...) confirming she owns San Francisco Auto Works at 21st & Valencia. She is the hands-on owner-operator, so the owner-run shop Instagram @sf_autoworks_ (instagram.com/sf_autoworks_) is the reachable DM channel. No confirmed personal individual handle found (a 'kimbosawyer' IG appeared in search but could not be verified as hers, so not recorded); shop email is a generic gmail and excluded per rules."
+    }
+  ],
+  "ChIJWQJBEIGAhYARyXCTyN-S_DI": [
+    {
+      "name": "Carolyn Coquillette",
+      "role": "Owner / Co-Founder",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/carolyn-coquillette/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "Earthling Automotive (formerly Luscious Garage, rebranded 2023) was founded/owned by Carolyn Coquillette, who is also founder/CEO of Shop-Ware. Confirmed across earthlingauto.com 'Our Story', PRNewswire launch release, Ratchet & Wrench, and Autobody News. Personal LinkedIn linkedin.com/in/carolyn-coquillette/ surfaced in search and matches her Shop-Ware/Earthling bio. Well-corroborated public figure. (Also has Medium @carolyn_coquillette.)"
+    }
+  ],
+  "ChIJabkJnyZ-j4ARiZoU6CbuU8s": [
+    {
+      "name": "Jesus Rojas",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/autorepaire/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "CalMatters (May 2022, calmatters.org/environment/2022/05/california-electric-cars-mechanics-jobs/) profiles Jesus Rojas (42) who 'opened his own shop 11 years ago' running an SF auto repair shop with business partner Raul Perez ('JR' = Jesus Rojas / J&R). Yelp review of JR Automotive (155 14th St) refers to 'Jesus' as the Owner. The shop's own Facebook page facebook.com/autorepaire/ is JR Automotive's official owner-run page and the reachable DM channel. Note: one aggregator listed 'Jorge Reategui' but primary press (CalMatters) supports Jesus Rojas; co-owner Raul Perez also exists. No personal LinkedIn/email found."
+    }
+  ]
+}

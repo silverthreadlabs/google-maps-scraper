@@ -1,0 +1,132 @@
+{
+  "ChIJldRdiR9-hYAR837u0woEGVI": [
+    {
+      "name": "Henry Levan",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@oaklandautoparts.com",
+      "confidence": 0.8,
+      "evidence": "BBB profile for Levan Group, Inc. (1911 Union St, Oakland) lists Mr. Henry Levan as Owner; email is the generic company address (not personal)."
+    },
+    {
+      "name": "Tommy Tran",
+      "role": "President",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.78,
+      "evidence": "BBB profile for Levan Group, Inc. (operator of Oakland Auto Parts / oaklandbodyparts.com) lists Mr. Tommy Tran as President."
+    }
+  ],
+  "ChIJjzHL_pSAhYAR3WVaYM-MeAM": [
+    {
+      "name": "Randy W.",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://instagram.com/Cityrentacar",
+      "facebook": "https://www.facebook.com/cityrentacar/",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Yelp 'Meet the Owner' names Randy and Jennifer W. as owners of City Rent-A-Car (family-run since ~1980); full last name not confirmed via SOS (OpenCorporates CAPTCHA-walled). Social handles are company-owned."
+    },
+    {
+      "name": "Jennifer W.",
+      "role": "Co-Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Yelp owner section lists Jennifer W. as co-owner of City Rent-A-Car; women-owned, family-run business; full last name unconfirmed."
+    }
+  ],
+  "ChIJbUK39DF-j4ARXSG5bZqbNlk": [
+    {
+      "name": "Ben Sanchez",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "All Tire About-Us / BBB describe owner Ben Sanchez, SF Bay Area native with 25+ years in automotive; family owned and operated since 1983."
+    }
+  ],
+  "ChIJoRwSsdaAhYAR-6kB91ajsTw": [
+    {
+      "name": "Loren",
+      "role": "Shop Manager (local GM, Lombard St)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/ToscalitoTireSanFrancisco",
+      "email": "",
+      "confidence": 0.3,
+      "evidence": "Multiple Yelp reviews name 'Loren' as the SF (2342 Lombard St) shop manager; first name only. Location owned by Sun Auto Tire & Service; FB is the SF-specific page."
+    },
+    {
+      "name": "Tony Puckett",
+      "role": "CEO, Sun Auto Tire & Service (parent company)",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/tony-puckett-187aa762/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Toscalito was acquired by Sun Auto Tire & Service (2022); Tony Puckett is Sun Auto CEO per Modern Tire Dealer and his LinkedIn."
+    },
+    {
+      "name": "George",
+      "role": "Assistant Manager (Lombard St)",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.25,
+      "evidence": "Yelp reviews mention 'George' as assistant manager at the SF Lombard St location; first name only."
+    }
+  ],
+  "ChIJV5OAg8iAhYARInxphnLkavs": [
+    {
+      "name": "David Bargen",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/pacificheightschevron/",
+      "email": "",
+      "confidence": 0.78,
+      "evidence": "BBB profile for Pacific Heights Chevron Auto Repair (a/k/a Sahagun And BeeBee, LLC) lists Mr. David Bargen as Owner; FB is the company page."
+    },
+    {
+      "name": "Janet Sahagun",
+      "role": "Managing Partner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.78,
+      "evidence": "BBB profile lists Mrs. Janet Sahagun as Managing Partner of Pacific Heights Chevron Auto Repair (2500 California St)."
+    }
+  ]
+}

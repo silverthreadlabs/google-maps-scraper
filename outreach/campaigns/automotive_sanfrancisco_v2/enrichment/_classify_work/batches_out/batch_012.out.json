@@ -1,0 +1,186 @@
+[
+  {
+    "id": 480,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "I sent an email about the situation the parts department never responded",
+        "reasoning": "Customer reached out about a missing item and got no response back."
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.5,
+        "quote": "refused to even look it up without my vin",
+        "reasoning": "Customer's specific part request was dismissed without being checked."
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "categories": []
+  },
+  {
+    "id": 483,
+    "categories": []
+  },
+  {
+    "id": 484,
+    "categories": []
+  },
+  {
+    "id": 485,
+    "categories": []
+  },
+  {
+    "id": 486,
+    "categories": []
+  },
+  {
+    "id": 487,
+    "categories": []
+  },
+  {
+    "id": 488,
+    "categories": []
+  },
+  {
+    "id": 489,
+    "categories": []
+  },
+  {
+    "id": 490,
+    "categories": []
+  },
+  {
+    "id": 491,
+    "categories": []
+  },
+  {
+    "id": 492,
+    "categories": []
+  },
+  {
+    "id": 493,
+    "categories": []
+  },
+  {
+    "id": 494,
+    "categories": []
+  },
+  {
+    "id": 495,
+    "categories": []
+  },
+  {
+    "id": 496,
+    "categories": []
+  },
+  {
+    "id": 497,
+    "categories": []
+  },
+  {
+    "id": 498,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Unable to find out any information as to what, why, where, etc. about this part",
+        "reasoning": "No clear information given about the status of a shipped part."
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "categories": []
+  },
+  {
+    "id": 500,
+    "categories": []
+  },
+  {
+    "id": 501,
+    "categories": []
+  },
+  {
+    "id": 502,
+    "categories": []
+  },
+  {
+    "id": 503,
+    "categories": []
+  },
+  {
+    "id": 504,
+    "categories": []
+  },
+  {
+    "id": 505,
+    "categories": []
+  },
+  {
+    "id": 506,
+    "categories": []
+  },
+  {
+    "id": 507,
+    "categories": []
+  },
+  {
+    "id": 508,
+    "categories": []
+  },
+  {
+    "id": 509,
+    "categories": []
+  },
+  {
+    "id": 510,
+    "categories": []
+  },
+  {
+    "id": 511,
+    "categories": []
+  },
+  {
+    "id": 512,
+    "categories": []
+  },
+  {
+    "id": 513,
+    "categories": []
+  },
+  {
+    "id": 514,
+    "categories": []
+  },
+  {
+    "id": 515,
+    "categories": []
+  },
+  {
+    "id": 516,
+    "categories": []
+  },
+  {
+    "id": 517,
+    "categories": []
+  },
+  {
+    "id": 518,
+    "categories": []
+  },
+  {
+    "id": 519,
+    "categories": []
+  }
+]

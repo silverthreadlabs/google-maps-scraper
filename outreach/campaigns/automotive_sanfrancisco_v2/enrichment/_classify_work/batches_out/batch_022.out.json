@@ -1,0 +1,48 @@
+[
+  {"id": 880, "categories": []},
+  {"id": 881, "categories": []},
+  {"id": 882, "categories": []},
+  {"id": 883, "categories": []},
+  {"id": 884, "categories": []},
+  {"id": 885, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "They failed to notify me they would be late", "reasoning": "Shop did not communicate the delay to the customer."}
+  ]},
+  {"id": 886, "categories": []},
+  {"id": 887, "categories": []},
+  {"id": 888, "categories": []},
+  {"id": 889, "categories": []},
+  {"id": 890, "categories": []},
+  {"id": 891, "categories": []},
+  {"id": 892, "categories": []},
+  {"id": 893, "categories": []},
+  {"id": 894, "categories": []},
+  {"id": 895, "categories": []},
+  {"id": 896, "categories": []},
+  {"id": 897, "categories": []},
+  {"id": 898, "categories": []},
+  {"id": 899, "categories": []},
+  {"id": 900, "categories": []},
+  {"id": 901, "categories": []},
+  {"id": 902, "categories": []},
+  {"id": 903, "categories": []},
+  {"id": 904, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.55, "quote": "Manager of the shop very prejudice", "reasoning": "Complaint about unprofessional conduct of the shop manager."}
+  ]},
+  {"id": 905, "categories": []},
+  {"id": 906, "categories": []},
+  {"id": 907, "categories": []},
+  {"id": 908, "categories": []},
+  {"id": 909, "categories": []},
+  {"id": 910, "categories": []},
+  {"id": 911, "categories": []},
+  {"id": 912, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.6, "quote": "They gave me a used part and charged me full price.", "reasoning": "Charged full price for a used part rather than the new part billed."}
+  ]},
+  {"id": 913, "categories": []},
+  {"id": 914, "categories": []},
+  {"id": 915, "categories": []},
+  {"id": 916, "categories": []},
+  {"id": 917, "categories": []},
+  {"id": 918, "categories": []},
+  {"id": 919, "categories": []}
+]

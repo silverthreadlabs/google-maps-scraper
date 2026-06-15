@@ -1,0 +1,762 @@
+{
+  "ChIJdwEVAp6AhYARUXTwVWaVwmU": {
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "snippet": "This WAS a great car wash… ownership has reduced workforce and the service has diminished.  You will wait for over an hour to get the basic $40 service and the job is not well done. Today they had a 4 member crew working; way understaffed.  Keep driving down to South Van Ness and 16th, there is another car wash there.",
+        "rating": 1,
+        "reviewer": "Ani Rivera",
+        "reasoning": "Customer reports waiting over an hour for basic service due to understaffing."
+      }
+    ]
+  },
+  "ChIJldRdiR9-hYAR837u0woEGVI": {
+    "calls_unanswered": [
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "snippet": "Received two different delivery dates, parts never arrived. Tried to call to get update, call and text was ignored. Now my car is sitting in a shop for longer, because of their lack of follow through and communication.",
+        "rating": null,
+        "reviewer": "Sugyn Paynay",
+        "reasoning": "Customer tried to reach the business for an update and the call was ignored."
+      },
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "snippet": "They never pick up the call, and if  their  website says they got the part don’t believe them",
+        "rating": null,
+        "reviewer": "umair jadoon",
+        "reasoning": "Business does not answer phone calls."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "snippet": "Received two different delivery dates, parts never arrived. Tried to call to get update, call and text was ignored. Now my car is sitting in a shop for longer, because of their lack of follow through and communication.",
+        "rating": null,
+        "reviewer": "Sugyn Paynay",
+        "reasoning": "Conflicting delivery dates given and no follow-through communication."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "Rudest front office cashier. Literally took my phone away from me when I showed him the discount offered online and walked away with it to another room. Found out they gave me the wrong part an hour later and when I came back took my receipt away and the part, and refused to give anything back. Combative and extremely unorganized.",
+        "rating": null,
+        "reviewer": "Ace Rainey",
+        "reasoning": "Front-desk cashier described as rude and combative."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "They really have a good price it's good mother service is no good I throw all the way from Modesto twice they told me they have my part and they never have it",
+        "rating": null,
+        "reviewer": "William AutoBody",
+        "reasoning": "Told the part was in stock when it was not, contradictory information."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Poor customer service. Offered delivery, then 3 hours later said they would not deliver. I was at the shop by myself, and could not leave. As a business, we will not be relying on Levann anymore. They have got us the wrong parts before too. …",
+        "rating": null,
+        "reviewer": "Malcolm Williams",
+        "reasoning": "Contradictory commitment on delivery after agreeing to it."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "They never pick up the call, and if  their  website says they got the part don’t believe them",
+        "rating": null,
+        "reviewer": "umair jadoon",
+        "reasoning": "Website stock info is contradicted in practice."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Face to face service was good. But on the other hand I called and told me they had what I needed and when I got there that wasn't the case I hate that.",
+        "rating": null,
+        "reviewer": "Skirt Franklin",
+        "reasoning": "Told on the phone the item was available, but it was not when arriving."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "snippet": "I find that they have nothing that I wanted and they couldn't speak English very well and was rude will never go back there again",
+        "rating": null,
+        "reviewer": "Faye Taylor",
+        "reasoning": "Staff described as rude."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "The employee at the front desk is rude and disrespectful",
+        "rating": null,
+        "reviewer": "Mack Tweez",
+        "reasoning": "Front-desk employee described as rude and disrespectful."
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "snippet": "Their timing is sucks, they told me my part will be ready at 11:00 am, I drove from a far distance, first they told me to wait 10 more minutes, after 10 more minutes they said 15 more minutes, then they ask 5 more minutes, finally I hand to wait 20 more minutes before I get my part. I am done buying parts from here.",
+        "rating": null,
+        "reviewer": "Rahmani R",
+        "reasoning": "Repeatedly pushed past the promised ready time, kept waiting well beyond estimate."
+      },
+      {
+        "sub": "language_barrier",
+        "confidence": 0.7,
+        "snippet": "I find that they have nothing that I wanted and they couldn't speak English very well and was rude will never go back there again",
+        "rating": null,
+        "reviewer": "Faye Taylor",
+        "reasoning": "Customer reports staff could not communicate in English."
+      }
+    ]
+  },
+  "ChIJbUK39DF-j4ARXSG5bZqbNlk": {
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "snippet": "Waited hours to receive a call in order to know whether the car was ready. Arrived only to find out that they couldn't stitch up the tire and they had to change it. Then, I waited another 40 minutes.",
+        "rating": null,
+        "reviewer": "Alexa Martinez",
+        "reasoning": "Customer waited hours for a status call then another 40 minutes at the shop."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Contacted them to inquire about tire availability. The person was not at all knowledgeable and further was rude and snapped at me when I was asking for clarification, raising his voice with, \"what do you mean what do I mean? I answered your …",
+        "rating": null,
+        "reviewer": "Kevin Cheng (kev/null)",
+        "reasoning": "Staff raised his voice and snapped at the customer."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Couldn’t even look at the tire, very dismissive and unhelpful.",
+        "rating": null,
+        "reviewer": "Luis Hyman",
+        "reasoning": "Staff was dismissive and would not even look at the tire."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "The mechanic here is rude and lazy turn down customers 45mins early before close time terrible service",
+        "rating": null,
+        "reviewer": "La'Chante Johnson",
+        "reasoning": "Staff described as rude."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "snippet": "Horrible guy answering phones",
+        "rating": null,
+        "reviewer": "Juan Chipres",
+        "reasoning": "Phone-answering staff described as horrible."
+      }
+    ]
+  },
+  "ChIJjzHL_pSAhYAR3WVaYM-MeAM": {
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "snippet": "Waited over an hour to get a car that we had a reservation for. Walk ins were prioritized and took forever, as they often were not aware of the plethora of policies. You'd think they would give reservations out first, since those people had a time frame to pick it up. How can they charge people for being late to pick up when they were an hour late to give out the car?",
+        "rating": 1,
+        "reviewer": "Megan Kelso-Teel",
+        "reasoning": "Waited over an hour past a reserved pickup time because walk-ins were prioritized."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "snippet": "We went to San Francisco for a 9 days trip. During that time we rented a car from the City Rent a Car on Mason Str.\nWe were told by the employee that if we won't fill in after the trip we will be charged for the difference .\nUnfortunately during the conversation employee forgot  to articulate that if we return the car without full tank we will be charged $9.95 per gallon.\nBecause we don't know San Francisco we couldn't find the gas station . Cosequently we returned car with an empty tank.\nThe next day we sent email to the company informing them about issue but we got only short regretful message that we should read our contract.\nYes, that is true. We should read the contract but customer service representative should verbalize it in front of us as well!.\nAlso, ppl from different countries, who don't know S F. should be given information where the closest gas station is located.\nUnpleasant experience.\nDo not recommend",
+        "rating": 1,
+        "reviewer": "Ewa Jagla",
+        "reasoning": "An expensive per-gallon fuel charge was not disclosed up front."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "We went to San Francisco for a 9 days trip. During that time we rented a car from the City Rent a Car on Mason Str.\nWe were told by the employee that if we won't fill in after the trip we will be charged for the difference .\nUnfortunately during the conversation employee forgot  to articulate that if we return the car without full tank we will be charged $9.95 per gallon.\nBecause we don't know San Francisco we couldn't find the gas station . Cosequently we returned car with an empty tank.\nThe next day we sent email to the company informing them about issue but we got only short regretful message that we should read our contract.\nYes, that is true. We should read the contract but customer service representative should verbalize it in front of us as well!.\nAlso, ppl from different countries, who don't know S F. should be given information where the closest gas station is located.\nUnpleasant experience.\nDo not recommend",
+        "rating": 1,
+        "reviewer": "Ewa Jagla",
+        "reasoning": "Key contract term was not verbally disclosed by staff."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "We had an 8am reservation but no one showed up to open the desk until 8:10, drop off person was rude, car was pretty dinged up",
+        "rating": null,
+        "reviewer": "Sarah Dingman",
+        "reasoning": "Drop-off staff member described as rude."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "snippet": "Takes bookings on Expedia and does not specify that they do not take debit cards. They tell me only when I reach the rental place, and my plan for the entire day goes crashing down because I trusted these people. …",
+        "rating": null,
+        "reviewer": "Jaidev Mirchandani",
+        "reasoning": "Payment-method policy not disclosed until arrival, derailing the customer's plan."
+      }
+    ]
+  },
+  "ChIJV5OAg8iAhYARInxphnLkavs": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Dropped off car at appointed time, was told to pick up “a little over twelve”. Called at 12:30, was told to “pick up at 3pm”. Upon confirmation, the person responded “2pm” and “I didn’t tell you to pick up at 12, I wasn’t at the front desk, there are cars that came before you that needed xxx” - rude, condescending, unapologetic. I had to rearrange my day accordingly. For paying $300 for basic smog check & oil change, I expected more, and at a minimum not to be yelled at for clarifying pick up time.",
+        "rating": 1,
+        "reviewer": "R C",
+        "reasoning": "Staff described as rude and condescending when the customer clarified pickup time."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Dropped off car at appointed time, was told to pick up “a little over twelve”. Called at 12:30, was told to “pick up at 3pm”. Upon confirmation, the person responded “2pm” and “I didn’t tell you to pick up at 12, I wasn’t at the front desk, there are cars that came before you that needed xxx” - rude, condescending, unapologetic. I had to rearrange my day accordingly. For paying $300 for basic smog check & oil change, I expected more, and at a minimum not to be yelled at for clarifying pick up time.",
+        "rating": 1,
+        "reviewer": "R C",
+        "reasoning": "Conflicting, shifting pickup times communicated to the customer."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Do not come here for smog test. Owner is very rude and said retest cost FULL amount so I have to pay $90 dollar twice. Refuse to provide any discount initially, only after a heated argument he said oh we can do maybe 10% discount. i have never seen anything like this in the business. Owen keep insistent “I did not ask about retest rules before signing paper” Come on we are not dealing with law firm here this is a smog test. How about you treat your customer nicely and I will happy do the retest at a fair price.\n\nI am giving this place 2 star because they did do the test quickly and was able to book appointment same day.\n\n- thanks for the reply but you can check security camera if you want, the attendant insisted charging FULL PRICE for retest. i’m not sure what policy you are referring to.",
+        "rating": 2,
+        "reviewer": "Zihao Zhang",
+        "reasoning": "Owner described as very rude during a retest dispute."
+      }
+    ]
+  },
+  "ChIJL_ahAyOahYARs4MsYx7egBk": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "These guys are dishonest and dud work that I did not agree to and tried to force me to pay. the owner Victor is dishonest and not to be trusted. I will never take my car there again.",
+        "rating": 1,
+        "reviewer": "Rigo",
+        "reasoning": "Charged for work the customer never authorized."
+      }
+    ]
+  },
+  "ChIJoRwSsdaAhYAR-6kB91ajsTw": {
+    "booking_friction": [
+      {
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "snippet": "I start ratings with 5 stars. Toscalito lost 1 star for the 3 separate times I made appointments and showed up to be told they do not have my appointment on record. They lost another star when they made absolutely no effort to remedy that issue with the appointments. All I got was “sorry there is nothing we can do.” They lost another star when I finally was able to get in. They determined that my air filter needed to be replaced. Instead of calling to see if I wanted to get it done same day, they emailed me about it then called directly after saying my car was ready with no mention of the air filter. It seems Toscalito has no interest in providing any customer service as they know they’ll have plenty of other customers come through based on their location. Fine for them, but it leads to poor service on the actual vehicles when they have no price in actually ensuring that your vehicle is leaving there in the best shape it needs to be… as is proven by the air filter on my vehicle. It’s a minor detail but one that demonstrates the quality of care they take on your vehicle.",
+        "rating": 2,
+        "reviewer": "Eli McNees",
+        "reasoning": "Appointments repeatedly not on record, making them hard to confirm."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "I start ratings with 5 stars. Toscalito lost 1 star for the 3 separate times I made appointments and showed up to be told they do not have my appointment on record. They lost another star when they made absolutely no effort to remedy that issue with the appointments. All I got was “sorry there is nothing we can do.” They lost another star when I finally was able to get in. They determined that my air filter needed to be replaced. Instead of calling to see if I wanted to get it done same day, they emailed me about it then called directly after saying my car was ready with no mention of the air filter. It seems Toscalito has no interest in providing any customer service as they know they’ll have plenty of other customers come through based on their location. Fine for them, but it leads to poor service on the actual vehicles when they have no price in actually ensuring that your vehicle is leaving there in the best shape it needs to be… as is proven by the air filter on my vehicle. It’s a minor detail but one that demonstrates the quality of care they take on your vehicle.",
+        "rating": 2,
+        "reviewer": "Eli McNees",
+        "reasoning": "Contradictory communication about the air filter and car-ready status."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "snippet": "It seems some staff here have truly mastered the art of customer service — answering questions without even looking at the customer. Quite an unusual talent. Perhaps learning a little more about how to treat customers would be just as useful as knowing about tires",
+        "rating": 1,
+        "reviewer": "Matt",
+        "reasoning": "Staff dismissive toward customers, not engaging when answering."
+      }
+    ]
+  },
+  "ChIJWQJBEIGAhYARyXCTyN-S_DI": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "snippet": "Decided to give it a shot on account of the reviews, generally reasonable experiences from people I've met and long lead times for Tesla Service but thus far my personal experience has been quite abject to say the least.\n\nTo start, brought a Model Y in for general maintenance on Tuesday morning for rountine maintenance and 4 specfic items listed in the service request submitted the friday prior. During drop off I was informed that a quote would be ready in about 2 hours, but did not hear back until over 6 hours later, 40 min before closing informing me that they were not able to finish a quote that day but next day would be possible. The following day, I was informed around noon that a  quote would not be ready until the day after, and upon requesting an estimate of when the repairs could be completed was not provided a reasonable estimate. This so far is not a great experience but for what occured next.\n\nUpon not reciving a reasonabe estimate as to the timeline of repairs requested or a complete quote, I called in 1.5h ahead and requested my tires be rotated and to make sure there was no miscommunication, submitted the same via text which was confirmed recived when they called back 10 minutes subsequent.\n\nNeedless to say, the tires were not rotated.\n\nBut wait there's more! My driver's seat also started loudly creaking at the slightest bumps where it had not prior. I suppose, generously, this was because the seat needed to be moved to access the sterring column and the mechanic that did not re-assemble it with due care because they supposed that it would be accessed again before it was picked up but it's  but I'm not sure how much I care.\n\nOverall communcaiton left much to be desired, partial quote provided was >50% over Tesla's and service was neither prompt nor convenient as much as I am sympathetic to staffing gaps the overall value proposition makes no sense as-is even with 1st party wait times. Not being able to provide a tire quote after 2 full days is all pretty crazy for an auto shop.",
+        "rating": 1,
+        "reviewer": "James Deng",
+        "reasoning": "Repeated delays and conflicting timelines on the quote; poor communication throughout."
+      }
+    ]
+  },
+  "ChIJh6IKhg18j4ARZtS-fx3BrOE": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "snippet": "I went to their office in July and spoke to Andrew and another staff member and they said they would get back to me with a quote. In person they seemed helpful and ready to help me fix my car stereo and camera.\n\nI sent many several follow up emails to get the job going and they kept saying they would send me a quote but they never did. It’s been 3 months and still nothing from them. If they didn’t want to do the job they could’ve just said no, instead they’ve just wasted my time with no apology or explanation.",
+        "rating": 1,
+        "reviewer": "gino francisco",
+        "reasoning": "Customer chased a promised quote for 3 months and never received it."
+      }
+    ]
+  },
+  "ChIJi-9Gxbd5j4ARbh5BpZJAdr0": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Thanks for wasting hours of my day..... Ordered a part...they said we will have it shipped from our other store, you can pick it up at 2pm.... I showed up and they wer all duh duh.....idk,,, we forgot...it's not here ... Do you want it for tomorrow ?     Not professional at all.",
+        "rating": 1,
+        "reviewer": "Yogi Bare",
+        "reasoning": "Promised a ready time, then forgot the order and it was not there."
+      }
+    ]
+  },
+  "ChIJP-C4rE54j4ARLdbEDbKgzAk": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Not a very reliable spot to get auto parts. I called in for a battery but the person who picked up the phone didn’t know how to search up a similar battery and couldn’t find help. He told me to call back the next day and was still unable to assist me so he called me back. After calling back, he said the item was not available and I requested for him to pre order for me. Never heard back since..also they only take online/phone orders and no walk-ins.",
+        "rating": 1,
+        "reviewer": "Cuazzy",
+        "reasoning": "Customer requested a pre-order and never received a follow-up."
+      }
+    ]
+  },
+  "ChIJA_Tyeyh-j4AROJ6_PjFu9NY": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "I’ve been going to The Garage for years and generally trusted their work, but my most recent experience left me disappointed.\n\nI brought in my 2019 Acura TLX because two warning lights came on: “Emissions System Problem” and “Electric Parking Brake Problem.” They charged me over $230 for a diagnostic check, and I was surprised to learn that this fee isn’t applied toward the repair if you choose to move forward.\n\nTheir recommendation was to replace the part connecting the gas tank to the cap. The quoted price for the part alone was about $450, whereas I found the same part online for around $225 (plus labor). The overall estimate for repair was close to $1,000.\n\nBefore agreeing, I got a second opinion from another mechanic, who simply suggested resetting the warning lights first. That’s what I did, and it cost about $225 total. Two weeks later, I’m still driving with no issues and the lights never returned.\n\nWhen I asked The Garage why both lights would appear at once, they said it’s common for multiple warnings to come on to prevent driving—but several mechanics I spoke with afterward told me they had never heard of that explanation.\n\nIt left me feeling like The Garage was recommending a costly repair without fully confirming the root cause. This is disappointing, especially since I’ve trusted them for years. I hope this was just an isolated experience, but it’s worth noting for anyone considering service here.",
+        "rating": 2,
+        "reviewer": "mitch",
+        "reasoning": "Diagnostic fee structure was an undisclosed cost the customer found surprising."
+      }
+    ]
+  },
+  "ChIJC0R_iCZ-j4AR7EzJsjECrb0": {
+    "service_quality_in_session": [
+      {
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.7,
+        "snippet": "This place offers a relatively low diagnosis fee, but I'd be cautious about taking your car here for diagnoses (there's a reason why it's cheaper than other places). I had an intermittent no-start issue. Took my car here for a diagnosis, and they spent only a few minutes to run a battery test and came back telling me that it's a battery issue and it needs charging. I knew the battery is fine because I had it tested the day before. So I asked them to look further, and instead of doing a thorough diagnosis, Sam pressed the start button a few times and immediately made the conclusion that it's a starter issue and it needs to be replaced. I was surprised by how hasty he was so I asked how he knew, and he said that \"well I'm a mechanic\". Later he gave me an estimate of $1000 to replace the starter. Luckily I decided to take my car to the dealership instead, and turned out the issue was neither the battery nor the starter.",
+        "rating": 2,
+        "reviewer": "Minnie",
+        "reasoning": "Mechanic rushed the diagnosis instead of examining the issue thoroughly."
+      }
+    ]
+  },
+  "ChIJSXJupTmHhYARt_z9CkDWCUA": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "snippet": "Very inept employees at the parts department counter. I was picking up a part and they had no idea what was going on. A black man and an older white man on duty. Looked at each other like I was stupid. But the part I was picking up was right behind them with my name on it.  Cmon guys, hire some people that are some what competent and know at least to be nice and courteous. It’s not that difficult. Please don’t waste your time or money supporting this behavior",
+        "rating": 1,
+        "reviewer": "george makras",
+        "reasoning": "Parts counter staff were dismissive and demeaning toward the customer."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "snippet": "They had my parts.\nI don't know if the staff were bored, sleepy or something else, but they acted and appeared ENTIRELY unmotivated and disinterested. …",
+        "rating": null,
+        "reviewer": "Stephen Nocita",
+        "reasoning": "Staff demeanor toward the customer was disengaged and off-putting."
+      },
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.5,
+        "snippet": "It would help if the parts guys knew what they were talking about when it comes to the parts they are selling. I asked for a trans filter for a 2017 tundra and the dude was like your not supposed to change that unless its damaged. And refused to even look it up without my vin. First and last time I come here.",
+        "rating": null,
+        "reviewer": "Raz Ram",
+        "reasoning": "Customer's specific part request was dismissed without being checked."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "snippet": "Have yet to receive part; as a consequence I cannot drive the Prius without the New Mirror.  Unable to find out any information as to what, why, where, etc. about this part that was suppose to be shipped to me.",
+        "rating": null,
+        "reviewer": "TFC Robert McKee",
+        "reasoning": "No clear information given about the status of a shipped part."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Really bad service from the parts department. I ordered a $130.00 decal for my Rav-4 and was not in the box with the other things I ordered. I sent an email about the situation the parts department never responded. When I called he blew me …",
+        "rating": null,
+        "reviewer": "John Storey",
+        "reasoning": "Customer reached out about a missing item and got no response back."
+      }
+    ]
+  },
+  "ChIJSwCl5OqAhYARxVwogtBO4eE": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "snippet": "The technicians are good. The older gentleman who worked on my Mercedes really knows his stuff so that's a major benefit . The shop is clean .\n\nThe manager Greg is a sometimes nice guy that seems to be moody at times and he can come across almost rude. In fact he's rude so often that I started laughing to myself recently at how tone deaf he seems.  I called him the morning after the evening he sent me notice that my car was done.  He gruffly said that I had had my car there too long. It was less than 12 hours after his evening notice of completion!\n\nI told him I would come in on Monday (the next business day) to pick it up then texted Monday saying I had a medical issue and needed to come in the next day. When I picked up the car as stated, he said gruffly he was going to start charging me storage cost and everything about him seemed annoyed by my presence and that I was his customer. I have been nothing but nice to this guy and spent over 12k on some fairly basic stuff for this classic car.  He said he didn't get my text but that's on him. When I told him that he is sounding rude when I am a paying customer that is spending good money on his services he said we can end our relationship. I didn't know that we had a \"relationship\"!  Lol!  He softened up after that cuz I think he felt bad but again it's all kind of laughable, his moodiness.\n\nHe is personally knowledgeable about these classic cars as he seems to have owned quite a few of them himself. He also seems to rely on AI a lot for his information about cars and it's not always correct so look it up yourself. For example, I wanted to remove the heater covers to get them re-chromed and he said they'll break because they're \"pot metal\". AI does say that but *not for this car* and if you delve further they are nice forged brass on a 190 SL. They also charged me for removing the chrome parts but they didn't remove the chrome parts entirely that I asked them to despite specific instructions. Also the car was filthy dirty when I came to pick it up, and the rear view mirror was all twisted the wrong Direction and coming out of its seating.  Online it's touted that they wash your vehicle.\n\nAnyway Gregs run a pretty tight ship but I think Greg could learn the old business adage a little better: \"the customer is always right.\"\n\nEspecially given the premium prices they charge their customers! (granted they have a premium location in the heart of Russian Hill Polk Street area)\n\nThere are alternatives in the City with nicer attitudes and not as expensive.  I may go back to Pete's when needed but I may try some other spots like Sal's in SF.",
+        "rating": 2,
+        "reviewer": "David Rouda",
+        "reasoning": "Manager repeatedly came across as rude and moody to a paying customer."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "snippet": "Was recommended this place for Mercedes specialist. Called and asked for help putting in new part for my car to pass a smog test. Man who answered was very dismissive and upset at the fact I was trying to save money because I bought the part myself. Not my intention to offend or waste anyone's time but he seemed to perceive it as a personal offense. I see similar reviews like this and the way he responds to them in the reviews is an accurate representation of his unprofessional. I've never been serviced by them so cannot speak on their quality just the man who answered the phone. Seems like they do a great job.",
+        "rating": 2,
+        "reviewer": "Christina Shaw",
+        "reasoning": "Phone staff were dismissive and took offense at the customer."
+      }
+    ]
+  },
+  "ChIJ______5-j4ARVMLZGhIXHPk": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Almost three times the price of most shops in the Bay, plus the rude attitude from a little guy who I think was the business owner. I went with Lux Tint who is also a XPEL dealer in Livermore and paid almost $3k less for the same full PPF service. My vehicle looks flawless.",
+        "rating": 1,
+        "reviewer": "Mark Kosher",
+        "reasoning": "Customer reports a rude attitude from the owner."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "Be extremely cautious with this shop owner— little person size 4 shoe feeling ironman 🤣classic BAIT AND SWITCH tactics at play. …",
+        "rating": null,
+        "reviewer": "Daniel Macías Franco",
+        "reasoning": "Bait-and-switch is a listed surprise-billing trigger."
+      }
+    ]
+  },
+  "ChIJjYE-_D2HhYAR_DEUGrUhrek": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "Rude, dirty, and I just found out that this place sold me 5 year old tires less than a year ago and that they were most likely used--for about double the price I'm paying to replace them less than 3 miles away.\n\nDo not go here.",
+        "rating": 1,
+        "reviewer": "Cade Peterson",
+        "reasoning": "Customer explicitly describes the shop as rude."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "snippet": "I went there today because my tire light popped on. The first man I saw outside was pretty rude and short with me. He was working on another car but I explained to him that had a baby in the car and I just want to make sure the car was …",
+        "rating": null,
+        "reviewer": "Lolly Howie",
+        "reasoning": "Customer describes staff member as rude and short in tone."
+      }
+    ],
+    "service_quality_in_session": [
+      {
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "snippet": "Despite the appointment at 1:00 PM Sep 24,2015, they hadn't repaired my car for more than 2 hours (fixing a leaking tire=20-30 min at most) but, with hindsight, most of the time, let it stand on the street near Paul's.  The job was finished …",
+        "rating": null,
+        "reviewer": "양훈모",
+        "reasoning": "Customer waited far past the scheduled 1:00 PM appointment for a short job."
+      }
+    ]
+  },
+  "ChIJCVP380B-j4ARkAg2kABz-H4": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Well Zach is probably a rather rude individual, who probably treats his own American kind much better than us foreign… shame on unwelcoming people like this. Also fells untrustworthy. My fix involved much less operations on my engine that he described, as performed by official dealership. Total garbage. Totally sketchy place.",
+        "rating": null,
+        "reviewer": "Leo Zillos",
+        "reasoning": "Customer characterizes the operator as rude and unwelcoming in tone."
+      }
+    ]
+  },
+  "ChIJA-oQHIN9j4ARCiXwyJwFubQ": {
+    "calls_unanswered": [
+      {
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "snippet": "If I could rate this experience any less I would.  Step into Rex Auto Service being forewarned! Prepare for the worst. The most unprofessional shop I have ever encountered in my 50 years! Simply walk in and look at the disorganization and sad conditions of the place. I truly feel sorry for the sole overworked mechanic that works there (look at the low lighting conditions).\nI dropped off my car early hoping to hear a diagnosis by end of day; heard nothing. Phone calls go unanswered. I visit the shop on day 2 and hear what they are planning to do. Unable to contact them once again, I visited the shop again on day 4 and was told that they need more time after changing 2 spark plugs and 2 coils (a one hour job). Day 7! Phone calls were useless. I visited Rex Auto Repair once again only to be told the EXACT same thing I was told 3 days prior. Evidently no work was done on it for the past 3 days with no reason and no apologies other than “we’ve been busy”. I decided to just give up on Rex Auto and would suggest anyone reading this would do themselves a favor by doing the same. There is no way they can stay in business like this for much longer. Good luck!!",
+        "rating": 1,
+        "reviewer": "Steve Struck",
+        "reasoning": "Customer repeatedly could not reach the open shop by phone."
+      }
+    ],
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "snippet": "If I could rate this experience any less I would.  Step into Rex Auto Service being forewarned! Prepare for the worst. The most unprofessional shop I have ever encountered in my 50 years! Simply walk in and look at the disorganization and sad conditions of the place. I truly feel sorry for the sole overworked mechanic that works there (look at the low lighting conditions).\nI dropped off my car early hoping to hear a diagnosis by end of day; heard nothing. Phone calls go unanswered. I visit the shop on day 2 and hear what they are planning to do. Unable to contact them once again, I visited the shop again on day 4 and was told that they need more time after changing 2 spark plugs and 2 coils (a one hour job). Day 7! Phone calls were useless. I visited Rex Auto Repair once again only to be told the EXACT same thing I was told 3 days prior. Evidently no work was done on it for the past 3 days with no reason and no apologies other than “we’ve been busy”. I decided to just give up on Rex Auto and would suggest anyone reading this would do themselves a favor by doing the same. There is no way they can stay in business like this for much longer. Good luck!!",
+        "rating": 1,
+        "reviewer": "Steve Struck",
+        "reasoning": "Customer awaited a promised diagnosis callback and never received one, having to chase in person."
+      }
+    ]
+  },
+  "ChIJ_ZuvKpeAhYAR8AsVbL70xZc": {
+    "frontline_communication": [
+      {
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "snippet": "After my car was fixed, I thought I would never ever go there. If a customer comes to you for a puncture, and insists that he doesn't want a new tire, you should not install a new tire and ask him to pay, especially if it was not covered by …",
+        "rating": null,
+        "reviewer": "Khadijeh Sami",
+        "reasoning": "Customer explicitly declined a new tire but the shop installed one anyway, ignoring the stated request."
+      }
+    ],
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "snippet": "After my car was fixed, I thought I would never ever go there. If a customer comes to you for a puncture, and insists that he doesn't want a new tire, you should not install a new tire and ask him to pay, especially if it was not covered by …",
+        "rating": null,
+        "reviewer": "Khadijeh Sami",
+        "reasoning": "Customer was charged for a service he explicitly declined."
+      }
+    ]
+  },
+  "ChIJ8R19bH-AhYARYkCn7aEiI3k": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.88,
+        "snippet": "Car took three months to finish. The estimate was $500. But after all work was finished the total ended up at over $3500.  The vehical is broken again after less then 100miles traveled.  I have returned it and am anxious to see how the manager responds to this list of repeat issues.",
+        "rating": null,
+        "reviewer": "Noah Stevens",
+        "reasoning": "Final charge diverged massively from the quoted estimate."
+      },
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "snippet": "Took my car here to fix my brakes and they changed my oil without my permission and tried to charge me 100 bucks for a simple oil change. Don't go here they'll try to steal your money.",
+        "rating": null,
+        "reviewer": "Parsa Mirzaagha",
+        "reasoning": "Charged for an unauthorized service the customer never approved."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "After insisting that I not be late to pick up my car, and that I call them if I was going to, I leave work early to show up right on time and lo and behold, they aren't done with it yet. They failed to notify me they would be late because they somehow got TWO digits of my phone number wrong - they also didn't send me an email.",
+        "rating": null,
+        "reviewer": "Neil Pearson",
+        "reasoning": "Shop did not communicate the delay to the customer."
+      }
+    ]
+  },
+  "ChIJywqy0rGAhYAR6p9c2U292KM": {
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "snippet": "Manager of the shop very prejudice, Definitely do not recommend, bad business wont be doing business with them ever again",
+        "rating": null,
+        "reviewer": "Darius N Dean",
+        "reasoning": "Complaint about unprofessional conduct of the shop manager."
+      }
+    ]
+  },
+  "ChIJabkJnyZ-j4ARiZoU6CbuU8s": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "Never going here again! $1200 to replace a pressure sensor that ended up not fixing the problem. The next mechanic I went to said wasn't even a new part. They gave me a used part and charged me full price.\nMy new guy also said it was an easy to reach area and shouldn't have taken more than 10 min to unplug and swap out. Not sure why the labor on that was $200?!? I feel like I got royally scammed here, and want to warn others. I know there are a lot of good reviews on this place, so maybe mine was an anomaly?. Live and learn. Anyway, my new mechanic Sam at ABC Motors is awesome, so I've moved on, fortunately!",
+        "rating": 1,
+        "reviewer": "john-eric otter",
+        "reasoning": "Charged full price for a used part rather than the new part billed."
+      }
+    ]
+  },
+  "ChIJU8VADlyHhYARNfXRyVDwIaU": {
+    "service_quality_in_session": [
+      {
+        "sub": "language_barrier",
+        "confidence": 0.78,
+        "snippet": "Great work from the mechanics here. Only complaint is that no one speaks English that well. Usually not an issue but I had a list of things I wanted addressed with my truck and only a few of them made it across the language barrier lol. …",
+        "rating": null,
+        "reviewer": "Spencer Small",
+        "reasoning": "Customer's repair requests were lost due to a language barrier with staff."
+      }
+    ]
+  },
+  "ChIJI-xIfp2AhYARVRb_jxdAnSI": {
+    "calls_unanswered": [
+      {
+        "sub": null,
+        "confidence": 0.7,
+        "snippet": "I tried calling, leaving voicemails, and texting in order to make an appointment and it took a week for them to get back to me via text. They informed me that they do not work on my particular VW even though the previous owner of the vehicle took it there for years. When I asked what had changed they did not respond (maybe the will get back to me in a week). Maybe they do good work but based on this experience I would take your car and money elsewhere.\n\nEdit: I'm sorry I upset you. I called multiple times for multiple days before texting, that's what I was referring to when I said a week (though it may have been 8 days). Also, you never even asked me what type of work I needed done (you don't do oil changes?) and you never got back to me on what had changed until seeing this review which is a strange way to respond to the question. I'm glad business is going well for you guys and I wish you the best. I found a mechanic closer to me who had no trouble finding the parts and helping me out with general maintenance (and they don't even claim to be European car specialist).",
+        "rating": 1,
+        "reviewer": "Gannon Barnett",
+        "reasoning": "Repeated calls and voicemails went unanswered for about a week."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Rude jerks always parked illegally and driving customer cars dangerously. Would avoid.\nCute dog though.\nEdited to add details at owner's request. You can look at their response and decide for yourself if this is the sort of person you want to entrust your safety to.",
+        "rating": 1,
+        "reviewer": "Brooks Ward",
+        "reasoning": "Complaint about rude, unprofessional staff conduct."
+      },
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Rude jerks always parked illegally and driving customer cars dangerously. Would avoid.\nCute dog though. …",
+        "rating": null,
+        "reviewer": "Brooks Ward",
+        "reasoning": "Complaint about rude, unprofessional staff conduct."
+      },
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "Tachometer went out on my '89 Speedster.  After three weeks and a rebuild car was returned to me with no explanation of the damage done to other electrical instruments.  6 weeks later after sourcing the parts I was able to get the …",
+        "rating": null,
+        "reviewer": "Chris Allick",
+        "reasoning": "Shop returned the car without explaining damage to other components."
+      }
+    ]
+  },
+  "ChIJYTOOV5WAhYARxUQH-TZ5Q-g": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "snippet": "My car got broken into on 8/2. I was out of town so my mom helped to arranged for it to be towed to the shop. She already paid for the towing service which was $217, and Steven claimed $497 and got the check from my insurance.\n\nThere was no other damages besides the broken windows. Weeks later, Steven told me that there are some scratches (which were not there when I dropped off the car key). I think these were caused by someone pressing the broken glass to smear them on the car body. He filed for a total $6k+ claim including products and services he quietly added to the estimation for repairing/replacing the body and parts that he vandalized.\n\nI’ve reported this to the national and state bureaus for insurance fraud, and the CA bureau of auto repair along with my insurance’s SIU.\n\nI hope he’s not going to secretly damage my car further because I will have to take legal actions before any bureaus did.",
+        "rating": 1,
+        "reviewer": "Persephone Chen",
+        "reasoning": "Charges were quietly added to the estimate without the customer's knowledge."
+      }
+    ]
+  },
+  "ChIJGylm_JSAhYARhhuSGPEVpiQ": {
+    "booking_friction": [
+      {
+        "sub": null,
+        "confidence": 0.55,
+        "snippet": "Used groupon for oil change. It was difficult to get appointment, but they provided good service for excellent price.",
+        "rating": null,
+        "reviewer": "Xavier Lee",
+        "reasoning": "Reviewer reports trouble securing an appointment, but no specific sub (long wait / reschedules / no online booking) is evidenced."
+      }
+    ]
+  },
+  "ChIJ89mQjj5-j4ARttGv5rppAug": {
+    "deadline_missed": [
+      {
+        "sub": "late_delivery",
+        "confidence": 0.7,
+        "snippet": "Kept my work truck for 37 days.\nMost of that time it was sitting, torn down, with nothing happening. Original estimate was 2-3 weeks. …",
+        "rating": null,
+        "reviewer": "Paul Connolly",
+        "reasoning": "Truck kept 37 days against a 2-3 week estimate, far past the agreed timeline."
+      }
+    ],
+    "frontline_communication": [
+      {
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "snippet": "Terrible management, rude workers & shady people. Don’t do it.",
+        "rating": null,
+        "reviewer": "Casey Sosa",
+        "reasoning": "Reports rude staff tone with no detail about clarity or being ignored, so defaults to staff rudeness."
+      }
+    ]
+  },
+  "ChIJHQZLC5SAhYARbYyLvNcsZiI": {
+    "followup_dropped": [
+      {
+        "sub": null,
+        "confidence": 0.5,
+        "snippet": "The guy doesn’t bother following up.  Unprofessional.  Would not recommend.",
+        "rating": null,
+        "reviewer": "Michael Garza",
+        "reasoning": "Business failed to follow up, but no specific sub (recall / reminder / post-visit / dropped lead) is evidenced."
+      }
+    ]
+  },
+  "ChIJK4Scj3-AhYARQfj6GxpjiiA": {
+    "billing_or_intake_errors": [
+      {
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "snippet": "...sure wish that eddy didn't lie to me about prices ..... got a hundred fifty dollar radiator ..... for four hundred and thirty dollars ..... even though i knew this at the time ..... i was over a barrow ..... broke down in that part of SF …",
+        "rating": null,
+        "reviewer": "Totm Greenish",
+        "reasoning": "Customer says a ~$150 part was billed at $430 and was misled on price, indicating an inflated/unexpected charge."
+      }
+    ]
+  },
+  "ChIJGUOMpYR9j4ARQi67AS_5FX4": {
+    "followup_dropped": [
+      {
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "snippet": "Kevin promised to fix my car a few months ago, but never call me back. I just waste my time. Don't  trust him.",
+        "rating": null,
+        "reviewer": "Naum Berg",
+        "reasoning": "Customer was promised a fix/callback and never heard back, having to chase, matching the dropped-callback trigger."
+      }
+    ]
+  },
+  "ChIJ1W6SZIGAhYARn8HIft-JnR8": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "This place ended up costing me couple thousand dollars just because the people inside did not communicate properly. Looks like really nice people but totally ruined 3 months and 4 flights for me just because they didn't check their second floor height.",
+        "rating": 1,
+        "reviewer": "Nimajus Bagdonavicius",
+        "reasoning": "Reviewer blames a costly outcome on staff failing to communicate properly."
+      }
+    ]
+  },
+  "ChIJudV6PICAhYARQVsYdEHvQMU": {
+    "delivery_quality": [
+      {
+        "sub": "unfinished_work",
+        "confidence": 0.55,
+        "snippet": "Everytime I drive past this guys shop I get annoyed but it was a lesson learned. Over $18k spent on my old school and 2 years of him having my car and not 1 receipt to show for the work he claimed to have done. I have a “rebuilt motor & …",
+        "rating": null,
+        "reviewer": "Walter Stokes",
+        "reasoning": "Paid heavily, car held two years with no evidence of the promised work being done."
+      }
+    ]
+  },
+  "ChIJ-VqYxGaBhYARHNL_RFkBXJc": {
+    "calls_unanswered": [
+      {
+        "sub": null,
+        "confidence": 0.55,
+        "snippet": "Never showed up, didn’t call to cancel and not answering calls. Total waste of my time!!",
+        "rating": null,
+        "reviewer": "Missy Silver",
+        "reasoning": "Provider no-showed and is not answering the customer's calls."
+      }
+    ]
+  },
+  "ChIJFagTHQ6BhYARhzFqpovkxb8": {
+    "frontline_communication": [
+      {
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "snippet": "2/March Update - The staff finally asked the right person and they have excepted my Australian licence . It is unclear how they have got around their insurance rules and it does make me nervous that I will go to get my car and they will cancel my booking. I will update my review after the hire.\n\n1/ March Long story short, they didn't except my licence because I renewed it less than 2 years ago. Even though I have a full licence 40 years their insurance company requires proof of this. So if you can't prove it i.e an old licence, give them a miss. P.S it also took 5 days for someone to tell me this after about 20 messages back and forth to them. Completely useless.",
+        "rating": 3,
+        "reviewer": "Rob Lovell",
+        "reasoning": "Critical info took 5 days and ~20 messages to obtain, evidencing slow/unclear staff communication."
+      }
+    ]
+  }
+}

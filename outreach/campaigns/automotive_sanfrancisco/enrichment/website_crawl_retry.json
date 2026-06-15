@@ -1,0 +1,104 @@
+[
+  {
+    "lead_title": "SIXT Car Rental - San Francisco International Airport (SFO)",
+    "website": "https://www.sixt.com/car-rental/usa/san-francisco/sfo-san-francisco-airport/?utm_source=google_business&utm_medium=organic&utm_campaign=Listings&c1=US&c2=san-francisco&c3=sfo-san-francisco-airport",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 13.9,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "NAPA Auto Parts",
+    "website": "https://www.napaonline.com/en/CA/San-Francisco/store/26167?cid=pl_gpc_google_dac_26167_ao",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 11.09,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "Rolling Stock",
+    "website": "https://www.rollingstocksf.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 10.19,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "All Tire",
+    "website": "https://www.alltiresfc.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 9.35,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "Cycle Gear",
+    "website": "https://www.cyclegear.com/stores/cycle-gear-san-francisco-california-store-40",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 10.06,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "International Sport Motors",
+    "website": "https://ismotors.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 8.48,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "Juarez Tires and Brakes",
+    "website": "http://www.juareztiressf.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 8.04,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "Robert's Tires & Wheels",
+    "website": "https://www.robertstires.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 7.56,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "Noe Valley Auto Works",
+    "website": "https://www.noevalleyautoworks.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 6.72,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "JR Automotive - San Francisco Auto Repair Services",
+    "website": "http://jrautocare.com/",
+    "status": "cloudflare_blocked",
+    "errors": [],
+    "quality_score": 6.68,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "San Francisco Body & Paint",
+    "website": "http://sanfranciscoautobodypaint.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 6.16,
+    "metro": "san francisco"
+  },
+  {
+    "lead_title": "Enthusiast Auto Care",
+    "website": "http://www.infiniticare.com/",
+    "status": "open_error",
+    "errors": [
+      "open_fail: ✗ Navigation failed: net::ERR_BLOCKED_BY_CLIENT "
+    ],
+    "quality_score": 4.24,
+    "metro": "san francisco"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {"id": 200, "categories": []},
+  {"id": 201, "categories": []},
+  {"id": 202, "categories": []},
+  {"id": 203, "categories": []},
+  {"id": 204, "categories": []},
+  {"id": 205, "categories": []},
+  {"id": 206, "categories": []},
+  {"id": 207, "categories": []},
+  {"id": 208, "categories": []},
+  {"id": 209, "categories": []},
+  {"id": 210, "categories": []},
+  {"id": 211, "categories": []},
+  {"id": 212, "categories": []},
+  {"id": 213, "categories": []},
+  {"id": 214, "categories": []},
+  {"id": 215, "categories": []},
+  {"id": 216, "categories": []},
+  {"id": 217, "categories": []},
+  {"id": 218, "categories": []},
+  {"id": 219, "categories": []},
+  {"id": 220, "categories": []},
+  {"id": 221, "categories": []},
+  {"id": 222, "categories": []},
+  {"id": 223, "categories": []},
+  {"id": 224, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.9, "quote": "rude, condescending, unapologetic", "reasoning": "Staff described as rude and condescending when customer clarified pickup time."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.8, "quote": "was told to “pick up at 3pm”. Upon confirmation, the person responded “2pm”", "reasoning": "Contradictory pickup times given (twelve, then 3pm, then 2pm) — unclear/conflicting information."}
+  ]},
+  {"id": 225, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.85, "quote": "Owner is very rude", "reasoning": "Owner explicitly described as very rude during retest dispute."},
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.55, "quote": "retest cost FULL amount so I have to pay $90 dollar twice", "reasoning": "Customer disputes an undisclosed full-price retest charge."}
+  ]},
+  {"id": 226, "categories": []},
+  {"id": 227, "categories": []},
+  {"id": 228, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.7, "quote": "dud work that I did not agree to and tried to force me to pay", "reasoning": "Charged for unauthorized work the customer never agreed to."}
+  ]},
+  {"id": 229, "categories": []},
+  {"id": 230, "categories": []},
+  {"id": 231, "categories": []},
+  {"id": 232, "categories": []},
+  {"id": 233, "categories": [
+    {"main": "booking_friction", "sub": null, "confidence": 0.75, "quote": "I made appointments and showed up to be told they do not have my appointment on record", "reasoning": "Appointments repeatedly lost / not on record; no listed sub cleanly fits lost-appointment failure."}
+  ]},
+  {"id": 234, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "answering questions without even looking at the customer", "reasoning": "Sarcastic complaint about dismissive, inattentive staff behavior toward customers."}
+  ]},
+  {"id": 235, "categories": []},
+  {"id": 236, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.55, "quote": "I was overcharged when I returned to get my front end alignment checked", "reasoning": "Customer reports being overcharged on a follow-up alignment check."}
+  ]},
+  {"id": 237, "categories": []},
+  {"id": 238, "categories": []},
+  {"id": 239, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.75, "quote": "Overall communcaiton left much to be desired", "reasoning": "Customer explicitly cites poor communication across the service experience."},
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.7, "quote": "did not hear back until over 6 hours later", "reasoning": "Customer requested a quote and repeatedly never received it on the promised timeline."}
+  ]}
+]

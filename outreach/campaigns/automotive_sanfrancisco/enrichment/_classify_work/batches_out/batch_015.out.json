@@ -1,0 +1,48 @@
+[
+  {"id": 600, "categories": []},
+  {"id": 601, "categories": []},
+  {"id": 602, "categories": []},
+  {"id": 603, "categories": []},
+  {"id": 604, "categories": []},
+  {"id": 605, "categories": []},
+  {"id": 606, "categories": []},
+  {"id": 607, "categories": []},
+  {"id": 608, "categories": []},
+  {"id": 609, "categories": []},
+  {"id": 610, "categories": []},
+  {"id": 611, "categories": []},
+  {"id": 612, "categories": []},
+  {"id": 613, "categories": []},
+  {"id": 614, "categories": []},
+  {"id": 615, "categories": []},
+  {"id": 616, "categories": []},
+  {"id": 617, "categories": []},
+  {"id": 618, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.85, "quote": "they hadn't repaired my car for more than 2 hours", "reasoning": "Car kept far past the 1:00 PM appointment for a 20-30 min job, an excessive operational wait."}
+  ]},
+  {"id": 619, "categories": []},
+  {"id": 620, "categories": []},
+  {"id": 621, "categories": []},
+  {"id": 622, "categories": []},
+  {"id": 623, "categories": []},
+  {"id": 624, "categories": []},
+  {"id": 625, "categories": []},
+  {"id": 626, "categories": []},
+  {"id": 627, "categories": []},
+  {"id": 628, "categories": []},
+  {"id": 629, "categories": []},
+  {"id": 630, "categories": []},
+  {"id": 631, "categories": []},
+  {"id": 632, "categories": []},
+  {"id": 633, "categories": []},
+  {"id": 634, "categories": []},
+  {"id": 635, "categories": []},
+  {"id": 636, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "They even lied to my face, claiming that a computer fix wasn’t possible anywhere.", "reasoning": "Staff gave false/contradictory information about what was technically possible."}
+  ]},
+  {"id": 637, "categories": []},
+  {"id": 638, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "Pertinent info will not be shared with you unless you ask the right questions.", "reasoning": "Customer reports relevant information was withheld unless specifically prompted, an information-clarity failure."}
+  ]},
+  {"id": 639, "categories": []}
+]

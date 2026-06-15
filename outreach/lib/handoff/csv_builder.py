@@ -131,26 +131,65 @@ def _best_kept_poc(l):
     return max(pocs, key=lambda p: p.get('confidence') if p.get('confidence') is not None else 0.0)
 
 
+def _all_socials(l):
+    """Every social URL known for the lead: crawled, raw, and OSINT-recovered
+    (`social_urls`, grafted by merge_osint_into_master). Reading all three is
+    required or recovered business socials never reach the deliverable."""
+    return ((l.get('socials') or [])
+            + (l.get('crawled_socials') or [])
+            + (l.get('social_urls') or []))
+
+
 def _first_social(l, needle):
-    for s in (l.get('socials') or []) + (l.get('crawled_socials') or []):
+    for s in _all_socials(l):
         if needle in s.lower():
             return s
     return ''
+
+
+def _owner_channel(l):
+    """Best reachable channel for the decision-maker, in preference order:
+    owner LinkedIn → OSINT-recovered personal LinkedIn → primary-POC personal
+    LinkedIn → personal email → primary-POC email → primary-POC other social →
+    company LinkedIn → business social DM (Facebook/Instagram).
+
+    The business-social fallback matters for no-website trades (barbers, auto
+    shops): the owner runs the shop's IG/FB themselves, so a DM there reaches
+    them directly. Channel intent: LinkedIn → personal email → other social →
+    company → business DM."""
+    primary = next(
+        (p for p in (l.get('pocs') or [])
+         if isinstance(p, dict) and (p.get('name') or '').strip()),
+        None,
+    )
+    poc_socials = (primary.get('socials') or []) if primary else []
+    poc_linkedin = next((s for s in poc_socials if 'linkedin.com' in s.lower()), '')
+    poc_other_social = next((s for s in poc_socials if s), '')
+    poc_email = (primary.get('email') if primary else '') or ''
+    return (
+        l.get('owner_linkedin')
+        or l.get('linkedin_url_poc')
+        or poc_linkedin
+        or l.get('poc_email')
+        or poc_email
+        or poc_other_social
+        or l.get('linkedin_url_company')
+        or _first_social(l, 'linkedin.com')
+        or _first_social(l, 'facebook.com')
+        or _first_social(l, 'instagram.com')
+        or ''
+    )
 
 
 def primary_contact(l):
     """Return (name, channel) for the single best reachable contact.
 
     Preference order for the person: owner-lookup → osint poc → crawled POC.
-    Channel preference: LinkedIn → personal email → other social → company
-    LinkedIn. Returns ('', '') when nothing reachable is known."""
+    See `_owner_channel` for the owner-branch channel waterfall. Returns
+    ('', '') when nothing reachable is known."""
     # 1. owner-lookup decision-maker (ICP-targeted)
     if l.get('owner_name'):
-        channel = (
-            l.get('owner_linkedin')
-            or l.get('poc_email') or ''
-        )
-        return l['owner_name'], channel
+        return l['owner_name'], _owner_channel(l)
     # 2. osint-discovered person
     if l.get('poc_name'):
         channel = (
@@ -291,7 +330,7 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
     top_cat, quotes = top_pain_with_quotes(l, pain_weights=pain_weights, n_quotes=2)
     q1 = quotes[0] if len(quotes) > 0 else None
     q2 = quotes[1] if len(quotes) > 1 else None
-    socials = split_socials((l.get('socials') or []) + (l.get('crawled_socials') or []))
+    socials = split_socials(_all_socials(l))
     trust_em = trustworthy_emails(l)
     pc_name, pc_channel = primary_contact(l)
     row = {

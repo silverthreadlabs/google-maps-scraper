@@ -337,6 +337,54 @@ class TestPrimaryContact(unittest.TestCase):
         self.assertEqual(name, 'Olena K')
         self.assertEqual(channel, 'https://linkedin.com/in/olenak')
 
+    def test_owner_channel_uses_osint_linkedin_when_owner_linkedin_missing(self):
+        # The OSINT-recovered personal LinkedIn must reach the deliverable even
+        # though the winning branch is owner_name (regression: it was only read
+        # in the dead poc_name branch).
+        lead = {
+            'owner_name': 'Mazin Awad',
+            'linkedin_url_poc': 'https://linkedin.com/in/mazin-awad-a499b08b',
+        }
+        name, channel = primary_contact(lead)
+        self.assertEqual(name, 'Mazin Awad')
+        self.assertEqual(channel, 'https://linkedin.com/in/mazin-awad-a499b08b')
+
+    def test_owner_channel_falls_back_to_business_social_dm(self):
+        # No-website trades: the owner runs the business IG/FB, so a business
+        # social is a valid DM channel when no personal channel exists.
+        lead = {
+            'owner_name': 'Ahmed Hamayel',
+            'crawled_socials': ['https://www.facebook.com/p/Buckner-Car-Audio-100064054659713/'],
+        }
+        name, channel = primary_contact(lead)
+        self.assertEqual(name, 'Ahmed Hamayel')
+        self.assertIn('facebook.com', channel.lower())
+
+    def test_owner_channel_uses_osint_social_urls_for_dm_fallback(self):
+        # OSINT grafts recovered business socials into lead['social_urls'] (a
+        # LIST_FIELD). csv_builder must read it, or the no-website DM fallback
+        # can never fire for the leads it exists to serve.
+        lead = {'owner_name': 'Ahmed Hamayel',
+                'social_urls': ['https://www.facebook.com/BucknerCarAudio/']}
+        name, channel = primary_contact(lead)
+        self.assertEqual(name, 'Ahmed Hamayel')
+        self.assertIn('facebook.com', channel.lower())
+
+    def test_socials_columns_include_osint_social_urls(self):
+        row = _build_row({'social_urls': ['https://instagram.com/shopx']},
+                         service_map={}, pain_weights={})
+        self.assertIn('instagram.com/shopx', row['socials_instagram'])
+
+    def test_owner_channel_prefers_primary_poc_personal_social_over_company(self):
+        lead = {
+            'owner_name': 'Shaw',
+            'pocs': [{'name': 'Shaw', 'primary': True,
+                      'socials': ['https://instagram.com/shaws.personal']}],
+            'linkedin_url_company': 'https://linkedin.com/company/all-discount',
+        }
+        name, channel = primary_contact(lead)
+        self.assertEqual(channel, 'https://instagram.com/shaws.personal')
+
     def test_primary_contact_falls_back_to_osint_poc(self):
         lead = {
             'poc_name': 'Dmytro H', 'poc_email': 'dmytro@firm.com',

@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 from lib.enrichers.whois_lookup import lookup_domain
 from lib.enrichers.deep_site_crawl import crawl_domain
 from lib.enrichers.serp import run_serp_query_with_fallback
+from lib.lead_fields import resolve_business_name, resolve_city, resolve_poc_name
 from lib.cli._common import (
     add_pipeline_arg,
     load_pipeline_config,
@@ -40,6 +41,26 @@ def detect_gaps(lead: dict, fields_desired: list[str]) -> list[str]:
         if v is None or v == '' or v == [] or v == {}:
             gaps.append(f)
     return gaps
+
+
+def select_osint_leads(leads: list[dict], *, tiers=None, limit=None) -> list[dict]:
+    """Narrow the OSINT work-list for a fast, incremental run.
+
+    With both `tiers` and `limit` None, returns every lead in input order
+    (backward compatible). Otherwise keeps leads whose `tier` is in `tiers`
+    (when given), orders by `quality_score` descending so the best leads go
+    first, and caps at `limit`. The sidecar is resumable, so a later run picks
+    up the rest — turning one 4–5 hr pass into several minute-scale batches."""
+    if tiers is None and limit is None:
+        return list(leads)
+    out = list(leads)
+    if tiers is not None:
+        tset = set(tiers)
+        out = [l for l in out if l.get('tier') in tset]
+    out.sort(key=lambda l: -(l.get('quality_score') or 0))
+    if limit is not None:
+        out = out[:limit]
+    return out
 
 
 def _new_field_record() -> dict:
@@ -74,10 +95,23 @@ def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
     serp_queries = getattr(cfg, 'osint_serp_queries', {})
     deep_paths = getattr(cfg, 'osint_deep_crawl_paths', [])
 
+    domain = lead.get('domain') or _domain_from_website(lead.get('website'))
     record = {
         'place_id': lead.get('place_id'),
-        'domain': lead.get('domain') or _domain_from_website(lead.get('website')),
+        'domain': domain,
         'enriched_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+        # Resolved context the osint-binder needs to apply its >=2-signal rule.
+        # Built from the canonical resolvers so the binder never sees the
+        # phantom business_name/city/poc_name keys.
+        'lead': {
+            'business_name': resolve_business_name(lead),
+            'city': resolve_city(lead),
+            'industry': industry_terms[0] if industry_terms else '',
+            'domain': domain,
+            'poc_name_known': resolve_poc_name(lead) or None,
+            'poc_role_known': (lead.get('owner_title') or lead.get('poc_role') or None),
+            'phone': lead.get('phone') or lead.get('phone_number') or '',
+        },
         'fields': {f: _new_field_record() for f in fields_desired},
         'errors': [],
     }
@@ -87,7 +121,9 @@ def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
         return record
 
     # Wave 1: discovery
-    discovered_poc_name = lead.get('poc_name')
+    # Seed the known POC name from the real master schema (owner_name / pocs[],
+    # not the phantom poc_name key). whois / deep-crawl may augment it below.
+    discovered_poc_name = resolve_poc_name(lead)
 
     if 'whois' in sources and record['domain']:
         try:
@@ -131,8 +167,8 @@ def enrich_lead(lead: dict, cfg, already_crawled: set[str]) -> dict:
                 continue
             query = template.format(
                 poc_name=discovered_poc_name or '',
-                city=lead.get('city', ''),
-                business_name=lead.get('business_name', ''),
+                city=resolve_city(lead),
+                business_name=resolve_business_name(lead),
                 industry_term=industry_terms[0] if industry_terms else '',
             )
             try:
@@ -267,6 +303,12 @@ def main(argv: list[str] | None = None) -> int:
                         help='sidecar output (default: enrichment/osint/<today>.json)')
     parser.add_argument('--force', action='store_true',
                         help='re-enrich leads already in the sidecar')
+    parser.add_argument('--tiers', default=None,
+                        help='comma-separated tiers to include (e.g. A,B); '
+                             'default: all tiers')
+    parser.add_argument('--limit', type=int, default=None,
+                        help='cap at the top-N leads by quality_score '
+                             '(for fast incremental runs; sidecar is resumable)')
     parser.add_argument('--apply-judgments', type=Path, default=None,
                         help='merge judgments file into the existing sidecar')
     args = parser.parse_args(argv)
@@ -306,7 +348,17 @@ def main(argv: list[str] | None = None) -> int:
     already_crawled = _load_already_crawled(pdir)
 
     todo = [l for l in master if l.get('place_id') not in processed]
-    print(f"OSINT: {len(todo)} leads to enrich (skipping {len(processed)} already done)", flush=True)
+    tiers = ([t.strip().upper() for t in args.tiers.split(',') if t.strip()]
+             if args.tiers else None)
+    todo = select_osint_leads(todo, tiers=tiers, limit=args.limit)
+    scope = []
+    if tiers:
+        scope.append(f"tiers={','.join(tiers)}")
+    if args.limit is not None:
+        scope.append(f"limit={args.limit}")
+    scope_msg = f" ({'; '.join(scope)})" if scope else ""
+    print(f"OSINT: {len(todo)} leads to enrich{scope_msg} "
+          f"(skipping {len(processed)} already done)", flush=True)
 
     wire_deep_site_fetch()
 

@@ -83,6 +83,111 @@ class TestEnrichLeadTwoWave(unittest.TestCase):
         self.assertEqual(poc_candidates[0]['source'], 'deep_site_crawl_jsonld')
 
 
+class TestEnrichLeadProductionSchema(unittest.TestCase):
+    """Regression for the schema-drift bug: real master leads carry
+    title / metro / address / owner_name — NOT business_name / city /
+    poc_name (0/326 on real data). The SERP wave must still fire with a
+    well-formed query; previously every query was malformed or skipped."""
+
+    def _run(self, lead):
+        from unittest.mock import patch, MagicMock
+        from lib.cli.osint_enrich import enrich_lead
+        captured = []
+
+        def fake_serp(query, **kw):
+            captured.append(query)
+            return {'engine': 'ddg', 'query': query, 'results': [], 'status': 'ok'}
+
+        cfg = MagicMock(
+            osint_sources=['serp'],
+            osint_fields_desired=['linkedin_url_poc', 'linkedin_url_company', 'social_urls'],
+            osint_serp_queries={
+                'linkedin_url_poc': 'site:linkedin.com/in "{poc_name}" "{city}" auto',
+                'linkedin_url_company': 'site:linkedin.com/company "{business_name}" "{city}"',
+                'social_urls': '"{business_name}" "{city}" instagram OR facebook',
+            },
+            osint_deep_crawl_paths=[],
+            osint_industry_terms=['auto repair'],
+        )
+        with patch('lib.cli.osint_enrich.run_serp_query_with_fallback', side_effect=fake_serp):
+            record = enrich_lead(lead, cfg, already_crawled=set())
+        return record, captured
+
+    def test_owner_name_drives_poc_query_and_is_not_skipped(self):
+        lead = {'place_id': 'A', 'title': 'Bonnie & Clyde Car Stereo',
+                'address': '11311 Harry Hines Blvd #104, Dallas, TX 75229, United States',
+                'metro': 'dallas', 'owner_name': 'Mazin Awad'}
+        record, captured = self._run(lead)
+        joined = '\n'.join(captured)
+        self.assertEqual(len(captured), 3)            # all three queries fired
+        self.assertIn('Mazin Awad', joined)           # owner_name → {poc_name}
+        self.assertIn('Bonnie & Clyde Car Stereo', joined)  # title → {business_name}
+        self.assertIn('Dallas', joined)               # address → {city}
+        # the POC query fired (not skipped for a missing name); 'no_results'
+        # here is only because the stubbed SERP returns nothing.
+        self.assertNotEqual(record['fields']['linkedin_url_poc']['skipped_reason'],
+                            'no_poc_name_known')
+
+    def test_record_carries_resolved_binder_context(self):
+        # The osint-binder needs lead context (business_name/city/poc_name_known)
+        # to apply its >=2-signal rule. The sidecar record must carry it, built
+        # from the resolvers — not the phantom keys.
+        lead = {'place_id': 'A', 'title': 'Bonnie & Clyde Car Stereo',
+                'address': '11311 Harry Hines Blvd #104, Dallas, TX 75229, United States',
+                'metro': 'dallas', 'owner_name': 'Mazin Awad', 'phone': '+1-214-555-0001'}
+        record, _ = self._run(lead)
+        ctx = record['lead']
+        self.assertEqual(ctx['business_name'], 'Bonnie & Clyde Car Stereo')
+        self.assertEqual(ctx['city'], 'Dallas')
+        self.assertEqual(ctx['poc_name_known'], 'Mazin Awad')
+        self.assertEqual(ctx['phone'], '+1-214-555-0001')
+
+    def test_no_name_still_fires_wellformed_company_and_social(self):
+        lead = {'place_id': 'B', 'title': 'Buckner Car Audio',
+                'address': '2952 Buckner Blvd, Dallas, TX 75227, United States',
+                'metro': 'dallas'}
+        record, captured = self._run(lead)
+        self.assertEqual(record['fields']['linkedin_url_poc']['skipped_reason'],
+                         'no_poc_name_known')         # correctly skipped — no name
+        self.assertEqual(len(captured), 2)            # company + social still fired
+        for q in captured:
+            self.assertIn('Buckner Car Audio', q)     # never an empty-anchor query
+            self.assertNotIn('""', q)
+
+
+class TestSelectOsintLeads(unittest.TestCase):
+    """Incremental scoping so a feasibility run is minutes, not a 4–5 hr pass
+    over the whole master (the reason OSINT was being skipped)."""
+
+    def _leads(self):
+        return [
+            {'place_id': 'A', 'tier': 'A', 'quality_score': 10},
+            {'place_id': 'B', 'tier': 'C', 'quality_score': 99},
+            {'place_id': 'C', 'tier': 'B', 'quality_score': 50},
+            {'place_id': 'D', 'tier': 'D', 'quality_score': 5},
+        ]
+
+    def test_default_keeps_all_in_input_order(self):
+        from lib.cli.osint_enrich import select_osint_leads
+        out = select_osint_leads(self._leads())
+        self.assertEqual([l['place_id'] for l in out], ['A', 'B', 'C', 'D'])
+
+    def test_tier_filter_and_sorts_by_quality_desc(self):
+        from lib.cli.osint_enrich import select_osint_leads
+        out = select_osint_leads(self._leads(), tiers=['A', 'B'])
+        self.assertEqual([l['place_id'] for l in out], ['C', 'A'])  # qs 50 then 10
+
+    def test_limit_takes_top_n_by_quality(self):
+        from lib.cli.osint_enrich import select_osint_leads
+        out = select_osint_leads(self._leads(), limit=2)
+        self.assertEqual([l['place_id'] for l in out], ['B', 'C'])  # qs 99, 50
+
+    def test_tiers_and_limit_compose(self):
+        from lib.cli.osint_enrich import select_osint_leads
+        out = select_osint_leads(self._leads(), tiers=['A', 'B', 'C'], limit=1)
+        self.assertEqual([l['place_id'] for l in out], ['B'])  # highest qs in A/B/C
+
+
 class TestSidecarResumability(unittest.TestCase):
     def test_load_existing_sidecar_returns_processed_place_ids(self):
         import json

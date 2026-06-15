@@ -1,0 +1,19 @@
+auto repair shop in {city} {state}
+auto body shop in {city} {state}
+collision repair in {city} {state}
+car detailing in {city} {state}
+auto glass repair in {city} {state}
+smog check station in {city} {state}
+tire shop in {city} {state}
+transmission repair in {city} {state}
+auto parts store in {city} {state}
+used auto parts in {city} {state}
+auto upholstery in {city} {state}
+car audio installation in {city} {state}
+auto customization shop in {city} {state}
+wheel and rim shop in {city} {state}
+auto paint shop in {city} {state}
+auto parts distributor in {city} {state}
+car rental agency in {city} {state}
+fleet services in {city} {state}
+used car dealership in {city} {state}

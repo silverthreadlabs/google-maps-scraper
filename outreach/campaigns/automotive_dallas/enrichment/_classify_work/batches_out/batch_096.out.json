@@ -1,0 +1,45 @@
+[
+  {
+    "id": 3840,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "They left me waiting inside then waiting outside.",
+        "reasoning": "Customer kept waiting; operational waiting issue but no fixed appointment time, so no precise sub fits."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "They need to learn how to clearly speak with customers and if I have to wait for you let me know.",
+        "reasoning": "Complaint about unclear communication and failure to inform about wait, matching poor_communication."
+      }
+    ]
+  },
+  {
+    "id": 3841,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "They promised they would make it right, but once they had my money, they stopped responding completely.",
+        "reasoning": "Customer chased a promised resolution and the shop went silent, matching dropped_leads_or_quotes."
+      }
+    ]
+  },
+  {
+    "id": 3879,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.45,
+        "quote": "There was a duplicate charge on my reservation, and she promptly cancelled the incorrect one.",
+        "reasoning": "A real double-charge event occurred (matching payment_issues), though it was resolved and the review is positive."
+      }
+    ]
+  }
+]

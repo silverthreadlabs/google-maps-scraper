@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2467,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "there is an additional $10 charge for mounting and balancing",
+        "reasoning": "Advertised price differed from in-store price (bait and switch) plus an undisclosed mounting/balancing fee."
+      }
+    ]
+  }
+]

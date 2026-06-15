@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJWd5XX7-YToYRnpEJrmTRkxE",
+    "company": "Ess Fleet Service",
+    "website": "http://essfleetservice.com/",
+    "phone": "+1 214-821-5052",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "4020 Main St, Dallas, TX 75226, United States"
+  },
+  {
+    "place_id": "ChIJ2dhkgRciTIYRxyXL4nmOre0",
+    "company": "State Inspections Emissions Testing",
+    "website": "https://carspa.net/state-inspection-emissions/",
+    "phone": "",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "18093 Coit Rd, Dallas, TX 75252, United States"
+  },
+  {
+    "place_id": "ChIJfdxuL62eToYR04PFuP6But0",
+    "company": "Park Cities Mobile Detail",
+    "website": "https://professionaldetail.com/",
+    "phone": "+1 469-438-7377",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "2100 N Stemmons Fwy, Dallas, TX 75207, United States"
+  },
+  {
+    "place_id": "ChIJRwAjELqdToYRkKISCs1klss",
+    "company": "Friendly Chevrolet Fleet Service",
+    "website": "https://friendlyfleet.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbmain",
+    "phone": "+1 214-352-1392",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "9429 Lakefield Blvd, Dallas, TX 75220, United States"
+  },
+  {
+    "place_id": "ChIJ7U6DvC2ZToYRhr14WmoluqA",
+    "company": "Car Rental Dallas",
+    "website": "https://carrentaldallas.net/",
+    "phone": "",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "2808 Laclede St, Dallas, TX 75204, United States"
+  },
+  {
+    "place_id": "ChIJd1YoYHKjToYR44zTD0FcAqQ",
+    "company": "Allstate Transmission of Dallas",
+    "website": "https://www.allstatetransmissiondallas.com/",
+    "phone": "+1 214-388-2194",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "2522 S Buckner Blvd, Dallas, TX 75227, United States"
+  }
+]

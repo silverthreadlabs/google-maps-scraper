@@ -1,0 +1,136 @@
+[
+  {
+    "id": 3724,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "she would have an estimate the next day.  “You have my word”.   It’s been a week now and haven’t heard from them.",
+        "reasoning": "Customer actively requested an estimate, was promised one, and never received it despite chasing."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Owner said I never went to see Marco (??).",
+        "reasoning": "Owner gave contradictory information about the visit, requiring proof to confirm."
+      }
+    ]
+  },
+  {
+    "id": 3725,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.75,
+        "quote": "the person only took one look. He said that the leather was too old and would tear again. without even figuring out what was damaged",
+        "reasoning": "Staff gave a cursory one-look assessment without examining the actual damage."
+      }
+    ]
+  },
+  {
+    "id": 3726,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "Called on a Monday sent pics and a description as requested but, Melissa couldn’t be bothered to get back with me",
+        "reasoning": "Customer sent requested info for a job and never received a callback."
+      }
+    ]
+  },
+  {
+    "id": 3727,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.75,
+        "quote": "The lady in the front office never answers the phone, only response through text.",
+        "reasoning": "Front office consistently fails to answer the phone."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Quoted me a price without verifying other details so when I showed up, I was told that it was going to be an extra $150 than what I was quoted.",
+        "reasoning": "Quoted one price, then charged $150 more on arrival."
+      }
+    ]
+  },
+  {
+    "id": 3728,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.5,
+        "quote": "Called then emailed and nothing.",
+        "reasoning": "Customer reached out by call and email as a lead and got no response."
+      }
+    ]
+  },
+  {
+    "id": 3730,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "the estimate was now revised almost $1,000 more. They missed a straightforward aspect of the repair and so it felt a bit like a bait and switch.",
+        "reasoning": "Accepted estimate was revised ~$1,000 higher after the fact; customer calls it bait and switch."
+      }
+    ]
+  },
+  {
+    "id": 3735,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Employees are threatening.",
+        "reasoning": "Staff exhibited hostile/threatening behavior toward the customer."
+      }
+    ]
+  },
+  {
+    "id": 3736,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.5,
+        "quote": "Phil answers everytime i call and didnt pass the message on last timr for them to call me.",
+        "reasoning": "Messages left for a callback were never passed on or returned."
+      }
+    ]
+  },
+  {
+    "id": 3737,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Very rude",
+        "reasoning": "Generic rudeness with no clarity/listening detail defaults to staff rude."
+      }
+    ]
+  },
+  {
+    "id": 3738,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "He was very rude on installing a used transmission",
+        "reasoning": "Staff was rude/dismissive toward the customer's request."
+      }
+    ]
+  }
+]

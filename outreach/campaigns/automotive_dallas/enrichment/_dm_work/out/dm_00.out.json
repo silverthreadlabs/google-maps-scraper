@@ -1,0 +1,72 @@
+{
+  "ChIJ4zU0zoWiToYRGestiRxBHIQ": [],
+  "ChIJ65IT5Gq7ToYRx3_zenG3qzs": [],
+  "ChIJLY2soHKdToYRMuRBr7DDAyc": [
+    {
+      "name": "Mohammad",
+      "role": "Parts specialist (role unconfirmed)",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "parts@cowboyautotexas.com",
+      "confidence": 0.3,
+      "evidence": "First name only, repeatedly named as the knowledgeable point of contact in customer reviews (Yelp/Birdeye); owner role not confirmed. Email from cowboyautotexas.com contact page."
+    }
+  ],
+  "ChIJ5zvrqR-FToYRb6N4QEOlj18": [
+    {
+      "name": "Shaw",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/p/All-Discount-Auto-Salvage-100064629673802/",
+      "email": "",
+      "confidence": 0.4,
+      "evidence": "Owner named 'Shaw' in Yellow Pages customer reviews; business is family-operated since 1990. Business Facebook page (name + Grand Prairie TX match). Manager 'Tammy V.' also mentioned on Yelp."
+    }
+  ],
+  "ChIJu-5oHIknTIYRWgSEWZgIIDY": [
+    {
+      "name": "Mazin Awad",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/bncstereo/",
+      "facebook": "https://www.facebook.com/BNCSTEREO/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Named as owner/manager in business directory listings (chamberofcommerce.com); family-owned shop since 1977. Confirmed official business IG @bncstereo and FB /BNCSTEREO (both linked from bncstereo.com)."
+    }
+  ],
+  "ChIJJdpHNiqFToYR5byVUtotNeY": [
+    {
+      "name": "Dina Maldonado",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Listed as Owner on BBB profile for DFW Auto Parts at confirmed address 6071 W Davis St, Dallas TX 75211."
+    },
+    {
+      "name": "Angelo Minell",
+      "role": "Owner/operator",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Listed as Owner/operator on BBB profile for DFW Auto Parts, 6071 W Davis St, Dallas TX 75211."
+    }
+  ]
+}

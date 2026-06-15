@@ -1,0 +1,74 @@
+{
+  "ChIJB6-nDnOjToYReiU7IqdFNxo": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/STEREOZONEDALLAS/",
+      "instagram": "https://www.instagram.com/stereo_zone/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/stereo-zone-dallas",
+      "email": "",
+      "evidence": "Facebook page STEREOZONEDALLAS posts store name 'Stereo Zone Dallas' with address 2715 S Buckner Blvd, Dallas TX 75227 and phone matching 214-275-9663; Yelp biz/stereo-zone-dallas lists same 2715 Buckner Blvd address; Instagram @stereo_zone linked to same Dallas business."
+    }
+  },
+  "ChIJ4U98RKadToYRN-f1_SF7fzU": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/149024838585220/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/rodriguez-tire-shop-dallas-4",
+      "email": "",
+      "evidence": "Yelp biz/rodriguez-tire-shop-dallas-4 lists Rodriguez Tire Shop at 2745 W NW Hwy, Dallas TX (matches 2745 W Northwest Hwy); Facebook page 149024838585220 'Rodriguez Tire Shop' at same Northwest Dallas location; Birdeye listing confirms 24 Hour Rodriguez Tire Shop at 2745 W Northwest Hwy."
+    }
+  },
+  "ChIJydQw0i6bToYRXVbA1q-dPzw": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/TorresAutoService/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/torres-auto-service-dallas",
+      "email": "",
+      "evidence": "Yelp biz/torres-auto-service-dallas lists Torres Auto Service at 1201 W Davis St, Dallas TX with phone 214-944-5506 (exact match); Facebook page TorresAutoService is the listed website on BBB profile for same 1201 W Davis St location; no owner name disclosed on BBB or Yelp."
+    }
+  },
+  "ChIJvbTmrDqXToYR8tcl52HHgZY": {
+    "people": [
+      {
+        "name": "Jose R. Reyes",
+        "role": "Owner",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "BBB profile (auto-salvage/stop-n-pull-auto-part-and-salvage) for the 5419 S R.L. Thornton Fwy, Dallas TX 75232 location (phone 214-375-9833, exact match) lists Jose R. Reyes as Owner/Manager of the sole proprietorship."
+      }
+    ],
+    "company": {
+      "facebook": "https://www.facebook.com/StopnPull/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/stop-and-pull-auto-parts-and-salvage-dallas",
+      "email": "",
+      "evidence": "BBB profile lists 5419 S R.L. Thornton Fwy Dallas TX 75232 with phone 214-375-9833 (exact match) and owner Jose R. Reyes; Facebook page StopnPull 'Stop N Pull Autoparts N Salvage' carries phone 214-375-9833; Yelp biz/stop-and-pull-auto-parts-and-salvage-dallas for same Dallas business."
+    }
+  },
+  "ChIJbRNTRe2dToYRk7tzuVxtxjk": {
+    "people": [],
+    "company": {}
+  },
+  "ChIJBc8BpcyjToYRqeOU-GdTHcE": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/dans-automotive-and-transmission-repair-dallas",
+      "email": "",
+      "evidence": "Yelp biz/dans-automotive-and-transmission-repair-dallas lists Dan's Automotive and Transmission Repair at 7820 RL Thornton Frwy, Dallas TX 75228 (matches address); BBB profile for same 7820 RL Thorton Frwy location lists website danstransmissionandautorepair.yolasite.com (could not load to confirm owner); reviews reference owner and his wife but no name disclosed. Phone on directories matches 469-236-9261."
+    }
+  }
+}

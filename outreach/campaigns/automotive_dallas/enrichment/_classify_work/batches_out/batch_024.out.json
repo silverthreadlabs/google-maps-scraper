@@ -1,0 +1,160 @@
+[
+  {
+    "id": 963,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "they try to up the price on you when paying after we had already agreed on a price before hand",
+        "reasoning": "Price diverged upward at payment from an agreed-upon price."
+      }
+    ]
+  },
+  {
+    "id": 964,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "I waited 1hr for an inspection sticker",
+        "reasoning": "Customer waited far past expectation for a quick inspection."
+      }
+    ]
+  },
+  {
+    "id": 970,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "they see you there walk by ignore you",
+        "reasoning": "Staff dismissively ignored the waiting customer."
+      }
+    ]
+  },
+  {
+    "id": 975,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "I’ve been waiting 4 hours. My car still hasn’t even been started on",
+        "reasoning": "Customer waited four hours with no work begun."
+      }
+    ]
+  },
+  {
+    "id": 977,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "The guy threw my keys at me and said don't come back if it messes up again",
+        "reasoning": "Staff behaved aggressively/rudely toward the customer."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.6,
+        "quote": "It was fast fast fast. Bad customer service and not taking thier time to do the job correctly",
+        "reasoning": "Service was rushed rather than done attentively."
+      }
+    ]
+  },
+  {
+    "id": 978,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.88,
+        "quote": "quoted me $120 for my whole suv to be tinted. I confirmed the price & pulled into the bay, as the vehicle is being tinted the worker then comes back to tell me it will be $199",
+        "reasoning": "Confirmed quote diverged sharply mid-service."
+      }
+    ]
+  },
+  {
+    "id": 982,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "He didn’t ask me if I want to get the new tint on window or take away the old tint and put a new one",
+        "reasoning": "Staff failed to clarify options, leaving customer confused about the service."
+      }
+    ]
+  },
+  {
+    "id": 983,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.72,
+        "quote": "I was told on the phone that it would take an hour to get done but it took two hours",
+        "reasoning": "Wait was double the time quoted."
+      }
+    ]
+  },
+  {
+    "id": 990,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.72,
+        "quote": "They rush you & are very rude if your not trying to spend a load of cash",
+        "reasoning": "Staff were rude to customers not spending much."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.55,
+        "quote": "They rush you",
+        "reasoning": "Customers report being rushed through service."
+      }
+    ]
+  },
+  {
+    "id": 992,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "Charged $50 for an alignment (even thou it's advertised for $24.99)",
+        "reasoning": "Charged more than the advertised price."
+      }
+    ]
+  },
+  {
+    "id": 994,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "broke two AC vents and didnt say a word till I tried to move the vent towards me and it fell",
+        "reasoning": "Staff failed to disclose damage they caused."
+      }
+    ]
+  },
+  {
+    "id": 995,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "I got the price for tent,  and the price went up when I got there",
+        "reasoning": "Quoted price increased on arrival."
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3441,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "quote": "had to wait 45 minutes",
+        "reasoning": "Customer waited 45 minutes only to be told the equipment didn't work, indicating an operational wait-time problem."
+      }
+    ]
+  },
+  {
+    "id": 3467,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "They do not respond to emails when questions are asked",
+        "reasoning": "Shop gives no/contradictory responses to customer questions and is unreachable for follow-up information."
+      }
+    ]
+  }
+]

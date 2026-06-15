@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1483,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_after_hours_or_emergency",
+        "confidence": 0.8,
+        "quote": "NO ONE ANSWERS THE PHONE AND NO ONE IS HERE",
+        "reasoning": "Customer with a flat at a supposed 24hr shop got no phone answer and no one present."
+      }
+    ]
+  },
+  {
+    "id": 1502,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "they didn't call, not Friday, not Monday, I had to call them myself on Tuesday",
+        "reasoning": "Shop promised to call back about the car but never did; customer had to chase them."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "The $750 I paid only covered taking the transmission out and doing the diagnostic, it didn't cover putting it back into the car???? what? Why didn't they mention that before?",
+        "reasoning": "Undisclosed scope of the diagnostic charge surfaced only after payment."
+      }
+    ]
+  },
+  {
+    "id": 1503,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "the mechanic was aggressive and confrontational",
+        "reasoning": "Staff behaved with hostile, confrontational tone toward the customer."
+      }
+    ]
+  },
+  {
+    "id": 1507,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "quote": "He screens and dodges calls and emails, from both the client and the insurance company",
+        "reasoning": "Owner deliberately avoids returning client calls and emails."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "No communication or explanation to me about anything regarding that decision. Very poor communication",
+        "reasoning": "Owner gave no explanation about key decisions affecting the customer."
+      }
+    ]
+  },
+  {
+    "id": 1510,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.78,
+        "quote": "they wouldn't (and still wont) return my phone calls or voicemails",
+        "reasoning": "Shop never returned the customer's repeated phone calls or voicemails."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "I never received a phone call to discuss status, schedule or issues over the course of 2.5 months",
+        "reasoning": "No proactive status communication; customer had to visit in person for answers."
+      }
+    ]
+  },
+  {
+    "id": 1513,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "called saying it was going to cost ober $150 just to check the problem with no type of estament on the job i come up there for",
+        "reasoning": "Customer was given no estimate for the actual job they came in for, leaving them uninformed."
+      }
+    ]
+  }
+]

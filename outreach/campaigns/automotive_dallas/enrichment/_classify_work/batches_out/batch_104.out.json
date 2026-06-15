@@ -1,0 +1,26 @@
+[
+  {
+    "id": 4198,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "very rude and disrespectful",
+        "reasoning": "Customer reports staff member was rude and disrespectful, with no detail of unclear info or ignored concern, so default to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 4199,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Horrible service and very rude",
+        "reasoning": "Customer describes the staff member's behavior as rude, a tone complaint matching staff_rude_front_desk."
+      }
+    ]
+  }
+]

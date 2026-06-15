@@ -1,0 +1,26 @@
+[
+  {
+    "id": 4123,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "2 hours later the truck wasn’t even touched",
+        "reasoning": "Vehicle sat far past the expected service time with no work started."
+      }
+    ]
+  },
+  {
+    "id": 4146,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.45,
+        "quote": "Initially they said 2 hours and ended up 4",
+        "reasoning": "Service took twice the estimated time, a wait far past the stated window."
+      }
+    ]
+  }
+]

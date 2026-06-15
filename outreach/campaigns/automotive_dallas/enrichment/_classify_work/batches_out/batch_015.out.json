@@ -1,0 +1,256 @@
+[
+  {
+    "id": 601,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "very rude and ugly people work here",
+        "reasoning": "Describes staff as rude with no clarity/ignored detail, so defaults to rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 602,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "he seemed to in a rush on the phone and to get me off",
+        "reasoning": "Dismissive phone manner, rushed the caller and hung up."
+      }
+    ]
+  },
+  {
+    "id": 604,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "the motor she said they had, they didn't actually have",
+        "reasoning": "Phone staff gave inaccurate inventory info, caller drove 120 miles on false confirmation."
+      }
+    ]
+  },
+  {
+    "id": 605,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Employees were extremely rude",
+        "reasoning": "Explicit rudeness of staff with no clarity/ignored detail."
+      }
+    ]
+  },
+  {
+    "id": 608,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.45,
+        "quote": "employees are not very helpfully when you ask questions",
+        "reasoning": "Unhelpful/dismissive staff when questioned; weak but in-taxonomy."
+      }
+    ]
+  },
+  {
+    "id": 612,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "the lady just hanged up on me",
+        "reasoning": "Hanging up on a caller is dismissive front-line behavior."
+      }
+    ]
+  },
+  {
+    "id": 613,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.4,
+        "quote": "I have been trying to call and the number is no longer working",
+        "reasoning": "Unable to reach the business by phone; defensible calls_unanswered, no specific sub fits."
+      }
+    ]
+  },
+  {
+    "id": 614,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "got a price on part but after we got there it was 20 bucks more",
+        "reasoning": "Quoted one price by phone, charged higher on arrival."
+      }
+    ]
+  },
+  {
+    "id": 616,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "There rude",
+        "reasoning": "Explicit rudeness; pricing and racism portions are out of taxonomy."
+      }
+    ]
+  },
+  {
+    "id": 621,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.4,
+        "quote": "expect poor communication with service reps",
+        "reasoning": "Explicitly names poor communication, though generic."
+      }
+    ]
+  },
+  {
+    "id": 622,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "RUDE",
+        "reasoning": "Explicit rudeness; price gouge portion out of taxonomy."
+      }
+    ]
+  },
+  {
+    "id": 623,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Rude sale people",
+        "reasoning": "Explicit rudeness of staff."
+      }
+    ]
+  },
+  {
+    "id": 626,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Agreed on price over the phone then they double the price",
+        "reasoning": "Quoted one price, charged double on arrival."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "Talks shit about non Spanish speaking customers IN SPANISH",
+        "reasoning": "Dismissive/disparaging conduct toward customers."
+      }
+    ]
+  },
+  {
+    "id": 627,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "they wanted an additional $80",
+        "reasoning": "Quoted a combo price via messenger, charged extra on arrival."
+      }
+    ]
+  },
+  {
+    "id": 628,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "me aseguraron que tenían la parte y era mentiras",
+        "reasoning": "Phone staff falsely confirmed the part was in stock; drove an hour on bad info."
+      }
+    ]
+  },
+  {
+    "id": 631,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Muy grosera la muchacha gordita te atiende de mala gana",
+        "reasoning": "Staff member described as rude and serving begrudgingly."
+      }
+    ]
+  },
+  {
+    "id": 632,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "hable dos veces para asegurar de una camioneta llego y me ponen a buscar regreso con ellos y les digo q donde esta y me dicen q ya no la tienen",
+        "reasoning": "Called twice to confirm, arrived and item was not actually available; inaccurate info."
+      }
+    ]
+  },
+  {
+    "id": 633,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.78,
+        "quote": "dijeron que si las tenían manejamos una hora para que cuando llegamos dijeron que esas partes no las tenian",
+        "reasoning": "Phone staff confirmed parts in stock; drove an hour and they were not there."
+      }
+    ]
+  },
+  {
+    "id": 635,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "they will lie to get you there an leave you stranded",
+        "reasoning": "Salesman reassured terms by phone then changed them on arrival; misleading info."
+      }
+    ]
+  },
+  {
+    "id": 636,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.55,
+        "quote": "calls went unanswered or were made outside of business hours",
+        "reasoning": "Customer and insurer's calls to the GM went unanswered."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.7,
+        "quote": "the dealership refused to accept them online",
+        "reasoning": "Unable to make car payments online; payment portal blocked unless extra fee included."
+      }
+    ]
+  }
+]

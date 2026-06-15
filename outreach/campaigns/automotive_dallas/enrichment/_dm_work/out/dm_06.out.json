@@ -1,0 +1,72 @@
+{
+  "ChIJU5bNvFyQToYRuY3SKMKwGoE": [],
+  "ChIJq-hqQyiZToYROjPB4Ob5q9k": [
+    {
+      "name": "Salomon Rodriguez",
+      "role": "Owner / Director",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "BBB business profile lists 'Mr. Salomon Rodriguez, Owner/Director' (bbb.org/us/tx/dallas/profile/auto-parts/50-stars-auto-parts-0875-91345776). Company general email service@50starsautoparts.com (not personal)."
+    }
+  ],
+  "ChIJ47v3JcqXToYRdz7EPiP6lag": [
+    {
+      "name": "Adam A.",
+      "role": "Owner / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.3,
+      "evidence": "First name plus initial only, per Yelp business-owner field (yelp.com/biz/texas-tire-and-auto-repair-dallas). Full surname not found; shop site texasrepair.autos did not load. Low confidence on identity."
+    }
+  ],
+  "ChIJQ8GgyXKYToYRzs13b4cq9lU": [
+    {
+      "name": "Miguel A. Navarro",
+      "role": "President",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/a1dallasautoparts/",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "BBB business profile lists 'Mr. Miguel A Navarro' as President of A-1 Auto Parts, 5427 Botham Jean Blvd (bbb.org/us/tx/dallas/profile/new-auto-parts/a-1-auto-parts-0875-37007219). Facebook is the business page."
+    }
+  ],
+  "ChIJO0pNAbyYToYRhpB7FsVtjdQ": [
+    {
+      "name": "James Wagner",
+      "role": "Owner / President",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/james-wagner-b9362a32/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/HammsTiresDallas/",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn profile titled 'James Wagner - Owner, Hamm's Tire Inc.'; Texas business directory lists him as President. Facebook is the Dallas business page. Family-owned since 1987."
+    },
+    {
+      "name": "Lori Wagner",
+      "role": "Vice President",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Texas business directory (bizstanding.com) lists Lori Wagner as Vice President of Hamm's Tires, Inc., alongside James Wagner; part of the Wagner family ownership."
+    }
+  ],
+  "ChIJLxOWVWWdToYRywgAHm1e9ew": []
+}

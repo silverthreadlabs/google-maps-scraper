@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1613,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "they said they were gonna charge me $10 for each window that needs to be fixed",
+        "reasoning": "Charged an unexpected per-window fee to fix their own defective tint, an added upcharge."
+      }
+    ]
+  },
+  {
+    "id": 1615,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I paid  $60 over the price I was told over the phone",
+        "reasoning": "Final charge diverged $60 above the price quoted over the phone, a quoted-X-billed-Y upcharge."
+      }
+    ]
+  },
+  {
+    "id": 1616,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "instead of picking up the phone they forward my phone calls",
+        "reasoning": "Business deflected and blocked the customer's calls instead of answering during hours."
+      }
+    ]
+  },
+  {
+    "id": 1617,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.55,
+        "quote": "charged me $40 just for it not to work after 5 minutes NO i didn’t get those $40 back",
+        "reasoning": "Charged $40 for service that failed and refused to refund it, a payment/refund issue."
+      }
+    ]
+  },
+  {
+    "id": 1624,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "kept the peace saying that it wasn't good lie to me",
+        "reasoning": "Staff gave a false explanation for not installing the purchased harness, misleading information."
+      }
+    ]
+  },
+  {
+    "id": 1639,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "The staff attitude was also rude and unprofessional during my visit",
+        "reasoning": "Explicit complaint about rude, unprofessional staff attitude."
+      }
+    ]
+  }
+]

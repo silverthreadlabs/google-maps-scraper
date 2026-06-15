@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1721,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "answers then says one minute and hangs up on me three times",
+        "reasoning": "Staff repeatedly answered and abruptly hung up, a dismissive frontline behavior; no listed sub fits a completed-then-dropped call."
+      }
+    ]
+  },
+  {
+    "id": 1728,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "The owner Amed was so freaking rude over the phone",
+        "reasoning": "Owner described as rude over the phone, a clear rudeness-in-tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 1737,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "Radio silence until 2PM",
+        "reasoning": "Customer left without updates and had to chase the shop, with no clear diagnostic explanation given."
+      }
+    ]
+  },
+  {
+    "id": 1740,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.6,
+        "quote": "no more than 5 minutes were spent \"diagnosing\" my car",
+        "reasoning": "Complaint is about operational rushing/inattention during the diagnosis, not the repair outcome itself."
+      }
+    ]
+  },
+  {
+    "id": 1741,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "a few $100 more than the estimate",
+        "reasoning": "Actual cost diverged upward from the quoted estimate."
+      }
+    ]
+  },
+  {
+    "id": 1742,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "He gave me a snotty answer",
+        "reasoning": "Customer reports a snotty, unprofessional tone from staff."
+      }
+    ]
+  },
+  {
+    "id": 1747,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Randy met me with cheeky remarks",
+        "reasoning": "Staff met the customer with cheeky/dismissive remarks, a tone complaint."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Randy withheld the fact that the issues I had explained to him were due to the transmission going bad",
+        "reasoning": "Customer reports relevant information was withheld until after work was done."
+      }
+    ]
+  },
+  {
+    "id": 1748,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "procede to change the air filter (that I replace less than 10k miles ago). Without asking.\nAnd charged me $32",
+        "reasoning": "Charged for an air-filter replacement done without authorization or disclosure."
+      }
+    ]
+  },
+  {
+    "id": 1749,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "I had an appt and still had to wait",
+        "reasoning": "Had a scheduled appointment but still waited, a wait-past-appointment complaint."
+      }
+    ]
+  },
+  {
+    "id": 1750,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "quote": "was told “blows cold just fine” even though it never did when I picked up the car each time",
+        "reasoning": "Customer's repeated specific concern was dismissed rather than addressed."
+      }
+    ]
+  },
+  {
+    "id": 1752,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "the mechanic failed to explain why it had to be done and which of them are crucial for safety",
+        "reasoning": "Mechanic failed to explain the need for and priority of recommended repairs."
+      }
+    ]
+  },
+  {
+    "id": 1757,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Manager was rude,did not apologize or correct himself!",
+        "reasoning": "Manager described as rude and unapologetic, a tone/behavior complaint."
+      }
+    ]
+  },
+  {
+    "id": 1759,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "RUDE CUSTOMER SERVICE ON THE PHONE.",
+        "reasoning": "Explicit complaint of rude phone customer service when calling for pricing."
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": 280,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "Never answers the phone",
+        "reasoning": "Phone goes unanswered; no time-of-day context to pick a sub."
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Rude staff",
+        "reasoning": "Generic rudeness complaint defaults to staff_rude_front_desk per disambiguation rule."
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Angry Front End Staff.",
+        "reasoning": "Front-of-house staff described as angry, a tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "The women who answer the phone lie have a short temper and yell at their customer",
+        "reasoning": "Phone staff described as short-tempered and yelling at customers, clear rude-tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "Morena despota",
+        "reasoning": "Front staff described as despotic, a rude-tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Preguntas por un carro dicen si está y al buscarlo ni si quiera lo está",
+        "reasoning": "Staff give contradictory information about car availability."
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "se tardan mucho solo para la admision",
+        "reasoning": "Long waits for admission and payment due to understaffing."
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "una hora en espera",
+        "reasoning": "One hour wait to enter and exit due to lack of staff."
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Me atendieron de una manera odiosa y discriminativa",
+        "reasoning": "Served in a hateful and discriminatory manner, a rude-tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "tardas mas de 1 hora",
+        "reasoning": "Over an hour to pay and enter due to understaffing."
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "Tardas.   Como.   Tre.  Horas.  Para.  Entrar",
+        "reasoning": "Takes about three hours to enter."
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "Una hora en la línea esperando para entrar",
+        "reasoning": "One hour in line waiting to enter."
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "Pero nunca contestan el teléfono",
+        "reasoning": "They never answer the phone; no time-of-day context for a sub."
+      }
+    ]
+  }
+]

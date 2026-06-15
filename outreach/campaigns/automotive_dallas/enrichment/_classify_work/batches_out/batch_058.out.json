@@ -1,0 +1,136 @@
+[
+  {
+    "id": 2331,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "waited at least 10 to 15 minutes never could get waited on so I left",
+        "reasoning": "Customer waited and could never get attended to, an operational wait/inattention issue."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.4,
+        "quote": "the associate was on the phone the entire time",
+        "reasoning": "Walk-in ignored because the single associate was tied up on the phone the whole visit."
+      }
+    ]
+  },
+  {
+    "id": 2332,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "the one guy gave me a different  quote i explained i called",
+        "reasoning": "Phone quote contradicted the in-person quote, contradictory information from staff."
+      }
+    ]
+  },
+  {
+    "id": 2333,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "got charged for something I did not need, nor asked for",
+        "reasoning": "Charged for an undisclosed service the customer did not request."
+      }
+    ]
+  },
+  {
+    "id": 2336,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "I WAITED OVER 2 HOURS",
+        "reasoning": "Customer waited over two hours for a quick job, an excessive operational wait."
+      }
+    ]
+  },
+  {
+    "id": 2338,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Drove from an hour away only to be given double the price",
+        "reasoning": "Quoted a price by phone then told double the price in person, quoted X billed Y."
+      }
+    ]
+  },
+  {
+    "id": 2339,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "the first time I went they gave wrong BS info",
+        "reasoning": "Staff couldn't answer a question and previously gave wrong information."
+      }
+    ]
+  },
+  {
+    "id": 2340,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.45,
+        "quote": "wait time was too long for me didn't get the service",
+        "reasoning": "Wait too long for a minor fix so the customer left without service."
+      }
+    ]
+  },
+  {
+    "id": 2347,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.45,
+        "quote": "keep getting pushed aside . The guy was too busy to talk to me",
+        "reasoning": "Customer was repeatedly pushed aside, an inattention/wait issue."
+      }
+    ]
+  },
+  {
+    "id": 2353,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "needed for exchange but never replied me",
+        "reasoning": "Customer actively requested an exchange and the business never responded."
+      }
+    ]
+  },
+  {
+    "id": 2357,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "the way they acted was so off and rude",
+        "reasoning": "Customer describes the staff's behavior toward her as off and rude."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "still charged me $10, even though the sign said $2 for air pressure",
+        "reasoning": "Charged $10 for air despite the posted $2 price, an inflated/undisclosed charge."
+      }
+    ]
+  }
+]

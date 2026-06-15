@@ -1,0 +1,69 @@
+[
+  {
+    "id": 2806,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "I called multiple times in business hours and try to get a hold of someone in the office but never answered",
+        "reasoning": "Customer called the office repeatedly during business hours and no one answered."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "no_show_reminder_missing",
+        "confidence": 0.6,
+        "quote": "no one called us to let us know to reschedule it the day before or on the day of the delivery",
+        "reasoning": "No proactive notice that the scheduled delivery would not happen."
+      }
+    ]
+  },
+  {
+    "id": 2833,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "the owner really have a really bad actitude",
+        "reasoning": "Customer describes the owner's bad attitude toward customers."
+      }
+    ]
+  },
+  {
+    "id": 2836,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "he was very rude",
+        "reasoning": "Owner described as very rude; quality-of-repair part is out of taxonomy."
+      }
+    ]
+  },
+  {
+    "id": 2837,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.75,
+        "quote": "He won't return calls",
+        "reasoning": "Shop owner does not return the customer's calls."
+      }
+    ]
+  },
+  {
+    "id": 2839,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "he never call or answer",
+        "reasoning": "Customer reports the shop never called back or answered."
+      }
+    ]
+  }
+]

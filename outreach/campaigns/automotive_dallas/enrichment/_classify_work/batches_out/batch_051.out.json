@@ -1,0 +1,57 @@
+[
+  {
+    "id": 2043,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "tried to contact them three or four times and no one answers the phone or calls back",
+        "reasoning": "Customer called multiple times and no one answered."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "no one answers the phone or calls back",
+        "reasoning": "No callback after repeated attempts to reach the business."
+      }
+    ]
+  },
+  {
+    "id": 2053,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "The least he could do is say where he’s calling from and learn better customer service.",
+        "reasoning": "Caller failed to identify himself, leaving the customer with unclear information."
+      }
+    ]
+  },
+  {
+    "id": 2063,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "guy was super rude and disrespectful about it",
+        "reasoning": "Staff was rude and disrespectful to the customer."
+      }
+    ]
+  },
+  {
+    "id": 2064,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.55,
+        "quote": "he owes me money",
+        "reasoning": "Customer reports money owed, indicating a refund/payment problem."
+      }
+    ]
+  }
+]

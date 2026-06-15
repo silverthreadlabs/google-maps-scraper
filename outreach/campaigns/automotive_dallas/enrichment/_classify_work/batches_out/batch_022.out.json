@@ -1,0 +1,124 @@
+[
+  {
+    "id": 881,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "they tried to charge me for them to look at something they did not fix right",
+        "reasoning": "Unexpected charge to re-examine work they failed to fix, an undisclosed upcharge framing."
+      }
+    ]
+  },
+  {
+    "id": 888,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "Rube",
+        "reasoning": "Reviewer reports rude staff (misspelled 'rude')."
+      }
+    ]
+  },
+  {
+    "id": 895,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Rude people",
+        "reasoning": "Explicit complaint of rude staff."
+      }
+    ]
+  },
+  {
+    "id": 900,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "THE OWNERS R.U.D.E.",
+        "reasoning": "Explicit rudeness from owners."
+      }
+    ]
+  },
+  {
+    "id": 910,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "The staff are unfriendly, complain about doing their job, and act annoyed when you ask basic questions",
+        "reasoning": "Describes dismissive, unfriendly, annoyed staff tone."
+      }
+    ]
+  },
+  {
+    "id": 913,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "nunca me mostraron un contrato",
+        "reasoning": "Financed a $110 item up to $560 with no contract shown and 'free installation' charged anyway, a deceptive billing divergence."
+      }
+    ]
+  },
+  {
+    "id": 914,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Mal trato del dueño",
+        "reasoning": "Reports mistreatment / poor treatment from the owner."
+      }
+    ]
+  },
+  {
+    "id": 917,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "te venden todo x3 veces el precio en línea",
+        "reasoning": "Alleges deceptive pricing, selling at 3x with misrepresentation ('puras mentiras')."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "si les reclamas te insultan",
+        "reasoning": "Staff insult customers who complain."
+      }
+    ]
+  },
+  {
+    "id": 919,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "me cobraron $100 extra",
+        "reasoning": "Charged an extra $100 to remove the item plus alleged grossly inflated/misrepresented pricing."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "son muy groseros",
+        "reasoning": "Explicitly describes staff as very rude and angry when confronted."
+      }
+    ]
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1213,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "The guy on the phone told me they closed at 6pm. I left work early and showed up at 530. The female associate getting into her car told me they were closed",
+        "reasoning": "Staff gave contradictory information about closing time, causing a wasted trip."
+      }
+    ]
+  },
+  {
+    "id": 1220,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.75,
+        "quote": "waited over a week to receive partial refund and it still didn’t come",
+        "reasoning": "Refund was delayed and never fully received."
+      }
+    ]
+  },
+  {
+    "id": 1221,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "they were rude and disrespectful",
+        "reasoning": "Staff were rude and disrespectful to the customer."
+      }
+    ]
+  },
+  {
+    "id": 1222,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "No one picked up the first few times",
+        "reasoning": "Calls went unanswered before someone finally answered."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the person on the phone was rude, unhelpful, and seemed like they couldn’t care less",
+        "reasoning": "Phone staff were rude and dismissive."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "They said they’d “get back to me” — but of course, they never did",
+        "reasoning": "Customer was promised a callback that never came."
+      }
+    ]
+  },
+  {
+    "id": 1224,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "I called to confirm a part is available I'd be told it is to drive there sit for 30min to an hour and then told we can't find it",
+        "reasoning": "Confirmed part availability by phone but it was not actually available on arrival."
+      }
+    ]
+  },
+  {
+    "id": 1227,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "Spoke with one person over the phone and asked about a part and was told it was available and given a price. Once I came in, the person I spoke with wasn’t there",
+        "reasoning": "Price quoted by phone differed from the in-person price (contradictory information)."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Very rude people and lie about prices",
+        "reasoning": "Staff described as rude in the interaction."
+      }
+    ]
+  },
+  {
+    "id": 1228,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "I call and ask about the airbag ceiling and talk to the lady, she says $260 then I go to the store and then I talk to the man who tells me an offer of 2 and 90",
+        "reasoning": "Contradictory price quotes from two staff members."
+      }
+    ]
+  },
+  {
+    "id": 1229,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "he yelled at me as soon as he answered the phone",
+        "reasoning": "Staff yelled at a long-time customer on the phone."
+      }
+    ]
+  },
+  {
+    "id": 1231,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "the sales person raised his voice at my mom",
+        "reasoning": "Salesperson raised his voice at the customer's companion."
+      }
+    ]
+  },
+  {
+    "id": 1233,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "I was told a certain price for a car part, and then was told a different price on the phone upon arrival, which was higher of course",
+        "reasoning": "Contradictory price information given before purchase."
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "The seller gave me 7 days to return it cause my mechanic wasn’t available right away and when I went back because the part wasn’t working they didn’t replace it or give my money back, the guy said they only gives 3 days",
+        "reasoning": "Contradictory information about the return window (7 days vs 3 days)."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Trashy and rude people!",
+        "reasoning": "Staff described as rude."
+      }
+    ]
+  },
+  {
+    "id": 1236,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.45,
+        "quote": "I had to travel over an hour for a part they said they had. They didn't have the part",
+        "reasoning": "Told part was available by phone, but it was not in stock on arrival."
+      }
+    ]
+  },
+  {
+    "id": 1238,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "They gave me a different price over the phone and when I got there it was $200 more",
+        "reasoning": "Contradictory price information given before purchase."
+      }
+    ]
+  },
+  {
+    "id": 1239,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "the guy Alex told me the vehicle was one price and charged me 500$ extra on my paper work",
+        "reasoning": "Quoted one price but charged $500 more on the completed paperwork."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "He also threatened to repo my car if I didn’t make payments",
+        "reasoning": "Salesperson behaved aggressively, threatening the customer."
+      }
+    ]
+  }
+]

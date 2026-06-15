@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJoTN0OfecToYRoMwgk7TUHHs",
+    "company": "TX Transmission Repair",
+    "website": "http://www.txtransmissionrepair.com/",
+    "phone": "+1 214-500-3618",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "8723 FM 2728, Terrell, TX 75161, United States"
+  },
+  {
+    "place_id": "ChIJ4yUPBieaToYRWlrIThsq9Jc",
+    "company": "A & B Car Audio & Electronics",
+    "website": "http://a-b-car-audio.poi.place/",
+    "phone": "+1 214-946-7944",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "830 Jefferson Blvd, Dallas, TX 75208, United States"
+  },
+  {
+    "place_id": "ChIJj5s3556jToYRTB8KeQEaohw",
+    "company": "Dallas Car Audio",
+    "website": "http://dallascaraudio.us/",
+    "phone": "+1 214-275-8000",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "3806 S Buckner Blvd, Dallas, TX 75227, United States"
+  },
+  {
+    "place_id": "ChIJM3URK5-eToYRtcp4isDx-v8",
+    "company": "Eagle Transmission",
+    "website": "http://dallas.eagletransmission.com/",
+    "phone": "+1 214-506-0075",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "1000 Lupo Dr, Dallas, TX 75207, United States"
+  },
+  {
+    "place_id": "ChIJg3KOfFolTIYRTo2Mt1kUzss",
+    "company": "Recon Central",
+    "website": "http://www.reconcentral.com/",
+    "phone": "+1 409-330-7566",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "2530 Tarpley Rd #500, Carrollton, TX 75006, United States"
+  },
+  {
+    "place_id": "ChIJGQo7oQicToYRP7O6rcmpKEM",
+    "company": "American Sunroof Upholstery",
+    "website": "http://asudallas.com/",
+    "phone": "+1 214-634-0608",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "2781 Irving Blvd, Dallas, TX 75207, United States"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": 3992,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "I wasn’t told that I was also getting a new rear view mirror",
+        "reasoning": "Customer was not informed that a component was being changed during the service."
+      }
+    ]
+  },
+  {
+    "id": 3997,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.85,
+        "quote": "I called him 50 times last 7 days and no response",
+        "reasoning": "Customer repeatedly called and got no answer or callback."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "when I ask him for receipt of part he told me just to pay and he will send me when he get home",
+        "reasoning": "Customer actively requested a promised receipt and never received it."
+      }
+    ]
+  }
+]

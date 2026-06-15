@@ -1,0 +1,86 @@
+[
+  {
+    "id": 2166,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "Charged extra $50 for a diagnosis that wasn't necessary. I even asked before hand if any diagnosis cost would count towards repair.",
+        "reasoning": "Customer asked about diagnosis cost up front and was charged an unexpected extra $50, an undisclosed upcharge."
+      }
+    ]
+  },
+  {
+    "id": 2169,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Never informed had to call for an update.",
+        "reasoning": "Promised same/next-day turnaround took 3-4 days with no proactive communication; customer had to chase for status."
+      }
+    ]
+  },
+  {
+    "id": 2175,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "They told me the price was 80 dollars to fix my censor and sprung 300 dollar invoice with charges they never said were included.",
+        "reasoning": "Quoted $80 but billed $300 with undisclosed charges, a clear quote-versus-bill divergence."
+      }
+    ]
+  },
+  {
+    "id": 2187,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "charged me an extra $20 for having tinted windows !!! I’ve never been charged that before ever",
+        "reasoning": "Unexpected new $20 charge never applied in prior visits, an undisclosed upcharge."
+      }
+    ]
+  },
+  {
+    "id": 2190,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "They quote you a price and than bait and switch it when it’s not to their liking!",
+        "reasoning": "Explicit bait-and-switch on a quoted price, a quote-versus-bill divergence."
+      }
+    ]
+  },
+  {
+    "id": 2194,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Received a call 5 hours later to tell me that the part is dealer only.",
+        "reasoning": "Key information (dealer-only part) that should have been communicated up front came hours later."
+      }
+    ]
+  },
+  {
+    "id": 2198,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "she never acknowledged me then another person comes along and she skips me and started to help him",
+        "reasoning": "Staff ignored the customer and skipped them to help someone else, dismissive front-of-house behavior."
+      }
+    ]
+  }
+]

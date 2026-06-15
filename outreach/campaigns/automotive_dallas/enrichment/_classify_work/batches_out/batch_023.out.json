@@ -1,0 +1,86 @@
+[
+  {
+    "id": 921,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.78,
+        "quote": "me queria cobrar extra 100 por instalar el estereo",
+        "reasoning": "Agreed price for the stereo, then shop tried to charge an extra $100 at the install — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 924,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.45,
+        "quote": "n me pusieron ni esterio ni me regresaron lo que ya les Avia dado",
+        "reasoning": "Paid $250 toward a stereo never installed and the money was never returned — refund not processed."
+      }
+    ]
+  },
+  {
+    "id": 930,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.72,
+        "quote": "los trabajadores están de malas todo el tiempo",
+        "reasoning": "Staff described as despotic and in a bad mood all the time — dismissive/rude tone."
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "estan con una carita si no les gusta su trabajo cambiense a otro",
+        "reasoning": "Staff portrayed as having a bad attitude/dismissive demeanor toward customers."
+      }
+    ]
+  },
+  {
+    "id": 954,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.62,
+        "quote": "I’m trying to return my part and get my money back. They told me store credit",
+        "reasoning": "Customer seeking a refund was instead given store credit — refund delay/denial process complaint."
+      }
+    ]
+  },
+  {
+    "id": 957,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "I was overcharged, and my car was driven by individuals who did not appear to be employees. Overall, extremely disappointing and concerning. Tint is not $25 as advertised",
+        "reasoning": "Charged more than the advertised $25 tint price — advertised price diverged from amount billed."
+      }
+    ]
+  },
+  {
+    "id": 958,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Gave me one price and tried to up the price once paying",
+        "reasoning": "Quoted one price then tried to raise it at payment — clear quoted-X billed-Y divergence."
+      }
+    ]
+  }
+]

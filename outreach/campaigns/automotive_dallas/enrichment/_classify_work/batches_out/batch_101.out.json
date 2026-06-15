@@ -1,0 +1,38 @@
+[
+  {
+    "id": 4049,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Save yourself from the many excuses and dodged calls.",
+        "reasoning": "Customer describes repeated excuses and avoided calls during an ongoing job, indicating evasive/unclear communication."
+      }
+    ]
+  },
+  {
+    "id": 4051,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "they were angry just because of the complaint",
+        "reasoning": "Staff reacted with anger when the customer raised a complaint, indicating a rude/dismissive tone."
+      }
+    ]
+  },
+  {
+    "id": 4071,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "never called to reschedule",
+        "reasoning": "Shop promised to schedule a warranty fix and never called back, so the customer chasing was dropped."
+      }
+    ]
+  }
+]

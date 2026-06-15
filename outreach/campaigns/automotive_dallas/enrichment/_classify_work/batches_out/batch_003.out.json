@@ -1,0 +1,294 @@
+[
+  {
+    "id": 121,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "Then to top it off the attitude employees (Tesha), just makes the experience worse.",
+        "reasoning": "Complaint about staff attitude / rude tone."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.92,
+        "quote": "rudely talk to a customer and also told the customer to “shut up “",
+        "reasoning": "Employee rudely told a customer to shut up — clear rude tone."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "she got that ghetto nice nasty spirit",
+        "reasoning": "Describes dismissive, nasty staff demeanor."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Young lady at the front doesn’t know any manners or how to talk to clients.",
+        "reasoning": "Front-desk staff described as lacking manners / poor demeanor."
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "turns out they never scheduled me",
+        "reasoning": "Customer booked an appointment that was never actually scheduled; no listed sub fits precisely."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "their answering service doesn't work. Keeps repeating its self and then goes quiet.",
+        "reasoning": "Could not reach anyone — answering service broken."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.82,
+        "quote": "sounded like she didn't understand the English language, nor did she understand what I needed",
+        "reasoning": "Could not communicate due to language barrier on the phone."
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Customer service is terrible they lack eney kind of manners.",
+        "reasoning": "Staff described as lacking manners and not caring."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "it was impossible to get in touch with anyone.  Constant ringing (waited a solid five minutes) or just sent back to the automated message.",
+        "reasoning": "Phone rang unanswered for minutes during business hours."
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "another clerk told me a price almost twice as the first price they gave me",
+        "reasoning": "Quoted one price by first clerk, charged almost double by another — quote-vs-charge divergence."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "she rudely laughed and replied yess you wasted your time",
+        "reasoning": "Staff laughed rudely at the customer."
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Online pricing is totally different. I ended up paying $40 extra bucks.",
+        "reasoning": "Charged price diverged from listed online pricing."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "The customer service is lousy and the employees totally lack manners.",
+        "reasoning": "Employees described as lacking manners and showing no interest."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.6,
+        "quote": "They take no time to talk to customers over the phone",
+        "reasoning": "Staff won't engage with callers on the phone."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "They are always in a bad mood",
+        "reasoning": "Staff consistently described as bad-mood / poor demeanor."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.78,
+        "quote": "don't answer the phone",
+        "reasoning": "Phone goes unanswered."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.75,
+        "quote": "Called for 2 days straight to see if they had a part",
+        "reasoning": "Sarcastic 'Thanks for answering the phones' indicates calls went unanswered over two days."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.78,
+        "quote": "I call and ask if they have a specific part for my husband’s truck and they yes. We arrive, and walk about 20 miles only to find the truck, and the part isn’t there.",
+        "reasoning": "Phone staff affirmed the part was in stock; it was not — inaccurate information given."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.68,
+        "quote": "i didnt like there attitude",
+        "reasoning": "Customer cites the clerk's attitude when refused checkout."
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Every single working person here lacks in manners.",
+        "reasoning": "All staff described as lacking manners / disgusting demeanor."
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.62,
+        "quote": "when you call to see if a part is  on the cars then  cant tell you if it is",
+        "reasoning": "Phone staff cannot give usable inventory information to callers."
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "people working there are very rude and they don't care about their customers",
+        "reasoning": "Staff described as very rude and uncaring."
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "called for 45 min straight  no awsner",
+        "reasoning": "Called the branch for 45 minutes with no answer."
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "Hire someone to answer the phone",
+        "reasoning": "Implies the phone is not being answered."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "The woman was being very rude, and hung up",
+        "reasoning": "Staff was rude and hung up on the caller."
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "lady at the counter said they were closed we couldn't go in",
+        "reasoning": "Counter staff turned customer away before posted closing time; weak rude-tone signal."
+      }
+    ]
+  }
+]

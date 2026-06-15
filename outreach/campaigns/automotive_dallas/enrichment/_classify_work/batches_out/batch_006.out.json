@@ -1,0 +1,146 @@
+[
+  {
+    "id": 242,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.78,
+        "quote": "30 to 40 minutes for check out No good....too long",
+        "reasoning": "Customer waited 30-40 minutes at checkout, an excessive operational wait."
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.72,
+        "quote": "checkouts are always Moody and not friendly",
+        "reasoning": "Checkout staff described as moody and unfriendly, a tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "Long lines stand hot",
+        "reasoning": "Long lines indicate excessive waiting to be served."
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.68,
+        "quote": "take me to long to get in",
+        "reasoning": "Customer reports it took too long to get in, an operational wait."
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "The staff is rude",
+        "reasoning": "Direct complaint that staff is rude."
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "They never answer the phone.",
+        "reasoning": "Customer reports the phone is never answered."
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "Never answer the phone",
+        "reasoning": "Customer reports the phone is never answered."
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "they need educational manners",
+        "reasoning": "Complaint about staff lacking manners, a tone/behavior issue."
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "Called multiple times call forwarded",
+        "reasoning": "Customer called multiple times and could not reach anyone, calls forwarded."
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "THEY NEVER ANSWER",
+        "reasoning": "Customer reports calls are never answered."
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "Answer the phone",
+        "reasoning": "Customer pleads for the phone to be answered, implying unanswered calls."
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "Slow with long line.",
+        "reasoning": "Long line and slow service indicate excessive waiting."
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "place_id": "ChIJgZ7LxHWXToYRcNlNBavGMnI",
+    "company": "A to Z Customs",
+    "website": "",
+    "phone": "+1 214-372-0888",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "1909 Ann Arbor Ave, Dallas, TX 75216, United States"
+  },
+  {
+    "place_id": "ChIJ7eM5fQKYToYRxKEcRTrRxhQ",
+    "company": "International Body Shop",
+    "website": "",
+    "phone": "+1 214-374-6225",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "7525 S Central Expy, Dallas, TX 75216, United States"
+  },
+  {
+    "place_id": "ChIJ2ywu-JijToYRiKTGCAIGeBQ",
+    "company": "J R Upholstery Auto & Boat Interiors",
+    "website": "",
+    "phone": "+1 214-317-8545",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "4129 Buckner Blvd Suite A, Dallas, TX 75227, United States"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3646,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.82,
+        "quote": "they ignored my calls and refused to call me back",
+        "reasoning": "Customer tried to reach the shop and was ignored with no callback; no voicemail context so sub is null."
+      }
+    ]
+  }
+]

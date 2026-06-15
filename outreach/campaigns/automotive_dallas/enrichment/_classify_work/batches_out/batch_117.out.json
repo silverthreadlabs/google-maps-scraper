@@ -1,0 +1,40 @@
+[
+  {
+    "id": 4696,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "The communication was also very limited; in the several months that they had the car, I think they may have called once with an update or a question.  Otherwise, I had to call them every week to find out what was happening.",
+        "reasoning": "Customer received almost no updates and had to chase the shop weekly for information."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.8,
+        "quote": "the car was promised to be done three times; the first two times it wasn't ready",
+        "reasoning": "Completion date slipped multiple times on the same job."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.6,
+        "quote": "they screwed a large screw completely through the wiring harness that runs to the rear of the vehicle",
+        "reasoning": "Custom restoration work damaged the vehicle, leaving it inoperable and requiring outside repair."
+      }
+    ]
+  },
+  {
+    "id": 4700,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "This people over charge me on my tittle transfer they taking advantage of the people",
+        "reasoning": "Customer reports being overcharged / inflated rates rather than just a high posted price."
+      }
+    ]
+  }
+]

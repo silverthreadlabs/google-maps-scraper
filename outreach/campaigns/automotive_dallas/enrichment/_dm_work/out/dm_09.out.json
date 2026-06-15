@@ -1,0 +1,121 @@
+{
+  "ChIJWd5XX7-YToYRnpEJrmTRkxE": [
+    {
+      "name": "Malek Samadian",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/maleksamadian",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/EssFleetService/",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "Named on ESS Fleet Service About page as founder of European Specialty Service (now ESS Fleet Service), Dallas since 1995. Two LinkedIn profiles list him as Owner of ESS Fleet Service (linkedin.com/in/maleksamadian and linkedin.com/in/malek-samadian-340323124)."
+    }
+  ],
+  "ChIJ2dhkgRciTIYRxyXL4nmOre0": [
+    {
+      "name": "Alexander Rangos",
+      "role": "CEO, Car Spa Inc",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/carspadallas/",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Car Spa Inc (parent of the Coit Rd Dallas state-inspection/car-wash location, carspa.net) BBB profile lists Alexander Rangos as CEO; multi-location chain (15 locations). Facebook page is for the Dallas location."
+    },
+    {
+      "name": "Bruce Bender",
+      "role": "Vice President of Operations, Car Spa Inc",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Listed as VP of Operations on Car Spa Inc BBB business profile (bbb.org Dallas car-wash listing)."
+    }
+  ],
+  "ChIJfdxuL62eToYR04PFuP6But0": [
+    {
+      "name": "Roderick Mosley",
+      "role": "Owner / President",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/roderick-mosley-0288a0b/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/parkcitiesmobiledetail/",
+      "facebook": "https://www.facebook.com/parkcitiesmobiledetail/",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "Founder of Park Cities Mobile Detail (professionaldetail.com), Dallas, since 1994. LinkedIn (roderick-mosley-0288a0b) lists him as Owner; company-branded LinkedIn (in/parkcitiesmobiledetail) lists him as president; Instagram and Facebook handles parkcitiesmobiledetail."
+    }
+  ],
+  "ChIJRwAjELqdToYRkKISCs1klss": [
+    {
+      "name": "John Harakal",
+      "role": "Director of Fleet & Commercial Sales",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/FriendlyChevyFleetService/",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "theorg.com Friendly Chevrolet org chart and search results list John Harakal as Director of Fleet & Commercial Sales at Friendly Chevrolet (Dallas) since March 2021; heads the Friendly Fleet division (friendlyfleet.com). Facebook is the Fleet Service page."
+    },
+    {
+      "name": "Patrick Johnson",
+      "role": "General Manager, Friendly Chevrolet",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Search results identify Patrick Johnson as General Manager of Friendly Chevrolet (parent dealership of Friendly Chevrolet Fleet Service)."
+    },
+    {
+      "name": "Paul Pelletier",
+      "role": "Commercial and Fleet Sales Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Listed on theorg.com Friendly Chevrolet fleet department org chart as Commercial and Fleet Sales Manager reporting to John Harakal."
+    }
+  ],
+  "ChIJ7U6DvC2ZToYRhr14WmoluqA": [],
+  "ChIJd1YoYHKjToYR44zTD0FcAqQ": [
+    {
+      "name": "Roger Young",
+      "role": "Owner (Principal)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "BBB business profile for Allstate Transmissions and Transaxles (2522 S Buckner Blvd, Dallas) lists Mr. Roger Young as Owner / principal and customer contact; in business since 1978."
+    },
+    {
+      "name": "Tim Young",
+      "role": "Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB business profile for Allstate Transmissions and Transaxles lists Mr. Tim Young as Owner / customer contact."
+    }
+  ]
+}

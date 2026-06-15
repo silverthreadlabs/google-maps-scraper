@@ -1,0 +1,217 @@
+[
+  {
+    "id": 87,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "Has it listed for $645 on car-parts.com Now I call the business, and then the owner tells me the price is now $825",
+        "reasoning": "Advertised price diverged from quoted price on call, a bait-and-switch upcharge."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "Theres no accurate pricing . They price the parts according to their mood for that day",
+        "reasoning": "Non-transparent, arbitrary pricing matches the surprise_billing trigger list."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "The staffs attitude is junkier than the junkyard itself",
+        "reasoning": "Complaint about staff attitude/unprofessional behavior."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "the phone just rings and rings then you get disconnected",
+        "reasoning": "Phone goes unanswered during open hours; caller assumes they're closed."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "the troll of a woman who picked up was rude as hell",
+        "reasoning": "Explicit rudeness from staff answering the phone."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.5,
+        "quote": "Don't want to answer calls and answer simple questions on CARS",
+        "reasoning": "Indicates reluctance/failure to answer phone inquiries."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "They tried to charge me for a different item in a similar category that is significantly more expensive",
+        "reasoning": "Attempted to charge for a more expensive item than the one selected, plus added pigtail fees."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "i was supposed to be charged $20 tried to charge me $150 for it",
+        "reasoning": "Quoted/expected price diverged sharply from attempted charge."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.45,
+        "quote": "another female manager that doesnt know what shes looking at, even after pulling it up from google itself she claims thats not what it looks like",
+        "reasoning": "Manager gave contradictory/incorrect info about the part."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "when you do find something they charge you for everything",
+        "reasoning": "Itemized nickel-and-dime fees for every component beyond expectation."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Rude workers",
+        "reasoning": "Explicit complaint about rude staff."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.9,
+        "quote": "Called three times and nobody answered even when I waited until the phone disconnected",
+        "reasoning": "Multiple calls during hours went unanswered."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "The security guard is disrespectful",
+        "reasoning": "Non-clinical staff being disrespectful/unprofessional."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "I sat on hold for an hour and nobody came back to the phone",
+        "reasoning": "Left on hold indefinitely with no one returning to the call."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Donna was very rude and stole my reference part. She gets loud and has no respect",
+        "reasoning": "Named staff member explicitly rude and disrespectful."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the guy who was sent was so rude to her",
+        "reasoning": "Pickup staff was rude to the customer."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "she wants to nickel and dime me for every little nut bold and bulb",
+        "reasoning": "Manager overcharges by adding fees for every small component."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "They never answer the phone",
+        "reasoning": "Phone consistently goes unanswered."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "they seem so annoyed that I’m even there",
+        "reasoning": "Staff displayed dismissive/annoyed attitude toward customer questions."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.6,
+        "quote": "They don't know how to answer a phone.",
+        "reasoning": "Indicates persistent failure to answer the phone."
+      }
+    ]
+  }
+]

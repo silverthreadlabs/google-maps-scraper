@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJB6-nDnOjToYReiU7IqdFNxo",
+    "company": "Stereo Zone Dallas Car Audio And Window Tint",
+    "website": "",
+    "phone": "+1 214-275-9663",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "2715 Buckner Blvd, Dallas, TX 75227, United States"
+  },
+  {
+    "place_id": "ChIJ4U98RKadToYRN-f1_SF7fzU",
+    "company": "24 Hour Rodriguez Tire Shop",
+    "website": "",
+    "phone": "",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "2745 W Northwest Hwy, Dallas, TX 75220, United States"
+  },
+  {
+    "place_id": "ChIJydQw0i6bToYRXVbA1q-dPzw",
+    "company": "Torres Auto Service",
+    "website": "",
+    "phone": "+1 214-944-5506",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "1201 W Davis St, Dallas, TX 75208, United States"
+  },
+  {
+    "place_id": "ChIJvbTmrDqXToYR8tcl52HHgZY",
+    "company": "Stop N Pull Auto Parts & Salvage",
+    "website": "",
+    "phone": "+1 214-375-9833",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "5419 S R L Thornton Fwy #1725, Dallas, TX 75232, United States"
+  },
+  {
+    "place_id": "ChIJbRNTRe2dToYRk7tzuVxtxjk",
+    "company": "Good Price Tire Shop #2",
+    "website": "",
+    "phone": "+1 214-772-0416",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "6676 Skillman St, Dallas, TX 75231, United States"
+  },
+  {
+    "place_id": "ChIJBc8BpcyjToYRqeOU-GdTHcE",
+    "company": "Dan's Automotive and Transmission Repair",
+    "website": "",
+    "phone": "+1 469-236-9261",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "7820 E R L Thornton Fwy, Dallas, TX 75228, United States"
+  }
+]

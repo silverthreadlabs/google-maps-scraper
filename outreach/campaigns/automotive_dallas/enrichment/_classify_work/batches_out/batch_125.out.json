@@ -1,0 +1,21 @@
+[
+  {
+    "id": 5001,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "we were charged $108.00 per unit",
+        "reasoning": "Advertised $65, quoted $80, then billed $108 per unit — classic bait-and-switch surprise charge."
+      },
+      {
+        "main": "deadline_missed",
+        "sub": "repeated_delays",
+        "confidence": 0.55,
+        "quote": "Saturday went by and no drop off,  we call and he said it was to dirty will probably be done by Monday now",
+        "reasoning": "Promised Saturday drop-off slipped to Monday and then later still, on a B2B fleet service job."
+      }
+    ]
+  }
+]

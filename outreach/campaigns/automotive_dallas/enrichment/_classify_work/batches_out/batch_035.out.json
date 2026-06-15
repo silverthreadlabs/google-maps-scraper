@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1406,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.45,
+        "quote": "Unfriendly",
+        "reasoning": "Bare 'unfriendly' defaults to staff_rude_front_desk per disambiguation rule."
+      }
+    ]
+  },
+  {
+    "id": 1415,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.6,
+        "quote": "Hung up on me while I was talking",
+        "reasoning": "Customer cut off mid-conversation, concern dismissed rather than heard."
+      }
+    ]
+  },
+  {
+    "id": 1430,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "to get or keep warranty you have to pay almost 200..00 to have them start warranty",
+        "reasoning": "Unexpected fee tied to warranty the customer assumed was included."
+      }
+    ]
+  },
+  {
+    "id": 1431,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "I was hit with a $510 charge for the TCM, which apparently wasn’t covered by the warranty",
+        "reasoning": "Unexpected charge after being assured warranty coverage; classic bait-and-switch."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "The torque converter was bad—it’s been replaced over 10 times.",
+        "reasoning": "Contradictory diagnoses repeated over many visits with no consistent explanation."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "Don’t contact us again.",
+        "reasoning": "Dismissive tone, refused customer access to the owner."
+      }
+    ]
+  },
+  {
+    "id": 1432,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "he told me the warranty is not covered charge me another $2200",
+        "reasoning": "Charged again for a repair the customer believed was under warranty."
+      }
+    ]
+  },
+  {
+    "id": 1434,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "they would forward the calls , not answer at all",
+        "reasoning": "Repeated calls for status went unanswered during the engagement."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "completely lie each and everytime I called",
+        "reasoning": "Staff gave false/contradictory status information on calls."
+      }
+    ]
+  },
+  {
+    "id": 1436,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "They quoted one price and then called saying they different factor in replacing the rear main seal. Then called again saying the found a hair line Crack which was another 250.00 add on.",
+        "reasoning": "Price grew beyond the original quote with successive add-on charges."
+      }
+    ]
+  },
+  {
+    "id": 1439,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.4,
+        "quote": "everytime I called you can hear them on another phone arguing",
+        "reasoning": "Calls effectively not handled; staff occupied arguing on another line."
+      }
+    ]
+  }
+]

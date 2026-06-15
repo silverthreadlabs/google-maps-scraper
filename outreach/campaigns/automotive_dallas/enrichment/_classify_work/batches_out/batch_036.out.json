@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1443,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.55,
+        "quote": "Sent two emails they never responded.",
+        "reasoning": "Customer actively reached out and got no response; email not phone so closest is dropped leads/quotes."
+      }
+    ]
+  },
+  {
+    "id": 1444,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "I have requested to speak the owner Raul as of  today I still have yet to receive a  call",
+        "reasoning": "Customer specifically requested a callback from the owner and never received it."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "They don't keep you updated unless you call them.",
+        "reasoning": "No proactive updates during the job; doesn't match recall/post-visit subs so sub is null."
+      }
+    ]
+  },
+  {
+    "id": 1445,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "Noone ever contacted me about my repair quote or even tried to reach out to me.",
+        "reasoning": "Customer awaited a repair quote and was never contacted back."
+      }
+    ]
+  },
+  {
+    "id": 1446,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "quote": "Very poor follow up also - never return a call.",
+        "reasoning": "Promised callback never returned."
+      }
+    ]
+  },
+  {
+    "id": 1450,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "A whole lot of waiting with no good communication frm the shop!",
+        "reasoning": "No proactive communication from shop during the job; no specific sub fits."
+      }
+    ]
+  },
+  {
+    "id": 1461,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "I keep getting different answers. No feed back.",
+        "reasoning": "Contradictory information given across calls."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "quote": "Never provided a parts list like I asked for in the beginning",
+        "reasoning": "Customer specifically requested a parts list and never received it."
+      }
+    ]
+  },
+  {
+    "id": 1462,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "I’m given vague answers, excuses, or told something different each time",
+        "reasoning": "Vague and contradictory information given on every call."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "I have never once received a proactive update from them. Not a phone call, not a message, nothing.",
+        "reasoning": "No proactive updates during the job; doesn't match recall/post-visit subs."
+      }
+    ]
+  },
+  {
+    "id": 1474,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "your man came from the back still sleep with an attitude",
+        "reasoning": "Staff member served customer with an attitude."
+      }
+    ]
+  }
+]

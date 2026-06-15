@@ -1,0 +1,153 @@
+[
+  {
+    "id": 640,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Quotes one price then changes it when you arrive",
+        "reasoning": "Quoted price changed on arrival — quote-vs-paid divergence."
+      }
+    ]
+  },
+  {
+    "id": 642,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "some guy starts complaining like a baby, and insulting my car",
+        "reasoning": "Staff behaved unprofessionally and insulted the customer's car."
+      }
+    ]
+  },
+  {
+    "id": 646,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "they added an extra 30 talkin about it was added for taxes",
+        "reasoning": "Firm quoted price had an undisclosed extra charge added at payment."
+      }
+    ]
+  },
+  {
+    "id": 652,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I was quoted one thing over the phone and payed double when there",
+        "reasoning": "Phone quote diverged — paid double the quoted amount."
+      }
+    ]
+  },
+  {
+    "id": 655,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "if you pay with card he will tax you more",
+        "reasoning": "Undisclosed card surcharge added on top of stated price."
+      }
+    ]
+  },
+  {
+    "id": 656,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "the price for new led light was $70 dollar",
+        "reasoning": "Marketplace-advertised $29 price diverged to $70 on arrival."
+      }
+    ]
+  },
+  {
+    "id": 657,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "A guy answers the phone with horrible customer service. He was not helpful",
+        "reasoning": "Phone staff was dismissive and unhelpful to a caller seeking info."
+      }
+    ]
+  },
+  {
+    "id": 662,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Was quoted a price on Saturday and today price increased",
+        "reasoning": "Quoted price increased between visits — quote divergence."
+      }
+    ]
+  },
+  {
+    "id": 665,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "quoted me $20 but charged me $24… $2 tax and $2 for the use of the machine",
+        "reasoning": "Quoted $20 but charged $24 with an undisclosed machine-use fee."
+      }
+    ]
+  },
+  {
+    "id": 668,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "lied about the price",
+        "reasoning": "Stated price diverged from what was charged."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "he began screaming and yelling louder",
+        "reasoning": "Staff screamed and yelled at the customer — rude tone."
+      }
+    ]
+  },
+  {
+    "id": 671,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "1 set price,but it changed when i got there",
+        "reasoning": "Phone quote changed on arrival; charged roughly double."
+      }
+    ]
+  },
+  {
+    "id": 676,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "the guy responded by saying he don't have time",
+        "reasoning": "Phone staff dismissed the caller with no time for them."
+      }
+    ]
+  }
+]

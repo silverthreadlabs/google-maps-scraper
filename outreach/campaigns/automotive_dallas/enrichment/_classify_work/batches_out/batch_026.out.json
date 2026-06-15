@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1040,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "The tone of the interaction felt dismissive rather than service-oriented.",
+        "reasoning": "Customer describes a dismissive tone from the advisor handling them."
+      }
+    ]
+  },
+  {
+    "id": 1043,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "A technician called me back to suggest a mobile inspection but never followed up.",
+        "reasoning": "Customer was promised a follow-up on a specific issue and never received it."
+      }
+    ]
+  },
+  {
+    "id": 1044,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "I was quoted around $600, but by the time everything was done, the total was over $800.",
+        "reasoning": "Quoted one price then billed substantially higher; explicit quote-vs-charge divergence."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "u will spend at least 4 hours waiting on services",
+        "reasoning": "Customer reports a long wait for the service."
+      }
+    ]
+  },
+  {
+    "id": 1047,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "I was told to come that I'll be in and out. I got there and met almost 10 customers waiting on their vehicle. I was their for 4 good hours.",
+        "reasoning": "Told it would be quick but waited four hours past expectation."
+      }
+    ]
+  },
+  {
+    "id": 1048,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "They didn’t honor the quote I was given on the phone after giving them the exact vehicle information.",
+        "reasoning": "Phone quote was not honored, a quote-vs-charge divergence."
+      }
+    ]
+  },
+  {
+    "id": 1049,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "Mason told me he would text me pictures of what he had in stock on 3 different occasions and did not return call or text me the pictures.",
+        "reasoning": "Customer actively asked for info, was promised a callback/text three times, never received it."
+      }
+    ]
+  },
+  {
+    "id": 1050,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.65,
+        "quote": "I didn’t get a call back so I’m guessing it is what it is.",
+        "reasoning": "Customer was told they'd review cameras and call back but never received the callback."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "Instead of getting full car tint deal listed for $100, I got the lowest quality tint they had to offer on just the back windows for that price.",
+        "reasoning": "Advertised deal not honored; received less than what the price implied."
+      }
+    ]
+  },
+  {
+    "id": 1051,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "he had quote me a price so there for i agreed but when job was done i was charged 2 times the amount he had told me",
+        "reasoning": "Charged double the quoted amount, explicit quote-vs-charge divergence."
+      }
+    ]
+  },
+  {
+    "id": 1052,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "New guy working promised me a 1.5 hour turnaround time on radio install.  Instead took 4 hours one day and I had to come back next day",
+        "reasoning": "Promised quick turnaround but waited far longer across multiple visits."
+      }
+    ]
+  },
+  {
+    "id": 1053,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "Having to wait 7 hours for a sedan vehicle to be tinted was beyond ridiculous.",
+        "reasoning": "Customer waited far past a reasonable turnaround with no upfront honesty about timing."
+      }
+    ]
+  },
+  {
+    "id": 1054,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "He gaslighted me into thinking they had done nothing wrong and it wasn't worth the trouble of trying more than I already had to get it corrected.",
+        "reasoning": "Customer raised a specific concern and it was dismissed/talked away rather than addressed."
+      }
+    ]
+  },
+  {
+    "id": 1055,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "sales persons told me they had reached  Groupon quote so I couldn't use and proceeded to up-sale me",
+        "reasoning": "Advertised Groupon deal was refused on arrival followed by an upsell, a bait-and-switch on price."
+      }
+    ]
+  },
+  {
+    "id": 1056,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "I was told 3-4 hours but didn’t get my car back til 7 hours.",
+        "reasoning": "Waited far past the time quoted at drop-off."
+      }
+    ]
+  },
+  {
+    "id": 1057,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.75,
+        "quote": "I dropped my car off as soon as they opened and told me it would be ready by a certain time and it wasn't.",
+        "reasoning": "Service took far longer than the time promised at drop-off."
+      }
+    ]
+  },
+  {
+    "id": 1059,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "I bought Groupon but they did not honor it.  I ended up pay more than full price for car window tinting",
+        "reasoning": "Advertised Groupon deal not honored, paid more than full price; price bait-and-switch."
+      }
+    ]
+  },
+  {
+    "id": 1061,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "After being told my install would take 2 hours, it turned into 5.",
+        "reasoning": "Waited far past the quoted install time."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "After not installing my part, they told me I still needed to pay them.",
+        "reasoning": "Charged despite the part not being installed; unexpected charge."
+      }
+    ]
+  },
+  {
+    "id": 1062,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.65,
+        "quote": "they weren't accurate on how long it was going to take. Was told an hour took 3.",
+        "reasoning": "Waited far past the time quoted for the service."
+      }
+    ]
+  },
+  {
+    "id": 1068,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "quote": "Wait time was horrendous.",
+        "reasoning": "Customer reports an excessive wait for the service."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "was charged for \"custom bracket\" was never shown the brackets before install. Speakers still didn't sit right after paying $40 extra for $5 brackets.",
+        "reasoning": "Charged an undisclosed extra fee for brackets never shown."
+      }
+    ]
+  },
+  {
+    "id": 1069,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "was told over the phone what they would put but once I got there they changed the brand and price",
+        "reasoning": "Phone quote (brand and price) changed on arrival; bait-and-switch."
+      }
+    ]
+  },
+  {
+    "id": 1070,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "the staff have a very unfriendly attitude like they don't want to answer your questions",
+        "reasoning": "Bare unfriendly/dismissive attitude from staff; default to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 1072,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "quote": "they will lie to you about installation time! It took them over 8 hours to install my unit along with the 2 front speakers.",
+        "reasoning": "Install took far longer than represented, an 8-hour wait."
+      }
+    ]
+  },
+  {
+    "id": 1074,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "quote": "Often I would have to wait all day for repairs to be made.",
+        "reasoning": "Repeated all-day waits for repairs."
+      }
+    ]
+  },
+  {
+    "id": 1076,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "they didnt install my remote start, they installed some random keyless entry! And argued with me that i only said keyless entry. I said remote start over and over",
+        "reasoning": "Customer's clearly stated request was contradicted and misunderstood, producing the wrong product."
+      }
+    ]
+  },
+  {
+    "id": 1077,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "quote": "It took forever both times it was redone.",
+        "reasoning": "Long waits across repeated trips to redo the job."
+      }
+    ]
+  },
+  {
+    "id": 1079,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "when I called they told me one price after I got that price doubled saying I was getting a better tint",
+        "reasoning": "Phone price doubled on arrival; quote-vs-charge divergence."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 2529,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "Told them repeatedly not to lay wheels on top of each other.",
+        "reasoning": "Customer gave a specific instruction repeatedly and it was ignored."
+      }
+    ]
+  },
+  {
+    "id": 2533,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Damn night  cashier sucks",
+        "reasoning": "Complaint about cashier behavior/attitude, front-of-house staff."
+      }
+    ]
+  },
+  {
+    "id": 2537,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "Cashier always have a mean mug and  not friendly.",
+        "reasoning": "Front-desk cashier described as unfriendly with a mean demeanor."
+      }
+    ]
+  },
+  {
+    "id": 2543,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.7,
+        "quote": "the company refused to correct the mistake or refund my money",
+        "reasoning": "Customer paid and was refused a refund despite the failed service."
+      }
+    ]
+  },
+  {
+    "id": 2544,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "it turns out there warehouse did not have the glass. In other words they never checked.",
+        "reasoning": "Customer was given wrong info to come in when the part availability was never verified."
+      }
+    ]
+  }
+]

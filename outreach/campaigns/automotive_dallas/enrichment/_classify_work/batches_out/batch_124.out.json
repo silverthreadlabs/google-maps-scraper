@@ -1,0 +1,40 @@
+[
+  {
+    "id": 4962,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.78,
+        "quote": "my car is literally coming apart if it’s not one thing it’s another",
+        "reasoning": "Repair work product failed; car coming apart after being fixed."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.6,
+        "quote": "they told me they couldn’t fix it anymore",
+        "reasoning": "Shop abandoned the repair after collecting insurance payment, leaving work incomplete."
+      }
+    ]
+  },
+  {
+    "id": 4977,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.75,
+        "quote": "They also messed my car up and cost me more in damages than the repair itself",
+        "reasoning": "Repair caused additional damage; work product was defective."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "aryton is very disrespectful",
+        "reasoning": "Staff member described as disrespectful, indicating rude/dismissive treatment."
+      }
+    ]
+  }
+]

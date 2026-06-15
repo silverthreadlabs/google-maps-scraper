@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJ6TwEDRO7ToYR07tj8EIDDT0",
+    "company": "A-1 Rylie Auto Parts",
+    "website": "http://www.a1rylieautoparts.com/",
+    "phone": "+1 972-286-0000",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "1115 Ellenwood St, Dallas, TX 75217, United States"
+  },
+  {
+    "place_id": "ChIJG40ApZ6eToYRyiLYL9prWfc",
+    "company": "Park Place BodyWerks",
+    "website": "https://www.parkplacebodywerks.com/body-shop/dallas-collision-center.htm?",
+    "phone": "+1 214-443-8250",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "6120 Peeler St, Dallas, TX 75235, United States"
+  },
+  {
+    "place_id": "ChIJFVttZYYfTIYRX2epdZ3mY70",
+    "company": "Absolute Auto Reconditioning",
+    "website": "https://autoupholsterydallas.com/",
+    "phone": "+1 972-680-8108",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "13595 Floyd Cir, Dallas, TX 75243, United States"
+  },
+  {
+    "place_id": "ChIJBTiB8hmbToYR0J5W0UtfErY",
+    "company": "CDL Distributors",
+    "website": "https://cdldistributorsusedautoparts.com/",
+    "phone": "+1 214-337-7500",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "210 S Morocco Ave, Dallas, TX 75211, United States"
+  },
+  {
+    "place_id": "ChIJj5OvOXgfTIYRzCxY9pI4CPw",
+    "company": "Fusion Vibes Kitchen + Lounge",
+    "website": "https://fusionvibes.com/",
+    "phone": "+1 972-543-3888",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "100 S Central Expy #50, Richardson, TX 75080, United States"
+  },
+  {
+    "place_id": "ChIJbfbSeYgfTIYR7EHSY7z84B0",
+    "company": "Tin Lizzie Affair",
+    "website": "http://www.tinlizzieaffair.com/",
+    "phone": "+1 972-234-3791",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "13350 Floyd Cir, Dallas, TX 75243, United States"
+  }
+]

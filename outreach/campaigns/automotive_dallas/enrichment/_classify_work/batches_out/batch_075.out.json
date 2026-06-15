@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3000,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "price skyrocketed to $390",
+        "reasoning": "Quote nearly doubled in seven days (price instability/bait-and-switch), but the complaint is attributed to Safelite, a competitor being contrasted, so attribution to the lead is uncertain."
+      }
+    ]
+  },
+  {
+    "id": 3018,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "showed up Tuesday I waited 2 hours",
+        "reasoning": "Customer waited two hours after arriving for the scheduled glass replacement."
+      }
+    ]
+  },
+  {
+    "id": 3034,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "the price that I was quoted over the phone",
+        "reasoning": "Final charge diverged from the price quoted over the phone."
+      }
+    ]
+  }
+]

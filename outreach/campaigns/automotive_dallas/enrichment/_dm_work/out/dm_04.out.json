@@ -1,0 +1,72 @@
+{
+  "ChIJPUfMEPooTIYRudk7a6hMG58": [
+    {
+      "name": "Dave",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/midnightcustomcars/",
+      "facebook": "https://www.facebook.com/midnightcustomcars/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Yelp reviews name Dave as the owner; Nate (sales) is Dave's son. Family-run shop ~15yrs. https://www.yelp.com/biz/midnight-custom-cars-lewisville-2 ; midnightcustomcars.com"
+    },
+    {
+      "name": "Nate",
+      "role": "Sales & Quotes",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/midnightcustomcars/",
+      "facebook": "https://www.facebook.com/midnightcustomcars/",
+      "email": "nate@midnightcustomcars.com",
+      "confidence": 0.85,
+      "evidence": "Email nate@midnightcustomcars.com on site; named for Sales & Quotes; son of owner Dave per Yelp. midnightcustomcars.com"
+    }
+  ],
+  "ChIJxfaoYXQnTIYRwr8-CgGZXiA": [
+    {
+      "name": "Jhonny",
+      "role": "Owner / Principal",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/empire_sns",
+      "facebook": "https://www.facebook.com/p/Empire-Sound-Security-Car-Audio-Window-Tint-100063928358199/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB profile lists Principal Contact + Customer Contact as 'Jhonny'. https://www.bbb.org/us/tx/dallas/profile/security-system-monitors/empire-sound-security-0875-90225002 ; site email office@xtreme.com"
+    }
+  ],
+  "ChIJ4TYQb--fToYRcPqG3j9Nf_o": [
+    {
+      "name": "Freddy",
+      "role": "Owner / Detailer",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/texansmobiledetail/",
+      "facebook": "https://www.facebook.com/p/Texans-Mobile-Detail-61557483451328/",
+      "email": "Freddymobiledetailer@gmail.com",
+      "confidence": 0.8,
+      "evidence": "Owner-operated; first-person 'over 5 years experience' on site; contact email Freddymobiledetailer@gmail.com. texansmobiledetails.com"
+    }
+  ],
+  "ChIJS_bc7_4nTIYRqpU7mFnFIe8": [
+    {
+      "name": "Todd",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/dallascustomsclassics/",
+      "facebook": "https://www.facebook.com/dallascustomsandclassics/",
+      "email": "",
+      "confidence": 0.65,
+      "evidence": "Multiple customer reviews credit 'Todd' for restoration work and refer to him as running the shop ('Todd and your team'). Business since 2011. Birdeye/Yelp reviews; dallascustoms.com"
+    }
+  ],
+  "ChIJs4Z0Y5efToYRukn8qNBLRws": [],
+  "ChIJtwpuRmKZToYRvexWYP5i_Wc": []
+}

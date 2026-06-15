@@ -1,0 +1,93 @@
+[
+  {
+    "id": 42,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "Really rude",
+        "reasoning": "Customer describes staff as rude, a dismissive-tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.45,
+        "quote": "said they had it I drove 30 miles there and they said I had to buy the whole engine",
+        "reasoning": "Staff gave contradictory information about part availability before the visit."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Jerks on the phone!",
+        "reasoning": "Describes staff rudeness over the phone."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "never answer the phone",
+        "reasoning": "Customer reports the business does not answer phone calls."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.45,
+        "quote": "he confirm the parts color and than he dont have it",
+        "reasoning": "Staff confirmed availability then contradicted it, conflicting information."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.4,
+        "quote": "will not give a refund",
+        "reasoning": "Customer reports refusal to issue a refund, a payment-handling issue."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "ATTITUDE",
+        "reasoning": "Generic attitude complaint defaults to staff rudeness per disambiguation rule."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "The owner can be a real ASS!",
+        "reasoning": "Describes the owner's rude, unprofessional demeanor."
+      }
+    ]
+  }
+]

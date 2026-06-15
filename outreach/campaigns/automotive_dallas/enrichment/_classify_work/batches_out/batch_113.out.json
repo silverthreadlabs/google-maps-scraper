@@ -1,0 +1,50 @@
+[
+  {
+    "id": 4520,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.82,
+        "quote": "I asked if I could email a photo of the damage so he could assess the repair to which he affirmed and gave me an email address. That was 2 or so weeks ago. No response.",
+        "reasoning": "Customer actively requested a repair assessment by email and never heard back."
+      }
+    ]
+  },
+  {
+    "id": 4521,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.83,
+        "quote": "Very very unprofessional when answering my call. I wanted to convert my cloth seats to leather and was met with a very dry \"I don't do that.\" Then Silence.",
+        "reasoning": "Dismissive, unprofessional tone on the phone with the caller."
+      }
+    ]
+  },
+  {
+    "id": 4524,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.7,
+        "quote": "I've called and texted them to let them know that the car is still not drivable, and they refused to take my calls.",
+        "reasoning": "Customer called and texted repeatedly and the shop refused to respond."
+      }
+    ]
+  },
+  {
+    "id": 4525,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "quote": "Called and texted for 3 to 4 days with no response, now I think I am blocked.",
+        "reasoning": "Customer chased the provider for days about an unresolved issue and got no response."
+      }
+    ]
+  }
+]

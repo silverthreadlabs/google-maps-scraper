@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2480,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.4,
+        "quote": "I asked to get the spare tire changed but the guy told me I just needed air",
+        "reasoning": "Customer asked for a specific service and was brushed off with air despite being stranded on a destroyed tire."
+      }
+    ]
+  },
+  {
+    "id": 2514,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.4,
+        "quote": "don't know how to show respect",
+        "reasoning": "Bare rudeness complaint with no clarity/listening detail; default routes to staff_rude_front_desk."
+      }
+    ]
+  }
+]

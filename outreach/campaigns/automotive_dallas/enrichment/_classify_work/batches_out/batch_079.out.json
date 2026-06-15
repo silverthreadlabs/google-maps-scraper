@@ -1,0 +1,59 @@
+[
+  {
+    "id": 3160,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Got upcharged $75, despite this not being on the website in the details of an interior car detail. Listed separately where you wouldn’t see it unless specifically looking for it under “a special service”",
+        "reasoning": "Hidden upcharge not disclosed in the listed package price; classic surprise billing."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "I tried to talk to the boss who hung up on me mid conversation and did not answer my repeated attempts to call back",
+        "reasoning": "Boss hung up mid-conversation and ignored callbacks; dismissive/unprofessional tone from staff."
+      }
+    ]
+  },
+  {
+    "id": 3163,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "The attention of the staff was unfriendly",
+        "reasoning": "Reviewer describes unfriendly, non-respectful staff treatment."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "without offering clear explanations",
+        "reasoning": "Process carried out without clear explanations to the customer."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.7,
+        "quote": "the process was carried out in a hasty way",
+        "reasoning": "Service was rushed/hasty rather than attentive."
+      }
+    ]
+  },
+  {
+    "id": 3164,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "The customer service staff is the worst; they have no ethics or professionalism",
+        "reasoning": "Generic complaint about unprofessional customer-service staff; defaults to staff rudeness."
+      }
+    ]
+  }
+]

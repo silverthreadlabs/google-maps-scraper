@@ -1,0 +1,232 @@
+[
+  {
+    "id": 160,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "They dont answer the phone",
+        "reasoning": "Customer reports the business does not answer its phone."
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "why are the people who work there so rude",
+        "reasoning": "Generic rudeness from staff, default to staff_rude_front_desk per disambiguation."
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "They are literally incapable of picking up the phone.",
+        "reasoning": "Business does not answer the phone."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "Donna the fossil was rude and aggresive.",
+        "reasoning": "Named staff member described as rude and aggressive."
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "they dont hurry up or have any consideration for costumers",
+        "reasoning": "Long operational wait outside in line; no appointment-based sub fits."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "The line to check out took almost an hour in the hot sun",
+        "reasoning": "Long operational wait in line; no appointment-based sub fits."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "people rude",
+        "reasoning": "Staff described as rude; default sub per disambiguation."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "4 hours spent in the Texas sun working only to be denied service",
+        "reasoning": "Extended operational wait; no appointment-based sub fits."
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "turns out they gave us wrong info",
+        "reasoning": "Staff provided incorrect information, a clarity/communication failure."
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "Was extremely rude to him.",
+        "reasoning": "Checkout staff was extremely rude to a customer."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "Line was really long.",
+        "reasoning": "Long operational wait; no appointment-based sub fits."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Bad attitudes",
+        "reasoning": "Staff described as having bad attitudes; default sub."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "unacceptable wait times",
+        "reasoning": "Long operational wait; no appointment-based sub fits."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "Never answer phone",
+        "reasoning": "Business never answers the phone."
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "they will never answer it",
+        "reasoning": "Business never answers the phone."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "I wast  there for 1 1/2 hrs just to get to the door",
+        "reasoning": "Long operational wait in line to enter; no appointment-based sub fits."
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "The pickup scheduling system is HOT GARBAGE!",
+        "reasoning": "Complaint about the scheduling system; no listed sub fits a junkyard pickup."
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "Nobody answers the phones",
+        "reasoning": "Business does not answer the phone, blocking customer confirmation."
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "they have a very bad attitude",
+        "reasoning": "Staff described as having a very bad attitude; default sub."
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "working at the cashier today was very rude",
+        "reasoning": "Cashier described as very rude to the customer."
+      }
+    ]
+  }
+]

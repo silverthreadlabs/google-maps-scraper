@@ -1,0 +1,263 @@
+[
+  {
+    "id": 329,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "confirmed that the part that i needed was in stoct",
+        "reasoning": "Confirmed part in stock then 2 weeks after due date told it was out of stock — contradictory/false information from staff."
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.7,
+        "quote": "I can only receive store credit, even though the mistake wasn’t mine",
+        "reasoning": "Refund denied (store-credit-only) for the business's error — refund/payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "the online price was $125 for a jeep ac compressor when arrived it became $150",
+        "reasoning": "Quoted one price online, charged a higher price on arrival — quoted X, billed Y."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "I had called and confirmed they had it and it was off the car they confirmed when we got there they had to look for it and didn't know what we are talking about",
+        "reasoning": "Confirmed availability by phone, contradicted on arrival — contradictory information."
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "guy think is doing a favor to everybody",
+        "reasoning": "Clerk dismissive/condescending toward customer at the counter."
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.85,
+        "quote": "they didnt have my particular transmission and that they also were not going to give me back my money",
+        "reasoning": "Refund refused (no-return/store-credit-only), only resolved after attorney — refund/payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.75,
+        "quote": "once you buy parts from them you don’t get your money back just only store credit",
+        "reasoning": "Refund denied for a bad part, store-credit-only — refund/payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.75,
+        "quote": "he's failed to give us our money back or even find a resolution",
+        "reasoning": "Refund repeatedly denied for wrong parts — refund/payment dispute."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Horrible communication they gave me the wrong parts",
+        "reasoning": "Explicit complaint of poor communication leading to wrong parts."
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "quoted me a price that was twice what other wrecking yards in the area told me",
+        "reasoning": "Price-gouging bait-and-switch context (quoted high, then sold the car after receipt signed)."
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Texted me on FB saying it’s available and they have the part. drove hour and a half and it wasn’t here",
+        "reasoning": "Told part was available, drove out, false — contradictory information."
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "2nd and 3rd, rude salesmen",
+        "reasoning": "Explicitly describes rude salesmen on follow-up visits."
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.5,
+        "quote": "he gave the money to the driver already",
+        "reasoning": "Money/refund repeatedly promised, never delivered, phone went dead — payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "he immediately said we don't have Chrysler! How do you know if you didn't even check",
+        "reasoning": "Staff dismissed the inquiry without checking — dismissive front-line behavior."
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the lady is so freaking rude",
+        "reasoning": "Explicit rudeness from staff."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.5,
+        "quote": "the owner hides from us because he didn't have parts or money to give back",
+        "reasoning": "Refund owed but owner avoiding repayment — refund/payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "give you a price over the phone your confirm via text drive 1 hr and then tell you ohh now the person made a mistake. Its 3x times the price you were told",
+        "reasoning": "Quoted/confirmed one price, then 3x the price on arrival — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.85,
+        "quote": "they're going to send a refund, i keep calling them and they say it's going to be sent out, now its 4 months and the refund still isn't here",
+        "reasoning": "Refund promised but never sent after 4 months — refund delay/payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "he said he doesn't have time for me bc there's other people on the line. RUDE",
+        "reasoning": "Hung up on with dismissive rudeness."
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "the owners/staff are rude, impolite and ignorant",
+        "reasoning": "Explicit rudeness from owners/staff."
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "they'll quote you one price on the phone then tell you a completely different price when you get there",
+        "reasoning": "Quoted one price, different price on arrival — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "the lady said no don't have that and hung up on me! Horrible customer service",
+        "reasoning": "Hung up on abruptly — dismissive front-line behavior."
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "They told me that they have the parts what I need on the phone and email. But after I drove there about 1 hour, they don't have it",
+        "reasoning": "Told part was available by phone/email, false on arrival — contradictory information."
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJpfPrxDm9ToYR0eivMEtrtrs",
+    "company": "Vazquez Auto Parts",
+    "website": "",
+    "phone": "+1 214-676-0067",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "2850 Dowdy Ferry Rd, Dallas, TX 75217, United States"
+  },
+  {
+    "place_id": "ChIJSS-NlHadToYRgg9bwFQshjM",
+    "company": "SRT CUSTOM AUDIO",
+    "website": "",
+    "phone": "+1 214-350-9000",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "10815 Denton Dr A, Dallas, TX 75220, United States"
+  },
+  {
+    "place_id": "ChIJ5Q0H9IgnTIYRq4W_C6Iw_K8",
+    "company": "A & A Tire & Wheel",
+    "website": "",
+    "phone": "+1 972-247-5522",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "11273 Harry Hines Blvd, Dallas, TX 75229, United States"
+  },
+  {
+    "place_id": "ChIJgXWQ7ZiZToYR7rh-_c0kVTM",
+    "company": "Bad Boyz Custom",
+    "website": "",
+    "phone": "+1 214-943-7244",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "232 N Marsalis Ave 3rd Floor, Dallas, TX 75203, United States"
+  },
+  {
+    "place_id": "ChIJ5T60SvaXToYRqymL2a3cuxE",
+    "company": "Pedro's Tire Shop",
+    "website": "",
+    "phone": "+1 214-264-1170",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "3531 E Illinois Ave, Dallas, TX 75216, United States"
+  },
+  {
+    "place_id": "ChIJJ8pnlsCYToYRaQDrVXGk_zY",
+    "company": "Like-Nu Auto Paint & Body Works",
+    "website": "",
+    "phone": "+1 214-821-3856",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "3930 Main St, Dallas, TX 75226, United States"
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1694,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Luis was a rude person on top of that we would be talking and all of a sudden he'll cut you off to answer a phone call no apology",
+        "reasoning": "Explicitly describes staff being rude and dismissive, cutting customer off mid-conversation."
+      }
+    ]
+  },
+  {
+    "id": 1696,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "they keep needing more and more stuff but won't tell me what for days. I had to keep pestering",
+        "reasoning": "Unclear/withheld information; customer had to chase to understand what was needed."
+      }
+    ]
+  },
+  {
+    "id": 1698,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "we could barely a call back from him even on days he said it would be ready",
+        "reasoning": "Promised updates not delivered; communication around status was absent."
+      }
+    ]
+  },
+  {
+    "id": 1700,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "while I was test driving the vehicle they raised the price of the truck on the internet by $1k",
+        "reasoning": "Price changed mid-transaction beyond what was advertised; bait-and-switch style charge."
+      }
+    ]
+  },
+  {
+    "id": 1703,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.75,
+        "quote": "ITS NOW BEEN A MONTH AND A HALF AND HAVE YET TO RECEIVE A REFUND FOR THE TRANSMISSION",
+        "reasoning": "Promised partial refund delayed for over a month."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "I HAVE SENT PRECILLA MESSAGES ALMOST EVERYDAY AND CALL ALMOST EVERYDAYS.\n\nI GET NOTHING BUT EXCUSES",
+        "reasoning": "Customer calls/messages daily and gets no resolution, only excuses."
+      }
+    ]
+  },
+  {
+    "id": 1707,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "Not even answer the phone calls...",
+        "reasoning": "Directly states the business does not answer phone calls."
+      }
+    ]
+  },
+  {
+    "id": 1709,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "EL DUEÑO LUIS MUY DESPOTA Y CREIDO",
+        "reasoning": "Owner described as despotic and arrogant — rude/dismissive demeanor."
+      }
+    ]
+  },
+  {
+    "id": 1711,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "acting with total arrogance",
+        "reasoning": "Owner described as arrogant/prepotent when customer raised concerns."
+      }
+    ]
+  },
+  {
+    "id": 1713,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "give you one price online n up charge you once you’re there",
+        "reasoning": "Advertised online price differs from the higher price charged in person — bait-and-switch upcharge."
+      }
+    ]
+  },
+  {
+    "id": 1714,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "the girl on the phone did not give me the right info",
+        "reasoning": "Phone staff gave incorrect/contradictory info versus the website and did not know answers."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "go ahead and hang up on me",
+        "reasoning": "Staff instructed to hang up on the caller — dismissive frontline behavior."
+      }
+    ]
+  },
+  {
+    "id": 1715,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "made sure the part they had wasn’t bad/damaged they said it was good well drove a freaken hour and the part was no good",
+        "reasoning": "Told the part was good over the phone, then it was not — inaccurate information given."
+      }
+    ]
+  },
+  {
+    "id": 1716,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "I asked them to check it before go down there they said all looks good",
+        "reasoning": "Assured condition was good before the drive, then the part was defective — inaccurate info."
+      }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "ChIJpy2xTa-jToYRUbVj_WvHQII": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/p/247-Tires-100063733742871/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/24-7-tires-dallas",
+      "email": "demarcus_ace@yahoo.com",
+      "evidence": "Facebook page '24/7 Tires | Dallas TX' lists this Dallas tire/tow/roadside shop with public contact email demarcus_ace@yahoo.com; matches batch address 4627 S 2nd Ave and phone 972-800-2231. Yelp listing confirms same Dallas business. Owner first name likely DeMarcus (per email) but full name not verified, so no person record."
+    }
+  },
+  "ChIJK9faaECDToYR8Rg4MoY-yOI": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/tonys-auto-upholstery-irving",
+      "email": "",
+      "evidence": "Yelp + multiple directories confirm Tony's Auto Upholstery at 441 E Pioneer Dr #106, Irving TX 75061, phone 972-721-1072. Owner referred to only as 'Tony' (first name, no last name) with no verified personal channel, so no person record."
+    }
+  },
+  "ChIJ-dkWwLiYToYRy4YeoSKWa7U": {
+    "people": [
+      {
+        "name": "Alberto Garcia",
+        "role": "Owner",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "Listed as owner of GBG Auto Repair & Inspection (110 N Peak St, Dallas TX, phone 214-370-0375 confirmed on BBB profile) in business directory listing. Name not corroborated on BBB itself; no personal social channel found."
+      }
+    ],
+    "company": {
+      "facebook": "https://www.facebook.com/gbgautorepair/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/gbg-auto-repair-and-inspection-dallas",
+      "email": "",
+      "evidence": "BBB profile confirms 110 N Peak St, Dallas TX 75226 and phone (214) 370-0375. Facebook page @gbgautorepair and Yelp listing match the same business name and metro."
+    }
+  },
+  "ChIJf9alfhOjToYR5PAG-5H39LA": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/ScorpionTireShop/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/scorpion-tire-shop-dallas",
+      "email": "",
+      "evidence": "Chamber of Commerce listing confirms Scorpion Tire Shop at 2800 Pine St, Dallas TX 75215, phone 214-574-6992 (matches batch). Facebook page 'Scorpion Tire Shop | Dallas TX' described as Tire Dealer & Repair Shop. No owner name or email found."
+    }
+  },
+  "ChIJebkoWZCaToYRflH7joGGAaM": {
+    "people": [
+      {
+        "name": "Jared Rios",
+        "role": "Vehicle Inspector",
+        "primary": true,
+        "linkedin": "https://www.linkedin.com/in/jared-rios-298105162/",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "LinkedIn profile title 'Jared Rios - Vehicle Inspector at Jared Inspections' matches the business name; business is at 2124 S Cockrell Hill Rd, Dallas TX 75211, phone 469-964-0156. Likely the principal given matching first name 'Jared'."
+      }
+    ],
+    "company": {
+      "facebook": "https://www.facebook.com/p/Jared-State-Inspections-100069082304767/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "",
+      "email": "",
+      "evidence": "Google business.site and Birdeye (109 reviews) confirm Jared Inspections, a Texas vehicle inspection station at 2124 S Cockrell Hill Rd, Dallas TX 75211. Facebook 'Jared State Inspections' references the same Cockrell Hill address."
+    }
+  },
+  "ChIJNbAhGbebToYRos9HPcOgEDQ": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/gergefautoparts/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/autopartsville-dallas",
+      "email": "",
+      "evidence": "Yelp and BBB confirm AutoPartsVille (used auto parts), Dallas TX, phone 469-951-6616 (matches batch). Facebook page 'Auto Parts Ville | Dallas TX' (@gergefautoparts). Yelp shows website autopartsville.com. Listing shows 4012 W Illinois Ave location with same phone; no owner name verified."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1363,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.55,
+        "quote": "if you speak Spanish that would be best, English is rough",
+        "reasoning": "Reviewer flags that English communication is rough and Spanish is preferable, surfacing a language barrier."
+      }
+    ]
+  },
+  {
+    "id": 1369,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "They say one price on the phone and when you get there its totally different",
+        "reasoning": "Quoted one price by phone then charged a different amount on arrival, a quoted-X-billed-Y discrepancy."
+      }
+    ]
+  }
+]

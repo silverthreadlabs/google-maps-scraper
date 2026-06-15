@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1588,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "the prices do not include tax, title, and other fees",
+        "reasoning": "Advertised prices exclude added fees, a non-transparent pricing / additional-fees signal."
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1969,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "The whole staff is very rude",
+        "reasoning": "Reviewer directly describes staff as rude, matching front-desk rudeness."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "They tell you one thing and then you can't get your part like you supposed to",
+        "reasoning": "Describes contradictory/unreliable information from staff."
+      }
+    ]
+  },
+  {
+    "id": 1970,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "Not the most friendly people",
+        "reasoning": "Reviewer notes staff are unfriendly, a mild front-of-house tone complaint."
+      }
+    ]
+  }
+]

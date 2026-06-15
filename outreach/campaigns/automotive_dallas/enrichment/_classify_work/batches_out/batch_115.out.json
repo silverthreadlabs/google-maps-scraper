@@ -1,0 +1,14 @@
+[
+  {
+    "id": 4628,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.6,
+        "quote": "didn’t get the money back they owned me",
+        "reasoning": "Reviewer says money owed was never refunded, indicating a refund/payment issue."
+      }
+    ]
+  }
+]

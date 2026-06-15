@@ -1,0 +1,33 @@
+[
+  {
+    "id": 4415,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.78,
+        "quote": "Then I was hit with a $510 charge for the TCM, which apparently wasn’t covered by the warranty",
+        "reasoning": "Unexpected charge sprung on the customer at pickup, beyond what was understood under warranty."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "How did you think cars drive? They need gas.",
+        "reasoning": "Dismissive, mocking tone from staff when the customer raised a legitimate concern."
+      }
+    ]
+  },
+  {
+    "id": 4416,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.72,
+        "quote": "Took them over a week to get me a quote and that’s because I had to go in person because no one would bother calling me back",
+        "reasoning": "Customer actively chased a promised quote/callback and never received the return calls."
+      }
+    ]
+  }
+]

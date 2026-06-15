@@ -1,0 +1,33 @@
+[
+  {
+    "id": 2095,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.82,
+        "quote": "I called back 3 times and no answer",
+        "reasoning": "Caller phoned multiple times with no answer."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "got hung up on",
+        "reasoning": "Caller was hung up on while asking a question, signaling dismissive frontline handling."
+      }
+    ]
+  },
+  {
+    "id": 2096,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "answered 3 times and just sat there not responding",
+        "reasoning": "Phone was answered but staff gave no response or information to the caller."
+      }
+    ]
+  }
+]

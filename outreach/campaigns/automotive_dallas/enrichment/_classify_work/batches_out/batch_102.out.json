@@ -1,0 +1,45 @@
+[
+  {
+    "id": 4081,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "They quoted me one price and after the work was done they wanted to charge me 10 dollars more.",
+        "reasoning": "Quoted X, billed more after the work — classic surprise billing / quote divergence."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Unprofessional & rude.",
+        "reasoning": "Generic rudeness with no clarity detail defaults to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 4100,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "They charged me $65 just for a quote whereas I got several quotes for the same service for free.",
+        "reasoning": "Unexpected charge for a quote others provide free — non-transparent / surprise charge."
+      }
+    ]
+  },
+  {
+    "id": 4114,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "He tried to explain to them what was wrong with it they didnt want to listen.",
+        "reasoning": "Customer tried to explain the issue and staff refused to listen."
+      }
+    ]
+  }
+]

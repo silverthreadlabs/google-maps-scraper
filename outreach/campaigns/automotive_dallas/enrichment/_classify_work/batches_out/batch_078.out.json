@@ -1,0 +1,62 @@
+[
+  {
+    "id": 3153,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": null,
+        "confidence": 0.78,
+        "quote": "They charged me and never did service",
+        "reasoning": "Charged for a service that was never performed, a payment/refund dispute under billing errors."
+      }
+    ]
+  },
+  {
+    "id": 3154,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "rude customer service",
+        "reasoning": "Explicit complaint about rude staff tone."
+      }
+    ]
+  },
+  {
+    "id": 3155,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.35,
+        "quote": "Worse Customer Service",
+        "reasoning": "Generic dissatisfaction with customer service, no tone or clarity detail; low confidence."
+      }
+    ]
+  },
+  {
+    "id": 3157,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "Dicen que va a ser un precio y después salen con otro mucho más alto",
+        "reasoning": "Quoted one price then charged a much higher one, plus extra fees."
+      }
+    ]
+  },
+  {
+    "id": 3159,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "no saben tratar a los clientes",
+        "reasoning": "Complaint that staff don't know how to treat customers, indicating poor frontline conduct."
+      }
+    ]
+  }
+]

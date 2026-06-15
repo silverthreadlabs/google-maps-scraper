@@ -1,0 +1,14 @@
+[
+  {
+    "id": 4234,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "He lost my insurance paper!",
+        "reasoning": "Losing a customer-supplied insurance document is an intake/document-handling failure, but no listed sub (verification, duplication, surprise billing, payment) precisely fits."
+      }
+    ]
+  }
+]

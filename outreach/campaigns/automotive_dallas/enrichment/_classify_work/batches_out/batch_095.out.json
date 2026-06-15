@@ -1,0 +1,352 @@
+[
+  {
+    "id": 3806,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "they swore over the phone to refund me but when i showed up they only gave me half of what i paid",
+        "reasoning": "Promised full refund but only received half; refund/payment dispute."
+      }
+    ]
+  },
+  {
+    "id": 3808,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "\"LIFETIME WARRANTY\" IS ONLY AVAILABLE IF YOU PAY $350 EVERY 6 MONTHS FOR INSPECTIONS FOREVER",
+        "reasoning": "Misleading warranty with undisclosed recurring $350 charges."
+      }
+    ]
+  },
+  {
+    "id": 3809,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "Horrible customer service",
+        "reasoning": "Generic complaint about customer service quality."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "expect you to pay more with their “lifetime warranty”",
+        "reasoning": "Expected to pay more under the warranty terms."
+      }
+    ]
+  },
+  {
+    "id": 3810,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.4,
+        "quote": "This place has terrible customer service",
+        "reasoning": "Generic customer-service complaint."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "you must bring your truck in every six months and pay approximately $350 to keep that warranty active",
+        "reasoning": "Undisclosed recurring charge to maintain the advertised warranty."
+      }
+    ]
+  },
+  {
+    "id": 3811,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.4,
+        "quote": "what is advertised is not what customers actually receive",
+        "reasoning": "Advertised offering differs from what is delivered/communicated."
+      }
+    ]
+  },
+  {
+    "id": 3812,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "The receptionist has been rude and has provided inaccurate information",
+        "reasoning": "Receptionist described as rude."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "provided inaccurate information about the work being performed",
+        "reasoning": "Staff gave inaccurate information about the repairs."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.45,
+        "quote": "I have repeatedly asked to speak with the owner, but have been unable to do so",
+        "reasoning": "Repeated unsuccessful attempts to reach the owner."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "The \"lifetime warranty\" requires bringing the vehicle in every six months and paying approximately $350",
+        "reasoning": "Undisclosed recurring warranty charge."
+      }
+    ]
+  },
+  {
+    "id": 3813,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "tràtô dé là réçépcionistà",
+        "reasoning": "Complaint about the receptionist's treatment/attitude."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "íguàl sé pídíó hàblàr çón El dúmeno y ñunçà estàvà díspónible",
+        "reasoning": "Asked to speak with owner who was never available."
+      }
+    ]
+  },
+  {
+    "id": 3816,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "Poor quality work and poor communication",
+        "reasoning": "Verbatim poor communication complaint."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "I received a call asking for more money to get the job done",
+        "reasoning": "Asked for more money beyond the original agreement mid-job."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "I went to pick it up and I was made to wait 2 more hours",
+        "reasoning": "Made to wait 2 hours past pickup time."
+      }
+    ]
+  },
+  {
+    "id": 3817,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.45,
+        "quote": "After a few phone calls, it was ready 5 weeks later",
+        "reasoning": "Customer had to chase by phone for status over weeks."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "I was also told it was going to be 200 more and they didn’t even do all the work",
+        "reasoning": "Additional charge requested beyond the agreed price."
+      }
+    ]
+  },
+  {
+    "id": 3818,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "the lack of communication",
+        "reasoning": "Explicit lack-of-communication complaint with no status updates."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "I could not get anyone on the phone to give me an update on my car",
+        "reasoning": "Could not reach anyone by phone for updates."
+      }
+    ]
+  },
+  {
+    "id": 3819,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "why have the guy on the phone be rude about telling the customer",
+        "reasoning": "Phone staff described as rude to the customer."
+      }
+    ]
+  },
+  {
+    "id": 3820,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "I was told by Jensen that one ignition coil and two spark plugs were replaced and paid for the work done accordingly.\n\nApparently Lisbon, the guy worked on my car did one coil and no spark plugs.",
+        "reasoning": "Charged for work (spark plugs) that was not actually performed."
+      }
+    ]
+  },
+  {
+    "id": 3824,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.75,
+        "quote": "They do not even return our phone calls for updates on our Tesla",
+        "reasoning": "Phone calls for updates not returned."
+      }
+    ]
+  },
+  {
+    "id": 3826,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "The lack of communication",
+        "reasoning": "Explicit lack-of-communication complaint."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "hidden fees",
+        "reasoning": "Explicit hidden fees complaint."
+      }
+    ]
+  },
+  {
+    "id": 3829,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "even charged her for an inspection fee",
+        "reasoning": "Charged an inspection fee the customer did not expect."
+      }
+    ]
+  },
+  {
+    "id": 3830,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "No followups had to call 10 times to finally get my car back",
+        "reasoning": "Had to call ten times to get a response; no proactive follow-up."
+      }
+    ]
+  },
+  {
+    "id": 3832,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "he told me its $45. And he said it need air intake hose and made me sit 5 hours and couldn't get parts and charged me 100 bucks for diagnose",
+        "reasoning": "Quoted $45 for diagnosis but charged $100."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "made me sit 5 hours",
+        "reasoning": "Customer made to wait 5 hours."
+      }
+    ]
+  },
+  {
+    "id": 3835,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "both times I received different quotes for labor/ installation",
+        "reasoning": "Inconsistent quotes by phone then a higher price in person."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "You don’t set a price over the phone and then change it up in-person",
+        "reasoning": "Contradictory pricing information given to customer."
+      }
+    ]
+  },
+  {
+    "id": 3836,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "Attempted to upcharge my mom and keep her equipment",
+        "reasoning": "Attempted upcharge beyond expectation."
+      }
+    ]
+  },
+  {
+    "id": 3838,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.4,
+        "quote": "they said they replaced it but my windshield still has the same line(bubble) in it",
+        "reasoning": "Told work was done that was not actually done."
+      }
+    ]
+  },
+  {
+    "id": 3839,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "Would not listen to how I wanted my install",
+        "reasoning": "Customer's specific install instructions were not listened to."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "dont honor their quoted prices",
+        "reasoning": "Quoted prices not honored."
+      }
+    ]
+  }
+]

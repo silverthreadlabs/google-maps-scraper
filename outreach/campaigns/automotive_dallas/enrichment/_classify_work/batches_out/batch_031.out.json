@@ -1,0 +1,110 @@
+[
+  {"id": 1240, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.8, "quote": "An older gentleman that worked behind the counter was very rude", "reasoning": "Counter staff described as very rude."}
+  ]},
+  {"id": 1241, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "payment_issues", "confidence": 0.65, "quote": "Only received a partial refund", "reasoning": "Refund delay/shortfall on returned warranty."}
+  ]},
+  {"id": 1242, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.55, "quote": "they don’t  even look the car to make sure the have it", "reasoning": "Phone info given without verifying part availability."}
+  ]},
+  {"id": 1243, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.5, "quote": "right away said we don't have that CAR", "reasoning": "Contradictory/unhelpful info about part availability over phone."}
+  ]},
+  {"id": 1244, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "payment_issues", "confidence": 0.6, "quote": "He is not giving advance back and Blocked my number", "reasoning": "Refund of advance refused after incomplete repair."},
+    {"main": "delivery_quality", "sub": "unfinished_work", "confidence": 0.55, "quote": "He didn’t fix issue which i mentioned in paper", "reasoning": "Paid repair left incomplete."}
+  ]},
+  {"id": 1245, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.6, "quote": "They answer the phone and then hang up on you so many times", "reasoning": "Dismissive behavior; they answer then hang up, not unanswered calls."}
+  ]},
+  {"id": 1246, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "Called before driving and they said the got the part Drove all the way from garland for nothing", "reasoning": "Phone confirmed part, false on arrival."}
+  ]},
+  {"id": 1247, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "payment_issues", "confidence": 0.6, "quote": "refused to help with a refund or replacement", "reasoning": "Refund refused on defective engine."}
+  ]},
+  {"id": 1248, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.65, "quote": "Owner and workers are rude", "reasoning": "Staff rudeness reported."},
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.7, "quote": "they have told me price on the phone and when I got there it was completely different on price much more", "reasoning": "Phone quote diverged higher at counter."}
+  ]},
+  {"id": 1249, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.55, "quote": "would call me to pick it up. Didn't receive a call", "reasoning": "Promised callback never came."},
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.45, "quote": "waited for 1 ½ hours and left with no part", "reasoning": "Long wait then no part delivered."}
+  ]},
+  {"id": 1250, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.75, "quote": "I called them to get a qout and they saying for 140\nAnd when I got there they changed the price", "reasoning": "Phone quote changed higher on arrival."}
+  ]},
+  {"id": 1251, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "Very rude customer service", "reasoning": "Rude customer service reported."}
+  ]},
+  {"id": 1252, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "Every time I call and ask if they have the part they tell me yes. I drive 25min to arrive to they dont even have the parts", "reasoning": "Phone says yes, part absent on arrival, repeatedly."}
+  ]},
+  {"id": 1253, "categories": []},
+  {"id": 1254, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "always call they said they have it ready n it’s pulled off when get there after 2 hours of drive they tell sorry we don’t", "reasoning": "Phone confirmed part, false on arrival."}
+  ]},
+  {"id": 1255, "categories": []},
+  {"id": 1256, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.75, "quote": "the lady who answered the phone was very rude and condescending", "reasoning": "Phone staff rude and condescending."}
+  ]},
+  {"id": 1257, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.65, "quote": "I called In advance to confirm that they have the part and after being there for hours they don't have it", "reasoning": "Phone confirmed availability, false on arrival."}
+  ]},
+  {"id": 1258, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "They don’t have the parts tell come when you go there they don’t have the parts", "reasoning": "Told part available, absent on arrival."}
+  ]},
+  {"id": 1259, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "The guys in the front office they are so rude with the customer’s", "reasoning": "Front office staff rude."}
+  ]},
+  {"id": 1260, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.7, "quote": "Did not charged me the price that they showed online! Over charged me!", "reasoning": "Billed price diverged from shown online price."}
+  ]},
+  {"id": 1261, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.7, "quote": "the cashier he’s so rude", "reasoning": "Cashier described as very rude."}
+  ]},
+  {"id": 1262, "categories": []},
+  {"id": 1263, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.75, "quote": "Over the phone they told me a firm price then at the counter they raised it $20 more", "reasoning": "Firm phone quote raised at counter."}
+  ]},
+  {"id": 1264, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.65, "quote": "very very rude and all they know is to hang up", "reasoning": "Rude phone behavior, hanging up."}
+  ]},
+  {"id": 1265, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "Said they had the part we needed, showed up and they basically ignored that we were there, and then said they didn’t have the part", "reasoning": "Phone confirmed part, false on arrival."}
+  ]},
+  {"id": 1266, "categories": [
+    {"main": "followup_dropped", "sub": "dropped_leads_or_quotes", "confidence": 0.5, "quote": "Zero follow through", "reasoning": "No follow-through reported."},
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.5, "quote": "Horrible communication", "reasoning": "Communication explicitly called horrible."}
+  ]},
+  {"id": 1267, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.55, "quote": "wait time is crazy, and i called in advanced and ordered the part", "reasoning": "Long wait despite ordering ahead."}
+  ]},
+  {"id": 1268, "categories": []},
+  {"id": 1269, "categories": []},
+  {"id": 1270, "categories": [
+    {"main": "frontline_communication", "sub": "staff_rude_front_desk", "confidence": 0.65, "quote": "Customer service has a rude attitude", "reasoning": "Rude attitude from customer service."}
+  ]},
+  {"id": 1271, "categories": []},
+  {"id": 1272, "categories": [
+    {"main": "service_quality_in_session", "sub": "long_wait_in_chair_or_seat", "confidence": 0.5, "quote": "Have you waiting there for a long time", "reasoning": "Made to wait a long time."}
+  ]},
+  {"id": 1273, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "I called ahead to see if they had a tire, but when I arrived, they told me they didn't have it", "reasoning": "Phone said available, false on arrival."}
+  ]},
+  {"id": 1274, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "payment_issues", "confidence": 0.6, "quote": "te dicen que te van a descontar el 30 % además de que pague en cash y te devuelven en cheque", "reasoning": "Refund restocking deduction and refund issued by check instead of cash."}
+  ]},
+  {"id": 1275, "categories": []},
+  {"id": 1276, "categories": [
+    {"main": "billing_or_intake_errors", "sub": "surprise_billing", "confidence": 0.7, "quote": "me dijo En 60 dores y después de manejar una hora yego aqui  y dicen que 60 dores cada pieza", "reasoning": "Phone quote of 60 became 60 per piece at counter."}
+  ]},
+  {"id": 1277, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "por teléfono te disen que tienen todo 😡😡 y llegas y no hay nada", "reasoning": "Phone says they have everything, nothing on arrival."}
+  ]},
+  {"id": 1278, "categories": [
+    {"main": "frontline_communication", "sub": "poor_communication", "confidence": 0.6, "quote": "Preguntamos por telefono si tenian una pieza y dijeron que si fuimos y no lo tenian", "reasoning": "Phone confirmed part, false on arrival."}
+  ]},
+  {"id": 1279, "categories": []}
+]

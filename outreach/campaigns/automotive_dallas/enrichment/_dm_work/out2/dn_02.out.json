@@ -1,0 +1,81 @@
+{
+  "ChIJpfPrxDm9ToYR0eivMEtrtrs": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/vasquez-auto-parts-dallas",
+      "email": "",
+      "evidence": "Yelp listing address-matched to 2850 Dowdy Ferry Rd, Dallas TX 75217 / 214-676-0067. No Facebook/Instagram/LinkedIn, public email, or owner name found across Yelp, Buzzfile (403), Manta, junkyard directories."
+    }
+  },
+  "ChIJSS-NlHadToYRgg9bwFQshjM": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/srtcustomaudiodallas/",
+      "instagram": "https://www.instagram.com/srtcustomaudio/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/srt-custom-audio-dallas",
+      "email": "",
+      "evidence": "Yelp address-matched to 10815 Denton Dr A, Dallas TX 75220 / 214-350-9000. Facebook page 'SRT Custom Audio | Dallas TX' (srtcustomaudiodallas) and Instagram @srtcustomaudio both surfaced as name+Dallas matches; a second IG @srt.customaudio (title 'SRT CUSTOM AUDIO & TINT') and YouTube @SRTCUSTOMAUDIODTX also exist. No verified owner name (a 'manager Eddie G.' appeared only in a search summary, too partial to confirm). No public email found."
+    }
+  },
+  "ChIJ5Q0H9IgnTIYRq4W_C6Iw_K8": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/p/A-A-Tires-Wheels-100063649595346/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/a-and-a-tire-and-wheel-dallas",
+      "email": "",
+      "evidence": "Yelp address-matched to 11273 Harry Hines Blvd, Dallas TX 75229. Facebook page (id 100063649595346) confirmed THIS business via a FB photo post showing 'A&A TIRE&WHEEL 11287 Harry Hines Blvd. Dallas, TX 75229 972-247-5522' (phone match). An email texasbesttires@gmail.com / aatireshop.com appeared only in directory-aggregator summaries (not a primary page; aatireshop.com refused connection) so left blank to avoid a wrong email. No owner name found (BBB lists no principal)."
+    }
+  },
+  "ChIJgXWQ7ZiZToYR7rh-_c0kVTM": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/bad-boyz-custom-dallas",
+      "email": "",
+      "evidence": "Yelp address-matched to 232 N Marsalis Ave, Dallas TX 75203 / 214-943-7244. Two competing Facebook pages ('Bad Boyz Kustom' 100057388872599 and 'BAD BOYZ Kustoms' 100057569743393) and a Twitter/X @BadBoyzKustom exist but could not be disambiguated to THIS Marsalis-Ave shop with certainty (FB/X fetches blocked), so left blank. An owner name 'Ali Valvez' appeared only in a search summary, unverifiable, so not reported."
+    }
+  },
+  "ChIJ5T60SvaXToYRqymL2a3cuxE": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "https://www.instagram.com/pedrotire.shop/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/pedro-s-tire-dallas",
+      "email": "",
+      "evidence": "Yelp address-matched to 3531 E Illinois Ave, Dallas TX 75216 / 214-264-1170. Instagram @pedrotire.shop surfaced with title 'Pedro Tire Shop · Dallas, TX' (name+city match). No owner name (BBB lists none, F rating); no public email found."
+    }
+  },
+  "ChIJJ8pnlsCYToYRaQDrVXGk_zY": {
+    "people": [
+      {
+        "name": "Clay E. Drury",
+        "role": "Vice President",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "high",
+        "evidence": "Listed as Principal Contact and Customer Contact ('Mr. Clay E. Drury, Vice President') on the BBB profile fetched directly (bbb.org/.../like-nu-auto-paint-and-body-works-0875-1593) for the business at 3930 Main St, Dallas TX 75226 / 214-821-3856. A second contact 'Billy Martin' also appears in listings but Drury is the named principal."
+      }
+    ],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/like-nu-auto-paint-and-body-works-dallas-2",
+      "email": "",
+      "evidence": "Yelp + BBB address-matched to 3930 Main St, Dallas TX 75226 / 214-821-3856. BBB lists website likenuautobody.com (site refused connection on fetch, so no email confirmed). No Facebook/Instagram/LinkedIn found. Family-owned collision/body shop since 1947."
+    }
+  }
+}

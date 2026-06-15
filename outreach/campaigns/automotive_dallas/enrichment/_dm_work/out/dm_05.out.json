@@ -1,0 +1,97 @@
+{
+  "ChIJge-YnKwvTIYR0xtOAFqCkMc": [
+    {
+      "name": "Jensen",
+      "role": "Co-Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/skm_performance/",
+      "facebook": "https://www.facebook.com/skmperformancetexas/",
+      "email": "skmperformance@gmail.com",
+      "confidence": 0.55,
+      "evidence": "Customer reviews name Jensen and DJ as the two owners (Jensen oversees performance work, DJ handles ceramic coating). First name only. Channels are company-level: IG @skm_performance, FB skmperformancetexas, email skmperformance@gmail.com from skmperformance.com."
+    },
+    {
+      "name": "DJ",
+      "role": "Co-Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/skm_performance/",
+      "facebook": "https://www.facebook.com/skmperformancetexas/",
+      "email": "skmperformance@gmail.com",
+      "confidence": 0.5,
+      "evidence": "Second co-owner named in customer reviews; handles ceramic coating. First name only. Company-level channels shared with Jensen."
+    }
+  ],
+  "ChIJS58Wx9eiToYR1Vk34Lb16xs": [
+    {
+      "name": "Blake Ingram",
+      "role": "President / CEO",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/ingramblake/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "President/CEO of Auto City (Martin Ingram Enterprises Inc. dba Auto City Credit); past TIADA president (2009). Confirmed via LinkedIn linkedin.com/in/ingramblake and corporationwiki/RocketReach. Multi-location 60-year dealership, so company socials not attributed to him personally."
+    }
+  ],
+  "ChIJsdR_HtWAToYRaimHa3jT1yY": [],
+  "ChIJxaNZpF-dToYRo4cc05A1Udw": [
+    {
+      "name": "Joe",
+      "role": "Shop Manager / Principal",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://twitter.com/fixeurotrans",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "FixEuro About page names Joe as Shop Manager, in the business since 1967, running the shop since 1993; original owner moved back to Germany, so Joe is the de-facto on-site decision-maker. First name only. Twitter @fixeurotrans is company-level. Source: fixeurotransmission.com/about/"
+    }
+  ],
+  "ChIJfdAmCpInTIYR8uCOL8v_s_k": [
+    {
+      "name": "Saul Marcos",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Listed as owner of Transmissions & More Auto Service in business directory texas.repair-auto.org (contact (972) 247-0995). Single-source; no channels verified."
+    }
+  ],
+  "ChIJrVPLd0aiToYR3pFLFIUS2Co": [
+    {
+      "name": "Victor Martinez",
+      "role": "Owner / Principal",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Named as owner/principal of Underground Custom Body Works; family-owned partnership run by brothers Victor & Henry Martinez. Sources: Buzzfile and Dun & Bradstreet company profiles listing Mr. Victor Martinez as principal contact."
+    },
+    {
+      "name": "Henry Martinez",
+      "role": "Co-Owner / Principal",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.65,
+      "evidence": "Second principal contact / co-owning brother per D&B and Buzzfile partnership profile for Underground Custom Body Works."
+    }
+  ]
+}

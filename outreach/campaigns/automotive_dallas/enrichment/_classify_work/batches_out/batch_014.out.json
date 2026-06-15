@@ -1,0 +1,107 @@
+[
+  {
+    "id": 585,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "I was charged an additional fee for a diagnostic",
+        "reasoning": "Customer reports an additional/unexpected diagnostic fee on top of the declined service."
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "was quoted a new price from new manager for exact same services which was $1K more than previous manager",
+        "reasoning": "Inconsistent, inflated quote for the identical services indicates non-transparent pricing."
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "charged me 3 times the amount we originally discussed",
+        "reasoning": "Final charge diverged sharply from what was originally quoted (quoted X, billed Y)."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "took over an hour longer than they said they would",
+        "reasoning": "Service ran far past the promised time."
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "Once you arrive give a different price",
+        "reasoning": "Price quoted differed from the price charged on arrival."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "The 2 unprofessional little girls they have answering the phone terrible customer service",
+        "reasoning": "Reports unprofessional, rude phone staff who hung up."
+      }
+    ]
+  },
+  {
+    "id": 595,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "she answers  the phone in a rush very cocky attitude",
+        "reasoning": "Phone staff had a cocky, rude attitude and hung up twice."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.7,
+        "quote": "Barely listens to him explaining the make and model of the vehicle",
+        "reasoning": "Staff cut the caller off before he could finish explaining his vehicle."
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "They gave me one price on the phone and then went up 75% when I went to pay for it ($75 to $125)",
+        "reasoning": "Classic bait-and-switch: phone quote differed sharply from the price charged at payment."
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "bad attitudes",
+        "reasoning": "Generic report of rude/bad attitudes from staff."
+      }
+    ]
+  }
+]

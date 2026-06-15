@@ -1,0 +1,222 @@
+[
+  {
+    "id": 2841,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "This guy have a bad attitude with a customer",
+        "reasoning": "Owner described as having a bad attitude toward a paying customer."
+      }
+    ]
+  },
+  {
+    "id": 2843,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "denied the work was his",
+        "reasoning": "Shop gave contradictory account, denying prior work despite documentation, during a warranty claim."
+      }
+    ]
+  },
+  {
+    "id": 2844,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "This man called me horrible names",
+        "reasoning": "Staff verbally abusive toward customer."
+      }
+    ]
+  },
+  {
+    "id": 2845,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "He didn’t pick up any phone calls but picked up when I called from another number",
+        "reasoning": "Owner deliberately ignored the customer's phone calls."
+      }
+    ]
+  },
+  {
+    "id": 2846,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.75,
+        "quote": "Called and called Both next day to No answer",
+        "reasoning": "Customer repeatedly called the next day with no answer."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "All he did was give a run around thru text",
+        "reasoning": "Owner gave a runaround instead of clear information about fixing the damage."
+      }
+    ]
+  },
+  {
+    "id": 2847,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "they tell me I’d have to come back Monday…wasted time",
+        "reasoning": "Told to come in same day, then turned away and rescheduled to Monday."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "I called and they told me to bring my truck in for leveling kit same day",
+        "reasoning": "Phone instruction to come same day contradicted what happened on arrival."
+      }
+    ]
+  },
+  {
+    "id": 2850,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.65,
+        "quote": "now he doesn’t answer messages",
+        "reasoning": "Owner stopped answering messages during an active warranty claim."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.5,
+        "quote": "not only has the process been delayed but now he doesn’t answer messages",
+        "reasoning": "Customer chasing a warranty claim response and getting no reply."
+      }
+    ]
+  },
+  {
+    "id": 2851,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "reached out to him and he’s rude",
+        "reasoning": "Owner described as rude when contacted."
+      }
+    ]
+  },
+  {
+    "id": 2852,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "no me respetaron el precio que ya había acordado",
+        "reasoning": "Shop did not honor the price already agreed with the customer."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.6,
+        "quote": "me dijeron que no me podían atender ese día",
+        "reasoning": "Customer was told he could not be served that day despite a prior agreement to be seen first thing."
+      }
+    ]
+  },
+  {
+    "id": 2853,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "el propietario repugnante",
+        "reasoning": "Owner described as repugnant/disgusting in conduct."
+      }
+    ]
+  },
+  {
+    "id": 2855,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "From week to week they say it will be ready next week",
+        "reasoning": "Shop gave repeated vague week-to-week updates with no clear status."
+      }
+    ]
+  },
+  {
+    "id": 2856,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "it's hard to get the owner to answer any questions I had",
+        "reasoning": "Owner hard to reach for questions due to being busy."
+      }
+    ]
+  },
+  {
+    "id": 2858,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "Never got back in touch with me",
+        "reasoning": "Customer never received a promised callback/response."
+      }
+    ]
+  },
+  {
+    "id": 2859,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "if you try to use your warranty they will lie and blame everyone else but themselves",
+        "reasoning": "Shop gives dishonest/contradictory information when warranty is invoked."
+      }
+    ]
+  },
+  {
+    "id": 2867,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "They charge you not by the job but by the car you drive",
+        "reasoning": "Customer perceives pricing as inflated/non-transparent based on the vehicle rather than the work."
+      }
+    ]
+  },
+  {
+    "id": 2873,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "These people does not listen",
+        "reasoning": "Customer states the shop does not listen, having to return repeatedly."
+      }
+    ]
+  }
+]

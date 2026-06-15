@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2360,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.72,
+        "quote": "kept my truck and didn't let me know nothing until I kept calling them the nxt day",
+        "reasoning": "Shop withheld status info; customer had to chase them for an update, evidencing absent/unclear communication."
+      }
+    ]
+  },
+  {
+    "id": 2377,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.45,
+        "quote": "my family faced significant delays",
+        "reasoning": "Mentions significant delays during the visit, suggesting a long wait, though the span is vague and truncated."
+      }
+    ]
+  }
+]

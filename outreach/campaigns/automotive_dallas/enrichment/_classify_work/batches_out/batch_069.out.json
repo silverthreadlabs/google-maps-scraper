@@ -1,0 +1,74 @@
+[
+  {
+    "id": 2761,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "got a text late Monday night asking if we could move the time to 2pm which didn’t work for us",
+        "reasoning": "Vendor pushed a last-minute reschedule of a confirmed appointment that did not work for the customer."
+      }
+    ]
+  },
+  {
+    "id": 2775,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.75,
+        "quote": "the first no show they claimed to have been side swiped on the way so I gave them the benefit of the doubt.  The 2nd no show",
+        "reasoning": "Repeated no-shows and a wrong-address visit made the appointment impossible to pin down."
+      }
+    ]
+  },
+  {
+    "id": 2778,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.6,
+        "quote": "One thing I was disappointed in was that the roof was not washed",
+        "reasoning": "Part of the agreed cleaning was skipped, an inattentive/incomplete-work signal."
+      }
+    ]
+  },
+  {
+    "id": 2783,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.75,
+        "quote": "did not get the carpets washed wiped off the dashboard with water and the seats with water didn’t put armor all or anything on the Interior",
+        "reasoning": "Multiple agreed cleaning steps were skipped or done minimally, an inattentive/incomplete-work signal."
+      }
+    ]
+  },
+  {
+    "id": 2786,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "9pm night before get a text from random subcontractor asking to reschedule",
+        "reasoning": "Last-minute reschedule request the night before the confirmed appointment."
+      }
+    ]
+  },
+  {
+    "id": 2796,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "Never showed up for scheduled appointment to detail 2 cars and will not respond to texts",
+        "reasoning": "Vendor failed to show for a confirmed appointment and went unresponsive."
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 4669,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.9,
+        "quote": "communication with Abraham was poor",
+        "reasoning": "Customer explicitly states communication was poor and that the capability gap should have been disclosed up front."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.75,
+        "quote": "I haven't heard anything back from him in a few months",
+        "reasoning": "Promised to order parts but went silent; customer had to keep calling to get any response."
+      }
+    ]
+  }
+]

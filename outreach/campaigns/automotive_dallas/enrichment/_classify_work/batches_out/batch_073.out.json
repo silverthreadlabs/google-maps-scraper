@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2924,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.9,
+        "quote": "left a voice message with no response as well",
+        "reasoning": "Customer left a voicemail the day after and got no response back."
+      }
+    ]
+  },
+  {
+    "id": 2927,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "they needed more money for shipping costs",
+        "reasoning": "Shipping was quoted as included, then they demanded additional money after payment."
+      }
+    ]
+  },
+  {
+    "id": 2928,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.7,
+        "quote": "still no call back from the provider",
+        "reasoning": "Called for service, no one showed and no callback came after a follow-up call."
+      }
+    ]
+  },
+  {
+    "id": 2939,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.4,
+        "quote": "the guy who works there isn't very friendly",
+        "reasoning": "Customer notes one staffer is unfriendly, though hedged that others are fine."
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 4518,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "Rude workers.",
+        "reasoning": "Customer explicitly describes the workers as rude, matching the default bare-rudeness trigger for this sub."
+      }
+    ]
+  }
+]

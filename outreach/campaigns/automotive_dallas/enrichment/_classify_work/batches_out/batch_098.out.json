@@ -1,0 +1,202 @@
+[
+  {
+    "id": 3926,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "When I came to pick up my car, they didn't even inform me that it didn't match.",
+        "reasoning": "Customer was not told about a known mismatch; failure to communicate material information."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "They never informed me that they wasn't going to be able match my original color.",
+        "reasoning": "Undisclosed limitation leading to an offer to pay more for correct covers, an unexpected upcharge framing."
+      }
+    ]
+  },
+  {
+    "id": 3927,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the guy with the long hair does not know how to treat customers. Unacceptable attitude.",
+        "reasoning": "Explicit complaint about staff attitude and how customers are treated."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "if you want to get overcharged for the simplest and quickest fixes",
+        "reasoning": "Complaint of being overcharged / inflated rates maps to surprise_billing per disambiguation."
+      }
+    ]
+  },
+  {
+    "id": 3928,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "I brought it up before leaving the shop and it was shrugged off as “not their problem”",
+        "reasoning": "Customer raised a specific concern and it was dismissed."
+      }
+    ]
+  },
+  {
+    "id": 3930,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "a reputable business for the community would have paid me the courtesy of call prior to installing the after market part and asking me if this is what I would prefer",
+        "reasoning": "No communication before proceeding with work; customer not informed of an unresolved issue."
+      }
+    ]
+  },
+  {
+    "id": 3931,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "agreed to do a bunch of repairs on it then ghosted me",
+        "reasoning": "Customer was promised work and never heard back; actively dropped after agreement."
+      }
+    ]
+  },
+  {
+    "id": 3944,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.55,
+        "quote": "blocked my number because he answered when I called from another number but then ghosted me again",
+        "reasoning": "Customer could not get a response to calls; provider ghosted repeatedly."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "accepted my dashboard to repair, and then ghosted me",
+        "reasoning": "Accepted job then went silent; customer chasing with no response."
+      }
+    ]
+  },
+  {
+    "id": 3949,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "he did not at any time mentioned it will be an additional cost to fix the car’s upholstery. Even though he promised 3days to complete the job, after 2 whole weeks, he gave me an invoice of $2700",
+        "reasoning": "Quoted $1800, billed $2700 with no disclosure of additional cost; clear surprise billing."
+      },
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_third_party",
+        "confidence": 0.75,
+        "quote": "he gives this job to a third party and doesn’t hold them accountable for unfinished job",
+        "reasoning": "Work handed to an undisclosed third party; no 1-6 equivalent."
+      }
+    ]
+  },
+  {
+    "id": 3950,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "It was not until May that I got it back and then he said it was around $8,000. Way over what he said months earlier!",
+        "reasoning": "Quoted ~$4,000, billed ~$8,000; clear billing divergence."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.55,
+        "quote": "I’ve called and emailed and he ignores me.",
+        "reasoning": "Customer's calls and emails ignored with no response."
+      }
+    ]
+  },
+  {
+    "id": 3951,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "They had me wait all day here from 10:00am I didn’t leave until 15 minutes till 5:00pm.",
+        "reasoning": "Customer made to wait the entire day at the facility."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "Every time I would ask just for a update I was put off with no answers.",
+        "reasoning": "Repeated requests for status updates met with no answers."
+      }
+    ]
+  },
+  {
+    "id": 3952,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.5,
+        "quote": "Now they won't even communicate with me.",
+        "reasoning": "Provider has stopped responding to the customer."
+      }
+    ]
+  },
+  {
+    "id": 3953,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "I tried texting and calling John, but he would not respond.",
+        "reasoning": "Customer's calls and texts went unanswered."
+      },
+      {
+        "main": "hidden_subcontracting",
+        "sub": "unannounced_handoff_to_third_party",
+        "confidence": 0.7,
+        "quote": "I see that it’s been driven to a different auto shop 17miles away in East Plano?? Not at RECON!",
+        "reasoning": "Vehicle moved to a different shop without permission or disclosure; no 1-6 equivalent."
+      }
+    ]
+  },
+  {
+    "id": 3954,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.75,
+        "quote": "No response to texts , emails and return phone calls.",
+        "reasoning": "Explicit no response to calls, texts, and emails."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "Poor customer service.",
+        "reasoning": "General communication/service breakdown noted alongside non-response."
+      }
+    ]
+  }
+]

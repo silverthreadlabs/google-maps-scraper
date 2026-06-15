@@ -1,0 +1,94 @@
+{
+  "ChIJPUJuEHW9ToYRLsQYhpzWnWk": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/twinlakesauto/",
+      "instagram": "https://www.instagram.com/twinlakesautosalvage/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/twin-lakes-auto-salvage-dallas-3",
+      "email": "",
+      "evidence": "FB page 'Twinlakes Auto Salvage | Dallas TX' and IG @twinlakesautosalvage both metro-matched to Dallas. Yelp listing for 9915 S Central Expy, Dallas. BBB profile (A+) confirms phone 972-225-4536 and address but lists principal as Unknown."
+    }
+  },
+  "ChIJT3CEF3iwToYRiuWmMpa9hv4": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/autocitysalvage/",
+      "instagram": "https://www.instagram.com/auto.city.salvage/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/auto-city-salvage-dallas",
+      "email": "",
+      "evidence": "FB 'Auto City Salvage | Dallas TX' and IG @auto.city.salvage metro-matched. Yelp listing at 13815 Skyfrost Dr, Dallas. Phone 972-286-9999 matches across BBB/YellowPages. No verified person name found."
+    }
+  },
+  "ChIJBy5kqnWjToYRgoTJYCL-y9k": {
+    "people": [
+      {
+        "name": "Ahmed Hamayel",
+        "role": "President/Director",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "BBB business profile for Buckner Car Audio (2952 S Buckner Blvd, Dallas, phone 214-275-5711) lists principal as Mr. Ahmed Hamayel, President/Director. Address and phone match the target."
+      }
+    ],
+    "company": {
+      "facebook": "https://www.facebook.com/p/Buckner-Car-Audio-100064054659713/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/buckner-car-audio-dallas",
+      "email": "",
+      "evidence": "FB 'Buckner Car Audio | Dallas TX' and Yelp listing both at 2952 S Buckner Blvd, Dallas, matching phone 214-275-5711. BBB lists the FB page as primary web presence."
+    }
+  },
+  "ChIJ1bZQecejToYRYqPyc7xGVaQ": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/p/Mannys-Kustomz-Oak-Cliff-100094166443013/",
+      "instagram": "https://www.instagram.com/mannysoakcliff/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/mannys-kustomz-dallas-2",
+      "email": "",
+      "evidence": "FB 'Mannys Kustomz Oak Cliff | Dallas TX' and IG @mannysoakcliff metro-matched (Oak Cliff is the South Lancaster Rd / 75216 area). Yelp listing and TikTok video both cite 4033 S Lancaster Rd, Dallas. Phone 214-836-8985 matches. No verified person name."
+    }
+  },
+  "ChIJv96GdnS9ToYRdcPfw3ArgSk": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/b-and-b-auto-parts-dallas",
+      "email": "",
+      "evidence": "Yelp listing 'B & B Auto Parts' at 9701 S Central Expy, Dallas, phone 972-225-5999 matches target. Multiple junkyard directories confirm same address/phone. No verified Facebook/Instagram or person name found."
+    }
+  },
+  "ChIJNRxpKACjToYRln0JX0JNIy8": {
+    "people": [
+      {
+        "name": "Justin Christopher Jordan",
+        "role": "Executive Director/CEO",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "BBB profile for International Transmission Repair (aka International Transmission Group Inc.) lists Mr. Justin Christopher Jordan as Executive Director/CEO. BBB lists 8229 Scyene Rd, Dallas 75227 as one of its addresses, matching the target."
+      }
+    ],
+    "company": {
+      "facebook": "https://www.facebook.com/internationaltransmissionrepair/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "",
+      "email": "",
+      "evidence": "BBB profile confirms FB /internationaltransmissionrepair/ as the business's social media and 8229 Scyene Rd as a listed address. Email not on BBB or the site contact page, so left empty. The Yelp listing at 8229 Scyene Rd is 'Genesis Transmission - CLOSED' (prior tenant), so not mapped here. Note: business operates its own site internationaltransmissionrepair.com despite raw record showing no website."
+    }
+  }
+}

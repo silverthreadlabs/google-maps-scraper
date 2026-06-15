@@ -1,0 +1,110 @@
+[
+  {
+    "id": 2240,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.78,
+        "quote": "I paid for part cost $250 then up charge all said an done $1500",
+        "reasoning": "Customer describes a quoted/part cost that ballooned with upcharges to $1500, an unexpected charge beyond the original."
+      }
+    ]
+  },
+  {
+    "id": 2243,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "the total price DID NOT include a $300 special order fee. Plus, they auto charge 3.5% for all card transactions (and didn’t tell us there was this additional charge",
+        "reasoning": "Confirmed out-the-door total later grew by a $300 fee plus an undisclosed 3.5% card charge."
+      }
+    ]
+  },
+  {
+    "id": 2245,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.85,
+        "quote": "she confirmed the date and time. So I followed up with her 3 days before the appointment time and date and i was told that the sunroof department was so packed and I was told to reschedule the appointment",
+        "reasoning": "A confirmed appointment was unilaterally bumped, forcing a reschedule the customer only learned of by chasing."
+      }
+    ]
+  },
+  {
+    "id": 2247,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "he was/is a misogynist. Early into our call he started telling me that I would need to bring lunch for him and his co-workers",
+        "reasoning": "Staff on the phone behaved unprofessionally with sexist remarks toward the caller."
+      }
+    ]
+  },
+  {
+    "id": 2249,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.83,
+        "quote": "They quoted me a price then called me and said it was going to be more so I agreed then a couple of hours later they called again and said they were charging me more",
+        "reasoning": "Quoted price was repeatedly increased after agreement with additional charges."
+      }
+    ]
+  },
+  {
+    "id": 2250,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.72,
+        "quote": "some other guy says his name is Vinnie and doesnt know anything about a convo we had this morning...definitely dont have their shhhh together",
+        "reasoning": "Contradictory, disorganized handling across staff who had no record of the earlier conversation."
+      }
+    ]
+  },
+  {
+    "id": 2252,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "You get the feeling you're bothering them",
+        "reasoning": "Staff came across as dismissive toward a prospective customer in the lobby."
+      }
+    ]
+  },
+  {
+    "id": 2254,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "Another service center not confirming the online appointment",
+        "reasoning": "Online appointment was not confirmed, a self-service booking breakdown not matching a specific sub."
+      }
+    ]
+  },
+  {
+    "id": 2267,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.62,
+        "quote": "NO ONE comes to ask me do I need help or NOTHING",
+        "reasoning": "Staff repeatedly ignored a customer waiting for assistance."
+      }
+    ]
+  }
+]

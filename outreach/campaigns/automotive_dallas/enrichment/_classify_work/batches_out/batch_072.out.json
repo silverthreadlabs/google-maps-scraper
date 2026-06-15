@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2880,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.78,
+        "quote": "No communication about your vehicle",
+        "reasoning": "Customer reports missing information/updates about their vehicle from the shop."
+      }
+    ]
+  },
+  {
+    "id": 2888,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "appointment_unavailable_long_wait",
+        "confidence": 0.82,
+        "quote": "You have to wait a long time for them to take your car in for repairs",
+        "reasoning": "Long wait to get the vehicle scheduled in for service (three weeks out)."
+      }
+    ]
+  },
+  {
+    "id": 2907,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "quote": "wouldn’t even give me a price told me he couldn’t help",
+        "reasoning": "Customer stated their budget request and was dismissed without help."
+      }
+    ]
+  },
+  {
+    "id": 2908,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.72,
+        "quote": "he was being dismissive of my service request",
+        "reasoning": "Customer's specific service request was dismissed rather than addressed."
+      }
+    ]
+  }
+]

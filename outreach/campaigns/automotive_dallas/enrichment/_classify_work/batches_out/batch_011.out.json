@@ -1,0 +1,179 @@
+[
+  {
+    "id": 444,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "Rude customer service",
+        "reasoning": "Explicitly describes staff as rude."
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "just hanging up in people face",
+        "reasoning": "Dismissive, unprofessional behavior of hanging up on callers."
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "very rude and unprofessional people working there",
+        "reasoning": "Staff described as rude and unprofessional."
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "Had me waiting 30 min after calling prior to arriving for the part",
+        "reasoning": "Long wait past expectation, but parts-counter wait doesn't fit the chair/seat sub."
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "I tried to ask them a question and they just hanged up",
+        "reasoning": "Hung up on a customer asking a question; dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Rude",
+        "reasoning": "Bare rudeness complaint, trigger word for staff rudeness."
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Very rude",
+        "reasoning": "Bare rudeness complaint, trigger word for staff rudeness."
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.72,
+        "quote": "Hung up on me",
+        "reasoning": "Call connected then customer hung up on; dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.72,
+        "quote": "Waited for 30 minutes for a car",
+        "reasoning": "Long wait past expectation; rental wait doesn't fit chair/seat sub."
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.75,
+        "quote": "Took an hour and a half from the time I waited for the shuttle to actually get a car",
+        "reasoning": "Excessive wait to receive service; rental wait doesn't fit chair/seat sub."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Not friendly customer service",
+        "reasoning": "Unfriendly frontline staff."
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "I called them multiple times reading this issue and Noone ever answers the phone",
+        "reasoning": "Called repeatedly about an issue and no one ever answered."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.7,
+        "quote": "I emailed them Noone returns my emails",
+        "reasoning": "Customer actively reached out via email and got no response."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "if you go through a toll you will be charged $50 fee each time",
+        "reasoning": "Undisclosed/forced extra fees and protection charges beyond booked price."
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.62,
+        "quote": "do not know if I will get my money back. 48 to 72 hours to come up with a resolution",
+        "reasoning": "Refund delayed with no clear resolution timeline."
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.72,
+        "quote": "they only patched one but charged me for 2",
+        "reasoning": "Charged for two patches but only one was performed; charge diverges from service rendered."
+      }
+    ]
+  }
+]

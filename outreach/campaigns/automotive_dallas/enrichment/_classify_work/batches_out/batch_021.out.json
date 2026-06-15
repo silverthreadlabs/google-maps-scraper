@@ -1,0 +1,74 @@
+[
+  {
+    "id": 842,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "charged me for tires that won't even changed",
+        "reasoning": "Charged for service (tire change) that was not actually performed — an unexpected/unjustified charge event."
+      }
+    ]
+  },
+  {
+    "id": 850,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "Took forever to put a rim on when not many cars were there, seemed as thought take their leisurely time",
+        "reasoning": "Excessive wait for a simple rim job despite low shop volume — operational rushing/inattention to time."
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "make you buy small things like wires on the spot to complete the job (that they tell you  is needed )  they’ll charge you 3xs the amount of retail",
+        "reasoning": "Forced on-the-spot add-on charges at inflated prices presented as required — a hidden/bait-and-switch charge event."
+      }
+    ]
+  },
+  {
+    "id": 870,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "OWNER THE WORST. HE SEEMS TO HAVE A BAD DAY EVERYDAY",
+        "reasoning": "Complaint about the owner's consistently rude/bad-tempered demeanor toward customers."
+      }
+    ]
+  },
+  {
+    "id": 876,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.55,
+        "quote": "Over chargerd me and refused to refund me",
+        "reasoning": "Refund explicitly refused after an overcharge — a refund/payment resolution failure."
+      }
+    ]
+  },
+  {
+    "id": 878,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "just looked at me with a condescending look on his face",
+        "reasoning": "Counter staff treated the customer with a dismissive, condescending demeanor."
+      }
+    ]
+  }
+]

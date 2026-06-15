@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1004,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "tried to charge extra to connect the rest",
+        "reasoning": "Forced to buy unneeded parts then charged extra beyond the original install job."
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "Very unprofessional and lack of respect",
+        "reasoning": "Technician came in hot and behaved disrespectfully/unprofessionally."
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.9,
+        "quote": "To date, we have not been refunded",
+        "reasoning": "Agreed refund still not paid after two months with repeated bank-problem excuses."
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.9,
+        "quote": "still no refund is received",
+        "reasoning": "Return confirmed but refund never processed despite repeated promises."
+      }
+    ]
+  },
+  {
+    "id": 1033,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.6,
+        "quote": "once you go to send it back you will never see your money",
+        "reasoning": "Customer reports refunds on returns are never paid out."
+      }
+    ]
+  },
+  {
+    "id": 1037,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "guy is extremely rude",
+        "reasoning": "Direct report of rude, dismissive staff behavior."
+      }
+    ]
+  },
+  {
+    "id": 1038,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Was told $35 per used tires but after they took it off they said oh we only have these $40 tires",
+        "reasoning": "Quoted price diverged upward after the tires were already removed (bait-and-switch)."
+      }
+    ]
+  },
+  {
+    "id": 1039,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.8,
+        "quote": "the communications and updates were lacking",
+        "reasoning": "Promised regular updates and a pickup day, then contradicted with car not releasable."
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "ChIJ6TwEDRO7ToYR07tj8EIDDT0": [
+    {
+      "name": "Moe Massoudi",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/A1rylieautoparts/",
+      "email": "A1rylieauto1@yahoo.com",
+      "confidence": 0.9,
+      "evidence": "BBB profile lists 'Mr. Moe Massoudi, Owner' as principal contact (bbb.org/us/tx/dallas/profile/used-auto-parts/a-1-rylie-auto-parts-0875-1002006); business is family-owned since 1977. Facebook page and email A1rylieauto1@yahoo.com from company site a1rylieautoparts.com. Email/FB are business channels, not personal to Moe."
+    },
+    {
+      "name": "Shawn Massoudi",
+      "role": "General Manager",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/shawn-massoudi-0b45b4bb/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn lists Shawn Massoudi as 'GM at A-1 Rylie Auto Parts' (linkedin.com/in/shawn-massoudi-0b45b4bb/); same family surname as owner."
+    }
+  ],
+  "ChIJG40ApZ6eToYRyiLYL9prWfc": [
+    {
+      "name": "Brandon Gillespy",
+      "role": "Body Shop Manager",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/brandon-gillespy-78172a66/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "LinkedIn: Brandon Gillespy, 'Body Shop Manager at Park Place Bodywerks' (linkedin.com/in/brandon-gillespy-78172a66/). Park Place BodyWerks is part of Park Place Dealerships, owned by Asbury Automotive Group since 2020 (Fortune 500 chain) — no independent owner; the body shop manager is the reachable on-site decision-maker."
+    },
+    {
+      "name": "Eric McKenzie",
+      "role": "Regional Director / Director of Body Shop Operations, Park Place Dealerships",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/mckenzieeric/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "LinkedIn: Eric McKenzie, 'Regional Director - Park Place Dealerships' / Director of Body Shop Operations over DFW collision centers (linkedin.com/in/mckenzieeric/)."
+    }
+  ],
+  "ChIJFVttZYYfTIYRX2epdZ3mY70": [
+    {
+      "name": "Gary Gray",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "absolauto@gmail.com",
+      "confidence": 0.9,
+      "evidence": "County Advisory Board profile confirms Gary Gray as owner/founder, started Absolute Auto Reconditioning in 1990 (countyadvisoryboard.com/gary-gray-absolute-auto-reconditioning/). Business email absolauto@gmail.com from company contact page autoupholsterydallas.com/contact-us (business channel, not confirmed personal)."
+    }
+  ],
+  "ChIJBTiB8hmbToYR0J5W0UtfErY": [],
+  "ChIJj5OvOXgfTIYRzCxY9pI4CPw": [
+    {
+      "name": "Will Aiyeojenku",
+      "role": "Founder / Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/will-aiyeojenku-332b8934/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@fusionvibes.com",
+      "confidence": 0.92,
+      "evidence": "Founder named in Authority Magazine interview and About page (fusionvibes.com/about/, medium.com Authority Magazine 'Masters of The Turnaround: Will Aiyeojenku of Fusion Vibes'). LinkedIn 'Will Aiyeojenku - Fusion Vibes Kitchen + Bar' (linkedin.com/in/will-aiyeojenku-332b8934/). Note: this is a restaurant/lounge, not an automotive business. Email info@fusionvibes.com is a general business address."
+    }
+  ],
+  "ChIJbfbSeYgfTIYR7EHSY7z84B0": [
+    {
+      "name": "Lucinda Howard",
+      "role": "Founder / Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/tinlizzieaffair",
+      "email": "sales@tinlizzieaffair.com",
+      "confidence": 0.9,
+      "evidence": "Company site (tinlizzieaffair.com) names Lucinda Howard as founder/proprietor who started the auto upholstery shop ~46 years ago. Facebook facebook.com/tinlizzieaffair and email sales@tinlizzieaffair.com from site (business channels)."
+    },
+    {
+      "name": "Joel Howard",
+      "role": "Staff",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Named as staff member on company website tinlizzieaffair.com; role not specified (likely family/co-operator given shared surname with founder)."
+    }
+  ]
+}

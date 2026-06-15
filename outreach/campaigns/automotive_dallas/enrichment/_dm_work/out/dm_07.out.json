@@ -1,0 +1,60 @@
+{
+  "ChIJre_qFrcnTIYRt798MTOW69Q": [
+    {
+      "name": "John R. Hardin Jr.",
+      "role": "President/Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/hacklertransmission/",
+      "email": "john@hacklertransmission.com",
+      "confidence": 0.85,
+      "evidence": "BBB profile lists Mr. John R. Hardin Jr. as President/Director and Principal/Customer Contact (bbb.org/.../hackler-transmissions-0875-4004220); company email john@hacklertransmission.com from hacklertransmission.com; Facebook page facebook.com/hacklertransmission. Family-owned since 1958."
+    }
+  ],
+  "ChIJ53ZdRQidToYRGDHN4y8lgg0": [
+    {
+      "name": "Raul",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://instagram.com/txtransmission",
+      "facebook": "",
+      "email": "txtransmissionrepair@gmail.com",
+      "confidence": 0.6,
+      "evidence": "Site (txtransmissionrepair.com, redirect from txtransmission.com) signs its 'Message from Us' as '-Raul & Tx Transmission Team', indicating owner Raul (first name only). Email txtransmissionrepair@gmail.com and Instagram @txtransmission on site. Locally owned shop."
+    }
+  ],
+  "ChIJAXqEqrG9ToYRowQHmoVEr3o": [],
+  "ChIJ1_Lmb9ibToYRpioUFtR3Iic": [
+    {
+      "name": "Raul Martinez",
+      "role": "Owner/Contact",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Business directory listings name Raul Martinez as the contact person for Llantas USA at 3100 W Davis St (per aggregated search results). Yelp listing is unclaimed with no social links. Name unverified against a primary source; treat as low-moderate confidence."
+    }
+  ],
+  "ChIJVVWVb8SgToYRyYnTa3TgFU8": [],
+  "ChIJw5QGNyAeTIYRuBM_eRZqJNQ": [
+    {
+      "name": "Shun",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://instagram.com/NSydezOut",
+      "facebook": "https://www.facebook.com/NSydezOut/",
+      "email": "NsydezOut@yahoo.com",
+      "confidence": 0.6,
+      "evidence": "Multiple Yelp/Chamber reviews repeatedly name 'Shun' (also spelled 'Shawn') as the owner/operator of NSydezOut who personally does the upholstery work. First name only; no verified last name. Business email NsydezOut@yahoo.com and FB/IG (facebook.com/NSydezOut, instagram.com/NSydezOut) from nsydezout.com."
+    }
+  ]
+}

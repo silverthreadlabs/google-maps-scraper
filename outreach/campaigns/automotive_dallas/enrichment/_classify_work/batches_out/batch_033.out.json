@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1347,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Communication throughout the process was inconsistent, and I often had to follow up for updates",
+        "reasoning": "Customer reports inconsistent communication and having to chase updates, an in-taxonomy communication failure distinct from the repair-quality complaints."
+      }
+    ]
+  },
+  {
+    "id": 1357,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "Charged for I patch I didn't asked for",
+        "reasoning": "Charged for an unrequested service is an unexpected charge after the fact."
+      }
+    ]
+  },
+  {
+    "id": 1358,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.5,
+        "quote": "I couldn't understand anything he was saying",
+        "reasoning": "Customer could not communicate/understand staff, a language-barrier signal despite the overall positive tone."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.45,
+        "quote": "They just took a long time",
+        "reasoning": "Customer notes service took a long time, surfaced as a real downside in an otherwise positive review."
+      }
+    ]
+  },
+  {
+    "id": 1359,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "quote": "I was the first on here and the last one to be taken care of",
+        "reasoning": "Customer arrived first but was served last, a deprioritization/long-wait operational complaint."
+      }
+    ]
+  }
+]

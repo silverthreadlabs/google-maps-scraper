@@ -1,0 +1,21 @@
+[
+  {
+    "id": 801,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.85,
+        "quote": "The two managers weren't even listening",
+        "reasoning": "Customer raised a concern about broken studs and staff dismissed/ignored it."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "i got laughed at and walked off on",
+        "reasoning": "Dismissive, unprofessional behavior by staff toward the customer."
+      }
+    ]
+  }
+]

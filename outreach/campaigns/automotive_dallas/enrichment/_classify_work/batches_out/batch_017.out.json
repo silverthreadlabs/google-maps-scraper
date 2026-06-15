@@ -1,0 +1,222 @@
+[
+  {
+    "id": 686,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "They tell you one price middle of installation they tell you need another part for installation",
+        "reasoning": "Quoted one price, then additional part/cost introduced mid-installation."
+      }
+    ]
+  },
+  {
+    "id": 687,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "There are a couple of disrespectful young cats that work here",
+        "reasoning": "Staff described as disrespectful — rude behavior."
+      }
+    ]
+  },
+  {
+    "id": 698,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "el señor que atiende gritándome como loco",
+        "reasoning": "Staff member yelling at customer — rude/aggressive tone."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "tocara gastar de mi bolsillo por estos irresponsables",
+        "reasoning": "Customer will have to pay out of pocket to fix unauthorized work; weak surprise-charge signal."
+      }
+    ]
+  },
+  {
+    "id": 699,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "darle toda la información al cliente despues de terminar cada travajo",
+        "reasoning": "Customer not given full information after work completed — missing information."
+      }
+    ]
+  },
+  {
+    "id": 701,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.85,
+        "quote": "Espera de más de 2 horas",
+        "reasoning": "Waited more than 2 hours for service."
+      }
+    ]
+  },
+  {
+    "id": 705,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "he rudely said no",
+        "reasoning": "Staff responded rudely on the phone."
+      }
+    ]
+  },
+  {
+    "id": 710,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "DISHONEST, RUDE CUSTOMER SERVICE",
+        "reasoning": "Explicitly rude customer service."
+      }
+    ]
+  },
+  {
+    "id": 711,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "completely worthless and rude",
+        "reasoning": "Phone staff described as rude."
+      }
+    ]
+  },
+  {
+    "id": 712,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "he said it again with sarcasm in his voice and rushed me off the phone",
+        "reasoning": "Sarcastic tone and rushing customer off the phone, plus hanging up earlier."
+      }
+    ]
+  },
+  {
+    "id": 713,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "wont honor a quote over the phone, tells you he has what you need at a fair price then raises it when you get there",
+        "reasoning": "Phone quote raised once customer arrives — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 714,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "she hung up on me",
+        "reasoning": "Hung up on customer instead of answering — rude behavior."
+      }
+    ]
+  },
+  {
+    "id": 715,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "they are rude people",
+        "reasoning": "Staff described as rude, talked about customer's husband behind his back."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "He still wanted the same price for it",
+        "reasoning": "Quoted a good price by phone but the actual part was rusted/no good and same price demanded."
+      }
+    ]
+  },
+  {
+    "id": 716,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "they wanted 85 dollars more for it",
+        "reasoning": "Agreed assembly price, then $85 more demanded on arrival."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "the dude at the front desk became so rude and his whole mood shifted",
+        "reasoning": "Front desk became rude and aggressive."
+      }
+    ]
+  },
+  {
+    "id": 717,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.82,
+        "quote": "prices was changed, over the phone Something else when you show up at the shop",
+        "reasoning": "Phone price differed from in-shop price."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "owner was very rude. Employees was very rude",
+        "reasoning": "Owner and employees explicitly very rude."
+      }
+    ]
+  },
+  {
+    "id": 718,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "he said \"may l help you\"in a very rude tone",
+        "reasoning": "Rude tone on the phone and hung up on customer."
+      }
+    ]
+  },
+  {
+    "id": 719,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": null,
+        "confidence": 0.55,
+        "quote": "He actually hanged up on me",
+        "reasoning": "Sales person hung up rather than giving a price; communication failure, sub ambiguous."
+      }
+    ]
+  }
+]

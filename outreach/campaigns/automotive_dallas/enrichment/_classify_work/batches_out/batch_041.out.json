@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1640,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "The owner repeated that the app was not required, while the installers insisted that it was.",
+        "reasoning": "Owner and installers gave contradictory information about whether the app was needed."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.6,
+        "quote": "I replied that this was difficult for me because English is not my first language. They then abruptly hung up on me.",
+        "reasoning": "Customer raised a language barrier and staff dismissed her by hanging up."
+      }
+    ]
+  },
+  {
+    "id": 1647,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "He was extremely rude as well.",
+        "reasoning": "Staff member described as extremely rude and disengaged (on his laptop, not helping)."
+      }
+    ]
+  },
+  {
+    "id": 1649,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "The guy running this place is the rudest and shouldn’t be working in customer service.",
+        "reasoning": "Staff described as the rudest, a tone/behavior complaint."
+      }
+    ]
+  },
+  {
+    "id": 1650,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "they tell you things to let you come to their shop then they tell you something different",
+        "reasoning": "Customer was told one thing then given contradictory information."
+      }
+    ]
+  },
+  {
+    "id": 1652,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.6,
+        "quote": "They told me it would takeep 2.5 hours took them more like 5.5 hours",
+        "reasoning": "Service took far longer than the time quoted."
+      }
+    ]
+  },
+  {
+    "id": 1655,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "quote": "They take a long time to assist you.",
+        "reasoning": "Customer notes long wait to be assisted."
+      }
+    ]
+  },
+  {
+    "id": 1658,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "quote": "Be prepared to be there for hours.",
+        "reasoning": "Customer warns of long waits at the shop."
+      }
+    ]
+  },
+  {
+    "id": 1659,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": null,
+        "confidence": 0.45,
+        "quote": "prices keep switching",
+        "reasoning": "Inconsistent/shifting pricing rather than a fixed agreed price."
+      }
+    ]
+  },
+  {
+    "id": 1660,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "The guy sat on the phone and didnt even care inwas in there for 30 mins.",
+        "reasoning": "Staff ignored and was dismissive of the waiting customer."
+      }
+    ]
+  },
+  {
+    "id": 1661,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "doesnt answer their business phones through out the day",
+        "reasoning": "Business phones go unanswered during the day."
+      }
+    ]
+  },
+  {
+    "id": 1665,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.4,
+        "quote": "Bad customer service don't recommend",
+        "reasoning": "Generic bad-customer-service complaint, low confidence on tone."
+      }
+    ]
+  },
+  {
+    "id": 1666,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "This one guy in there is very rude",
+        "reasoning": "Staff member described as very rude."
+      }
+    ]
+  },
+  {
+    "id": 1670,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "los trabajadores de muy  mala educación y ética",
+        "reasoning": "Workers described as having very poor manners/rudeness."
+      }
+    ]
+  },
+  {
+    "id": 1671,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "After a few hours of no communication I called and they walked back their offer and said they would split the cost.",
+        "reasoning": "Shop gave contradictory information, walking back an offer and denying responsibility."
+      }
+    ]
+  }
+]

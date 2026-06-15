@@ -1,0 +1,86 @@
+[
+  {
+    "id": 483,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the guy with a long beard told me he doesn't even talk to me because I am black",
+        "reasoning": "Staff openly dismissive and disrespectful toward the customer."
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "quote a Cash Price, then UP Charge because One decides to pay with a credit card",
+        "reasoning": "Quoted one price then charged more at payment, a quoted-X-billed-Y divergence."
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.4,
+        "quote": "place with prices based on where your from and what car you have",
+        "reasoning": "Alleges non-transparent/variable pricing, a listed surprise_billing trigger."
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "Was told one price over the phone and quoted higher once they seen I was black",
+        "reasoning": "Quoted one price by phone then a higher price in person, a quoted-X-billed-Y divergence."
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "when I questioned them they all got confrontational",
+        "reasoning": "Staff responded to a customer concern with confrontational behavior."
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.4,
+        "quote": "change the price of tires based on what they think they can get away with",
+        "reasoning": "Alleges non-transparent pricing set arbitrarily, a listed surprise_billing trigger."
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.55,
+        "quote": "you can’t always get in touch via the phone",
+        "reasoning": "Customer notes phone often goes unanswered at this 24-hour shop."
+      }
+    ]
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "id": 364,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.55,
+        "quote": "no response from the person who arranged the deal",
+        "reasoning": "Customer followed up repeatedly and got no response from the owner who arranged the deal."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "their attitude was dismissive and unprofessional",
+        "reasoning": "Staff described as dismissive and unprofessional in tone."
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "Rude",
+        "reasoning": "Review opens characterizing the interaction as rude."
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "This wasn't explained to me before I paid for the part!",
+        "reasoning": "Undisclosed restocking fee charged that was not explained before payment."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "There customer service is HORRIBLE and DISRESPECTFUL Mannerism!",
+        "reasoning": "Customer reports disrespectful manner from counter staff."
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "WAITING WITHOUT EVEN ACKNOWLEDGING YOUR THEIR",
+        "reasoning": "Staff left customer waiting without acknowledgment; dismissive treatment from person in charge."
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Was told a price on the phone and then they upped the price when I was in the office",
+        "reasoning": "Price quoted on phone was increased on arrival."
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "Told me he would call me back when he's sure he's got the part. Never got a call back",
+        "reasoning": "Staff promised a callback on a specific request and never delivered it."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "guy on the other end constantly interrupted me",
+        "reasoning": "Caller was constantly interrupted and later hung up on; rude tone."
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "the girl then hung up on me",
+        "reasoning": "Staff hung up on the caller mid-inquiry; dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "the guys in the front were drinking beer and completely ignored the fact that I was there",
+        "reasoning": "Front staff ignored the customer who was present."
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.5,
+        "quote": "11 DAYS LATER STILL NO WHEEL SO I CALLED THEY SAID THEY DIDNT KNOW WHAT HAPPENED",
+        "reasoning": "Customer paid and had to chase repeatedly; order was dropped and not proactively handled."
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "Was quoted $60 for a fender flare over the phone. Charged $150 when I arrived.",
+        "reasoning": "Quoted price diverged sharply from amount charged on arrival."
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "they ignore you even though they see you standing in fron of them. Very rude especially the young lady",
+        "reasoning": "Staff ignored and were rude to customer standing in front of them."
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.55,
+        "quote": "Owner doesnt speak English.",
+        "reasoning": "Customer notes communication issue from owner not speaking English."
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "i even try calling them before going up there was huge waste of time",
+        "reasoning": "Called ahead but the part was not there on arrival; contradictory info given."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.55,
+        "quote": "they don't speak english very well",
+        "reasoning": "Customer reports staff do not speak English well."
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.4,
+        "quote": "what kind of place are you running?",
+        "reasoning": "Customer expresses dissatisfaction with phone interaction over no-refund policy; weak tone signal."
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "I called about a simple tire tool and they said they had it, but when I drive to them they now say that I was crazy",
+        "reasoning": "Phone confirmation contradicted on arrival; conflicting information given."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "the price THEY quoted was too low",
+        "reasoning": "Price quoted on the phone was disavowed and changed on arrival."
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "quote": "they make you wait hours to get small parts",
+        "reasoning": "Customer reports waiting hours to receive parts."
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "gave me a price for a mirror,  sent a driver all the way then changed the price",
+        "reasoning": "Quoted price was changed after committing to the deal."
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Called earlier this morning about my parts and they was in stock, just to finally get here and they say they don’t have it",
+        "reasoning": "Stock confirmed by phone but contradicted on arrival."
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "They tell you one thing on the phone then when you show up they tell you another.",
+        "reasoning": "Explicit complaint of contradictory information between phone and in person."
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "they told me they had the part i needed then when i got there they didnt even have it",
+        "reasoning": "Part confirmed by phone but not actually available on arrival."
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.5,
+        "quote": "wait time for parts was slow",
+        "reasoning": "Customer reports slow wait time to receive parts."
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "I called, they said they had what I need, get there, very unfriendly, unhelpful",
+        "reasoning": "Phone confirmation contradicted on arrival, plus unhelpful staff."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "very unfriendly, unhelpful",
+        "reasoning": "Staff described as unfriendly and unhelpful."
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "I called this place for a part they said they had it. I drove there and they didn't have it",
+        "reasoning": "Stock confirmed by phone but contradicted on arrival."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.55,
+        "quote": "didn't understand English well",
+        "reasoning": "Customer reports staff did not understand English well."
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.4,
+        "quote": "then hung up never do business with again",
+        "reasoning": "Caller was hung up on during the inquiry."
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": null,
+        "confidence": 0.4,
+        "quote": "very bad customer service",
+        "reasoning": "Generic poor customer service complaint with no specific tone/clarity detail."
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "They don’t have the part but they ll say they have when you call",
+        "reasoning": "Phone says part is in stock but it is not, causing a wasted trip."
+      }
+    ]
+  }
+]

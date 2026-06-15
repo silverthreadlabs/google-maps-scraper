@@ -1,0 +1,218 @@
+[
+  {
+    "id": 761,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "ABRUPTLY HUNG UP THE PHONE ON ME",
+        "reasoning": "Staff abruptly hung up on a calling customer, a dismissive/rude behavior."
+      }
+    ]
+  },
+  {
+    "id": 762,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "They are rude and unprofessional",
+        "reasoning": "Explicit complaint about rude, unprofessional behavior."
+      }
+    ]
+  },
+  {
+    "id": 763,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "everyone else is rude",
+        "reasoning": "Staff described as rude."
+      }
+    ]
+  },
+  {
+    "id": 765,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Very Rude Owner",
+        "reasoning": "Owner described as very rude."
+      }
+    ]
+  },
+  {
+    "id": 766,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "tell me \"We don't but those. Click.\"",
+        "reasoning": "Staff abruptly hung up on the caller, dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "THEY ARE VERY RUDE",
+        "reasoning": "Explicit rudeness complaint about an employee."
+      }
+    ]
+  },
+  {
+    "id": 769,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "they Keep Hanging on the Phone",
+        "reasoning": "Staff repeatedly hang up on the caller, dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 770,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "pick up the phone and hang it right back up very unprofessional",
+        "reasoning": "Staff pick up and immediately hang up, described as unprofessional treatment of a caller."
+      }
+    ]
+  },
+  {
+    "id": 779,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "the lady at the front desk is rude",
+        "reasoning": "Front-desk staff explicitly described as rude."
+      }
+    ]
+  },
+  {
+    "id": 780,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.72,
+        "quote": "they just pick up and hang up",
+        "reasoning": "Staff repeatedly pick up and hang up on the caller, dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 781,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "The receptionist was very rude in person",
+        "reasoning": "Receptionist explicitly described as very rude."
+      }
+    ]
+  },
+  {
+    "id": 782,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Just rude",
+        "reasoning": "Direct rudeness complaint, though minimal detail."
+      }
+    ]
+  },
+  {
+    "id": 783,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "Very rude and arrogant",
+        "reasoning": "Service described as very rude and arrogant."
+      }
+    ]
+  },
+  {
+    "id": 790,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Hung up on me for no reason",
+        "reasoning": "Staff hung up on the caller without reason, dismissive behavior."
+      }
+    ]
+  },
+  {
+    "id": 791,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Rudest owner and employees",
+        "reasoning": "Owner and employees described as rudest."
+      }
+    ]
+  },
+  {
+    "id": 796,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the \"owner\" of the company was very rude on the phone",
+        "reasoning": "Owner explicitly described as very rude on the phone."
+      }
+    ]
+  },
+  {
+    "id": 798,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "he suddenly hung up the phone. That was very rude",
+        "reasoning": "Staff hung up mid-conversation, explicitly called rude."
+      }
+    ]
+  },
+  {
+    "id": 799,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "personas despotas y mal educadas",
+        "reasoning": "Staff described as despotic and ill-mannered, treating customers like animals."
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJPUJuEHW9ToYRLsQYhpzWnWk",
+    "company": "Twin Lakes Auto Salvage",
+    "website": "",
+    "phone": "+1 972-225-4536",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "9915 S Central Expy, Dallas, TX 75241, United States"
+  },
+  {
+    "place_id": "ChIJT3CEF3iwToYRiuWmMpa9hv4",
+    "company": "Auto City Salvage",
+    "website": "",
+    "phone": "+1 972-286-9999",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "13815 Skyfrost Dr, Dallas, TX 75253, United States"
+  },
+  {
+    "place_id": "ChIJBy5kqnWjToYRgoTJYCL-y9k",
+    "company": "Buckner Car Audio",
+    "website": "",
+    "phone": "+1 214-275-5711",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "2952 Buckner Blvd, Dallas, TX 75227, United States"
+  },
+  {
+    "place_id": "ChIJ1bZQecejToYRYqPyc7xGVaQ",
+    "company": "Manny's Kustomz",
+    "website": "",
+    "phone": "+1 214-836-8985",
+    "metro": "dallas",
+    "tier": "A",
+    "address": "4033 S Lancaster Rd, Dallas, TX 75216, United States"
+  },
+  {
+    "place_id": "ChIJv96GdnS9ToYRdcPfw3ArgSk",
+    "company": "B&B Auto Salvage",
+    "website": "",
+    "phone": "+1 972-225-5999",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "9701 S Central Expy, Dallas, TX 75241, United States"
+  },
+  {
+    "place_id": "ChIJNRxpKACjToYRln0JX0JNIy8",
+    "company": "International Transmission Repair",
+    "website": "",
+    "phone": "",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "8229 Scyene Rd, Dallas, TX 75227, United States"
+  }
+]

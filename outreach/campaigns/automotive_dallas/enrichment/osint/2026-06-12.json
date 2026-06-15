@@ -1,0 +1,3103 @@
+[
+  {
+    "place_id": "ChIJJ5lAYC-cToYREx9syi__IRQ",
+    "domain": "www.budget.com",
+    "enriched_at": "2026-06-12T13:21:28+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domainabuse@cscglobal.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJidPolbiBToYRR_AwZNnTJKo",
+    "domain": "www.hertz.com",
+    "enriched_at": "2026-06-12T13:23:17+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJd7MfTiCZToYRjrCUXAxxogU",
+    "domain": "www.hertz.com",
+    "enriched_at": "2026-06-12T13:24:21+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ65IT5Gq7ToYRx3_zenG3qzs",
+    "domain": "www.hawnfreewayautosalvage.com",
+    "enriched_at": "2026-06-12T13:25:27+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJiT_P8iacToYRDGICuVmnSGI",
+    "domain": "www.hertz.com",
+    "enriched_at": "2026-06-12T13:25:53+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Domain Admin",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJMVIP_zGcToYRg94fwYCEiNs",
+    "domain": "www.avis.com",
+    "enriched_at": "2026-06-12T13:26:55+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Avis",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domainabuse@cscglobal.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ4zU0zoWiToYRGestiRxBHIQ",
+    "domain": "www.picknpull.com",
+    "enriched_at": "2026-06-12T13:29:04+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJVU-_FdqdToYRhZs_OeESQV0",
+    "domain": "www.coxautoinc.com",
+    "enriched_at": "2026-06-12T13:30:07+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domainabuse@cscglobal.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJR8ta2-KEToYRVqdAxV1stks",
+    "domain": "www.sixt.com",
+    "enriched_at": "2026-06-12T13:31:50+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJpSWCNdGBToYR2u57BzVLXhg",
+    "domain": "www.enterprise.com",
+    "enriched_at": "2026-06-12T13:32:56+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJJdpHNiqFToYR5byVUtotNeY",
+    "domain": "dfwautoparts1.com",
+    "enriched_at": "2026-06-12T13:36:59+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJPUJuEHW9ToYRLsQYhpzWnWk",
+    "domain": null,
+    "enriched_at": "2026-06-12T13:37:53+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ_XufG0ejToYRQh05YhplwpU",
+    "domain": "www.autozone.com",
+    "enriched_at": "2026-06-12T13:38:08+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ-U9BwiicToYRmruyKVO3-l4",
+    "domain": "www.enterprise.com",
+    "enriched_at": "2026-06-12T13:39:26+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJO0pNAbyYToYRhpB7FsVtjdQ",
+    "domain": "www.hammstires.com",
+    "enriched_at": "2026-06-12T13:43:17+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJf5MuqUGIToYRl9rVi_v0d4I",
+    "domain": "www.summitracing.com",
+    "enriched_at": "2026-06-12T13:44:35+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJvbTmrDqXToYR8tcl52HHgZY",
+    "domain": null,
+    "enriched_at": "2026-06-12T13:46:11+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJcXYU7SicToYRkpbnJ6p-wmU",
+    "domain": "www.nationalcar.com",
+    "enriched_at": "2026-06-12T13:46:28+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJQ6KBBLSQToYRVGXKznxOqh4",
+    "domain": "www.enterprise.com",
+    "enriched_at": "2026-06-12T13:48:26+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ8UcvxhChToYREa7Udx_aKtA",
+    "domain": "www.autozone.com",
+    "enriched_at": "2026-06-12T13:52:21+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJcXYU7SicToYRqxMNApWhvfY",
+    "domain": "www.alamo.com",
+    "enriched_at": "2026-06-12T13:53:38+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJV4lQHEifToYRu839UWXY7Dc",
+    "domain": "carnationautospa.com",
+    "enriched_at": "2026-06-12T13:58:20+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJt6HhJRqdToYR1IwN1Ou1P5k",
+    "domain": "us.easirent.com",
+    "enriched_at": "2026-06-12T14:00:19+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJa6qi4nycToYR0mYNrnh0g9I",
+    "domain": "www.autofitparts.com",
+    "enriched_at": "2026-06-12T14:05:37+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJD6M0gKCeToYRawopmwODvP0",
+    "domain": "www.autozone.com",
+    "enriched_at": "2026-06-12T14:06:41+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abusecomplaints@markmonitor.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ4U98RKadToYRN-f1_SF7fzU",
+    "domain": null,
+    "enriched_at": "2026-06-12T14:10:33+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=caee37281554a8d2fdc0f3035399fa759fc0f8f208d17f1ec227b88aa1f3b268JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly9qYW5nLmNvbS5way8&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Get Updates about Pakistan latest, breaking, urdu news, top headlines and Top Articles in Urdu and english, World, Sports, Business, Cricket , Politics and Weather, jang.com.pk",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=20a2e48eeb954bca61b719bb16949ba7e6d2830722cdb85ec4645f435d1ebea6JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly93d3cuZGF3bi5jb20v&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Pakistan’s most trusted outlet for the breaking, latest and top news across the country and the world.",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=0a3aedeedaedcb1846e0cbdd69697f96dacdace4527b4db5536be335aa29e2ddJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20v&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=1569b6a48e845e5edcfcf5474ebdf186aa4671e29ad041b19193de651183cf6fJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly93d3cuZXhwcmVzcy5jb20ucGsv&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Daily Express Urdu Newspaper delivers latest news in Urdu, including breaking news, current news, top headlines from Pakistan, World, Sports, Business, Cricket and Politics.",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=722b8108f0e74e1059b6cbfe12239b0a983542f250935100fb830e8a1e06fc9dJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly93d3cudXJkdXBvaW50LmNvbS91cmR1LW5ld3M&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "14 hours ago · In a moment you will get breaking Urdu news, either national or international. The fastest and most authentic source of getting Urdu news updates is UrduPoint. This site will provide you all …",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=677e47f65ad6561ae916af864ae4ae70f8aab67d696462d03e7c6b104940aaa0JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly93d3cuZXhwcmVzcy5way8&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Follow Express News for latest urdu news, Pakistan news, breaking news, current news in urdu from Pakistan, World, Sports, Business, Cricket, Politics and Weather only at Express News Channel.",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=441d3ac0ac2edfae7196b32c3a77cf3b4d88a0ca17d72ecc009e614983db24e1JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly9kdW55YW5ld3MudHYv&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Finance minister acknowledged that the agriculture and industrial growth targets were not achieved during the outgoing fiscal year. ISLAMABAD Dunya News Federal Minister for Finance Muhammad …",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=67d16caf923066a9f011194f815e69d84b1e7997c4950c3144367df56198cf4dJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly93d3cuYXBwLmNvbS5way8&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Associated Press of Pakistan : Read about the latest happenings from Pakistan and across the globe.",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=ee3e94ed34ce37790e06847778feea99317af574d7ca04ffee81c1de68fa0d71JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly90cmlidW5lLmNvbS5way8&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "Latest Pakistan news, World News, breaking news updates on Pakistan, Politics, Sports, Business, Technology, Education, lifestyle & Weather on eTribune.",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          },
+          {
+            "value": "https://www.bing.com/ck/a?!&&p=ee472462b9e93bb1efcfee7ce5e7c9981110fcf36a911ab783ef421a44f509b5JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0a2a0fae-08ab-673f-1d46-18d809d166e9&u=a1aHR0cHM6Ly93d3cucmV1dGVycy5jb20vd29ybGQvcGFraXN0YW4v&ntb=1",
+            "source": "serp_bing",
+            "query": "\"\" \"\" news OR press OR opening",
+            "snippet": "1 day ago · Reuters.com is your online source for the latest Europe news stories and current events, ensuring our readers up to date with any breaking news developments",
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJj5OvOXgfTIYRzCxY9pI4CPw",
+    "domain": "fusionvibes.com",
+    "enriched_at": "2026-06-12T14:11:35+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Form",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ5T60SvaXToYRqymL2a3cuxE",
+    "domain": null,
+    "enriched_at": "2026-06-12T14:20:44+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJPSNyIp-jToYR30rcRkTUjLQ",
+    "domain": null,
+    "enriched_at": "2026-06-12T14:22:28+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "serp_blocked"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJs4Z0Y5efToYRukn8qNBLRws",
+    "domain": "www.kwikkarntx.com",
+    "enriched_at": "2026-06-12T14:23:51+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJT3CEF3iwToYRiuWmMpa9hv4",
+    "domain": null,
+    "enriched_at": "2026-06-12T14:37:50+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJS58Wx9eiToYR1Vk34Lb16xs",
+    "domain": "www.autocitycredit.com",
+    "enriched_at": "2026-06-12T14:39:49+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Gooch, Ron",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "domain.operations@web.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJBy5kqnWjToYRgoTJYCL-y9k",
+    "domain": null,
+    "enriched_at": "2026-06-12T14:44:46+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ5zvrqR-FToYRb6N4QEOlj18",
+    "domain": "www.alldiscountautosalvage.com",
+    "enriched_at": "2026-06-12T14:46:33+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ5Q0H9IgnTIYRq4W_C6Iw_K8",
+    "domain": null,
+    "enriched_at": "2026-06-12T14:49:25+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ4yUPBieaToYRWlrIThsq9Jc",
+    "domain": "a-b-car-audio.poi.place",
+    "enriched_at": "2026-06-12T14:51:11+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "form",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ6TwEDRO7ToYR07tj8EIDDT0",
+    "domain": "www.a1rylieautoparts.com",
+    "enriched_at": "2026-06-12T14:55:42+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJj5s3556jToYRTB8KeQEaohw",
+    "domain": "dallascaraudio.us",
+    "enriched_at": "2026-06-12T14:59:16+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJq-hqQyiZToYROjPB4Ob5q9k",
+    "domain": "www.50starsautoparts.com",
+    "enriched_at": "2026-06-12T15:02:44+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Info",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ1_Lmb9ibToYRpioUFtR3Iic",
+    "domain": "www.llanterascercademi.net",
+    "enriched_at": "2026-06-12T15:09:49+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJG40ApZ6eToYRyiLYL9prWfc",
+    "domain": "www.parkplacebodywerks.com",
+    "enriched_at": "2026-06-12T15:13:03+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJu-5oHIknTIYRWgSEWZgIIDY",
+    "domain": "bncstereo.com",
+    "enriched_at": "2026-06-12T15:15:49+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJv96GdnS9ToYRdcPfw3ArgSk",
+    "domain": null,
+    "enriched_at": "2026-06-12T15:18:32+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJA-VRlLSEToYRu_v0Tb03Fos",
+    "domain": "www.a2zautobodypart.com",
+    "enriched_at": "2026-06-12T15:20:13+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJLY2soHKdToYRMuRBr7DDAyc",
+    "domain": "cowboyautotexas.com",
+    "enriched_at": "2026-06-12T15:22:59+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJbRNTRe2dToYRk7tzuVxtxjk",
+    "domain": null,
+    "enriched_at": "2026-06-12T15:30:08+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJoTN0OfecToYRoMwgk7TUHHs",
+    "domain": "www.txtransmissionrepair.com",
+    "enriched_at": "2026-06-12T15:32:54+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJpy2xTa-jToYRUbVj_WvHQII",
+    "domain": null,
+    "enriched_at": "2026-06-12T15:36:38+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJM3URK5-eToYRtcp4isDx-v8",
+    "domain": "dallas.eagletransmission.com",
+    "enriched_at": "2026-06-12T15:38:35+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJQ8GgyXKYToYRzs13b4cq9lU",
+    "domain": "www.a1dallasautoparts.com",
+    "enriched_at": "2026-06-12T15:42:00+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ072homujToYRlqWC83BS_2o",
+    "domain": "www.magicautosalestx.com",
+    "enriched_at": "2026-06-12T15:45:00+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "alex thabata",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [
+          {
+            "value": "abuse@name.com",
+            "source": "whois",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ9YpScmGjToYR6Nmf0e8Yfy0",
+    "domain": "www.dfwcarstereo.com",
+    "enriched_at": "2026-06-12T15:49:29+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJB6-nDnOjToYReiU7IqdFNxo",
+    "domain": null,
+    "enriched_at": "2026-06-12T15:57:26+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJ8Twc1rW8ToYRsrDiURyI2kE",
+    "domain": "luistransmissions.com",
+    "enriched_at": "2026-06-12T15:59:18+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "poc_name": {
+        "candidates": [
+          {
+            "value": "Info",
+            "source": "deep_site_crawl_heading",
+            "query": null,
+            "snippet": null,
+            "judge_verdict": null,
+            "judge_confidence": null,
+            "judge_reasoning": null
+          }
+        ],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  },
+  {
+    "place_id": "ChIJpfPrxDm9ToYR0eivMEtrtrs",
+    "domain": null,
+    "enriched_at": "2026-06-12T16:03:49+00:00",
+    "fields": {
+      "linkedin_url_company": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      },
+      "linkedin_url_poc": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_poc_name_known"
+      },
+      "social_urls": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_name": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_email": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "poc_role": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": null
+      },
+      "news_mentions": {
+        "candidates": [],
+        "selected_index": null,
+        "selected_confidence": null,
+        "skipped_reason": "no_results"
+      }
+    },
+    "errors": []
+  }
+]

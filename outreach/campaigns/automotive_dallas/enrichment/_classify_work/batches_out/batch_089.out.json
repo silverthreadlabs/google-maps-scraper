@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3564,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "Very slow service. It's an inspection station but only 1 guy does it.",
+        "reasoning": "Slow service due to understaffing signals an operational quality issue, but no appointment-wait sub fits a walk-in inspection station."
+      }
+    ]
+  }
+]

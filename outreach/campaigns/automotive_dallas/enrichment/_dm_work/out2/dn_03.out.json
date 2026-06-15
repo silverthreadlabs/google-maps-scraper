@@ -1,0 +1,81 @@
+{
+  "ChIJPSNyIp-jToYR30rcRkTUjLQ": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/Kingwheelsandtire/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/king-wheel-and-tire-dallas-7",
+      "email": "",
+      "evidence": "Facebook page 'Kings Wheels'/'King Wheel & Tire' explicitly lists 3803 S Buckner Blvd Dallas TX 75227 and phone 214-381-2903 (matches batch). Yelp listing same address. Note: a website kingwheelntire.com also exists despite batch marking no-website."
+    }
+  },
+  "ChIJp3vgVaeYToYR11m8gQexcxQ": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/teres.tires.1/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/teres-tires-dallas-2",
+      "email": "",
+      "evidence": "Yelp and CMac/Birdeye listings confirm Tere's Tires at 5230 E R L Thornton Fwy, Dallas TX 75223, phone 214-370-9511 (matches batch). Facebook business page 'Teres Tires' found via search; FB content truncated so address not independently re-verified on FB itself."
+    }
+  },
+  "ChIJDwDsBUCaToYR6CkhbIAqYv0": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/unlimited-state-inspection-dallas",
+      "email": "",
+      "evidence": "Yellowpages, Yahoo Local, Birdeye and Yelp all list Unlimited State Inspection at 1123 S Hampton Rd, Dallas TX 75208, phone 214-946-5071 (matches batch). Yelp listing marked CLOSED. No social handles or email found; no owner name surfaced."
+    }
+  },
+  "ChIJk7uKah6cToYRWOsFYtk-nkg": {
+    "people": [],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "",
+      "email": "",
+      "evidence": "Only a wheree.com directory listing matches the name 'Inwood Inspections' at 2436 Inwood Rd, Dallas TX 75235. The address currently shows a different business 'Park Cities Dallas Inspections' (phone 214-920-5030) which does NOT match the batch phone 214-813-8764, so not cross-attributed. No verified socials, email, or owner for Inwood Inspections found."
+    }
+  },
+  "ChIJuUpFoSybToYRz9sdx9yyu1g": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/FaithAutoGlass/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/low-price-auto-glass-dallas-7",
+      "email": "",
+      "evidence": "Low Price Auto Glass operates as 'Faith Auto Glass'. TruckMap and Yelp confirm 5301 S Second Ave / 5301 2nd Ave, Dallas TX 75210, phone 214-467-4450 (matches batch). Facebook page 'Faith Auto Glass - Low Price Auto Glass' is the company channel. Website faithautoglassdallas.com confirms same address (lists alt phone 214-421-1575); business is 'family owned' but no owner name disclosed."
+    }
+  },
+  "ChIJtYL8GfaYToYRwMfkzZVRF88": {
+    "people": [
+      {
+        "name": "Francis J Hegwer",
+        "role": "Owner",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "Buzzfile company profile for House of Parts Inc (phone 214-421-4158, 1624 Martin Luther King Jr Blvd Dallas TX 75215, matches batch) names Francis J Hegwer as Owner. Single-source (Buzzfile); no contact channels for the person found."
+      }
+    ],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/house-of-parts-dallas",
+      "email": "",
+      "evidence": "Yelp, Yellowpages, Buzzfile, hub.biz all list House of Parts at 1624 Martin Luther King Jr Blvd, Dallas TX 75215, phone 214-421-4158 (matches batch). Auto parts store ~53 yrs in business. No social handles or public email found."
+    }
+  }
+}

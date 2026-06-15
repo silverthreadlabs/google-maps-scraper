@@ -1,0 +1,33 @@
+[
+  {
+    "id": 4261,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.78,
+        "quote": "How can the driver of their own car say that something’s not working right and you dismiss them saying that it is?",
+        "reasoning": "Customer raised a specific concern that the car still wasn't working and staff dismissed it as functioning."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "they were condescending",
+        "reasoning": "Staff described as condescending in tone when the customer confronted them."
+      }
+    ]
+  },
+  {
+    "id": 4275,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "rude and I got talked to like I'm slow",
+        "reasoning": "Customer reports being treated rudely and condescendingly by staff."
+      }
+    ]
+  }
+]

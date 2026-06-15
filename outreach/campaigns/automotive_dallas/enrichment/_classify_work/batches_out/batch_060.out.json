@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2414,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "one of the guys in charge got really rude and even pushed me",
+        "reasoning": "Staff member behaved rudely and physically aggressively toward the customer."
+      }
+    ]
+  }
+]

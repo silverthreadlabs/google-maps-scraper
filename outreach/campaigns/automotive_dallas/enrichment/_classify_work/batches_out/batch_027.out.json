@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1081,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.92,
+        "quote": "Was quoted one price over the phone then when I get there it doubles",
+        "reasoning": "Quoted one price then charged double on arrival is a classic quoted-X-billed-Y surprise."
+      }
+    ]
+  },
+  {
+    "id": 1083,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "Price charged was 3-times the  quotation",
+        "reasoning": "Charge was triple the quotation, an explicit quoted-X-billed-Y divergence."
+      }
+    ]
+  },
+  {
+    "id": 1086,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.78,
+        "quote": "over charged me for the subwoofer by 100",
+        "reasoning": "Customer states they were overcharged by $100 versus expected price."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "I was there for three hours to get my window Santa Ana subwoofer put in finally got tired of waiting",
+        "reasoning": "Waited three hours and then into a second day far past expectation."
+      }
+    ]
+  },
+  {
+    "id": 1090,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.75,
+        "quote": "when I pointed out several issues in the tint they did they said \"it's an old car - we don't want to spend too much time on it\"",
+        "reasoning": "Customer raised specific issues and was dismissed rather than addressed."
+      }
+    ]
+  },
+  {
+    "id": 1091,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.82,
+        "quote": "after left me for 3 hours waiting",
+        "reasoning": "Left waiting three hours past expectation."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.78,
+        "quote": "he didn't even checked it",
+        "reasoning": "Staff handed back the car claiming it was fixed without actually checking the problem."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.78,
+        "quote": "he answered me very rude way didn't even said I'm sorry",
+        "reasoning": "Staff member responded in a rude manner without apology."
+      }
+    ]
+  },
+  {
+    "id": 1094,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.72,
+        "quote": "After being told my alarm system will take around 3 hours, I spent the entire day",
+        "reasoning": "Spent the whole day versus a 3-hour estimate, far past expected time."
+      }
+    ]
+  },
+  {
+    "id": 1095,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Hidden fees made the experience feel like I was dealing with Verizon wireless",
+        "reasoning": "Explicit hidden fees, an undisclosed upcharge."
+      }
+    ]
+  },
+  {
+    "id": 1097,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "I  was quoted $150 for each door, I called to verify and was quoted $200, so I showed up and asked in person and was quoted $500 for both doors",
+        "reasoning": "Price escalated repeatedly from the original quote, a quoted-X-billed-Y divergence."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.72,
+        "quote": "chose not honor the promise of a replacement or a refund as promised on the receipt",
+        "reasoning": "Promised refund/replacement was not honored."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "the employee said he’ll call me back later. When the employee didn’t call me back, I called",
+        "reasoning": "Promised callback never came; customer had to chase."
+      }
+    ]
+  },
+  {
+    "id": 1098,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.68,
+        "quote": "they said they would  put it back  on my card. So now I have  to  wait 3 to 5 days. I just hope I get my money  back",
+        "reasoning": "Refund delay with uncertainty about getting money back."
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.5,
+        "quote": "nobody willing to help over the phone",
+        "reasoning": "No phone assistance available when customer reached out."
+      }
+    ]
+  },
+  {
+    "id": 1100,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "I verified with them that they had a part I needed but when I got there they told me to go look around the yard. They did not have the part like they said",
+        "reasoning": "Staff gave false information about part availability after verification."
+      }
+    ]
+  },
+  {
+    "id": 1101,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.6,
+        "quote": "will not give you your money back credit only",
+        "reasoning": "Refund refused, store credit only."
+      }
+    ]
+  },
+  {
+    "id": 1103,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "refused to get me the information I needed and had no knowledge whatsoever",
+        "reasoning": "Staff failed to provide needed information and lacked knowledge."
+      }
+    ]
+  },
+  {
+    "id": 1104,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Very rude people!",
+        "reasoning": "Generic rudeness defaults to staff_rude_front_desk per disambiguation."
+      }
+    ]
+  },
+  {
+    "id": 1105,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.62,
+        "quote": "son muy prepotentes",
+        "reasoning": "Customer describes staff as arrogant/overbearing, a rude-tone complaint."
+      }
+    ]
+  },
+  {
+    "id": 1111,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "the owner was rude",
+        "reasoning": "Owner described as rude, a tone complaint."
+      }
+    ]
+  }
+]

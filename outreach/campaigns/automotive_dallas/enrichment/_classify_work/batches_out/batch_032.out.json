@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1282,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.55,
+        "quote": "they already had our money and since it was ‘as-is,’ they didn't care",
+        "reasoning": "Customer returned seeking help and the salesman dismissed their concern, saying they had the money and didn't care."
+      }
+    ]
+  }
+]

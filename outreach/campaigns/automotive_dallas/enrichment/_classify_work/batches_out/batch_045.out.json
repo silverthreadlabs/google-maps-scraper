@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1823,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.86,
+        "quote": "Manager is rude, doesn't really care and just wants to get people out the door",
+        "reasoning": "Rude, dismissive tone from staff with no clarity or ignored-concern detail."
+      }
+    ]
+  },
+  {
+    "id": 1828,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "The guy doing the inspection is completely rude.",
+        "reasoning": "Explicit complaint about rude staff tone, no clarity or dismissed-concern evidence."
+      }
+    ]
+  },
+  {
+    "id": 1836,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "quote": "The guy who did my inspection was SO RUDE!",
+        "reasoning": "Direct complaint about staff rudeness/tone."
+      }
+    ]
+  },
+  {
+    "id": 1838,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "There’s only one guy there that was rude to every client I saw, including myself.",
+        "reasoning": "Reports a staff member being rude to customers; tone complaint."
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1762,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "I was immediately presented with a bill for $128.75. When I objected, asking why I was paying for a diagnosis that was explicitly not performed",
+        "reasoning": "Charged for a diagnostic service that was not actually performed, plus an unapproved action, an unexpected charge dispute."
+      }
+    ]
+  },
+  {
+    "id": 1763,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "the young manger has denied me and have yelled at me for a simple request",
+        "reasoning": "Manager yelled at the customer over a simple request, dismissive/rude tone from non-clinical staff."
+      }
+    ]
+  },
+  {
+    "id": 1771,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "the 888 number is useless....no one will answer and the voicemail option is full",
+        "reasoning": "Customer reports no one answers the phone line and voicemail is full, unreachable by phone."
+      }
+    ]
+  },
+  {
+    "id": 1774,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "personnel at the front desk pretty rude and no customer service skills at all",
+        "reasoning": "Front desk staff described as rude with no customer service skills, rude tone complaint."
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 3371,
+    "categories": [
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.7,
+        "quote": "have been waiting three weeks via cancelled appointments",
+        "reasoning": "Repeated cancelled appointments and reschedules to get the work done."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "they were still running behind and I had to wait 2 hours extra",
+        "reasoning": "Waited two hours past the appointment time."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "the owner to get into a screaming match with me",
+        "reasoning": "Owner got into a screaming match with the customer."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "the owner not communicating at all",
+        "reasoning": "Customer reports the owner failed to communicate about the unresolved issue."
+      }
+    ]
+  },
+  {
+    "id": 3374,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.8,
+        "quote": "I do not need an oil change",
+        "reasoning": "Customer explicitly instructed no oil change yet they performed it and ignored the door request."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "There is a strong lack of communication at this place",
+        "reasoning": "Customer explicitly cites a strong lack of communication."
+      }
+    ]
+  },
+  {
+    "id": 3375,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.65,
+        "quote": "the owner Kelly told me that I make no sense, I wasted his time",
+        "reasoning": "Customer's dissatisfaction was dismissed when raised with the owner."
+      }
+    ]
+  },
+  {
+    "id": 3376,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.3,
+        "quote": "They charged me $54 just to air the tires!!",
+        "reasoning": "Charged for a trivial service, suggesting an unexpected/inflated charge."
+      }
+    ]
+  },
+  {
+    "id": 3377,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "Charged 3 hours to replace a belt and idler pulley on a C-13. 1 hour job MAX!",
+        "reasoning": "Specific claim of inflated labor charges beyond the actual job time."
+      }
+    ]
+  },
+  {
+    "id": 3396,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "not_listening_to_customer",
+        "confidence": 0.35,
+        "quote": "Nothing got done that I asked for.",
+        "reasoning": "Customer's requests were not acted on, though no detail on how."
+      }
+    ]
+  }
+]

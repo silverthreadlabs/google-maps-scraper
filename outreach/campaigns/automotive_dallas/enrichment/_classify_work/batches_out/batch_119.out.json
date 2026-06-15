@@ -1,0 +1,14 @@
+[
+  {
+    "id": 4763,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "they forget to clarify that they mean",
+        "reasoning": "Ambiguous payment instruction left the customer confused about cash/check-only terms, an unclear-information failure."
+      }
+    ]
+  }
+]

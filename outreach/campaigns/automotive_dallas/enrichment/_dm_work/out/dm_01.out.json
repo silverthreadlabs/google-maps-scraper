@@ -1,0 +1,109 @@
+{
+  "ChIJoTN0OfecToYRoMwgk7TUHHs": [
+    {
+      "name": "Raul Baray",
+      "role": "Founder, Owner & CEO",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/txtransmission",
+      "facebook": "",
+      "email": "txtransmissionrepair@gmail.com",
+      "confidence": 0.9,
+      "evidence": "txtransmissionrepair.com/about-us names Raul Baray as 'Founder, Owner & CEO'; company email and IG @txtransmission on site. Family-owned father-son business."
+    },
+    {
+      "name": "Tony Baray",
+      "role": "Owner & 1st General Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "txtransmissionrepair@gmail.com",
+      "confidence": 0.8,
+      "evidence": "txtransmissionrepair.com/about-us lists Tony Baray as 'Owner & 1st General Manager' (father; also referenced as Antonio)."
+    }
+  ],
+  "ChIJ4yUPBieaToYRWlrIThsq9Jc": [],
+  "ChIJj5s3556jToYRTB8KeQEaohw": [
+    {
+      "name": "Shawn Barakat",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/DallasCarAudioandmoreDCA/",
+      "email": "info@dallascaraudio.us",
+      "confidence": 0.65,
+      "evidence": "BBB profile 'Dallas Audio & More' at same address 3806 S Buckner Blvd lists 'Mr. Shawn Barakat, Owner'; that profile's fax (214) 275-8000 matches this place_id's phone, tying the owner to this business. Company email info@dallascaraudio.us and FB page from dallascaraudio.us/contact."
+    }
+  ],
+  "ChIJM3URK5-eToYRtcp4isDx-v8": [
+    {
+      "name": "Scott Richardson",
+      "role": "Owner / Operator",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/EagleTransmissionAutomotiveDallas",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "dallas.eagletransmission.com and multiple review sources name Scott Richardson as owner/operator of the Dallas (1000 Lupo Dr) location; FB page EagleTransmissionAutomotiveDallas verified on site. LinkedIn left empty - multiple Scott Richardsons in Dallas, none confirmed as this person."
+    },
+    {
+      "name": "Michelle",
+      "role": "Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.4,
+      "evidence": "First name only, referenced as manager in content on dallas.eagletransmission.com; no surname or personal channel found."
+    }
+  ],
+  "ChIJg3KOfFolTIYRTo2Mt1kUzss": [
+    {
+      "name": "John",
+      "role": "Co-owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/reconcentral/",
+      "facebook": "https://www.facebook.com/reconready/",
+      "email": "help@reconcentral.com",
+      "confidence": 0.5,
+      "evidence": "Co-owner 'John' named repeatedly in customer reviews (reconcentral.com, Yelp); first name only, no surname found. Company email help@reconcentral.com on site; FB facebook.com/reconready, IG @reconcentral."
+    },
+    {
+      "name": "Shelby",
+      "role": "Co-owner / interior specialist",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "help@reconcentral.com",
+      "confidence": 0.4,
+      "evidence": "First name only, mentioned in customer testimonials as co-owner/interior specialist on reconcentral.com; no surname or personal channel found."
+    }
+  ],
+  "ChIJGQo7oQicToYRP7O6rcmpKEM": [
+    {
+      "name": "Moe Pourahmadi",
+      "role": "Owner / President",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/asudallas/",
+      "facebook": "https://www.facebook.com/asudallas/",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "Multiple sources state Moe Pourahmadi (President of Sounds Etc Inc) bought American Sunroof & Upholstery of Dallas in 1999; BBB lists 'Moe' as principal contact. Verified FB facebook.com/asudallas, IG @asudallas. No personal email found."
+    }
+  ]
+}

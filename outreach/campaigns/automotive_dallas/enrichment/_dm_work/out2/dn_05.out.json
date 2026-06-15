@@ -1,0 +1,73 @@
+{
+  "ChIJgZ7LxHWXToYRcNlNBavGMnI": {
+    "people": [],
+    "company": {
+      "facebook": "https://www.facebook.com/Aztireandauto/",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/a-to-z-customs-dallas",
+      "email": "Salihsilo6@gmail.com",
+      "evidence": "Facebook page 'A to Z Customs | Dallas TX' (Aztireandauto) and Yelp listing both match 1909 E Ann Arbor Ave, Dallas TX 75216 / (214) 372-0888. Public business email Salihsilo6@gmail.com appears consistently across directory listings (Roadtrippers/search) tied to the same phone+address. No named owner publicly verified."
+    }
+  },
+  "ChIJ7eM5fQKYToYRxKEcRTrRxhQ": {
+    "people": [
+      {
+        "name": "Abraham Lopez",
+        "role": "Owner / Principal Contact",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "facebook": "",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "BBB profile for International Body Shop (International Paint & Body Shop), 7525 S Central Expy, Dallas TX 75216, (214) 374-6225, lists Principal/Customer Contact as 'Mr. Abraham Lopez'. Phone and address match the target record."
+      }
+    ],
+    "company": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/international-paint-and-body-shop-dallas",
+      "email": "",
+      "evidence": "BBB profile (bbb.org/us/tx/dallas/profile/auto-repair/international-body-shop-0875-90470145) and Yelp confirm 7525 S Central Expy, Dallas TX 75216 / (214) 374-6225. No company social pages or public email found."
+    }
+  },
+  "ChIJ2ywu-JijToYRiKTGCAIGeBQ": {
+    "people": [
+      {
+        "name": "Robert",
+        "role": "Owner / Contact",
+        "primary": true,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "https://www.instagram.com/jrakustomz/",
+        "facebook": "https://www.facebook.com/jrakustomz/",
+        "email": "",
+        "confidence": "medium",
+        "evidence": "JRA Kustomz Instagram (@jrakustomz, 11K followers, auto & boat upholstery) lists contact 'Robert (214) 317-8545' — the exact shop phone for J R Upholstery Auto & Boat Interiors. Robert is the holder of the main business line, so marked primary."
+      },
+      {
+        "name": "Jesus",
+        "role": "Contact",
+        "primary": false,
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "https://www.instagram.com/jrakustomz/",
+        "facebook": "https://www.facebook.com/jrakustomz/",
+        "email": "",
+        "confidence": "low",
+        "evidence": "Same JRA Kustomz Instagram bio lists a second contact 'Jesus (214) 681-6137'. Likely co-owner ('J&R' = Jesus & Robert) but role not explicitly stated."
+      }
+    ],
+    "company": {
+      "facebook": "https://www.facebook.com/jrakustomz/",
+      "instagram": "https://www.instagram.com/jrakustomz/",
+      "linkedin": "",
+      "yelp": "https://www.yelp.com/biz/j-r-upholstery-auto-and-boat-interiors-dallas",
+      "email": "",
+      "evidence": "JRA Kustomz Facebook post explicitly shows 'call/text 214-317-8545 for quotes' and describes complete interior/upholstery work; Instagram @jrakustomz lists same phone and address 4129 S Buckner Blvd Suite A, Dallas TX — exact match to target J R Upholstery Auto & Boat Interiors record. 'JRA Kustomz' is the active brand for this business."
+    }
+  }
+}

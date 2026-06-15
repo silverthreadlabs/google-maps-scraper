@@ -1,0 +1,38 @@
+[
+  {
+    "id": 2222,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.82,
+        "quote": "Rude.  No people skills.",
+        "reasoning": "Explicitly describes rude, dismissive staff with no people skills."
+      }
+    ]
+  },
+  {
+    "id": 2226,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Rude staff. Seemed friendly to other races",
+        "reasoning": "Directly reports rude staff behavior toward the reviewer."
+      }
+    ]
+  },
+  {
+    "id": 2239,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.55,
+        "quote": "my seats are dented, creased, and just look terrible. I brought my vehicle back to have it fixed and I was told that this was the best they could do",
+        "reasoning": "Custom seat install failed spec within months and the shop refused to remedy it."
+      }
+    ]
+  }
+]

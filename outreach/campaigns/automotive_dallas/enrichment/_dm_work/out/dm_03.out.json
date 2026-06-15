@@ -1,0 +1,98 @@
+{
+  "ChIJ7Y4MtRiDToYRdm3Kr8npPOM": [
+    {
+      "name": "James Reeves",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/james-reeves-654ab778/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/jrs.custom.auto/",
+      "facebook": "https://www.facebook.com/jrscustomauto",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "BBB profile lists 'Mr. James Reeves, Owner/Manager' (legal name James Reeves, Inc.); LinkedIn result 'James Reeves - jrs custom auto'; company IG/FB from jrscustomauto.com. Sources: bbb.org/us/tx/irving/profile/car-stereos/j-rs-custom-auto-0875-90010166, linkedin.com/in/james-reeves-654ab778"
+    }
+  ],
+  "ChIJD637ZJInTIYRmsTT-59zXQs": [
+    {
+      "name": "Sue Martin",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://twitter.com/asmautoupholst",
+      "instagram": "https://www.instagram.com/asmautoupholstery/",
+      "facebook": "https://www.facebook.com/suemartinasm/",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "Voyage Dallas interview 'Meet Sue Martin of ASM Auto Upholstery'; ASM about page; Sue is the named owner (also known from Fast N' Loud). Personal FB facebook.com/suemartinasm; company twitter/IG from asmautoupholstery.com. Sources: voyagedallas.com/interview/meet-sue-martin-asm-auto-upholstery-north-dallas, asmautoupholstery.com/about"
+    }
+  ],
+  "ChIJoyUad7WgToYRIoc0WWjCy6w": [
+    {
+      "name": "Mansour Awwad",
+      "role": "President / Founder (aka Manny Awad)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://twitter.com/texasaudio",
+      "instagram": "https://www.instagram.com/texasaudio",
+      "facebook": "https://www.facebook.com/texasaudiosound",
+      "email": "sales@texasaudio.com",
+      "confidence": 0.88,
+      "evidence": "BBB profile lists 'Mr. Mansour Awwad, President'; founder named as Manny Awad (est. 1978) on texasaudio.com/why-choose-us. Company email/socials from texasaudio.com. NOTE: distinct from separate shop 'Texas Audio Customs'/@txaudiocustoms (Moe Awad, 2218 S Jupiter Rd). Sources: bbb.org/us/tx/garland/profile/car-service/texas-audio-0875-90319066, texasaudio.com"
+    },
+    {
+      "name": "Junior Awad",
+      "role": "Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "sales@texasaudio.com",
+      "confidence": 0.8,
+      "evidence": "BBB profile lists 'Mr. Junior Awad, Manager' for Texas Audio. Source: bbb.org/us/tx/garland/profile/car-service/texas-audio-0875-90319066"
+    }
+  ],
+  "ChIJ9YpScmGjToYR6Nmf0e8Yfy0": [
+    {
+      "name": "David Awad",
+      "role": "Owner (inferred)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/dallascarstereo/",
+      "facebook": "https://www.facebook.com/p/Dallas-Car-Stereo-Tint-61556349180252/",
+      "email": "david_awad@live.com",
+      "confidence": 0.3,
+      "evidence": "Email david_awad@live.com appears on the Dallas Car Stereo Nextdoor business listing; name inferred from email local-part, NOT independently confirmed. Family-owned, est. 1990. (Surname 'Awad' also appears at unrelated Texas Audio shop.) Sources: nextdoor.com/pages/dallas-car-stereo-dallas-tx, dfwcarstereo.com/contact"
+    }
+  ],
+  "ChIJDYSPG3cfTIYR4uBFxTUNdq0": [
+    {
+      "name": "Luis",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/p/A1-Quality-Transmission-Auto-Repair-100087672227886/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Multiple customer reviews name the owner as 'Luis' (also spelled 'Lewis'); family-owned, est. 2004. Full last name not found in public sources. Company FB page present. Sources: surecritic.com/reviews/a1-quality-trans-and-auto-rpr, yelp.com/biz/a1-quality-transmission-and-auto-repair-richardson-4"
+    }
+  ],
+  "ChIJA-VRlLSEToYRu_v0Tb03Fos": [
+    {
+      "name": "Kimberley Andrews Guivehchi",
+      "role": "Principal / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB lists 'Ms. Kimberley Andrews Guivehchi, Manager' of A2Z Auto Body Parts, LLC; also listed as Principal (Kimberly M Guivehchi). Small family business, est. 2003. Sources: bbb.org/us/tx/dallas/profile/wholesale-auto-parts/a2z-auto-body-parts-llc-0875-90461725, bizapedia.com/tx/a2z-auto-body-parts-llc.html"
+    }
+  ]
+}

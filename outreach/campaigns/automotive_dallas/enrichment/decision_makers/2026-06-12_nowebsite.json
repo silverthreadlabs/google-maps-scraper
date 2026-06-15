@@ -1,0 +1,140 @@
+{
+  "ChIJBy5kqnWjToYRgoTJYCL-y9k": [
+    {
+      "name": "Ahmed Hamayel",
+      "role": "President/Director",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "BBB business profile for Buckner Car Audio (2952 S Buckner Blvd, Dallas, phone 214-275-5711) lists principal as Mr. Ahmed Hamayel, President/Director. Address and phone match the target."
+    }
+  ],
+  "ChIJNRxpKACjToYRln0JX0JNIy8": [
+    {
+      "name": "Justin Christopher Jordan",
+      "role": "Executive Director/CEO",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "BBB profile for International Transmission Repair (aka International Transmission Group Inc.) lists Mr. Justin Christopher Jordan as Executive Director/CEO. BBB lists 8229 Scyene Rd, Dallas 75227 as one of its addresses, matching the target."
+    }
+  ],
+  "ChIJvbTmrDqXToYR8tcl52HHgZY": [
+    {
+      "name": "Jose R. Reyes",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "BBB profile (auto-salvage/stop-n-pull-auto-part-and-salvage) for the 5419 S R.L. Thornton Fwy, Dallas TX 75232 location (phone 214-375-9833, exact match) lists Jose R. Reyes as Owner/Manager of the sole proprietorship."
+    }
+  ],
+  "ChIJJ8pnlsCYToYRaQDrVXGk_zY": [
+    {
+      "name": "Clay E. Drury",
+      "role": "Vice President",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "Listed as Principal Contact and Customer Contact ('Mr. Clay E. Drury, Vice President') on the BBB profile fetched directly (bbb.org/.../like-nu-auto-paint-and-body-works-0875-1593) for the business at 3930 Main St, Dallas TX 75226 / 214-821-3856. A second contact 'Billy Martin' also appears in listings but Drury is the named principal."
+    }
+  ],
+  "ChIJtYL8GfaYToYRwMfkzZVRF88": [
+    {
+      "name": "Francis J Hegwer",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Buzzfile company profile for House of Parts Inc (phone 214-421-4158, 1624 Martin Luther King Jr Blvd Dallas TX 75215, matches batch) names Francis J Hegwer as Owner. Single-source (Buzzfile); no contact channels for the person found."
+    }
+  ],
+  "ChIJ-dkWwLiYToYRy4YeoSKWa7U": [
+    {
+      "name": "Alberto Garcia",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Listed as owner of GBG Auto Repair & Inspection (110 N Peak St, Dallas TX, phone 214-370-0375 confirmed on BBB profile) in business directory listing. Name not corroborated on BBB itself; no personal social channel found."
+    }
+  ],
+  "ChIJebkoWZCaToYRflH7joGGAaM": [
+    {
+      "name": "Jared Rios",
+      "role": "Vehicle Inspector",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/jared-rios-298105162/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "LinkedIn profile title 'Jared Rios - Vehicle Inspector at Jared Inspections' matches the business name; business is at 2124 S Cockrell Hill Rd, Dallas TX 75211, phone 469-964-0156. Likely the principal given matching first name 'Jared'."
+    }
+  ],
+  "ChIJ7eM5fQKYToYRxKEcRTrRxhQ": [
+    {
+      "name": "Abraham Lopez",
+      "role": "Owner / Principal Contact",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "BBB profile for International Body Shop (International Paint & Body Shop), 7525 S Central Expy, Dallas TX 75216, (214) 374-6225, lists Principal/Customer Contact as 'Mr. Abraham Lopez'. Phone and address match the target record."
+    }
+  ],
+  "ChIJ2ywu-JijToYRiKTGCAIGeBQ": [
+    {
+      "name": "Robert",
+      "role": "Owner / Contact",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/jrakustomz/",
+      "facebook": "https://www.facebook.com/jrakustomz/",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "JRA Kustomz Instagram (@jrakustomz, 11K followers, auto & boat upholstery) lists contact 'Robert (214) 317-8545' — the exact shop phone for J R Upholstery Auto & Boat Interiors. Robert is the holder of the main business line, so marked primary."
+    },
+    {
+      "name": "Jesus",
+      "role": "Contact",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/jrakustomz/",
+      "facebook": "https://www.facebook.com/jrakustomz/",
+      "email": "",
+      "confidence": 0.35,
+      "evidence": "Same JRA Kustomz Instagram bio lists a second contact 'Jesus (214) 681-6137'. Likely co-owner ('J&R' = Jesus & Robert) but role not explicitly stated."
+    }
+  ]
+}

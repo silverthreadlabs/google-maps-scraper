@@ -1,0 +1,50 @@
+[
+  {
+    "id": 3543,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.78,
+        "quote": "upcharging while its suppose to be 20",
+        "reasoning": "Customer charged more than the expected $20 price, an undisclosed upcharge."
+      }
+    ]
+  },
+  {
+    "id": 3545,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.92,
+        "quote": "The most rude nasty person to deal with.",
+        "reasoning": "Explicit complaint about rude, dismissive front-desk behavior."
+      }
+    ]
+  },
+  {
+    "id": 3546,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "quote": "the front desk on sunday april 28th between 5 and 6 pm and did the inspection on my 2021 silverado was rude",
+        "reasoning": "Front desk worker described as rude and unfit to deal with customers."
+      }
+    ]
+  },
+  {
+    "id": 3551,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "Worst customer service ever!!!",
+        "reasoning": "Staff ignored the customer, made them chase employees, and brushed them off with a dismissive tone."
+      }
+    ]
+  }
+]

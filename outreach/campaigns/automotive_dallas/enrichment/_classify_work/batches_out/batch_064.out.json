@@ -1,0 +1,76 @@
+[
+  {
+    "id": 2568,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "the first paperwork Malek did did not add up to final",
+        "reasoning": "Estimate diverged from final charges, with the secretary later calling about new prices — quoted X, billed Y."
+      }
+    ]
+  },
+  {
+    "id": 2570,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "charges fleet company’s for oil changes and doesn’t do the oil change",
+        "reasoning": "Alleges being charged for a service not performed; straddles work-quality, kept low confidence."
+      }
+    ]
+  },
+  {
+    "id": 2577,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "I was told this process would take 2 and a hours, it’s now going on 4",
+        "reasoning": "Waited far past the quoted service time during the job."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "no one has come to tell me any updates. I am the one asking about my vehicle",
+        "reasoning": "No status updates provided; customer had to chase for information."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "they have the audacity to have an attitude telling me it’s takes time",
+        "reasoning": "Staff responded with a dismissive attitude to the customer's inquiry."
+      }
+    ]
+  },
+  {
+    "id": 2582,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.4,
+        "quote": "they charge me $75 they didn’t fix anything they rip me off",
+        "reasoning": "Charged for a repair that was not performed; ambiguous with work quality, low confidence."
+      }
+    ]
+  },
+  {
+    "id": 2583,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.8,
+        "quote": "Won’t answer the phone at either location",
+        "reasoning": "Customer could not reach the business by phone at either location."
+      }
+    ]
+  }
+]

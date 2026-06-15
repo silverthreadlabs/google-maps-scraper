@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3634,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.9,
+        "quote": "they charged me a 4% fee without notifying me upfront",
+        "reasoning": "Undisclosed credit-card fee added at payment time without prior notice is an unexpected charge."
+      }
+    ]
+  }
+]

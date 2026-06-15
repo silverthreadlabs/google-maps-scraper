@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2735,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "Quotes one price put on hold then drove over a hour for them to change the price",
+        "reasoning": "Quoted one price, then the price was changed when the customer arrived — bait-and-switch / quoted X charged Y."
+      }
+    ]
+  }
+]

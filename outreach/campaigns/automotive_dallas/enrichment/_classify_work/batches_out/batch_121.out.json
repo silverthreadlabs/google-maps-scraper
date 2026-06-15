@@ -1,0 +1,14 @@
+[
+  {
+    "id": 4868,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "Very rude. Just pick up and hang up. It’s just very disrespectful.",
+        "reasoning": "Staff treated a caller rudely and dismissively by hanging up, a clear front-of-house rudeness complaint."
+      }
+    ]
+  }
+]

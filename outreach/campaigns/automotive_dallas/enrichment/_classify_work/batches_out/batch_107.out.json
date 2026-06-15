@@ -1,0 +1,57 @@
+[
+  {
+    "id": 4297,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.82,
+        "quote": "put you on a “waiting list” never to be heard from again",
+        "reasoning": "Customer was put on a waiting list and never contacted back about service they actively sought."
+      }
+    ]
+  },
+  {
+    "id": 4298,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.75,
+        "quote": "he changed his story saying that \"we dont usually fix leaks. We are more of a restoration shop\"",
+        "reasoning": "Staff gave contradictory information about what services they offer after an initial commitment."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "but he would call and fit me in. Well here we are just a few days to August.",
+        "reasoning": "Customer was promised a callback to fit them in and never heard back."
+      }
+    ]
+  },
+  {
+    "id": 4299,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "So frustrating to ask specific questions and never get the specific answer but just a lot of dishonesties.",
+        "reasoning": "Customer repeatedly asked specific questions and received unclear, evasive answers."
+      }
+    ]
+  },
+  {
+    "id": 4302,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "charged me more to fix what they installed",
+        "reasoning": "Customer was charged additional, unexpected fees to fix work the shop had originally installed."
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 400,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.7,
+        "quote": "I Waited Almost An Hour Before They Finally Brought It Out",
+        "reasoning": "Customer waited far past the promised pickup time."
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.8,
+        "quote": "I sat and waited an hour an half for a part that is already pulled. While being told 10 minutes",
+        "reasoning": "Waited an hour and a half despite being told ten minutes."
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "They picked up the phone then i heard voices and they hung up. No contact",
+        "reasoning": "Phone answered then hung up and unreachable on callback; no listed sub fits exactly."
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.65,
+        "quote": "Not helpful and very rude!",
+        "reasoning": "Bare rudeness complaint defaults to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.5,
+        "quote": "Rude cats",
+        "reasoning": "Generic rudeness complaint defaults to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "medio un presió cunlo le able y ya estando ahí me cobro el doble de loq valen",
+        "reasoning": "Quoted one price then charged double on arrival."
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.55,
+        "quote": "Se tardan un Siglo para quitar las partes",
+        "reasoning": "Excessive wait to remove the parts."
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.8,
+        "quote": "quoted me $120. Upon arrival I was told $160",
+        "reasoning": "Quoted $120 then charged a higher price on arrival."
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.75,
+        "quote": "His overall approach felt rushed and inattentive",
+        "reasoning": "Employee skipped proper steps; approach was rushed and inattentive."
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "rushed_or_inattentive_visit",
+        "confidence": 0.55,
+        "quote": "Clearly no real inspection was done",
+        "reasoning": "Paid for an inspection that was not actually performed."
+      }
+    ]
+  }
+]

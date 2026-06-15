@@ -1,0 +1,62 @@
+[
+  {
+    "id": 4005,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.55,
+        "quote": "Language is Gesticulation, except if you are lucky to run into the owner",
+        "reasoning": "Communication only by gesture implies no shared spoken language with staff."
+      }
+    ]
+  },
+  {
+    "id": 4014,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.8,
+        "quote": "They don’t speak English",
+        "reasoning": "Direct statement that staff cannot communicate in the customer's language."
+      }
+    ]
+  },
+  {
+    "id": 4029,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "Soon is very rude and there is no good customer service",
+        "reasoning": "Bare rudeness complaint about staff; default to staff_rude_front_desk."
+      }
+    ]
+  },
+  {
+    "id": 4035,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "the old man sitting in chair front desk cussed at me over the phone no kind of manners",
+        "reasoning": "Front-desk staff cussed at the customer with no manners — clear rude-tone signal."
+      }
+    ]
+  },
+  {
+    "id": 4036,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "they charged me 2000 for a 300 motor",
+        "reasoning": "Heavily inflated charge relative to part value matches the 'rates seemed inflated' trigger."
+      }
+    ]
+  }
+]

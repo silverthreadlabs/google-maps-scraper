@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJ7Y4MtRiDToYRdm3Kr8npPOM",
+    "company": "JR's Custom Auto Service Irving TX",
+    "website": "http://www.jrscustomauto.com/",
+    "phone": "+1 972-438-4902",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "150 E Airport Fwy, Irving, TX 75062, United States"
+  },
+  {
+    "place_id": "ChIJD637ZJInTIYRmsTT-59zXQs",
+    "company": "ASM Auto Upholstery",
+    "website": "https://www.asmautoupholstery.com/",
+    "phone": "+1 972-406-8130",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "11511 Reeder Rd Suite A, Dallas, TX 75229, United States"
+  },
+  {
+    "place_id": "ChIJoyUad7WgToYRIoc0WWjCy6w",
+    "company": "Texas Audio Car Stereo & Security",
+    "website": "https://www.texasaudio.com/",
+    "phone": "+1 972-864-2114",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "3035 S Shiloh Rd #135, Garland, TX 75041, United States"
+  },
+  {
+    "place_id": "ChIJ9YpScmGjToYR6Nmf0e8Yfy0",
+    "company": "Dallas Car Stereo & Tint",
+    "website": "http://www.dfwcarstereo.com/",
+    "phone": "+1 214-398-2820",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "9110 Bruton Rd, Dallas, TX 75217, United States"
+  },
+  {
+    "place_id": "ChIJDYSPG3cfTIYR4uBFxTUNdq0",
+    "company": "A1 Quality Transmission & Auto Repair",
+    "website": "http://www.a1transmissionrichardson.com/",
+    "phone": "+1 972-235-2277",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "405 S Central Expy suit#138, Richardson, TX 75080, United States"
+  },
+  {
+    "place_id": "ChIJA-VRlLSEToYRu_v0Tb03Fos",
+    "company": "A-2-Z Auto Body Parts",
+    "website": "http://www.a2zautobodypart.com/",
+    "phone": "+1 214-267-2787",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "6355 Zenith St, Dallas, TX 75212, United States"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2646,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.6,
+        "quote": "there is a language barrier",
+        "reasoning": "Customer explicitly notes a language barrier that affected the interaction over the requested service."
+      }
+    ]
+  },
+  {
+    "id": 2654,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.9,
+        "quote": "submitted an inquiry ticket for reupholstering and re-padding a motorcycle seat. Waited a week; no response",
+        "reasoning": "Customer actively requested a quote multiple times and never received a usable response."
+      }
+    ]
+  },
+  {
+    "id": 2655,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.85,
+        "quote": "he would call me back after getting estimates. It's been almost a month and I haven't heard from them",
+        "reasoning": "Promised a callback with estimates and never followed up for nearly a month."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "John the manager called me after reading this review and began yelling and screaming at me on the phone",
+        "reasoning": "Manager yelled, screamed, and threatened the customer."
+      }
+    ]
+  },
+  {
+    "id": 2656,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.85,
+        "quote": "Quoted a reasonable price over the phone, get here today and the price is now 4X the quote",
+        "reasoning": "Price quoted on the phone was 4x higher on arrival; genuine post-agreement bait-and-switch."
+      }
+    ]
+  },
+  {
+    "id": 2658,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.4,
+        "quote": "Too bad they couldn't answer my question on scheduling",
+        "reasoning": "Provided a price but failed to answer the customer's scheduling question."
+      }
+    ]
+  },
+  {
+    "id": 2662,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "both people I spoke with from ASM were extremely rude",
+        "reasoning": "Both staff members were described as extremely rude during a quote inquiry."
+      }
+    ]
+  },
+  {
+    "id": 2664,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "the front desk lady didn't acknowledge me when I walked in",
+        "reasoning": "Front desk ignored the customer on arrival, chatting instead of acknowledging them."
+      }
+    ]
+  },
+  {
+    "id": 2665,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "the woman I spoke with was just flat out rude",
+        "reasoning": "Staff member described as flat out rude when asked basic questions."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "they seemed unwilling to answer the most basic questions",
+        "reasoning": "Staff would not answer basic questions, leaving the customer without information."
+      }
+    ]
+  },
+  {
+    "id": 2671,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "The receptionist CJ also treated my BIL horrible on the phone. He was so rude.",
+        "reasoning": "Receptionist treated a family member horribly and rudely on the phone."
+      }
+    ]
+  },
+  {
+    "id": 2675,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "Extremely rude.",
+        "reasoning": "Staff were extremely rude and refused to continue a phone conversation about pricing."
+      }
+    ]
+  },
+  {
+    "id": 2679,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "it’s highly unprofessional to call the customer “baby” not once but 3 times",
+        "reasoning": "Owner repeatedly addressed the customer as 'baby' and made them uncomfortable."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "long_wait_in_chair_or_seat",
+        "confidence": 0.65,
+        "quote": "I had to wait almost an hour for the owner",
+        "reasoning": "Customer waited nearly an hour past arrival for the owner to assist."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "All I wanted was a proper quote in paper and my questions answered and I didn’t get any of that",
+        "reasoning": "Customer requested a written quote and answers but never received them."
+      }
+    ]
+  }
+]

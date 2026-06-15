@@ -1,0 +1,364 @@
+[
+  {
+    "id": 0,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "Went to look at it and they said it just came in a few days ago",
+        "reasoning": "Told one thing on the listing/phone, contradictory info in person about the part."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.45,
+        "quote": "Complete bait and switch scam",
+        "reasoning": "Bait-and-switch framing, an explicit surprise_billing trigger."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "Verified on the phone that they had it and the price before sending someone to pick it up",
+        "reasoning": "Phone confirmation contradicted in person (they didn't have it)."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "they don’t actually have the transmission and they can get one for even more money",
+        "reasoning": "Quoted price not honored, pushed a higher-priced item — bait-and-switch."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "They said somebody would call me back in about 10 min. That was a lie",
+        "reasoning": "Promised callback never came; repeated failed callbacks."
+      },
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.6,
+        "quote": "gave me a cellphone to text information to. Never heard back",
+        "reasoning": "Customer actively pursued a purchase, sent info, never heard back."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "they tell you a price over the phone and then don't honor it in person",
+        "reasoning": "Quoted X on phone, different price in person — explicit surprise_billing trigger."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "If someone says they have something in stock I would hope they have it in the yard",
+        "reasoning": "Told it was in stock, in person it was offsite — contradictory information."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "they said yes they do, I drove in 1-1/2hr to get there, when showed Up, I got ignored",
+        "reasoning": "Phone confirmation contradicted in person (didn't have it)."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.65,
+        "quote": "They replied that the shipping department would return my call. Called a second time on Friday and they replied that shipping dept. would call but never called",
+        "reasoning": "Repeated promised callbacks that never came."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.6,
+        "quote": "they immediately charged my credit card",
+        "reasoning": "Charged before shipping, refund stopped via card company — payment handling issue."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "Price suddenly went up multiple times",
+        "reasoning": "Quoted price escalated repeatedly in person — surprise_billing."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "categories": []
+  },
+  {
+    "id": 13,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "never returns phone calls and usually just got stuck on hold",
+        "reasoning": "Calls not returned during a warranty issue."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.55,
+        "quote": "160 bucks or he’ll put it back because its worth 200 dollars. He haggled to 120",
+        "reasoning": "Price inflated far above market and shifted during transaction."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "categories": []
+  },
+  {
+    "id": 18,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.7,
+        "quote": "I have been trying to get my money back for over a month",
+        "reasoning": "Refund delayed over a month — payment_issues."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.55,
+        "quote": "he would have the owners call me...HEY OWNERS - I am still waiting",
+        "reasoning": "Promised owner callback never came."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.65,
+        "quote": "When I returned the core I was only refunded $75.00",
+        "reasoning": "Partial refund on a returnable core deposit — refund/payment issue."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.75,
+        "quote": "I was told because I'm a women, I shouldn't complain and they refused to sell me the part",
+        "reasoning": "Dismissive, sexist treatment from staff."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": "language_barrier",
+        "confidence": 0.7,
+        "quote": "they can't speak English so it was so hard to understand him",
+        "reasoning": "Explicit stated language barrier impeding communication."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "trying to scam me with 150 extra on transmission",
+        "reasoning": "Added charge beyond agreed price — surprise_billing."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.4,
+        "quote": "keep me on hold for long time with no answer",
+        "reasoning": "Held without answer, but unclear it was inbound coverage failure; low confidence."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "I called to make they has a/c compressor for 09 Ford Taurus he said went and they dont have it",
+        "reasoning": "Phone said they had it, in person they didn't — contradictory info."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.4,
+        "quote": "i asked him for the number to the buisness he said they dont have a number",
+        "reasoning": "No business phone line for follow-up; weak fit."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.65,
+        "quote": "I want my money back but they don't want to give me the money back",
+        "reasoning": "Refund refused — payment_issues."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "Said they had it. Drove over 70 miles up there to get it. When got there, they give a b.s. story about the motor being somewhere else",
+        "reasoning": "Phone confirmation contradicted in person."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "they then told me i had to pay 400 for parts",
+        "reasoning": "Quoted $200 on phone, $400 in person — surprise_billing."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "They are very rude they have no respect for customers at all",
+        "reasoning": "Explicit rudeness/disrespect from staff."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.5,
+        "quote": "He said he had my alternator on the shelf. When I got there he led me to a pile of alternators",
+        "reasoning": "Told it was on the shelf, contradicted in person."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "he gave me a threatning glare",
+        "reasoning": "Intimidating, hostile staff behavior."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "i was quoted 50$ they said sure I told them could come back next day with the cash and when I came back the daughter went off telling me that she would not take any less than 75",
+        "reasoning": "Agreed price not honored, raised on return — surprise_billing."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "she went off telling me I was a liar and a their",
+        "reasoning": "Staff verbally hostile, calling customer names."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.75,
+        "quote": "Started out est. 125.00 ended up paying 475.00",
+        "reasoning": "Quoted estimate far exceeded by final charge — surprise_billing."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "said thanks and hung up on me",
+        "reasoning": "Dismissive, abrupt handling of caller."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "categories": []
+  },
+  {
+    "id": 39,
+    "categories": []
+  }
+]

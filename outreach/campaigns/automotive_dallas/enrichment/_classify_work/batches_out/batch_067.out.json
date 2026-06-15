@@ -1,0 +1,74 @@
+[
+  {
+    "id": 2682,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.6,
+        "quote": "wouldn’t give an itemized list as to why it cost so much",
+        "reasoning": "Non-transparent pricing; charged a large amount with no itemized breakdown."
+      }
+    ]
+  },
+  {
+    "id": 2687,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.55,
+        "quote": "I was not provided with a written estimate, detailed breakdown, or clear confirmation of internal transmission damage",
+        "reasoning": "Diagnosis and pricing communicated without clear written documentation or explanation."
+      }
+    ]
+  },
+  {
+    "id": 2703,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.65,
+        "quote": "charged extra for a broken line, come to find out I spent an additional $150 for a fabricated clamp job after they’ve said they would replace it with a new one",
+        "reasoning": "Bait-and-switch: charged extra for a patched job after promising a new replacement part."
+      }
+    ]
+  },
+  {
+    "id": 2707,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.7,
+        "quote": "He will charge 800.00 for a 100.00 problem",
+        "reasoning": "Inflated pricing and charging for unrequested electrical work the customer did not authorize."
+      }
+    ]
+  },
+  {
+    "id": 2710,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "they won’t even take our calls now",
+        "reasoning": "Shop is no longer answering the customer's calls."
+      }
+    ]
+  },
+  {
+    "id": 2718,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "she was down right rude and condescending",
+        "reasoning": "Phone/front-of-house staff was rude and condescending to the caller."
+      }
+    ]
+  }
+]

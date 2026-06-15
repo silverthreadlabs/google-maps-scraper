@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3910,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "surprise_billing",
+        "confidence": 0.5,
+        "quote": "it stated that there would be no additional charges at the pickup location",
+        "reasoning": "Sets up a no-extra-charges promise then pivots with \"However\", implying an unexpected charge at pickup, though the actual charge is truncated out of the snippet."
+      }
+    ]
+  }
+]

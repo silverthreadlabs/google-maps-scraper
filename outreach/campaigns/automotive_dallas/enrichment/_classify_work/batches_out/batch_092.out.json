@@ -1,0 +1,33 @@
+[
+  {
+    "id": 3718,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "Rude",
+        "reasoning": "Bare 'rude' with no detail maps to staff_rude_front_desk per the default disambiguation rule."
+      }
+    ]
+  },
+  {
+    "id": 3719,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.85,
+        "quote": "poor communication",
+        "reasoning": "Explicit 'poor communication' plus contradictory shifting timelines about when service would start."
+      },
+      {
+        "main": "booking_friction",
+        "sub": "scheduling_back_and_forth",
+        "confidence": 0.55,
+        "quote": "change his story again",
+        "reasoning": "Repeated changes to the agreed appointment time, requiring the customer to come back and rearrange."
+      }
+    ]
+  }
+]

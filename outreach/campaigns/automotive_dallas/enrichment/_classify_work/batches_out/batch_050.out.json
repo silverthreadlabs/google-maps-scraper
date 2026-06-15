@@ -1,0 +1,160 @@
+[
+  {
+    "id": 2016,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "The owner of the store is very rude!!!",
+        "reasoning": "Direct complaint about rude tone from the owner (non-clinical staff)."
+      }
+    ]
+  },
+  {
+    "id": 2022,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "unfinished_work",
+        "confidence": 0.8,
+        "quote": "they were supposed to put a spacer to prevent this from happening which I’m guessing they didn’t get the part but how are you going to leave the job done like this",
+        "reasoning": "Install job left incomplete; a required spacer was never installed."
+      },
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "Gave the wrong wheels not even close to what I paid for",
+        "reasoning": "Delivered product did not match the ordered spec (wrong size and offset)."
+      }
+    ]
+  },
+  {
+    "id": 2024,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "he took my phone out of my hand and looked like he was trying to delete the email",
+        "reasoning": "Owner behaved rudely/aggressively and told the customer to leave."
+      }
+    ]
+  },
+  {
+    "id": 2025,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.85,
+        "quote": "they are down right insulting",
+        "reasoning": "Repeated complaint about insulting, dismissive treatment from staff and owner."
+      }
+    ]
+  },
+  {
+    "id": 2028,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.6,
+        "quote": "No accommodation, no re-tasking of other technicians, no apology, nothing.",
+        "reasoning": "Management was dismissive after bumping the confirmed appointment, offering no apology."
+      }
+    ]
+  },
+  {
+    "id": 2029,
+    "categories": [
+      {
+        "main": "deadline_missed",
+        "sub": "no_warning_of_delay",
+        "confidence": 0.85,
+        "quote": "they didn’t even proactively communicate the new pickup time",
+        "reasoning": "Install was delayed past the promised day with no proactive notice to the customer."
+      },
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.65,
+        "quote": "They can’t keep to their promises and don’t communicate at all.",
+        "reasoning": "Customer was told conflicting completion times and given no communication about the change."
+      }
+    ]
+  },
+  {
+    "id": 2030,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.8,
+        "quote": "The guy took my info and said he would call but haven't heard back.",
+        "reasoning": "Customer was promised a callback after providing info and never heard back."
+      }
+    ]
+  },
+  {
+    "id": 2031,
+    "categories": [
+      {
+        "main": "delivery_quality",
+        "sub": "bad_deliverable",
+        "confidence": 0.7,
+        "quote": "they were too careless to see the bigger tires goes in back and instead put them in front",
+        "reasoning": "Fitment/install service done incorrectly with wrong sizing front-to-back."
+      }
+    ]
+  },
+  {
+    "id": 2032,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.7,
+        "quote": "they are some jerks working there",
+        "reasoning": "Complaint about rude staff attitude."
+      }
+    ]
+  },
+  {
+    "id": 2033,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "they didn't even greet us, they just looked at us and went back to chatting with each other",
+        "reasoning": "Dismissive front-of-house behavior; customers ignored on entry."
+      }
+    ]
+  },
+  {
+    "id": 2035,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "they had an attitude and when I would ask then a question they would laugh",
+        "reasoning": "Staff displayed a rude, mocking attitude toward the customer's questions."
+      }
+    ]
+  },
+  {
+    "id": 2038,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.6,
+        "quote": "says car is ready, even though he has not touched it",
+        "reasoning": "Owner gave false/contradictory status updates about the work being complete."
+      }
+    ]
+  }
+]

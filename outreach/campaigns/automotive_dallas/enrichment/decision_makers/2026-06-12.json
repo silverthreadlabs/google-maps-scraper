@@ -1,0 +1,924 @@
+{
+  "ChIJ4zU0zoWiToYRGestiRxBHIQ": [],
+  "ChIJ65IT5Gq7ToYRx3_zenG3qzs": [],
+  "ChIJLY2soHKdToYRMuRBr7DDAyc": [
+    {
+      "name": "Mohammad",
+      "role": "Parts specialist (role unconfirmed)",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "parts@cowboyautotexas.com",
+      "confidence": 0.3,
+      "evidence": "First name only, repeatedly named as the knowledgeable point of contact in customer reviews (Yelp/Birdeye); owner role not confirmed. Email from cowboyautotexas.com contact page."
+    }
+  ],
+  "ChIJ5zvrqR-FToYRb6N4QEOlj18": [
+    {
+      "name": "Shaw",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/p/All-Discount-Auto-Salvage-100064629673802/",
+      "email": "",
+      "confidence": 0.4,
+      "evidence": "Owner named 'Shaw' in Yellow Pages customer reviews; business is family-operated since 1990. Business Facebook page (name + Grand Prairie TX match). Manager 'Tammy V.' also mentioned on Yelp."
+    }
+  ],
+  "ChIJu-5oHIknTIYRWgSEWZgIIDY": [
+    {
+      "name": "Mazin Awad",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/bncstereo/",
+      "facebook": "https://www.facebook.com/BNCSTEREO/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Named as owner/manager in business directory listings (chamberofcommerce.com); family-owned shop since 1977. Confirmed official business IG @bncstereo and FB /BNCSTEREO (both linked from bncstereo.com)."
+    }
+  ],
+  "ChIJJdpHNiqFToYR5byVUtotNeY": [
+    {
+      "name": "Dina Maldonado",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Listed as Owner on BBB profile for DFW Auto Parts at confirmed address 6071 W Davis St, Dallas TX 75211."
+    },
+    {
+      "name": "Angelo Minell",
+      "role": "Owner/operator",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Listed as Owner/operator on BBB profile for DFW Auto Parts, 6071 W Davis St, Dallas TX 75211."
+    }
+  ],
+  "ChIJoTN0OfecToYRoMwgk7TUHHs": [
+    {
+      "name": "Raul Baray",
+      "role": "Founder, Owner & CEO",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/txtransmission",
+      "facebook": "",
+      "email": "txtransmissionrepair@gmail.com",
+      "confidence": 0.9,
+      "evidence": "txtransmissionrepair.com/about-us names Raul Baray as 'Founder, Owner & CEO'; company email and IG @txtransmission on site. Family-owned father-son business."
+    },
+    {
+      "name": "Tony Baray",
+      "role": "Owner & 1st General Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "txtransmissionrepair@gmail.com",
+      "confidence": 0.8,
+      "evidence": "txtransmissionrepair.com/about-us lists Tony Baray as 'Owner & 1st General Manager' (father; also referenced as Antonio)."
+    }
+  ],
+  "ChIJ4yUPBieaToYRWlrIThsq9Jc": [],
+  "ChIJj5s3556jToYRTB8KeQEaohw": [
+    {
+      "name": "Shawn Barakat",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/DallasCarAudioandmoreDCA/",
+      "email": "info@dallascaraudio.us",
+      "confidence": 0.65,
+      "evidence": "BBB profile 'Dallas Audio & More' at same address 3806 S Buckner Blvd lists 'Mr. Shawn Barakat, Owner'; that profile's fax (214) 275-8000 matches this place_id's phone, tying the owner to this business. Company email info@dallascaraudio.us and FB page from dallascaraudio.us/contact."
+    }
+  ],
+  "ChIJM3URK5-eToYRtcp4isDx-v8": [
+    {
+      "name": "Scott Richardson",
+      "role": "Owner / Operator",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/EagleTransmissionAutomotiveDallas",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "dallas.eagletransmission.com and multiple review sources name Scott Richardson as owner/operator of the Dallas (1000 Lupo Dr) location; FB page EagleTransmissionAutomotiveDallas verified on site. LinkedIn left empty - multiple Scott Richardsons in Dallas, none confirmed as this person."
+    },
+    {
+      "name": "Michelle",
+      "role": "Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.4,
+      "evidence": "First name only, referenced as manager in content on dallas.eagletransmission.com; no surname or personal channel found."
+    }
+  ],
+  "ChIJg3KOfFolTIYRTo2Mt1kUzss": [
+    {
+      "name": "John",
+      "role": "Co-owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/reconcentral/",
+      "facebook": "https://www.facebook.com/reconready/",
+      "email": "help@reconcentral.com",
+      "confidence": 0.5,
+      "evidence": "Co-owner 'John' named repeatedly in customer reviews (reconcentral.com, Yelp); first name only, no surname found. Company email help@reconcentral.com on site; FB facebook.com/reconready, IG @reconcentral."
+    },
+    {
+      "name": "Shelby",
+      "role": "Co-owner / interior specialist",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "help@reconcentral.com",
+      "confidence": 0.4,
+      "evidence": "First name only, mentioned in customer testimonials as co-owner/interior specialist on reconcentral.com; no surname or personal channel found."
+    }
+  ],
+  "ChIJGQo7oQicToYRP7O6rcmpKEM": [
+    {
+      "name": "Moe Pourahmadi",
+      "role": "Owner / President",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/asudallas/",
+      "facebook": "https://www.facebook.com/asudallas/",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "Multiple sources state Moe Pourahmadi (President of Sounds Etc Inc) bought American Sunroof & Upholstery of Dallas in 1999; BBB lists 'Moe' as principal contact. Verified FB facebook.com/asudallas, IG @asudallas. No personal email found."
+    }
+  ],
+  "ChIJt6HhJRqdToYR1IwN1Ou1P5k": [],
+  "ChIJ8Twc1rW8ToYRsrDiURyI2kE": [
+    {
+      "name": "Luis Serma",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/luistransmissionservices/",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Family owned shop named 'Luis Transmissions'; principal listed as Luis Serma per Dun & Bradstreet (dnb.com) / search; business FB page facebook.com/luistransmissionservices. No personal channels or email surfaced on luistransmissions.com contact page."
+    }
+  ],
+  "ChIJWWyuL7PZTYYRQgcpag3myfU": [
+    {
+      "name": "Valentino Gomez",
+      "role": "Owner / Managing Member",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/valentino-gomez-803077a3/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/texasupholstery/",
+      "facebook": "https://www.facebook.com/TxUpholster",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "Listed as Managing Member on BBB profile (bbb.org/us/tx/fort-worth/.../texas-upholstery-and-trim); LinkedIn 'Valentino Gomez - Texas Upholstery & Trim / Auto Revamp'. Business IG @texasupholstery and FB /TxUpholster."
+    }
+  ],
+  "ChIJWx3KVyGcToYRez3Oz-S5x9c": [
+    {
+      "name": "Randy Newberry",
+      "role": "Owner (founder; possible recent ownership transition)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/lovefieldauto/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Carfax/Yelp reviews repeatedly name 'Randy' as owner of Love Field Auto, full name Randy Newberry mentioned re ownership transition since 1995. Search notes 'new owners now operating' — ownership may have changed, so name is uncertain. Business FB /lovefieldauto."
+    }
+  ],
+  "ChIJo2KA1wKZToYRPJOmZRSOBoE": [
+    {
+      "name": "Ryan Rafie",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/ryan-rafie-3a294680/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/evolutionautoconcepts",
+      "facebook": "https://www.facebook.com/EvolutionAutoConcepts/",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn 'Ryan Rafie - Evolution Auto Concepts'; multiple sources name Ryan as owner of Evolution Auto Concepts performance shop, Dallas. Business IG/FB @evolutionautoconcepts (links on evolutionautoconcepts.com)."
+    }
+  ],
+  "ChIJB5zIfgWRToYR5CQVpSJ3SpU": [
+    {
+      "name": "",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/txcustomstereo/",
+      "facebook": "https://www.facebook.com/texascustom1/",
+      "email": "txcustomstereo@gmail.com",
+      "confidence": 0.3,
+      "evidence": "No individual owner named — About page (texascustomstereo.com/about-us) says 'founded by a group of car enthusiasts'. Business email txcustomstereo@gmail.com, IG @txcustomstereo, FB /texascustom1. Name unknown; channels are business-level."
+    }
+  ],
+  "ChIJ7Y4MtRiDToYRdm3Kr8npPOM": [
+    {
+      "name": "James Reeves",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/james-reeves-654ab778/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/jrs.custom.auto/",
+      "facebook": "https://www.facebook.com/jrscustomauto",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "BBB profile lists 'Mr. James Reeves, Owner/Manager' (legal name James Reeves, Inc.); LinkedIn result 'James Reeves - jrs custom auto'; company IG/FB from jrscustomauto.com. Sources: bbb.org/us/tx/irving/profile/car-stereos/j-rs-custom-auto-0875-90010166, linkedin.com/in/james-reeves-654ab778"
+    }
+  ],
+  "ChIJD637ZJInTIYRmsTT-59zXQs": [
+    {
+      "name": "Sue Martin",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://twitter.com/asmautoupholst",
+      "instagram": "https://www.instagram.com/asmautoupholstery/",
+      "facebook": "https://www.facebook.com/suemartinasm/",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "Voyage Dallas interview 'Meet Sue Martin of ASM Auto Upholstery'; ASM about page; Sue is the named owner (also known from Fast N' Loud). Personal FB facebook.com/suemartinasm; company twitter/IG from asmautoupholstery.com. Sources: voyagedallas.com/interview/meet-sue-martin-asm-auto-upholstery-north-dallas, asmautoupholstery.com/about"
+    }
+  ],
+  "ChIJoyUad7WgToYRIoc0WWjCy6w": [
+    {
+      "name": "Mansour Awwad",
+      "role": "President / Founder (aka Manny Awad)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://twitter.com/texasaudio",
+      "instagram": "https://www.instagram.com/texasaudio",
+      "facebook": "https://www.facebook.com/texasaudiosound",
+      "email": "sales@texasaudio.com",
+      "confidence": 0.88,
+      "evidence": "BBB profile lists 'Mr. Mansour Awwad, President'; founder named as Manny Awad (est. 1978) on texasaudio.com/why-choose-us. Company email/socials from texasaudio.com. NOTE: distinct from separate shop 'Texas Audio Customs'/@txaudiocustoms (Moe Awad, 2218 S Jupiter Rd). Sources: bbb.org/us/tx/garland/profile/car-service/texas-audio-0875-90319066, texasaudio.com"
+    },
+    {
+      "name": "Junior Awad",
+      "role": "Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "sales@texasaudio.com",
+      "confidence": 0.8,
+      "evidence": "BBB profile lists 'Mr. Junior Awad, Manager' for Texas Audio. Source: bbb.org/us/tx/garland/profile/car-service/texas-audio-0875-90319066"
+    }
+  ],
+  "ChIJ9YpScmGjToYR6Nmf0e8Yfy0": [
+    {
+      "name": "David Awad",
+      "role": "Owner (inferred)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/dallascarstereo/",
+      "facebook": "https://www.facebook.com/p/Dallas-Car-Stereo-Tint-61556349180252/",
+      "email": "david_awad@live.com",
+      "confidence": 0.3,
+      "evidence": "Email david_awad@live.com appears on the Dallas Car Stereo Nextdoor business listing; name inferred from email local-part, NOT independently confirmed. Family-owned, est. 1990. (Surname 'Awad' also appears at unrelated Texas Audio shop.) Sources: nextdoor.com/pages/dallas-car-stereo-dallas-tx, dfwcarstereo.com/contact"
+    }
+  ],
+  "ChIJDYSPG3cfTIYR4uBFxTUNdq0": [
+    {
+      "name": "Luis",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/p/A1-Quality-Transmission-Auto-Repair-100087672227886/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Multiple customer reviews name the owner as 'Luis' (also spelled 'Lewis'); family-owned, est. 2004. Full last name not found in public sources. Company FB page present. Sources: surecritic.com/reviews/a1-quality-trans-and-auto-rpr, yelp.com/biz/a1-quality-transmission-and-auto-repair-richardson-4"
+    }
+  ],
+  "ChIJA-VRlLSEToYRu_v0Tb03Fos": [
+    {
+      "name": "Kimberley Andrews Guivehchi",
+      "role": "Principal / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB lists 'Ms. Kimberley Andrews Guivehchi, Manager' of A2Z Auto Body Parts, LLC; also listed as Principal (Kimberly M Guivehchi). Small family business, est. 2003. Sources: bbb.org/us/tx/dallas/profile/wholesale-auto-parts/a2z-auto-body-parts-llc-0875-90461725, bizapedia.com/tx/a2z-auto-body-parts-llc.html"
+    }
+  ],
+  "ChIJPUfMEPooTIYRudk7a6hMG58": [
+    {
+      "name": "Dave",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/midnightcustomcars/",
+      "facebook": "https://www.facebook.com/midnightcustomcars/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Yelp reviews name Dave as the owner; Nate (sales) is Dave's son. Family-run shop ~15yrs. https://www.yelp.com/biz/midnight-custom-cars-lewisville-2 ; midnightcustomcars.com"
+    },
+    {
+      "name": "Nate",
+      "role": "Sales & Quotes",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/midnightcustomcars/",
+      "facebook": "https://www.facebook.com/midnightcustomcars/",
+      "email": "nate@midnightcustomcars.com",
+      "confidence": 0.85,
+      "evidence": "Email nate@midnightcustomcars.com on site; named for Sales & Quotes; son of owner Dave per Yelp. midnightcustomcars.com"
+    }
+  ],
+  "ChIJxfaoYXQnTIYRwr8-CgGZXiA": [
+    {
+      "name": "Jhonny",
+      "role": "Owner / Principal",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/empire_sns",
+      "facebook": "https://www.facebook.com/p/Empire-Sound-Security-Car-Audio-Window-Tint-100063928358199/",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB profile lists Principal Contact + Customer Contact as 'Jhonny'. https://www.bbb.org/us/tx/dallas/profile/security-system-monitors/empire-sound-security-0875-90225002 ; site email office@xtreme.com"
+    }
+  ],
+  "ChIJ4TYQb--fToYRcPqG3j9Nf_o": [
+    {
+      "name": "Freddy",
+      "role": "Owner / Detailer",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/texansmobiledetail/",
+      "facebook": "https://www.facebook.com/p/Texans-Mobile-Detail-61557483451328/",
+      "email": "Freddymobiledetailer@gmail.com",
+      "confidence": 0.8,
+      "evidence": "Owner-operated; first-person 'over 5 years experience' on site; contact email Freddymobiledetailer@gmail.com. texansmobiledetails.com"
+    }
+  ],
+  "ChIJS_bc7_4nTIYRqpU7mFnFIe8": [
+    {
+      "name": "Todd",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/dallascustomsclassics/",
+      "facebook": "https://www.facebook.com/dallascustomsandclassics/",
+      "email": "",
+      "confidence": 0.65,
+      "evidence": "Multiple customer reviews credit 'Todd' for restoration work and refer to him as running the shop ('Todd and your team'). Business since 2011. Birdeye/Yelp reviews; dallascustoms.com"
+    }
+  ],
+  "ChIJs4Z0Y5efToYRukn8qNBLRws": [],
+  "ChIJtwpuRmKZToYRvexWYP5i_Wc": [],
+  "ChIJge-YnKwvTIYR0xtOAFqCkMc": [
+    {
+      "name": "Jensen",
+      "role": "Co-Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/skm_performance/",
+      "facebook": "https://www.facebook.com/skmperformancetexas/",
+      "email": "skmperformance@gmail.com",
+      "confidence": 0.55,
+      "evidence": "Customer reviews name Jensen and DJ as the two owners (Jensen oversees performance work, DJ handles ceramic coating). First name only. Channels are company-level: IG @skm_performance, FB skmperformancetexas, email skmperformance@gmail.com from skmperformance.com."
+    },
+    {
+      "name": "DJ",
+      "role": "Co-Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/skm_performance/",
+      "facebook": "https://www.facebook.com/skmperformancetexas/",
+      "email": "skmperformance@gmail.com",
+      "confidence": 0.5,
+      "evidence": "Second co-owner named in customer reviews; handles ceramic coating. First name only. Company-level channels shared with Jensen."
+    }
+  ],
+  "ChIJS58Wx9eiToYR1Vk34Lb16xs": [
+    {
+      "name": "Blake Ingram",
+      "role": "President / CEO",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/ingramblake/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "President/CEO of Auto City (Martin Ingram Enterprises Inc. dba Auto City Credit); past TIADA president (2009). Confirmed via LinkedIn linkedin.com/in/ingramblake and corporationwiki/RocketReach. Multi-location 60-year dealership, so company socials not attributed to him personally."
+    }
+  ],
+  "ChIJsdR_HtWAToYRaimHa3jT1yY": [],
+  "ChIJxaNZpF-dToYRo4cc05A1Udw": [
+    {
+      "name": "Joe",
+      "role": "Shop Manager / Principal",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://twitter.com/fixeurotrans",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "FixEuro About page names Joe as Shop Manager, in the business since 1967, running the shop since 1993; original owner moved back to Germany, so Joe is the de-facto on-site decision-maker. First name only. Twitter @fixeurotrans is company-level. Source: fixeurotransmission.com/about/"
+    }
+  ],
+  "ChIJfdAmCpInTIYR8uCOL8v_s_k": [
+    {
+      "name": "Saul Marcos",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Listed as owner of Transmissions & More Auto Service in business directory texas.repair-auto.org (contact (972) 247-0995). Single-source; no channels verified."
+    }
+  ],
+  "ChIJrVPLd0aiToYR3pFLFIUS2Co": [
+    {
+      "name": "Victor Martinez",
+      "role": "Owner / Principal",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "Named as owner/principal of Underground Custom Body Works; family-owned partnership run by brothers Victor & Henry Martinez. Sources: Buzzfile and Dun & Bradstreet company profiles listing Mr. Victor Martinez as principal contact."
+    },
+    {
+      "name": "Henry Martinez",
+      "role": "Co-Owner / Principal",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.65,
+      "evidence": "Second principal contact / co-owning brother per D&B and Buzzfile partnership profile for Underground Custom Body Works."
+    }
+  ],
+  "ChIJU5bNvFyQToYRuY3SKMKwGoE": [],
+  "ChIJq-hqQyiZToYROjPB4Ob5q9k": [
+    {
+      "name": "Salomon Rodriguez",
+      "role": "Owner / Director",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "BBB business profile lists 'Mr. Salomon Rodriguez, Owner/Director' (bbb.org/us/tx/dallas/profile/auto-parts/50-stars-auto-parts-0875-91345776). Company general email service@50starsautoparts.com (not personal)."
+    }
+  ],
+  "ChIJ47v3JcqXToYRdz7EPiP6lag": [
+    {
+      "name": "Adam A.",
+      "role": "Owner / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.3,
+      "evidence": "First name plus initial only, per Yelp business-owner field (yelp.com/biz/texas-tire-and-auto-repair-dallas). Full surname not found; shop site texasrepair.autos did not load. Low confidence on identity."
+    }
+  ],
+  "ChIJQ8GgyXKYToYRzs13b4cq9lU": [
+    {
+      "name": "Miguel A. Navarro",
+      "role": "President",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/a1dallasautoparts/",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "BBB business profile lists 'Mr. Miguel A Navarro' as President of A-1 Auto Parts, 5427 Botham Jean Blvd (bbb.org/us/tx/dallas/profile/new-auto-parts/a-1-auto-parts-0875-37007219). Facebook is the business page."
+    }
+  ],
+  "ChIJO0pNAbyYToYRhpB7FsVtjdQ": [
+    {
+      "name": "James Wagner",
+      "role": "Owner / President",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/james-wagner-b9362a32/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/HammsTiresDallas/",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn profile titled 'James Wagner - Owner, Hamm's Tire Inc.'; Texas business directory lists him as President. Facebook is the Dallas business page. Family-owned since 1987."
+    },
+    {
+      "name": "Lori Wagner",
+      "role": "Vice President",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.55,
+      "evidence": "Texas business directory (bizstanding.com) lists Lori Wagner as Vice President of Hamm's Tires, Inc., alongside James Wagner; part of the Wagner family ownership."
+    }
+  ],
+  "ChIJLxOWVWWdToYRywgAHm1e9ew": [],
+  "ChIJre_qFrcnTIYRt798MTOW69Q": [
+    {
+      "name": "John R. Hardin Jr.",
+      "role": "President/Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/hacklertransmission/",
+      "email": "john@hacklertransmission.com",
+      "confidence": 0.85,
+      "evidence": "BBB profile lists Mr. John R. Hardin Jr. as President/Director and Principal/Customer Contact (bbb.org/.../hackler-transmissions-0875-4004220); company email john@hacklertransmission.com from hacklertransmission.com; Facebook page facebook.com/hacklertransmission. Family-owned since 1958."
+    }
+  ],
+  "ChIJ53ZdRQidToYRGDHN4y8lgg0": [
+    {
+      "name": "Raul",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://instagram.com/txtransmission",
+      "facebook": "",
+      "email": "txtransmissionrepair@gmail.com",
+      "confidence": 0.6,
+      "evidence": "Site (txtransmissionrepair.com, redirect from txtransmission.com) signs its 'Message from Us' as '-Raul & Tx Transmission Team', indicating owner Raul (first name only). Email txtransmissionrepair@gmail.com and Instagram @txtransmission on site. Locally owned shop."
+    }
+  ],
+  "ChIJAXqEqrG9ToYRowQHmoVEr3o": [],
+  "ChIJ1_Lmb9ibToYRpioUFtR3Iic": [
+    {
+      "name": "Raul Martinez",
+      "role": "Owner/Contact",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Business directory listings name Raul Martinez as the contact person for Llantas USA at 3100 W Davis St (per aggregated search results). Yelp listing is unclaimed with no social links. Name unverified against a primary source; treat as low-moderate confidence."
+    }
+  ],
+  "ChIJVVWVb8SgToYRyYnTa3TgFU8": [],
+  "ChIJw5QGNyAeTIYRuBM_eRZqJNQ": [
+    {
+      "name": "Shun",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://instagram.com/NSydezOut",
+      "facebook": "https://www.facebook.com/NSydezOut/",
+      "email": "NsydezOut@yahoo.com",
+      "confidence": 0.6,
+      "evidence": "Multiple Yelp/Chamber reviews repeatedly name 'Shun' (also spelled 'Shawn') as the owner/operator of NSydezOut who personally does the upholstery work. First name only; no verified last name. Business email NsydezOut@yahoo.com and FB/IG (facebook.com/NSydezOut, instagram.com/NSydezOut) from nsydezout.com."
+    }
+  ],
+  "ChIJCXUhAFB7ToYRh3KC49HM4Cs": [
+    {
+      "name": "Jacob",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/integritymobileservices/",
+      "email": "",
+      "confidence": 0.45,
+      "evidence": "Founder story names 'Jacob' who built the first repair truck ('The Beast') and grew the company; story appears on the related/sister brand site integritymobileservices.com/about. Only first name given; this batch company uses integritymobilerepair.com (same 'Integrity Mobile' Dallas truck-repair brand, FB page integritymobileservices). Cross-domain so identity is moderate-confidence."
+    }
+  ],
+  "ChIJo3mgO4eZToYRXPSJEGqsZxk": [],
+  "ChIJT17QAxOfToYR6u6j2bVrpw4": [
+    {
+      "name": "Saady Hussain",
+      "role": "Owner / Manager",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/quixstateinspection/",
+      "email": "sjhuss86@gmail.com",
+      "confidence": 0.9,
+      "evidence": "BBB profile lists Saady Hussain as Owner/Manager and principal contact for Quix State Inspections (5516 E Mockingbird Ln). Press coverage notes he has run the shop ~20 years. Email sjhuss86@gmail.com (matches 'S. Hussain') appears across the business website as the contact address."
+    }
+  ],
+  "ChIJ-XT-Sv99ToYRL2RKDXkpuzU": [
+    {
+      "name": "Jesus",
+      "role": "Owner / Lead Mechanic",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/jesusautorepaircenter/",
+      "facebook": "https://www.facebook.com/Jesus-Premier-Automotive-Repair",
+      "email": "ask@jesusautorepaircenter.com",
+      "confidence": 0.4,
+      "evidence": "mobilemechanicdfw.com brands as 'Jesus Auto Repair' / 'Jesus Premier Automotive Repair' with owner first name 'Jesus' implied by brand; verified channels: email ask@jesusautorepaircenter.com, IG @jesusautorepaircenter, TikTok @jesuspremierautorepair, FB 'Jesus Premier Automotive Repair', WhatsApp +1 323-975-8132. Full surname not verified; not the same as TXHG/Jesus Flores."
+    }
+  ],
+  "ChIJ_cPXYfSYToYRpMyAP0JfrvQ": [],
+  "ChIJF_L41IWfToYRLJKP7RHbiVk": [],
+  "ChIJWd5XX7-YToYRnpEJrmTRkxE": [
+    {
+      "name": "Malek Samadian",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/maleksamadian",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/EssFleetService/",
+      "email": "",
+      "confidence": 0.9,
+      "evidence": "Named on ESS Fleet Service About page as founder of European Specialty Service (now ESS Fleet Service), Dallas since 1995. Two LinkedIn profiles list him as Owner of ESS Fleet Service (linkedin.com/in/maleksamadian and linkedin.com/in/malek-samadian-340323124)."
+    }
+  ],
+  "ChIJ2dhkgRciTIYRxyXL4nmOre0": [
+    {
+      "name": "Alexander Rangos",
+      "role": "CEO, Car Spa Inc",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/carspadallas/",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Car Spa Inc (parent of the Coit Rd Dallas state-inspection/car-wash location, carspa.net) BBB profile lists Alexander Rangos as CEO; multi-location chain (15 locations). Facebook page is for the Dallas location."
+    },
+    {
+      "name": "Bruce Bender",
+      "role": "Vice President of Operations, Car Spa Inc",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.5,
+      "evidence": "Listed as VP of Operations on Car Spa Inc BBB business profile (bbb.org Dallas car-wash listing)."
+    }
+  ],
+  "ChIJfdxuL62eToYR04PFuP6But0": [
+    {
+      "name": "Roderick Mosley",
+      "role": "Owner / President",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/roderick-mosley-0288a0b/",
+      "twitter": "",
+      "instagram": "https://www.instagram.com/parkcitiesmobiledetail/",
+      "facebook": "https://www.facebook.com/parkcitiesmobiledetail/",
+      "email": "",
+      "confidence": 0.92,
+      "evidence": "Founder of Park Cities Mobile Detail (professionaldetail.com), Dallas, since 1994. LinkedIn (roderick-mosley-0288a0b) lists him as Owner; company-branded LinkedIn (in/parkcitiesmobiledetail) lists him as president; Instagram and Facebook handles parkcitiesmobiledetail."
+    }
+  ],
+  "ChIJRwAjELqdToYRkKISCs1klss": [
+    {
+      "name": "John Harakal",
+      "role": "Director of Fleet & Commercial Sales",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/FriendlyChevyFleetService/",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "theorg.com Friendly Chevrolet org chart and search results list John Harakal as Director of Fleet & Commercial Sales at Friendly Chevrolet (Dallas) since March 2021; heads the Friendly Fleet division (friendlyfleet.com). Facebook is the Fleet Service page."
+    },
+    {
+      "name": "Patrick Johnson",
+      "role": "General Manager, Friendly Chevrolet",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Search results identify Patrick Johnson as General Manager of Friendly Chevrolet (parent dealership of Friendly Chevrolet Fleet Service)."
+    },
+    {
+      "name": "Paul Pelletier",
+      "role": "Commercial and Fleet Sales Manager",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Listed on theorg.com Friendly Chevrolet fleet department org chart as Commercial and Fleet Sales Manager reporting to John Harakal."
+    }
+  ],
+  "ChIJ7U6DvC2ZToYRhr14WmoluqA": [],
+  "ChIJd1YoYHKjToYR44zTD0FcAqQ": [
+    {
+      "name": "Roger Young",
+      "role": "Owner (Principal)",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "BBB business profile for Allstate Transmissions and Transaxles (2522 S Buckner Blvd, Dallas) lists Mr. Roger Young as Owner / principal and customer contact; in business since 1978."
+    },
+    {
+      "name": "Tim Young",
+      "role": "Owner",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.7,
+      "evidence": "BBB business profile for Allstate Transmissions and Transaxles lists Mr. Tim Young as Owner / customer contact."
+    }
+  ],
+  "ChIJ6TwEDRO7ToYR07tj8EIDDT0": [
+    {
+      "name": "Moe Massoudi",
+      "role": "Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/A1rylieautoparts/",
+      "email": "A1rylieauto1@yahoo.com",
+      "confidence": 0.9,
+      "evidence": "BBB profile lists 'Mr. Moe Massoudi, Owner' as principal contact (bbb.org/us/tx/dallas/profile/used-auto-parts/a-1-rylie-auto-parts-0875-1002006); business is family-owned since 1977. Facebook page and email A1rylieauto1@yahoo.com from company site a1rylieautoparts.com. Email/FB are business channels, not personal to Moe."
+    },
+    {
+      "name": "Shawn Massoudi",
+      "role": "General Manager",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/shawn-massoudi-0b45b4bb/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.85,
+      "evidence": "LinkedIn lists Shawn Massoudi as 'GM at A-1 Rylie Auto Parts' (linkedin.com/in/shawn-massoudi-0b45b4bb/); same family surname as owner."
+    }
+  ],
+  "ChIJG40ApZ6eToYRyiLYL9prWfc": [
+    {
+      "name": "Brandon Gillespy",
+      "role": "Body Shop Manager",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/brandon-gillespy-78172a66/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.8,
+      "evidence": "LinkedIn: Brandon Gillespy, 'Body Shop Manager at Park Place Bodywerks' (linkedin.com/in/brandon-gillespy-78172a66/). Park Place BodyWerks is part of Park Place Dealerships, owned by Asbury Automotive Group since 2020 (Fortune 500 chain) — no independent owner; the body shop manager is the reachable on-site decision-maker."
+    },
+    {
+      "name": "Eric McKenzie",
+      "role": "Regional Director / Director of Body Shop Operations, Park Place Dealerships",
+      "primary": false,
+      "linkedin": "https://www.linkedin.com/in/mckenzieeric/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.75,
+      "evidence": "LinkedIn: Eric McKenzie, 'Regional Director - Park Place Dealerships' / Director of Body Shop Operations over DFW collision centers (linkedin.com/in/mckenzieeric/)."
+    }
+  ],
+  "ChIJFVttZYYfTIYRX2epdZ3mY70": [
+    {
+      "name": "Gary Gray",
+      "role": "Owner / Founder",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "absolauto@gmail.com",
+      "confidence": 0.9,
+      "evidence": "County Advisory Board profile confirms Gary Gray as owner/founder, started Absolute Auto Reconditioning in 1990 (countyadvisoryboard.com/gary-gray-absolute-auto-reconditioning/). Business email absolauto@gmail.com from company contact page autoupholsterydallas.com/contact-us (business channel, not confirmed personal)."
+    }
+  ],
+  "ChIJBTiB8hmbToYR0J5W0UtfErY": [],
+  "ChIJj5OvOXgfTIYRzCxY9pI4CPw": [
+    {
+      "name": "Will Aiyeojenku",
+      "role": "Founder / Owner",
+      "primary": true,
+      "linkedin": "https://www.linkedin.com/in/will-aiyeojenku-332b8934/",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "info@fusionvibes.com",
+      "confidence": 0.92,
+      "evidence": "Founder named in Authority Magazine interview and About page (fusionvibes.com/about/, medium.com Authority Magazine 'Masters of The Turnaround: Will Aiyeojenku of Fusion Vibes'). LinkedIn 'Will Aiyeojenku - Fusion Vibes Kitchen + Bar' (linkedin.com/in/will-aiyeojenku-332b8934/). Note: this is a restaurant/lounge, not an automotive business. Email info@fusionvibes.com is a general business address."
+    }
+  ],
+  "ChIJbfbSeYgfTIYR7EHSY7z84B0": [
+    {
+      "name": "Lucinda Howard",
+      "role": "Founder / Owner",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "https://www.facebook.com/tinlizzieaffair",
+      "email": "sales@tinlizzieaffair.com",
+      "confidence": 0.9,
+      "evidence": "Company site (tinlizzieaffair.com) names Lucinda Howard as founder/proprietor who started the auto upholstery shop ~46 years ago. Facebook facebook.com/tinlizzieaffair and email sales@tinlizzieaffair.com from site (business channels)."
+    },
+    {
+      "name": "Joel Howard",
+      "role": "Staff",
+      "primary": false,
+      "linkedin": "",
+      "twitter": "",
+      "instagram": "",
+      "facebook": "",
+      "email": "",
+      "confidence": 0.6,
+      "evidence": "Named as staff member on company website tinlizzieaffair.com; role not specified (likely family/co-operator given shared surname with founder)."
+    }
+  ],
+  "ChIJ072homujToYRlqWC83BS_2o": [
+    {
+      "name": "Moe Said",
+      "role": "Sales / Principal contact",
+      "primary": true,
+      "linkedin": "",
+      "twitter": "https://x.com/magicautosales1",
+      "instagram": "https://www.instagram.com/magicautosalestx/",
+      "facebook": "https://www.facebook.com/Magicautosalestx",
+      "email": "magicautosalestx@gmail.com",
+      "confidence": 0.55,
+      "evidence": "Named on Magic Auto Sales 'Our Team/Our Staff' page (magicautosalestx.com/our-staff) as 'Moe Said' in Sales, tied to main dealership line 214-239-8482 (the batch phone). Small owner-operated used-car lot; no separate owner name published, so the named sales contact on the main line is treated as the reachable decision-maker. Business email magicautosalestx@gmail.com verified on gotgoodcars mirror About page; social profiles (FB/IG/X) confirmed via search results."
+    }
+  ]
+}

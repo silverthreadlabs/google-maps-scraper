@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1521,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.9,
+        "quote": "he was extremely rude and even hung up on me in the end",
+        "reasoning": "Caller describes staff being rude on the phone and hanging up on them."
+      }
+    ]
+  },
+  {
+    "id": 1522,
+    "categories": [
+      {
+        "main": "calls_unanswered",
+        "sub": "missed_calls_during_business_hours",
+        "confidence": 0.85,
+        "quote": "I was never able to get anyone on the phone",
+        "reasoning": "Customer called several times and could never reach anyone."
+      },
+      {
+        "main": "calls_unanswered",
+        "sub": "voicemail_never_returned",
+        "confidence": 0.6,
+        "quote": "left a message saying what I was needing",
+        "reasoning": "Customer left a message and was never able to connect, implying no callback."
+      }
+    ]
+  },
+  {
+    "id": 1530,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.88,
+        "quote": "Had the owner laugh in face",
+        "reasoning": "Owner laughed in the customer's face and tried to humiliate them, a rude/dismissive tone."
+      }
+    ]
+  },
+  {
+    "id": 1540,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.55,
+        "quote": "THEY ARE RUDE",
+        "reasoning": "Generic rudeness complaint; defaults to staff_rude_front_desk per taxonomy rule."
+      }
+    ]
+  },
+  {
+    "id": 1542,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "staff_rude_front_desk",
+        "confidence": 0.8,
+        "quote": "muy agresivo por cierto armado me respondió muy agresivo",
+        "reasoning": "Staff member responded very aggressively to the customer."
+      },
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.6,
+        "quote": "tardo una semana para regresar mi dinero a mi cuenta de banco",
+        "reasoning": "Refund to the bank account was delayed by a week."
+      }
+    ]
+  }
+]

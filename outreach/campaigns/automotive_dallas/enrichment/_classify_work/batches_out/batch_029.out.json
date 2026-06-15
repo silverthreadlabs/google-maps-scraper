@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1167,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "after calling asking for a part they said they had then i get here he says they dont have it",
+        "reasoning": "Customer was given wrong information on the phone about part availability, contradicting what was found in person."
+      }
+    ]
+  },
+  {
+    "id": 1184,
+    "categories": [
+      {
+        "main": "billing_or_intake_errors",
+        "sub": "payment_issues",
+        "confidence": 0.72,
+        "quote": "They will sell you a broken part and not give you your money back even though it is their return policy",
+        "reasoning": "Refund denied despite stated return policy is a payment/refund issue."
+      }
+    ]
+  },
+  {
+    "id": 1191,
+    "categories": [
+      {
+        "main": "followup_dropped",
+        "sub": "dropped_leads_or_quotes",
+        "confidence": 0.78,
+        "quote": "I reached out via email but did not get a responded",
+        "reasoning": "Customer actively reached out about an unfulfilled order and received no response."
+      }
+    ]
+  }
+]

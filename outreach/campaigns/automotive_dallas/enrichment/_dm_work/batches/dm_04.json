@@ -1,0 +1,56 @@
+[
+  {
+    "place_id": "ChIJPUfMEPooTIYRudk7a6hMG58",
+    "company": "Midnight Custom Cars",
+    "website": "https://midnightcustomcars.com/",
+    "phone": "+1 972-273-0226",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "1504 Eagle Ct #5, Lewisville, TX 75057, United States"
+  },
+  {
+    "place_id": "ChIJxfaoYXQnTIYRwr8-CgGZXiA",
+    "company": "Empire Sound & Security Car audio / Window tinting",
+    "website": "http://www.empiresoundandsecurity.com/",
+    "phone": "+1 972-406-8880",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "3068 Forest Ln #219, Dallas, TX 75234, United States"
+  },
+  {
+    "place_id": "ChIJ4TYQb--fToYRcPqG3j9Nf_o",
+    "company": "Texans Mobile Detail and Ceramic Coating",
+    "website": "https://www.texansmobiledetails.com/?fbclid=IwY2xjawLxIj9leHRuA2FlbQIxMABicmlkETBWSEJiRmdUMnR3VEVTeDRsAR6Kazs_zc3HNh6C4U0EFy7TmxlJEbr5w7yp4BBIPKhHGuXE49x7l3GynBi1Tg_aem_cTyFckXpxeBzYa8tWZLU7w",
+    "phone": "+1 702-986-5911",
+    "metro": "dallas",
+    "tier": "B",
+    "address": "8119 Douglas Ave, Dallas, TX 75225, United States"
+  },
+  {
+    "place_id": "ChIJS_bc7_4nTIYRqpU7mFnFIe8",
+    "company": "Dallas Customs & Classics",
+    "website": "https://dallascustoms.com/",
+    "phone": "+1 214-883-5820",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "1611 Tantor Rd, Dallas, TX 75229, United States"
+  },
+  {
+    "place_id": "ChIJs4Z0Y5efToYRukn8qNBLRws",
+    "company": "Kwik Kar Auto Care Center Dallas",
+    "website": "https://www.kwikkarntx.com/kwik-kar-6424-greenville-ave",
+    "phone": "+1 469-206-1917",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "6424 Greenville Ave, Dallas, TX 75206, United States"
+  },
+  {
+    "place_id": "ChIJtwpuRmKZToYRvexWYP5i_Wc",
+    "company": "Tejas Paint & Body Shop",
+    "website": "http://tejaspaintandbody.com/",
+    "phone": "+1 214-698-0369",
+    "metro": "dallas",
+    "tier": "C",
+    "address": "615 Fort Worth Ave, Dallas, TX 75208, United States"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1140,
+    "categories": [
+      {
+        "main": "frontline_communication",
+        "sub": "poor_communication",
+        "confidence": 0.7,
+        "quote": "Called in advance to confirm correct parts. Check availability and they confirmed. Got there and waited an hour and everything was wrong color, damaged, or didn't have it.",
+        "reasoning": "Staff confirmed parts availability over the phone but the information was contradictory to reality on arrival."
+      },
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "waited an hour",
+        "reasoning": "Customer waited an hour at the counter; no appointment context, so no specific sub fits."
+      }
+    ]
+  },
+  {
+    "id": 1158,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.7,
+        "quote": "20 minutes later, not ONCE did anyone acknowledge my presence",
+        "reasoning": "Customer was ignored and inattended for 20 minutes at the counter; no chair/seat appointment sub fits."
+      }
+    ]
+  },
+  {
+    "id": 1159,
+    "categories": [
+      {
+        "main": "service_quality_in_session",
+        "sub": null,
+        "confidence": 0.6,
+        "quote": "you got wait so much time",
+        "reasoning": "Customer reports a long wait at the location; no appointment context so no specific sub fits."
+      }
+    ]
+  }
+]

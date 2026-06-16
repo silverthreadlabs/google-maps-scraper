@@ -13,6 +13,8 @@ from __future__ import annotations
 import math
 from typing import Literal
 
+from lib.reachability import reachability_score
+
 Tier = Literal['A', 'B', 'C', 'D', 'unranked']
 
 
@@ -65,3 +67,53 @@ def quality_score(
 
     score = weighted + breadth * weight_breadth + size * weight_size + rating_gap * weight_rating_gap
     return round(score, 2), weighted, breadth
+
+
+FIT_FULL = 60.0  # raw service-fit at/above which the fit half saturates at 50
+
+
+def service_fit_norm(raw_fit: float | None, *, fit_full: float = FIT_FULL) -> float:
+    """Map the open-ended raw service-fit score onto 0–50: linear below
+    `fit_full`, capped at 50 above. See DDD-0001."""
+    if raw_fit is None:
+        return 0.0
+    return round(min(1.0, max(0.0, raw_fit) / fit_full) * 50.0, 2)
+
+
+def blended_tier(quality_score: float | None) -> Tier:
+    """Tier on the blended 0–100 scale (DDD-0001). Distinct from `tier`,
+    which still bins the legacy open-ended scale until stages migrate."""
+    if quality_score is None:
+        return 'unranked'
+    if quality_score >= 75:
+        return 'A'
+    if quality_score >= 50:
+        return 'B'
+    if quality_score >= 25:
+        return 'C'
+    return 'D'
+
+
+def score_lead(lead: dict, *, pain_weights: dict[str, int]) -> dict:
+    """Single entry point for the blended rating. Reads the lead's pain,
+    reviews, and contact data; returns the fields to merge onto the lead:
+    raw + normalized service-fit, reachability + breakdown, blended
+    quality_score (0–100), and blended tier."""
+    pain = lead.get('agent_pain_hits') or lead.get('pain_hits') or {}
+    rating = lead.get('rating', lead.get('review_rating')) or 0.0
+    raw_fit, weighted, breadth = quality_score(
+        pain, lead.get('review_count') or 0, rating, pain_weights=pain_weights,
+    )
+    fit = service_fit_norm(raw_fit)
+    reach, breakdown = reachability_score(lead)
+    blended = round(fit + reach, 2)
+    return {
+        'service_fit_raw': raw_fit,
+        'service_fit_score': fit,
+        'reachability_score': reach,
+        'reachability_breakdown': breakdown,
+        'weighted_pain': weighted,
+        'pain_breadth': breadth,
+        'quality_score': blended,
+        'tier': blended_tier(blended),
+    }

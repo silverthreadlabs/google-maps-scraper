@@ -1,5 +1,8 @@
 """Tests for csv_builder URL normalization wiring + pain-quote selection."""
+import csv
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -8,6 +11,7 @@ from lib.handoff.csv_builder import (
     apply_url_normalization,
     HANDOFF_URL_FIELDS,
     FIELDNAMES,
+    build_handoff,
     top_pain_with_quotes,
     _build_row,
     primary_contact,
@@ -401,6 +405,46 @@ class TestPrimaryContact(unittest.TestCase):
     def test_primary_contact_in_fieldnames(self):
         self.assertIn('primary_contact', FIELDNAMES)
         self.assertIn('primary_contact_channel', FIELDNAMES)
+
+
+class TestBlendedReachabilityInHandoff(unittest.TestCase):
+    PW = {'p': 58}   # weighted+breadth*2 = 60 raw -> fit_norm 50
+
+    def _run(self, leads):
+        d = Path(tempfile.mkdtemp())
+        (d / 'master.json').write_text(json.dumps(leads))
+        build_handoff(input_path=d / 'master.json', output_path=d / 'h.csv',
+                      service_map={}, pain_weights=self.PW)
+        with open(d / 'h.csv') as f:
+            return list(csv.DictReader(f))
+
+    def _maxfit(self, **extra):
+        l = {'title': 'Acme', 'agent_pain_hits': {'p': [{}]},
+             'review_count': 1, 'rating': 5.0}
+        l.update(extra)
+        return l
+
+    def test_new_columns_present(self):
+        for col in ('service_fit_score', 'reachability_score',
+                    'reachability_representative', 'reachability_channels',
+                    'usable_poc_count'):
+            self.assertIn(col, FIELDNAMES)
+
+    def test_reachable_lead_outranks_equal_fit_unreachable_lead(self):
+        rows = self._run([
+            self._maxfit(title='Unreachable'),
+            self._maxfit(title='Reachable', pocs=[
+                {'name': 'O', 'confidence': 0.9,
+                 'socials': ['https://linkedin.com/in/o'], 'email': None}]),
+        ])
+        self.assertEqual(rows[0]['title'], 'Reachable')      # sorted first
+        self.assertEqual(rows[0]['tier'], 'A')
+        self.assertEqual(rows[0]['quality_score'], '80.0')
+        self.assertEqual(rows[0]['reachability_channels'], 'linkedin')
+        # unreachable max-fit caps at tier B
+        unreachable = next(r for r in rows if r['title'] == 'Unreachable')
+        self.assertEqual(unreachable['tier'], 'B')
+        self.assertEqual(unreachable['reachability_score'], '0.0')
 
 
 if __name__ == '__main__':

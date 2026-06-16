@@ -16,12 +16,12 @@ subagent output) is deferred to the pipeline-integration phase — see
 """
 import csv
 import json
-import math
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from lib.url_normalize import normalize_url
+from lib.ranking import score_lead, blended_tier as tier
 
 
 # URL columns sales clicks on. Each gets normalized at output time; the
@@ -36,7 +36,9 @@ HANDOFF_URL_FIELDS: list[tuple[str, str]] = [
 
 FIELDNAMES = [
     # identifiers
-    'tier', 'quality_score', 'metro', 'title',
+    'tier', 'quality_score', 'service_fit_score', 'reachability_score',
+    'reachability_representative', 'reachability_channels', 'usable_poc_count',
+    'metro', 'title',
     # contact
     'best_email', 'all_emails', 'email_sources', 'phone',
     'website', 'address', 'google_maps_link',
@@ -73,15 +75,6 @@ def apply_url_normalization(row: dict, url_fields: list[tuple[str, str]]) -> Non
         cleaned = normalize_url(raw) or ''
         row[field] = cleaned
         row[audit] = raw if cleaned and cleaned != raw else ''
-
-
-def tier(q):
-    if q is None:
-        return 'unranked'
-    if q >= 60: return 'A'
-    if q >= 30: return 'B'
-    if q >= 15: return 'C'
-    return 'D'
 
 
 def trustworthy_emails(l):
@@ -310,20 +303,12 @@ def split_socials(socials):
     return {k: ';'.join(v) for k, v in out.items()}
 
 
-def _backfill_quality_score(l: dict, pain_weights: dict) -> None:
-    """Compute quality_score on `l` if missing. Weight constants match
-    lib/ranking.py:quality_score defaults — kept literal here to avoid
-    cyclic dependency on a vertical-supplied weight."""
-    if 'quality_score' in l:
-        return
-    pain = _pain_hits_field(l)
-    weighted = sum(pain_weights.get(c, 1) * len(h) for c, h in pain.items())
-    breadth = len(pain)
-    size = math.log10(max(l.get('review_count', 0), 1))
-    rating_gap = max(0, 4.9 - (l.get('rating') or 0))
-    l['quality_score'] = round(weighted + breadth * 2 + size * 3 + rating_gap * 4, 2)
-    l['weighted_pain'] = weighted
-    l['pain_breadth'] = breadth
+def _score_lead_for_handoff(l: dict, pain_weights: dict) -> None:
+    """Compute the blended grade authoritatively at output time (DDD-0001).
+    Master.json may still carry the legacy raw quality_score until the
+    eager-recompute node lands; the handoff is the source of truth for the
+    delivered grade."""
+    l.update(score_lead(l, pain_weights=pain_weights))
 
 
 def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
@@ -336,6 +321,11 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
     row = {
         'tier': tier(l.get('quality_score')),
         'quality_score': l.get('quality_score'),
+        'service_fit_score': l.get('service_fit_score'),
+        'reachability_score': l.get('reachability_score'),
+        'reachability_representative': (l.get('reachability_breakdown') or {}).get('representative') or '',
+        'reachability_channels': ';'.join((l.get('reachability_breakdown') or {}).get('channels') or []),
+        'usable_poc_count': (l.get('reachability_breakdown') or {}).get('usable_poc_count', 0),
         'metro': l.get('metro'),
         'title': l.get('title'),
         'best_email': trust_em[0] if trust_em else '',
@@ -409,9 +399,11 @@ def build_handoff(
     rows = json.loads(input_path.read_text())
 
     for l in rows:
-        _backfill_quality_score(l, pain_weights)
+        _score_lead_for_handoff(l, pain_weights)
 
-    rows.sort(key=lambda x: (x.get('is_chain_or_dso', False), -x.get('quality_score', 0)))
+    rows.sort(key=lambda x: (x.get('is_chain_or_dso', False),
+                             -(x.get('quality_score') or 0),
+                             -(x.get('service_fit_raw') or 0)))
 
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=FIELDNAMES)

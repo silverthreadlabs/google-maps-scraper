@@ -51,6 +51,24 @@ INVALID_IMAGE = [
     # suffix even when it isn't immediately preceded by digits.
     'how-to-build-a-saas-platform2@-158x106.jpg',
     'agency-growth-levers@-614x346.jpg',
+    # hvac_tampa crawl (DDD-0004): WordPress thumbnail variants. The retina
+    # suffix is followed by a *second* dimension suffix or '-scaled', so the
+    # `<digits>x<digits>.<ext>$` anchor never reached the end of the string.
+    'header-logo@2x-150x150.png',
+    'home-banner@2x-scaled.webp',
+    'hero@2x-1024x683.jpeg',
+    # .avif was simply absent from the extension list.
+    'logo@2x.avif',
+]
+
+# JSON-escape artifacts: the crawler captured an address embedded in a JSON
+# blob, so the escape sequence for the preceding `>` or `"` is glued to the
+# local part ('>' → 'u003e'). All 23 in the hvac_tampa corpus have their
+# clean twin in the same pool, so rejecting the mangled form loses nothing.
+INVALID_JSON_ESCAPE = [
+    'u003ecustomerservice@classycaps.com',
+    'u0022contact@firm.com',
+    'u003Einfo@coolairtampa.com',
 ]
 
 # URL-encoded leading whitespace (e.g. '%20' = space). Some gosom captures
@@ -62,6 +80,18 @@ INVALID_URL_ENCODED = [
     '%20marketing@signupsolution.com',
     '%20info@creativewebvisions.com',
     '%20Info@unitedsol.net',
+]
+
+# Sentry DSN public keys captured off template sites. The DSN is embedded in
+# page JS as `https://<32-hex>@<host>/<project>`, so the `@` regex yields a
+# 32-hex local part on a Sentry ingest host. Observed on Wix-hosted HVAC sites
+# (hvac_tampa crawl); the ingest host varies per tenant, so match the DSN shape
+# rather than enumerating hosts.
+INVALID_SENTRY_DSN = [
+    '9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com',
+    'c183baa23371454f99f417f6616b724d@sentry.wixpress.com',
+    'dd0a55ccb8124b9c9d938e3acf41f8aa@sentry-next.wixpress.com',
+    '0123456789abcdef0123456789abcdef@o12345.ingest.sentry.io',
 ]
 
 INVALID_NOREPLY = [
@@ -103,6 +133,54 @@ class TestEmailValidity(unittest.TestCase):
                 ok, reason = validate_email(e)
                 self.assertFalse(ok)
                 self.assertEqual(reason, 'image_artifact')
+
+    def test_image_artifact_with_dimension_suffix(self):
+        # A retina suffix followed by a resize suffix (WordPress thumbnails).
+        for e in ('header-logo@2x-150x150.png', 'hero@2x-1024x683.jpeg'):
+            with self.subTest(email=e):
+                self.assertEqual(validate_email(e), (False, 'image_artifact'))
+
+    def test_image_artifact_scaled_suffix(self):
+        self.assertEqual(validate_email('home-banner@2x-scaled.webp'),
+                         (False, 'image_artifact'))
+
+    def test_image_artifact_avif(self):
+        self.assertEqual(validate_email('logo@2x.avif'), (False, 'image_artifact'))
+
+    def test_json_escape_prefix_rejected(self):
+        for e in INVALID_JSON_ESCAPE:
+            with self.subTest(email=e):
+                self.assertEqual(validate_email(e), (False, 'json_escape_artifact'))
+
+    def test_clean_address_with_u_prefix_still_valid(self):
+        # The guard anchors on 'u00' + two hex digits, not on a leading 'u'.
+        for e in ('ulrich@acme.com', 'u2@acme.com', 'uma.patel@acme.com'):
+            with self.subTest(email=e):
+                ok, reason = validate_email(e)
+                self.assertTrue(ok, f"expected valid, got reason={reason}")
+
+    def test_existing_valid_addresses_unaffected(self):
+        # Regression guard for the widened IMAGE_RE / new escape class.
+        # A generic mailbox is NOT invalid — that distinction lives in the
+        # scorer, not the validator.
+        for e in VALID + ['info@acme.com', 'office@shop.com',
+                          'bamairservices@gmail.com', 'a2x@acme.com']:
+            with self.subTest(email=e):
+                ok, reason = validate_email(e)
+                self.assertTrue(ok, f"expected valid, got reason={reason}")
+
+    def test_sentry_dsn(self):
+        for e in INVALID_SENTRY_DSN:
+            with self.subTest(email=e):
+                ok, reason = validate_email(e)
+                self.assertFalse(ok)
+                self.assertEqual(reason, 'tracking_artifact')
+
+    def test_hex_local_part_on_real_domain_still_valid(self):
+        # The DSN guard keys on hex local part AND a tracking host. A hex-ish
+        # local part on a practice domain is a real (if odd) mailbox.
+        ok, reason = validate_email('0123456789abcdef0123456789abcdef@coolairtampa.com')
+        self.assertTrue(ok, f"expected valid, got reason={reason}")
 
     def test_generic_vendor_domains(self):
         # Generic web-builder / SaaS / template — rejected without any

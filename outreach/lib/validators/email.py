@@ -11,8 +11,10 @@ Categories of invalid:
   vendor_marketing    — website-builder / SaaS vendor whose emails are never
                         real practice contacts
   image_artifact      — image filename that the @-regex picked up ('foo@2x.png')
+  json_escape_artifact — a real address with a JSON escape ('u003e') glued on
   malformed           — does not look like a parseable email
   no_reply            — automated outbound-only address
+  tracking_artifact   — error-tracking DSN key, not a mailbox
 
 Vendor scope: the lib's `VENDOR_DOMAINS` only lists domains generic to every
 service-business vertical (web builders, template services, analytics SaaS).
@@ -66,11 +68,35 @@ NOREPLY_RE = re.compile(
     re.I,
 )
 
-# Image filenames captured by the @-regex. Two flavors observed in the wild:
-#   foo@2x.png            — retina-suffix immediately after the @
-#   foo@-158x106.jpg      — width×height suffix with a separator after the @
-# Allow any non-alpha chars between the @ and the `<digits>x<ext>` tail.
-IMAGE_RE = re.compile(r'@[^a-zA-Z]*\d+x\d*\.(png|jpg|jpeg|svg|gif|webp)$', re.I)
+# Error-tracking DSNs captured by the @-regex. Sentry embeds its DSN in page JS
+# as `https://<32-hex-key>@<ingest-host>/<project>`, so the capture yields a
+# hex local part on an ingest host. The host is tenant-specific
+# ('sentry.wixpress.com', 'o12345.ingest.sentry.io'), so match the host LABEL
+# instead of enumerating domains — enumeration already missed
+# 'sentry.wixpress.com' and let three DSNs onto an hvac_tampa lead.
+# Both halves must match: a hex local part on a practice domain is a real
+# mailbox, and a human address on an ingest host is not something we've seen.
+TRACKING_HOST_RE = re.compile(r'(^|\.)(sentry[a-z0-9-]*|ingest)\.', re.I)
+DSN_LOCAL_RE = re.compile(r'^[0-9a-f]{32}$', re.I)
+
+# Image filenames captured by the @-regex. Flavors observed in the wild:
+#   foo@2x.png                    — retina-suffix immediately after the @
+#   foo@-158x106.jpg              — width×height suffix, separator after the @
+#   header-logo@2x-150x150.png    — retina PLUS a WordPress resize suffix
+#   home-banner@2x-scaled.webp    — retina PLUS '-scaled'
+# The earlier `<digits>x<digits>.<ext>$` anchor missed everything with a
+# second suffix, and knew nothing of `.avif` (hvac_tampa crawl, DDD-0004).
+# Match on the image EXTENSION instead: no image extension is a real TLD, so
+# an address ending in one is always a filename, whatever the suffix chain.
+IMAGE_RE = re.compile(r'\.(png|jpe?g|svg|gif|webp|avif|bmp|ico)$', re.I)
+
+# JSON-escape artifacts. The crawler captured an address embedded in a JSON
+# blob, so the escape sequence for the character in front of it ('>' → 'u003e',
+# '"' → 'u0022') is glued to the local part. Anchor on 'u00' + two hex digits,
+# never on a bare leading 'u' — 'ulrich@…' and 'u2@…' are real mailboxes.
+# Every escape-prefixed address in the hvac_tampa corpus has its clean twin in
+# the same pool, so rejecting the mangled form loses no reachability.
+JSON_ESCAPE_RE = re.compile(r'^u00[0-9a-f]{2}', re.I)
 
 # Basic email shape — already filtered upstream but double-check.
 EMAIL_RE = re.compile(r'^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
@@ -110,6 +136,12 @@ def validate_email(
 
     if NOREPLY_RE.match(local):
         return False, 'no_reply'
+
+    if JSON_ESCAPE_RE.match(local):
+        return False, 'json_escape_artifact'
+
+    if DSN_LOCAL_RE.match(local) and TRACKING_HOST_RE.search(domain):
+        return False, 'tracking_artifact'
 
     if domain in VENDOR_DOMAINS or domain in extra_vendor_domains:
         return False, 'vendor_marketing'

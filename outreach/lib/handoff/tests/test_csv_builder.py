@@ -1,5 +1,6 @@
 """Tests for csv_builder URL normalization wiring + pain-quote selection."""
 import csv
+import io
 import json
 import sys
 import tempfile
@@ -445,6 +446,148 @@ class TestBlendedReachabilityInHandoff(unittest.TestCase):
         unreachable = next(r for r in rows if r['title'] == 'Unreachable')
         self.assertEqual(unreachable['tier'], 'B')
         self.assertEqual(unreachable['reachability_score'], '0.0')
+
+
+# The exact FIELDNAMES list before DDD-0004 appended the per-arm columns.
+# The new columns must be APPENDED — existing names, order, and meanings are
+# part of the deliverable's contract (CLAUDE.md rule 1).
+FIELDNAMES_BEFORE_DDD0004 = [
+    "tier", "quality_score", "service_fit_score", "reachability_score",
+    "reachability_representative", "reachability_channels", "usable_poc_count",
+    "metro", "title", "best_email", "all_emails", "email_sources", "phone",
+    "phone_alt", "website", "address", "google_maps_link", "socials_facebook",
+    "socials_instagram", "socials_linkedin", "socials_yelp", "socials_tiktok",
+    "socials_youtube", "owner_name", "owner_title", "owner_linkedin",
+    "additional_team", "pocs", "primary_contact", "primary_contact_channel",
+    "top_pain_category", "pain_breadth_count", "pain_quote_1", "pain_quote_2",
+    "pain_quote_1_original", "pain_quote_2_original", "pain_quote_1_rating",
+    "pain_quote_2_rating", "recommended_service", "recommended_service_url",
+    "all_pain_categories", "all_recommended_services", "crawl_status",
+    "research_note", "review_count", "rating", "negative_reviews_1_3_star",
+    "reviews_analyzed", "website_raw", "google_maps_link_raw",
+    "website_redirect_target_raw", "is_chain_or_dso", "chain_reason",
+    "website_redirect_mismatch", "website_redirect_target",
+    "emails_invalid_count", "crawled_emails_suspect", "phone_invalid",
+    "phone_invalid_reason",
+]
+
+DDD0004_COLUMNS = ['phone_reach_score', 'email_reach_score',
+                   'email_quality_tier', 'email_quality_reason',
+                   'best_reachable_email', 'ab_arm']
+
+# Byte-for-byte output of the two-lead fixture below under `poc_channels`,
+# captured before DDD-0004 landed, projected onto the columns that existed
+# then. Guards the untouched profiles' deliverable.
+GOLDEN_POC_CHANNELS = (
+    "D,6.34,6.34,0.0,,,0,,Bam Air Conditioning Services llc,"
+    "bamairservices@gmail.com,bamairservices@gmail.com,agent_browser_crawl,"
+    "813-555-1000,,https://bamair.com,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,40,4.2,,,"
+    ",,,FALSE,,FALSE,,0,FALSE,FALSE,\r\n"
+    "D,6.34,6.34,0.0,,,0,,Rossi Air,office.rossiair@gmail.com,"
+    "office.rossiair@gmail.com,agent_browser_crawl,813-555-2000,,"
+    "https://rossiair.com,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,40,4.2,,,,,,FALSE,,"
+    "FALSE,,0,FALSE,FALSE,\r\n"
+)
+
+
+class TestPhoneEmailParallelColumns(unittest.TestCase):
+    """DDD-0004 §4: one grade, with the two channel sub-scores beside it."""
+
+    FIXTURE = [
+        {'title': 'Bam Air Conditioning Services llc', 'phone': '813-555-1000',
+         'rating': 4.2, 'review_count': 40, 'emails': [],
+         'crawled_emails': ['bamairservices@gmail.com'],
+         'website': 'https://bamair.com'},
+        {'title': 'Rossi Air', 'phone': '813-555-2000',
+         'rating': 4.2, 'review_count': 40, 'emails': [],
+         'crawled_emails': ['office.rossiair@gmail.com'],
+         'website': 'https://rossiair.com'},
+    ]
+
+    def _run(self, leads, profile='phone_email_parallel', pain_weights=None):
+        d = Path(tempfile.mkdtemp())
+        (d / 'master.json').write_text(json.dumps(leads))
+        build_handoff(input_path=d / 'master.json', output_path=d / 'h.csv',
+                      service_map={}, pain_weights=pain_weights or {},
+                      reachability_profile=profile)
+        with open(d / 'h.csv', newline='') as f:
+            return list(csv.DictReader(f)), (d / 'h.csv')
+
+    def test_channel_columns_present_and_populated(self):
+        for col in DDD0004_COLUMNS:
+            self.assertIn(col, FIELDNAMES)
+        rows, _ = self._run(self.FIXTURE)
+        bam = next(r for r in rows if r['title'].startswith('Bam'))
+        rossi = next(r for r in rows if r['title'] == 'Rossi Air')
+        self.assertEqual(bam['phone_reach_score'], '25.0')
+        self.assertEqual(bam['email_reach_score'], '23.0')
+        self.assertEqual(bam['email_quality_tier'], 'E3')
+        self.assertEqual(bam['email_quality_reason'], 'business_named_freemail')
+        self.assertEqual(bam['best_reachable_email'], 'bamairservices@gmail.com')
+        self.assertEqual(bam['ab_arm'], 'both')
+        self.assertEqual(rossi['email_quality_tier'], 'E2')
+        self.assertEqual(rossi['ab_arm'], 'both')
+
+    def test_existing_columns_unchanged(self):
+        # Prefix-preserving superset: nothing renamed, nothing reordered.
+        self.assertEqual(FIELDNAMES[:len(FIELDNAMES_BEFORE_DDD0004)],
+                         FIELDNAMES_BEFORE_DDD0004)
+        self.assertEqual(FIELDNAMES[len(FIELDNAMES_BEFORE_DDD0004):],
+                         DDD0004_COLUMNS)
+        # best_email keeps its first-trustworthy meaning, distinct from
+        # best_reachable_email (the address that earned the E-tier).
+        rows, _ = self._run([{
+            'title': 'Cool Air Tampa', 'phone': '813-555-1000',
+            'website': 'https://coolairtampa.com',
+            'emails': ['info@coolairtampa.com'],
+            'crawled_emails': ['rick.torres@gmail.com'],
+        }])
+        self.assertEqual(rows[0]['best_email'], 'info@coolairtampa.com')
+        self.assertEqual(rows[0]['best_reachable_email'], 'rick.torres@gmail.com')
+
+    def test_no_per_arm_tier_column(self):
+        # One grading system (DDD-0004 §4) — `tier` is the only grade column.
+        self.assertNotIn('phone_arm_tier', FIELDNAMES)
+        self.assertNotIn('email_arm_tier', FIELDNAMES)
+        grade_cols = [c for c in FIELDNAMES if c == 'tier' or c.endswith('_tier')]
+        self.assertEqual(grade_cols, ['tier', 'email_quality_tier'])
+
+    def test_email_tiebreak_orders_within_tier(self):
+        # Equal quality_score: the email arm's better lead sorts first, so the
+        # A/B test's email reps find their best leads at the top of each tier.
+        # A genuine tie: reach collides at 25.0 from opposite arms (an E4
+        # email leg vs the callable gate) on identical fit inputs, so the
+        # earlier sort keys — chain, quality_score, service_fit_raw — are all
+        # equal and only email_reach_score can break it. This is a real corpus
+        # shape: 93 email-arm leads against a large mass of callable-only ones.
+        rows, _ = self._run([
+            {'title': 'Phone Only Air', 'phone': '813-555-1000',
+             'rating': 4.2, 'review_count': 40},
+            {'title': 'Email Only Air', 'rating': 4.2, 'review_count': 40,
+             'crawled_emails': ['rick.torres@gmail.com']},
+        ])
+        email_row = next(r for r in rows if r['title'] == 'Email Only Air')
+        phone_row = next(r for r in rows if r['title'] == 'Phone Only Air')
+        self.assertEqual(email_row['quality_score'], phone_row['quality_score'])
+        self.assertEqual(email_row['reachability_score'],
+                         phone_row['reachability_score'])
+        self.assertGreater(float(email_row['email_reach_score']),
+                           float(phone_row['email_reach_score']))
+        self.assertEqual(rows[0]['title'], 'Email Only Air')
+
+    def test_profile_isolation_in_handoff(self):
+        rows, path = self._run(self.FIXTURE, profile='poc_channels')
+        # the six new columns exist but stay empty for the other profiles
+        for r in rows:
+            for col in DDD0004_COLUMNS:
+                self.assertEqual(r[col], '')
+        projected = []
+        for r in rows:
+            buf = io.StringIO()
+            csv.DictWriter(buf, fieldnames=FIELDNAMES_BEFORE_DDD0004).writerow(
+                {k: r[k] for k in FIELDNAMES_BEFORE_DDD0004})
+            projected.append(buf.getvalue())
+        self.assertEqual(''.join(projected), GOLDEN_POC_CHANNELS)
 
 
 if __name__ == '__main__':

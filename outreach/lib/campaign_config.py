@@ -52,6 +52,13 @@ class CampaignConfig:
     pain_weights: dict[str, int] = field(default_factory=dict)
     service_map: dict[str, tuple[str, str]] = field(default_factory=dict)
 
+    # Reachability scoring model — free-form string, campaign override wins:
+    #   'poc_channels'         default — reach a person via LinkedIn/email/social
+    #   'phone_first'          DDD-0002 — the client outreaches by phone
+    #   'lpo_ladder'           DDD-0003 — strict personal-channel ladder
+    #   'phone_email_parallel' DDD-0004 — phone and email as co-equal channels
+    reachability_profile: str = 'poc_channels'
+
     # Chain detection (vertical + campaign extras merged)
     dso_title_regex: re.Pattern[str] = field(default=re.compile(r'^$'))
     dso_email_domains: set[str] = field(default_factory=set)
@@ -240,6 +247,11 @@ def _merge(
         locale=location.get('locale', ''),
         country=location.get('country', ''),
 
+        reachability_profile=(
+            (getattr(o, 'REACHABILITY_PROFILE', None) if o else None)
+            or getattr(vertical, 'REACHABILITY_PROFILE', None)
+            or 'poc_channels'
+        ),
         pain_weights=_overlay_dict(
             getattr(vertical, 'PAIN_WEIGHTS', {}),
             getattr(o, 'PAIN_WEIGHTS', None) if o else None,

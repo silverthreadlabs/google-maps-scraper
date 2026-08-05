@@ -94,19 +94,35 @@ def blended_tier(quality_score: float | None) -> Tier:
     return 'D'
 
 
-def score_lead(lead: dict, *, pain_weights: dict[str, int]) -> dict:
+def score_lead(lead: dict, *, pain_weights: dict[str, int],
+               reachability_profile: str = 'poc_channels') -> dict:
     """Single entry point for the blended rating. Reads the lead's pain,
     reviews, and contact data; returns the fields to merge onto the lead:
     raw + normalized service-fit, reachability + breakdown, blended
-    quality_score (0–100), and blended tier."""
-    pain = lead.get('agent_pain_hits') or lead.get('pain_hits') or {}
-    rating = lead.get('rating', lead.get('review_rating')) or 0.0
-    raw_fit, weighted, breadth = quality_score(
-        pain, lead.get('review_count') or 0, rating, pain_weights=pain_weights,
-    )
-    fit = service_fit_norm(raw_fit)
-    reach, breakdown = reachability_score(lead)
-    blended = round(fit + reach, 2)
+    quality_score (0–100), and blended tier.
+
+    `reachability_profile` selects the reachability model (DDD-0002) —
+    campaign-config-driven; default preserves the POC-channel behavior.
+    Profiles that return a 0–50 half ('poc_channels', 'phone_first',
+    'phone_email_parallel') need no branch here; their per-arm detail rides
+    along in `reachability_breakdown` for the CSV builder to read without
+    re-scoring."""
+    reach, breakdown = reachability_score(lead, profile=reachability_profile)
+    if reachability_profile == 'lpo_ladder':
+        # DDD-0003: reachability is the whole classification (pain is skipped).
+        # The ladder score already spans the 0–100 tier bands, so it IS the
+        # blended quality_score; there is no service-fit half.
+        raw_fit = fit = 0.0
+        weighted = breadth = 0
+        blended = round(reach, 2)
+    else:
+        pain = lead.get('agent_pain_hits') or lead.get('pain_hits') or {}
+        rating = lead.get('rating', lead.get('review_rating')) or 0.0
+        raw_fit, weighted, breadth = quality_score(
+            pain, lead.get('review_count') or 0, rating, pain_weights=pain_weights,
+        )
+        fit = service_fit_norm(raw_fit)
+        blended = round(fit + reach, 2)
     return {
         'service_fit_raw': raw_fit,
         'service_fit_score': fit,

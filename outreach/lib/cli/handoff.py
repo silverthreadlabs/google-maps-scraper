@@ -84,12 +84,17 @@ def main(argv: list[str] | None = None) -> int:
 
     out_path = args.out or (master_path.parent / 'handoff.csv')
 
+    reachability_profile = getattr(cfg, 'reachability_profile', 'poc_channels')
+    if reachability_profile != 'poc_channels':
+        print(f"reachability profile: {reachability_profile} (DDD-0002)", flush=True)
+
     with pipeline_lock(args.pipeline, 'handoff'):
         build_handoff(
             input_path=master_path,
             output_path=out_path,
             service_map=service_map,
             pain_weights=pain_weights,
+            reachability_profile=reachability_profile,
         )
     print(f"next: review {out_path} and ship to sales (last stage)", flush=True)
     n_owner_gaps = _owner_lookup_candidates(master_path)

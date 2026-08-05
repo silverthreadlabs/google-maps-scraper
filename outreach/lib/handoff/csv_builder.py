@@ -40,7 +40,7 @@ FIELDNAMES = [
     'reachability_representative', 'reachability_channels', 'usable_poc_count',
     'metro', 'title',
     # contact
-    'best_email', 'all_emails', 'email_sources', 'phone',
+    'best_email', 'all_emails', 'email_sources', 'phone', 'phone_alt',
     'website', 'address', 'google_maps_link',
     # socials
     'socials_facebook', 'socials_instagram', 'socials_linkedin',
@@ -65,6 +65,16 @@ FIELDNAMES = [
     'website_redirect_mismatch', 'website_redirect_target',
     'emails_invalid_count', 'crawled_emails_suspect',
     'phone_invalid', 'phone_invalid_reason',
+    # per-channel detail for the phone-vs-email A/B test (DDD-0004).
+    # APPENDED, never reordered: existing columns keep their names and
+    # meanings (CLAUDE.md rule 1), and `best_email` still means the first
+    # trustworthy address — `best_reachable_email` is the one that earned the
+    # E-tier. There is deliberately NO per-arm tier column: the campaign runs
+    # one grading system, `tier` / `quality_score` (DDD-0004 §4). These
+    # columns explain that grade; they do not compete with it. Empty for
+    # every profile other than phone_email_parallel.
+    'phone_reach_score', 'email_reach_score', 'email_quality_tier',
+    'email_quality_reason', 'best_reachable_email', 'ab_arm',
 ]
 
 
@@ -303,12 +313,14 @@ def split_socials(socials):
     return {k: ';'.join(v) for k, v in out.items()}
 
 
-def _score_lead_for_handoff(l: dict, pain_weights: dict) -> None:
+def _score_lead_for_handoff(l: dict, pain_weights: dict,
+                            reachability_profile: str = 'poc_channels') -> None:
     """Compute the blended grade authoritatively at output time (DDD-0001).
     Master.json may still carry the legacy raw quality_score until the
     eager-recompute node lands; the handoff is the source of truth for the
     delivered grade."""
-    l.update(score_lead(l, pain_weights=pain_weights))
+    l.update(score_lead(l, pain_weights=pain_weights,
+                        reachability_profile=reachability_profile))
 
 
 def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
@@ -318,6 +330,9 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
     socials = split_socials(_all_socials(l))
     trust_em = trustworthy_emails(l)
     pc_name, pc_channel = primary_contact(l)
+    # Read straight off the breakdown the scorer already produced — never
+    # re-score here. Absent for every profile but phone_email_parallel.
+    bd = l.get('reachability_breakdown') or {}
     row = {
         'tier': tier(l.get('quality_score')),
         'quality_score': l.get('quality_score'),
@@ -332,6 +347,7 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
         'all_emails': ';'.join(all_emails(l)),
         'email_sources': ';'.join(email_sources(l)),
         'phone': l.get('phone'),
+        'phone_alt': l.get('phone_alt') or '',
         'website': l.get('website') or l.get('web_site'),
         'address': l.get('address'),
         'google_maps_link': l.get('link'),
@@ -374,6 +390,12 @@ def _build_row(l: dict, *, service_map: dict, pain_weights: dict) -> dict:
         'all_recommended_services': ';'.join(l.get('recommended_services') or []),
         'crawl_status': l.get('crawl_status') or '',
         'research_note': l.get('research_note') or '',
+        'phone_reach_score': bd.get('phone_reach_score', ''),
+        'email_reach_score': bd.get('email_reach_score', ''),
+        'email_quality_tier': bd.get('email_tier', ''),
+        'email_quality_reason': bd.get('email_reason', ''),
+        'best_reachable_email': bd.get('best_reachable_email', ''),
+        'ab_arm': bd.get('ab_arm', ''),
     }
     apply_url_normalization(row, HANDOFF_URL_FIELDS)
     return row
@@ -385,12 +407,14 @@ def build_handoff(
     *,
     service_map: dict,
     pain_weights: dict,
+    reachability_profile: str = 'poc_channels',
 ) -> int:
     """Read the enriched master from `input_path`, write a sales-handoff CSV
     to `output_path`. Returns the row count written.
 
     `service_map` and `pain_weights` are vertical-supplied (typically from
-    `pipelines/<vertical>/config.py`).
+    `pipelines/<vertical>/config.py`). `reachability_profile` selects the
+    reachability scoring model (DDD-0002; campaign-config-driven).
     """
     input_path = Path(input_path)
     output_path = Path(output_path)
@@ -399,11 +423,29 @@ def build_handoff(
     rows = json.loads(input_path.read_text())
 
     for l in rows:
-        _score_lead_for_handoff(l, pain_weights)
+        _score_lead_for_handoff(l, pain_weights, reachability_profile)
 
-    rows.sort(key=lambda x: (x.get('is_chain_or_dso', False),
-                             -(x.get('quality_score') or 0),
-                             -(x.get('service_fit_raw') or 0)))
+    if reachability_profile == 'lpo_ladder':
+        # DDD-0003: reachability IS the ranking for the LPO campaign, and it
+        # sells to firms of any size — do NOT push chain/multi-office firms to
+        # the bottom (that bias is right for verticals where chains are dead
+        # leads, e.g. AssistantDial HVAC, but wrong here).
+        rows.sort(key=lambda x: -(x.get('quality_score') or 0))
+    elif reachability_profile == 'phone_email_parallel':
+        # DDD-0004: same chain-last + quality_score order as the phone
+        # profiles (chains are dead leads for AssistantDial), with the email
+        # arm's score as the final tiebreaker so the best email leads sort to
+        # the top of each tier for the reps working that arm.
+        rows.sort(key=lambda x: (
+            x.get('is_chain_or_dso', False),
+            -(x.get('quality_score') or 0),
+            -(x.get('service_fit_raw') or 0),
+            -((x.get('reachability_breakdown') or {}).get('email_reach_score') or 0),
+        ))
+    else:
+        rows.sort(key=lambda x: (x.get('is_chain_or_dso', False),
+                                 -(x.get('quality_score') or 0),
+                                 -(x.get('service_fit_raw') or 0)))
 
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=FIELDNAMES)

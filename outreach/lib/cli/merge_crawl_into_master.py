@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from lib.chain_detection import extract_hostname
 from lib.enrichers.poc_filters import flag_review_author_pocs
+from lib.cli._pocs import union_pocs
 from lib.cli._common import (
     add_pipeline_arg,
     pipeline_dir,
@@ -82,7 +83,11 @@ def graft(
         # Guard the boundary (CLAUDE.md rule 5): flag review-author / reviews-
         # widget noise the crawler harvested from JSON-LD as invalid before it
         # lands on master. Append-only — names stay, handoff drops invalids.
-        pocs    = flag_review_author_pocs(row.get('pocs') or [])
+        # Union with whatever decision-makers research already put on the lead
+        # (CLAUDE.md rule 1). A crawl that finds no POCs must leave existing
+        # ones alone; a re-found person merges channels instead of duplicating.
+        pocs    = union_pocs(lead.get('pocs'),
+                             flag_review_author_pocs(row.get('pocs') or []))
         lead['crawled_emails']            = emails
         lead['crawled_emails_source']     = [CRAWLED_EMAIL_SOURCE] * len(emails)
         lead['crawled_emails_added_at']   = now_iso
@@ -90,8 +95,11 @@ def graft(
         lead['crawled_socials_source']    = [CRAWLED_SOCIAL_SOURCE] * len(socials)
         lead['crawled_socials_added_at']  = now_iso
         lead['pocs']                      = pocs
-        lead['pocs_source']               = POCS_SOURCE
-        lead['pocs_added_at']             = now_iso
+        if row.get('pocs'):
+            # Only claim crawl provenance when the crawl actually contributed —
+            # otherwise preserved decision-makers POCs would be mislabeled.
+            lead['pocs_source']           = POCS_SOURCE
+            lead['pocs_added_at']         = now_iso
         lead['crawl_status']              = row.get('status') or ''
         lead['crawl_pages_visited']       = list(row.get('pages') or [])
         lead['crawl_attempted']           = True

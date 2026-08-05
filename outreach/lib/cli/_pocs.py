@@ -112,6 +112,36 @@ def owner_scalars_from_poc(poc: dict) -> dict:
     }
 
 
+def find_matching_poc(poc: dict, pocs: list[dict]) -> dict | None:
+    """Return an existing POC that is the same person as `poc` (by normalized
+    name, or by a shared LinkedIn URL), else None."""
+    nkey = norm_name(poc.get('name'))
+    li_keys = {norm_url(s) for s in (poc.get('socials') or []) if 'linkedin.com' in s.lower()}
+    for existing in pocs:
+        if nkey and norm_name(existing.get('name')) == nkey:
+            return existing
+        for s in existing.get('socials') or []:
+            if 'linkedin.com' in s.lower() and norm_url(s) in li_keys:
+                return existing
+    return None
+
+
+def union_pocs(existing: list[dict] | None, incoming: list[dict] | None) -> list[dict]:
+    """Merge `incoming` POCs into `existing` without dropping anyone
+    (CLAUDE.md rule 1). Re-found people have their channels merged in place;
+    genuinely new people are appended. Returns the merged list."""
+    merged = [dict(p) for p in (existing or []) if isinstance(p, dict)]
+    for inc in incoming or []:
+        if not isinstance(inc, dict):
+            continue
+        match = find_matching_poc(inc, merged)
+        if match is None:
+            merged.append(dict(inc))
+        else:
+            merge_channels_into_poc(match, inc)
+    return merged
+
+
 def merge_channels_into_poc(existing: dict, incoming: dict) -> None:
     """Augment `existing` POC in place with anything new on `incoming`
     (CLAUDE.md rule 1 — never drop). Adds missing socials, fills empty

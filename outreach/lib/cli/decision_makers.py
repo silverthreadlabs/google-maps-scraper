@@ -62,6 +62,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from lib.cli._common import add_pipeline_arg, pipeline_dir, pipeline_lock
 from lib.cli._pocs import (
+    find_matching_poc,
     merge_channels_into_poc,
     norm_name,
     norm_url,
@@ -143,18 +144,9 @@ def _normalize_people(entry) -> list[dict]:
     return list(entry or [])
 
 
-def _find_match(poc: dict, pocs: list[dict]) -> dict | None:
-    """Return an existing POC that is the same person as `poc` (by normalized
-    name, or by a shared LinkedIn URL), else None."""
-    nkey = norm_name(poc.get('name'))
-    li_keys = {norm_url(s) for s in (poc.get('socials') or []) if 'linkedin.com' in s.lower()}
-    for existing in pocs:
-        if nkey and norm_name(existing.get('name')) == nkey:
-            return existing
-        for s in existing.get('socials') or []:
-            if 'linkedin.com' in s.lower() and norm_url(s) in li_keys:
-                return existing
-    return None
+# Same-person matching lives in _pocs.py so the crawl merge and this stage
+# cannot drift apart on what counts as "already known".
+_find_match = find_matching_poc
 
 
 def _materialize_owner_poc_if_missing(lead: dict, *, now_iso: str) -> None:

@@ -77,6 +77,43 @@ class TestGraft(unittest.TestCase):
         for l in master:
             self.assertEqual(l['crawled_emails'], ['info@acme.example'])
 
+    def test_existing_pocs_preserved_when_crawl_finds_none(self):
+        # CLAUDE.md rule 1: a crawl that finds no POCs must not erase POCs the
+        # decision-makers stage already researched. Regression — the graft used
+        # to assign lead['pocs'] unconditionally, which destroyed 174 POC names
+        # across 135 leads on the hvac_tampa 2026-07-04 master.
+        master = [{
+            'place_id': 'p1', 'website': 'https://acme.example/',
+            'pocs': [{'name': 'Rick Torres', 'role': 'Owner',
+                      'socials': ['https://www.linkedin.com/in/ricktorres'],
+                      'confidence': 0.9}],
+        }]
+        idx = index_crawl_by_hostname([{**CRAWL_OK, 'pocs': []}])
+        graft(master, idx, now_iso='2026-05-01T00:00:00+00:00')
+        names = [p['name'] for p in master[0]['pocs']]
+        self.assertEqual(names, ['Rick Torres'])
+        self.assertEqual(master[0]['crawled_emails'], ['info@acme.example'])
+
+    def test_crawl_pocs_union_with_existing_and_channels_merge(self):
+        # A re-found person merges channels rather than duplicating; a new
+        # person is appended. Mirrors the decision-makers contract.
+        master = [{
+            'place_id': 'p1', 'website': 'https://acme.example/',
+            'pocs': [{'name': 'Jane Doe', 'role': '', 'socials': [],
+                      'confidence': 0.5}],
+        }]
+        row = {**CRAWL_OK, 'pocs': [
+            {'name': 'Jane Doe', 'role': 'Owner', 'email': 'jane@acme.example'},
+            {'name': 'Bob New', 'role': 'Service Manager'},
+        ]}
+        graft(master, index_crawl_by_hostname([row]),
+              now_iso='2026-05-01T00:00:00+00:00')
+        pocs = {p['name']: p for p in master[0]['pocs']}
+        self.assertEqual(set(pocs), {'Jane Doe', 'Bob New'})
+        # existing Jane augmented in place, not duplicated
+        self.assertEqual(pocs['Jane Doe']['role'], 'Owner')
+        self.assertEqual(pocs['Jane Doe']['email'], 'jane@acme.example')
+
     def test_unmatched_lead_marked_crawl_attempted_false(self):
         # A lead whose hostname has no crawl row gets crawl_attempted=False
         # so consumers can distinguish never-crawled from crawled-empty.

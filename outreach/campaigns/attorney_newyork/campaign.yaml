@@ -1,0 +1,11 @@
+vertical: attorney
+location: newyork
+slug: attorney_newyork
+display_name: Attorneys NYC (LPO — reachability-ranked)
+client: LPO
+created: 2026-07-16
+status: pilot
+notes: >
+  Legal Process Outsourcing client. Ranking axis is reachability, not pain —
+  the classify and translate stages are skipped. Reachability profile left at
+  the default (poc_channels); confirm the LPO's outreach channel before handoff.

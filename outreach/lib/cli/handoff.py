@@ -2,7 +2,7 @@
 Build the sales-handoff CSV for a pipeline.
 
 Reads master.json from the pipeline's latest dated outputs/ folder (or
-`--master`); writes handoff.csv next to it (or `--out`).
+`--master`); writes <campaign>_<date>.csv next to it (or `--out`).
 
 Pipeline config requirements:
   PAIN_WEIGHTS  — category → weight
@@ -65,7 +65,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         '--out', type=Path, default=None,
-        help='output CSV (default: <master-dir>/handoff.csv)',
+        help='output CSV (default: <master-dir>/<campaign>_<date>.csv)',
     )
     args = parser.parse_args(argv)
 
@@ -82,7 +82,9 @@ def main(argv: list[str] | None = None) -> int:
         )
         return 2
 
-    out_path = args.out or (master_path.parent / 'handoff.csv')
+    out_path = args.out or (
+        master_path.parent / f'{args.pipeline}_{master_path.parent.name}.csv'
+    )
 
     reachability_profile = getattr(cfg, 'reachability_profile', 'poc_channels')
     if reachability_profile != 'poc_channels':

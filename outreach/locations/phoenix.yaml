@@ -1,0 +1,39 @@
+country: US
+locale: en-US
+cities:
+  - name: phoenix
+    state: AZ
+    metro_area_codes: ['480', '602', '623']
+    geographic_prefixes:
+      - phoenix
+      - north phoenix
+      - chandler
+      - mesa
+      - gilbert
+      - tempe
+      - scottsdale
+      - glendale
+      - peoria
+      - surprise
+      - goodyear
+      - avondale
+      - queen creek
+      - ahwatukee
+      - arcadia
+      - deer valley
+      - east valley
+      - west valley
+      - valley
+      - arizona
+      - az
+    neighborhoods:
+      - Chandler
+      - Mesa
+      - Gilbert
+      - Tempe
+      - Scottsdale
+      - Glendale
+      - Peoria
+      - Surprise
+      - Goodyear
+      - North Phoenix

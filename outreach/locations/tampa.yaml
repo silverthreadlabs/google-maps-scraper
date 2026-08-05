@@ -1,0 +1,40 @@
+country: US
+locale: en-US
+cities:
+  - name: tampa
+    state: FL
+    metro_area_codes: ['813', '727', '941']
+    geographic_prefixes:
+      - tampa
+      - tampa bay
+      - south tampa
+      - north tampa
+      - new tampa
+      - brandon
+      - riverview
+      - st petersburg
+      - st. petersburg
+      - clearwater
+      - largo
+      - wesley chapel
+      - land o lakes
+      - land o' lakes
+      - lutz
+      - palm harbor
+      - pinellas
+      - valrico
+      - plant city
+      - carrollwood
+      - florida
+      - bay area
+    neighborhoods:
+      - Brandon
+      - Riverview
+      - St. Petersburg
+      - Clearwater
+      - Wesley Chapel
+      - Lutz
+      - Palm Harbor
+      - Largo
+      - Plant City
+      - Carrollwood

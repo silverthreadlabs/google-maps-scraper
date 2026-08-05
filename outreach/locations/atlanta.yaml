@@ -1,0 +1,40 @@
+country: US
+locale: en-US
+cities:
+  - name: atlanta
+    state: GA
+    metro_area_codes: ['404', '470', '678', '770']
+    geographic_prefixes:
+      - atlanta
+      - metro atlanta
+      - buckhead
+      - midtown
+      - decatur
+      - marietta
+      - alpharetta
+      - roswell
+      - sandy springs
+      - smyrna
+      - kennesaw
+      - lawrenceville
+      - duluth
+      - johns creek
+      - dunwoody
+      - woodstock
+      - douglasville
+      - stockbridge
+      - mcdonough
+      - peachtree
+      - georgia
+      - ga
+    neighborhoods:
+      - Buckhead
+      - Midtown
+      - Decatur
+      - Marietta
+      - Alpharetta
+      - Roswell
+      - Sandy Springs
+      - Smyrna
+      - Lawrenceville
+      - Duluth

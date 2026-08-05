@@ -1,0 +1,6 @@
+{vertical_keyword} in {neighborhood} {city} {state}
+{vertical_keyword} in {city} {state}
+air conditioning repair in {neighborhood} {city} {state}
+ac repair in {city} {state}
+hvac contractor in {city} {state}
+heating and air conditioning company in {city} {state}

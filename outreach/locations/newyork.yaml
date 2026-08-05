@@ -1,0 +1,41 @@
+country: US
+locale: en-US
+cities:
+  - name: new york
+    state: NY
+    # All five boroughs share the NYC numbering plan; listed together so the
+    # validate stage's metro-mismatch check treats any NYC code as local.
+    metro_area_codes: ['212', '646', '332', '718', '347', '929', '917', '640']
+    geographic_prefixes:
+      - new york
+      - new york city
+      - nyc
+      - ny
+      - manhattan
+      - brooklyn
+      - queens
+      - bronx
+      - the bronx
+      - staten island
+      - midtown
+      - downtown
+      - financial district
+      - harlem
+      - upper east side
+      - upper west side
+      - long island city
+      - flushing
+      - jamaica
+      - astoria
+    neighborhoods:
+      - Midtown
+      - Downtown / Financial District
+      - Harlem
+      - Upper East Side
+      - Upper West Side
+      - Long Island City
+      - Flushing
+      - Jamaica
+      - Astoria
+      - Downtown Brooklyn
+      - Williamsburg

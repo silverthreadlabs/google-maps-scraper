@@ -19,6 +19,17 @@ outreach/pipelines/*/enrichment/*.json
 outreach/pipelines/*/enrichment/*/
 outreach/pipelines/*/outputs/*/
 
+# Outreach campaigns — track config (campaign.yaml, overrides.py, queries/)
+# and deliverables (outputs/) only; heavy regenerable data stays local.
+outreach/campaigns/*/raw/
+outreach/campaigns/*/enrichment/
+
+# Outreach docs — kept local, not tracked
+outreach/docs/
+
+# Outreach local analysis / simulation scratch
+outreach/.reports/
+
 # gosom scraper internal state (test runs from before our work)
 gmapsdata/jobs.db
 gmapsdata/jobs.db-shm
